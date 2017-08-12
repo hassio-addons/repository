@@ -1,0 +1,19 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_style = space
+insert_final_newline = true
+trim_trailing_whitespace = true
+ident_size = 4
+
+[*.md]
+ident_size = 2
+trim_trailing_whitespace = false
+
+[*.json]
+ident_size = 2
+
+[{.gitignore,.gitkeep,.editorconfig}]
+ident_size = 2
