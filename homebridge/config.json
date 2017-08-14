@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "slug": "homebridge",
   "description": "HomeKit support for your Home Assistant instance using Homebridge",
-  "url": "https://github.com/hassio-addons/homebridge",
+  "url": "https://github.com/hassio-addons/repository/tree/master/homebridge",
   "startup": "application",
   "boot": "auto",
   "host_network": true,
