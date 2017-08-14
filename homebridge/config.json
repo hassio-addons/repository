@@ -1,0 +1,23 @@
+{
+  "name": "Homebridge",
+  "version": "1.0.0",
+  "slug": "homebridge",
+  "description": "HomeKit support for your Home Assistant instance using Homebridge",
+  "url": "https://github.com/hassio-addons/homebridge",
+  "startup": "application",
+  "boot": "auto",
+  "host_network": true,
+  "privileged": [],
+  "map": [
+    "config:rw"
+  ],
+  "options": {
+    "debug": false,
+    "plugins": []
+  },
+  "schema": {
+    "debug": "bool",
+    "plugins": ["str"]
+  },
+  "image": "hassioaddons/homebridge-{arch}"
+}
