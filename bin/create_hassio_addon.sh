@@ -113,9 +113,13 @@ WORKSPACE=${BUILD_DIR:=$SCRIPTPATH}/hassio-supervisor-$ARCH
 ADDON_WORKSPACE=$WORKSPACE/$SLUG
 
 # setup docker
+echo "[INFO] cleanup old WORKSPACE"
+rm -rf "$ADDON_WORKSPACE"
+
 echo "[INFO] Setup docker for addon"
 mkdir -p "$BUILD_DIR"
 mkdir -p "$WORKSPACE"
+
 
 if [ -z "$LOCAL_REPOSITORY" ]; then
     git clone "$REPOSITORY" "$WORKSPACE"
