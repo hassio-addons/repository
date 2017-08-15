@@ -168,11 +168,11 @@ Homebridge and can be safely ignored.
 
 **Homebridge cannot connect or login to Home Assistant**
 
-Please be sure to set `host` and `password` parameters in the
+Please be sure to set the `host` and `password` parameters in the
 `/config/homebridge/config.json` file.  
 Normally `http://172.17.0.1:8123` should be a sufficient `host` to use when
 running hass.io.  
-If a password protects you Home Assistant instance, you'll also need to
+If a password protects your Home Assistant instance, you'll also need to
 set the `password`, which is empty by default.
 
 **My iOS App Can't Find Homebridge/Home Assistant**
@@ -217,7 +217,7 @@ Do you like this add-on? Want some more functionality to your Hass.io Home
 Assistant instance?
 
 We've created multiple add-ons for Hass.io. For a full list, check out
-our[GitHub Repository][repository].
+our [GitHub Repository][repository].
 
 ## License
 
