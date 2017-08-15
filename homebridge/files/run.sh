@@ -156,7 +156,7 @@ generate_homekit_pin() {
 
   pin=$(< /dev/urandom tr -dc 0-9 | head -c3)
   pin+="-"
-  pin+=-$(< /dev/urandom tr -dc 0-9 | head -c2)
+  pin+=$(< /dev/urandom tr -dc 0-9 | head -c2)
   pin+="-"
   pin+=$(< /dev/urandom tr -dc 0-9 | head -c3)
 
