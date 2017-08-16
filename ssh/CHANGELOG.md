@@ -7,9 +7,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## Unreleased
 -
+
+## 1.0.2 - 2017-08-16
+### Changed
+- Fix issue: User with key and without password was unable to log in
+
 ## 1.0.1 - 2017-08-16
 ### Changed
-- Fix issue where user with key and without password was unable to log in
+- Fix issue: User with key and without password was unable to log in
 
 ## 1.0.0 - 2017-08-16
 ### Added
