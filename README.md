@@ -39,6 +39,21 @@ control your Home Assistant through via Apple devices (including Siri).
 
 [:books: Homebridge add-on documentation](homebridge)
 
+### &#10003; [SSH - Secure Shell](ssh)
+
+![Latest Version][ssh-version-shield]
+![Supports armhf Architecture][ssh-armhf-shield]
+![Supports aarch64 Architecture][ssh-aarch64-shield]
+![Supports amd64 Architecture][ssh-amd64-shield]
+![Supports i386 Architecture][ssh-i386-shield]
+![Docker Pulls][ssh-pulls-shield]
+
+Log in to your Hass.io Home Assistant instance using SSH.
+This is an enhanced version of the provided SSH add-on by Home Assistant and 
+focusses on security, usability and flexibility.
+
+[:books: SSH add-on documentation](ssh)
+
 ## Changelog
 
 This add-on repository itself does not keep a change log, the individual
@@ -103,3 +118,9 @@ SOFTWARE.
 [project-stage-shield]: https://img.shields.io/badge/Project%20Stage-Development-yellowgreen.svg
 [semver]: http://semver.org/spec/v2.0.0.html
 [third-party-addons]: https://home-assistant.io/hassio/installing_third_party_addons/
+[ssh-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[ssh-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[ssh-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
+[ssh-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
+[ssh-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/ssh-armhf.svg
+[ssh-version-shield]: https://images.microbadger.com/badges/version/hassioaddons/ssh-armhf.svg

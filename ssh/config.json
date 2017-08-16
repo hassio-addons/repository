@@ -1,0 +1,39 @@
+{
+  "name": "SSH - Secure Shell",
+  "version": "1.0.0",
+  "slug": "ssh",
+  "description": "Allows SSH connections to your Home Assistant instance",
+  "url": "https://github.com/hassio-addons/repository/tree/master/ssh",
+  "startup": "services",
+  "boot": "auto",
+  "host_network": true,
+  "hassio_api": true,
+  "map": [
+    "config:rw",
+    "ssl:rw",
+    "addons:rw",
+    "share:rw",
+    "backup:rw"
+  ],
+  "options": {
+    "debug": false,
+    "port": 22,
+    "username": "hass",
+    "password": "",
+    "authorized_keys": [],
+    "sftp": false,
+    "packages": [],
+    "init_commands": []
+  },
+  "schema": {
+    "debug": "bool",
+    "port": "int",
+    "username": "str",
+    "password": "str",
+    "authorized_keys": ["str"],
+    "sftp": "bool",
+    "packages": ["str"],
+    "init_commands": ["str"]
+  },
+  "image": "hassioaddons/ssh-{arch}"
+}
