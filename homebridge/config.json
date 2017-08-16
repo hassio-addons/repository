@@ -1,6 +1,6 @@
 {
   "name": "Homebridge",
-  "version": "1.0.2",
+  "version": "1.0.1",
   "slug": "homebridge",
   "description": "HomeKit support for your Home Assistant instance using Homebridge",
   "url": "https://github.com/hassio-addons/repository/tree/master/homebridge",
