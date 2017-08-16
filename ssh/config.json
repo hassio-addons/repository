@@ -1,6 +1,6 @@
 {
   "name": "SSH - Secure Shell",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "slug": "ssh",
   "description": "Allows SSH connections to your Home Assistant instance",
   "url": "https://github.com/hassio-addons/repository/tree/master/ssh",

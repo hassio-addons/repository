@@ -225,8 +225,8 @@ setup_user() {
       display_status_message "Creating user to use for login"
       (command adduser -D "$username" -s "/bin/sh" && \
         command adduser "$username" wheel) || \
-        display_error_message 'Failed creating an user account for login' \
-          "$EX_USER_ADD"
+          display_error_message 'Failed creating an user account for login' \
+            "$EX_USER_ADD"
 
       echo 'exec sudo su -l' > "/home/$username/.profile" || \
         display_error_message 'Failed configuring user profile' \
@@ -292,6 +292,7 @@ setup_password_authentication() {
       command sed -i "s/PasswordAuthentication.*/PasswordAuthentication\ yes/" \
         "$SSH_CONFIG_PATH"
   else
+      echo "$username:$username" | chpasswd 2&> /dev/null
       display_status_message 'Login using a password is disabled'
   fi
 }
