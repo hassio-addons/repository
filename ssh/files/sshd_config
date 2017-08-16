@@ -1,0 +1,71 @@
+# Basics
+# ===================
+Port 22
+AddressFamily any
+TCPKeepAlive no
+ClientAliveInterval 600
+ClientAliveCountMax 3
+UseDNS yes
+
+# Loggin
+# ===================
+SyslogFacility AUTH
+LogLevel VERBOSE
+
+# Security
+# ===================
+Protocol 2
+StrictModes yes
+HostKey /data/ssh_host_rsa_key
+HostKey /data/ssh_host_ed25519_key
+
+# Cryptography
+# ===================
+Ciphers chacha20-poly1305@openssh.com,aes256-gcm@openssh.com,aes128-gcm@openssh.com,aes256-ctr,aes192-ctr,aes128-ctr
+MACs hmac-sha2-512-etm@openssh.com,hmac-sha2-256-etm@openssh.com,umac-128-etm@openssh.com
+KexAlgorithms curve25519-sha256@libssh.org,diffie-hellman-group14-sha256,diffie-hellman-group16-sha512,diffie-hellman-group18-sha512
+
+# Authentication
+# ===================
+LoginGraceTime 120
+MaxAuthTries 6
+MaxSessions 10
+MaxStartups 10:30:100
+PermitRootLogin no
+AllowUsers root
+PubkeyAuthentication yes
+IgnoreRhosts yes
+HostbasedAuthentication no
+IgnoreUserKnownHosts no
+PermitEmptyPasswords no
+ChallengeResponseAuthentication no
+PasswordAuthentication no
+AuthorizedKeysFile /etc/ssh/authorized_keys
+
+
+# Environment
+# ===================
+PermitUserEnvironment no
+
+# Forwarding / Tunnel
+# ===================
+X11Forwarding no
+X11DisplayOffset 10
+X11UseLocalhost yes
+PermitTunnel no
+AllowTcpForwarding no
+AllowAgentForwarding no
+GatewayPorts no
+
+# Messages
+# ===================
+Banner none
+PrintMotd yes
+
+# SFTP
+=====================
+Subsystem sftp /usr/lib/ssh/sftp-server
+
+# Misc
+# ===================
+AcceptEnv LANG LC_*
