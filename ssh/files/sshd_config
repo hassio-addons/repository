@@ -37,7 +37,6 @@ PubkeyAuthentication yes
 IgnoreRhosts yes
 HostbasedAuthentication no
 IgnoreUserKnownHosts no
-PermitEmptyPasswords no
 ChallengeResponseAuthentication no
 PasswordAuthentication no
 AuthorizedKeysFile /etc/ssh/authorized_keys
