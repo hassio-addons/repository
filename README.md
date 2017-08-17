@@ -54,6 +54,20 @@ focusses on security, usability and flexibility.
 
 [:books: SSH add-on documentation](ssh)
 
+### &#10003; [Terminal](terminal)
+
+![Latest Version][terminal-version-shield]
+![Supports armhf Architecture][terminal-armhf-shield]
+![Supports aarch64 Architecture][terminal-aarch64-shield]
+![Supports amd64 Architecture][terminal-amd64-shield]
+![Supports i386 Architecture][terminal-i386-shield]
+![Docker Pulls][terminal-pulls-shield]
+
+This add-on allows you to log in to your Hass.io Home Assistant instance using
+a web terminal. It is like SSH, but in your Home Assistant frontend.
+
+[:books: Terminal add-on documentation](terminal)
+
 ## Changelog
 
 This add-on repository itself does not keep a change log, the individual
@@ -117,10 +131,16 @@ SOFTWARE.
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2017.svg
 [project-stage-shield]: https://img.shields.io/badge/Project%20Stage-Development-yellowgreen.svg
 [semver]: http://semver.org/spec/v2.0.0.html
-[third-party-addons]: https://home-assistant.io/hassio/installing_third_party_addons/
 [ssh-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [ssh-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [ssh-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [ssh-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [ssh-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/ssh-armhf.svg
 [ssh-version-shield]: https://images.microbadger.com/badges/version/hassioaddons/ssh-armhf.svg
+[terminal-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[terminal-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[terminal-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
+[terminal-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
+[terminal-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/terminal-armhf.svg
+[terminal-version-shield]: https://images.microbadger.com/badges/version/hassioaddons/terminal-armhf.svg
+[third-party-addons]: https://home-assistant.io/hassio/installing_third_party_addons/
