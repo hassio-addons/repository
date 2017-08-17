@@ -74,7 +74,7 @@ Example add-on configuration:
 {
   "debug": false,
   "username": "hass",
-  "password": "",
+  "password": "changeme",
   "ssl": true,
   "certfile": "fullchain.pem",
   "keyfile": "privkey.pem",
