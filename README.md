@@ -1,4 +1,4 @@
-# Third party Hass.io add-ons for Home Assistant
+# Community Hass.io add-ons for Home Assistant
 
 ![Project Stage][project-stage-shield]
 ![Maintenance][maintenance-shield]
@@ -25,7 +25,7 @@ https://github.com/hassio-addons/repository
 
 ## Add-ons provided by this repository
 
-### &#10003; [Homebridge](homebridge)
+### &#10003; [Homebridge][addon-homebridge]
 
 ![Latest Version][homebridge-version-shield]
 ![Supports armhf Architecture][homebridge-armhf-shield]
@@ -37,9 +37,9 @@ https://github.com/hassio-addons/repository
 Homebridge is a server that emulates the iOS HomeKit API, allowing you to
 control your Home Assistant through via Apple devices (including Siri).
 
-[:books: Homebridge add-on documentation](homebridge)
+[:books: Homebridge add-on documentation][addon-homebridge]
 
-### &#10003; [SSH - Secure Shell](ssh)
+### &#10003; [SSH - Secure Shell][addon-ssh]
 
 ![Latest Version][ssh-version-shield]
 ![Supports armhf Architecture][ssh-armhf-shield]
@@ -50,11 +50,11 @@ control your Home Assistant through via Apple devices (including Siri).
 
 Log in to your Hass.io Home Assistant instance using SSH.
 This is an enhanced version of the provided SSH add-on by Home Assistant and 
-focusses on security, usability and flexibility.
+focusses on security, usability, and flexibility.
 
-[:books: SSH add-on documentation](ssh)
+[:books: SSH add-on documentation][addon-ssh]
 
-### &#10003; [Terminal](terminal)
+### &#10003; [Terminal][addon-terminal]
 
 ![Latest Version][terminal-version-shield]
 ![Supports armhf Architecture][terminal-armhf-shield]
@@ -64,15 +64,36 @@ focusses on security, usability and flexibility.
 ![Docker Pulls][terminal-pulls-shield]
 
 This add-on allows you to log in to your Hass.io Home Assistant instance using
-a web terminal. It is like SSH, but in your Home Assistant frontend.
+a web terminal. It is like SSH but in your Home Assistant frontend.
 
-[:books: Terminal add-on documentation](terminal)
+[:books: Terminal add-on documentation][addon-terminal]
 
 ## Changelog
 
 This add-on repository itself does not keep a change log, the individual
 add-ons, however, do. The format is based on [Keep a Changelog][keepchangelog]
-and these add-ons adheres to [Semantic Versioning][semver].
+moreover, these add-ons adhere to [Semantic Versioning][semver].
+
+## Support
+
+Got questions?
+
+You have several options to get them answered:
+
+- The Home Assistant [Community Forums][forums], we have a 
+  [dedicated topic][forums] on that forum regarding this repository.
+- The Home Assistant [Discord Chat Server][discord] for general Home Assistant 
+  discussions and questions.
+- Join the [Reddit subreddit][reddit] in [/r/homeassistant][reddit]
+
+You could also open an issue here on GitHub. Note, we use a separate
+GitHub repository for each add-on. Please ensure you are creating the issue
+on the correct GitHub repository matching the add-on.
+
+- [Open an issue for the addon: Homebridge][homebridge-issue]
+- [Open an issue for the addon: SSH - Secure Shell][ssh-issue]
+- [Open an issue for the addon: Terminal][terminal-issue]
+- For a general repository issues or add-on ideas [open a issue here][issue]
 
 ## Contributing
 
@@ -84,7 +105,7 @@ We've set up a separate document for our [contribution guidelines](CONTRIBUTING.
 Thank you for being involved! :heart_eyes:
 
 We are also looking for maintainers!  
-Please send [Franck Nijhof][frenck] an message when you are interested in becoming one.
+Please send [Franck Nijhof][frenck] a message when you are interested in becoming one.
 
 ## Authors & contributors
 
@@ -117,30 +138,40 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
+[issue]: https://github.com/hassio-addons/repository/issues
+[addon-homebridge]: https://github.com/hassio-addons/addon-homebridge
+[addon-ssh]: https://github.com/hassio-addons/addon-ssh
+[addon-terminal]: https://github.com/hassio-addons/addon-terminal
 [awesome-shield]: https://img.shields.io/badge/awesome%3F-yes-brightgreen.svg
 [contributors]: https://github.com/hassio-addons/repository/graphs/contributors
-[frenck]: https://github.com/frenck
+[discord]: https://discord.gg/c5DvZ4e
+[forums]: https://community.home-assistant.io/t/repository-community-hass-io-add-ons/24705?u=frenck
+[frenck]: https://community.home-assistant.io/u/frenck/summary
 [homebridge-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [homebridge-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [homebridge-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [homebridge-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
+[homebridge-issue]: https://github.com/hassio-addons/addon-homebridge/issues
 [homebridge-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/homebridge-armhf.svg
 [homebridge-version-shield]: https://images.microbadger.com/badges/version/hassioaddons/homebridge-armhf.svg
 [keepchangelog]: http://keepachangelog.com/en/1.0.0/
 [license-shield]: https://img.shields.io/github/license/hassio-addons/repository.svg
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2017.svg
 [project-stage-shield]: https://img.shields.io/badge/Project%20Stage-Development-yellowgreen.svg
+[reddit]: https://reddit.com/r/homeassistant
 [semver]: http://semver.org/spec/v2.0.0.html
 [ssh-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [ssh-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [ssh-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [ssh-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
+[ssh-issue]: https://github.com/hassio-addons/addon-ssh/issues
 [ssh-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/ssh-armhf.svg
 [ssh-version-shield]: https://images.microbadger.com/badges/version/hassioaddons/ssh-armhf.svg
 [terminal-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [terminal-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [terminal-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [terminal-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
+[terminal-issue]: https://github.com/hassio-addons/addon-terminal/issues
 [terminal-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/terminal-armhf.svg
 [terminal-version-shield]: https://images.microbadger.com/badges/version/hassioaddons/terminal-armhf.svg
 [third-party-addons]: https://home-assistant.io/hassio/installing_third_party_addons/
