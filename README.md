@@ -86,13 +86,14 @@ You have several options to get them answered:
   discussions and questions.
 - Join the [Reddit subreddit][reddit] in [/r/homeassistant][reddit]
 
-You could also [open an] issue here on GitHub. Note, we use a separate
+You could also open an issue here on GitHub. Note, we use a separate
 GitHub repository for each add-on. Please ensure you are creating the issue
 on the correct GitHub repository matching the add-on.
 
 - [Open an issue for the addon: Homebridge][homebridge-issue]
 - [Open an issue for the addon: SSH - Secure Shell][ssh-issue]
 - [Open an issue for the addon: Terminal][terminal-issue]
+- For a general repository issues or add-on ideas [open a issue here][issue]
 
 ## Contributing
 
@@ -137,6 +138,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
+[issue]: https://github.com/hassio-addons/repository/issues
 [addon-homebridge]: https://github.com/hassio-addons/addon-homebridge
 [addon-ssh]: https://github.com/hassio-addons/addon-ssh
 [addon-terminal]: https://github.com/hassio-addons/addon-terminal
@@ -144,7 +146,7 @@ SOFTWARE.
 [contributors]: https://github.com/hassio-addons/repository/graphs/contributors
 [discord]: https://discord.gg/c5DvZ4e
 [forums]: https://community.home-assistant.io/t/repository-community-hass-io-add-ons/24705?u=frenck
-[frenck]: https://github.com/frenck
+[frenck]: https://community.home-assistant.io/u/frenck/summary
 [homebridge-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [homebridge-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [homebridge-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
