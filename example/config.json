@@ -19,5 +19,6 @@
   "schema": {
       "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)",
       "seconds_between_quotes": "int(1,120)"
-  }
+  },
+  "image": "hassioaddons/example-{arch}"
 }
