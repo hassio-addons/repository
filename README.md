@@ -1,4 +1,4 @@
-# Community Hass.io add-ons for Home Assistant
+# Community Hass.io Add-ons for Home Assistant
 
 ![Project Stage][project-stage-shield]
 ![Maintenance][maintenance-shield]
