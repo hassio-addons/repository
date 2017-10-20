@@ -1,17 +1,18 @@
 {
   "name": "Terminal",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "slug": "terminal",
   "description": "Terminal access to your Home Assistant instance via the web",
   "url": "https://github.com/hassio-addons/addon-terminal",
   "webui": "http://[HOST]:[PORT:7681]",
   "startup": "services",
   "boot": "auto",
+  "hassio_api": true,
+  "homeassistant_api": true,
+  "host_network": false,
   "ports": {
     "7681/tcp": 7681
   },
-  "host_network": false,
-  "hassio_api": true,
   "map": [
     "config:rw",
     "ssl:rw",
@@ -20,7 +21,7 @@
     "backup:rw"
   ],
   "options": {
-    "debug": false,
+    "log_level": "info",
     "username": "",
     "password": "",
     "ssl": false,
@@ -30,7 +31,7 @@
     "init_commands": []
   },
   "schema": {
-    "debug": "bool",
+    "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)",
     "username": "str",
     "password": "str",
     "ssl": "bool",
@@ -38,6 +39,9 @@
     "keyfile": "str",
     "packages": ["str"],
     "init_commands": ["str"]
+  },
+  "environment": {
+    "LOG_FORMAT": "{LEVEL}: {MESSAGE}"
   },
   "image": "hassioaddons/terminal-{arch}"
 }
