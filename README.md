@@ -5,6 +5,18 @@
 ![Awesome][awesome-shield]
 [![License][license-shield]](LICENSE.md)
 
+[![Code Climate][codeclimate-shield]][codeclimate]
+[![Bountysource][bountysource-shield]][bountysource]
+[![Discord][discord-shield]][discord]
+[![Community Forum][forum-shield]][forum]
+
+[![Gratipay][gratipay-shield]][gratipay]
+[![Patreon][patreon-shield]][patreon]
+[![PayPal][paypal-shield]][paypal]
+[![Bitcoin][bitcoin-shield]][bitcoin]
+
+## About
+
 Hass.io allows anyone to create add-on repositories to share their add-ons for
 Hass.io easily. This repository is one of those repositories, providing extra
 Home Assistant add-ons for your Hass.io installation.
@@ -24,6 +36,20 @@ https://github.com/hassio-addons/repository
 ```
 
 ## Add-ons provided by this repository
+
+### &#10003; [Example][addon-example]
+
+![Latest Version][example-version-shield]
+![Supports armhf Architecture][example-armhf-shield]
+![Supports aarch64 Architecture][example-aarch64-shield]
+![Supports amd64 Architecture][example-amd64-shield]
+![Supports i386 Architecture][example-i386-shield]
+![Docker Pulls][example-pulls-shield]
+
+This is our example add-on that shows a different approach to Hass.io add-on
+development. It shows a random quote in the log every couple of seconds.
+
+[:books: Example add-on documentation][addon-example]
 
 ### &#10003; [Homebridge][addon-homebridge]
 
@@ -49,7 +75,7 @@ control your Home Assistant through via Apple devices (including Siri).
 ![Docker Pulls][ssh-pulls-shield]
 
 Log in to your Hass.io Home Assistant instance using SSH.
-This is an enhanced version of the provided SSH add-on by Home Assistant and 
+This is an enhanced version of the provided SSH add-on by Home Assistant and
 focusses on security, usability, and flexibility.
 
 [:books: SSH add-on documentation][addon-ssh]
@@ -64,15 +90,22 @@ focusses on security, usability, and flexibility.
 ![Docker Pulls][terminal-pulls-shield]
 
 This add-on allows you to log in to your Hass.io Home Assistant instance using
-a web terminal. It is like SSH but in your Home Assistant frontend.
+a web terminal. It is like SSH but on your Home Assistant frontend.
 
 [:books: Terminal add-on documentation][addon-terminal]
 
-## Changelog
+## Changelog & releases
 
 This add-on repository itself does not keep a change log, the individual
-add-ons, however, do. The format is based on [Keep a Changelog][keepchangelog]
-moreover, these add-ons adhere to [Semantic Versioning][semver].
+add-ons, however, do. The format is based on [Keep a Changelog][keepchangelog].
+
+Add-on releases are based on [Semantic Versioning][semver], and use the format
+of ``MAJOR.MINOR.PATCH``. In a nutshell, the version will be incremented
+based on the following:
+
+- ``MAJOR``: Incompatible or major changes.
+- ``MINOR``: Backwards-compatible new features and enhancements.
+- ``PATCH``: Backwards-compatible bugfixes and package updates.
 
 ## Support
 
@@ -80,9 +113,9 @@ Got questions?
 
 You have several options to get them answered:
 
-- The Home Assistant [Community Forums][forums], we have a 
-  [dedicated topic][forums] on that forum regarding this repository.
-- The Home Assistant [Discord Chat Server][discord] for general Home Assistant 
+- The Home Assistant [Community Forum][forum], we have a
+  [dedicated topic][forum] on that forum regarding this repository.
+- The Home Assistant [Discord Chat Server][discord] for general Home Assistant
   discussions and questions.
 - Join the [Reddit subreddit][reddit] in [/r/homeassistant][reddit]
 
@@ -90,22 +123,22 @@ You could also open an issue here on GitHub. Note, we use a separate
 GitHub repository for each add-on. Please ensure you are creating the issue
 on the correct GitHub repository matching the add-on.
 
+- [Open an issue for the addon: Example][example-issue]
 - [Open an issue for the addon: Homebridge][homebridge-issue]
 - [Open an issue for the addon: SSH - Secure Shell][ssh-issue]
 - [Open an issue for the addon: Terminal][terminal-issue]
-- For a general repository issues or add-on ideas [open a issue here][issue]
+
+For a general repository issues or add-on ideas [open an issue here][issue]
 
 ## Contributing
 
 This is an active open-source project. We are always open to people who want to
 use the code or contribute to it.
 
-We've set up a separate document for our [contribution guidelines](CONTRIBUTING.md).
+We have set up a separate document containing our
+[contribution guidelines](CONTRIBUTING.md).
 
 Thank you for being involved! :heart_eyes:
-
-We are also looking for maintainers!  
-Please send [Franck Nijhof][frenck] a message when you are interested in becoming one.
 
 ## Authors & contributors
 
@@ -138,15 +171,32 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[issue]: https://github.com/hassio-addons/repository/issues
+[addon-example]: https://github.com/hassio-addons/addon-example
 [addon-homebridge]: https://github.com/hassio-addons/addon-homebridge
 [addon-ssh]: https://github.com/hassio-addons/addon-ssh
 [addon-terminal]: https://github.com/hassio-addons/addon-terminal
 [awesome-shield]: https://img.shields.io/badge/awesome%3F-yes-brightgreen.svg
+[bitcoin-shield]: https://img.shields.io/badge/donate-bitcoin-blue.svg
+[bitcoin]: https://blockchain.info/payment_request?address=3GVzgN6NpVtfXnyg5dQnaujtqVTEDBCtAH
+[bountysource-shield]: https://img.shields.io/bountysource/team/hassio-addons/activity.svg
+[bountysource]: https://www.bountysource.com/teams/hassio-addons/issues
+[codeclimate-shield]: https://img.shields.io/badge/code%20climate-protected-brightgreen.svg
+[codeclimate]: https://codeclimate.com/github/hassio-addons/repository
 [contributors]: https://github.com/hassio-addons/repository/graphs/contributors
+[discord-shield]: https://img.shields.io/discord/330944238910963714.svg
 [discord]: https://discord.gg/c5DvZ4e
-[forums]: https://community.home-assistant.io/t/repository-community-hass-io-add-ons/24705?u=frenck
-[frenck]: https://community.home-assistant.io/u/frenck/summary
+[example-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[example-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[example-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
+[example-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
+[example-issue]: https://github.com/hassio-addons/addon-example/issues
+[example-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/example-armhf.svg
+[example-version-shield]: https://images.microbadger.com/badges/version/hassioaddons/example-armhf.svg
+[forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
+[forum]: https://community.home-assistant.io/t/repository-community-hass-io-add-ons/24705?u=frenck
+[frenck]: https://github.com/frenck
+[gratipay-shield]: https://img.shields.io/badge/donate-gratipay-blue.svg
+[gratipay]: https://gratipay.com/hassio-addons/
 [homebridge-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [homebridge-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [homebridge-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
@@ -154,10 +204,16 @@ SOFTWARE.
 [homebridge-issue]: https://github.com/hassio-addons/addon-homebridge/issues
 [homebridge-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/homebridge-armhf.svg
 [homebridge-version-shield]: https://images.microbadger.com/badges/version/hassioaddons/homebridge-armhf.svg
+[issue]: https://github.com/hassio-addons/repository/issues
 [keepchangelog]: http://keepachangelog.com/en/1.0.0/
 [license-shield]: https://img.shields.io/github/license/hassio-addons/repository.svg
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2017.svg
-[project-stage-shield]: https://img.shields.io/badge/Project%20Stage-Development-yellowgreen.svg
+[patreon-shield]: https://img.shields.io/badge/donate-patreon-blue.svg
+[patreon]: https://www.patreon.com/frenck
+[paypal-shield]: https://img.shields.io/badge/donate-paypal-blue.svg
+[paypal]: https://www.paypal.me/FranckNijhof
+[project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
+[reddit]: https://reddit.com/r/homeassistant
 [reddit]: https://reddit.com/r/homeassistant
 [semver]: http://semver.org/spec/v2.0.0.html
 [ssh-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg

@@ -22,11 +22,14 @@ include:
 
 Examples of unacceptable behavior by participants include:
 
-- The use of sexualized language or imagery and unwelcome sexual attention or advances
+- The use of sexualized language or imagery and unwelcome sexual attention
+  or advances
 - Trolling, insulting/derogatory comments, and personal or political attacks
 - Public or private harassment
-- Publishing others' private information, such as a physical or electronic address, without explicit permission
-- Other conduct which could reasonably be considered inappropriate in a professional setting
+- Publishing others' private information, such as a physical or
+  electronic address, without explicit permission
+- Other conduct which could reasonably be considered inappropriate
+  in a professional setting
 
 ## Our responsibilities
 
@@ -52,7 +55,7 @@ further defined and clarified by project maintainers.
 ## Enforcement
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported by contacting the project lead at frenck@geekchimp.com. All
+reported by contacting the project lead at frenck@addons.community. All
 complaints will be reviewed and investigated and will result in a response that
 is deemed necessary and appropriate to the circumstances. The project lead is
 obligated to maintain confidentiality with regard to the reporter of an incident.
