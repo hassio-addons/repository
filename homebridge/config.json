@@ -1,23 +1,41 @@
 {
   "name": "Homebridge",
-  "version": "1.0.3",
+  "version": "2.0.0",
   "slug": "homebridge",
   "description": "HomeKit support for your Home Assistant instance using Homebridge",
   "url": "https://github.com/hassio-addons/addon-homebridge",
   "startup": "application",
   "boot": "auto",
+  "hassio_api": true,
+  "homeassistant_api": true,
   "host_network": true,
   "privileged": [],
   "map": [
-    "config:rw"
+    "config:rw",
+    "ssl"
   ],
   "options": {
-    "debug": false,
+    "log_level": "info",
+    "avahi_interfaces": "",
+    "avahi_hostname": "",
+    "avahi_domainname": "local",
+    "enable_ipv6": true,
+    "packages": [],
+    "init_commands": [],
     "plugins": []
   },
   "schema": {
-    "debug": "bool",
+    "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)",
+    "avahi_interfaces": "str",
+    "avahi_hostname": "str",
+    "avahi_domainname": "str",
+    "enable_ipv6": "bool",
+    "packages": ["str"],
+    "init_commands": ["str"],
     "plugins": ["str"]
+  },
+  "environment": {
+    "LOG_FORMAT": "{LEVEL}: {MESSAGE}"
   },
   "image": "hassioaddons/homebridge-{arch}"
 }
