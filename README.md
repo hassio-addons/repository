@@ -94,6 +94,19 @@ a web terminal. It is like SSH but on your Home Assistant frontend.
 
 [:books: Terminal add-on documentation][addon-terminal]
 
+### &#10003; [Tor][addon-tor]
+
+![Latest Version][tor-version-shield]
+![Supports armhf Architecture][tor-armhf-shield]
+![Supports aarch64 Architecture][tor-aarch64-shield]
+![Supports amd64 Architecture][tor-amd64-shield]
+![Supports i386 Architecture][tor-i386-shield]
+![Docker Pulls][tor-pulls-shield]
+
+Protect your privacy and access Home Assistant via Tor.
+
+[:books: Tor add-on documentation][addon-tor]
+
 ## Changelog & releases
 
 This add-on repository itself does not keep a change log, the individual
@@ -127,6 +140,7 @@ on the correct GitHub repository matching the add-on.
 - [Open an issue for the addon: Homebridge][homebridge-issue]
 - [Open an issue for the addon: SSH - Secure Shell][ssh-issue]
 - [Open an issue for the addon: Terminal][terminal-issue]
+- [Open an issue for the addon: Tor][tor-issue]
 
 For a general repository issues or add-on ideas [open an issue here][issue]
 
@@ -175,6 +189,7 @@ SOFTWARE.
 [addon-homebridge]: https://github.com/hassio-addons/addon-homebridge
 [addon-ssh]: https://github.com/hassio-addons/addon-ssh
 [addon-terminal]: https://github.com/hassio-addons/addon-terminal
+[addon-tor]: https://github.com/hassio-addons/addon-tor
 [awesome-shield]: https://img.shields.io/badge/awesome%3F-yes-brightgreen.svg
 [bitcoin-shield]: https://img.shields.io/badge/donate-bitcoin-blue.svg
 [bitcoin]: https://blockchain.info/payment_request?address=3GVzgN6NpVtfXnyg5dQnaujtqVTEDBCtAH
@@ -231,3 +246,10 @@ SOFTWARE.
 [terminal-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/terminal-armhf.svg
 [terminal-version-shield]: https://images.microbadger.com/badges/version/hassioaddons/terminal-armhf.svg
 [third-party-addons]: https://home-assistant.io/hassio/installing_third_party_addons/
+[tor-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[tor-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[tor-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
+[tor-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
+[tor-issue]: https://github.com/hassio-addons/addon-tor/issues
+[tor-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/tor-armhf.svg
+[tor-version-shield]: https://images.microbadger.com/badges/version/hassioaddons/tor-armhf.svg
