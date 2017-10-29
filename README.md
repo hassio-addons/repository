@@ -37,6 +37,19 @@ https://github.com/hassio-addons/repository
 
 ## Add-ons provided by this repository
 
+### &#10003; [AppDaemon][addon-appdaemon]
+
+![Latest Version][appdaemon-version-shield]
+![Supports armhf Architecture][appdaemon-armhf-shield]
+![Supports aarch64 Architecture][appdaemon-aarch64-shield]
+![Supports amd64 Architecture][appdaemon-amd64-shield]
+![Supports i386 Architecture][appdaemon-i386-shield]
+![Docker Pulls][appdaemon-pulls-shield]
+
+Python Apps and HADashboard for Home Assistant
+
+[:books: AppDaemon add-on documentation][addon-appdaemon]
+
 ### &#10003; [Example][addon-example]
 
 ![Latest Version][example-version-shield]
@@ -136,6 +149,7 @@ You could also open an issue here on GitHub. Note, we use a separate
 GitHub repository for each add-on. Please ensure you are creating the issue
 on the correct GitHub repository matching the add-on.
 
+- [Open an issue for the addon: AppDaemon][appdaemon-issue]
 - [Open an issue for the addon: Example][example-issue]
 - [Open an issue for the addon: Homebridge][homebridge-issue]
 - [Open an issue for the addon: SSH - Secure Shell][ssh-issue]
@@ -185,11 +199,19 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
+[addon-appdaemon]: https://github.com/hassio-addons/addon-appdaemon
 [addon-example]: https://github.com/hassio-addons/addon-example
 [addon-homebridge]: https://github.com/hassio-addons/addon-homebridge
 [addon-ssh]: https://github.com/hassio-addons/addon-ssh
 [addon-terminal]: https://github.com/hassio-addons/addon-terminal
 [addon-tor]: https://github.com/hassio-addons/addon-tor
+[appdaemon-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[appdaemon-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[appdaemon-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
+[appdaemon-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
+[appdaemon-issue]: https://github.com/hassio-addons/addon-appdaemon/issues
+[appdaemon-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/appdaemon-armhf.svg
+[appdaemon-version-shield]: https://images.microbadger.com/badges/version/hassioaddons/appdaemon-armhf.svg
 [awesome-shield]: https://img.shields.io/badge/awesome%3F-yes-brightgreen.svg
 [bitcoin-shield]: https://img.shields.io/badge/donate-bitcoin-blue.svg
 [bitcoin]: https://blockchain.info/payment_request?address=3GVzgN6NpVtfXnyg5dQnaujtqVTEDBCtAH
