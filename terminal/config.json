@@ -1,10 +1,10 @@
 {
   "name": "Terminal",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "slug": "terminal",
   "description": "Terminal access to your Home Assistant instance via the web",
   "url": "https://github.com/hassio-addons/addon-terminal",
-  "webui": "http://[HOST]:[PORT:7681]",
+  "webui": "[PROTO:ssl]://[HOST]:[PORT:7681]",
   "startup": "services",
   "boot": "auto",
   "hassio_api": true,
