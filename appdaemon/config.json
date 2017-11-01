@@ -1,6 +1,6 @@
 {
   "name": "AppDaemon",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "slug": "appdaemon",
   "description": "Python Apps and HADashboard for Home Assistant",
   "url": "https://github.com/hassio-addons/addon-appdaemon",
@@ -19,10 +19,12 @@
     "ssl:rw"
   ],
   "options": {
-    "log_level": "info"
+    "log_level": "info",
+    "commtype": "websockets"
   },
   "schema": {
-    "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)"
+    "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)",
+    "commtype": "match(^(websockets|sse)$)"
   },
   "environment": {
     "LOG_FORMAT": "{LEVEL}: {MESSAGE}"
