@@ -1,0 +1,47 @@
+{
+  "name": "IDE",
+  "version": "0.1.0",
+  "slug": "ide",
+  "description": "Advanced IDE for Home Assistant, based on Cloud9 IDE",
+  "url": "https://github.com/hassio-addons/addon-ide",
+  "webui": "[PROTO:ssl]://[HOST]:[PORT:8321]",
+  "startup": "services",
+  "boot": "auto",
+  "hassio_api": true,
+  "homeassistant_api": true,
+  "host_network": false,
+  "ports": {
+    "8321/tcp": 8321
+  },
+  "map": [
+    "config:rw",
+    "ssl:rw",
+    "addons:rw",
+    "share:rw",
+    "backup:rw"
+  ],
+  "options": {
+    "log_level": "info",
+    "username": "",
+    "password": "",
+    "ssl": false,
+    "certfile": "fullchain.pem",
+    "keyfile": "privkey.pem",
+    "packages": [],
+    "init_commands": []
+  },
+  "schema": {
+    "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)",
+    "username": "str",
+    "password": "str",
+    "ssl": "bool",
+    "certfile": "str",
+    "keyfile": "str",
+    "packages": ["str"],
+    "init_commands": ["str"]
+  },
+  "environment": {
+    "LOG_FORMAT": "{LEVEL}: {MESSAGE}"
+  },
+  "image": "hassioaddons/ide-{arch}"
+}

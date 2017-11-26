@@ -78,6 +78,19 @@ control your Home Assistant through via Apple devices (including Siri).
 
 [:books: Homebridge add-on documentation][addon-homebridge]
 
+### &#10003; [IDE][addon-ide]
+
+![Latest Version][ide-version-shield]
+![Supports armhf Architecture][ide-armhf-shield]
+![Supports aarch64 Architecture][ide-aarch64-shield]
+![Supports amd64 Architecture][ide-amd64-shield]
+![Supports i386 Architecture][ide-i386-shield]
+![Docker Pulls][ide-pulls-shield]
+
+Advanced IDE for Home Assistant, based on Cloud9 IDE
+
+[:books: IDE add-on documentation][addon-ide]
+
 ### &#10003; [Pi-hole][addon-pi-hole]
 
 ![Latest Version][pi-hole-version-shield]
@@ -165,6 +178,7 @@ on the correct GitHub repository matching the add-on.
 - [Open an issue for the addon: AppDaemon][appdaemon-issue]
 - [Open an issue for the addon: Example][example-issue]
 - [Open an issue for the addon: Homebridge][homebridge-issue]
+- [Open an issue for the addon: IDE][ide-issue]
 - [Open an issue for the addon: Pi-hole][pi-hole-issue]
 - [Open an issue for the addon: SSH - Secure Shell][ssh-issue]
 - [Open an issue for the addon: Terminal][terminal-issue]
@@ -216,6 +230,7 @@ SOFTWARE.
 [addon-appdaemon]: https://github.com/hassio-addons/addon-appdaemon
 [addon-example]: https://github.com/hassio-addons/addon-example
 [addon-homebridge]: https://github.com/hassio-addons/addon-homebridge
+[addon-ide]: https://github.com/hassio-addons/addon-ide
 [addon-pi-hole]: https://github.com/hassio-addons/addon-pi-hole
 [addon-ssh]: https://github.com/hassio-addons/addon-ssh
 [addon-terminal]: https://github.com/hassio-addons/addon-terminal
@@ -256,6 +271,13 @@ SOFTWARE.
 [homebridge-issue]: https://github.com/hassio-addons/addon-homebridge/issues
 [homebridge-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/homebridge-armhf.svg
 [homebridge-version-shield]: https://images.microbadger.com/badges/version/hassioaddons/homebridge-armhf.svg
+[ide-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[ide-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[ide-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
+[ide-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
+[ide-issue]: https://github.com/hassio-addons/addon-ide/issues
+[ide-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/ide-armhf.svg
+[ide-version-shield]: https://images.microbadger.com/badges/version/hassioaddons/ide-armhf.svg
 [issue]: https://github.com/hassio-addons/repository/issues
 [keepchangelog]: http://keepachangelog.com/en/1.0.0/
 [license-shield]: https://img.shields.io/github/license/hassio-addons/repository.svg
@@ -272,7 +294,6 @@ SOFTWARE.
 [pi-hole-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/pi-hole-armhf.svg
 [pi-hole-version-shield]: https://images.microbadger.com/badges/version/hassioaddons/pi-hole-armhf.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[reddit]: https://reddit.com/r/homeassistant
 [reddit]: https://reddit.com/r/homeassistant
 [semver]: http://semver.org/spec/v2.0.0.html
 [ssh-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
