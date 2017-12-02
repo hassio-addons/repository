@@ -1,9 +1,9 @@
 {
   "name": "SSH - Secure Shell",
-  "version": "2.0.4",
+  "version": "2.1.0",
   "slug": "ssh",
   "description": "Allows SSH connections to your Home Assistant instance",
-  "url": "https://github.com/hassio-addons/addon-ssh",
+  "url": "https://community.home-assistant.io/t/community-hass-io-add-on-ssh/33820?u=frenck",
   "startup": "services",
   "boot": "auto",
   "hassio_api": true,
