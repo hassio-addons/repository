@@ -1,9 +1,9 @@
 {
   "name": "Homebridge",
-  "version": "2.1.2",
+  "version": "2.2.0",
   "slug": "homebridge",
   "description": "HomeKit support for your Home Assistant instance using Homebridge",
-  "url": "https://github.com/hassio-addons/addon-homebridge",
+  "url": "https://community.home-assistant.io/t/community-hass-io-add-on-homebridge/33803?u=frenck",
   "startup": "application",
   "boot": "auto",
   "hassio_api": true,
