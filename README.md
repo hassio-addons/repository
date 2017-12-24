@@ -37,6 +37,19 @@ https://github.com/hassio-addons/repository
 
 ## Add-ons provided by this repository
 
+### &#10003; [AirCast][addon-aircast]
+
+![Latest Version][aircast-version-shield]
+![Supports armhf Architecture][aircast-armhf-shield]
+![Supports aarch64 Architecture][aircast-aarch64-shield]
+![Supports amd64 Architecture][aircast-amd64-shield]
+![Supports i386 Architecture][aircast-i386-shield]
+![Docker Pulls][aircast-pulls-shield]
+
+AirPlay capabilities for your Chromecast devices.
+
+[:books: AirCast add-on documentation][addon-aircast]
+
 ### &#10003; [AppDaemon][addon-appdaemon]
 
 ![Latest Version][appdaemon-version-shield]
@@ -175,6 +188,7 @@ You could also open an issue here on GitHub. Note, we use a separate
 GitHub repository for each add-on. Please ensure you are creating the issue
 on the correct GitHub repository matching the add-on.
 
+- [Open an issue for the addon: AirCast][aircast-issue]
 - [Open an issue for the addon: AppDaemon][appdaemon-issue]
 - [Open an issue for the addon: Example][example-issue]
 - [Open an issue for the addon: Homebridge][homebridge-issue]
@@ -227,6 +241,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
+[addon-aircast]: https://github.com/hassio-addons/addon-aircast
 [addon-appdaemon]: https://github.com/hassio-addons/addon-appdaemon
 [addon-example]: https://github.com/hassio-addons/addon-example
 [addon-homebridge]: https://github.com/hassio-addons/addon-homebridge
@@ -235,6 +250,13 @@ SOFTWARE.
 [addon-ssh]: https://github.com/hassio-addons/addon-ssh
 [addon-terminal]: https://github.com/hassio-addons/addon-terminal
 [addon-tor]: https://github.com/hassio-addons/addon-tor
+[aircast-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[aircast-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[aircast-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
+[aircast-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
+[aircast-issue]: https://github.com/hassio-addons/addon-aircast/issues
+[aircast-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/aircast-armhf.svg
+[aircast-version-shield]: https://images.microbadger.com/badges/version/hassioaddons/aircast-armhf.svg
 [appdaemon-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [appdaemon-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [appdaemon-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg

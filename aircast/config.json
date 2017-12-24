@@ -1,0 +1,30 @@
+{
+  "name": "AirCast",
+  "version": "0.1.0",
+  "slug": "aircast",
+  "description": "AirPlay capabilities for your Chromecast devices.",
+  "url": "https://community.home-assistant.io/t/community-hass-io-add-on-aircast/36742?u=frenck",
+  "startup": "services",
+  "boot": "auto",
+  "hassio_api": true,
+  "homeassistant_api": false,
+  "host_network": true,
+  "options": {
+    "log_level": "info",
+    "address": "",
+    "latency_rtp": 0,
+    "latency_http": 0,
+    "drift": false
+  },
+  "schema": {
+    "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)",
+    "address": "str",
+    "latency_rtp": "int",
+    "latency_http": "int",
+    "drift": "bool"
+  },
+  "environment": {
+    "LOG_FORMAT": "{LEVEL}: {MESSAGE}"
+  },
+  "image": "hassioaddons/aircast-{arch}"
+}
