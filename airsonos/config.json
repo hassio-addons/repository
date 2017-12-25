@@ -1,0 +1,32 @@
+{
+  "name": "AirSonos",
+  "version": "0.1.0",
+  "slug": "airsonos",
+  "description": "AirPlay capabilities for your Sonos (and UPnP) devices.",
+  "url": "https://community.home-assistant.io/t/community-hass-io-add-on-airsonos/36796?u=frenck",
+  "startup": "services",
+  "boot": "auto",
+  "hassio_api": true,
+  "homeassistant_api": false,
+  "host_network": true,
+  "options": {
+    "log_level": "info",
+    "address": "",
+    "port": 49152,
+    "latency_rtp": 1000,
+    "latency_http": 2000,
+    "drift": false
+  },
+  "schema": {
+    "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)",
+    "address": "str",
+    "port": "port",
+    "latency_rtp": "int",
+    "latency_http": "int",
+    "drift": "bool"
+  },
+  "environment": {
+    "LOG_FORMAT": "{LEVEL}: {MESSAGE}"
+  },
+  "image": "hassioaddons/airsonos-{arch}"
+}

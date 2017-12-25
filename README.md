@@ -50,6 +50,19 @@ AirPlay capabilities for your Chromecast devices.
 
 [:books: AirCast add-on documentation][addon-aircast]
 
+### &#10003; [AirSonos][addon-airsonos]
+
+![Latest Version][airsonos-version-shield]
+![Supports armhf Architecture][airsonos-armhf-shield]
+![Supports aarch64 Architecture][airsonos-aarch64-shield]
+![Supports amd64 Architecture][airsonos-amd64-shield]
+![Supports i386 Architecture][airsonos-i386-shield]
+![Docker Pulls][airsonos-pulls-shield]
+
+AirPlay capabilities for your Sonos (and UPnP) devices.
+
+[:books: AirSonos add-on documentation][addon-airsonos]
+
 ### &#10003; [AppDaemon][addon-appdaemon]
 
 ![Latest Version][appdaemon-version-shield]
@@ -189,6 +202,7 @@ GitHub repository for each add-on. Please ensure you are creating the issue
 on the correct GitHub repository matching the add-on.
 
 - [Open an issue for the addon: AirCast][aircast-issue]
+- [Open an issue for the addon: AirSonos][airsonos-issue]
 - [Open an issue for the addon: AppDaemon][appdaemon-issue]
 - [Open an issue for the addon: Example][example-issue]
 - [Open an issue for the addon: Homebridge][homebridge-issue]
@@ -242,6 +256,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 [addon-aircast]: https://github.com/hassio-addons/addon-aircast
+[addon-airsonos]: https://github.com/hassio-addons/addon-airsonos
 [addon-appdaemon]: https://github.com/hassio-addons/addon-appdaemon
 [addon-example]: https://github.com/hassio-addons/addon-example
 [addon-homebridge]: https://github.com/hassio-addons/addon-homebridge
@@ -257,6 +272,13 @@ SOFTWARE.
 [aircast-issue]: https://github.com/hassio-addons/addon-aircast/issues
 [aircast-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/aircast-armhf.svg
 [aircast-version-shield]: https://images.microbadger.com/badges/version/hassioaddons/aircast-armhf.svg
+[airsonos-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[airsonos-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[airsonos-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
+[airsonos-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
+[airsonos-issue]: https://github.com/hassio-addons/addon-airsonos/issues
+[airsonos-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/airsonos-armhf.svg
+[airsonos-version-shield]: https://images.microbadger.com/badges/version/hassioaddons/airsonos-armhf.svg
 [appdaemon-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [appdaemon-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [appdaemon-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
