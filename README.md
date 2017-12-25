@@ -90,6 +90,19 @@ development. It shows a random quote in the log every couple of seconds.
 
 [:books: Example add-on documentation][addon-example]
 
+### &#10003; [FTP][addon-ftp]
+
+![Latest Version][ftp-version-shield]
+![Supports armhf Architecture][ftp-armhf-shield]
+![Supports aarch64 Architecture][ftp-aarch64-shield]
+![Supports amd64 Architecture][ftp-amd64-shield]
+![Supports i386 Architecture][ftp-i386-shield]
+![Docker Pulls][ftp-pulls-shield]
+
+A secure and fast FTP server for Hass.io.
+
+[:books: FTP add-on documentation][addon-ftp]
+
 ### &#10003; [Homebridge][addon-homebridge]
 
 ![Latest Version][homebridge-version-shield]
@@ -205,6 +218,7 @@ on the correct GitHub repository matching the add-on.
 - [Open an issue for the addon: AirSonos][airsonos-issue]
 - [Open an issue for the addon: AppDaemon][appdaemon-issue]
 - [Open an issue for the addon: Example][example-issue]
+- [Open an issue for the addon: FTP][ftp-issue]
 - [Open an issue for the addon: Homebridge][homebridge-issue]
 - [Open an issue for the addon: IDE][ide-issue]
 - [Open an issue for the addon: Pi-hole][pi-hole-issue]
@@ -259,6 +273,7 @@ SOFTWARE.
 [addon-airsonos]: https://github.com/hassio-addons/addon-airsonos
 [addon-appdaemon]: https://github.com/hassio-addons/addon-appdaemon
 [addon-example]: https://github.com/hassio-addons/addon-example
+[addon-ftp]: https://github.com/hassio-addons/addon-ftp
 [addon-homebridge]: https://github.com/hassio-addons/addon-homebridge
 [addon-ide]: https://github.com/hassio-addons/addon-ide
 [addon-pi-hole]: https://github.com/hassio-addons/addon-pi-hole
@@ -306,6 +321,13 @@ SOFTWARE.
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
 [forum]: https://community.home-assistant.io/t/repository-community-hass-io-add-ons/24705?u=frenck
 [frenck]: https://github.com/frenck
+[ftp-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[ftp-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[ftp-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
+[ftp-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
+[ftp-issue]: https://github.com/hassio-addons/addon-ftp/issues
+[ftp-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/ftp-armhf.svg
+[ftp-version-shield]: https://images.microbadger.com/badges/version/hassioaddons/ftp-armhf.svg
 [gratipay-shield]: https://img.shields.io/badge/donate-gratipay-blue.svg
 [gratipay]: https://gratipay.com/hassio-addons/
 [homebridge-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
