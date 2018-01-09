@@ -1,6 +1,6 @@
 {
   "name": "Terminal",
-  "version": "2.1.1",
+  "version": "2.2.0",
   "slug": "terminal",
   "description": "Terminal access to your Home Assistant instance via the web",
   "url": "https://community.home-assistant.io/t/community-hass-io-add-on-terminal/33814?u=frenck",
@@ -41,7 +41,8 @@
     "init_commands": ["str"]
   },
   "environment": {
-    "LOG_FORMAT": "{LEVEL}: {MESSAGE}"
+    "LOG_FORMAT": "{LEVEL}: {MESSAGE}",
+    "SUPERVISOR_VERSION": ">=0.81.0"
   },
   "image": "hassioaddons/terminal-{arch}"
 }
