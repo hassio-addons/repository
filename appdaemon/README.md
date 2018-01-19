@@ -1,4 +1,4 @@
-# Community Hass.io Add-ons: AppDaemon
+# Community Hass.io Add-ons: AppDaemon2
 
 This is just a configuration stub to make the Hass.io repository work.
 
