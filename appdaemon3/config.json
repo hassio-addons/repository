@@ -1,0 +1,37 @@
+{
+  "name": "AppDaemon3",
+  "version": "0.1.0",
+  "slug": "appdaemon3",
+  "description": "Python Apps and HADashboard using AppDaemon 3.x for Home Assistant",
+  "url": "https://community.home-assistant.io/t/community-hass-io-add-on-appdaemon3/41261?u=frenck",
+  "webui": "http://[HOST]:[PORT:5050]",
+  "startup": "application",
+  "boot": "auto",
+  "hassio_api": true,
+  "homeassistant_api": true,
+  "host_network": false,
+  "ports": {
+    "5000/tcp": 5000,
+    "5050/tcp": 5050
+  },
+  "map": [
+    "config:rw",
+    "share:rw",
+    "ssl"
+  ],
+  "options": {
+    "log_level": "info",
+    "system_packages": [],
+    "python_packages": []
+  },
+  "schema": {
+    "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)",
+    "system_packages": ["str"],
+    "python_packages": ["str"]
+  },
+  "environment": {
+    "LOG_FORMAT": "{LEVEL}: {MESSAGE}",
+    "SUPERVISOR_VERSION": ">=0.85.0"
+  },
+  "image": "hassioaddons/appdaemon3-{arch}"
+}
