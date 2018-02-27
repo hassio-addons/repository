@@ -1,6 +1,6 @@
 {
   "name": "SSH - Secure Shell",
-  "version": "2.2.1",
+  "version": "2.3.0",
   "slug": "ssh",
   "description": "Allows SSH connections to your Home Assistant instance",
   "url": "https://community.home-assistant.io/t/community-hass-io-add-on-ssh/33820?u=frenck",
@@ -25,6 +25,7 @@
     "sftp": false,
     "compatibility_mode": false,
     "allow_agent_forwarding": false,
+    "allow_remote_port_forwarding": false,
     "allow_tcp_forwarding": false,
     "packages": [],
     "init_commands": []
@@ -38,6 +39,7 @@
     "sftp": "bool",
     "compatibility_mode": "bool",
     "allow_agent_forwarding": "bool",
+    "allow_remote_port_forwarding": "bool",
     "allow_tcp_forwarding": "bool",
     "packages": ["str"],
     "init_commands": ["str"]
