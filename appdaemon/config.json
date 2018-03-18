@@ -2,7 +2,7 @@
   "name": "AppDaemon2",
   "version": "1.1.0",
   "slug": "appdaemon",
-  "description": "Python Apps and HADashboard using AppDaemon 2.x for Home Assistant",
+  "description": "DEPRECATED - Python Apps and HADashboard using AppDaemon 2.x for Home Assistant",
   "url": "https://community.home-assistant.io/t/community-hass-io-add-on-appdaemon/33823?u=frenck",
   "webui": "http://[HOST]:[PORT:5050]",
   "startup": "application",
