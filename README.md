@@ -89,6 +89,19 @@ Python Apps and HADashboard using AppDaemon 3.x for Home Assistant
 
 [:books: AppDaemon3 add-on documentation][addon-appdaemon3]
 
+### &#10003; [Home Assistant Control Panel][addon-control-panel]
+
+![Latest Version][control-panel-version-shield]
+![Supports armhf Architecture][control-panel-armhf-shield]
+![Supports aarch64 Architecture][control-panel-aarch64-shield]
+![Supports amd64 Architecture][control-panel-amd64-shield]
+![Supports i386 Architecture][control-panel-i386-shield]
+![Docker Pulls][control-panel-pulls-shield]
+
+Python Apps and HADashboard using AppDaemon 3.x for Home Assistant
+
+[:books: Home Assistant Control Panel add-on documentation][addon-control-panel]
+
 ### &#10003; [Example][addon-example]
 
 ![Latest Version][example-version-shield]
@@ -231,6 +244,7 @@ on the correct GitHub repository matching the add-on.
 - [Open an issue for the addon: AirSonos][airsonos-issue]
 - [Open an issue for the addon: AppDaemon2][appdaemon-issue]
 - [Open an issue for the addon: AppDaemon3][appdaemon3-issue]
+- [Open an issue for the addon: Home Assistant Control Panel][control-panel-issue]
 - [Open an issue for the addon: Example][example-issue]
 - [Open an issue for the addon: FTP][ftp-issue]
 - [Open an issue for the addon: Homebridge][homebridge-issue]
@@ -287,6 +301,7 @@ SOFTWARE.
 [addon-airsonos]: https://github.com/hassio-addons/addon-airsonos
 [addon-appdaemon]: https://github.com/hassio-addons/addon-appdaemon
 [addon-appdaemon3]: https://github.com/hassio-addons/addon-appdaemon3
+[addon-control-panel]: https://github.com/hassio-addons/addon-control-panel
 [addon-example]: https://github.com/hassio-addons/addon-example
 [addon-ftp]: https://github.com/hassio-addons/addon-ftp
 [addon-homebridge]: https://github.com/hassio-addons/addon-homebridge
@@ -323,6 +338,13 @@ SOFTWARE.
 [appdaemon3-issue]: https://github.com/hassio-addons/addon-appdaemon3/issues
 [appdaemon3-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/appdaemon3-armhf.svg
 [appdaemon3-version-shield]: https://images.microbadger.com/badges/version/hassioaddons/appdaemon3-armhf.svg
+[control-panel-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[control-panel-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[control-panel-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
+[control-panel-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
+[control-panel-issue]: https://github.com/hassio-addons/addon-control-panel/issues
+[control-panel-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/control-panel-armhf.svg
+[control-panel-version-shield]: https://images.microbadger.com/badges/version/hassioaddons/control-panel-armhf.svg
 [awesome-shield]: https://img.shields.io/badge/awesome%3F-yes-brightgreen.svg
 [bitcoin-shield]: https://img.shields.io/badge/donate-bitcoin-blue.svg
 [bitcoin]: https://blockchain.info/payment_request?address=3GVzgN6NpVtfXnyg5dQnaujtqVTEDBCtAH
