@@ -169,6 +169,19 @@ Network-wide ad blocking using your Hass.io instance.
 
 [:books: Pi-hole add-on documentation][addon-pi-hole]
 
+### &#10003; [Shinobi Pro][addon-shinobi]
+
+![Latest Version][shinobi-version-shield]
+![Supports armhf Architecture][shinobi-armhf-shield]
+![Supports aarch64 Architecture][shinobi-aarch64-shield]
+![Supports amd64 Architecture][shinobi-amd64-shield]
+![Supports i386 Architecture][shinobi-i386-shield]
+![Docker Pulls][shinobi-pulls-shield]
+
+Beautiful and feature-rich CCTV/NVR for your camera’s
+
+[:books: Shinobi Pro add-on documentation][addon-shinobi]
+
 ### &#10003; [SSH - Secure Shell][addon-ssh]
 
 ![Latest Version][ssh-version-shield]
@@ -250,6 +263,7 @@ on the correct GitHub repository matching the add-on.
 - [Open an issue for the addon: Homebridge][homebridge-issue]
 - [Open an issue for the addon: IDE][ide-issue]
 - [Open an issue for the addon: Pi-hole][pi-hole-issue]
+- [Open an issue for the addon: Shinobi Pro][shinobi-issue]
 - [Open an issue for the addon: SSH - Secure Shell][ssh-issue]
 - [Open an issue for the addon: Terminal][terminal-issue]
 - [Open an issue for the addon: Tor][tor-issue]
@@ -307,6 +321,7 @@ SOFTWARE.
 [addon-homebridge]: https://github.com/hassio-addons/addon-homebridge
 [addon-ide]: https://github.com/hassio-addons/addon-ide
 [addon-pi-hole]: https://github.com/hassio-addons/addon-pi-hole
+[addon-shinobi]: https://github.com/hassio-addons/addon-shinobi
 [addon-ssh]: https://github.com/hassio-addons/addon-ssh
 [addon-terminal]: https://github.com/hassio-addons/addon-terminal
 [addon-tor]: https://github.com/hassio-addons/addon-tor
@@ -403,6 +418,13 @@ SOFTWARE.
 [pi-hole-issue]: https://github.com/hassio-addons/addon-pi-hole/issues
 [pi-hole-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/pi-hole-armhf.svg
 [pi-hole-version-shield]: https://images.microbadger.com/badges/version/hassioaddons/pi-hole-armhf.svg
+[shinobi-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[shinobi-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[shinobi-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
+[shinobi-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
+[shinobi-issue]: https://github.com/hassio-addons/addon-shinobi/issues
+[shinobi-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/shinobi-armhf.svg
+[shinobi-version-shield]: https://images.microbadger.com/badges/version/hassioaddons/shinobi-armhf.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
 [reddit]: https://reddit.com/r/homeassistant
 [semver]: http://semver.org/spec/v2.0.0.html
