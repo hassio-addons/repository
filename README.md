@@ -374,10 +374,10 @@ SOFTWARE.
 [ssh-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [ssh-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [ssh-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
-[addon-shinobi]: https://github.com/hassio-addons/addon-shinobi/tree/v0.1.0
-[addon-doc-shinobi]: https://github.com/hassio-addons/addon-shinobi/blob/v0.1.0/README.md
+[addon-shinobi]: https://github.com/hassio-addons/addon-shinobi/tree/v0.2.0
+[addon-doc-shinobi]: https://github.com/hassio-addons/addon-shinobi/blob/v0.2.0/README.md
 [shinobi-issue]: https://github.com/hassio-addons/addon-shinobi/issues
-[shinobi-version-shield]: https://img.shields.io/badge/version-v0.1.0-blue.svg
+[shinobi-version-shield]: https://img.shields.io/badge/version-v0.2.0-blue.svg
 [shinobi-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/shinobi-armhf.svg
 [shinobi-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [shinobi-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
