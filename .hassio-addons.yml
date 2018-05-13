@@ -1,0 +1,55 @@
+---
+channel: stable
+addons:
+  aircast:
+    repository: hassio-addons/addon-aircast
+    target: aircast
+    image: hassioaddons/aircast-{arch}
+  airsonos:
+    repository: hassio-addons/addon-airsonos
+    target: airsonos
+    image: hassioaddons/airsonos-{arch}
+  appdaemon3:
+    repository: hassio-addons/addon-appdaemon3
+    target: appdaemon
+    image: hassioaddons/appdaemon3-{arch}
+  control-panel:
+    repository: hassio-addons/addon-control-panel
+    target: control-panel
+    image: hassioaddons/control-panel-{arch}
+  example:
+    repository: hassio-addons/addon-example
+    target: example
+    image: hassioaddons/example-{arch}
+  ftp:
+    repository: hassio-addons/addon-ftp
+    target: ftp
+    image: hassioaddons/ftp-{arch}
+  homebridge:
+    repository: hassio-addons/addon-homebridge
+    target: homebridge
+    image: hassioaddons/homebridge-{arch}
+  ide:
+    repository: hassio-addons/addon-ide
+    target: ide
+    image: hassioaddons/ide-{arch}
+  pi-hole:
+    repository: hassio-addons/addon-pi-hole
+    target: pi-hole
+    image: hassioaddons/pi-hole-{arch}
+  shinobi:
+    repository: hassio-addons/addon-shinobi
+    target: shinobi
+    image: hassioaddons/shinobi-{arch}
+  ssh:
+    repository: hassio-addons/addon-ssh
+    target: ssh
+    image: hassioaddons/ssh-{arch}
+  terminal:
+    repository: hassio-addons/addon-terminal
+    target: terminal
+    image: hassioaddons/terminal-{arch}
+  tor:
+    repository: hassio-addons/addon-tor
+    target: tor
+    image: hassioaddons/tor-{arch}
