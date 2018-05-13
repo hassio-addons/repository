@@ -63,19 +63,6 @@ AirPlay capabilities for your Sonos (and UPnP) devices.
 
 [:books: AirSonos add-on documentation][addon-airsonos]
 
-### &#10003; [AppDaemon2][addon-appdaemon]
-
-![Latest Version][appdaemon-version-shield]
-![Supports armhf Architecture][appdaemon-armhf-shield]
-![Supports aarch64 Architecture][appdaemon-aarch64-shield]
-![Supports amd64 Architecture][appdaemon-amd64-shield]
-![Supports i386 Architecture][appdaemon-i386-shield]
-![Docker Pulls][appdaemon-pulls-shield]
-
-Python Apps and HADashboard using AppDaemon 2.x for Home Assistant
-
-[:books: AppDaemon2 add-on documentation][addon-appdaemon]
-
 ### &#10003; [AppDaemon3][addon-appdaemon3]
 
 ![Latest Version][appdaemon3-version-shield]
@@ -255,7 +242,6 @@ on the correct GitHub repository matching the add-on.
 
 - [Open an issue for the addon: AirCast][aircast-issue]
 - [Open an issue for the addon: AirSonos][airsonos-issue]
-- [Open an issue for the addon: AppDaemon2][appdaemon-issue]
 - [Open an issue for the addon: AppDaemon3][appdaemon3-issue]
 - [Open an issue for the addon: Home Assistant Control Panel][control-panel-issue]
 - [Open an issue for the addon: Example][example-issue]
@@ -313,7 +299,6 @@ SOFTWARE.
 
 [addon-aircast]: https://github.com/hassio-addons/addon-aircast
 [addon-airsonos]: https://github.com/hassio-addons/addon-airsonos
-[addon-appdaemon]: https://github.com/hassio-addons/addon-appdaemon
 [addon-appdaemon3]: https://github.com/hassio-addons/addon-appdaemon3
 [addon-control-panel]: https://github.com/hassio-addons/addon-control-panel
 [addon-example]: https://github.com/hassio-addons/addon-example
@@ -339,13 +324,6 @@ SOFTWARE.
 [airsonos-issue]: https://github.com/hassio-addons/addon-airsonos/issues
 [airsonos-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/airsonos-armhf.svg
 [airsonos-version-shield]: https://images.microbadger.com/badges/version/hassioaddons/airsonos-armhf.svg
-[appdaemon-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
-[appdaemon-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
-[appdaemon-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
-[appdaemon-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
-[appdaemon-issue]: https://github.com/hassio-addons/addon-appdaemon/issues
-[appdaemon-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/appdaemon-armhf.svg
-[appdaemon-version-shield]: https://images.microbadger.com/badges/version/hassioaddons/appdaemon-armhf.svg
 [appdaemon3-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [appdaemon3-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [appdaemon3-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
