@@ -1,11 +1,17 @@
 {
   "name": "Terminal",
-  "version": "2.3.0",
+  "version": "2.4.0",
   "slug": "terminal",
   "description": "Terminal access to your Home Assistant instance via the web",
   "url": "https://community.home-assistant.io/t/community-hass-io-add-on-terminal/33814?u=frenck",
   "webui": "[PROTO:ssl]://[HOST]:[PORT:7681]",
   "startup": "services",
+  "arch": [
+    "aarch64",
+    "amd64",
+    "armhf",
+    "i386"
+  ],
   "boot": "auto",
   "hassio_api": true,
   "homeassistant_api": true,
@@ -37,12 +43,15 @@
     "ssl": "bool",
     "certfile": "str",
     "keyfile": "str",
-    "packages": ["str"],
-    "init_commands": ["str"]
+    "packages": [
+      "str"
+    ],
+    "init_commands": [
+      "str"
+    ]
   },
   "environment": {
-    "LOG_FORMAT": "{LEVEL}: {MESSAGE}",
-    "SUPERVISOR_VERSION": ">=0.81.0"
+    "LOG_FORMAT": "{LEVEL}: {MESSAGE}"
   },
   "image": "hassioaddons/terminal-{arch}"
 }
