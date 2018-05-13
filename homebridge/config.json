@@ -1,10 +1,16 @@
 {
   "name": "Homebridge",
-  "version": "2.4.0",
+  "version": "2.5.0",
   "slug": "homebridge",
   "description": "HomeKit support for your Home Assistant instance using Homebridge",
   "url": "https://community.home-assistant.io/t/community-hass-io-add-on-homebridge/33803?u=frenck",
   "startup": "application",
+  "arch": [
+    "aarch64",
+    "amd64",
+    "armhf",
+    "i386"
+  ],
   "boot": "auto",
   "hassio_api": true,
   "homeassistant_api": true,
@@ -20,6 +26,7 @@
     "avahi_hostname": "",
     "avahi_domainname": "local",
     "enable_ipv6": true,
+    "insecure": false,
     "packages": [],
     "init_commands": [],
     "plugins": []
@@ -30,13 +37,19 @@
     "avahi_hostname": "str",
     "avahi_domainname": "str",
     "enable_ipv6": "bool",
-    "packages": ["str"],
-    "init_commands": ["str"],
-    "plugins": ["str"]
+    "insecure": "bool",
+    "packages": [
+      "str"
+    ],
+    "init_commands": [
+      "str"
+    ],
+    "plugins": [
+      "str"
+    ]
   },
   "environment": {
-    "LOG_FORMAT": "{LEVEL}: {MESSAGE}",
-    "SUPERVISOR_VERSION": ">=0.82.0"
+    "LOG_FORMAT": "{LEVEL}: {MESSAGE}"
   },
   "image": "hassioaddons/homebridge-{arch}"
 }
