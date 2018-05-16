@@ -98,6 +98,19 @@ A secure and fast FTP server for Hass.io
 
 [:books: FTP add-on documentation][addon-doc-ftp]
 
+### &#10003; [Happy Bubbles][addon-happy-bubbles]
+
+![Latest Version][happy-bubbles-version-shield]
+![Supports armhf Architecture][happy-bubbles-armhf-shield]
+![Supports aarch64 Architecture][happy-bubbles-aarch64-shield]
+![Supports amd64 Architecture][happy-bubbles-amd64-shield]
+![Supports i386 Architecture][happy-bubbles-i386-shield]
+![Docker Pulls][happy-bubbles-pulls-shield]
+
+Presence detection server for Happy Bubbles Bluetooth beacon-based presence detection system.
+
+[:books: Happy Bubbles add-on documentation][addon-doc-happy-bubbles]
+
 ### &#10003; [Home Assistant Control Panel][addon-control-panel]
 
 ![Latest Version][control-panel-version-shield]
@@ -227,6 +240,7 @@ on the correct GitHub repository matching the add-on.
 - [Open an issue for the add-on: AppDaemon][appdaemon3-issue]
 - [Open an issue for the add-on: Example][example-issue]
 - [Open an issue for the add-on: FTP][ftp-issue]
+- [Open an issue for the add-on: Happy Bubbles][happy-bubbles-issue]
 - [Open an issue for the add-on: Home Assistant Control Panel][control-panel-issue]
 - [Open an issue for the add-on: Homebridge][homebridge-issue]
 - [Open an issue for the add-on: IDE][ide-issue]
@@ -329,6 +343,15 @@ SOFTWARE.
 [ftp-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [ftp-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [ftp-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
+[addon-happy-bubbles]: https://github.com/hassio-addons/addon-happy-bubbles/tree/v0.1.0
+[addon-doc-happy-bubbles]: https://github.com/hassio-addons/addon-happy-bubbles/blob/v0.1.0/README.md
+[happy-bubbles-issue]: https://github.com/hassio-addons/addon-happy-bubbles/issues
+[happy-bubbles-version-shield]: https://img.shields.io/badge/version-v0.1.0-blue.svg
+[happy-bubbles-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/happy-bubbles-armhf.svg
+[happy-bubbles-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[happy-bubbles-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[happy-bubbles-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
+[happy-bubbles-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [addon-control-panel]: https://github.com/hassio-addons/addon-control-panel/tree/v1.1.0
 [addon-doc-control-panel]: https://github.com/hassio-addons/addon-control-panel/blob/v1.1.0/README.md
 [control-panel-issue]: https://github.com/hassio-addons/addon-control-panel/issues
