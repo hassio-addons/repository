@@ -25,6 +25,10 @@ addons:
     repository: hassio-addons/addon-ftp
     target: ftp
     image: hassioaddons/ftp-{arch}
+  happy-bubbles:
+    repository: hassio-addons/addon-happy-bubbles
+    target: happy-bubbles
+    image: hassioaddons/happy-bubbles-{arch}
   homebridge:
     repository: hassio-addons/addon-homebridge
     target: homebridge
