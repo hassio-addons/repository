@@ -1,7 +1,12 @@
 [Full Changelog][changelog]
 
-### Added
+### Fixed
 
-- Persists presence database & settings
+- Fixes add-on running on host network
 
-[changelog]: https://github.com/hassio-addons/addon-happy-bubbles/compare/v0.1.0...v0.2.0
+### Changed
+
+- Updates Happy Bubbles Presence to v1.8.1
+- mall refactor to use new presence server options
+
+[changelog]: https://github.com/hassio-addons/addon-happy-bubbles/compare/v0.2.0...v0.3.0
