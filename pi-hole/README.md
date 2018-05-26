@@ -26,9 +26,9 @@ Alpine Linux and is using Docker.
 [discord-shield]: https://img.shields.io/discord/330944238910963714.svg
 [discord]: https://discord.gg/c5DvZ4e
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2018.svg
-[release-shield]: https://img.shields.io/badge/version-v1.1.0-blue.svg
-[release]: https://github.com/hassio-addons/addon-pi-hole/tree/v1.1.0
-[docs]: https://github.com/hassio-addons/addon-pi-hole/blob/v1.1.0/README.md
+[release-shield]: https://img.shields.io/badge/version-v1.1.1-blue.svg
+[release]: https://github.com/hassio-addons/addon-pi-hole/tree/v1.1.1
+[docs]: https://github.com/hassio-addons/addon-pi-hole/blob/v1.1.1/README.md
 [buymeacoffee-shield]: https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-2.svg
 [buymeacoffee]: https://www.buymeacoffee.com/frenck
 [pi-hole]: https://pi-hole.net/
