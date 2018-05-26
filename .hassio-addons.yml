@@ -41,6 +41,10 @@ addons:
     repository: hassio-addons/addon-pi-hole
     target: pi-hole
     image: hassioaddons/pi-hole-{arch}
+  plex:
+    repository: hassio-addons/addon-plex
+    target: plex
+    image: hassioaddons/plex-{arch}
   shinobi:
     repository: hassio-addons/addon-shinobi
     target: shinobi
