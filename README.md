@@ -163,6 +163,19 @@ Network-wide ad blocking using your Hass.io instance
 
 [:books: Pi-hole add-on documentation][addon-doc-pi-hole]
 
+### &#10003; [Plex Media Server][addon-plex]
+
+![Latest Version][plex-version-shield]
+![Supports armhf Architecture][plex-armhf-shield]
+![Supports aarch64 Architecture][plex-aarch64-shield]
+![Supports amd64 Architecture][plex-amd64-shield]
+![Supports i386 Architecture][plex-i386-shield]
+![Docker Pulls][plex-pulls-shield]
+
+Recorded media, live TV, online news, and podcasts ready to stream.
+
+[:books: Plex Media Server add-on documentation][addon-doc-plex]
+
 ### &#10003; [SSH - Secure Shell][addon-ssh]
 
 ![Latest Version][ssh-version-shield]
@@ -258,6 +271,7 @@ on the correct GitHub repository matching the add-on.
 - [Open an issue for the add-on: Homebridge][homebridge-issue]
 - [Open an issue for the add-on: IDE][ide-issue]
 - [Open an issue for the add-on: Pi-hole][pi-hole-issue]
+- [Open an issue for the add-on: Plex Media Server][plex-issue]
 - [Open an issue for the add-on: SSH - Secure Shell][ssh-issue]
 - [Open an issue for the add-on: Shinobi Pro][shinobi-issue]
 - [Open an issue for the add-on: SonWEB][sonweb-issue]
@@ -402,6 +416,15 @@ SOFTWARE.
 [pi-hole-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [pi-hole-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [pi-hole-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
+[addon-plex]: https://github.com/hassio-addons/addon-plex/tree/v0.1.0
+[addon-doc-plex]: https://github.com/hassio-addons/addon-plex/blob/v0.1.0/README.md
+[plex-issue]: https://github.com/hassio-addons/addon-plex/issues
+[plex-version-shield]: https://img.shields.io/badge/version-v0.1.0-blue.svg
+[plex-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/plex-armhf.svg
+[plex-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[plex-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[plex-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
+[plex-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [addon-ssh]: https://github.com/hassio-addons/addon-ssh/tree/v2.4.0
 [addon-doc-ssh]: https://github.com/hassio-addons/addon-ssh/blob/v2.4.0/README.md
 [ssh-issue]: https://github.com/hassio-addons/addon-ssh/issues
