@@ -56,7 +56,7 @@ Additionally, it comes out of the box with the following:
 [buymeacoffee]: https://www.buymeacoffee.com/frenck
 [discord-shield]: https://img.shields.io/discord/330944238910963714.svg
 [discord]: https://discord.gg/c5DvZ4e
-[docs]: https://github.com/hassio-addons/addon-ssh/blob/v2.4.0/README.md
+[docs]: https://github.com/hassio-addons/addon-ssh/blob/v2.4.1/README.md
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
 [forum]: https://community.home-assistant.io/t/community-hass-io-add-on-ssh/33820?u=frenck
 [hass-ssh]: https://home-assistant.io/addons/ssh/
@@ -64,8 +64,8 @@ Additionally, it comes out of the box with the following:
 [ohmyzsh]: http://ohmyz.sh/
 [openssh]: https://www.openssh.com/
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[release-shield]: https://img.shields.io/badge/version-v2.4.0-blue.svg
-[release]: https://github.com/hassio-addons/addon-ssh/tree/v2.4.0
+[release-shield]: https://img.shields.io/badge/version-v2.4.1-blue.svg
+[release]: https://github.com/hassio-addons/addon-ssh/tree/v2.4.1
 [ssh-audit-image]: https://github.com/hassio-addons/addon-ssh/raw/master/images/ssh-audit.png
 [ssh-audit]: https://github.com/arthepsy/ssh-audit
 [zsh]: https://en.wikipedia.org/wiki/Z_shell
