@@ -37,6 +37,10 @@ addons:
     repository: hassio-addons/addon-ide
     target: ide
     image: hassioaddons/ide-{arch}
+  influxdb:
+    repository: hassio-addons/addon-influxdb
+    target: influxdb
+    image: hassioaddons/influxdb-{arch}
   pi-hole:
     repository: hassio-addons/addon-pi-hole
     target: pi-hole
