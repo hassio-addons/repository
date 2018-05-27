@@ -1,0 +1,52 @@
+{
+  "name": "InfluxDB",
+  "version": "0.1.0",
+  "slug": "influxdb",
+  "description": "Scalable datastore for metrics, events, and real-time analytics",
+  "url": "https://community.home-assistant.io/t/community-hass-io-add-on-influxdb/54491?u=frenck",
+  "webui": "[PROTO:ssl]://[HOST]:[PORT:8888]",
+  "startup": "services",
+  "arch": [
+    "aarch64",
+    "amd64",
+    "armhf",
+    "i386"
+  ],
+  "map": [
+    "config:rw",
+    "share:rw",
+    "ssl"
+  ],
+  "boot": "auto",
+  "ports": {
+    "8086/tcp": 8086,
+    "8888/tcp": 8888
+  },
+  "hassio_api": true,
+  "homeassistant_api": false,
+  "host_network": false,
+  "options": {
+    "log_level": "info",
+    "username": "",
+    "password": "",
+    "auth": true,
+    "ssl": false,
+    "certfile": "fullchain.pem",
+    "keyfile": "privkey.pem",
+    "ipv6": true
+  },
+  "schema": {
+    "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)",
+    "username": "str",
+    "password": "str",
+    "auth": "bool",
+    "ssl": "bool",
+    "certfile": "str",
+    "keyfile": "str",
+    "ipv6": "bool"
+  },
+  "environment": {
+    "LOG_FORMAT": "{LEVEL}: {MESSAGE}"
+  },
+  "image": "hassioaddons/influxdb-{arch}"
+}

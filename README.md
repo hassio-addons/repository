@@ -150,6 +150,19 @@ Advanced IDE for Home Assistant, based on Cloud9 IDE
 
 [:books: IDE add-on documentation][addon-doc-ide]
 
+### &#10003; [InfluxDB][addon-influxdb]
+
+![Latest Version][influxdb-version-shield]
+![Supports armhf Architecture][influxdb-armhf-shield]
+![Supports aarch64 Architecture][influxdb-aarch64-shield]
+![Supports amd64 Architecture][influxdb-amd64-shield]
+![Supports i386 Architecture][influxdb-i386-shield]
+![Docker Pulls][influxdb-pulls-shield]
+
+Scalable datastore for metrics, events, and real-time analytics
+
+[:books: InfluxDB add-on documentation][addon-doc-influxdb]
+
 ### &#10003; [Pi-hole][addon-pi-hole]
 
 ![Latest Version][pi-hole-version-shield]
@@ -270,6 +283,7 @@ on the correct GitHub repository matching the add-on.
 - [Open an issue for the add-on: Home Assistant Control Panel][control-panel-issue]
 - [Open an issue for the add-on: Homebridge][homebridge-issue]
 - [Open an issue for the add-on: IDE][ide-issue]
+- [Open an issue for the add-on: InfluxDB][influxdb-issue]
 - [Open an issue for the add-on: Pi-hole][pi-hole-issue]
 - [Open an issue for the add-on: Plex Media Server][plex-issue]
 - [Open an issue for the add-on: SSH - Secure Shell][ssh-issue]
@@ -407,6 +421,15 @@ SOFTWARE.
 [ide-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [ide-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [ide-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
+[addon-influxdb]: https://github.com/hassio-addons/addon-influxdb/tree/v0.1.0
+[addon-doc-influxdb]: https://github.com/hassio-addons/addon-influxdb/blob/v0.1.0/README.md
+[influxdb-issue]: https://github.com/hassio-addons/addon-influxdb/issues
+[influxdb-version-shield]: https://img.shields.io/badge/version-v0.1.0-blue.svg
+[influxdb-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/influxdb-armhf.svg
+[influxdb-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[influxdb-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[influxdb-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
+[influxdb-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [addon-pi-hole]: https://github.com/hassio-addons/addon-pi-hole/tree/v1.1.1
 [addon-doc-pi-hole]: https://github.com/hassio-addons/addon-pi-hole/blob/v1.1.1/README.md
 [pi-hole-issue]: https://github.com/hassio-addons/addon-pi-hole/issues
