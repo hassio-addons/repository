@@ -25,6 +25,10 @@ addons:
     repository: hassio-addons/addon-ftp
     target: ftp
     image: hassioaddons/ftp-{arch}
+  grafana:
+    repository: hassio-addons/addon-grafana
+    target: grafana
+    image: hassioaddons/grafana-{arch}
   happy-bubbles:
     repository: hassio-addons/addon-happy-bubbles
     target: happy-bubbles
