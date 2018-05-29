@@ -98,6 +98,19 @@ A secure and fast FTP server for Hass.io
 
 [:books: FTP add-on documentation][addon-doc-ftp]
 
+### &#10003; [Grafana][addon-grafana]
+
+![Latest Version][grafana-version-shield]
+![Supports armhf Architecture][grafana-armhf-shield]
+![Supports aarch64 Architecture][grafana-aarch64-shield]
+![Supports amd64 Architecture][grafana-amd64-shield]
+![Supports i386 Architecture][grafana-i386-shield]
+![Docker Pulls][grafana-pulls-shield]
+
+The open platform for beautiful analytics and monitoring
+
+[:books: Grafana add-on documentation][addon-doc-grafana]
+
 ### &#10003; [Happy Bubbles][addon-happy-bubbles]
 
 ![Latest Version][happy-bubbles-version-shield]
@@ -279,6 +292,7 @@ on the correct GitHub repository matching the add-on.
 - [Open an issue for the add-on: AppDaemon][appdaemon3-issue]
 - [Open an issue for the add-on: Example][example-issue]
 - [Open an issue for the add-on: FTP][ftp-issue]
+- [Open an issue for the add-on: Grafana][grafana-issue]
 - [Open an issue for the add-on: Happy Bubbles][happy-bubbles-issue]
 - [Open an issue for the add-on: Home Assistant Control Panel][control-panel-issue]
 - [Open an issue for the add-on: Homebridge][homebridge-issue]
@@ -385,6 +399,15 @@ SOFTWARE.
 [ftp-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [ftp-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [ftp-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
+[addon-grafana]: https://github.com/hassio-addons/addon-grafana/tree/v0.1.0
+[addon-doc-grafana]: https://github.com/hassio-addons/addon-grafana/blob/v0.1.0/README.md
+[grafana-issue]: https://github.com/hassio-addons/addon-grafana/issues
+[grafana-version-shield]: https://img.shields.io/badge/version-v0.1.0-blue.svg
+[grafana-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/grafana-armhf.svg
+[grafana-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[grafana-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[grafana-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
+[grafana-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [addon-happy-bubbles]: https://github.com/hassio-addons/addon-happy-bubbles/tree/v0.3.0
 [addon-doc-happy-bubbles]: https://github.com/hassio-addons/addon-happy-bubbles/blob/v0.3.0/README.md
 [happy-bubbles-issue]: https://github.com/hassio-addons/addon-happy-bubbles/issues
