@@ -23,13 +23,13 @@ runtime in a single click.
 
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
-[forum]: https://community.home-assistant.io/t/?u=frenck
+[forum]: https://community.home-assistant.io/t/community-hass-io-add-on-node-red/55023?u=frenck
 [discord-shield]: https://img.shields.io/discord/330944238910963714.svg
 [discord]: https://discord.gg/c5DvZ4e
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2018.svg
-[release-shield]: https://img.shields.io/badge/version-v0.1.0-blue.svg
-[release]: https://github.com/hassio-addons/addon-node-red/tree/v0.1.0
-[docs]: https://github.com/hassio-addons/addon-node-red/blob/v0.1.0/README.md
+[release-shield]: https://img.shields.io/badge/version-v0.1.1-blue.svg
+[release]: https://github.com/hassio-addons/addon-node-red/tree/v0.1.1
+[docs]: https://github.com/hassio-addons/addon-node-red/blob/v0.1.1/README.md
 [buymeacoffee-shield]: https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-2.svg
 [buymeacoffee]: https://www.buymeacoffee.com/frenck
 [screenshot]: https://github.com/hassio-addons/addon-node-red/raw/master/images/screenshot.png

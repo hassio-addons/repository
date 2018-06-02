@@ -1,9 +1,9 @@
 {
   "name": "Node-RED",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "slug": "nodered",
   "description": "Flow-based programming for the Internet of Things",
-  "url": "https://community.home-assistant.io/?u=frenck",
+  "url": "https://community.home-assistant.io/t/community-hass-io-add-on-node-red/55023?u=frenck",
   "webui": "[PROTO:ssl]://[HOST]:[PORT:1880]",
   "startup": "application",
   "arch": [
