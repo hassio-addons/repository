@@ -29,7 +29,7 @@ runtime in a single click.
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2018.svg
 [release-shield]: https://img.shields.io/badge/version-v0.1.1-blue.svg
 [release]: https://github.com/hassio-addons/addon-node-red/tree/v0.1.1
-[docs]: https://github.com/hassio-addons/addon-node-red/blob/v0.1.1/README.md
+[docs]: https://github.com/hassio-addons/addon-node-red/blob/master/README.md
 [buymeacoffee-shield]: https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-2.svg
 [buymeacoffee]: https://www.buymeacoffee.com/frenck
 [screenshot]: https://github.com/hassio-addons/addon-node-red/raw/master/images/screenshot.png
