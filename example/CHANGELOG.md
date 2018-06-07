@@ -1,14 +1,7 @@
 [Full Changelog][changelog]
 
-### Fixed
+### Added
 
-- Fixes shellcheck warnings
+- Add legacy image location support
 
-### Changed
-
-- Moves build-env to latest
-- Upgrades base image to v1.4.2
-- Updates GitLab CI for native builds (#9)
-- Restructuring of the GitLab CI
-
-[changelog]: https://github.com/hassio-addons/addon-example/compare/v1.3.0...v1.3.1
+[changelog]: https://github.com/hassio-addons/addon-example/compare/v1.3.1...v1.3.2
