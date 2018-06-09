@@ -1,13 +1,15 @@
 {
   "name": "IDE",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "slug": "ide",
   "description": "Advanced IDE for Home Assistant, based on Cloud9 IDE",
   "url": "https://community.home-assistant.io/t/community-hass-io-add-on-ide-based-on-cloud9/33810?u=frenck",
   "webui": "[PROTO:ssl]://[HOST]:[PORT:8321]",
   "startup": "services",
   "arch": [
+    "aarch64",
     "amd64",
+    "armhf",
     "i386"
   ],
   "boot": "auto",

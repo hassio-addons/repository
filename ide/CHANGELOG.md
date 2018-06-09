@@ -2,31 +2,29 @@
 
 ### Added
 
-- Adds .yamllint configuration
-- Adds all architectures to add-on config
-- Adds Probot configuration
-- Pins down Cloud9 core version
-- Adds initial add-on README template
-- Adds Gitlab CI
+- Adds back ARM support (#13) 
+- Adds the Go-based HassioCLI
+- Adds zip
+- Adds persistent storage of user and project settings
+- Adds nmap v7.60-r2
+- Adds pwgen 2.08-r0
+- Adds sqlite v3.21.0-r1 
 
 ### Fixed
 
-- Fixes Markdownlint warning in License
-- Fixes hadolint warnings
+- Fixes typo in Dockerfile
+- Fixes BUILD_ARCH location
 
 ### Changed
 
-- Replaces Changelog with GitHub releases
-- Upgrades add-on base image to v1.4.1
-- Updates README
-- More efficient cloning of oh-my-zsh source
-- Updates forum link for add-on
-- Updates maintaince to 2018
+- Moves build-env to latest
+- Upgrades base image to v1.4.2
+- Upgrades bind-tools to 9.11.3-r0
+- Upgrades git to 2.15.2-r0
+- Improved workspace settings
 
 ### Removed
 
-- Removes CodeClimate
-- Removes CircleCI
-- Drops support for armhf and aarch64
+- Removes the old Bash-based HassioCLI
 
-[changelog]: https://github.com/hassio-addons/addon-ide/compare/v0.1.0...v0.2.0
+[changelog]: https://github.com/hassio-addons/addon-ide/compare/v0.2.0...v0.3.0
