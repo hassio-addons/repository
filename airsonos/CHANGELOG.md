@@ -1,28 +1,14 @@
 [Full Changelog][changelog]
 
-### Added
-
-- Adds .yamllint configuration
-- Adds Probot configuration
-- Adds initial add-on README template
-- Adds Gitlab CI
-
 ### Fixed
 
-- Fixes Markdownlint warning in License
-- Fixes hadolint warnings
+- Fixed incorrect base images in GitLab CI
 
 ### Changed
 
-- Replaces Changelog with GitHub releases
-- Adds all architectures to add-on config
-- Changes add-on base to Ubuntu
-- Updates README
-- Updates AirConnect to v0.2.0.8
+- Moves build-env to latest
+- Adds known issues and limitations to README
+- Upgrades Ubuntu base image to 2.0.0
+- Rewrites GitLab CI
 
-### Removed
-
-- Removes CodeClimate
-- Removes CircleCI
-
-[changelog]: https://github.com/hassio-addons/addon-airsonos/compare/v0.3.1...v0.4.0
+[changelog]: https://github.com/hassio-addons/addon-airsonos/compare/v0.4.0...v0.5.0
