@@ -43,14 +43,14 @@ update, and check your instance.
 [buymeacoffee]: https://www.buymeacoffee.com/frenck
 [discord-shield]: https://img.shields.io/discord/330944238910963714.svg
 [discord]: https://discord.gg/c5DvZ4e
-[docs]: https://github.com/hassio-addons/addon-terminal/blob/v2.4.1/README.md
+[docs]: https://github.com/hassio-addons/addon-terminal/blob/v2.5.0/README.md
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
 [forum]: https://community.home-assistant.io/t/community-hass-io-add-on-terminal/33814?u=frenck
 [hass-ssh]: https://home-assistant.io/addons/ssh/
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2018.svg
 [ohmyzsh]: http://ohmyz.sh/
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[release-shield]: https://img.shields.io/badge/version-v2.4.1-blue.svg
-[release]: https://github.com/hassio-addons/addon-terminal/tree/v2.4.1
+[release-shield]: https://img.shields.io/badge/version-v2.5.0-blue.svg
+[release]: https://github.com/hassio-addons/addon-terminal/tree/v2.5.0
 [screenshot]: https://github.com/hassio-addons/addon-terminal/raw/master/images/screenshot.png
 [zsh]: https://en.wikipedia.org/wiki/Z_shell

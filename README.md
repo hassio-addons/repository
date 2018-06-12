@@ -521,10 +521,10 @@ SOFTWARE.
 [sonweb-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [sonweb-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [sonweb-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
-[addon-terminal]: https://github.com/hassio-addons/addon-terminal/tree/v2.4.1
-[addon-doc-terminal]: https://github.com/hassio-addons/addon-terminal/blob/v2.4.1/README.md
+[addon-terminal]: https://github.com/hassio-addons/addon-terminal/tree/v2.5.0
+[addon-doc-terminal]: https://github.com/hassio-addons/addon-terminal/blob/v2.5.0/README.md
 [terminal-issue]: https://github.com/hassio-addons/addon-terminal/issues
-[terminal-version-shield]: https://img.shields.io/badge/version-v2.4.1-blue.svg
+[terminal-version-shield]: https://img.shields.io/badge/version-v2.5.0-blue.svg
 [terminal-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/terminal-armhf.svg
 [terminal-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [terminal-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
