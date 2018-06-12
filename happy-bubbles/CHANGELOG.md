@@ -1,12 +1,11 @@
 [Full Changelog][changelog]
 
-### Fixed
-
-- Fixes add-on running on host network
-
 ### Changed
 
-- Updates Happy Bubbles Presence to v1.8.1
-- mall refactor to use new presence server options
+- Moves build-env to latest
+- Upgrades base image to v1.4.2
+- Upgrades presence server to v1.8.2
+- Rewrites GitLab CI
+- Upgrades base image in GitLab CI to 1.4.2
 
-[changelog]: https://github.com/hassio-addons/addon-happy-bubbles/compare/v0.2.0...v0.3.0
+[changelog]: https://github.com/hassio-addons/addon-happy-bubbles/compare/v0.3.0...v0.4.0
