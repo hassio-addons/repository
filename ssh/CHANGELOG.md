@@ -1,9 +1,14 @@
 [Full Changelog][changelog]
 
+### Fixed
+
+- Fixes shellcheck warnings
+
 ### Changed
 
-- Updates hassio-cli to v1.3.1
-- Updates bind-tools to 9.11.3-r0
-- Updates sqlite to 3.21.0-r1
+- Moves build-env to latest
+- Upgrades base image to v1.4.2
+- Upgrades git to 2.15.2-r0
+- Rewrites GitLab CI
 
-[changelog]: https://github.com/hassio-addons/addon-ssh/compare/v2.4.0...v2.4.1
+[changelog]: https://github.com/hassio-addons/addon-ssh/compare/v2.4.1...v2.5.0
