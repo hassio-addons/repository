@@ -1,6 +1,6 @@
 {
   "name": "Grafana",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "slug": "grafana",
   "description": "The open platform for beautiful analytics and monitoring",
   "url": "https://community.home-assistant.io/t/community-hass-io-add-on-grafana/54674?u=frenck",
