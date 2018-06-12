@@ -1,11 +1,10 @@
 [Full Changelog][changelog]
 
-### Added
+### Changed
 
-- Adds support for having ha_key loaded from secrets file (#16)
+- Upgrades base image to v1.4.2
+- Upgrades base image in GitLab CI to 1.4.2
+- Rewrites GitLab CI
+- Moves build-env to latest
 
-### Fixed
-
-- Fixes expanding secrets string check
-
-[changelog]: https://github.com/hassio-addons/addon-appdaemon3/compare/v1.1.0...v1.1.1
+[changelog]: https://github.com/hassio-addons/addon-appdaemon3/compare/v1.1.1...v1.2.0
