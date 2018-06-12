@@ -1,6 +1,6 @@
 {
   "name": "Homebridge",
-  "version": "2.5.0",
+  "version": "2.6.0",
   "slug": "homebridge",
   "description": "HomeKit support for your Home Assistant instance using Homebridge",
   "url": "https://community.home-assistant.io/t/community-hass-io-add-on-homebridge/33803?u=frenck",
