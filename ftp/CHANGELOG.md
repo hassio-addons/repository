@@ -1,29 +1,14 @@
 [Full Changelog][changelog]
 
-### Added
-
-- Adds .yamllint configuration
-- Adds all architectures to add-on config
-- Adds Probot configuration
-- Adds initial add-on README template
-- Adds Gitlab CI
-
 ### Fixed
 
-- Fixes Markdownlint warning in License
-- Fixes hadolint warnings
+- Fixes jsonlint issue
 
 ### Changed
 
-- Replaces Changelog with GitHub releases
-- Upgrades add-on base image to v1.4.1
-- Updates README
-- Fixes apparmor issues on mounting resources
+- Moves build-env to latest
+- Upgrades base image to v1.4.2
+- Rewrites GitLab CI
+- Upgrades base image in GitLab CI to 1.4.2
 
-### Removed
-
-- Removes CodeClimate
-- Removes CircleCI
-- Removes supervisor version constraint from add-on config
-
-[changelog]: https://github.com/hassio-addons/addon-ftp/compare/v1.0.0...v1.1.0
+[changelog]: https://github.com/hassio-addons/addon-ftp/compare/v1.1.0...v1.2.0
