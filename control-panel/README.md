@@ -23,11 +23,11 @@ potential of your Smart devices.
 [buymeacoffee]: https://www.buymeacoffee.com/frenck
 [discord-shield]: https://img.shields.io/discord/330944238910963714.svg
 [discord]: https://discord.gg/c5DvZ4e
-[docs]: https://github.com/hassio-addons/addon-control-panel/blob/v1.2.0/README.md
+[docs]: https://github.com/hassio-addons/addon-control-panel/blob/v1.3.0/README.md
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
 [forum]: https://community.home-assistant.io/t/community-hass-io-add-on-home-assistant-control-panel/49634?u=frenck
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2018.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[release-shield]: https://img.shields.io/badge/version-v1.2.0-blue.svg
-[release]: https://github.com/hassio-addons/addon-control-panel/tree/v1.2.0
+[release-shield]: https://img.shields.io/badge/version-v1.3.0-blue.svg
+[release]: https://github.com/hassio-addons/addon-control-panel/tree/v1.3.0
 [screenshot]: https://github.com/hassio-addons/addon-control-panel/raw/master/images/screenshot.jpg

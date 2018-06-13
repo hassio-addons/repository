@@ -2,13 +2,7 @@
 
 ### Changed
 
-- Upgrades base image in GitLab CI to 1.4.2
-- Rewrites GitLab CI
-- Upgrades base image to v1.4.2
-- Moves build-env to latest
+- Upgrade HACP to the release of 2018-06-12
+- Added control panel statically to add-on
 
-### Removed
-
-- Removes old links
-
-[changelog]: https://github.com/hassio-addons/addon-control-panel/compare/v1.1.0...v1.2.0
+[changelog]: https://github.com/hassio-addons/addon-control-panel/compare/v1.2.0...v1.3.0
