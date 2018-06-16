@@ -77,3 +77,8 @@ addons:
     repository: hassio-addons/addon-tor
     target: tor
     image: hassioaddons/tor-{arch}
+  unifi:
+    repository: hassio-addons/addon-unifi
+    target: unifi
+    image: hassioaddons/unifi
+
