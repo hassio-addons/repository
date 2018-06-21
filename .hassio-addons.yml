@@ -61,9 +61,9 @@ addons:
     repository: hassio-addons/addon-shinobi
     target: shinobi
     image: hassioaddons/shinobi-{arch}
-  sonweb:
-    repository: hassio-addons/addon-sonweb
-    target: sonweb
+  tasmoadmin:
+    repository: hassio-addons/addon-tasmoadmin
+    target: tasmoadmin
     image: hassioaddons/sonweb-{arch}
   ssh:
     repository: hassio-addons/addon-ssh
