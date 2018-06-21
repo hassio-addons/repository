@@ -2,7 +2,20 @@
 
 ### Fixed
 
-- Fixes firmwares being blocked for download
-- Fixes SSL support for OTA server
+- Corrected Docker images names
+- Fixes upstream changed webroot location
+- Fixes incorrect data directory
 
-[changelog]: https://github.com/hassio-addons/addon-sonweb/compare/v0.1.0...v0.1.1
+### Changed
+
+- Rebranding to TasmoAdmin
+- Rewrites GitLab CI
+- Upgrades base image to v1.4.2
+- Upgrades git to 2.15.2-r0
+- Upgrades TasmoAdmin to v1.1.0
+
+### Removed
+
+- Removes patch, since it is no longer needed
+
+[changelog]: https://github.com/hassio-addons/addon-tasmoadmin/compare/v0.1.1...v0.2.0
