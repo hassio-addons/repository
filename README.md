@@ -241,18 +241,18 @@ Beautiful and feature-rich CCTV/NVR for your cameras
 
 [:books: Shinobi Pro add-on documentation][addon-doc-shinobi]
 
-### &#10003; [SonWEB][addon-sonweb]
+### &#10003; [TasmoAdmin][addon-tasmoadmin]
 
-![Latest Version][sonweb-version-shield]
-![Supports armhf Architecture][sonweb-armhf-shield]
-![Supports aarch64 Architecture][sonweb-aarch64-shield]
-![Supports amd64 Architecture][sonweb-amd64-shield]
-![Supports i386 Architecture][sonweb-i386-shield]
-![Docker Pulls][sonweb-pulls-shield]
+![Latest Version][tasmoadmin-version-shield]
+![Supports armhf Architecture][tasmoadmin-armhf-shield]
+![Supports aarch64 Architecture][tasmoadmin-aarch64-shield]
+![Supports amd64 Architecture][tasmoadmin-amd64-shield]
+![Supports i386 Architecture][tasmoadmin-i386-shield]
+![Docker Pulls][tasmoadmin-pulls-shield]
 
 Centrally manage all your Sonoff-Tasmota devices
 
-[:books: SonWEB add-on documentation][addon-doc-sonweb]
+[:books: TasmoAdmin add-on documentation][addon-doc-tasmoadmin]
 
 ### &#10003; [Terminal][addon-terminal]
 
@@ -329,7 +329,7 @@ on the correct GitHub repository matching the add-on.
 - [Open an issue for the add-on: Plex Media Server][plex-issue]
 - [Open an issue for the add-on: SSH - Secure Shell][ssh-issue]
 - [Open an issue for the add-on: Shinobi Pro][shinobi-issue]
-- [Open an issue for the add-on: SonWEB][sonweb-issue]
+- [Open an issue for the add-on: TasmoAdmin][tasmoadmin-issue]
 - [Open an issue for the add-on: Terminal][terminal-issue]
 - [Open an issue for the add-on: Tor][tor-issue]
 - [Open an issue for the add-on: UniFi Controller][unifi-issue]
@@ -526,15 +526,15 @@ SOFTWARE.
 [shinobi-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [shinobi-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [shinobi-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
-[addon-sonweb]: https://github.com/hassio-addons/addon-sonweb/tree/v0.1.1
-[addon-doc-sonweb]: https://github.com/hassio-addons/addon-sonweb/blob/v0.1.1/README.md
-[sonweb-issue]: https://github.com/hassio-addons/addon-sonweb/issues
-[sonweb-version-shield]: https://img.shields.io/badge/version-v0.1.1-blue.svg
-[sonweb-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/sonweb-armhf.svg
-[sonweb-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
-[sonweb-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
-[sonweb-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
-[sonweb-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
+[addon-tasmoadmin]: https://github.com/hassio-addons/addon-tasmoadmin/tree/v0.1.1
+[addon-doc-tasmoadmin]: https://github.com/hassio-addons/addon-tasmoadmin/blob/v0.1.1/README.md
+[tasmoadmin-issue]: https://github.com/hassio-addons/addon-tasmoadmin/issues
+[tasmoadmin-version-shield]: https://img.shields.io/badge/version-v0.1.1-blue.svg
+[tasmoadmin-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/sonweb-armhf.svg
+[tasmoadmin-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[tasmoadmin-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[tasmoadmin-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
+[tasmoadmin-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [addon-terminal]: https://github.com/hassio-addons/addon-terminal/tree/v2.5.0
 [addon-doc-terminal]: https://github.com/hassio-addons/addon-terminal/blob/v2.5.0/README.md
 [terminal-issue]: https://github.com/hassio-addons/addon-terminal/issues
