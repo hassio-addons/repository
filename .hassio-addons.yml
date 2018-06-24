@@ -49,6 +49,10 @@ addons:
     repository: hassio-addons/addon-node-red
     target: node-red
     image: hassioaddons/node-red-{arch}
+  octobox:
+    repository: hassio-addons/addon-octobox
+    target: octobox
+    image: hassioaddons/octobox
   pi-hole:
     repository: hassio-addons/addon-pi-hole
     target: pi-hole
