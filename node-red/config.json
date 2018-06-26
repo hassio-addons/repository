@@ -1,6 +1,6 @@
 {
   "name": "Node-RED",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "slug": "nodered",
   "description": "Flow-based programming for the Internet of Things",
   "url": "https://community.home-assistant.io/t/community-hass-io-add-on-node-red/55023?u=frenck",
@@ -16,6 +16,7 @@
   "hassio_api": true,
   "homeassistant_api": true,
   "host_network": true,
+  "auto_uart": true,
   "privileged": [],
   "map": [
     "config:rw",
