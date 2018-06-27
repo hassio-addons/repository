@@ -1,7 +1,7 @@
 [Full Changelog][changelog]
 
-### Fixed
+### Changed
 
-- Fixes a typo in the migration script
+- Upgrades TasmoAdmin to v1.3.1
 
-[changelog]: https://github.com/hassio-addons/addon-tasmoadmin/compare/v0.2.0...v0.2.1
+[changelog]: https://github.com/hassio-addons/addon-tasmoadmin/compare/v0.2.1...v0.3.0
