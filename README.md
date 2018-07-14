@@ -468,10 +468,10 @@ SOFTWARE.
 [control-panel-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [control-panel-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [control-panel-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
-[addon-homebridge]: https://github.com/hassio-addons/addon-homebridge/tree/v2.6.1
-[addon-doc-homebridge]: https://github.com/hassio-addons/addon-homebridge/blob/v2.6.1/README.md
+[addon-homebridge]: https://github.com/hassio-addons/addon-homebridge/tree/v2.7.0
+[addon-doc-homebridge]: https://github.com/hassio-addons/addon-homebridge/blob/v2.7.0/README.md
 [homebridge-issue]: https://github.com/hassio-addons/addon-homebridge/issues
-[homebridge-version-shield]: https://img.shields.io/badge/version-v2.6.1-blue.svg
+[homebridge-version-shield]: https://img.shields.io/badge/version-v2.7.0-blue.svg
 [homebridge-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/homebridge-armhf.svg
 [homebridge-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [homebridge-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
