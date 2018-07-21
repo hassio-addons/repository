@@ -9,6 +9,19 @@
 This add-on allows you to log in to your Hass.io Home Assistant instance using
 a web terminal.
 
+## Deprecation warning
+
+**This add-on is in a deprecated state!**
+
+This add-on is now deprecated and has been replaced by a different addon:
+["SSH & Web Terminal"](https://github.com/hassio-addons/addon-ssh)
+
+This new add-on combines the SSH and Terminal add-ons into one single powerful
+solution, contains the latest upgrades and updates, and provide much more tools.
+
+Please upgrade asap since this add-on won't receive any updates or upgrades
+anymore.
+
 ## About
 
 This add-on allows you to log in to your Hass.io Home Assistant instance using
@@ -43,14 +56,14 @@ update, and check your instance.
 [buymeacoffee]: https://www.buymeacoffee.com/frenck
 [discord-shield]: https://img.shields.io/discord/330944238910963714.svg
 [discord]: https://discord.gg/c5DvZ4e
-[docs]: https://github.com/hassio-addons/addon-terminal/blob/v2.5.0/README.md
+[docs]: https://github.com/hassio-addons/addon-terminal/blob/v2.5.1/README.md
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
 [forum]: https://community.home-assistant.io/t/community-hass-io-add-on-terminal/33814?u=frenck
 [hass-ssh]: https://home-assistant.io/addons/ssh/
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2018.svg
 [ohmyzsh]: http://ohmyz.sh/
-[project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[release-shield]: https://img.shields.io/badge/version-v2.5.0-blue.svg
-[release]: https://github.com/hassio-addons/addon-terminal/tree/v2.5.0
+[project-stage-shield]: https://img.shields.io/badge/project%20stage-%20!%20DEPRECATED%20%20%20!-ff0000.svg
+[release-shield]: https://img.shields.io/badge/version-v2.5.1-blue.svg
+[release]: https://github.com/hassio-addons/addon-terminal/tree/v2.5.1
 [screenshot]: https://github.com/hassio-addons/addon-terminal/raw/master/images/screenshot.png
 [zsh]: https://en.wikipedia.org/wiki/Z_shell
