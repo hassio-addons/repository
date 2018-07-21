@@ -1,6 +1,6 @@
 {
   "name": "SSH & Web Terminal",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "slug": "ssh",
   "description": "SSH & Web Terminal access to your Home Assistant instance",
   "url": "https://community.home-assistant.io/t/community-hass-io-add-on-ssh-web-terminal/33820?u=frenck",
@@ -18,7 +18,6 @@
   "host_network": true,
   "auto_uart": true,
   "audio": true,
-  "devicetree": true,
   "apparmor": false,
   "host_dbus": true,
   "privileged": [
