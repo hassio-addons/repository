@@ -1,9 +1,10 @@
 {
-  "name": "SSH - Secure Shell",
-  "version": "2.5.0",
+  "name": "SSH & Web Terminal",
+  "version": "3.0.0",
   "slug": "ssh",
-  "description": "Allows SSH connections to your Home Assistant instance",
-  "url": "https://community.home-assistant.io/t/community-hass-io-add-on-ssh/33820?u=frenck",
+  "description": "SSH & Web Terminal access to your Home Assistant instance",
+  "url": "https://community.home-assistant.io/t/community-hass-io-add-on-ssh-web-terminal/33820?u=frenck",
+  "webui": "http://[HOST]:[PORT:7681]",
   "startup": "services",
   "arch": [
     "aarch64",
@@ -15,6 +16,18 @@
   "hassio_api": true,
   "homeassistant_api": true,
   "host_network": true,
+  "auto_uart": true,
+  "audio": true,
+  "devicetree": true,
+  "apparmor": false,
+  "host_dbus": true,
+  "privileged": [
+    "NET_ADMIN",
+    "SYS_ADMIN",
+    "SYS_RAWIO",
+    "SYS_TIME",
+    "SYS_NICE"
+  ],
   "map": [
     "config:rw",
     "ssl:rw",
@@ -24,31 +37,57 @@
   ],
   "options": {
     "log_level": "info",
-    "port": 22,
-    "username": "hassio",
-    "password": "",
-    "authorized_keys": [],
-    "sftp": false,
-    "compatibility_mode": false,
-    "allow_agent_forwarding": false,
-    "allow_remote_port_forwarding": false,
-    "allow_tcp_forwarding": false,
+    "ssh": {
+      "enable": true,
+      "port": 22,
+      "username": "hassio",
+      "password": "",
+      "authorized_keys": [],
+      "sftp": false,
+      "compatibility_mode": false,
+      "allow_agent_forwarding": false,
+      "allow_remote_port_forwarding": false,
+      "allow_tcp_forwarding": false
+    },
+    "web": {
+      "enable": true,
+      "port": 7681,
+      "username": "hassio",
+      "password": "",
+      "ssl": false,
+      "certfile": "fullchain.pem",
+      "keyfile": "privkey.pem"
+    },
+    "share_sessions": true,
     "packages": [],
     "init_commands": []
   },
   "schema": {
     "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)",
-    "port": "port",
-    "username": "str",
-    "password": "str",
-    "authorized_keys": [
-      "str"
-    ],
-    "sftp": "bool",
-    "compatibility_mode": "bool",
-    "allow_agent_forwarding": "bool",
-    "allow_remote_port_forwarding": "bool",
-    "allow_tcp_forwarding": "bool",
+    "ssh": {
+      "enable": "bool",
+      "port": "port",
+      "username": "str",
+      "password": "str",
+      "authorized_keys": [
+        "str"
+      ],
+      "sftp": "bool",
+      "compatibility_mode": "bool",
+      "allow_agent_forwarding": "bool",
+      "allow_remote_port_forwarding": "bool",
+      "allow_tcp_forwarding": "bool"
+    },
+    "web": {
+      "enable": "bool",
+      "port": "port",
+      "username": "str",
+      "password": "str",
+      "ssl": "bool",
+      "certfile": "str",
+      "keyfile": "str"
+    },
+    "share_sessions": "bool",
     "packages": [
       "str"
     ],
