@@ -228,7 +228,7 @@ Recorded media, live TV, online news, and podcasts ready to stream.
 
 [:books: Plex Media Server add-on documentation][addon-doc-plex]
 
-### &#10003; [SSH - Secure Shell][addon-ssh]
+### &#10003; [SSH & Web Terminal][addon-ssh]
 
 ![Latest Version][ssh-version-shield]
 ![Supports armhf Architecture][ssh-armhf-shield]
@@ -237,9 +237,9 @@ Recorded media, live TV, online news, and podcasts ready to stream.
 ![Supports i386 Architecture][ssh-i386-shield]
 ![Docker Pulls][ssh-pulls-shield]
 
-Allows SSH connections to your Home Assistant instance
+SSH & Web Terminal access to your Home Assistant instance
 
-[:books: SSH - Secure Shell add-on documentation][addon-doc-ssh]
+[:books: SSH & Web Terminal add-on documentation][addon-doc-ssh]
 
 ### &#10003; [Shinobi Pro][addon-shinobi]
 
@@ -341,7 +341,7 @@ on the correct GitHub repository matching the add-on.
 - [Open an issue for the add-on: Octobox][octobox-issue]
 - [Open an issue for the add-on: Pi-hole][pi-hole-issue]
 - [Open an issue for the add-on: Plex Media Server][plex-issue]
-- [Open an issue for the add-on: SSH - Secure Shell][ssh-issue]
+- [Open an issue for the add-on: SSH & Web Terminal][ssh-issue]
 - [Open an issue for the add-on: Shinobi Pro][shinobi-issue]
 - [Open an issue for the add-on: TasmoAdmin][tasmoadmin-issue]
 - [Open an issue for the add-on: Terminal][terminal-issue]
