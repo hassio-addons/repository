@@ -2,16 +2,12 @@
 
 ### Added
 
-- Adds known issues and limitations to README
-
-### Fixed
-
-- Fixed incorrect base images in GitLab CI
+- Adds support for tweaking AirCast using its configuration file (#6)
+- Documents tweaking possibilities using a configuration file (#6)
 
 ### Changed
 
-- Moves build-env to latest
-- Upgrades Ubuntu base image to 2.0.0
-- Rewrites GitLab CI
+- Sets volume range to 100% (#8)
+- Upgrades airconnect/aircast to 0.2.1.1 (#9)
 
-[changelog]: https://github.com/hassio-addons/addon-aircast/compare/v0.4.0...v0.5.0
+[changelog]: https://github.com/hassio-addons/addon-aircast/compare/v0.5.0...v0.6.0
