@@ -1,14 +1,12 @@
 [Full Changelog][changelog]
 
-### Fixed
+### Added
 
-- Fixed incorrect base images in GitLab CI
+- Adds support for tweaking AirCast using its configuration file (#7)
+- Documents tweaking possibilities using a configuration file (#7)
 
 ### Changed
 
-- Moves build-env to latest
-- Adds known issues and limitations to README
-- Upgrades Ubuntu base image to 2.0.0
-- Rewrites GitLab CI
+- Upgrades airconnect/airupnp to 0.2.1.1 (#6)
 
-[changelog]: https://github.com/hassio-addons/addon-airsonos/compare/v0.4.0...v0.5.0
+[changelog]: https://github.com/hassio-addons/addon-airsonos/compare/v0.5.0...v0.6.0
