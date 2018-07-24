@@ -65,6 +65,10 @@ addons:
     repository: hassio-addons/addon-shinobi
     target: shinobi
     image: hassioaddons/shinobi-{arch}
+  spotify:
+    repository: hassio-addons/addon-spotify-connect
+    target: spotify
+    image: hassioaddons/spotify
   tasmoadmin:
     repository: hassio-addons/addon-tasmoadmin
     target: tasmoadmin
