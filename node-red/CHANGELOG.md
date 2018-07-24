@@ -1,8 +1,12 @@
 [Full Changelog][changelog]
 
-### Changed
+### Added
 
-- Downgrades the add-on back to the original node-red-contrib-home-assistant
-- Upgrades node-red-node-suncalc to version 0.0.11 (#14)
+- Adds automatic configuration of the Hassio API token
 
-[changelog]: https://github.com/hassio-addons/addon-node-red/compare/v0.3.1...v0.4.0
+### Fixed
+
+- Fixes incorrect title in add-on README template
+- Fixes shellcheck warning
+
+[changelog]: https://github.com/hassio-addons/addon-node-red/compare/v0.4.0...v0.5.0
