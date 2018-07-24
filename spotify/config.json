@@ -1,0 +1,37 @@
+{
+  "name": "Spotify Connect",
+  "version": "0.1.0",
+  "slug": "spotify",
+  "description": "Play Spotify music on your Home Assistant device",
+  "url": "https://community.home-assistant.io/t/community-hass-io-add-on-spotify-connect/61210?u=frenck",
+  "startup": "services",
+  "arch": [
+    "aarch64",
+    "amd64",
+    "armhf",
+    "i386"
+  ],
+  "boot": "auto",
+  "hassio_api": true,
+  "homeassistant_api": false,
+  "host_network": false,
+  "audio": true,
+  "options": {
+    "log_level": "info",
+    "username": "",
+    "password": "",
+    "name": "Hass.io",
+    "bitrate": 160
+  },
+  "schema": {
+    "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)",
+    "username": "str",
+    "password": "str",
+    "name": "match(^[A-Za-z0-9-.]+$)",
+    "bitrate": "match(^(96|160|320)$)"
+  },
+  "environment": {
+    "LOG_FORMAT": "{LEVEL}: {MESSAGE}"
+  },
+  "image": "hassioaddons/spotify"
+}

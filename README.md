@@ -254,6 +254,19 @@ Beautiful and feature-rich CCTV/NVR for your cameras
 
 [:books: Shinobi Pro add-on documentation][addon-doc-shinobi]
 
+### &#10003; [Spotify Connect][addon-spotify]
+
+![Latest Version][spotify-version-shield]
+![Supports armhf Architecture][spotify-armhf-shield]
+![Supports aarch64 Architecture][spotify-aarch64-shield]
+![Supports amd64 Architecture][spotify-amd64-shield]
+![Supports i386 Architecture][spotify-i386-shield]
+![Docker Pulls][spotify-pulls-shield]
+
+Play Spotify music on your Home Assistant device
+
+[:books: Spotify Connect add-on documentation][addon-doc-spotify]
+
 ### &#10003; [TasmoAdmin][addon-tasmoadmin]
 
 ![Latest Version][tasmoadmin-version-shield]
@@ -343,6 +356,7 @@ on the correct GitHub repository matching the add-on.
 - [Open an issue for the add-on: Plex Media Server][plex-issue]
 - [Open an issue for the add-on: SSH & Web Terminal][ssh-issue]
 - [Open an issue for the add-on: Shinobi Pro][shinobi-issue]
+- [Open an issue for the add-on: Spotify Connect][spotify-issue]
 - [Open an issue for the add-on: TasmoAdmin][tasmoadmin-issue]
 - [Open an issue for the add-on: Terminal][terminal-issue]
 - [Open an issue for the add-on: Tor][tor-issue]
@@ -549,6 +563,15 @@ SOFTWARE.
 [shinobi-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [shinobi-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [shinobi-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
+[addon-spotify]: https://github.com/hassio-addons/addon-spotify-connect/tree/v0.1.0
+[addon-doc-spotify]: https://github.com/hassio-addons/addon-spotify-connect/blob/v0.1.0/README.md
+[spotify-issue]: https://github.com/hassio-addons/addon-spotify-connect/issues
+[spotify-version-shield]: https://img.shields.io/badge/version-v0.1.0-blue.svg
+[spotify-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/spotify.svg
+[spotify-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[spotify-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[spotify-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
+[spotify-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [addon-tasmoadmin]: https://github.com/hassio-addons/addon-tasmoadmin/tree/v0.4.0
 [addon-doc-tasmoadmin]: https://github.com/hassio-addons/addon-tasmoadmin/blob/v0.4.0/README.md
 [tasmoadmin-issue]: https://github.com/hassio-addons/addon-tasmoadmin/issues
