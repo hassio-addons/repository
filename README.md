@@ -176,6 +176,19 @@ Scalable datastore for metrics, events, and real-time analytics
 
 [:books: InfluxDB add-on documentation][addon-doc-influxdb]
 
+### &#10003; [Lovelace Migration][addon-lovelace-migration]
+
+![Latest Version][lovelace-migration-version-shield]
+![Supports armhf Architecture][lovelace-migration-armhf-shield]
+![Supports aarch64 Architecture][lovelace-migration-aarch64-shield]
+![Supports amd64 Architecture][lovelace-migration-amd64-shield]
+![Supports i386 Architecture][lovelace-migration-i386-shield]
+![Docker Pulls][lovelace-migration-pulls-shield]
+
+Automatically convert your existing UI to the new Lovelace UI
+
+[:books: Lovelace Migration add-on documentation][addon-doc-lovelace-migration]
+
 ### &#10003; [Node-RED][addon-node-red]
 
 ![Latest Version][node-red-version-shield]
@@ -350,6 +363,7 @@ on the correct GitHub repository matching the add-on.
 - [Open an issue for the add-on: Homebridge][homebridge-issue]
 - [Open an issue for the add-on: IDE][ide-issue]
 - [Open an issue for the add-on: InfluxDB][influxdb-issue]
+- [Open an issue for the add-on: Lovelace Migration][lovelace-migration-issue]
 - [Open an issue for the add-on: Node-RED][node-red-issue]
 - [Open an issue for the add-on: Octobox][octobox-issue]
 - [Open an issue for the add-on: Pi-hole][pi-hole-issue]
@@ -509,6 +523,15 @@ SOFTWARE.
 [influxdb-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [influxdb-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [influxdb-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
+[addon-lovelace-migration]: https://github.com/hassio-addons/addon-lovelace-migration/tree/v0.1.0
+[addon-doc-lovelace-migration]: https://github.com/hassio-addons/addon-lovelace-migration/blob/v0.1.0/README.md
+[lovelace-migration-issue]: https://github.com/hassio-addons/addon-lovelace-migration/issues
+[lovelace-migration-version-shield]: https://img.shields.io/badge/version-v0.1.0-blue.svg
+[lovelace-migration-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/lovelace-migration.svg
+[lovelace-migration-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[lovelace-migration-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[lovelace-migration-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
+[lovelace-migration-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [addon-node-red]: https://github.com/hassio-addons/addon-node-red/tree/v0.5.0
 [addon-doc-node-red]: https://github.com/hassio-addons/addon-node-red/blob/v0.5.0/README.md
 [node-red-issue]: https://github.com/hassio-addons/addon-node-red/issues
