@@ -30,8 +30,8 @@ are automatically created and maintained.
 [discord]: https://discord.gg/c5DvZ4e
 [lovelace-docs]: https://www.home-assistant.io/lovelace/
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2018.svg
-[release-shield]: https://img.shields.io/badge/version-v0.1.0-blue.svg
-[release]: https://github.com/hassio-addons/addon-lovelace-migration/tree/v0.1.0
-[docs]: https://github.com/hassio-addons/addon-lovelace-migration/blob/v0.1.0/README.md
+[release-shield]: https://img.shields.io/badge/version-v0.1.1-blue.svg
+[release]: https://github.com/hassio-addons/addon-lovelace-migration/tree/v0.1.1
+[docs]: https://github.com/hassio-addons/addon-lovelace-migration/blob/v0.1.1/README.md
 [buymeacoffee-shield]: https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-2.svg
 [buymeacoffee]: https://www.buymeacoffee.com/dale3h
