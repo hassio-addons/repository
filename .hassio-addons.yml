@@ -45,6 +45,10 @@ addons:
     repository: hassio-addons/addon-influxdb
     target: influxdb
     image: hassioaddons/influxdb-{arch}
+  log-viewer:
+    repository: hassio-addons/addon-log-viewer
+    target: log-viewer
+    image: hassioaddons/log-viewer
   lovelace-migration:
     repository: hassio-addons/addon-lovelace-migration
     target: lovelace-migration
