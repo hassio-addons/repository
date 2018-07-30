@@ -2,11 +2,11 @@
 
 ### Added
 
-- Adds bluez tools for Bluetooth
+- Adds mouse support
+- Adds \ as extra keybind for horizontal split in tmux
 
-### Changed
+### Fixed
 
-- Upgrades openssl to 1.0.2o-r2
-- Upgrades zip to 3.0-r6
+- Fixes creating extra windows/panes in tmux
 
-[changelog]: https://github.com/hassio-addons/addon-ssh/compare/v3.0.1...v3.1.0
+[changelog]: https://github.com/hassio-addons/addon-ssh/compare/v3.1.0...v3.2.0
