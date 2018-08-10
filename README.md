@@ -124,19 +124,6 @@ Presence detection server for Happy Bubbles Bluetooth beacon-based presence dete
 
 [:books: Happy Bubbles add-on documentation][addon-doc-happy-bubbles]
 
-### &#10003; [Home Assistant Control Panel][addon-control-panel]
-
-![Latest Version][control-panel-version-shield]
-![Supports armhf Architecture][control-panel-armhf-shield]
-![Supports aarch64 Architecture][control-panel-aarch64-shield]
-![Supports amd64 Architecture][control-panel-amd64-shield]
-![Supports i386 Architecture][control-panel-i386-shield]
-![Docker Pulls][control-panel-pulls-shield]
-
-Simple to use control panel for the ultimate home automation setup
-
-[:books: Home Assistant Control Panel add-on documentation][addon-doc-control-panel]
-
 ### &#10003; [Homebridge][addon-homebridge]
 
 ![Latest Version][homebridge-version-shield]
@@ -359,7 +346,6 @@ on the correct GitHub repository matching the add-on.
 - [Open an issue for the add-on: FTP][ftp-issue]
 - [Open an issue for the add-on: Grafana][grafana-issue]
 - [Open an issue for the add-on: Happy Bubbles][happy-bubbles-issue]
-- [Open an issue for the add-on: Home Assistant Control Panel][control-panel-issue]
 - [Open an issue for the add-on: Homebridge][homebridge-issue]
 - [Open an issue for the add-on: IDE][ide-issue]
 - [Open an issue for the add-on: InfluxDB][influxdb-issue]
@@ -487,15 +473,6 @@ SOFTWARE.
 [happy-bubbles-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [happy-bubbles-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [happy-bubbles-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
-[addon-control-panel]: https://github.com/hassio-addons/addon-control-panel/tree/v1.3.0
-[addon-doc-control-panel]: https://github.com/hassio-addons/addon-control-panel/blob/v1.3.0/README.md
-[control-panel-issue]: https://github.com/hassio-addons/addon-control-panel/issues
-[control-panel-version-shield]: https://img.shields.io/badge/version-v1.3.0-blue.svg
-[control-panel-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/control-panel-armhf.svg
-[control-panel-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
-[control-panel-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
-[control-panel-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
-[control-panel-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [addon-homebridge]: https://github.com/hassio-addons/addon-homebridge/tree/v2.7.0
 [addon-doc-homebridge]: https://github.com/hassio-addons/addon-homebridge/blob/v2.7.0/README.md
 [homebridge-issue]: https://github.com/hassio-addons/addon-homebridge/issues

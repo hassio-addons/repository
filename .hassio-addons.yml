@@ -13,10 +13,6 @@ addons:
     repository: hassio-addons/addon-appdaemon3
     target: appdaemon
     image: hassioaddons/appdaemon3-{arch}
-  control-panel:
-    repository: hassio-addons/addon-control-panel
-    target: control-panel
-    image: hassioaddons/control-panel-{arch}
   example:
     repository: hassio-addons/addon-example
     target: example
