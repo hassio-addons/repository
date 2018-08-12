@@ -77,10 +77,6 @@ addons:
     repository: hassio-addons/addon-ssh
     target: ssh
     image: hassioaddons/ssh-{arch}
-  terminal:
-    repository: hassio-addons/addon-terminal
-    target: terminal
-    image: hassioaddons/terminal-{arch}
   tor:
     repository: hassio-addons/addon-tor
     target: tor

@@ -280,19 +280,6 @@ Centrally manage all your Sonoff-Tasmota devices
 
 [:books: TasmoAdmin add-on documentation][addon-doc-tasmoadmin]
 
-### &#10003; [Terminal][addon-terminal]
-
-![Latest Version][terminal-version-shield]
-![Supports armhf Architecture][terminal-armhf-shield]
-![Supports aarch64 Architecture][terminal-aarch64-shield]
-![Supports amd64 Architecture][terminal-amd64-shield]
-![Supports i386 Architecture][terminal-i386-shield]
-![Docker Pulls][terminal-pulls-shield]
-
-Terminal access to your Home Assistant instance via the web
-
-[:books: Terminal add-on documentation][addon-doc-terminal]
-
 ### &#10003; [Tor][addon-tor]
 
 ![Latest Version][tor-version-shield]
@@ -358,7 +345,6 @@ on the correct GitHub repository matching the add-on.
 - [Open an issue for the add-on: Shinobi Pro][shinobi-issue]
 - [Open an issue for the add-on: Spotify Connect][spotify-issue]
 - [Open an issue for the add-on: TasmoAdmin][tasmoadmin-issue]
-- [Open an issue for the add-on: Terminal][terminal-issue]
 - [Open an issue for the add-on: Tor][tor-issue]
 - [Open an issue for the add-on: UniFi Controller][unifi-issue]
 
@@ -581,15 +567,6 @@ SOFTWARE.
 [tasmoadmin-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [tasmoadmin-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [tasmoadmin-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
-[addon-terminal]: https://github.com/hassio-addons/addon-terminal/tree/v2.5.1
-[addon-doc-terminal]: https://github.com/hassio-addons/addon-terminal/blob/v2.5.1/README.md
-[terminal-issue]: https://github.com/hassio-addons/addon-terminal/issues
-[terminal-version-shield]: https://img.shields.io/badge/version-v2.5.1-blue.svg
-[terminal-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/terminal-armhf.svg
-[terminal-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
-[terminal-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
-[terminal-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
-[terminal-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [addon-tor]: https://github.com/hassio-addons/addon-tor/tree/v1.4.0
 [addon-doc-tor]: https://github.com/hassio-addons/addon-tor/blob/v1.4.0/README.md
 [tor-issue]: https://github.com/hassio-addons/addon-tor/issues
