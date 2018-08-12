@@ -6,6 +6,8 @@
 
 [![Buy me a coffee][buymeacoffee-shield]][buymeacoffee]
 
+[![Support my work on Patreon][patreon-shield]][patreon]
+
 This add-on allows you to log in to your Hass.io Home Assistant instance using
 SSH or by using the Web Terminal.
 
@@ -38,13 +40,15 @@ well. Additionally, it comes out of the box with the following:
   - Many more security tweaks, *this addon passes all [ssh-audit] checks
     without warnings!*
     ![Result of SSH-Audit][ssh-audit-image]
+- Passwords are checked with HaveIBeenPwned using K-anonymity.
 - Comes with an SSH compatibility mode option to allow older clients to connect.
+- Support for Mosh allowing roaming and supports intermittent connectivity.
 - SFTP support is disabled by default but is user configurable.
 - Compatible if Hass.io was installed via the generic Linux installer.
 - Username is configurable, so `root` is no longer mandatory.
 - Persists custom SSH client settings & keys between add-on restarts
 - Log levels for allowing you to triage issues easier.
-- Hardware access to your audio and uart/serial devices.
+- Hardware access to your audio, uart/serial devices and GPIO pins.
 - Runs with more privileges, allowing you to debug and test more situations.
 - Has access to the dbus of the host system.
 - Runs on host level network, allowing you to open ports or run little daemons.
@@ -63,19 +67,21 @@ well. Additionally, it comes out of the box with the following:
 
 [buymeacoffee-shield]: https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-2.svg
 [buymeacoffee]: https://www.buymeacoffee.com/frenck
-[discord-shield]: https://img.shields.io/discord/330944238910963714.svg
-[discord]: https://discord.gg/c5DvZ4e
-[docs]: https://github.com/hassio-addons/addon-ssh/blob/v3.2.0/README.md
+[discord-shield]: https://img.shields.io/discord/478094546522079232.svg
+[discord]: https://discord.me/hassioaddons
+[docs]: https://github.com/hassio-addons/addon-ssh/blob/v3.3.0/README.md
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
 [forum]: https://community.home-assistant.io/t/community-hass-io-add-on-ssh-web-terminal/33820?u=frenck
 [hass-ssh]: https://home-assistant.io/addons/ssh/
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2018.svg
 [ohmyzsh]: http://ohmyz.sh/
 [openssh]: https://www.openssh.com/
+[patreon-shield]: https://www.frenck.nl/images/patreon.png
+[patreon]: https://www.patreon.com/frenck
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[release-shield]: https://img.shields.io/badge/version-v3.2.0-blue.svg
-[release]: https://github.com/hassio-addons/addon-ssh/tree/v3.2.0
+[release-shield]: https://img.shields.io/badge/version-v3.3.0-blue.svg
+[release]: https://github.com/hassio-addons/addon-ssh/tree/v3.3.0
+[screenshot]: https://github.com/hassio-addons/addon-ssh/raw/master/images/screenshot.png
 [ssh-audit-image]: https://github.com/hassio-addons/addon-ssh/raw/master/images/ssh-audit.png
 [ssh-audit]: https://github.com/arthepsy/ssh-audit
 [zsh]: https://en.wikipedia.org/wiki/Z_shell
-[screenshot]: https://github.com/hassio-addons/addon-ssh/raw/master/images/screenshot.png

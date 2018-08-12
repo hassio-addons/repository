@@ -1,10 +1,10 @@
 {
   "name": "SSH & Web Terminal",
-  "version": "3.2.0",
+  "version": "3.3.0",
   "slug": "ssh",
   "description": "SSH & Web Terminal access to your Home Assistant instance",
   "url": "https://community.home-assistant.io/t/community-hass-io-add-on-ssh-web-terminal/33820?u=frenck",
-  "webui": "http://[HOST]:[PORT:7681]",
+  "webui": "https://[HOST]:[PORT:7681]",
   "startup": "services",
   "arch": [
     "aarch64",
@@ -17,6 +17,7 @@
   "homeassistant_api": true,
   "host_network": true,
   "auto_uart": true,
+  "gpio": true,
   "audio": true,
   "apparmor": false,
   "host_dbus": true,
@@ -53,7 +54,7 @@
       "port": 7681,
       "username": "hassio",
       "password": "",
-      "ssl": false,
+      "ssl": true,
       "certfile": "fullchain.pem",
       "keyfile": "privkey.pem"
     },
@@ -92,7 +93,9 @@
     ],
     "init_commands": [
       "str"
-    ]
+    ],
+    "i_like_to_be_pwned": "bool?",
+    "leave_front_door_open": "bool?"
   },
   "environment": {
     "LOG_FORMAT": "{LEVEL}: {MESSAGE}"
