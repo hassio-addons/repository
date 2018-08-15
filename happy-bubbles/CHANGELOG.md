@@ -1,9 +1,18 @@
 [Full Changelog][changelog]
 
+### Added 
+
+- Adds support for using secrets
+
+### Fixed
+
+- Fixes Markdownlint warnings
+
 ### Changed
 
-- Upgrades base image to v2.0.1
-- Upgrades nginx to 1.14.0-r0
-- Updates project badges to production ready
+- Enables SSL by default
+- Upgrades hadolint to latest
+- Upgrades base image to v2.1.1
+- Updates README and links
 
-[changelog]: https://github.com/hassio-addons/addon-happy-bubbles/compare/v0.4.1...v1.0.0
+[changelog]: https://github.com/hassio-addons/addon-happy-bubbles/compare/v1.0.0...v1.1.0
