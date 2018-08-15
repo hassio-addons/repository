@@ -1,6 +1,6 @@
 {
   "name": "AirSonos",
-  "version": "0.6.0",
+  "version": "1.0.0",
   "slug": "airsonos",
   "description": "AirPlay capabilities for your Sonos (and UPnP) devices.",
   "url": "https://community.home-assistant.io/t/community-hass-io-add-on-airsonos/36796?u=frenck",
