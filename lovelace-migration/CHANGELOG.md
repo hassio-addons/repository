@@ -1,7 +1,8 @@
 [Full Changelog][changelog]
 
-### Fixed
+### Changed
 
-- Fixes automatic backup
+- Upgrades base image to v2.1.1
+- Updates README and links
 
-[changelog]: https://github.com/hassio-addons/addon-lovelace-migration/compare/v0.1.0...v0.1.1
+[changelog]: https://github.com/hassio-addons/addon-lovelace-migration/compare/v0.1.1...v0.2.0
