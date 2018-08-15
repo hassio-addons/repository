@@ -1,11 +1,12 @@
 [Full Changelog][changelog]
 
-### Added
-
-- Adds support for setting custom environment variables (#5)
-
 ### Changed
 
-- Upgrades Grafana to 5.2.2
+- Upgrades hadolint to latest
+- Upgrades base image to v2.1.0
+- Sets default Shell
+- Less aggressive cleanup
+- Enables SSL by default
+- Updates README and links
 
-[changelog]: https://github.com/hassio-addons/addon-grafana/compare/v0.2.0...v0.3.0
+[changelog]: https://github.com/hassio-addons/addon-grafana/compare/v0.3.0...v1.0.0

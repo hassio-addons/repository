@@ -1,6 +1,6 @@
 {
   "name": "Grafana",
-  "version": "0.3.0",
+  "version": "1.0.0",
   "slug": "grafana",
   "description": "The open platform for beautiful analytics and monitoring",
   "url": "https://community.home-assistant.io/t/community-hass-io-add-on-grafana/54674?u=frenck",
@@ -23,7 +23,7 @@
   "host_network": false,
   "options": {
     "log_level": "info",
-    "ssl": false,
+    "ssl": true,
     "certfile": "fullchain.pem",
     "keyfile": "privkey.pem",
     "plugins": [],
