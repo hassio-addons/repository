@@ -1,13 +1,8 @@
 [Full Changelog][changelog]
 
-### Fixed
-
-- Fixes hadolint warning
-
 ### Changed
 
-- Upgrades base image to v2.0.0
-- Upgrades Hadolint to latest version
-- Upgrades coreutils to 8.29-r2
+- Upgrades base image to v2.1.1
+- Updates README and links
 
-[changelog]: https://github.com/hassio-addons/addon-example/compare/v1.3.3...v1.4.0
+[changelog]: https://github.com/hassio-addons/addon-example/compare/v1.4.0...v1.5.0
