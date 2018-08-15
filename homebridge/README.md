@@ -6,6 +6,8 @@
 
 [![Buy me a coffee][buymeacoffee-shield]][buymeacoffee]
 
+[![Support my work on Patreon][patreon-shield]][patreon]
+
 This add-on provides the installation, configuration, and integration for
 [Homebridge][homebridge].
 
@@ -44,15 +46,17 @@ HomeKit at all. For instance, you could say:
 
 [Click here for the full documentation][docs]
 
-[project-stage-shield]: https://img.shields.io/badge/project%20stage-%20!%20DEPRECATED%20%20%20!-ff0000.svg
-[forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
-[forum]: https://community.home-assistant.io/t/community-hass-io-add-on-homebridge/33803?u=frenck
-[discord-shield]: https://img.shields.io/discord/330944238910963714.svg
-[discord]: https://discord.gg/c5DvZ4e
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2018.svg
-[release-shield]: https://img.shields.io/badge/version-v2.7.0-blue.svg
-[release]: https://github.com/hassio-addons/addon-homebridge/tree/v2.7.0
-[docs]: https://github.com/hassio-addons/addon-homebridge/blob/v2.7.0/README.md
 [buymeacoffee-shield]: https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-2.svg
 [buymeacoffee]: https://www.buymeacoffee.com/frenck
+[discord-shield]: https://img.shields.io/discord/478094546522079232.svg
+[discord]: https://discord.me/hassioaddons
+[docs]: https://github.com/hassio-addons/addon-homebridge/blob/v2.8.0/README.md
+[forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
+[forum]: https://community.home-assistant.io/t/community-hass-io-add-on-homebridge/33803?u=frenck
 [homebridge]: https://github.com/nfarina/homebridge
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2018.svg
+[patreon-shield]: https://www.frenck.nl/images/patreon.png
+[patreon]: https://www.patreon.com/frenck
+[project-stage-shield]: https://img.shields.io/badge/project%20stage-%20!%20DEPRECATED%20%20%20!-ff0000.svg
+[release-shield]: https://img.shields.io/badge/version-v2.8.0-blue.svg
+[release]: https://github.com/hassio-addons/addon-homebridge/tree/v2.8.0
