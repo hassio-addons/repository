@@ -1,1 +1,1 @@
-Initial release 🎉
+🚑 Fixes Safari
