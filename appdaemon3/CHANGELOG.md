@@ -1,11 +1,15 @@
 [Full Changelog][changelog]
 
+### Fixed
+
+- Fixes YAMLlint error
+- Fixes incorrect processing of Hassio API token
+
 ### Changed
 
-- Upgrades base image to v2.0.0
-- Upgrades Hadolint to the latest version
-- Upgrades gcc to 6.4.0-r8
-- Upgrades python to 3.6.4-r1
-- Upgrades base image to v2.0.1
+- Upgrades Base image to 2.1.1
+- Replaces Python yq with yq from base image
+- Sets default shell
+- Updates README and links
 
-[changelog]: https://github.com/hassio-addons/addon-appdaemon3/compare/v1.2.0...v1.3.0
+[changelog]: https://github.com/hassio-addons/addon-appdaemon3/compare/v1.3.0...v1.4.0
