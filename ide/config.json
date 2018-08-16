@@ -1,6 +1,6 @@
 {
   "name": "IDE",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "slug": "ide",
   "description": "Advanced IDE for Home Assistant, based on Cloud9 IDE",
   "url": "https://community.home-assistant.io/t/community-hass-io-add-on-ide-based-on-cloud9/33810?u=frenck",
@@ -30,7 +30,7 @@
     "log_level": "info",
     "username": "",
     "password": "",
-    "ssl": false,
+    "ssl": true,
     "certfile": "fullchain.pem",
     "keyfile": "privkey.pem",
     "packages": [],
@@ -48,7 +48,9 @@
     ],
     "init_commands": [
       "str"
-    ]
+    ],
+    "i_like_to_be_pwned": "bool?",
+    "leave_front_door_open": "bool?"
   },
   "environment": {
     "LOG_FORMAT": "{LEVEL}: {MESSAGE}"
