@@ -163,6 +163,19 @@ Scalable datastore for metrics, events, and real-time analytics
 
 [:books: InfluxDB add-on documentation][addon-doc-influxdb]
 
+### &#10003; [Log Viewer][addon-log-viewer]
+
+![Latest Version][log-viewer-version-shield]
+![Supports armhf Architecture][log-viewer-armhf-shield]
+![Supports aarch64 Architecture][log-viewer-aarch64-shield]
+![Supports amd64 Architecture][log-viewer-amd64-shield]
+![Supports i386 Architecture][log-viewer-i386-shield]
+![Docker Pulls][log-viewer-pulls-shield]
+
+Browser-based log utility for Hass.io
+
+[:books: Log Viewer add-on documentation][addon-doc-log-viewer]
+
 ### &#10003; [Lovelace Migration][addon-lovelace-migration]
 
 ![Latest Version][lovelace-migration-version-shield]
@@ -337,6 +350,7 @@ on the correct GitHub repository matching the add-on.
 - [Open an issue for the add-on: Homebridge][homebridge-issue]
 - [Open an issue for the add-on: IDE][ide-issue]
 - [Open an issue for the add-on: InfluxDB][influxdb-issue]
+- [Open an issue for the add-on: Log Viewer][log-viewer-issue]
 - [Open an issue for the add-on: Lovelace Migration][lovelace-migration-issue]
 - [Open an issue for the add-on: Node-RED][node-red-issue]
 - [Open an issue for the add-on: Octobox][octobox-issue]
@@ -487,6 +501,15 @@ SOFTWARE.
 [influxdb-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [influxdb-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [influxdb-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
+[addon-log-viewer]: https://github.com/hassio-addons/addon-log-viewer/tree/v0.1.0
+[addon-doc-log-viewer]: https://github.com/hassio-addons/addon-log-viewer/blob/v0.1.0/README.md
+[log-viewer-issue]: https://github.com/hassio-addons/addon-log-viewer/issues
+[log-viewer-version-shield]: https://img.shields.io/badge/version-v0.1.0-blue.svg
+[log-viewer-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/log-viewer.svg
+[log-viewer-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[log-viewer-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[log-viewer-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
+[log-viewer-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [addon-lovelace-migration]: https://github.com/hassio-addons/addon-lovelace-migration/tree/v0.2.0
 [addon-doc-lovelace-migration]: https://github.com/hassio-addons/addon-lovelace-migration/blob/v0.2.0/README.md
 [lovelace-migration-issue]: https://github.com/hassio-addons/addon-lovelace-migration/issues
