@@ -1,6 +1,6 @@
 {
   "name": "InfluxDB",
-  "version": "0.3.0",
+  "version": "1.0.0",
   "slug": "influxdb",
   "description": "Scalable datastore for metrics, events, and real-time analytics",
   "url": "https://community.home-assistant.io/t/community-hass-io-add-on-influxdb/54491?u=frenck",
@@ -30,7 +30,7 @@
     "username": "",
     "password": "",
     "auth": true,
-    "ssl": false,
+    "ssl": true,
     "certfile": "fullchain.pem",
     "keyfile": "privkey.pem",
     "ipv6": true
@@ -43,7 +43,9 @@
     "ssl": "bool",
     "certfile": "str",
     "keyfile": "str",
-    "ipv6": "bool"
+    "ipv6": "bool",
+    "i_like_to_be_pwned": "bool?",
+    "leave_front_door_open": "bool?"
   },
   "environment": {
     "LOG_FORMAT": "{LEVEL}: {MESSAGE}"
