@@ -1,6 +1,6 @@
 {
   "name": "Node-RED",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "slug": "nodered",
   "description": "Flow-based programming for the Internet of Things",
   "url": "https://community.home-assistant.io/t/community-hass-io-add-on-node-red/55023?u=frenck",
@@ -17,7 +17,14 @@
   "homeassistant_api": true,
   "host_network": true,
   "auto_uart": true,
-  "privileged": [],
+  "gpio": true,
+  "privileged": [
+    "SYS_RAWIO"
+  ],
+  "devices": [
+    "/dev/mem:/dev/mem:rwm"
+  ],
+  "apparmor": false,
   "map": [
     "config:rw",
     "share:rw",
@@ -28,8 +35,8 @@
     "credential_secret": "",
     "users": [
       {
-        "username": "MarryPoppins",
-        "password": "Supercalifragilisticexpialidocious",
+        "username": "",
+        "password": "",
         "permissions": "*"
       }
     ],
@@ -42,7 +49,7 @@
       "password": ""
     },
     "port": 1880,
-    "ssl": false,
+    "ssl": true,
     "certfile": "fullchain.pem",
     "keyfile": "privkey.pem",
     "require_ssl": true,
@@ -81,7 +88,9 @@
     ],
     "init_commands": [
       "str"
-    ]
+    ],
+    "i_like_to_be_pwned": "bool?",
+    "leave_front_door_open": "bool?"
   },
   "environment": {
     "LOG_FORMAT": "{LEVEL}: {MESSAGE}"
