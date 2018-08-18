@@ -2,11 +2,10 @@
 
 ### Changed
 
-- Upgrades TasmoAdmin to 1.5.4
-- GitLab CI now using the latest Hadolint
-- Upgrades base image to v2.0.1
-- Upgrades nginx to 1.14.0-r0
-- Upgrades php to 7.2.7-r0
-- Upgrades git to 2.18.0-r0
+- Upgrades base image to v2.1.1
+- Updates README and links
+- Enables SSL by default
+- Upgrades PHP to 7.2.8-r1
+- Sets default Shell
 
-[changelog]: https://github.com/hassio-addons/addon-tasmoadmin/compare/v0.3.0...v0.4.0
+[changelog]: https://github.com/hassio-addons/addon-tasmoadmin/compare/v0.4.0...v0.5.0
