@@ -6,6 +6,8 @@
 
 [![Buy me a coffee][buymeacoffee-shield]][buymeacoffee]
 
+[![Support my work on Patreon][patreon-shield]][patreon]
+
 The UniFi Controller allows you to manage your UniFi network
 using a web browser.
 
@@ -25,13 +27,15 @@ Raspberry Pi.
 
 [buymeacoffee-shield]: https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-2.svg
 [buymeacoffee]: https://www.buymeacoffee.com/frenck
-[discord-shield]: https://img.shields.io/discord/330944238910963714.svg
-[discord]: https://discord.gg/c5DvZ4e
-[docs]: https://github.com/hassio-addons/addon-unifi/blob/v0.1.3/README.md
+[discord-shield]: https://img.shields.io/discord/478094546522079232.svg
+[discord]: https://discord.me/hassioaddons
+[docs]: https://github.com/hassio-addons/addon-unifi/blob/v0.2.0/README.md
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
 [forum]: https://community.home-assistant.io/t/community-hass-io-add-on-unifi-controller/56297?u=frenck
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2018.svg
+[patreon-shield]: https://www.frenck.nl/images/patreon.png
+[patreon]: https://www.patreon.com/frenck
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
-[release-shield]: https://img.shields.io/badge/version-v0.1.3-blue.svg
-[release]: https://github.com/hassio-addons/addon-unifi/tree/v0.1.3
+[release-shield]: https://img.shields.io/badge/version-v0.2.0-blue.svg
+[release]: https://github.com/hassio-addons/addon-unifi/tree/v0.2.0
 [screenshot]: https://github.com/hassio-addons/addon-unifi/raw/master/images/screenshot.jpg
