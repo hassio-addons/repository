@@ -2,19 +2,17 @@
 
 ### Changed
 
-- Upgrades base image to v2.0.1
-- Upgrades autoconf to 2.69-r2
-- Upgrades curl-dev to 7.61.0-r0
-- Upgrades gcc g++ to 6.4.0-r8
-- Upgrades libsass to 3.5.4-r0
-- Upgrades libxml2 to 2.9.8-r0
-- Upgrades libxslt to 1.1.32-r0
-- Upgrades make to 4.2.1-r2
-- Upgrades MariaDB-dev to 10.2.15-r0
-- Upgrades apache2-utils to 2.4.33-r1
-- Upgrades git to 2.18.0-r0
-- Upgrades nginx to 1.14.0-r0
-- Upgrades nodejs to 8.11.3-r1
-- Get ruby from release repo
+- Upgrades base image to v2.1.2
+- Upgrades postgresql to 10.5-r0
+- Upgrades ruby-bundler to 1.16.2-r1
+- Sets default Shell
+- Upgrades hadolint to latest
+- Enables SSL by default
+- Enforces authentication and HaveIBeenPwned checks
+- Updates README and links
+- Upgrades NodeJS to 8.11.4-r0
+- Upgrades Octobox to bdd77e9
+- Fixes Postgres file permissions issue (#2)
+- Upgrades apache2-utils to 2.4.34-r0
 
-[changelog]: https://github.com/hassio-addons/addon-octobox/compare/v0.1.1...v0.2.0
+[changelog]: https://github.com/hassio-addons/addon-octobox/compare/v0.2.0...v0.3.0

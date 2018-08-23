@@ -1,6 +1,6 @@
 {
   "name": "Octobox",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "slug": "octobox",
   "description": "Take back control of your GitHub notifications",
   "url": "https://community.home-assistant.io/t/community-hass-io-add-on-octobox/57695?u=frenck",
@@ -28,7 +28,7 @@
     "github_client_secret": "",
     "username": "",
     "password": "",
-    "ssl": false,
+    "ssl": true,
     "certfile": "fullchain.pem",
     "keyfile": "privkey.pem",
     "sync_timeout": 600,
@@ -56,7 +56,9 @@
     "github_restrict_access": "bool",
     "github_organization_id": "int",
     "github_team_id": "int",
-    "ipv6": "bool"
+    "ipv6": "bool",
+    "i_like_to_be_pwned": "bool?",
+    "leave_front_door_open": "bool?"
   },
   "environment": {
     "LOG_FORMAT": "{LEVEL}: {MESSAGE}"
