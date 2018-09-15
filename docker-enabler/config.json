@@ -1,6 +1,6 @@
 {
   "name": "Docker Enabler",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "slug": "docker-enabler",
   "description": "Grants an add-on access to the Docker socket",
   "url": "https://github.com/hassio-addons/addon-docker-enabler",
