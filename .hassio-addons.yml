@@ -81,6 +81,10 @@ addons:
     repository: hassio-addons/addon-tasmoadmin
     target: tasmoadmin
     image: hassioaddons/sonweb-{arch}
+  tautulli:
+    repository: hassio-addons/addon-tautulli
+    target: tautulli
+    image: hassioaddons/tautulli
   ssh:
     repository: hassio-addons/addon-ssh
     target: ssh
