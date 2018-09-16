@@ -69,6 +69,10 @@ addons:
     repository: hassio-addons/addon-plex
     target: plex
     image: hassioaddons/plex-{arch}
+  portainer:
+    repository: hassio-addons/addon-portainer
+    target: portainer
+    image: hassioaddons/portainer
   shinobi:
     repository: hassio-addons/addon-shinobi
     target: shinobi
