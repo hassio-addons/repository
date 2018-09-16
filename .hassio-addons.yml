@@ -93,6 +93,10 @@ addons:
     repository: hassio-addons/addon-ssh
     target: ssh
     image: hassioaddons/ssh-{arch}
+  sqlite-web:
+    repository: hassio-addons/addon-sqlite-web
+    target: sqlite-web
+    image: hassioaddons/sqlite-web
   tor:
     repository: hassio-addons/addon-tor
     target: tor
