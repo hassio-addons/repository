@@ -2,14 +2,6 @@
 
 ### Fixed
 
-- Adds in wait for InfluxDB to become ready (#6)
+- Fixes typo in function call
 
-### Changed
-
-- Upgrades Ubuntu Base image to 2.2.0
-- Adds Hassio API security role
-- Upgrades Nginx to 1.14.0-0ubuntu1.1
-- Upgrades InfluxDB to 1.6.3
-- Upgrades Chronograph to 1.6.2
-
-[changelog]: https://github.com/hassio-addons/addon-influxdb/compare/v1.0.1...v1.1.0
+[changelog]: https://github.com/hassio-addons/addon-influxdb/compare/v1.1.0...v1.1.1
