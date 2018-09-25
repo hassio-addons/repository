@@ -2,6 +2,7 @@
 
 ### Changed
 
-- Upgrades base image to v2.1.1
+- Upgrades Ubuntu Base image to 2.2.0
+- Adds Hassio API security role
 
-[changelog]: https://github.com/hassio-addons/addon-aircast/compare/v1.0.0...v1.0.1
+[changelog]: https://github.com/hassio-addons/addon-aircast/compare/v1.0.1...v1.1.0
