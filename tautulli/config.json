@@ -1,6 +1,6 @@
 {
   "name": "Tautulli",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "slug": "tautulli",
   "description": "Monitoring and tracking tool for Plex Media Server",
   "url": "https://github.com/hassio-addons/addon-tautulli/tree/master/README.md",
