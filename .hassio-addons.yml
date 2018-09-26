@@ -57,6 +57,10 @@ addons:
     repository: hassio-addons/addon-node-red
     target: node-red
     image: hassioaddons/node-red-{arch}
+  nut:
+    repository: hassio-addons/addon-nut
+    target: nut
+    image: hassioaddons/nut
   octobox:
     repository: hassio-addons/addon-octobox
     target: octobox
