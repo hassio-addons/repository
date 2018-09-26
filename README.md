@@ -508,10 +508,10 @@ SOFTWARE.
 [appdaemon3-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [appdaemon3-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [appdaemon3-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
-[addon-docker-enabler]: https://github.com/hassio-addons/addon-docker-enabler/tree/v0.2.0
-[addon-doc-docker-enabler]: https://github.com/hassio-addons/addon-docker-enabler/blob/v0.2.0/README.md
+[addon-docker-enabler]: https://github.com/hassio-addons/addon-docker-enabler/tree/v0.3.0
+[addon-doc-docker-enabler]: https://github.com/hassio-addons/addon-docker-enabler/blob/v0.3.0/README.md
 [docker-enabler-issue]: https://github.com/hassio-addons/addon-docker-enabler/issues
-[docker-enabler-version-shield]: https://img.shields.io/badge/version-v0.2.0-blue.svg
+[docker-enabler-version-shield]: https://img.shields.io/badge/version-v0.3.0-blue.svg
 [docker-enabler-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/docker-enabler.svg
 [docker-enabler-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [docker-enabler-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg

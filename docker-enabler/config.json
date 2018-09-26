@@ -1,6 +1,6 @@
 {
   "name": "Docker Enabler",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "slug": "docker-enabler",
   "description": "Grants an add-on access to the Docker socket",
   "url": "https://github.com/hassio-addons/addon-docker-enabler",
@@ -13,6 +13,7 @@
   ],
   "boot": "manual",
   "hassio_api": true,
+  "hassio_role": "manager",
   "options": {
     "target": ""
   },
