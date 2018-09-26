@@ -1,6 +1,6 @@
 {
   "name": "AppDaemon",
-  "version": "1.4.1",
+  "version": "1.5.0",
   "slug": "appdaemon3",
   "description": "Python Apps and HADashboard using AppDaemon 3.x for Home Assistant",
   "url": "https://community.home-assistant.io/t/community-hass-io-add-on-appdaemon3/41261?u=frenck",
@@ -14,6 +14,7 @@
   ],
   "boot": "auto",
   "hassio_api": true,
+  "hassio_role": "default",
   "homeassistant_api": true,
   "host_network": false,
   "ports": {
