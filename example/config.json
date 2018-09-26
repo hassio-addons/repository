@@ -1,6 +1,6 @@
 {
   "name": "Example",
-  "version": "1.5.1",
+  "version": "1.6.0",
   "slug": "example",
   "description": "Example add-on by Community Hass.io Add-ons",
   "url": "https://github.com/hassio-addons/addon-example",
@@ -13,6 +13,7 @@
   ],
   "boot": "auto",
   "hassio_api": true,
+  "hassio_role": "default",
   "options": {
     "log_level": "info",
     "seconds_between_quotes": 5
