@@ -1,6 +1,6 @@
 {
   "name": "FTP",
-  "version": "1.4.1",
+  "version": "1.5.0",
   "slug": "ftp",
   "description": "A secure and fast FTP server for Hass.io",
   "url": "https://community.home-assistant.io/t/community-hass-io-add-on-ftp/36799?u=frenck",
@@ -13,6 +13,7 @@
   ],
   "boot": "auto",
   "hassio_api": true,
+  "hassio_role": "default",
   "homeassistant_api": false,
   "host_network": true,
   "privileged": [
