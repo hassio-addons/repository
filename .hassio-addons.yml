@@ -53,6 +53,10 @@ addons:
     repository: hassio-addons/addon-lovelace-migration
     target: lovelace-migration
     image: hassioaddons/lovelace-migration
+  lutron-cert:
+    repository: hassio-addons/addon-lutron-cert
+    target: lutron-cert
+    image: hassioaddons/lutron-cert
   node-red:
     repository: hassio-addons/addon-node-red
     target: node-red
