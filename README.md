@@ -215,6 +215,19 @@ Generate certificate to control Lutron Caseta bridge locally
 
 [:books: Lutron Certificate add-on documentation][addon-doc-lutron-cert]
 
+### &#10003; [MQTT Server & Web client][addon-mqtt]
+
+![Latest Version][mqtt-version-shield]
+![Supports armhf Architecture][mqtt-armhf-shield]
+![Supports aarch64 Architecture][mqtt-aarch64-shield]
+![Supports amd64 Architecture][mqtt-amd64-shield]
+![Supports i386 Architecture][mqtt-i386-shield]
+![Docker Pulls][mqtt-pulls-shield]
+
+Mosquitto MQTT Server bundled with Hivemq's web client
+
+[:books: MQTT Server & Web client add-on documentation][addon-doc-mqtt]
+
 ### &#10003; [Node-RED][addon-node-red]
 
 ![Latest Version][node-red-version-shield]
@@ -419,6 +432,7 @@ on the correct GitHub repository matching the add-on.
 - [Open an issue for the add-on: Log Viewer][log-viewer-issue]
 - [Open an issue for the add-on: Lovelace Migration][lovelace-migration-issue]
 - [Open an issue for the add-on: Lutron Certificate][lutron-cert-issue]
+- [Open an issue for the add-on: MQTT Server & Web client][mqtt-issue]
 - [Open an issue for the add-on: Node-RED][node-red-issue]
 - [Open an issue for the add-on: Octobox][octobox-issue]
 - [Open an issue for the add-on: Pi-hole][pi-hole-issue]
@@ -607,6 +621,15 @@ SOFTWARE.
 [lutron-cert-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [lutron-cert-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [lutron-cert-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
+[addon-mqtt]: https://github.com/hassio-addons/addon-mqtt/tree/v0.1.0
+[addon-doc-mqtt]: https://github.com/hassio-addons/addon-mqtt/blob/v0.1.0/README.md
+[mqtt-issue]: https://github.com/hassio-addons/addon-mqtt/issues
+[mqtt-version-shield]: https://img.shields.io/badge/version-v0.1.0-blue.svg
+[mqtt-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/mqtt.svg
+[mqtt-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[mqtt-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[mqtt-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
+[mqtt-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [addon-node-red]: https://github.com/hassio-addons/addon-node-red/tree/v0.7.0
 [addon-doc-node-red]: https://github.com/hassio-addons/addon-node-red/blob/v0.7.0/README.md
 [node-red-issue]: https://github.com/hassio-addons/addon-node-red/issues
