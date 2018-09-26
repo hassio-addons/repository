@@ -1,6 +1,6 @@
 {
   "name": "Happy Bubbles",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "slug": "happy-bubbles",
   "description": "Presence detection server for Happy Bubbles Bluetooth beacon-based presence detection system.",
   "url": "https://community.home-assistant.io/t/community-hass-io-add-on-happy-bubbles/53511?u=frenck",
@@ -14,6 +14,7 @@
   ],
   "boot": "auto",
   "hassio_api": true,
+  "hassio_role": "default",
   "homeassistant_api": false,
   "host_network": false,
   "map": [
