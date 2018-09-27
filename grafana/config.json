@@ -1,6 +1,6 @@
 {
   "name": "Grafana",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "slug": "grafana",
   "description": "The open platform for beautiful analytics and monitoring",
   "url": "https://community.home-assistant.io/t/community-hass-io-add-on-grafana/54674?u=frenck",
@@ -19,6 +19,7 @@
     "3000/tcp": 3000
   },
   "hassio_api": true,
+  "hassio_role": "default",
   "homeassistant_api": false,
   "host_network": false,
   "options": {
