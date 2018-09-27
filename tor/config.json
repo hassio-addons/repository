@@ -1,6 +1,6 @@
 {
   "name": "Tor",
-  "version": "1.5.1",
+  "version": "1.6.0",
   "slug": "tor",
   "description": "Protect your privacy and access Home Assistant via Tor.",
   "url": "https://community.home-assistant.io/t/community-hass-io-add-on-tor/33822?u=frenck",
@@ -13,6 +13,7 @@
   ],
   "boot": "auto",
   "hassio_api": true,
+  "hassio_role": "default",
   "homeassistant_api": false,
   "host_network": false,
   "ports": {
@@ -40,7 +41,7 @@
       "match(^[A-Za-z0-9+-_]{1,16}$)"
     ],
     "ports": [
-      "match(^(?:6553[0-5]|655[0-2]\\d|65[0-4]\\d\\d|6[0-4]\\d{3}|[1-5]\\d{4}|[1-9]\\d{0,3})(?::(6553[0-5]|655[0-2]\\d|65[0-4]\\d\\d|6[0-4]\\d{3}|[1-5]\\d{4}|[1-9]\\d{0,3}))?$)"
+      "match(^(.*:)?(?:[0-9]{1,4}|[1-5][0-9]{4}|6[0-4][0-9]{3}|65[0-4][0-9]{2}|655[0-2][0-9]|6553[0-5])?$)"
     ]
   },
   "environment": {
