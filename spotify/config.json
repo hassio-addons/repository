@@ -1,6 +1,6 @@
 {
   "name": "Spotify Connect",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "slug": "spotify",
   "description": "Play Spotify music on your Home Assistant device",
   "url": "https://community.home-assistant.io/t/community-hass-io-add-on-spotify-connect/61210?u=frenck",
@@ -16,6 +16,7 @@
   ],
   "boot": "auto",
   "hassio_api": true,
+  "hassio_role": "default",
   "homeassistant_api": false,
   "host_network": false,
   "audio": true,
