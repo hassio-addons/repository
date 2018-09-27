@@ -1,6 +1,6 @@
 {
   "name": "Log Viewer",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "slug": "logviewer",
   "description": "Browser-based log utility for Hass.io",
   "url": "https://github.com/hassio-addons/addon-log-viewer",
@@ -8,6 +8,7 @@
   "webui": "[PROTO:ssl]://[HOST]:[PORT:4277]",
   "homeassistant_api": true,
   "hassio_api": true,
+  "hassio_role": "default",
   "boot": "auto",
   "host_network": false,
   "ports": {
