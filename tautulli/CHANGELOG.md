@@ -2,8 +2,6 @@
 
 ### Changed
 
-- Upgrades base image to v2.3.0
+- Adds Hassio API security role
 
-[changelog]: https://github.com/hassio-addons/addon-tautulli/compare/v0.2.0...v0.2.1
-
-------------------
+[changelog]: https://github.com/hassio-addons/addon-tautulli/compare/v0.2.1...v0.2.2

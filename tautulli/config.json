@@ -1,6 +1,6 @@
 {
   "name": "Tautulli",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "slug": "tautulli",
   "description": "Monitoring and tracking tool for Plex Media Server",
   "url": "https://github.com/hassio-addons/addon-tautulli/tree/master/README.md",
@@ -14,6 +14,7 @@
   ],
   "boot": "auto",
   "hassio_api": true,
+  "hassio_role": "default",
   "homeassistant_api": false,
   "host_network": false,
   "ports": {
