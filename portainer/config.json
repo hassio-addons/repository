@@ -1,6 +1,6 @@
 {
   "name": "Portainer",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "slug": "portainer",
   "description": "Manage your Docker environment with ease",
   "url": "https://community.home-assistant.io/t/community-hass-io-add-on-portainer/68836?u=frenck",
@@ -20,6 +20,7 @@
   },
   "boot": "auto",
   "hassio_api": true,
+  "hassio_role": "default",
   "docker_api": true,
   "options": {
     "log_level": "info",

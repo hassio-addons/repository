@@ -34,13 +34,13 @@ it could damage your system.
 [buymeacoffee]: https://www.buymeacoffee.com/frenck
 [discord-shield]: https://img.shields.io/discord/478094546522079232.svg
 [discord]: https://discord.me/hassioaddons
-[docs]: https://github.com/hassio-addons/addon-portainer/blob/v0.1.0/README.md
+[docs]: https://github.com/hassio-addons/addon-portainer/blob/v0.2.0/README.md
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
 [forum]: https://community.home-assistant.io/t/community-hass-io-add-on-portainer/68836?u=frenck
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2018.svg
 [patreon-shield]: https://www.frenck.nl/images/patreon.png
 [patreon]: https://www.patreon.com/frenck
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
-[release-shield]: https://img.shields.io/badge/version-v0.1.0-blue.svg
-[release]: https://github.com/hassio-addons/addon-portainer/tree/v0.1.0
+[release-shield]: https://img.shields.io/badge/version-v0.2.0-blue.svg
+[release]: https://github.com/hassio-addons/addon-portainer/tree/v0.2.0
 [screenshot]: https://github.com/hassio-addons/addon-portainer/raw/master/images/screenshot.png
