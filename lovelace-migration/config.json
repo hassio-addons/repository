@@ -1,6 +1,6 @@
 {
   "name": "Lovelace Migration",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "slug": "lovelace-migration",
   "description": "Automatically convert your existing UI to the new Lovelace UI",
   "url": "https://github.com/hassio-addons/addon-lovelace-migration",
@@ -13,6 +13,7 @@
   ],
   "boot": "manual",
   "hassio_api": true,
+  "hassio_role": "default",
   "homeassistant_api": true,
   "map": [
     "config:rw",
