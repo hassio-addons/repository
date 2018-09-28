@@ -1,7 +1,7 @@
-[Full Changelog][changelog]
+# Changed
 
-### Changed
-
-- Upgrades base image to v2.3.0
-
-[changelog]: https://github.com/hassio-addons/addon-sqlite-web/compare/v0.1.0...v0.1.1
+- ❄️ Adds Hassio API security role
+- ⬆️ Upgrades GCC/G++ to 6.4.0-r9
+- ⬆️ upgrades Datasette to 0.25
+- ⬆️ Upgrades peewee to 3.7.0
+- ⬆️ Upgrades sqlite-web to 0.3.5
