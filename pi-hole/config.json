@@ -1,6 +1,6 @@
 {
   "name": "Pi-hole",
-  "version": "2.0.4",
+  "version": "2.1.0",
   "slug": "pi-hole",
   "description": "Network-wide ad blocking using your Hass.io instance",
   "url": "https://community.home-assistant.io/t/community-hass-io-add-on-pi-hole/33817?u=frenck",
@@ -15,6 +15,7 @@
   "boot": "auto",
   "host_network": true,
   "hassio_api": true,
+  "hassio_role": "default",
   "privileged": [
     "NET_ADMIN"
   ],
