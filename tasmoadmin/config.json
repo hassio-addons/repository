@@ -1,6 +1,6 @@
 {
   "name": "TasmoAdmin",
-  "version": "0.5.1",
+  "version": "0.6.0",
   "slug": "sonweb",
   "description": "Centrally manage all your Sonoff-Tasmota devices",
   "url": "https://community.home-assistant.io/t/community-hass-io-add-on-tasmoadmin/54155?u=frenck",
@@ -14,6 +14,7 @@
   ],
   "boot": "auto",
   "hassio_api": true,
+  "hassio_role": "default",
   "map": [
     "ssl"
   ],
