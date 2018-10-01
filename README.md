@@ -137,19 +137,6 @@ Presence detection server for Happy Bubbles Bluetooth beacon-based presence dete
 
 [:books: Happy Bubbles add-on documentation][addon-doc-happy-bubbles]
 
-### &#10003; [Homebridge][addon-homebridge]
-
-![Latest Version][homebridge-version-shield]
-![Supports armhf Architecture][homebridge-armhf-shield]
-![Supports aarch64 Architecture][homebridge-aarch64-shield]
-![Supports amd64 Architecture][homebridge-amd64-shield]
-![Supports i386 Architecture][homebridge-i386-shield]
-![Docker Pulls][homebridge-pulls-shield]
-
-HomeKit support for your Home Assistant instance using Homebridge
-
-[:books: Homebridge add-on documentation][addon-doc-homebridge]
-
 ### &#10003; [IDE][addon-ide]
 
 ![Latest Version][ide-version-shield]
@@ -439,7 +426,6 @@ on the correct GitHub repository matching the add-on.
 - [Open an issue for the add-on: FTP][ftp-issue]
 - [Open an issue for the add-on: Grafana][grafana-issue]
 - [Open an issue for the add-on: Happy Bubbles][happy-bubbles-issue]
-- [Open an issue for the add-on: Homebridge][homebridge-issue]
 - [Open an issue for the add-on: IDE][ide-issue]
 - [Open an issue for the add-on: InfluxDB][influxdb-issue]
 - [Open an issue for the add-on: Log Viewer][log-viewer-issue]
@@ -581,15 +567,6 @@ SOFTWARE.
 [happy-bubbles-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [happy-bubbles-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [happy-bubbles-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
-[addon-homebridge]: https://github.com/hassio-addons/addon-homebridge/tree/v2.8.1
-[addon-doc-homebridge]: https://github.com/hassio-addons/addon-homebridge/blob/v2.8.1/README.md
-[homebridge-issue]: https://github.com/hassio-addons/addon-homebridge/issues
-[homebridge-version-shield]: https://img.shields.io/badge/version-v2.8.1-blue.svg
-[homebridge-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/homebridge-armhf.svg
-[homebridge-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
-[homebridge-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
-[homebridge-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
-[homebridge-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [addon-ide]: https://github.com/hassio-addons/addon-ide/tree/v0.6.0
 [addon-doc-ide]: https://github.com/hassio-addons/addon-ide/blob/v0.6.0/README.md
 [ide-issue]: https://github.com/hassio-addons/addon-ide/issues
