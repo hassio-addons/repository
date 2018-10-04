@@ -13,10 +13,6 @@ addons:
     repository: hassio-addons/addon-appdaemon3
     target: appdaemon
     image: hassioaddons/appdaemon3-{arch}
-  docker-enabler:
-    repository: hassio-addons/addon-docker-enabler
-    target: docker-enabler
-    image: hassioaddons/docker-enabler
   example:
     repository: hassio-addons/addon-example
     target: example
