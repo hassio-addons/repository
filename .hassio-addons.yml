@@ -49,6 +49,10 @@ addons:
     repository: hassio-addons/addon-lutron-cert
     target: lutron-cert
     image: hassioaddons/lutron-cert
+  motioneye:
+    repository: hassio-addons/addon-motioneye
+    target: motioneye
+    image: hassioaddons/motioneye
   mqtt:
     repository: hassio-addons/addon-mqtt
     target: mqtt
