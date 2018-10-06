@@ -72,19 +72,6 @@ Python Apps and HADashboard using AppDaemon 3.x for Home Assistant
 
 [:books: AppDaemon add-on documentation][addon-doc-appdaemon3]
 
-### &#10003; [Docker Enabler][addon-docker-enabler]
-
-![Latest Version][docker-enabler-version-shield]
-![Supports armhf Architecture][docker-enabler-armhf-shield]
-![Supports aarch64 Architecture][docker-enabler-aarch64-shield]
-![Supports amd64 Architecture][docker-enabler-amd64-shield]
-![Supports i386 Architecture][docker-enabler-i386-shield]
-![Docker Pulls][docker-enabler-pulls-shield]
-
-Grants an add-on access to the Docker socket
-
-[:books: Docker Enabler add-on documentation][addon-doc-docker-enabler]
-
 ### &#10003; [Example][addon-example]
 
 ![Latest Version][example-version-shield]
@@ -421,7 +408,6 @@ on the correct GitHub repository matching the add-on.
 - [Open an issue for the add-on: AirCast][aircast-issue]
 - [Open an issue for the add-on: AirSonos][airsonos-issue]
 - [Open an issue for the add-on: AppDaemon][appdaemon3-issue]
-- [Open an issue for the add-on: Docker Enabler][docker-enabler-issue]
 - [Open an issue for the add-on: Example][example-issue]
 - [Open an issue for the add-on: FTP][ftp-issue]
 - [Open an issue for the add-on: Grafana][grafana-issue]
@@ -522,15 +508,6 @@ SOFTWARE.
 [appdaemon3-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [appdaemon3-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [appdaemon3-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
-[addon-docker-enabler]: https://github.com/hassio-addons/addon-docker-enabler/tree/v0.3.0
-[addon-doc-docker-enabler]: https://github.com/hassio-addons/addon-docker-enabler/blob/v0.3.0/README.md
-[docker-enabler-issue]: https://github.com/hassio-addons/addon-docker-enabler/issues
-[docker-enabler-version-shield]: https://img.shields.io/badge/version-v0.3.0-blue.svg
-[docker-enabler-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/docker-enabler.svg
-[docker-enabler-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
-[docker-enabler-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
-[docker-enabler-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
-[docker-enabler-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [addon-example]: https://github.com/hassio-addons/addon-example/tree/v1.6.0
 [addon-doc-example]: https://github.com/hassio-addons/addon-example/blob/v1.6.0/README.md
 [example-issue]: https://github.com/hassio-addons/addon-example/issues
