@@ -109,4 +109,8 @@ addons:
     repository: hassio-addons/addon-unifi
     target: unifi
     image: hassioaddons/unifi
+  homebridge:
+     repository: hassio-addons/addon-homebridge
+     target: homebridge
+     image: hassioaddons/homebridge-{arch}
 
