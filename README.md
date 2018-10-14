@@ -72,6 +72,19 @@ Python Apps and HADashboard using AppDaemon 3.x for Home Assistant
 
 [:books: AppDaemon add-on documentation][addon-doc-appdaemon3]
 
+### &#10003; [Docker Enabler][addon-docker-enabler]
+
+![Latest Version][docker-enabler-version-shield]
+![Supports armhf Architecture][docker-enabler-armhf-shield]
+![Supports aarch64 Architecture][docker-enabler-aarch64-shield]
+![Supports amd64 Architecture][docker-enabler-amd64-shield]
+![Supports i386 Architecture][docker-enabler-i386-shield]
+![Docker Pulls][docker-enabler-pulls-shield]
+
+Grants an add-on access to the Docker socket
+
+[:books: Docker Enabler add-on documentation][addon-doc-docker-enabler]
+
 ### &#10003; [Example][addon-example]
 
 ![Latest Version][example-version-shield]
@@ -123,6 +136,19 @@ The open platform for beautiful analytics and monitoring
 Presence detection server for Happy Bubbles Bluetooth beacon-based presence detection system.
 
 [:books: Happy Bubbles add-on documentation][addon-doc-happy-bubbles]
+
+### &#10003; [Homebridge][addon-homebridge]
+
+![Latest Version][homebridge-version-shield]
+![Supports armhf Architecture][homebridge-armhf-shield]
+![Supports aarch64 Architecture][homebridge-aarch64-shield]
+![Supports amd64 Architecture][homebridge-amd64-shield]
+![Supports i386 Architecture][homebridge-i386-shield]
+![Docker Pulls][homebridge-pulls-shield]
+
+HomeKit support for your Home Assistant instance using Homebridge
+
+[:books: Homebridge add-on documentation][addon-doc-homebridge]
 
 ### &#10003; [IDE][addon-ide]
 
@@ -384,19 +410,6 @@ Manage your UniFi network using a web browser
 
 [:books: UniFi Controller add-on documentation][addon-doc-unifi]
 
-### &#10003; [motionEye][addon-motioneye]
-
-![Latest Version][motioneye-version-shield]
-![Supports armhf Architecture][motioneye-armhf-shield]
-![Supports aarch64 Architecture][motioneye-aarch64-shield]
-![Supports amd64 Architecture][motioneye-amd64-shield]
-![Supports i386 Architecture][motioneye-i386-shield]
-![Docker Pulls][motioneye-pulls-shield]
-
-Simple, elegant and feature-rich CCTV/NVR for your cameras
-
-[:books: motionEye add-on documentation][addon-doc-motioneye]
-
 ## Releases
 
 Add-on releases are **NOT** based on [Semantic Versioning][semver], unlike
@@ -421,10 +434,12 @@ on the correct GitHub repository matching the add-on.
 - [Open an issue for the add-on: AirCast][aircast-issue]
 - [Open an issue for the add-on: AirSonos][airsonos-issue]
 - [Open an issue for the add-on: AppDaemon][appdaemon3-issue]
+- [Open an issue for the add-on: Docker Enabler][docker-enabler-issue]
 - [Open an issue for the add-on: Example][example-issue]
 - [Open an issue for the add-on: FTP][ftp-issue]
 - [Open an issue for the add-on: Grafana][grafana-issue]
 - [Open an issue for the add-on: Happy Bubbles][happy-bubbles-issue]
+- [Open an issue for the add-on: Homebridge][homebridge-issue]
 - [Open an issue for the add-on: IDE][ide-issue]
 - [Open an issue for the add-on: InfluxDB][influxdb-issue]
 - [Open an issue for the add-on: Log Viewer][log-viewer-issue]
@@ -445,7 +460,6 @@ on the correct GitHub repository matching the add-on.
 - [Open an issue for the add-on: Tautulli][tautulli-issue]
 - [Open an issue for the add-on: Tor][tor-issue]
 - [Open an issue for the add-on: UniFi Controller][unifi-issue]
-- [Open an issue for the add-on: motionEye][motioneye-issue]
 
 For a general repository issue or add-on ideas [open an issue here][issue]
 
@@ -522,6 +536,15 @@ SOFTWARE.
 [appdaemon3-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [appdaemon3-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [appdaemon3-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
+[addon-docker-enabler]: https://github.com/hassio-addons/addon-docker-enabler/tree/v0.3.0
+[addon-doc-docker-enabler]: https://github.com/hassio-addons/addon-docker-enabler/blob/v0.3.0/README.md
+[docker-enabler-issue]: https://github.com/hassio-addons/addon-docker-enabler/issues
+[docker-enabler-version-shield]: https://img.shields.io/badge/version-v0.3.0-blue.svg
+[docker-enabler-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/docker-enabler.svg
+[docker-enabler-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[docker-enabler-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[docker-enabler-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
+[docker-enabler-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [addon-example]: https://github.com/hassio-addons/addon-example/tree/v1.6.0
 [addon-doc-example]: https://github.com/hassio-addons/addon-example/blob/v1.6.0/README.md
 [example-issue]: https://github.com/hassio-addons/addon-example/issues
@@ -558,10 +581,19 @@ SOFTWARE.
 [happy-bubbles-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [happy-bubbles-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [happy-bubbles-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
-[addon-ide]: https://github.com/hassio-addons/addon-ide/tree/v0.6.0
-[addon-doc-ide]: https://github.com/hassio-addons/addon-ide/blob/v0.6.0/README.md
+[addon-homebridge]: https://github.com/hassio-addons/addon-homebridge/tree/v2.8.1
+[addon-doc-homebridge]: https://github.com/hassio-addons/addon-homebridge/blob/v2.8.1/README.md
+[homebridge-issue]: https://github.com/hassio-addons/addon-homebridge/issues
+[homebridge-version-shield]: https://img.shields.io/badge/version-v2.8.1-blue.svg
+[homebridge-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/homebridge-armhf.svg
+[homebridge-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[homebridge-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[homebridge-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
+[homebridge-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
+[addon-ide]: https://github.com/hassio-addons/addon-ide/tree/v0.5.1
+[addon-doc-ide]: https://github.com/hassio-addons/addon-ide/blob/v0.5.1/README.md
 [ide-issue]: https://github.com/hassio-addons/addon-ide/issues
-[ide-version-shield]: https://img.shields.io/badge/version-v0.6.0-blue.svg
+[ide-version-shield]: https://img.shields.io/badge/version-v0.5.1-blue.svg
 [ide-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/ide-armhf.svg
 [ide-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [ide-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
@@ -621,10 +653,10 @@ SOFTWARE.
 [node-red-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [node-red-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [node-red-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
-[addon-octobox]: https://github.com/hassio-addons/addon-octobox/tree/v0.4.1
-[addon-doc-octobox]: https://github.com/hassio-addons/addon-octobox/blob/v0.4.1/README.md
+[addon-octobox]: https://github.com/hassio-addons/addon-octobox/tree/v0.4.0
+[addon-doc-octobox]: https://github.com/hassio-addons/addon-octobox/blob/v0.4.0/README.md
 [octobox-issue]: https://github.com/hassio-addons/addon-octobox/issues
-[octobox-version-shield]: https://img.shields.io/badge/version-v0.4.1-blue.svg
+[octobox-version-shield]: https://img.shields.io/badge/version-v0.4.0-blue.svg
 [octobox-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/octobox.svg
 [octobox-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [octobox-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
@@ -639,10 +671,10 @@ SOFTWARE.
 [phlex-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [phlex-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [phlex-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
-[addon-pi-hole]: https://github.com/hassio-addons/addon-pi-hole/tree/v2.1.0
-[addon-doc-pi-hole]: https://github.com/hassio-addons/addon-pi-hole/blob/v2.1.0/README.md
+[addon-pi-hole]: https://github.com/hassio-addons/addon-pi-hole/tree/v2.0.4
+[addon-doc-pi-hole]: https://github.com/hassio-addons/addon-pi-hole/blob/v2.0.4/README.md
 [pi-hole-issue]: https://github.com/hassio-addons/addon-pi-hole/issues
-[pi-hole-version-shield]: https://img.shields.io/badge/version-v2.1.0-blue.svg
+[pi-hole-version-shield]: https://img.shields.io/badge/version-v2.0.4-blue.svg
 [pi-hole-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/pi-hole-armhf.svg
 [pi-hole-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [pi-hole-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
@@ -675,10 +707,10 @@ SOFTWARE.
 [sqlite-web-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [sqlite-web-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [sqlite-web-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
-[addon-ssh]: https://github.com/hassio-addons/addon-ssh/tree/v3.5.0
-[addon-doc-ssh]: https://github.com/hassio-addons/addon-ssh/blob/v3.5.0/README.md
+[addon-ssh]: https://github.com/hassio-addons/addon-ssh/tree/v3.4.1
+[addon-doc-ssh]: https://github.com/hassio-addons/addon-ssh/blob/v3.4.1/README.md
 [ssh-issue]: https://github.com/hassio-addons/addon-ssh/issues
-[ssh-version-shield]: https://img.shields.io/badge/version-v3.5.0-blue.svg
+[ssh-version-shield]: https://img.shields.io/badge/version-v3.4.1-blue.svg
 [ssh-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/ssh-armhf.svg
 [ssh-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [ssh-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
@@ -702,10 +734,10 @@ SOFTWARE.
 [spotify-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [spotify-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [spotify-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
-[addon-tasmoadmin]: https://github.com/hassio-addons/addon-tasmoadmin/tree/v0.6.0
-[addon-doc-tasmoadmin]: https://github.com/hassio-addons/addon-tasmoadmin/blob/v0.6.0/README.md
+[addon-tasmoadmin]: https://github.com/hassio-addons/addon-tasmoadmin/tree/v0.5.1
+[addon-doc-tasmoadmin]: https://github.com/hassio-addons/addon-tasmoadmin/blob/v0.5.1/README.md
 [tasmoadmin-issue]: https://github.com/hassio-addons/addon-tasmoadmin/issues
-[tasmoadmin-version-shield]: https://img.shields.io/badge/version-v0.6.0-blue.svg
+[tasmoadmin-version-shield]: https://img.shields.io/badge/version-v0.5.1-blue.svg
 [tasmoadmin-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/sonweb-armhf.svg
 [tasmoadmin-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [tasmoadmin-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
@@ -738,15 +770,6 @@ SOFTWARE.
 [unifi-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [unifi-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [unifi-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
-[addon-motioneye]: https://github.com/hassio-addons/addon-motioneye/tree/v0.1.1
-[addon-doc-motioneye]: https://github.com/hassio-addons/addon-motioneye/blob/v0.1.1/README.md
-[motioneye-issue]: https://github.com/hassio-addons/addon-motioneye/issues
-[motioneye-version-shield]: https://img.shields.io/badge/version-v0.1.1-blue.svg
-[motioneye-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/motioneye.svg
-[motioneye-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
-[motioneye-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
-[motioneye-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
-[motioneye-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [awesome-shield]: https://img.shields.io/badge/awesome%3F-yes-brightgreen.svg
 [bountysource-shield]: https://img.shields.io/bountysource/team/hassio-addons/activity.svg
 [bountysource]: https://www.bountysource.com/teams/hassio-addons/issues
