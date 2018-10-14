@@ -1,5 +1,5 @@
 {
-  "name": "Community Hass.io Add-ons",
-  "url": "https://github.com/hassio-addons/repository",
-  "maintainer": "Franck Nijhof <frenck@addons.community>"
+  "name": "Private Hass.io Add-ons",
+  "url": "https://github.com/kevinsegal/hassio-addons",
+  "maintainer": "Kevin Segal <kevinmsegal@gmail.com>"
 }
