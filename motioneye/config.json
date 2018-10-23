@@ -1,6 +1,6 @@
 {
   "name": "motionEye",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "slug": "motioneye",
   "description": "Simple, elegant and feature-rich CCTV/NVR for your cameras",
   "url": "https://community.home-assistant.io/t/community-hass-io-add-on-motioneye/71826?u=frenck",
@@ -17,6 +17,11 @@
   "hassio_role": "default",
   "homeassistant_api": false,
   "host_network": true,
+  "apparmor": false,
+  "privileged": [
+    "DAC_READ_SEARCH",
+    "SYS_ADMIN"
+  ],
   "map": [
     "config",
     "share:rw",
