@@ -77,10 +77,6 @@ addons:
     repository: hassio-addons/addon-plex
     target: plex
     image: hassioaddons/plex-{arch}
-  shinobi:
-    repository: hassio-addons/addon-shinobi
-    target: shinobi
-    image: hassioaddons/shinobi-{arch}
   spotify:
     repository: hassio-addons/addon-spotify-connect
     target: spotify
