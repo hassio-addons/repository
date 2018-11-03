@@ -1,15 +1,17 @@
 [Full Changelog][changelog]
 
+This release adds authentication 🔒 against Home Assistant.
+
+From now on, you have to log in with the same username and password and you use to log on to the Home Assistant frontend. No need to provide credentials in the add-on configuration anymore (so, those can be removed).
+
 ### Changed
 
-- Upgrades bind-tools to 9.12.2_p1-r0
-- Upgrades ncurses to 6.1_p20180818-r1
-- Upgrades nginx to 1.14.0-r1
-- Upgrades openssh-client to 7.7_p1-r3
-- Upgrades Hassio CLI to 1.4.0
-- Upgrades base image to v2.3.0
-- Adds Hassio API security role
-- Upgrades g++ to 6.4.0-r9
-- Upgrades OpenSSL to 1.0.2p-r0
+- Changed past to paste (#23) (@dayofdoom)
+- Adds HA Authentication (#24)
+- Upgrades git to 2.18.1-r0
+- Upgrades libxml2 to 2.9.8-r1
+- Upgrades libxml2-utils to 2.9.8-r1
+- Small improvements to HA authentication proxy
+- Upgrades Cloud9 Core to c4d1c59
 
-[changelog]: https://github.com/hassio-addons/addon-ide/compare/v0.5.1...v0.6.0
+[changelog]: https://github.com/hassio-addons/addon-ide/compare/v0.6.0...v0.7.0
