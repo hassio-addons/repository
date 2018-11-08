@@ -293,19 +293,6 @@ SSH & Web Terminal access to your Home Assistant instance
 
 [:books: SSH & Web Terminal add-on documentation][addon-doc-ssh]
 
-### &#10003; [Shinobi Pro][addon-shinobi]
-
-![Latest Version][shinobi-version-shield]
-![Supports armhf Architecture][shinobi-armhf-shield]
-![Supports aarch64 Architecture][shinobi-aarch64-shield]
-![Supports amd64 Architecture][shinobi-amd64-shield]
-![Supports i386 Architecture][shinobi-i386-shield]
-![Docker Pulls][shinobi-pulls-shield]
-
-Beautiful and feature-rich CCTV/NVR for your cameras
-
-[:books: Shinobi Pro add-on documentation][addon-doc-shinobi]
-
 ### &#10003; [Spotify Connect][addon-spotify]
 
 ![Latest Version][spotify-version-shield]
@@ -425,7 +412,6 @@ on the correct GitHub repository matching the add-on.
 - [Open an issue for the add-on: Plex Media Server][plex-issue]
 - [Open an issue for the add-on: SQLite Web][sqlite-web-issue]
 - [Open an issue for the add-on: SSH & Web Terminal][ssh-issue]
-- [Open an issue for the add-on: Shinobi Pro][shinobi-issue]
 - [Open an issue for the add-on: Spotify Connect][spotify-issue]
 - [Open an issue for the add-on: TasmoAdmin][tasmoadmin-issue]
 - [Open an issue for the add-on: Tautulli][tautulli-issue]
@@ -661,15 +647,6 @@ SOFTWARE.
 [ssh-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [ssh-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [ssh-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
-[addon-shinobi]: https://github.com/hassio-addons/addon-shinobi/tree/v0.2.0
-[addon-doc-shinobi]: https://github.com/hassio-addons/addon-shinobi/blob/v0.2.0/README.md
-[shinobi-issue]: https://github.com/hassio-addons/addon-shinobi/issues
-[shinobi-version-shield]: https://img.shields.io/badge/version-v0.2.0-blue.svg
-[shinobi-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/shinobi-armhf.svg
-[shinobi-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
-[shinobi-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
-[shinobi-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
-[shinobi-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [addon-spotify]: https://github.com/hassio-addons/addon-spotify-connect/tree/v0.3.0
 [addon-doc-spotify]: https://github.com/hassio-addons/addon-spotify-connect/blob/v0.3.0/README.md
 [spotify-issue]: https://github.com/hassio-addons/addon-spotify-connect/issues
