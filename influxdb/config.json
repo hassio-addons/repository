@@ -1,6 +1,6 @@
 {
   "name": "InfluxDB",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "slug": "influxdb",
   "description": "Scalable datastore for metrics, events, and real-time analytics",
   "url": "https://community.home-assistant.io/t/community-hass-io-add-on-influxdb/54491?u=frenck",
@@ -11,6 +11,19 @@
     "amd64",
     "armhf",
     "i386"
+  ],
+  "machine": [
+    "intel-nuc",
+    "qemux86",
+    "qemux86-64",
+    "qemuarm",
+    "qemuarm-64",
+    "raspberrypi2",
+    "raspberrypi3",
+    "raspberrypi3-64",
+    "tinker",
+    "odroid-c2",
+    "odroid-xu"
   ],
   "map": [
     "config:rw",
@@ -23,29 +36,23 @@
     "8888/tcp": 8888
   },
   "hassio_api": true,
+  "auth_api": true,
   "hassio_role": "default",
   "homeassistant_api": false,
   "host_network": false,
   "options": {
     "log_level": "info",
-    "username": "",
-    "password": "",
     "auth": true,
     "ssl": true,
     "certfile": "fullchain.pem",
-    "keyfile": "privkey.pem",
-    "ipv6": true
+    "keyfile": "privkey.pem"
   },
   "schema": {
     "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)",
-    "username": "str",
-    "password": "str",
     "auth": "bool",
     "ssl": "bool",
     "certfile": "str",
     "keyfile": "str",
-    "ipv6": "bool",
-    "i_like_to_be_pwned": "bool?",
     "leave_front_door_open": "bool?"
   },
   "environment": {
