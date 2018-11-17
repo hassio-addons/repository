@@ -1,6 +1,6 @@
 {
   "name": "MQTT Server & Web client",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "slug": "mqtt",
   "timeout": 10,
   "description": "Mosquitto MQTT Server bundled with Hivemq's web client",
@@ -14,6 +14,7 @@
     "i386"
   ],
   "boot": "auto",
+  "auth_api": true,
   "docker_api": false,
   "hassio_api": true,
   "hassio_role": "default",
@@ -39,6 +40,7 @@
     "4883/tcp": 4883
   },
   "map": [
+    "share",
     "ssl",
     "config"
   ],
@@ -48,8 +50,6 @@
     "keyfile": "privkey.pem",
     "web": {
       "enabled": true,
-      "username": "",
-      "password": "",
       "ssl": true
     },
     "broker": {
@@ -77,8 +77,6 @@
     "keyfile": "str",
     "web": {
       "enabled": "bool",
-      "username": "str",
-      "password": "str",
       "ssl": "bool"
     },
     "broker": {
