@@ -1,5 +1,5 @@
 # Changes
 
-- 🚑Fix startup issues if the broker is disabled.
+- 🔨Enable AppArmor
 
-[Full Changelog](https://github.com/hassio-addons/addon-mqtt/compare/v0.2.0...v0.2.1)
+[Full changelog](https://github.com/hassio-addons/addon-mqtt/compare/v0.2.1...v0.2.2)

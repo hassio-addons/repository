@@ -1,6 +1,6 @@
 {
   "name": "MQTT Server & Web client",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "slug": "mqtt",
   "timeout": 10,
   "description": "Mosquitto MQTT Server bundled with Hivemq's web client",
@@ -26,7 +26,7 @@
   "auto_uart": false,
   "privileged": [],
   "full_access": false,
-  "apparmor": false,
+  "apparmor": true,
   "audio": false,
   "gpio": false,
   "devicetree": false,
