@@ -77,6 +77,10 @@ addons:
     repository: hassio-addons/addon-plex
     target: plex
     image: hassioaddons/plex-{arch}
+  portainer:
+    repository: hassio-addons/addon-portainer
+    target: portainer
+    image: hassioaddons/portainer
   spotify:
     repository: hassio-addons/addon-spotify-connect
     target: spotify
