@@ -267,6 +267,19 @@ Recorded media, live TV, online news, and podcasts ready to stream.
 
 [:books: Plex Media Server add-on documentation][addon-doc-plex]
 
+### &#10003; [Portainer][addon-portainer]
+
+![Latest Version][portainer-version-shield]
+![Supports armhf Architecture][portainer-armhf-shield]
+![Supports aarch64 Architecture][portainer-aarch64-shield]
+![Supports amd64 Architecture][portainer-amd64-shield]
+![Supports i386 Architecture][portainer-i386-shield]
+![Docker Pulls][portainer-pulls-shield]
+
+Manage your Docker environment with ease
+
+[:books: Portainer add-on documentation][addon-doc-portainer]
+
 ### &#10003; [SQLite Web][addon-sqlite-web]
 
 ![Latest Version][sqlite-web-version-shield]
@@ -410,6 +423,7 @@ on the correct GitHub repository matching the add-on.
 - [Open an issue for the add-on: Phlex][phlex-issue]
 - [Open an issue for the add-on: Pi-hole][pi-hole-issue]
 - [Open an issue for the add-on: Plex Media Server][plex-issue]
+- [Open an issue for the add-on: Portainer][portainer-issue]
 - [Open an issue for the add-on: SQLite Web][sqlite-web-issue]
 - [Open an issue for the add-on: SSH & Web Terminal][ssh-issue]
 - [Open an issue for the add-on: Spotify Connect][spotify-issue]
@@ -629,6 +643,15 @@ SOFTWARE.
 [plex-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [plex-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [plex-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
+[addon-portainer]: https://github.com/hassio-addons/addon-portainer/tree/v0.3.0
+[addon-doc-portainer]: https://github.com/hassio-addons/addon-portainer/blob/v0.3.0/README.md
+[portainer-issue]: https://github.com/hassio-addons/addon-portainer/issues
+[portainer-version-shield]: https://img.shields.io/badge/version-v0.3.0-blue.svg
+[portainer-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/portainer.svg
+[portainer-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[portainer-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[portainer-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
+[portainer-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [addon-sqlite-web]: https://github.com/hassio-addons/addon-sqlite-web/tree/v0.2.0
 [addon-doc-sqlite-web]: https://github.com/hassio-addons/addon-sqlite-web/blob/v0.2.0/README.md
 [sqlite-web-issue]: https://github.com/hassio-addons/addon-sqlite-web/issues
