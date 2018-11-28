@@ -105,6 +105,10 @@ addons:
     repository: hassio-addons/addon-tor
     target: tor
     image: hassioaddons/tor-{arch}
+  traccar:
+    repository: hassio-addons/addon-traccar
+    target: traccar
+    image: hassioaddons/traccar
   unifi:
     repository: hassio-addons/addon-unifi
     target: unifi
