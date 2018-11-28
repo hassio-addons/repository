@@ -358,6 +358,19 @@ Protect your privacy and access Home Assistant via Tor.
 
 [:books: Tor add-on documentation][addon-doc-tor]
 
+### &#10003; [Traccar][addon-traccar]
+
+![Latest Version][traccar-version-shield]
+![Supports armhf Architecture][traccar-armhf-shield]
+![Supports aarch64 Architecture][traccar-aarch64-shield]
+![Supports amd64 Architecture][traccar-amd64-shield]
+![Supports i386 Architecture][traccar-i386-shield]
+![Docker Pulls][traccar-pulls-shield]
+
+Modern GPS Tracking Platform
+
+[:books: Traccar add-on documentation][addon-doc-traccar]
+
 ### &#10003; [UniFi Controller][addon-unifi]
 
 ![Latest Version][unifi-version-shield]
@@ -430,6 +443,7 @@ on the correct GitHub repository matching the add-on.
 - [Open an issue for the add-on: TasmoAdmin][tasmoadmin-issue]
 - [Open an issue for the add-on: Tautulli][tautulli-issue]
 - [Open an issue for the add-on: Tor][tor-issue]
+- [Open an issue for the add-on: Traccar][traccar-issue]
 - [Open an issue for the add-on: UniFi Controller][unifi-issue]
 - [Open an issue for the add-on: motionEye][motioneye-issue]
 
@@ -706,6 +720,15 @@ SOFTWARE.
 [tor-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [tor-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [tor-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
+[addon-traccar]: https://github.com/hassio-addons/addon-traccar/tree/v0.1.0
+[addon-doc-traccar]: https://github.com/hassio-addons/addon-traccar/blob/v0.1.0/README.md
+[traccar-issue]: https://github.com/hassio-addons/addon-traccar/issues
+[traccar-version-shield]: https://img.shields.io/badge/version-v0.1.0-blue.svg
+[traccar-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/traccar.svg
+[traccar-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[traccar-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[traccar-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
+[traccar-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [addon-unifi]: https://github.com/hassio-addons/addon-unifi/tree/v0.4.0
 [addon-doc-unifi]: https://github.com/hassio-addons/addon-unifi/blob/v0.4.0/README.md
 [unifi-issue]: https://github.com/hassio-addons/addon-unifi/issues
