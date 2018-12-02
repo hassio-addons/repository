@@ -612,10 +612,10 @@ SOFTWARE.
 [mqtt-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [mqtt-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [mqtt-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
-[addon-node-red]: https://github.com/hassio-addons/addon-node-red/tree/v1.1.0
-[addon-doc-node-red]: https://github.com/hassio-addons/addon-node-red/blob/v1.1.0/README.md
+[addon-node-red]: https://github.com/hassio-addons/addon-node-red/tree/v1.2.0
+[addon-doc-node-red]: https://github.com/hassio-addons/addon-node-red/blob/v1.2.0/README.md
 [node-red-issue]: https://github.com/hassio-addons/addon-node-red/issues
-[node-red-version-shield]: https://img.shields.io/badge/version-v1.1.0-blue.svg
+[node-red-version-shield]: https://img.shields.io/badge/version-v1.2.0-blue.svg
 [node-red-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/node-red-armhf.svg
 [node-red-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [node-red-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
