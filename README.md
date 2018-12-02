@@ -653,7 +653,7 @@ SOFTWARE.
 [plex-issue]: https://github.com/hassio-addons/addon-plex/issues
 [plex-version-shield]: https://img.shields.io/badge/version-v1.0.1-blue.svg
 [plex-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/plex-armhf.svg
-[plex-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[plex-aarch64-shield]: https://img.shields.io/badge/aarch64-no-red.svg
 [plex-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [plex-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [plex-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
