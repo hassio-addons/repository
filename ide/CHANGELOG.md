@@ -1,17 +1,14 @@
 [Full Changelog][changelog]
 
-This release adds authentication 🔒 against Home Assistant.
-
-From now on, you have to log in with the same username and password and you use to log on to the Home Assistant frontend. No need to provide credentials in the add-on configuration anymore (so, those can be removed).
+Added the `colordiff` package (thanks for the suggestion @adonnolux) and added support for serial devices.
 
 ### Changed
 
-- Changed past to paste (#23) (@dayofdoom)
-- Adds HA Authentication (#24)
-- Upgrades git to 2.18.1-r0
-- Upgrades libxml2 to 2.9.8-r1
-- Upgrades libxml2-utils to 2.9.8-r1
-- Small improvements to HA authentication proxy
-- Upgrades Cloud9 Core to c4d1c59
+- Upgrades nginx to 1.14.1-r0
+- Adds support for serial devices
+- Adds info about HA auth to README.md (#25) (@PixelJonas)
+- Upgrades openssl to 1.0.2p-r0
+- Upgrades bind-tools to 9.12.3-r0
+- Adds colordiff package
 
-[changelog]: https://github.com/hassio-addons/addon-ide/compare/v0.6.0...v0.7.0
+[changelog]: https://github.com/hassio-addons/addon-ide/compare/v0.7.0...v0.7.1
