@@ -2,10 +2,7 @@
 
 ### Changed
 
-- Adds Hassio API security role
-- Changed past to paste (#9) (@dayofdoom)
-- Upgrades base image to v2.2.0
-- Removes support for arm64/aarch64
-- Upgrades Plex Media Server to 1.14.0.5470
+- Upgrades Plex Media Server to 1.14.1.5488
+- Limit supported machines (#10) (@HoppingMonk)
 
-[changelog]: https://github.com/hassio-addons/addon-plex/compare/v1.0.1...v1.1.0
+[changelog]: https://github.com/hassio-addons/addon-plex/compare/v1.1.0...v1.1.1
