@@ -37,6 +37,10 @@ addons:
     repository: hassio-addons/addon-influxdb
     target: influxdb
     image: hassioaddons/influxdb-{arch}
+  jupyterlablite:
+    repository: hassio-addons/addon-jupyterlab-lite
+    target: jupyterlab
+    image: hassioaddons/jupyterlablite
   log-viewer:
     repository: hassio-addons/addon-log-viewer
     target: log-viewer
