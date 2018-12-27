@@ -150,6 +150,19 @@ Scalable datastore for metrics, events, and real-time analytics
 
 [:books: InfluxDB add-on documentation][addon-doc-influxdb]
 
+### &#10003; [JupyterLab Lite][addon-jupyterlablite]
+
+![Latest Version][jupyterlablite-version-shield]
+![Supports armhf Architecture][jupyterlablite-armhf-shield]
+![Supports aarch64 Architecture][jupyterlablite-aarch64-shield]
+![Supports amd64 Architecture][jupyterlablite-amd64-shield]
+![Supports i386 Architecture][jupyterlablite-i386-shield]
+![Docker Pulls][jupyterlablite-pulls-shield]
+
+Create documents containing live code, equations, visualizations, and explanatory text.
+
+[:books: JupyterLab Lite add-on documentation][addon-doc-jupyterlablite]
+
 ### &#10003; [Log Viewer][addon-log-viewer]
 
 ![Latest Version][log-viewer-version-shield]
@@ -427,6 +440,7 @@ on the correct GitHub repository matching the add-on.
 - [Open an issue for the add-on: Happy Bubbles][happy-bubbles-issue]
 - [Open an issue for the add-on: IDE][ide-issue]
 - [Open an issue for the add-on: InfluxDB][influxdb-issue]
+- [Open an issue for the add-on: JupyterLab Lite][jupyterlablite-issue]
 - [Open an issue for the add-on: Log Viewer][log-viewer-issue]
 - [Open an issue for the add-on: Lovelace Migration][lovelace-migration-issue]
 - [Open an issue for the add-on: Lutron Certificate][lutron-cert-issue]
@@ -576,6 +590,15 @@ SOFTWARE.
 [influxdb-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [influxdb-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [influxdb-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
+[addon-jupyterlablite]: https://github.com/hassio-addons/addon-jupyterlab-lite/tree/v0.1.0
+[addon-doc-jupyterlablite]: https://github.com/hassio-addons/addon-jupyterlab-lite/blob/v0.1.0/README.md
+[jupyterlablite-issue]: https://github.com/hassio-addons/addon-jupyterlab-lite/issues
+[jupyterlablite-version-shield]: https://img.shields.io/badge/version-v0.1.0-blue.svg
+[jupyterlablite-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/jupyterlablite.svg
+[jupyterlablite-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[jupyterlablite-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[jupyterlablite-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
+[jupyterlablite-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [addon-log-viewer]: https://github.com/hassio-addons/addon-log-viewer/tree/v0.3.0
 [addon-doc-log-viewer]: https://github.com/hassio-addons/addon-log-viewer/blob/v0.3.0/README.md
 [log-viewer-issue]: https://github.com/hassio-addons/addon-log-viewer/issues
