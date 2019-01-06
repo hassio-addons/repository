@@ -1,13 +1,16 @@
-This release updates a couple of things, but adds some new things as well!
-
-The [Home Assistant Command Line Tool](https://github.com/home-assistant/home-assistant-cli) has been added and yamllint is now available as well! 🎉 
+This release consists mainly of updates of packages and documentation. The big change is the Hass.io Command Line tool, which has gotten a major upgrade!
 
 [Full Changelog][changelog]
 
-- Upgrades bind-tools to 9.12.3-r0
-- Upgrades nginx to 1.14.1-r0
-- Adds Home Assistant CLI
-- Updates README to list the hass-cli
-- Adds yamllint
+- Upgrades sqlite to 3.25.3-r0
+- Removes BountySource links
+- Removes Anchore.io links
+- Updates maintenance year to 2019
+- Replaces add-on link with GitHub link
+- Moves Python requirements out of the Dockerfile
+- Configures Renovate (#50)
+- Updates hassio-cli to v2.0.1 (#51) (@timmo001)
+- Refactor of GitLab CI
+- Upgrades add-on base image to 2.3.1
 
-[changelog]: https://github.com/hassio-addons/addon-ssh/compare/v3.5.1...v3.6.0
+[changelog]: https://github.com/hassio-addons/addon-ssh/compare/v3.6.0...v3.7.0
