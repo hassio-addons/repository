@@ -33,6 +33,19 @@ https://github.com/hassio-addons/repository
 
 ## Add-ons provided by this repository
 
+### &#10003; [AdGuard Home][addon-adguard]
+
+![Latest Version][adguard-version-shield]
+![Supports armhf Architecture][adguard-armhf-shield]
+![Supports aarch64 Architecture][adguard-aarch64-shield]
+![Supports amd64 Architecture][adguard-amd64-shield]
+![Supports i386 Architecture][adguard-i386-shield]
+![Docker Pulls][adguard-pulls-shield]
+
+Network-wide ads & trackers blocking DNS server.
+
+[:books: AdGuard Home add-on documentation][addon-doc-adguard]
+
 ### &#10003; [AirCast][addon-aircast]
 
 ![Latest Version][aircast-version-shield]
@@ -444,6 +457,7 @@ You could also open an issue here on GitHub. Note, we use a separate
 GitHub repository for each add-on. Please ensure you are creating the issue
 on the correct GitHub repository matching the add-on.
 
+- [Open an issue for the add-on: AdGuard Home][adguard-issue]
 - [Open an issue for the add-on: AirCast][aircast-issue]
 - [Open an issue for the add-on: AirSonos][airsonos-issue]
 - [Open an issue for the add-on: AppDaemon][appdaemon3-issue]
@@ -523,6 +537,15 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
+[addon-adguard]: https://github.com/hassio-addons/addon-adguard-home/tree/v0.1.0
+[addon-doc-adguard]: https://github.com/hassio-addons/addon-adguard-home/blob/v0.1.0/README.md
+[adguard-issue]: https://github.com/hassio-addons/addon-adguard-home/issues
+[adguard-version-shield]: https://img.shields.io/badge/version-v0.1.0-blue.svg
+[adguard-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/adguard.svg
+[adguard-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[adguard-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[adguard-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
+[adguard-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [addon-aircast]: https://github.com/hassio-addons/addon-aircast/tree/v1.1.0
 [addon-doc-aircast]: https://github.com/hassio-addons/addon-aircast/blob/v1.1.0/README.md
 [aircast-issue]: https://github.com/hassio-addons/addon-aircast/issues
