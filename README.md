@@ -137,6 +137,19 @@ Presence detection server for Happy Bubbles Bluetooth beacon-based presence dete
 
 [:books: Happy Bubbles add-on documentation][addon-doc-happy-bubbles]
 
+### &#10003; [Home Panel][addon-home-panel]
+
+![Latest Version][home-panel-version-shield]
+![Supports armhf Architecture][home-panel-armhf-shield]
+![Supports aarch64 Architecture][home-panel-aarch64-shield]
+![Supports amd64 Architecture][home-panel-amd64-shield]
+![Supports i386 Architecture][home-panel-i386-shield]
+![Docker Pulls][home-panel-pulls-shield]
+
+A touch-compatible web frontend for controlling the home.
+
+[:books: Home Panel add-on documentation][addon-doc-home-panel]
+
 ### &#10003; [IDE][addon-ide]
 
 ![Latest Version][ide-version-shield]
@@ -465,6 +478,7 @@ on the correct GitHub repository matching the add-on.
 - [Open an issue for the add-on: FTP][ftp-issue]
 - [Open an issue for the add-on: Grafana][grafana-issue]
 - [Open an issue for the add-on: Happy Bubbles][happy-bubbles-issue]
+- [Open an issue for the add-on: Home Panel][home-panel-issue]
 - [Open an issue for the add-on: IDE][ide-issue]
 - [Open an issue for the add-on: InfluxDB][influxdb-issue]
 - [Open an issue for the add-on: JupyterLab Lite][jupyterlablite-issue]
@@ -609,6 +623,15 @@ SOFTWARE.
 [happy-bubbles-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [happy-bubbles-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [happy-bubbles-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
+[addon-home-panel]: https://github.com/hassio-addons/addon-home-panel/tree/v0.1.0
+[addon-doc-home-panel]: https://github.com/hassio-addons/addon-home-panel/blob/v0.1.0/README.md
+[home-panel-issue]: https://github.com/hassio-addons/addon-home-panel/issues
+[home-panel-version-shield]: https://img.shields.io/badge/version-v0.1.0-blue.svg
+[home-panel-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/home-panel.svg
+[home-panel-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[home-panel-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[home-panel-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
+[home-panel-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [addon-ide]: https://github.com/hassio-addons/addon-ide/tree/v0.7.2
 [addon-doc-ide]: https://github.com/hassio-addons/addon-ide/blob/v0.7.2/README.md
 [ide-issue]: https://github.com/hassio-addons/addon-ide/issues
