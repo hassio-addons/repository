@@ -33,6 +33,10 @@ addons:
     repository: hassio-addons/addon-happy-bubbles
     target: happy-bubbles
     image: hassioaddons/happy-bubbles-{arch}
+  home-panel:
+    repository: hassio-addons/addon-home-panel
+    target: home-panel
+    image: hassioaddons/home-panel
   ide:
     repository: hassio-addons/addon-ide
     target: ide
