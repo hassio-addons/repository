@@ -1,6 +1,6 @@
 {
   "name": "IDE",
-  "version": "0.7.2",
+  "version": "0.8.0",
   "slug": "ide",
   "description": "Advanced IDE for Home Assistant, based on Cloud9 IDE",
   "url": "https://community.home-assistant.io/t/community-hass-io-add-on-ide-based-on-cloud9/33810?u=frenck",
