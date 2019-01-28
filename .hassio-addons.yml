@@ -53,10 +53,6 @@ addons:
     repository: hassio-addons/addon-log-viewer
     target: log-viewer
     image: hassioaddons/log-viewer
-  lovelace-migration:
-    repository: hassio-addons/addon-lovelace-migration
-    target: lovelace-migration
-    image: hassioaddons/lovelace-migration
   lutron-cert:
     repository: hassio-addons/addon-lutron-cert
     target: lutron-cert
