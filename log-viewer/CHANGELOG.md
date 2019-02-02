@@ -2,9 +2,6 @@
 
 ### Changed
 
-- Adds Hassio API security role
-- Upgrades base image to v2.3.0
-- Typo correct in README
-- Adds screenshots to documentation
+- Upgrades ws-log to 1ca0623
 
-[changelog]: https://github.com/hassio-addons/addon-log-viewer/compare/v0.2.1...v0.3.0
+[changelog]: https://github.com/hassio-addons/addon-log-viewer/compare/v0.3.0...v0.3.1
