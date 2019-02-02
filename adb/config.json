@@ -1,0 +1,41 @@
+{
+  "name": "ADB - Android Debug Bridge",
+  "version": "0.1.0",
+  "slug": "adb",
+  "description": "The Android Debug Bridge server program",
+  "url": "https://github.com/hassio-addons/addon-adb",
+  "startup": "services",
+  "ports": {
+    "5037/tcp": 5037
+  },
+  "arch": [
+    "aarch64",
+    "amd64",
+    "armhf",
+    "i386"
+  ],
+  "map": [
+    "config:rw",
+    "share:rw",
+    "ssl:rw"
+  ],
+  "boot": "auto",
+  "hassio_api": true,
+  "hassio_role": "default",
+  "options": {
+    "devices": [],
+    "reconnect_timeout": 90
+  },
+  "schema": {
+    "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)?",
+    "keys_path": "str?",
+    "devices": [
+      "str"
+    ],
+    "reconnect_timeout": "int"
+  },
+  "environment": {
+    "LOG_FORMAT": "{LEVEL}: {MESSAGE}"
+  },
+  "image": "hassioaddons/adb"
+}

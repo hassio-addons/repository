@@ -33,6 +33,19 @@ https://github.com/hassio-addons/repository
 
 ## Add-ons provided by this repository
 
+### &#10003; [ADB - Android Debug Bridge][addon-adb]
+
+![Latest Version][adb-version-shield]
+![Supports armhf Architecture][adb-armhf-shield]
+![Supports aarch64 Architecture][adb-aarch64-shield]
+![Supports amd64 Architecture][adb-amd64-shield]
+![Supports i386 Architecture][adb-i386-shield]
+![Docker Pulls][adb-pulls-shield]
+
+The Android Debug Bridge server program
+
+[:books: ADB - Android Debug Bridge add-on documentation][addon-doc-adb]
+
 ### &#10003; [AdGuard Home][addon-adguard]
 
 ![Latest Version][adguard-version-shield]
@@ -457,6 +470,7 @@ You could also open an issue here on GitHub. Note, we use a separate
 GitHub repository for each add-on. Please ensure you are creating the issue
 on the correct GitHub repository matching the add-on.
 
+- [Open an issue for the add-on: ADB - Android Debug Bridge][adb-issue]
 - [Open an issue for the add-on: AdGuard Home][adguard-issue]
 - [Open an issue for the add-on: AirCast][aircast-issue]
 - [Open an issue for the add-on: AirSonos][airsonos-issue]
@@ -537,6 +551,15 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
+[addon-adb]: https://github.com/hassio-addons/addon-adb/tree/v0.1.0
+[addon-doc-adb]: https://github.com/hassio-addons/addon-adb/blob/v0.1.0/README.md
+[adb-issue]: https://github.com/hassio-addons/addon-adb/issues
+[adb-version-shield]: https://img.shields.io/badge/version-v0.1.0-blue.svg
+[adb-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/adb.svg
+[adb-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[adb-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[adb-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
+[adb-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [addon-adguard]: https://github.com/hassio-addons/addon-adguard-home/tree/v0.1.1
 [addon-doc-adguard]: https://github.com/hassio-addons/addon-adguard-home/blob/v0.1.1/README.md
 [adguard-issue]: https://github.com/hassio-addons/addon-adguard-home/issues
