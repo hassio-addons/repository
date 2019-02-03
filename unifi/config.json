@@ -1,9 +1,9 @@
 {
   "name": "UniFi Controller",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "slug": "unifi",
   "description": "Manage your UniFi network using a web browser",
-  "url": "https://community.home-assistant.io/t/community-hass-io-add-on-unifi-controller/56297?u=frenck",
+  "url": "https://github.com/hassio-addons/addon-unifi",
   "webui": "https://[HOST]:[PORT:8443]",
   "startup": "services",
   "arch": [
@@ -39,10 +39,12 @@
     "keyfile": "privkey.pem"
   },
   "schema": {
-    "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)",
+    "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)?",
     "ssl": "bool",
     "certfile": "str",
-    "keyfile": "str"
+    "keyfile": "str",
+    "memory_max": "int?",
+    "memory_init": "int?"
   },
   "environment": {
     "LOG_FORMAT": "{LEVEL}: {MESSAGE}"
