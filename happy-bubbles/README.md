@@ -33,12 +33,12 @@ as they happen, to not have to keep polling it.
 [buymeacoffee]: https://www.buymeacoffee.com/frenck
 [discord-shield]: https://img.shields.io/discord/478094546522079232.svg
 [discord]: https://discord.me/hassioaddons
-[docs]: https://github.com/hassio-addons/addon-happy-bubbles/blob/v1.2.0/README.md
+[docs]: https://github.com/hassio-addons/addon-happy-bubbles/blob/v1.2.1/README.md
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
 [forum]: https://community.home-assistant.io/t/community-hass-io-add-on-happy-bubbles/53511?u=frenck
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2018.svg
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2019.svg
 [patreon-shield]: https://www.frenck.nl/images/patreon.png
 [patreon]: https://www.patreon.com/frenck
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[release-shield]: https://img.shields.io/badge/version-v1.2.0-blue.svg
-[release]: https://github.com/hassio-addons/addon-happy-bubbles/tree/v1.2.0
+[release-shield]: https://img.shields.io/badge/version-v1.2.1-blue.svg
+[release]: https://github.com/hassio-addons/addon-happy-bubbles/tree/v1.2.1
