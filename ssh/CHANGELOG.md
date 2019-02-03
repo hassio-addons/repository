@@ -1,16 +1,14 @@
-This release consists mainly of updates of packages and documentation. The big change is the Hass.io Command Line tool, which has gotten a major upgrade!
-
 [Full Changelog][changelog]
 
-- Upgrades sqlite to 3.25.3-r0
-- Removes BountySource links
-- Removes Anchore.io links
-- Updates maintenance year to 2019
-- Replaces add-on link with GitHub link
-- Moves Python requirements out of the Dockerfile
-- Configures Renovate (#50)
-- Updates hassio-cli to v2.0.1 (#51) (@timmo001)
-- Refactor of GitLab CI
-- Upgrades add-on base image to 2.3.1
+### Changed
 
-[changelog]: https://github.com/hassio-addons/addon-ssh/compare/v3.6.0...v3.7.0
+- Fixes spelling error in Dockerfile
+- Updates yamllint to v1.14.0 (#55)
+- Updates homeassistant_cli to v0.4.4 (#56)
+- Upgrades mariadb-client to 10.2.19-r1
+- Upgrades wget to 1.20.1-r0
+
+[changelog]: https://github.com/hassio-addons/addon-ssh/compare/v3.7.0...v3.7.1
+
+Questions? Join our Discord server! https://discord.me/hassioaddons
+Enjoying my add-ons? Consider supporting my work: https://patreon.com/frenck
