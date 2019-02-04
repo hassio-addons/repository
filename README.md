@@ -740,10 +740,10 @@ SOFTWARE.
 [pi-hole-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [pi-hole-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [pi-hole-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
-[addon-plex]: https://github.com/hassio-addons/addon-plex/tree/v1.1.1
-[addon-doc-plex]: https://github.com/hassio-addons/addon-plex/blob/v1.1.1/README.md
+[addon-plex]: https://github.com/hassio-addons/addon-plex/tree/v1.2.0
+[addon-doc-plex]: https://github.com/hassio-addons/addon-plex/blob/v1.2.0/README.md
 [plex-issue]: https://github.com/hassio-addons/addon-plex/issues
-[plex-version-shield]: https://img.shields.io/badge/version-v1.1.1-blue.svg
+[plex-version-shield]: https://img.shields.io/badge/version-v1.2.0-blue.svg
 [plex-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/plex-armhf.svg
 [plex-aarch64-shield]: https://img.shields.io/badge/aarch64-no-red.svg
 [plex-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg

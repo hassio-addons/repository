@@ -1,9 +1,9 @@
 {
   "name": "Plex Media Server",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "slug": "plex",
   "description": "Recorded media, live TV, online news, and podcasts ready to stream.",
-  "url": "https://community.home-assistant.io/t/community-hass-io-add-on-plex-media-server/54383?u=frenck",
+  "url": "https://github.com/hassio-addons/addon-plex",
   "webui": "http://[HOST]:[PORT:32400]/web",
   "startup": "services",
   "arch": [
