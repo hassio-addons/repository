@@ -776,10 +776,10 @@ SOFTWARE.
 [ssh-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [ssh-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [ssh-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
-[addon-spotify]: https://github.com/hassio-addons/addon-spotify-connect/tree/v0.3.0
-[addon-doc-spotify]: https://github.com/hassio-addons/addon-spotify-connect/blob/v0.3.0/README.md
+[addon-spotify]: https://github.com/hassio-addons/addon-spotify-connect/tree/v0.4.0
+[addon-doc-spotify]: https://github.com/hassio-addons/addon-spotify-connect/blob/v0.4.0/README.md
 [spotify-issue]: https://github.com/hassio-addons/addon-spotify-connect/issues
-[spotify-version-shield]: https://img.shields.io/badge/version-v0.3.0-blue.svg
+[spotify-version-shield]: https://img.shields.io/badge/version-v0.4.0-blue.svg
 [spotify-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/spotify.svg
 [spotify-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [spotify-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
