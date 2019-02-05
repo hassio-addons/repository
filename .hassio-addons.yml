@@ -29,6 +29,10 @@ addons:
     repository: hassio-addons/addon-ftp
     target: ftp
     image: hassioaddons/ftp-{arch}
+  glances:
+    repository: hassio-addons/addon-glances
+    target: glances
+    image: hassioaddons/glances
   grafana:
     repository: hassio-addons/addon-grafana
     target: grafana
