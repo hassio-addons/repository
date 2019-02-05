@@ -1,6 +1,6 @@
 {
   "name": "Node-RED",
-  "version": "1.2.6",
+  "version": "1.3.0",
   "slug": "nodered",
   "description": "Flow-based programming for the Internet of Things",
   "url": "https://github.com/hassio-addons/addon-node-red",
@@ -35,6 +35,7 @@
   "options": {
     "log_level": "info",
     "credential_secret": "",
+    "dark_mode": false,
     "http_node": {
       "username": "",
       "password": ""
@@ -55,6 +56,7 @@
   "schema": {
     "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)",
     "credential_secret": "str",
+    "dark_mode": "bool",
     "http_node": {
       "username": "str",
       "password": "str"
