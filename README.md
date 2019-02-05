@@ -124,6 +124,19 @@ A secure and fast FTP server for Hass.io
 
 [:books: FTP add-on documentation][addon-doc-ftp]
 
+### &#10003; [Glances][addon-glances]
+
+![Latest Version][glances-version-shield]
+![Supports armhf Architecture][glances-armhf-shield]
+![Supports aarch64 Architecture][glances-aarch64-shield]
+![Supports amd64 Architecture][glances-amd64-shield]
+![Supports i386 Architecture][glances-i386-shield]
+![Docker Pulls][glances-pulls-shield]
+
+A cross-platform system monitoring tool
+
+[:books: Glances add-on documentation][addon-doc-glances]
+
 ### &#10003; [Grafana][addon-grafana]
 
 ![Latest Version][grafana-version-shield]
@@ -477,6 +490,7 @@ on the correct GitHub repository matching the add-on.
 - [Open an issue for the add-on: AppDaemon][appdaemon3-issue]
 - [Open an issue for the add-on: Example][example-issue]
 - [Open an issue for the add-on: FTP][ftp-issue]
+- [Open an issue for the add-on: Glances][glances-issue]
 - [Open an issue for the add-on: Grafana][grafana-issue]
 - [Open an issue for the add-on: Happy Bubbles][happy-bubbles-issue]
 - [Open an issue for the add-on: Home Panel][home-panel-issue]
@@ -614,6 +628,15 @@ SOFTWARE.
 [ftp-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [ftp-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [ftp-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
+[addon-glances]: https://github.com/hassio-addons/addon-glances/tree/v0.1.0
+[addon-doc-glances]: https://github.com/hassio-addons/addon-glances/blob/v0.1.0/README.md
+[glances-issue]: https://github.com/hassio-addons/addon-glances/issues
+[glances-version-shield]: https://img.shields.io/badge/version-v0.1.0-blue.svg
+[glances-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/glances.svg
+[glances-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[glances-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[glances-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
+[glances-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [addon-grafana]: https://github.com/hassio-addons/addon-grafana/tree/v1.2.2
 [addon-doc-grafana]: https://github.com/hassio-addons/addon-grafana/blob/v1.2.2/README.md
 [grafana-issue]: https://github.com/hassio-addons/addon-grafana/issues
