@@ -2,17 +2,10 @@
 
 ### Changed
 
-- Fixes spelling error in Dockerfile
-- Removes BountySource links
-- Removes Anchore.io links
-- Updates maintenance year to 2019
-- Upgrades add-on base image to 2.2.1
-- Fixes build by removing unsupported i386
-- Configure Renovate (#21)
-- Replaces add-on link with GitHub link
-- Upgrades Grafana to 5.4.3
+- Upgrades Grafana to 6.0.0
+- Upgrades add-on base image to 2.3.1
 
-[changelog]: https://github.com/hassio-addons/addon-grafana/compare/v1.2.1...v1.2.2
+[changelog]: https://github.com/hassio-addons/addon-grafana/compare/v1.2.2...v1.3.0
 
 Questions? Join our Discord server! https://discord.me/hassioaddons
 Enjoying my add-ons? Consider supporting my work: https://patreon.com/frenck
