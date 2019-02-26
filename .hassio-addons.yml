@@ -113,6 +113,10 @@ addons:
     repository: hassio-addons/addon-tautulli
     target: tautulli
     image: hassioaddons/tautulli
+  thelounge:
+    repository: hassio-addons/addon-thelounge
+    target: thelounge
+    image: hassioaddons/thelounge
   ssh:
     repository: hassio-addons/addon-ssh
     target: ssh
