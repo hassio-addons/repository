@@ -2,13 +2,11 @@
 
 ### Changed
 
-- Updates node-red-node-serialport to v0.7.0 (#133)
-- Updates node-red-contrib-bigtimer to v2.1.8 (#135)
-- Updates dark theme to v0.2.7 (#140) (@tjorim)
-- Updates node-red to v0.19.6 (#141)
-- Upgrades add-on base image to 2.3.2
+- Updates node-red-contrib-bigtimer to v2.1.9 (#143)
+- Updates js-yaml to v3.12.2 (#145)
+- Updates node-red-contrib-home-assistant-websocket to v0.8.0 (#146)
 
-[changelog]: https://github.com/hassio-addons/addon-node-red/compare/v1.3.2...v1.3.3
+[changelog]: https://github.com/hassio-addons/addon-node-red/compare/v1.3.3...v1.3.4
 
 Questions? Join our Discord server! https://discord.me/hassioaddons
 Enjoying my add-ons? Consider supporting my work: https://patreon.com/frenck
