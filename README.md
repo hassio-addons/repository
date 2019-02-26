@@ -410,6 +410,19 @@ Monitoring and tracking tool for Plex Media Server
 
 [:books: Tautulli add-on documentation][addon-doc-tautulli]
 
+### &#10003; [The Lounge][addon-thelounge]
+
+![Latest Version][thelounge-version-shield]
+![Supports armhf Architecture][thelounge-armhf-shield]
+![Supports aarch64 Architecture][thelounge-aarch64-shield]
+![Supports amd64 Architecture][thelounge-amd64-shield]
+![Supports i386 Architecture][thelounge-i386-shield]
+![Docker Pulls][thelounge-pulls-shield]
+
+A self-hosted web IRC client
+
+[:books: The Lounge add-on documentation][addon-doc-thelounge]
+
 ### &#10003; [Tor][addon-tor]
 
 ![Latest Version][tor-version-shield]
@@ -512,6 +525,7 @@ on the correct GitHub repository matching the add-on.
 - [Open an issue for the add-on: Spotify Connect][spotify-issue]
 - [Open an issue for the add-on: TasmoAdmin][tasmoadmin-issue]
 - [Open an issue for the add-on: Tautulli][tautulli-issue]
+- [Open an issue for the add-on: The Lounge][thelounge-issue]
 - [Open an issue for the add-on: Tor][tor-issue]
 - [Open an issue for the add-on: Traccar][traccar-issue]
 - [Open an issue for the add-on: UniFi Controller][unifi-issue]
@@ -826,6 +840,15 @@ SOFTWARE.
 [tautulli-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [tautulli-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [tautulli-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
+[addon-thelounge]: https://github.com/hassio-addons/addon-thelounge/tree/v0.1.0
+[addon-doc-thelounge]: https://github.com/hassio-addons/addon-thelounge/blob/v0.1.0/README.md
+[thelounge-issue]: https://github.com/hassio-addons/addon-thelounge/issues
+[thelounge-version-shield]: https://img.shields.io/badge/version-v0.1.0-blue.svg
+[thelounge-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/thelounge.svg
+[thelounge-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[thelounge-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[thelounge-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
+[thelounge-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [addon-tor]: https://github.com/hassio-addons/addon-tor/tree/v1.6.1
 [addon-doc-tor]: https://github.com/hassio-addons/addon-tor/blob/v1.6.1/README.md
 [tor-issue]: https://github.com/hassio-addons/addon-tor/issues
