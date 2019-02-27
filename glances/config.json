@@ -1,6 +1,6 @@
 {
   "name": "Glances",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "slug": "glances",
   "description": "A cross-platform system monitoring tool",
   "url": "https://github.com/hassio-addons/addon-glances",
@@ -29,6 +29,8 @@
   "apparmor": false,
   "options": {
     "log_level": "info",
+    "process_info": false,
+    "refresh_time": 10,
     "ssl": false,
     "certfile": "fullchain.pem",
     "keyfile": "privkey.pem",
@@ -45,6 +47,8 @@
   },
   "schema": {
     "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)",
+    "process_info": "bool",
+    "refresh_time": "int",
     "ssl": "bool",
     "certfile": "str",
     "keyfile": "str",
