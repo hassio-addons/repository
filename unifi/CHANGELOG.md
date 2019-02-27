@@ -2,12 +2,10 @@
 
 ### Changed
 
-- Upgrades UniFi Controller to 5.10.17 (#23) (@schliflo)
-- Added a workaround to the hung adoption issue (#25) (@Firespyer)
-- Upgrades add-on base image to 2.3.0
-- Adds ARMv7 support
+- Upgrades UniFi Controller to 5.10.19 (#26)
+- Document known issue about connection refused exception
 
-[changelog]: https://github.com/hassio-addons/addon-unifi/compare/v0.6.0...v0.7.0
+[changelog]: https://github.com/hassio-addons/addon-unifi/compare/v0.7.0...v0.7.1
 
 Questions? Join our Discord server! https://discord.me/hassioaddons
 Enjoying my add-ons? Consider supporting my work: https://patreon.com/frenck
