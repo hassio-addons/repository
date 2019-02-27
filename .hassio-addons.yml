@@ -21,6 +21,10 @@ addons:
     repository: hassio-addons/addon-appdaemon3
     target: appdaemon
     image: hassioaddons/appdaemon3-{arch}
+  esphome:
+    repository: esphome/hassio
+    target: esphome
+    image: esphome/esphome-hassio-{arch}
   example:
     repository: hassio-addons/addon-example
     target: example
