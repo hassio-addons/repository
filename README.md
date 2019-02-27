@@ -280,19 +280,6 @@ Flow-based programming for the Internet of Things
 
 [:books: Node-RED add-on documentation][addon-doc-node-red]
 
-### &#10003; [Octobox][addon-octobox]
-
-![Latest Version][octobox-version-shield]
-![Supports armhf Architecture][octobox-armhf-shield]
-![Supports aarch64 Architecture][octobox-aarch64-shield]
-![Supports amd64 Architecture][octobox-amd64-shield]
-![Supports i386 Architecture][octobox-i386-shield]
-![Docker Pulls][octobox-pulls-shield]
-
-Take back control of your GitHub notifications
-
-[:books: Octobox add-on documentation][addon-doc-octobox]
-
 ### &#10003; [Phlex][addon-phlex]
 
 ![Latest Version][phlex-version-shield]
@@ -515,7 +502,6 @@ on the correct GitHub repository matching the add-on.
 - [Open an issue for the add-on: MQTT Server & Web client][mqtt-issue]
 - [Open an issue for the add-on: Matrix][matrix-issue]
 - [Open an issue for the add-on: Node-RED][node-red-issue]
-- [Open an issue for the add-on: Octobox][octobox-issue]
 - [Open an issue for the add-on: Phlex][phlex-issue]
 - [Open an issue for the add-on: Pi-hole][pi-hole-issue]
 - [Open an issue for the add-on: Plex Media Server][plex-issue]
@@ -750,15 +736,6 @@ SOFTWARE.
 [node-red-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [node-red-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [node-red-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
-[addon-octobox]: https://github.com/hassio-addons/addon-octobox/tree/v0.4.1
-[addon-doc-octobox]: https://github.com/hassio-addons/addon-octobox/blob/v0.4.1/README.md
-[octobox-issue]: https://github.com/hassio-addons/addon-octobox/issues
-[octobox-version-shield]: https://img.shields.io/badge/version-v0.4.1-blue.svg
-[octobox-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/octobox.svg
-[octobox-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
-[octobox-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
-[octobox-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
-[octobox-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [addon-phlex]: https://github.com/hassio-addons/addon-phlex/tree/v0.2.0
 [addon-doc-phlex]: https://github.com/hassio-addons/addon-phlex/blob/v0.2.0/README.md
 [phlex-issue]: https://github.com/hassio-addons/addon-phlex/issues
