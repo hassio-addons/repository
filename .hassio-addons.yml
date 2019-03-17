@@ -80,7 +80,7 @@ addons:
   node-red:
     repository: hassio-addons/addon-node-red
     target: node-red
-    image: hassioaddons/node-red-{arch}
+    image: hassioaddons/node-red
   phlex:
     repository: hassio-addons/addon-phlex
     target: phlex
