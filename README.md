@@ -798,10 +798,10 @@ SOFTWARE.
 [phlex-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [phlex-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [phlex-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
-[addon-pi-hole]: https://github.com/hassio-addons/addon-pi-hole/tree/v3.0.1
-[addon-doc-pi-hole]: https://github.com/hassio-addons/addon-pi-hole/blob/v3.0.1/README.md
+[addon-pi-hole]: https://github.com/hassio-addons/addon-pi-hole/tree/v3.0.2
+[addon-doc-pi-hole]: https://github.com/hassio-addons/addon-pi-hole/blob/v3.0.2/README.md
 [pi-hole-issue]: https://github.com/hassio-addons/addon-pi-hole/issues
-[pi-hole-version-shield]: https://img.shields.io/badge/version-v3.0.1-blue.svg
+[pi-hole-version-shield]: https://img.shields.io/badge/version-v3.0.2-blue.svg
 [pi-hole-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/pi-hole-armhf.svg
 [pi-hole-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [pi-hole-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
