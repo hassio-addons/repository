@@ -88,7 +88,7 @@ addons:
   pi-hole:
     repository: hassio-addons/addon-pi-hole
     target: pi-hole
-    image: hassioaddons/pi-hole-{arch}
+    image: hassioaddons/pi-hole
   plex:
     repository: hassio-addons/addon-plex
     target: plex
