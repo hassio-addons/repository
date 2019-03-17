@@ -682,11 +682,11 @@ SOFTWARE.
 [addon-doc-grafana]: https://github.com/hassio-addons/addon-grafana/blob/v1.3.0/README.md
 [grafana-issue]: https://github.com/hassio-addons/addon-grafana/issues
 [grafana-version-shield]: https://img.shields.io/badge/version-v1.3.0-blue.svg
-[grafana-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/grafana-armhf.svg
+[grafana-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/grafana.svg
 [grafana-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [grafana-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
-[grafana-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
-[grafana-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
+[grafana-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
+[grafana-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [grafana-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [addon-happy-bubbles]: https://github.com/hassio-addons/addon-happy-bubbles/tree/v1.2.1
 [addon-doc-happy-bubbles]: https://github.com/hassio-addons/addon-happy-bubbles/blob/v1.2.1/README.md
