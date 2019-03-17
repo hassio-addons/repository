@@ -782,11 +782,11 @@ SOFTWARE.
 [addon-doc-node-red]: https://github.com/hassio-addons/addon-node-red/blob/v1.4.0/README.md
 [node-red-issue]: https://github.com/hassio-addons/addon-node-red/issues
 [node-red-version-shield]: https://img.shields.io/badge/version-v1.4.0-blue.svg
-[node-red-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/node-red-armhf.svg
+[node-red-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/node-red.svg
 [node-red-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [node-red-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [node-red-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
-[node-red-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
+[node-red-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [node-red-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [addon-phlex]: https://github.com/hassio-addons/addon-phlex/tree/v0.2.0
 [addon-doc-phlex]: https://github.com/hassio-addons/addon-phlex/blob/v0.2.0/README.md
