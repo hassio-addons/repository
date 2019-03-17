@@ -802,11 +802,11 @@ SOFTWARE.
 [addon-doc-pi-hole]: https://github.com/hassio-addons/addon-pi-hole/blob/v2.1.1/README.md
 [pi-hole-issue]: https://github.com/hassio-addons/addon-pi-hole/issues
 [pi-hole-version-shield]: https://img.shields.io/badge/version-v2.1.1-blue.svg
-[pi-hole-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/pi-hole-armhf.svg
+[pi-hole-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/pi-hole.svg
 [pi-hole-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [pi-hole-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [pi-hole-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
-[pi-hole-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
+[pi-hole-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [pi-hole-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [addon-plex]: https://github.com/hassio-addons/addon-plex/tree/v1.2.0
 [addon-doc-plex]: https://github.com/hassio-addons/addon-plex/blob/v1.2.0/README.md
