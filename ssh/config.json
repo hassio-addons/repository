@@ -1,6 +1,6 @@
 {
   "name": "SSH & Web Terminal",
-  "version": "3.7.3",
+  "version": "4.0.0",
   "slug": "ssh",
   "description": "SSH & Web Terminal access to your Home Assistant instance",
   "url": "https://github.com/hassio-addons/addon-ssh",
@@ -10,6 +10,7 @@
     "aarch64",
     "amd64",
     "armhf",
+    "armv7",
     "i386"
   ],
   "boot": "auto",
@@ -42,7 +43,6 @@
     "backup:rw"
   ],
   "options": {
-    "log_level": "info",
     "ssh": {
       "enable": true,
       "port": 22,
@@ -69,7 +69,7 @@
     "init_commands": []
   },
   "schema": {
-    "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)",
+    "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)?",
     "ssh": {
       "enable": "bool",
       "port": "port",
@@ -103,8 +103,5 @@
     "i_like_to_be_pwned": "bool?",
     "leave_front_door_open": "bool?"
   },
-  "environment": {
-    "LOG_FORMAT": "{LEVEL}: {MESSAGE}"
-  },
-  "image": "hassioaddons/ssh-{arch}"
+  "image": "hassioaddons/ssh"
 }
