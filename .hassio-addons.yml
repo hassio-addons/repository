@@ -44,7 +44,7 @@ addons:
   home-panel:
     repository: hassio-addons/addon-home-panel
     target: home-panel
-    image: hassioaddons/home-panel
+    image: hassioaddons/home-panel-{arch}
   ide:
     repository: hassio-addons/addon-ide
     target: ide
