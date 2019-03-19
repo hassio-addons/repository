@@ -112,7 +112,7 @@ addons:
   thelounge:
     repository: hassio-addons/addon-thelounge
     target: thelounge
-    image: hassioaddons/thelounge
+    image: hassioaddons/thelounge={arch]
   ssh:
     repository: hassio-addons/addon-ssh
     target: ssh
