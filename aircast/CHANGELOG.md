@@ -2,15 +2,16 @@
 
 ### Changed
 
-- Removes BountySource links
-- Removes Anchore.io links
-- Replaces add-on link with GitHub link
-- Updates maintenance year to 2019
-- Upgrades AirConnect to 0.2.2.4
-- Upgrades libssl1.0.0 to 1.0.2n-1ubuntu5.2
-- Refactor of GitLab CI
-- Configure Renovate (#13) 
-- Upgrades add-on base image to 2.2.1
-- Fixes spelling error in Dockerfile
+- Upgrades add-on base image to 3.0.0
+- Updates documentation for ARMv7
+- Removes custom log format override
+- Makes log_level optional
+- Upgrades libssl1.0.0 to 1.0.2n-1ubuntu5.3
+- Rewrite add-on onto Bashio
+- Fixes typo in GitLab CI file
+- Correct Aircast binary filename
 
-[changelog]: https://github.com/hassio-addons/addon-aircast/compare/v1.1.0...v1.2.0
+[changelog]: https://github.com/hassio-addons/addon-aircast/compare/v1.2.0...v2.0.0
+
+Questions? Join our Discord server! https://discord.me/hassioaddons
+Enjoying my add-ons? Consider supporting my work: https://patreon.com/frenck
