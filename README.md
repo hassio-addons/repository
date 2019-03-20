@@ -481,6 +481,20 @@ Manage your UniFi network using a web browser
 
 [:books: UniFi Controller add-on documentation][addon-doc-unifi]
 
+### &#10003; [chrony][addon-chrony]
+
+![Latest Version][chrony-version-shield]
+![Supports armhf Architecture][chrony-armhf-shield]
+![Supports armv7 Architecture][chrony-armv7-shield]
+![Supports aarch64 Architecture][chrony-aarch64-shield]
+![Supports amd64 Architecture][chrony-amd64-shield]
+![Supports i386 Architecture][chrony-i386-shield]
+![Docker Pulls][chrony-pulls-shield]
+
+A local NTP (Network Time Protocol) server for cameras etc.
+
+[:books: chrony add-on documentation][addon-doc-chrony]
+
 ### &#10003; [motionEye][addon-motioneye]
 
 ![Latest Version][motioneye-version-shield]
@@ -548,6 +562,7 @@ on the correct GitHub repository matching the add-on.
 - [Open an issue for the add-on: Tor][tor-issue]
 - [Open an issue for the add-on: Traccar][traccar-issue]
 - [Open an issue for the add-on: UniFi Controller][unifi-issue]
+- [Open an issue for the add-on: chrony][chrony-issue]
 - [Open an issue for the add-on: motionEye][motioneye-issue]
 
 For a general repository issue or add-on ideas [open an issue here][issue]
@@ -918,6 +933,16 @@ SOFTWARE.
 [unifi-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [unifi-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [unifi-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
+[addon-chrony]: https://github.com/hassio-addons/addon-chrony/tree/v0.1.0
+[addon-doc-chrony]: https://github.com/hassio-addons/addon-chrony/blob/v0.1.0/README.md
+[chrony-issue]: https://github.com/hassio-addons/addon-chrony/issues
+[chrony-version-shield]: https://img.shields.io/badge/version-v0.1.0-blue.svg
+[chrony-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/chrony-armhf.svg
+[chrony-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[chrony-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[chrony-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
+[chrony-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
+[chrony-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [addon-motioneye]: https://github.com/hassio-addons/addon-motioneye/tree/v0.3.0
 [addon-doc-motioneye]: https://github.com/hassio-addons/addon-motioneye/blob/v0.3.0/README.md
 [motioneye-issue]: https://github.com/hassio-addons/addon-motioneye/issues
