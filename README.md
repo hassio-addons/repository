@@ -747,11 +747,11 @@ SOFTWARE.
 [addon-doc-jupyterlablite]: https://github.com/hassio-addons/addon-jupyterlab-lite/blob/v0.1.0/README.md
 [jupyterlablite-issue]: https://github.com/hassio-addons/addon-jupyterlab-lite/issues
 [jupyterlablite-version-shield]: https://img.shields.io/badge/version-v0.1.0-blue.svg
-[jupyterlablite-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/jupyterlablite.svg
+[jupyterlablite-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/jupyterlablite-amd64.svg
 [jupyterlablite-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [jupyterlablite-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
-[jupyterlablite-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
-[jupyterlablite-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
+[jupyterlablite-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
+[jupyterlablite-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [jupyterlablite-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [addon-log-viewer]: https://github.com/hassio-addons/addon-log-viewer/tree/v0.3.1
 [addon-doc-log-viewer]: https://github.com/hassio-addons/addon-log-viewer/blob/v0.3.1/README.md
