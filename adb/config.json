@@ -1,6 +1,6 @@
 {
   "name": "ADB - Android Debug Bridge",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "slug": "adb",
   "description": "The Android Debug Bridge server program",
   "url": "https://github.com/hassio-addons/addon-adb",
@@ -11,7 +11,7 @@
   "arch": [
     "aarch64",
     "amd64",
-    "armhf",
+    "armv7",
     "i386"
   ],
   "map": [
@@ -34,8 +34,5 @@
     ],
     "reconnect_timeout": "int"
   },
-  "environment": {
-    "LOG_FORMAT": "{LEVEL}: {MESSAGE}"
-  },
-  "image": "hassioaddons/adb"
+  "image": "hassioaddons/adb-{arch}"
 }
