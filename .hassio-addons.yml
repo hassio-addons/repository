@@ -60,7 +60,7 @@ addons:
   jupyterlablite:
     repository: hassio-addons/addon-jupyterlab-lite
     target: jupyterlab
-    image: hassioaddons/jupyterlablite
+    image: hassioaddons/jupyterlablite-{arch}
   log-viewer:
     repository: hassio-addons/addon-log-viewer
     target: log-viewer
