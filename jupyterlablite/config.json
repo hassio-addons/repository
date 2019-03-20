@@ -1,6 +1,6 @@
 {
   "name": "JupyterLab Lite",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "slug": "jupyterlablite",
   "description": "Create documents containing live code, equations, visualizations, and explanatory text.",
   "url": "https://github.com/hassio-addons/addon-jupyterlab-lite",
@@ -9,21 +9,8 @@
   "arch": [
     "aarch64",
     "amd64",
-    "armhf",
+    "armv7",
     "i386"
-  ],
-  "machine": [
-    "intel-nuc",
-    "qemux86",
-    "qemux86-64",
-    "qemuarm",
-    "qemuarm-64",
-    "raspberrypi2",
-    "raspberrypi3",
-    "raspberrypi3-64",
-    "tinker",
-    "odroid-c2",
-    "odroid-xu"
   ],
   "boot": "auto",
   "hassio_api": true,
@@ -40,7 +27,6 @@
     "ssl"
   ],
   "options": {
-    "log_level": "info",
     "github_access_token": "",
     "ssl": false,
     "certfile": "fullchain.pem",
@@ -49,7 +35,7 @@
     "init_commands": []
   },
   "schema": {
-    "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)",
+    "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)?",
     "github_access_token": "str",
     "ssl": "bool",
     "certfile": "str",
@@ -61,8 +47,5 @@
       "str"
     ]
   },
-  "environment": {
-    "LOG_FORMAT": "{LEVEL}: {MESSAGE}"
-  },
-  "image": "hassioaddons/jupyterlablite"
+  "image": "hassioaddons/jupyterlablite-{arch}"
 }
