@@ -8,7 +8,7 @@ addons:
   adguard:
     repository: hassio-addons/addon-adguard-home
     target: adguard
-    image: hassioaddons/adguard
+    image: hassioaddons/adguard-{arch}
   aircast:
     repository: hassio-addons/addon-aircast
     target: aircast
