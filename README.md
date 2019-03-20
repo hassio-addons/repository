@@ -617,11 +617,11 @@ SOFTWARE.
 [addon-doc-adb]: https://github.com/hassio-addons/addon-adb/blob/v0.2.0/README.md
 [adb-issue]: https://github.com/hassio-addons/addon-adb/issues
 [adb-version-shield]: https://img.shields.io/badge/version-v0.2.0-blue.svg
-[adb-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/adb.svg
+[adb-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/adb-amd64.svg
 [adb-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [adb-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
-[adb-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
-[adb-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
+[adb-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
+[adb-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [adb-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [addon-adguard]: https://github.com/hassio-addons/addon-adguard-home/tree/v0.2.0
 [addon-doc-adguard]: https://github.com/hassio-addons/addon-adguard-home/blob/v0.2.0/README.md
