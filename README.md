@@ -637,11 +637,11 @@ SOFTWARE.
 [addon-doc-aircast]: https://github.com/hassio-addons/addon-aircast/blob/v1.2.0/README.md
 [aircast-issue]: https://github.com/hassio-addons/addon-aircast/issues
 [aircast-version-shield]: https://img.shields.io/badge/version-v1.2.0-blue.svg
-[aircast-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/aircast-armhf.svg
+[aircast-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/aircast-amd64.svg
 [aircast-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [aircast-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
-[aircast-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
-[aircast-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
+[aircast-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
+[aircast-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [aircast-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [addon-airsonos]: https://github.com/hassio-addons/addon-airsonos/tree/v1.2.0
 [addon-doc-airsonos]: https://github.com/hassio-addons/addon-airsonos/blob/v1.2.0/README.md
