@@ -4,7 +4,7 @@ addons:
   adb:
     repository: hassio-addons/addon-adb
     target: adb
-    image: hassioaddons/adb
+    image: hassioaddons/adb-{arch}
   adguard:
     repository: hassio-addons/addon-adguard-home
     target: adguard
