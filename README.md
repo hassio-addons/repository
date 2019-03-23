@@ -757,7 +757,7 @@ SOFTWARE.
 [addon-doc-log-viewer]: https://github.com/hassio-addons/addon-log-viewer/blob/v0.3.1/README.md
 [log-viewer-issue]: https://github.com/hassio-addons/addon-log-viewer/issues
 [log-viewer-version-shield]: https://img.shields.io/badge/version-v0.3.1-blue.svg
-[log-viewer-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/log-viewer.svg
+[log-viewer-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/log-viewer-armhf.svg
 [log-viewer-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [log-viewer-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [log-viewer-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
