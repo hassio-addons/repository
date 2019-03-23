@@ -681,7 +681,7 @@ SOFTWARE.
 [ftp-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [ftp-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [ftp-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
-[ftp-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
+[ftp-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [ftp-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [addon-glances]: https://github.com/hassio-addons/addon-glances/tree/v0.2.0
 [addon-doc-glances]: https://github.com/hassio-addons/addon-glances/blob/v0.2.0/README.md
