@@ -911,7 +911,7 @@ SOFTWARE.
 [tor-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [tor-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [tor-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
-[tor-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
+[tor-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [tor-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [addon-traccar]: https://github.com/hassio-addons/addon-traccar/tree/v0.2.0
 [addon-doc-traccar]: https://github.com/hassio-addons/addon-traccar/blob/v0.2.0/README.md
