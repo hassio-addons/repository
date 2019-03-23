@@ -767,11 +767,11 @@ SOFTWARE.
 [addon-doc-lutron-cert]: https://github.com/hassio-addons/addon-lutron-cert/blob/v0.1.0/README.md
 [lutron-cert-issue]: https://github.com/hassio-addons/addon-lutron-cert/issues
 [lutron-cert-version-shield]: https://img.shields.io/badge/version-v0.1.0-blue.svg
-[lutron-cert-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/lutron-cert.svg
+[lutron-cert-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/lutron-cert-armhf.svg
 [lutron-cert-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [lutron-cert-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [lutron-cert-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
-[lutron-cert-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
+[lutron-cert-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [lutron-cert-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [addon-mqtt]: https://github.com/hassio-addons/addon-mqtt/tree/v0.3.1
 [addon-doc-mqtt]: https://github.com/hassio-addons/addon-mqtt/blob/v0.3.1/README.md
