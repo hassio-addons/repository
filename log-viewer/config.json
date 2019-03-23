@@ -1,6 +1,6 @@
 {
   "name": "Log Viewer",
-  "version": "0.3.1",
+  "version": "0.4.0",
   "slug": "logviewer",
   "description": "Browser-based log utility for Hass.io",
   "url": "https://github.com/hassio-addons/addon-log-viewer",
@@ -20,7 +20,6 @@
     "ssl"
   ],
   "options": {
-    "log_level": "info",
     "username": "",
     "password": "",
     "ssl": true,
@@ -50,7 +49,7 @@
     ]
   },
   "schema": {
-    "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)",
+    "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)?",
     "username": "str",
     "password": "str",
     "ssl": "bool",
@@ -65,8 +64,5 @@
     "i_like_to_be_pwned": "bool?",
     "leave_front_door_open": "bool?"
   },
-  "environment": {
-    "LOG_FORMAT": "{LEVEL}: {MESSAGE}"
-  },
-  "image": "hassioaddons/log-viewer"
+  "image": "hassioaddons/log-viewer-{arch}"
 }
