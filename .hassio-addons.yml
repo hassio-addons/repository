@@ -68,7 +68,7 @@ addons:
   lutron-cert:
     repository: hassio-addons/addon-lutron-cert
     target: lutron-cert
-    image: hassioaddons/lutron-cert
+    image: hassioaddons/lutron-cert-{arch}
   matrix:
     repository: hassio-addons/addon-matrix
     target: matrix
