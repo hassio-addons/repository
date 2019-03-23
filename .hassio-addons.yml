@@ -64,7 +64,7 @@ addons:
   log-viewer:
     repository: hassio-addons/addon-log-viewer
     target: log-viewer
-    image: hassioaddons/log-viewer
+    image: hassioaddons/log-viewer-{arch}
   lutron-cert:
     repository: hassio-addons/addon-lutron-cert
     target: lutron-cert
