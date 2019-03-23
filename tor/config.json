@@ -1,6 +1,6 @@
 {
   "name": "Tor",
-  "version": "1.6.1",
+  "version": "2.0.0",
   "slug": "tor",
   "description": "Protect your privacy and access Home Assistant via Tor.",
   "url": "https://github.com/hassio-addons/addon-tor",
@@ -9,6 +9,7 @@
     "aarch64",
     "amd64",
     "armhf",
+    "armv7",
     "i386"
   ],
   "boot": "auto",
@@ -23,7 +24,6 @@
     "ssl:rw"
   ],
   "options": {
-    "log_level": "info",
     "socks": false,
     "hidden_services": true,
     "stealth": false,
@@ -33,7 +33,7 @@
     ]
   },
   "schema": {
-    "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)",
+    "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)?",
     "socks": "bool",
     "hidden_services": "bool",
     "stealth": "bool",
@@ -43,9 +43,6 @@
     "ports": [
       "match(^(.*:)?(?:[0-9]{1,4}|[1-5][0-9]{4}|6[0-4][0-9]{3}|65[0-4][0-9]{2}|655[0-2][0-9]|6553[0-5])?$)"
     ]
-  },
-  "environment": {
-    "LOG_FORMAT": "{LEVEL}: {MESSAGE}"
   },
   "image": "hassioaddons/tor-{arch}"
 }
