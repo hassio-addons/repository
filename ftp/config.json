@@ -1,6 +1,6 @@
 {
   "name": "FTP",
-  "version": "1.5.1",
+  "version": "2.0.0",
   "slug": "ftp",
   "description": "A secure and fast FTP server for Hass.io",
   "url": "https://github.com/hassio-addons/addon-ftp",
@@ -9,6 +9,7 @@
     "aarch64",
     "amd64",
     "armhf",
+    "armv7",
     "i386"
   ],
   "boot": "auto",
@@ -28,7 +29,6 @@
     "ssl:rw"
   ],
   "options": {
-    "log_level": "info",
     "port": 21,
     "data_port": 20,
     "banner": "Welcome to the Hass.io FTP service.",
@@ -58,7 +58,7 @@
     ]
   },
   "schema": {
-    "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)",
+    "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)?",
     "port": "port",
     "data_port": "port",
     "banner": "str",
@@ -73,7 +73,7 @@
     "max_clients": "int",
     "users": [
       {
-        "username": "match(^[a-zA-Z0-9\\d](?:[a-zA-Z0-9\\d]|-(?=[a-zA-Z0-9\\d])){0,32}$)",
+        "username": "match(^!secret [a-zA-Z0-9_\\-]+$|^[a-zA-Z0-9\\d](?:[a-zA-Z0-9\\d]|-(?=[a-zA-Z0-9\\d])){0,32}$)",
         "password": "str",
         "allow_chmod": "bool",
         "allow_download": "bool",
@@ -87,9 +87,6 @@
       }
     ],
     "i_like_to_be_pwned": "bool?"
-  },
-  "environment": {
-    "LOG_FORMAT": "{LEVEL}: {MESSAGE}"
   },
   "image": "hassioaddons/ftp-{arch}"
 }
