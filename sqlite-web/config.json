@@ -1,6 +1,6 @@
 {
   "name": "SQLite Web",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "slug": "sqlite-web",
   "description": "Explore your SQLite database",
   "url": "https://github.com/hassio-addons/addon-sqlite-web/tree/master/README.md",
@@ -13,6 +13,7 @@
     "i386"
   ],
   "boot": "auto",
+  "auth_api": true,
   "hassio_api": true,
   "hassio_role": "default",
   "homeassistant_api": false,
@@ -30,8 +31,6 @@
     "database_path": "home-assistant_v2.db",
     "read_only": true,
     "datasette": false,
-    "username": "",
-    "password": "",
     "ssl": true,
     "certfile": "fullchain.pem",
     "keyfile": "privkey.pem",
@@ -42,14 +41,10 @@
     "database_path": "str",
     "read_only": "bool",
     "datasette": "bool",
-    "username": "str",
-    "password": "str",
     "ssl": "bool",
     "certfile": "str",
     "keyfile": "str",
-    "ipv6": "bool",
-    "i_like_to_be_pwned": "bool?",
-    "leave_front_door_open": "bool?"
+    "ipv6": "bool"
   },
   "environment": {
     "LOG_FORMAT": "{LEVEL}: {MESSAGE}"
