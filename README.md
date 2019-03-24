@@ -803,10 +803,10 @@ SOFTWARE.
 [node-red-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [node-red-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [node-red-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
-[addon-phlex]: https://github.com/hassio-addons/addon-phlex/tree/v0.2.0
-[addon-doc-phlex]: https://github.com/hassio-addons/addon-phlex/blob/v0.2.0/README.md
+[addon-phlex]: https://github.com/hassio-addons/addon-phlex/tree/v1.0.0
+[addon-doc-phlex]: https://github.com/hassio-addons/addon-phlex/blob/v1.0.0/README.md
 [phlex-issue]: https://github.com/hassio-addons/addon-phlex/issues
-[phlex-version-shield]: https://img.shields.io/badge/version-v0.2.0-blue.svg
+[phlex-version-shield]: https://img.shields.io/badge/version-v1.0.0-blue.svg
 [phlex-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/phlex.svg
 [phlex-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [phlex-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
