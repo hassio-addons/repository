@@ -481,6 +481,20 @@ Manage your UniFi network using a web browser
 
 [:books: UniFi Controller add-on documentation][addon-doc-unifi]
 
+### &#10003; [Visual Studio Code][addon-vscode]
+
+![Latest Version][vscode-version-shield]
+![Supports armhf Architecture][vscode-armhf-shield]
+![Supports armv7 Architecture][vscode-armv7-shield]
+![Supports aarch64 Architecture][vscode-aarch64-shield]
+![Supports amd64 Architecture][vscode-amd64-shield]
+![Supports i386 Architecture][vscode-i386-shield]
+![Docker Pulls][vscode-pulls-shield]
+
+Fully featured VSCode experience, to edit your HA config in the browser, including auto-completion!
+
+[:books: Visual Studio Code add-on documentation][addon-doc-vscode]
+
 ### &#10003; [chrony][addon-chrony]
 
 ![Latest Version][chrony-version-shield]
@@ -562,6 +576,7 @@ on the correct GitHub repository matching the add-on.
 - [Open an issue for the add-on: Tor][tor-issue]
 - [Open an issue for the add-on: Traccar][traccar-issue]
 - [Open an issue for the add-on: UniFi Controller][unifi-issue]
+- [Open an issue for the add-on: Visual Studio Code][vscode-issue]
 - [Open an issue for the add-on: chrony][chrony-issue]
 - [Open an issue for the add-on: motionEye][motioneye-issue]
 
@@ -933,6 +948,16 @@ SOFTWARE.
 [unifi-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [unifi-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [unifi-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
+[addon-vscode]: https://github.com/hassio-addons/addon-vscode/tree/v0.1.0
+[addon-doc-vscode]: https://github.com/hassio-addons/addon-vscode/blob/v0.1.0/README.md
+[vscode-issue]: https://github.com/hassio-addons/addon-vscode/issues
+[vscode-version-shield]: https://img.shields.io/badge/version-v0.1.0-blue.svg
+[vscode-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/vscode-amd64.svg
+[vscode-aarch64-shield]: https://img.shields.io/badge/aarch64-no-red.svg
+[vscode-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[vscode-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
+[vscode-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
+[vscode-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [addon-chrony]: https://github.com/hassio-addons/addon-chrony/tree/v0.1.0
 [addon-doc-chrony]: https://github.com/hassio-addons/addon-chrony/blob/v0.1.0/README.md
 [chrony-issue]: https://github.com/hassio-addons/addon-chrony/issues
