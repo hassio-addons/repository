@@ -1,6 +1,6 @@
 {
   "name": "Visual Studio Code",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "slug": "vscode",
   "description": "Fully featured VSCode experience, to edit your HA config in the browser, including auto-completion!",
   "url": "https://github.com/hassio-addons/addon-vscode",
@@ -11,7 +11,8 @@
   ],
   "boot": "auto",
   "hassio_api": true,
-  "hassio_role": "homeassistant",
+  "auth_api": true,
+  "hassio_role": "manager",
   "homeassistant_api": true,
   "host_network": false,
   "auto_uart": true,
@@ -26,7 +27,6 @@
     "backup:rw"
   ],
   "options": {
-    "password": "",
     "ssl": true,
     "certfile": "fullchain.pem",
     "keyfile": "privkey.pem",
@@ -35,7 +35,6 @@
   },
   "schema": {
     "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)?",
-    "password": "str",
     "ssl": "bool",
     "certfile": "str",
     "keyfile": "str",
