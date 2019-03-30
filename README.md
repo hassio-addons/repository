@@ -942,7 +942,7 @@ SOFTWARE.
 [addon-doc-unifi]: https://github.com/hassio-addons/addon-unifi/blob/v0.8.0/README.md
 [unifi-issue]: https://github.com/hassio-addons/addon-unifi/issues
 [unifi-version-shield]: https://img.shields.io/badge/version-v0.8.0-blue.svg
-[unifi-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/unifi.svg
+[unifi-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/unifi-amd64.svg
 [unifi-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [unifi-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [unifi-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
