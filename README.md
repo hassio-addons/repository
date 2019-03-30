@@ -945,7 +945,7 @@ SOFTWARE.
 [unifi-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/unifi.svg
 [unifi-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [unifi-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
-[unifi-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
+[unifi-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [unifi-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [unifi-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [addon-vscode]: https://github.com/hassio-addons/addon-vscode/tree/v0.2.0
