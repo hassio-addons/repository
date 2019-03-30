@@ -136,7 +136,7 @@ addons:
   unifi:
     repository: hassio-addons/addon-unifi
     target: unifi
-    image: hassioaddons/unifi
+    image: hassioaddons/unifi-{arch}
   vscode:
     repository: hassio-addons/addon-vscode
     target: vscode
