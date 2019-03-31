@@ -132,7 +132,7 @@ addons:
   traccar:
     repository: hassio-addons/addon-traccar
     target: traccar
-    image: hassioaddons/traccar
+    image: hassioaddons/traccar-{arch}
   unifi:
     repository: hassio-addons/addon-unifi
     target: unifi
