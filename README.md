@@ -842,11 +842,11 @@ SOFTWARE.
 [addon-doc-plex]: https://github.com/hassio-addons/addon-plex/blob/v1.2.0/README.md
 [plex-issue]: https://github.com/hassio-addons/addon-plex/issues
 [plex-version-shield]: https://img.shields.io/badge/version-v1.2.0-blue.svg
-[plex-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/plex-armhf.svg
-[plex-aarch64-shield]: https://img.shields.io/badge/aarch64-no-red.svg
+[plex-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/plex-amd64.svg
+[plex-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [plex-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
-[plex-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
-[plex-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
+[plex-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
+[plex-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [plex-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [addon-portainer]: https://github.com/hassio-addons/addon-portainer/tree/v0.4.2
 [addon-doc-portainer]: https://github.com/hassio-addons/addon-portainer/blob/v0.4.2/README.md
