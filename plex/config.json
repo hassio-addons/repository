@@ -1,28 +1,16 @@
 {
   "name": "Plex Media Server",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "slug": "plex",
   "description": "Recorded media, live TV, online news, and podcasts ready to stream.",
   "url": "https://github.com/hassio-addons/addon-plex",
   "webui": "http://[HOST]:[PORT:32400]/web",
   "startup": "services",
   "arch": [
+    "aarch64",
     "amd64",
-    "armhf",
+    "armv7",
     "i386"
-  ],
-  "machine": [
-    "intel-nuc",
-    "qemux86",
-    "qemux86-64",
-    "qemuarm",
-    "qemuarm-64",
-    "raspberrypi2",
-    "raspberrypi3",
-    "raspberrypi3-64",
-    "tinker",
-    "odroid-c2",
-    "odroid-xu"
   ],
   "map": [
     "config:rw",
@@ -48,17 +36,13 @@
   "homeassistant_api": false,
   "host_network": false,
   "options": {
-    "log_level": "info",
     "claim_code": "",
     "webtools": false
   },
   "schema": {
-    "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)",
+    "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)?",
     "claim_code": "str",
     "webtools": "bool"
-  },
-  "environment": {
-    "LOG_FORMAT": "{LEVEL}: {MESSAGE}"
   },
   "image": "hassioaddons/plex-{arch}"
 }
