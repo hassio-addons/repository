@@ -932,11 +932,11 @@ SOFTWARE.
 [addon-doc-traccar]: https://github.com/hassio-addons/addon-traccar/blob/v0.2.0/README.md
 [traccar-issue]: https://github.com/hassio-addons/addon-traccar/issues
 [traccar-version-shield]: https://img.shields.io/badge/version-v0.2.0-blue.svg
-[traccar-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/traccar.svg
+[traccar-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/traccar-armhf.svg
 [traccar-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [traccar-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [traccar-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
-[traccar-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
+[traccar-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [traccar-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [addon-unifi]: https://github.com/hassio-addons/addon-unifi/tree/v0.8.0
 [addon-doc-unifi]: https://github.com/hassio-addons/addon-unifi/blob/v0.8.0/README.md
