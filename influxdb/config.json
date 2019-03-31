@@ -1,6 +1,6 @@
 {
   "name": "InfluxDB",
-  "version": "1.3.0",
+  "version": "2.0.0",
   "slug": "influxdb",
   "description": "Scalable datastore for metrics, events, and real-time analytics",
   "url": "https://github.com/hassio-addons/addon-influxdb",
@@ -9,21 +9,8 @@
   "arch": [
     "aarch64",
     "amd64",
-    "armhf",
+    "armv7",
     "i386"
-  ],
-  "machine": [
-    "intel-nuc",
-    "qemux86",
-    "qemux86-64",
-    "qemuarm",
-    "qemuarm-64",
-    "raspberrypi2",
-    "raspberrypi3",
-    "raspberrypi3-64",
-    "tinker",
-    "odroid-c2",
-    "odroid-xu"
   ],
   "map": [
     "config:rw",
@@ -41,22 +28,20 @@
   "homeassistant_api": false,
   "host_network": false,
   "options": {
-    "log_level": "info",
     "auth": true,
+    "reporting": true,
     "ssl": true,
     "certfile": "fullchain.pem",
     "keyfile": "privkey.pem"
   },
   "schema": {
-    "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)",
+    "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)?",
     "auth": "bool",
+    "reporting": "bool",
     "ssl": "bool",
     "certfile": "str",
     "keyfile": "str",
     "leave_front_door_open": "bool?"
-  },
-  "environment": {
-    "LOG_FORMAT": "{LEVEL}: {MESSAGE}"
   },
   "image": "hassioaddons/influxdb-{arch}"
 }
