@@ -72,7 +72,7 @@ addons:
   matrix:
     repository: hassio-addons/addon-matrix
     target: matrix
-    image: hassioaddons/matrix
+    image: hassioaddons/matrix-{arch}
   motioneye:
     repository: hassio-addons/addon-motioneye
     target: motioneye
