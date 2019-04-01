@@ -852,11 +852,11 @@ SOFTWARE.
 [addon-doc-portainer]: https://github.com/hassio-addons/addon-portainer/blob/v0.4.2/README.md
 [portainer-issue]: https://github.com/hassio-addons/addon-portainer/issues
 [portainer-version-shield]: https://img.shields.io/badge/version-v0.4.2-blue.svg
-[portainer-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/portainer.svg
+[portainer-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/portainer-armhf.svg
 [portainer-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [portainer-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [portainer-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
-[portainer-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
+[portainer-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [portainer-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [addon-sqlite-web]: https://github.com/hassio-addons/addon-sqlite-web/tree/v1.0.0
 [addon-doc-sqlite-web]: https://github.com/hassio-addons/addon-sqlite-web/blob/v1.0.0/README.md
