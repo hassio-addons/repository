@@ -36,7 +36,7 @@ addons:
   glances:
     repository: hassio-addons/addon-glances
     target: glances
-    image: hassioaddons/glances
+    image: hassioaddons/glances-{arch}
   grafana:
     repository: hassio-addons/addon-grafana
     target: grafana
