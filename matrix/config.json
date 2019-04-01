@@ -1,6 +1,6 @@
 {
   "name": "Matrix",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "slug": "matrix",
   "description": "A secure and decentralized communication platform.",
   "url": "https://community.home-assistant.io",
@@ -43,5 +43,5 @@
   "environment": {
     "LOG_FORMAT": "{LEVEL}: {MESSAGE}"
   },
-  "image": "hassioaddons/matrix"
+  "image": "hassioaddons/matrix-{arch}"
 }
