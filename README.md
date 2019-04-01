@@ -676,7 +676,7 @@ SOFTWARE.
 [appdaemon3-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [appdaemon3-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [appdaemon3-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
-[appdaemon3-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
+[appdaemon3-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [appdaemon3-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [addon-example]: https://github.com/hassio-addons/addon-example/tree/v1.7.0
 [addon-doc-example]: https://github.com/hassio-addons/addon-example/blob/v1.7.0/README.md
