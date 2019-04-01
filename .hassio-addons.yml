@@ -100,7 +100,7 @@ addons:
   portainer:
     repository: hassio-addons/addon-portainer
     target: portainer
-    image: hassioaddons/portainer
+    image: hassioaddons/portainer-{arch}
   spotify:
     repository: hassio-addons/addon-spotify-connect
     target: spotify
