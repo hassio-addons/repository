@@ -1,6 +1,6 @@
 {
   "name": "Example",
-  "version": "1.7.0",
+  "version": "2.0.0",
   "slug": "example",
   "description": "Example add-on by Community Hass.io Add-ons",
   "url": "https://github.com/hassio-addons/addon-example",
@@ -9,6 +9,7 @@
     "aarch64",
     "amd64",
     "armhf",
+    "armv7",
     "i386"
   ],
   "boot": "auto",
