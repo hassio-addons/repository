@@ -141,4 +141,7 @@ addons:
     repository: hassio-addons/addon-vscode
     target: vscode
     image: hassioaddons/vscode-{arch}
-
+  zerotier:
+    repository: hassio-addons/addon-zerotier
+    target: zerotier
+    image: hassioaddons/zerotier-{arch}
