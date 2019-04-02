@@ -495,6 +495,20 @@ Fully featured VSCode experience, to edit your HA config in the browser, includi
 
 [:books: Visual Studio Code add-on documentation][addon-doc-vscode]
 
+### &#10003; [ZeroTier One][addon-zerotier]
+
+![Latest Version][zerotier-version-shield]
+![Supports armhf Architecture][zerotier-armhf-shield]
+![Supports armv7 Architecture][zerotier-armv7-shield]
+![Supports aarch64 Architecture][zerotier-aarch64-shield]
+![Supports amd64 Architecture][zerotier-amd64-shield]
+![Supports i386 Architecture][zerotier-i386-shield]
+![Docker Pulls][zerotier-pulls-shield]
+
+Radically simplify your network with a virtual networking layer that works the same everywhere
+
+[:books: ZeroTier One add-on documentation][addon-doc-zerotier]
+
 ### &#10003; [chrony][addon-chrony]
 
 ![Latest Version][chrony-version-shield]
@@ -577,6 +591,7 @@ on the correct GitHub repository matching the add-on.
 - [Open an issue for the add-on: Traccar][traccar-issue]
 - [Open an issue for the add-on: UniFi Controller][unifi-issue]
 - [Open an issue for the add-on: Visual Studio Code][vscode-issue]
+- [Open an issue for the add-on: ZeroTier One][zerotier-issue]
 - [Open an issue for the add-on: chrony][chrony-issue]
 - [Open an issue for the add-on: motionEye][motioneye-issue]
 
@@ -958,6 +973,16 @@ SOFTWARE.
 [vscode-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [vscode-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [vscode-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
+[addon-zerotier]: https://github.com/hassio-addons/addon-zerotier/tree/v0.1.0
+[addon-doc-zerotier]: https://github.com/hassio-addons/addon-zerotier/blob/v0.1.0/README.md
+[zerotier-issue]: https://github.com/hassio-addons/addon-zerotier/issues
+[zerotier-version-shield]: https://img.shields.io/badge/version-v0.1.0-blue.svg
+[zerotier-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/zerotier-armhf.svg
+[zerotier-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[zerotier-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[zerotier-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
+[zerotier-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
+[zerotier-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [addon-chrony]: https://github.com/hassio-addons/addon-chrony/tree/v0.2.0
 [addon-doc-chrony]: https://github.com/hassio-addons/addon-chrony/blob/v0.2.0/README.md
 [chrony-issue]: https://github.com/hassio-addons/addon-chrony/issues

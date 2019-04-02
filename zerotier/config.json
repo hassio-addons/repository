@@ -1,0 +1,44 @@
+{
+  "name": "ZeroTier One",
+  "version": "0.1.0",
+  "slug": "zerotier",
+  "description": "Radically simplify your network with a virtual networking layer that works the same everywhere",
+  "url": "https://github.com/hassio-addons/addon-zerotier",
+  "startup": "services",
+  "arch": [
+    "aarch64",
+    "amd64",
+    "armhf",
+    "armv7",
+    "i386"
+  ],
+  "boot": "auto",
+  "hassio_api": true,
+  "hassio_role": "default",
+  "homeassistant_api": false,
+  "host_network": true,
+  "apparmor": true,
+  "privileged": [
+    "NET_ADMIN",
+    "SYS_ADMIN"
+  ],
+  "devices": [
+    "/dev/net/tun:/dev/net/tun:rwm"
+  ],
+  "map": [
+    "config",
+    "ssl:rw"
+  ],
+  "options": {
+    "network_id": "",
+    "port": 9993,
+    "api_auth_token": ""
+  },
+  "schema": {
+    "api_auth_token": "str",
+    "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)?",
+    "network_id": "match([0-9a-z]{16})",
+    "port": "port"
+  },
+  "image": "hassioaddons/zerotier-{arch}"
+}
