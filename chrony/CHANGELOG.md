@@ -1,1 +1,2 @@
-🎉 Initial add-on release
+:hammer: Update base image
+:books: Updates to Readme
