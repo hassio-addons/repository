@@ -1,12 +1,15 @@
 {
   "name": "ADB - Android Debug Bridge",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "slug": "adb",
   "description": "The Android Debug Bridge server program",
   "url": "https://github.com/hassio-addons/addon-adb",
   "startup": "services",
   "ports": {
     "5037/tcp": 5037
+  },
+  "ports_description": {
+    "5037/tcp": "ADB Server"
   },
   "arch": [
     "aarch64",
