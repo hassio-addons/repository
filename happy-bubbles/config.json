@@ -1,11 +1,14 @@
 {
   "name": "Happy Bubbles",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "slug": "happy-bubbles",
   "description": "Presence detection server for Happy Bubbles Bluetooth beacon-based presence detection system.",
   "url": "https://github.com/hassio-addons/addon-happy-bubbles",
-  "webui": "[PROTO:ssl]://[HOST]:[PORT:5555]",
+  "webui": "[PROTO:ssl]://[HOST]:[PORT:80]",
+  "ingress": true,
+  "ingress_port": 1337,
   "startup": "services",
+  "homeassistant": "0.91.2",
   "arch": [
     "aarch64",
     "amd64",
@@ -16,14 +19,16 @@
   "boot": "auto",
   "hassio_api": true,
   "hassio_role": "default",
-  "homeassistant_api": false,
-  "host_network": false,
+  "auth_api": true,
   "map": [
     "config",
     "ssl"
   ],
   "ports": {
-    "5555/tcp": 5555
+    "80/tcp": null
+  },
+  "ports_description": {
+    "80/tcp": "Web interface (Not required for Hass.io Ingress)"
   },
   "options": {
     "ssl": true,

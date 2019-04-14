@@ -1,18 +1,16 @@
 [Full Changelog][changelog]
 
+This release adds Hass.io Ingress support to the add-on 🎉 
+
 ### Changes
 
-- :arrow_up: Upgrades add-on base image to 3.0.1
-- :hammer: Makes log_level optional
-- :fire: Removes custom log format override
-- :fire: Removes IPv6 switch
-- :fire: Removes obsolete opt folder creation
-- :hammer: Rewrite add-on onto Bashio
-- :hammer: Makes NGinx wait for Happy Bubbles before starting
-- :sparkles: Adds support for ARMv7
-- :books: Updates documentation for ARMv7
+- :arrow_up: Upgrades base image to v3.1.0
+- :arrow_up: Upgrades wget to 1.20.3-r0
+- :sparkles: Adds Hassio Ingress support
+- :hammer: Improves S6 finish scripts
+- :books: Tweaked README a little
 
-[changelog]: https://github.com/hassio-addons/addon-happy-bubbles/compare/v1.2.1...v2.0.0
+[changelog]: https://github.com/hassio-addons/addon-happy-bubbles/compare/v2.0.0...v2.1.0
 
 Questions? Join our Discord server! https://discord.me/hassioaddons
 Enjoying my add-ons? Consider supporting my work: https://patreon.com/frenck
