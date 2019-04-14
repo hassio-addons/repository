@@ -1,10 +1,12 @@
 {
   "name": "InfluxDB",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "slug": "influxdb",
   "description": "Scalable datastore for metrics, events, and real-time analytics",
   "url": "https://github.com/hassio-addons/addon-influxdb",
-  "webui": "[PROTO:ssl]://[HOST]:[PORT:8888]",
+  "webui": "[PROTO:ssl]://[HOST]:[PORT:80]",
+  "ingress": true,
+  "ingress_port": 1337,
   "startup": "services",
   "arch": [
     "aarch64",
@@ -19,14 +21,17 @@
   ],
   "boot": "auto",
   "ports": {
-    "8086/tcp": 8086,
-    "8888/tcp": 8888
+    "80/tcp": null,
+    "8086/tcp": 8086
+  },
+  "ports_description": {
+    "80/tcp": "Web interface (Not required for Hass.io Ingress)",
+    "8086/tcp": "InfluxDB server"
   },
   "hassio_api": true,
   "auth_api": true,
   "hassio_role": "default",
   "homeassistant_api": false,
-  "host_network": false,
   "options": {
     "auth": true,
     "reporting": true,
