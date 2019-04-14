@@ -1,16 +1,14 @@
 [Full Changelog][changelog]
 
-- Replaced "thus" with "this" (#14) (@niksy111)
-- :arrow_up: Upgrades add-on base image to 3.0.1
-- :sparkles: Adds ARMv7 support
-- :fire: Removes custom log format override
-- :hammer: Makes log_level optional
-- :ambulance: Workaround Docker issue by reinstating legacy tags
-- :ambulance: Fixes incorrect add-on config json
-- :hammer: Rewrite add-on onto Bashio
-- :fire: Removes obsolete opt folder creation
+This release adds Hass.io Ingress support to the add-on 🎉 
 
-[changelog]: https://github.com/hassio-addons/addon-portainer/compare/v0.4.2...v0.5.0
+- :arrow_up: Upgrades base image to v3.1.0
+- :sparkles: Adds Hassio Ingress support
+- :hammer: Improves S6 finish scripts
+- :fire: Removes hide_hassio_containers option from add-on
+- :books: Removes obsolete iframe URL section from README
+
+[changelog]: https://github.com/hassio-addons/addon-portainer/compare/v0.5.0...v0.6.0
 
 Questions? Join our Discord server! https://discord.me/hassioaddons
 Enjoying my add-ons? Consider supporting my work: https://patreon.com/frenck
