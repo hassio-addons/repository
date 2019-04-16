@@ -973,10 +973,10 @@ SOFTWARE.
 [vscode-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [vscode-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [vscode-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
-[addon-zerotier]: https://github.com/hassio-addons/addon-zerotier/tree/v0.1.0
-[addon-doc-zerotier]: https://github.com/hassio-addons/addon-zerotier/blob/v0.1.0/README.md
+[addon-zerotier]: https://github.com/hassio-addons/addon-zerotier/tree/v0.2.0
+[addon-doc-zerotier]: https://github.com/hassio-addons/addon-zerotier/blob/v0.2.0/README.md
 [zerotier-issue]: https://github.com/hassio-addons/addon-zerotier/issues
-[zerotier-version-shield]: https://img.shields.io/badge/version-v0.1.0-blue.svg
+[zerotier-version-shield]: https://img.shields.io/badge/version-v0.2.0-blue.svg
 [zerotier-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/zerotier-armhf.svg
 [zerotier-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [zerotier-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
