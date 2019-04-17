@@ -285,6 +285,20 @@ A secure and decentralized communication platform.
 
 [:books: Matrix add-on documentation][addon-doc-matrix]
 
+### &#10003; [Nginx Proxy Manager][addon-nginxproxymanager]
+
+![Latest Version][nginxproxymanager-version-shield]
+![Supports armhf Architecture][nginxproxymanager-armhf-shield]
+![Supports armv7 Architecture][nginxproxymanager-armv7-shield]
+![Supports aarch64 Architecture][nginxproxymanager-aarch64-shield]
+![Supports amd64 Architecture][nginxproxymanager-amd64-shield]
+![Supports i386 Architecture][nginxproxymanager-i386-shield]
+![Docker Pulls][nginxproxymanager-pulls-shield]
+
+Manage Nginx proxy hosts with a simple, powerful interface
+
+[:books: Nginx Proxy Manager add-on documentation][addon-doc-nginxproxymanager]
+
 ### &#10003; [Node-RED][addon-node-red]
 
 ![Latest Version][node-red-version-shield]
@@ -576,6 +590,7 @@ on the correct GitHub repository matching the add-on.
 - [Open an issue for the add-on: Lutron Certificate][lutron-cert-issue]
 - [Open an issue for the add-on: MQTT Server & Web client][mqtt-issue]
 - [Open an issue for the add-on: Matrix][matrix-issue]
+- [Open an issue for the add-on: Nginx Proxy Manager][nginxproxymanager-issue]
 - [Open an issue for the add-on: Node-RED][node-red-issue]
 - [Open an issue for the add-on: Phlex][phlex-issue]
 - [Open an issue for the add-on: Pi-hole][pi-hole-issue]
@@ -823,6 +838,16 @@ SOFTWARE.
 [matrix-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [matrix-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [matrix-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
+[addon-nginxproxymanager]: https://github.com/hassio-addons/addon-nginx-proxy-manager/tree/v0.1.0
+[addon-doc-nginxproxymanager]: https://github.com/hassio-addons/addon-nginx-proxy-manager/blob/v0.1.0/README.md
+[nginxproxymanager-issue]: https://github.com/hassio-addons/addon-nginx-proxy-manager/issues
+[nginxproxymanager-version-shield]: https://img.shields.io/badge/version-v0.1.0-blue.svg
+[nginxproxymanager-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/nginxproxymanager-armhf.svg
+[nginxproxymanager-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[nginxproxymanager-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[nginxproxymanager-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
+[nginxproxymanager-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
+[nginxproxymanager-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [addon-node-red]: https://github.com/hassio-addons/addon-node-red/tree/v3.0.1
 [addon-doc-node-red]: https://github.com/hassio-addons/addon-node-red/blob/v3.0.1/README.md
 [node-red-issue]: https://github.com/hassio-addons/addon-node-red/issues
