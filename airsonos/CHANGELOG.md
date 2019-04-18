@@ -2,15 +2,12 @@
 
 ### Changed
 
-- Upgrades add-on base image to 3.0.0
-- Updates documentation for ARMv7
-- Removes custom log format override
-- Makes log_level optional
-- Upgrades libssl1.0.0 to 1.0.2n-1ubuntu5.3
-- Rewrite add-on onto Bashio
-- Correct AirSonos binary filename
+- :arrow_up: Upgrades base image to v3.1.0
+- :fire: Removes default config options
+- :arrow_up: Upgrades AirConnect to 0.2.8.0
+- :hammer: Renamed init scripts
 
-[changelog]: https://github.com/hassio-addons/addon-airsonos/compare/v1.2.0...v2.0.0
+[changelog]: https://github.com/hassio-addons/addon-airsonos/compare/v2.0.0...v2.0.1
 
 Questions? Join our Discord server! https://discord.me/hassioaddons
 Enjoying my add-ons? Consider supporting my work: https://patreon.com/frenck

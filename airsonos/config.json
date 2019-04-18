@@ -1,6 +1,6 @@
 {
   "name": "AirSonos",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "slug": "airsonos",
   "description": "AirPlay capabilities for your Sonos (and UPnP) devices.",
   "url": "https://github.com/hassio-addons/addon-airsonos",
@@ -13,7 +13,6 @@
   ],
   "boot": "auto",
   "hassio_api": true,
-  "homeassistant_api": false,
   "hassio_role": "default",
   "host_network": true,
   "map": [
