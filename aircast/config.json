@@ -1,6 +1,6 @@
 {
   "name": "AirCast",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "slug": "aircast",
   "description": "AirPlay capabilities for your Chromecast devices.",
   "url": "https://github.com/hassio-addons/addon-aircast",
@@ -14,7 +14,6 @@
   "boot": "auto",
   "hassio_api": true,
   "hassio_role": "default",
-  "homeassistant_api": false,
   "host_network": true,
   "map": [
     "config:rw"
