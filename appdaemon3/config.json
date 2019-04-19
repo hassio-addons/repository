@@ -1,6 +1,6 @@
 {
   "name": "AppDaemon",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "slug": "appdaemon3",
   "description": "Python Apps and HADashboard using AppDaemon 3.x for Home Assistant",
   "url": "https://github.com/hassio-addons/addon-appdaemon3",
@@ -17,10 +17,13 @@
   "hassio_api": true,
   "hassio_role": "default",
   "homeassistant_api": true,
-  "host_network": false,
   "ports": {
     "5000/tcp": 5000,
     "5050/tcp": 5050
+  },
+  "ports_description": {
+    "5000/tcp": "AppDaemon RESTFul API",
+    "5050/tcp": "HA Dashboard web interface"
   },
   "map": [
     "config:rw",
