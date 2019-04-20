@@ -1026,7 +1026,7 @@ SOFTWARE.
 [motioneye-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [motioneye-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [motioneye-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
-[motioneye-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
+[motioneye-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [motioneye-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [awesome-shield]: https://img.shields.io/badge/awesome%3F-yes-brightgreen.svg
 [bountysource-shield]: https://img.shields.io/bountysource/team/hassio-addons/activity.svg
