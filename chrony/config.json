@@ -1,6 +1,6 @@
 {
   "name": "chrony",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "slug": "chrony",
   "description": "A local NTP (Network Time Protocol) server for cameras etc.",
   "url": "https://github.com/hassio-addons/addon-chrony",
@@ -15,12 +15,14 @@
   "boot": "auto",
   "hassio_api": true,
   "hassio_role": "default",
-  "map": [],
   "privileged": [
     "SYS_TIME"
   ],
   "ports": {
     "123/udp": 123
+  },
+  "ports_description": {
+    "123/udp": "NTP; Network Time Protocol"
   },
   "options": {
     "set_system_clock": true,
