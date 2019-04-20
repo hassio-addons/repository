@@ -4,7 +4,7 @@
 
 **Breaking change**
 
-The addition of Ingress makes this add-on not accessible directly. If you have added Glances via an iframe panel, this release will break that.
+The addition of Ingress makes this add-on now accessible directly. If you have added Glances via an iframe panel, this release will break that.
 
 However, you can enable this again by going into the add-on configuration. A new section show is visible: "Network". Enter port `61208` (or anything else if you want) in the `disabled` field. Hit the "SAVE" followed by the "RESTART" button to make your iframe work as before.
 
