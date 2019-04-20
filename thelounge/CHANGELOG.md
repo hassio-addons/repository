@@ -1,9 +1,13 @@
+[![GitLab CI][gitlabci-shield]][gitlabci]
+
 ## Changes
 
-- 1e23014 :arrow_up: Upgrade to base 3.0.0 and migrate to bashio 
-- e57c2d4 :hammer: Merge changes and add missing build image 
-- 3807104 :hammer: Add missing armv7 arch 
+- d8fdb94 :hammer: Pins modclean version (#2) 
+- 5195160 :books: Updates documentation to show the correct architectures (#3) 
+- 5a9404c :arrow_up: Updates Home Assistant requirement to 0.91.4 (#4) 
 
 [Full Changelog][changelog]
 
-[changelog]: https://github.com/hassio-addons/addon-thelounge/compare/v0.1.0...v0.2.0
+[changelog]: https://github.com/hassio-addons/addon-thelounge/compare/v0.3.0...v0.3.1
+[gitlabci-shield]: https://gitlab.com/hassio-addons/addon-thelounge/badges/v0.3.1/pipeline.svg
+[gitlabci]: https://gitlab.com/hassio-addons/addon-thelounge/pipelines

@@ -1,10 +1,9 @@
 {
   "name": "The Lounge",
-  "version": "0.2.0",
+  "version": "0.3.1",
   "slug": "thelounge",
   "description": "A self-hosted web IRC client",
   "url": "https://github.com/hassio-addons/addon-thelounge",
-  "webui": "[PROTO:ssl]://[HOST]:[PORT:15100]",
   "startup": "application",
   "arch": [
     "aarch64",
@@ -16,17 +15,20 @@
   "boot": "auto",
   "hassio_api": true,
   "hassio_role": "default",
+  "homeassistant": "0.91.4",
   "homeassistant_api": true,
-  "host_network": false,
+  "ingress": true,
   "ports": {
-    "15100/tcp": 15100
+    "80/tcp": null
+  },
+  "ports_description": {
+    "80/tcp": "The Lounge Web UI (Not required for Hass.io Ingress)"
   },
   "map": [
     "config:rw",
     "ssl"
   ],
   "options": {
-    "log_level": "info",
     "ssl": true,
     "certfile": "fullchain.pem",
     "keyfile": "privkey.pem",
@@ -36,7 +38,7 @@
     ]
   },
   "schema": {
-    "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)",
+    "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)?",
     "ssl": "bool",
     "certfile": "str",
     "keyfile": "str",
@@ -45,8 +47,5 @@
       "str"
     ]
   },
-  "environment": {
-    "LOG_FORMAT": "{LEVEL}: {MESSAGE}"
-  },
-  "image": "hassioaddons/thelounge"
+  "image": "hassioaddons/thelounge-{arch}"
 }
