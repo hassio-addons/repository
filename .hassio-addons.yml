@@ -92,7 +92,7 @@ addons:
   phlex:
     repository: hassio-addons/addon-phlex
     target: phlex
-    image: hassioaddons/phlex
+    image: hassioaddons/phlex-{arch}
   pi-hole:
     repository: hassio-addons/addon-pi-hole
     target: pi-hole
