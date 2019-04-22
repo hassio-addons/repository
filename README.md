@@ -801,7 +801,7 @@ SOFTWARE.
 [ide-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [ide-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [ide-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
-[ide-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
+[ide-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [ide-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [addon-influxdb]: https://github.com/hassio-addons/addon-influxdb/tree/v3.0.3
 [addon-doc-influxdb]: https://github.com/hassio-addons/addon-influxdb/blob/v3.0.3/README.md
