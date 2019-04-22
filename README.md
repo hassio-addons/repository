@@ -927,7 +927,7 @@ SOFTWARE.
 [addon-doc-sqlite-web]: https://github.com/hassio-addons/addon-sqlite-web/blob/v1.1.0/README.md
 [sqlite-web-issue]: https://github.com/hassio-addons/addon-sqlite-web/issues
 [sqlite-web-version-shield]: https://img.shields.io/badge/version-v1.1.0-blue.svg
-[sqlite-web-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/sqlite-web.svg
+[sqlite-web-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/sqlite-web-armhf.svg
 [sqlite-web-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [sqlite-web-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [sqlite-web-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
