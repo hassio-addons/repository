@@ -132,7 +132,7 @@ addons:
   sqlite-web:
     repository: hassio-addons/addon-sqlite-web
     target: sqlite-web
-    image: hassioaddons/sqlite-web
+    image: hassioaddons/sqlite-web-{arch}
   tor:
     repository: hassio-addons/addon-tor
     target: tor
