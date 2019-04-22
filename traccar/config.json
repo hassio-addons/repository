@@ -1,6 +1,6 @@
 {
   "name": "Traccar",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "slug": "traccar",
   "description": "Modern GPS Tracking Platform",
   "url": "https://github.com/hassio-addons/addon-traccar",
@@ -16,21 +16,24 @@
   "boot": "auto",
   "hassio_api": true,
   "hassio_role": "default",
-  "homeassistant_api": false,
   "host_network": true,
+  "ports": {
+    "8072/tcp": 8072
+  },
+  "ports_description": {
+    "8072/tcp": "Traccar web interface"
+  },
   "map": [
     "config:rw",
     "ssl"
   ],
   "options": {
-    "port": 8072,
     "ssl": true,
     "certfile": "fullchain.pem",
     "keyfile": "privkey.pem"
   },
   "schema": {
     "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)?",
-    "port": "port",
     "ssl": "bool",
     "certfile": "str",
     "keyfile": "str"
