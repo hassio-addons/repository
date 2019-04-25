@@ -1,14 +1,15 @@
 {
   "name": "Visual Studio Code",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "slug": "vscode",
   "description": "Fully featured VSCode experience, to edit your HA config in the browser, including auto-completion!",
   "url": "https://github.com/hassio-addons/addon-vscode",
   "webui": "[PROTO:ssl]://[HOST]:[PORT:80]",
   "ingress": true,
   "ingress_port": 1337,
+  "panel_icon": "mdi:visual-studio-code",
   "startup": "services",
-  "homeassistant": "0.91.3",
+  "homeassistant": "0.92.0b2",
   "arch": [
     "amd64"
   ],
