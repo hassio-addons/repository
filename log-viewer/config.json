@@ -1,6 +1,6 @@
 {
   "name": "Log Viewer",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "slug": "logviewer",
   "description": "Browser-based log utility for Hass.io",
   "url": "https://github.com/hassio-addons/addon-log-viewer",
@@ -8,7 +8,8 @@
   "startup": "application",
   "ingress": true,
   "ingress_port": 1337,
-  "homeassistant": "0.91.2",
+  "panel_icon": "mdi:file-document-box-outline",
+  "homeassistant": "0.92.0b2",
   "arch": [
     "aarch64",
     "amd64",
