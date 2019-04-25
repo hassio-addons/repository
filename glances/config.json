@@ -1,14 +1,15 @@
 {
   "name": "Glances",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "slug": "glances",
   "description": "A cross-platform system monitoring tool",
   "url": "https://github.com/hassio-addons/addon-glances",
   "webui": "[PROTO:ssl]://[HOST]:[PORT:80]",
   "ingress": true,
   "ingress_port": 0,
+  "panel_icon": "mdi:speedometer",
   "startup": "services",
-  "homeassistant": "0.91.4",
+  "homeassistant": "0.92.0b2",
   "arch": [
     "aarch64",
     "amd64",
