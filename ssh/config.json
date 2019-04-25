@@ -1,6 +1,6 @@
 {
   "name": "SSH & Web Terminal",
-  "version": "5.0.0",
+  "version": "5.0.1",
   "slug": "ssh",
   "description": "SSH & Web Terminal access to your Home Assistant instance",
   "url": "https://github.com/hassio-addons/addon-ssh",
@@ -8,7 +8,9 @@
   "startup": "services",
   "ingress": true,
   "ingress_port": 0,
-  "homeassistant": "0.91.3",
+  "panel_icon": "mdi:console",
+  "panel_title": "Terminal",
+  "homeassistant": "0.92.0b2",
   "arch": [
     "aarch64",
     "amd64",
