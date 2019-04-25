@@ -1,6 +1,6 @@
 {
   "name": "motionEye",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "slug": "motioneye",
   "description": "Simple, elegant and feature-rich CCTV/NVR for your cameras",
   "url": "https://github.com/hassio-addons/addon-motioneye",
@@ -8,7 +8,8 @@
   "startup": "application",
   "ingress": true,
   "ingress_port": 0,
-  "homeassistant": "0.91.4",
+  "panel_icon": "mdi:cctv",
+  "homeassistant": "0.92.0b2",
   "arch": [
     "aarch64",
     "amd64",
