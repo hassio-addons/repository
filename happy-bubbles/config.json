@@ -1,14 +1,15 @@
 {
   "name": "Happy Bubbles",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "slug": "happy-bubbles",
   "description": "Presence detection server for Happy Bubbles Bluetooth beacon-based presence detection system.",
   "url": "https://github.com/hassio-addons/addon-happy-bubbles",
   "webui": "[PROTO:ssl]://[HOST]:[PORT:80]",
   "ingress": true,
   "ingress_port": 1337,
+  "panel_icon": "mdi:chart-bubble",
   "startup": "services",
-  "homeassistant": "0.91.2",
+  "homeassistant": "0.92.0b2",
   "arch": [
     "aarch64",
     "amd64",
