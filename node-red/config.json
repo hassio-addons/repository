@@ -1,14 +1,15 @@
 {
   "name": "Node-RED",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "slug": "nodered",
   "description": "Flow-based programming for the Internet of Things",
   "url": "https://github.com/hassio-addons/addon-node-red",
   "webui": "[PROTO:ssl]://[HOST]:[PORT:80]",
   "ingress": true,
   "ingress_port": 0,
+  "panel_icon": "mdi:sitemap",
   "startup": "application",
-  "homeassistant": "0.91.4",
+  "homeassistant": "0.92.0b2",
   "arch": [
     "aarch64",
     "amd64",
