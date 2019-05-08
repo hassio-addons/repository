@@ -1,13 +1,14 @@
 [Full Changelog][changelog]
 
-This is a general maintenance release that upgrades both ADB & the base image used.
+This release fixes an issue with the Android Debug Bridge crashing on start (mainly ARMv7/Raspberry Pi).
+It does this by downgrading the `adb` package since there is no workaround available.
+No functionality is lost by this downgrade from the perspective of this add-on.
 
 ### :hammer: Changes
 
-- :arrow_up: Upgrades add-on base image to 3.1.1
-- :arrow_up: Upgrades adb to 1:8.1.0+r23-5~18.04
+- 🚑 ⬇️ Downgrades adb to 7.0.0+r33-2 (#12)
 
-[changelog]: https://github.com/hassio-addons/addon-adb/compare/v0.3.1...v0.4.0
+[changelog]: https://github.com/hassio-addons/addon-adb/compare/v0.4.0...v0.4.1
 
 Questions? Join our Discord server! https://discord.me/hassioaddons
 Enjoying my add-ons? Consider supporting my work: https://patreon.com/frenck
