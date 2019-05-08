@@ -103,6 +103,20 @@ Python Apps and HADashboard using AppDaemon 3.x for Home Assistant
 
 [:books: AppDaemon add-on documentation][addon-doc-appdaemon3]
 
+### &#10003; [Bitwarden RS][addon-bitwarden]
+
+![Latest Version][bitwarden-version-shield]
+![Supports armhf Architecture][bitwarden-armhf-shield]
+![Supports armv7 Architecture][bitwarden-armv7-shield]
+![Supports aarch64 Architecture][bitwarden-aarch64-shield]
+![Supports amd64 Architecture][bitwarden-amd64-shield]
+![Supports i386 Architecture][bitwarden-i386-shield]
+![Docker Pulls][bitwarden-pulls-shield]
+
+Open source password management solution
+
+[:books: Bitwarden RS add-on documentation][addon-doc-bitwarden]
+
 ### &#10003; [Example][addon-example]
 
 ![Latest Version][example-version-shield]
@@ -591,6 +605,7 @@ on the correct GitHub repository matching the add-on.
 - [Open an issue for the add-on: AirCast][aircast-issue]
 - [Open an issue for the add-on: AirSonos][airsonos-issue]
 - [Open an issue for the add-on: AppDaemon][appdaemon3-issue]
+- [Open an issue for the add-on: Bitwarden RS][bitwarden-issue]
 - [Open an issue for the add-on: Example][example-issue]
 - [Open an issue for the add-on: FTP][ftp-issue]
 - [Open an issue for the add-on: Glances][glances-issue]
@@ -723,6 +738,16 @@ SOFTWARE.
 [appdaemon3-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [appdaemon3-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [appdaemon3-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
+[addon-bitwarden]: https://github.com/hassio-addons/addon-bitwarden/tree/v0.1.0
+[addon-doc-bitwarden]: https://github.com/hassio-addons/addon-bitwarden/blob/v0.1.0/README.md
+[bitwarden-issue]: https://github.com/hassio-addons/addon-bitwarden/issues
+[bitwarden-version-shield]: https://img.shields.io/badge/version-v0.1.0-blue.svg
+[bitwarden-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/bitwarden-amd64.svg
+[bitwarden-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[bitwarden-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[bitwarden-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
+[bitwarden-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
+[bitwarden-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [addon-example]: https://github.com/hassio-addons/addon-example/tree/v2.0.2
 [addon-doc-example]: https://github.com/hassio-addons/addon-example/blob/v2.0.2/README.md
 [example-issue]: https://github.com/hassio-addons/addon-example/issues
