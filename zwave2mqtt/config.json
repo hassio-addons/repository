@@ -1,0 +1,45 @@
+{
+  "name": "Z-Wave to MQTT",
+  "version": "0.1.0",
+  "slug": "zwave2mqtt",
+  "description": "Fully configurable Z-Wave to MQTT gateway and control panel",
+  "url": "https://github.com/hassio-addons/addon-zwave2mqtt",
+  "webui": "http://[HOST]:[PORT:8091]",
+  "startup": "system",
+  "arch": [
+    "aarch64",
+    "amd64",
+    "armhf",
+    "armv7",
+    "i386"
+  ],
+  "ports": {
+    "8091/tcp": 8091
+  },
+  "ports_description": {
+    "8091/tcp": "Z-Wave to MQTT Control Panel"
+  },
+  "boot": "auto",
+  "auth_api": true,
+  "hassio_api": true,
+  "hassio_role": "default",
+  "auto_uart": true,
+  "map": [
+    "config:rw",
+    "share:rw",
+    "ssl:rw"
+  ],
+  "options": {
+    "ssl": true,
+    "certfile": "fullchain.pem",
+    "keyfile": "privkey.pem"
+  },
+  "schema": {
+    "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)?",
+    "ssl": "bool",
+    "certfile": "str",
+    "keyfile": "str",
+    "leave_front_door_open": "bool?"
+  },
+  "image": "hassioaddons/zwave2mqtt-{arch}"
+}
