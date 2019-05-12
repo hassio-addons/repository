@@ -1,6 +1,6 @@
 {
   "name": "The Lounge",
-  "version": "0.3.2",
+  "version": "0.4.0",
   "slug": "thelounge",
   "description": "A self-hosted web IRC client",
   "url": "https://github.com/hassio-addons/addon-thelounge",
@@ -38,7 +38,8 @@
     "default_theme": "default",
     "themes": [
       "thelounge-theme-material"
-    ]
+    ],
+    "users": []
   },
   "schema": {
     "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)?",
@@ -47,6 +48,9 @@
     "keyfile": "str",
     "default_theme": "str",
     "themes": [
+      "str"
+    ],
+    "users": [
       "str"
     ]
   },
