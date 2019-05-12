@@ -891,7 +891,7 @@ SOFTWARE.
 [mqtt-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [mqtt-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [mqtt-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
-[mqtt-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
+[mqtt-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [mqtt-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [addon-matrix]: https://github.com/hassio-addons/addon-matrix/tree/v0.5.1
 [addon-doc-matrix]: https://github.com/hassio-addons/addon-matrix/blob/v0.5.1/README.md
