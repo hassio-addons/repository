@@ -1,6 +1,6 @@
 {
   "name": "Node-RED",
-  "version": "3.0.3",
+  "version": "3.1.0",
   "slug": "nodered",
   "description": "Flow-based programming for the Internet of Things",
   "url": "https://github.com/hassio-addons/addon-node-red",
@@ -18,10 +18,10 @@
     "i386"
   ],
   "ports": {
-    "80/tcp": null
+    "80/tcp": 1880
   },
   "ports_description": {
-    "80/tcp": "Web interface (Not required for Hass.io Ingress)"
+    "80/tcp": "Web interface"
   },
   "boot": "auto",
   "hassio_api": true,
