@@ -1,8 +1,9 @@
+Minor release to update base image
+
 ## Changes
 
-- 🔨 Refactor of init scripts (#15) (@frenck)
-- ✨ Adds port descriptions (#16) (@frenck)
+:arrow_up: Upgrade addon base to 3.1.1 #17
 
 [Full Changelog][changelog]
 
-[changelog]: https://github.com/hassio-addons/addon-chrony/compare/v0.2.1...v0.2.2
+[changelog]: https://github.com/hassio-addons/addon-chrony/compare/v0.2.2...v0.2.3
