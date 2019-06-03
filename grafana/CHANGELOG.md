@@ -1,14 +1,13 @@
 [Full Changelog][changelog]
 
-This release is a maintenance release, without any breaking changes.
+This release fixes an issue with embedding Grafana into the Home Assistant frontend using an iframe panel.
 
 ### 🔨  Changes
 
-- ✨Adds support for secrets key in environment values
-- :arrow_up: Upgrades add-on base image to 3.1.2
-- :arrow_up: Upgrades Grafana to 6.2.1
+- 🚑Fixes embedding Grafana in panel_iframe
+- :ambulance: Fixes use of removed Session config
 
-[changelog]: https://github.com/hassio-addons/addon-grafana/compare/v2.1.1...v2.1.2
+[changelog]: https://github.com/hassio-addons/addon-grafana/compare/v2.1.2...v2.1.3
 
 Questions? Join our Discord server! https://discord.me/hassioaddons
 Enjoying my add-ons? Consider supporting my work: https://patreon.com/frenck
