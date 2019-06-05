@@ -1,6 +1,6 @@
 {
   "name": "Grocy",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "slug": "grocy",
   "description": "ERP beyond your fridge! A groceries & household management solution for your home",
   "url": "https://github.com/hassio-addons/addon-grocy",
@@ -35,6 +35,7 @@
       "equipment": true,
       "recipes": true,
       "shoppinglist": true,
+      "stock": true,
       "tasks": true
     },
     "ssl": true,
@@ -43,7 +44,7 @@
   },
   "schema": {
     "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)?",
-    "culture": "match(^(da|de|en|es|fr|it|nl|no|pl|ru|ta|tr)$)",
+    "culture": "match(^(da|de|en|es|fr|it|nl|no|pl|ru|sv_SE|ta|tr)$)",
     "currency": "str",
     "features": {
       "batteries": "bool",
@@ -52,6 +53,7 @@
       "equipment": "bool",
       "recipes": "bool",
       "shoppinglist": "bool",
+      "stock": "bool",
       "tasks": "bool"
     },
     "ssl": "bool",
