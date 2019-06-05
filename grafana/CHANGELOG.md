@@ -1,13 +1,12 @@
 [Full Changelog][changelog]
 
-This release fixes an issue with embedding Grafana into the Home Assistant frontend using an iframe panel.
+This is a maintenance release.
 
 ### 🔨  Changes
 
-- 🚑Fixes embedding Grafana in panel_iframe
-- :ambulance: Fixes use of removed Session config
+- :arrow_up: Upgrades Grafana to 6.2.2
 
-[changelog]: https://github.com/hassio-addons/addon-grafana/compare/v2.1.2...v2.1.3
+[changelog]: https://github.com/hassio-addons/addon-grafana/compare/v2.1.3...v2.1.4
 
 Questions? Join our Discord server! https://discord.me/hassioaddons
 Enjoying my add-ons? Consider supporting my work: https://patreon.com/frenck
