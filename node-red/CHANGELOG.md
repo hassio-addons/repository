@@ -4,9 +4,9 @@ This is a general maintenance release.
 
 ### 🔨  Changes
 
-- :arrow_up: Updates node-red-contrib-moment to v3.0.3 (#238)
+- :arrow_up: Updates node-red-contrib-home-assistant-websocket to v0.12.3 (#240)
 
-[changelog]: https://github.com/hassio-addons/addon-node-red/compare/v3.1.2...v3.1.3
+[changelog]: https://github.com/hassio-addons/addon-node-red/compare/v3.1.3...v3.1.4
 
 Questions? Join our Discord server! https://discord.me/hassioaddons
 Enjoying my add-ons? Consider supporting my work: https://patreon.com/frenck
