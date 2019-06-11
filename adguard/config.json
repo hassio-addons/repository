@@ -1,12 +1,12 @@
 {
   "name": "AdGuard Home",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "slug": "adguard",
   "description": "Network-wide ads & trackers blocking DNS server",
   "url": "https://github.com/hassio-addons/addon-adguard-home",
   "webui": "[PROTO:ssl]://[HOST]:[PORT:80]",
   "ingress": true,
-  "ingress_port": 0,
+  "ingress_port": 45159,
   "panel_icon": "mdi:shield-check",
   "startup": "services",
   "homeassistant": "0.92.0b2",
@@ -25,6 +25,9 @@
     "53/udp": "DNS server port",
     "80/tcp": "Web interface (Not required for Hass.io Ingress)"
   },
+  "discovery": [
+    "adguard"
+  ],
   "boot": "auto",
   "hassio_api": true,
   "hassio_role": "default",
