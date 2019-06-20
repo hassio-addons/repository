@@ -1,9 +1,12 @@
-Minor release to update base image
+Updates base image and chrony version
 
 ## Changes
 
-:arrow_up: Upgrade addon base to 3.1.1 #17
+⬆ Upgrade base to 4.0.1
+⬆ Update chrony to 3.5-r0
+⬆ Update base image to 4.0.0
+📚 Update Readme to Prod Ready (#20)
 
 [Full Changelog][changelog]
 
-[changelog]: https://github.com/hassio-addons/addon-chrony/compare/v0.2.2...v0.2.3
+[changelog]: https://github.com/hassio-addons/addon-chrony/compare/v0.2.4...v0.3.0
