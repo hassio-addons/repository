@@ -763,10 +763,10 @@ SOFTWARE.
 [bitwarden-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [bitwarden-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [bitwarden-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
-[addon-example]: https://github.com/hassio-addons/addon-example/tree/v2.0.2
-[addon-doc-example]: https://github.com/hassio-addons/addon-example/blob/v2.0.2/README.md
+[addon-example]: https://github.com/hassio-addons/addon-example/tree/v3.0.0
+[addon-doc-example]: https://github.com/hassio-addons/addon-example/blob/v3.0.0/README.md
 [example-issue]: https://github.com/hassio-addons/addon-example/issues
-[example-version-shield]: https://img.shields.io/badge/version-v2.0.2-blue.svg
+[example-version-shield]: https://img.shields.io/badge/version-v3.0.0-blue.svg
 [example-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/example-armhf.svg
 [example-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [example-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
