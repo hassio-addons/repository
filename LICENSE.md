@@ -1,6 +1,6 @@
 # MIT License
 
-Copyright (c) 2017 Franck Nijhof <frenck@geekchimp.com>
+Copyright (c) 2017-2019 Franck Nijhof <frenck@geekchimp.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
