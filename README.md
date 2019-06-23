@@ -5,8 +5,7 @@
 [![License][license-shield]](LICENSE.md)
 
 [![GitLab CI][gitlabci-shield]][gitlabci]
-[![Bountysource][bountysource-shield]][bountysource]
-![Awesome][awesome-shield]
+[![Awesome][awesome-shield]][awesome]
 
 [![Discord][discord-shield]][discord]
 [![Community Forum][forum-shield]][forum]
@@ -595,9 +594,13 @@ Simple, elegant and feature-rich CCTV/NVR for your cameras
 
 ## Releases
 
-Add-on releases are **NOT** based on [Semantic Versioning][semver], unlike
-all our other repositories. The latest build commit SHA hash of each
-add-on, represents the version number.
+Releases are based on [Semantic Versioning][semver], and use the format
+of ``MAJOR.MINOR.PATCH``. In a nutshell, the version will be incremented
+based on the following:
+
+- ``MAJOR``: Incompatible or major changes.
+- ``MINOR``: Backwards-compatible new features and enhancements.
+- ``PATCH``: Backwards-compatible bugfixes and package updates.
 
 ## Support
 
@@ -673,7 +676,7 @@ Have you created an add-on that you want to list in the Community Repository?
 Contact [Franck Nijhof][frenck]:
 
 - Drop him an email: frenck@addons.community
-- Chat with him on [Discord Chat][discord]: Frenck#4484 (@frenck)
+- Chat with him on [Discord Chat][discord]
 - Message him via the forums: [frenck][forum-frenck]
 
 He will set up a GitHub repository and all the other plumbing,
@@ -683,7 +686,7 @@ and of course, give you developer access to your contribution.
 
 MIT License
 
-Copyright (c) 2017 Franck Nijhof
+Copyright (c) 2017-2019 Franck Nijhof
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -1104,11 +1107,10 @@ SOFTWARE.
 [motioneye-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [motioneye-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [awesome-shield]: https://img.shields.io/badge/awesome%3F-yes-brightgreen.svg
-[bountysource-shield]: https://img.shields.io/bountysource/team/hassio-addons/activity.svg
-[bountysource]: https://www.bountysource.com/teams/hassio-addons/issues
+[awesome]: https://awesome-ha.com
+[discord-ha]: https://discord.gg/c5DvZ4e
 [discord-shield]: https://img.shields.io/discord/478094546522079232.svg
 [discord]: https://discord.me/hassioaddons
-[discord-ha]: https://discord.gg/c5DvZ4e
 [forum-frenck]: https://community.home-assistant.io/u/frenck/?u=frenck
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
 [forum]: https://community.home-assistant.io?u=frenck
@@ -1117,7 +1119,7 @@ SOFTWARE.
 [gitlabci]: https://gitlab.com/hassio-addons/repository/pipelines
 [issue]: https://github.com/hassio-addons/repository/issues
 [license-shield]: https://img.shields.io/github/license/hassio-addons/repository.svg
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2018.svg
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2019.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
 [reddit]: https://reddit.com/r/homeassistant
 [semver]: http://semver.org/spec/v2.0.0.html
