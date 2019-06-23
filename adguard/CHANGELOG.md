@@ -1,19 +1,26 @@
 [Full Changelog][changelog]
 
-This release upgrades AdGuard Home to 0.96(hotfix), bringing in a load of new features!
+This release upgrades in the environment AdGuard is running in.
+However, it should not be a breaking upgrade.
+
+Furthermore, it contains a fix for the auto-discovery feature for the AdGuard integration in Home Assistant (0.95+).
 
 See the AdGuard Home release notes for an overview:
 <https://github.com/AdguardTeam/AdGuardHome/releases/tag/v0.96>
 
 ### 🔨 Changes
 
-- :arrow_up: Upgrades add-on base image to 3.1.1
-- :arrow_up: Upgrades AdGuard Home to 0.96-hotfix (#17) (@iwoloschin)
-- :hammer: Adds --no-check-update flag to AdGuard (#18) (@tjorim)
-- :books: Adds link to Hassio documentation about static IP and DNS (#20) (@mammuth)
-- ✨ Adds support for Home Assistant integration discovery (#15)
+- 🚑Automatically restart AdGuard in case of crash
+- 🚑 Extend wait timeout to 900 seconds
+- :arrow_up: Upgrades nginx to 1.16.0-r2
+- :arrow_up: Upgrades add-on base image to v4.0.1
+- :ambulance: Fixes Home Assistant integration discovery
+- :hammer: Re-instates dynamic Ingress port
+- :fire: Removes now deprecated ssl directive
+- :sparkles: Adds FUNDING.yml
+- :pencil2: Maintaince -> Maintenance
 
-[changelog]: https://github.com/hassio-addons/addon-adguard-home/compare/v1.1.1...v1.2.0
+[changelog]: https://github.com/hassio-addons/addon-adguard-home/compare/v1.2.0...v2.0.0
 
 Questions? Join our Discord server! https://discord.me/hassioaddons
 Enjoying my add-ons? Consider supporting my work: https://patreon.com/frenck
