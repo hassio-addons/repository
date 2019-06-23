@@ -1,14 +1,16 @@
 [Full Changelog][changelog]
 
-This release fixes an issue with the Android Debug Bridge crashing on start (mainly ARMv7/Raspberry Pi).
-It does this by downgrading the `adb` package since there is no workaround available.
-No functionality is lost by this downgrade from the perspective of this add-on.
+This is a general maintenance release.
 
 ### :hammer: Changes
 
-- 🚑 ⬇️ Downgrades adb to 7.0.0+r33-2 (#12)
+- :books: Removed outdated info regarding intents (#14)
+- :arrow_up: Upgrades add-on base image to v3.1.3
+- :pencil2: Maintaince -> Maintenance
+- :sparkles: Adds FUNDING.yml
+- :shirt: Fixes Markdownlint warnings
 
-[changelog]: https://github.com/hassio-addons/addon-adb/compare/v0.4.0...v0.4.1
+[changelog]: https://github.com/hassio-addons/addon-adb/compare/v0.4.1...v0.5.0
 
 Questions? Join our Discord server! https://discord.me/hassioaddons
 Enjoying my add-ons? Consider supporting my work: https://patreon.com/frenck
