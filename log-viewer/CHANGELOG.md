@@ -1,12 +1,17 @@
 [Full Changelog][changelog]
 
-✨ This release adds support for the "Add to sidebar" feature that became available in Home Assistant 0.92.
-
-Please note: You need to have Home Assistant 0.92 or newer to be able to install this update. 
+This release upgrades the internals of the add-on.
+No breaking changes.
 
 ### Changed
 
-- :arrow_up: Updates Home Assistant requirement to 0.92.0b2
-- :sparkles: Adds support for showing in sidebar
+- :ambulance: Turns off Lua Resty core in Nginx
+- :arrow_up: Upgrades nginx to 1.16.0-r2
+- :arrow_up: Upgrades nodejs to 10.16.0-r0
+- :arrow_up: Upgrades npm to 10.16.0-r0
+- :arrow_up: Upgrades git to 2.22.0-r0
+- :arrow_up: Upgrades add-on base image to v4.0.1
+- :fire: Removes now deprecated ssl directive
+- :pencil2: Maintaince -> Maintenance
 
-[changelog]: https://github.com/hassio-addons/addon-log-viewer/compare/v0.5.0...v0.5.1
+[changelog]: https://github.com/hassio-addons/addon-log-viewer/compare/v0.5.1...v0.6.0
