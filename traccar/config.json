@@ -1,10 +1,13 @@
 {
   "name": "Traccar",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "slug": "traccar",
   "description": "Modern GPS Tracking Platform",
   "url": "https://github.com/hassio-addons/addon-traccar",
-  "webui": "[PROTO:ssl]://[HOST]:[PORT:8072]",
+  "webui": "[PROTO:ssl]://[HOST]:[PORT:80]",
+  "ingress": true,
+  "ingress_port": 0,
+  "panel_icon": "mdi:car-connected",
   "startup": "services",
   "arch": [
     "aarch64",
@@ -18,10 +21,10 @@
   "hassio_role": "default",
   "host_network": true,
   "ports": {
-    "8072/tcp": 8072
+    "80/tcp": null
   },
   "ports_description": {
-    "8072/tcp": "Traccar web interface"
+    "80/tcp": "Web interface (Not required for Hass.io Ingress)"
   },
   "map": [
     "config:rw",
