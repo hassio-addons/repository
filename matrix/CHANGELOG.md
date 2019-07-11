@@ -2,18 +2,17 @@
 
 ## Changes
 
-- 6e2f7b9 :arrow_up: Update postgresql-dev to 11.3-r0 
-- 88a1dac :arrow_up: Update libpq to 11.3-r0 
-- 9e56b5b :arrow_up: Update nginx to 1.14.2-r1 
-- c8fde1b :arrow_up: Update nginx-mod-http-lua 1.14.2-r1 
-- 2ec9dcc :arrow_up: Updates matrix-synapse to v0.99.4 (#14) 
-- 71a9c26 :arrow_up: Update riot to v1.1.2 
-- 82cac0f :arrow_up: Updates matrix-synapse to v0.99.5.2 (#15) 
-- b3b680f :arrow_up: Update base to v1.1.1 
-- 65a25f8 :arrow_up: Update Matrix to v1.2.1 
+- 8a055c9 :arrow_up: Updates matrix-synapse to v1 (#16) 
+- ff142a1 :pencil2: Maintaince -> Maintenance 
+- 8dc7a11 :arrow_up: Updates matrix-synapse to v1.1.0 (#18) 
+- 7ced68b :arrow_up: Updates pysaml2 to v4.8.0 (#19) 
+- b81cb2f :arrow_up: Upgrade to base v2.0.1 
+- 38706ca :arrow_up: Upgrade packages 
+- cf1a1bb :arrow_up: Upgrade riot to v1.2.4 
+- 60804f6 :books: Update stage badge 
 
 [Full Changelog][changelog]
 
-[changelog]: https://github.com/hassio-addons/addon-matrix/compare/v0.5.1...v0.5.2
-[gitlabci-shield]: https://gitlab.com/hassio-addons/addon-matrix/badges/v0.5.2/pipeline.svg
+[changelog]: https://github.com/hassio-addons/addon-matrix/compare/v0.5.2...v0.6.0
+[gitlabci-shield]: https://gitlab.com/hassio-addons/addon-matrix/badges/v0.6.0/pipeline.svg
 [gitlabci]: https://gitlab.com/hassio-addons/addon-matrix/pipelines
