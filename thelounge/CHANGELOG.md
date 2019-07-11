@@ -1,20 +1,17 @@
 [![GitLab CI][gitlabci-shield]][gitlabci]
 
-**:warning: This release contains breaking changes. Please read on**
-
-This release adds multiple user support. You will now be able to add users in a list of usernames, so be sure to add yours after the update. New users will use the default password, so make sure to update them asap. Check the docs for more info.
-
 ## Changes
 
-- 270ce6d :arrow_up: Update nginx to 1.14.2-r1 
-- c30d5a5 :hammer: Formatting 
-- db7a338 :sparkles: Support multiple users 
-- b17b421 :books: Update docs for multiple users 
-- f3ad6b9 :hammer: Require a user to be added 
-- 24d96fd :hammer: Add user removal logic 
+- 86d80af :ambulance: Fixes path handling in certificates (#6) 
+- ac2b522 :pencil2: Maintaince -> Maintenance 
+- a26cf18 :arrow_up: Upgrade to base v4.0.1 
+- c40e21a :arrow_up: Upgrade packages 
+- 8caf7bb :arrow_up: Upgrade thelounge to v3.1.1 
+- 78a37a6 :arrow_up: Upgrade yarn 
+- e3af9f5 :books: Update badge 
 
 [Full Changelog][changelog]
 
-[changelog]: https://github.com/hassio-addons/addon-thelounge/compare/v0.3.2...v0.4.0
-[gitlabci-shield]: https://gitlab.com/hassio-addons/addon-thelounge/badges/v0.4.0/pipeline.svg
+[changelog]: https://github.com/hassio-addons/addon-thelounge/compare/v0.4.0...v0.5.0
+[gitlabci-shield]: https://gitlab.com/hassio-addons/addon-thelounge/badges/v0.5.0/pipeline.svg
 [gitlabci]: https://gitlab.com/hassio-addons/addon-thelounge/pipelines
