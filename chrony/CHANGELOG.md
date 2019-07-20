@@ -1,12 +1,11 @@
-Updates base image and chrony version
+Updates base image to the latest.
+Moves release versioning to production ready v1.
 
 ## Changes
 
-⬆ Upgrade base to 4.0.1
-⬆ Update chrony to 3.5-r0
-⬆ Update base image to 4.0.0
-📚 Update Readme to Prod Ready (#20)
+⬆ Upgrades add-on base image to v4.0.2
+✨ Add FUNDING.yml
 
 [Full Changelog][changelog]
 
-[changelog]: https://github.com/hassio-addons/addon-chrony/compare/v0.2.4...v0.3.0
+[changelog]: https://github.com/hassio-addons/addon-chrony/compare/v0.3.0...v1.0.0
