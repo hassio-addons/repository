@@ -1,40 +1,35 @@
 [Full Changelog][changelog]
 
+This release upgrades all internals, and contains the first major and stable release of Jupyter Lab as well! 🎉 
+
 ### Changed
 
-- Fixes spelling error in Dockerfile
-- Removes BountySource links
-- Updates maintenance year to 2019
-- Refactor of GitLab CI
-- Configure Renovate (#10) 
-- Updates beautifulsoup4 to v4.7.1 (#13)
-- Updates bokeh to v1.0.4 (#15)
-- Updates psycopg2 to v2.7.7 (#19)
-- Updates scrapy to v1.6.0 (#23)
-- Updates python-dateutil to v2.8.0 (#26)
-- Updates nbconvert to v5.4.1 (#28)
-- Updates mysqlclient to v1.4.2.post1 (#30)
-- Updates numpy to v1.16.2 (#32)
-- Upgrades GPG to 2.2.4-1ubuntu1.2
-- Upgrades libmysql to 5.7.25-0ubuntu0.18.04.2
-- Upgrades libzmq5 to 4.2.5-1ubuntu0.1
-- Upgrade lua-resty-http to 0.13-0
-- Updates matplotlib to v3.0.3 (#33)
-- Updates SQLAlchemy to v1.3.1 (#36)
-- Updates influxdb to v5.2.2 (#38)
-- Upgrades add-on base image to 3.0.0
-- Remove obsolete machine tags
-- Makes log_level optional
-- Removes custom log format override
-- Upgrades libtiff5-dev to 4.0.9-5ubuntu0.2
-- Upgrades NodeJS to 8.15.1-1nodesource1
-- Rewrite add-on onto Bashio
-- Makes NGinx wait for Jupyter before starting
-- Updates documentation for ARMv7
-- Workaround for CPython/PIP package order issue
-- Updates pandas to v0.24.2 (#37)
+- :arrow_up: Updates bokeh to v1.2.0 (#56)
+- :arrow_up: Updates geopy to v1.20.0 (#54)
+- :arrow_up: Updates nbconvert to v5.5.0 (#52)
+- :arrow_up: Updates psycopg2 to v2.8.3 (#58)
+- :arrow_up: Upgrades MySQL client to 5.7.26-0ubuntu0.18.04.1
+- :arrow_up: Upgrades libpng to 1.6.34-1ubuntu0.18.04.2
+- :arrow_up: Upgrades libpg to 10.8-0ubuntu0.18.04.1
+- :arrow_up: Upgrades python3-distutils to 3.6.8-1~18.04
+- :arrow_up: Upgrades nodejs to 8.16.0-1nodesource1
+- :arrow_up: Upgrades numpy to 1.16.4
+- :arrow_up: Updates SQLAlchemy to v1.3.5 (#59)
+- :pencil2: Maintaince -> Maintenance
+- :arrow_up: Upgrades libpq to 10.9-0ubuntu0.18.04.1
+- :arrow_up: Updates ipywidgets to v7.5.0 (#61)
+- :arrow_up: Updates matplotlib to v3.1.1 (#63)
+- :arrow_up: Updates jupyterlab_github to v1 (#64)
+- :arrow_up: Updates jupyterlab to v1.0.2 (#65)
+- :arrow_up: Updates scrapy to v1.7.1 (#66)
+- :arrow_up: Updates pandas to v0.25.0 (#67)
+- :arrow_up: Updates beautifulsoup4 to v4.8.0 (#68)
+- :arrow_up: Upgrades libzmq to 4.2.5-1ubuntu0.2
+- :arrow_up: Upgrades libssl-dev to 1.1.1-1ubuntu2.1~18.04.4
+- :arrow_up: Upgrades jupyter-widgets/jupyterlab-manager to 1.0
+- :arrow_up: Upgrades add-on base image to v3.1.3
 
-[changelog]: https://github.com/hassio-addons/addon-jupyterlab-lite/compare/v0.1.0...v0.2.0
+[changelog]: https://github.com/hassio-addons/addon-jupyterlab-lite/compare/v0.2.0...v0.3.0
 
 Questions? Join our Discord server! https://discord.me/hassioaddons
 Enjoying my add-ons? Consider supporting my work: https://patreon.com/frenck
