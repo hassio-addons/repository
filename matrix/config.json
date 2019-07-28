@@ -1,9 +1,9 @@
 {
   "name": "Matrix",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "slug": "matrix",
   "description": "A secure and decentralized communication platform.",
-  "url": "https://community.home-assistant.io",
+  "url": "https://github.com/hassio-addons/addon-matrix",
   "webui": "http://[HOST]:[PORT:80]",
   "startup": "application",
   "ingress": true,
