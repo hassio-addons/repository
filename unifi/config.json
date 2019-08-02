@@ -19,6 +19,7 @@
   ],
   "boot": "auto",
   "ports": {
+    "161/udp": null,
     "1900/udp": null,
     "3478/udp": 3478,
     "6789/tcp": 6789,
@@ -29,6 +30,7 @@
     "10001/udp": 10001
   },
   "ports_description": {
+    "161/udp": "Used for SNMP Access",
     "1900/udp": "L2 discoverable port",
     "3478/udp": "Used for STUN",
     "6789/tcp": "Used for UniFi mobile speed test",
