@@ -1,6 +1,6 @@
 {
   "name": "Home Panel",
-  "version": "0.4.1",
+  "version": "0.5.0",
   "slug": "home-panel",
   "description": "A touch-compatible web frontend for controlling the home",
   "url": "https://github.com/hassio-addons/addon-home-panel",
@@ -17,16 +17,13 @@
   "hassio_role": "default",
   "hassio_api": true,
   "homeassistant_api": true,
-  "ingress": true,
-  "ingress_port": 1337,
-  "panel_icon": "mdi:home",
-  "homeassistant": "0.92.0b2",
+  "ingress": false,
   "ports": {
-    "80/tcp": null,
+    "80/tcp": 8234,
     "3234/tcp": 3234
   },
   "ports_description": {
-    "80/tcp": "Web UI (Not required for Hass.io Ingress)",
+    "80/tcp": "Web UI",
     "3234/tcp": "API"
   },
   "map": [
