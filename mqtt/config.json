@@ -11,6 +11,8 @@
   "panel_icon": "mdi:code-brackets",
   "panel_title": "MQTT",
   "startup": "services",
+  "discovery": ["mqtt"],
+  "services": ["mqtt:provide"],
   "arch": [
     "aarch64",
     "amd64",
