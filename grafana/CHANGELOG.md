@@ -1,14 +1,12 @@
 [Full Changelog][changelog]
 
-This release fixes an issue with Grafana keeps forgetting authentication and authentication data to the data source.
-
-ℹ️ Please note, after upgrading, Grafana will ask for this one more time. After that, it persists.
+This is a general maintenance release.
 
 ### 🔨  Changes
 
-- :ambulance: Fixes Grafana secret key rotation to be fixed
-
-[changelog]: https://github.com/hassio-addons/addon-grafana/compare/v2.2.1...v2.2.2
+- :arrow_up: Upgrades add-on base image to v3.1.4
+- :arrow_up: Upgrades Grafana to v6.3.2
+[changelog]: https://github.com/hassio-addons/addon-grafana/compare/v2.2.2...v2.2.3
 
 Questions? Join our Discord server! https://discord.me/hassioaddons
 Enjoying my add-ons? Consider supporting my work: https://patreon.com/frenck
