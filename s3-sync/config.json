@@ -1,0 +1,31 @@
+{
+    "name"        : "S3 Backup Sync",
+    "version"     : "0.1",
+    "slug"        : "s3-sync",
+    "description" : "Sync Backups to S3",
+    "url"         : "https://github.com/luthes/hassio-s3-sync",
+    "startup"     : "application",
+    "map"         : ["backup"],
+    "arch"        : [
+        "aarch64",
+        "amd64",
+        "armhf",
+        "armv7",
+        "i386"
+    ],
+    "boot"        : "auto",
+    "hassio_api"  : true,
+    "hassio_role" : "default",
+    "options"     : {
+        "log_level"      : "info",
+        "aws_access_key" : "AKIA...",
+        "aws_secret_key" : "ai4i...",
+        "aws_s3_bucket" : "my-s3-bucket"
+    },
+    "schema": {
+        "log_level"      : "match(^(trace|debug|info|notice|warning|error|fatal)$)",
+        "aws_access_key" : "match(^(?<![A-Z0-9])[A-Z0-9]{20}(?![A-Z0-9])$)",
+        "aws_secret_key" : "match(^(?<![A-Za-z0-9/+=])[A-Za-z0-9/+=]{40}(?![A-Za-z0-9/+=])$)",
+        "aws_s3_bucket"  : "match(^(?!s3:\/\/*$).*)"
+    }
+  }
