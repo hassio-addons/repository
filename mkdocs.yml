@@ -64,6 +64,7 @@ markdown_extensions:
 # The pages to serve
 pages:
   - "Our Add-ons": "index.md"
+  - "Edge Add-ons": "edge.md"
   - "Contributing": "contributing.md"
   - "Code of Conduct": "code-of-conduct.md"
   - "License": "license.md"

@@ -17,6 +17,9 @@ mkdir -p docs
 # Install requirements
 pip install -r requirements.txt
 
+# Download Edge page
+curl https://raw.githubusercontent.com/hassio-addons/repository-edge/master/README.md --output docs/edge.md
+
 # Get the pages into the docs folder
 ln -sf ../README.md docs/index.md
 ln -sf ../LICENSE.md docs/license.md
