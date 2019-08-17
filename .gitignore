@@ -2,3 +2,12 @@ bin/*
 !bin/create_all.sh
 !bin/create_hassio_addon.sh
 !bin/travis_build.sh
+*.do
+bin/*
+docs/*
+site/*
+pip-selfcheck.json
+pyvenv.cfg
+include/
+lib/
+venv/
