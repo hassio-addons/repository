@@ -24,14 +24,16 @@ side.
 ## Config
 
 * log_level
-** Info - Will only show error messages from the AWS CLI
-** Debug - Shows full output of S3 Command. This is really noisey.
+  * Info - Will only show error messages from the AWS CLI
+  * Debug - Shows full output of S3 Command. This is really noisey.
 
 * aws_access_key
-** Only matches AWS Access Key pattern
+  * Only matches AWS Access Key pattern
 
 * aws_access_key
-** Only matches AWS Secret Access Key pattern
+  * Only matches AWS Secret Access Key pattern
 
 * aws_s3_bucket
-** Bucket name, without `s3://` prefix.
+  * Bucket name, without `s3://` prefix.
+
+
