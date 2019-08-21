@@ -20,3 +20,18 @@ Because this is a sync, you could potentially move more backups from S3 to the
 local drive than you have storage for. The AWS CLI will stop it from filling up
 the drive, but be sure to remove old backups from S3 just to be on the safe
 side.
+
+## Config
+
+* log_level
+** Info - Will only show error messages from the AWS CLI
+** Debug - Shows full output of S3 Command. This is really noisey.
+
+* aws_access_key
+** Only matches AWS Access Key pattern
+
+* aws_access_key
+** Only matches AWS Secret Access Key pattern
+
+* aws_s3_bucket
+** Bucket name, without `s3://` prefix.
