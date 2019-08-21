@@ -1,6 +1,6 @@
 # Community Hass.io Add-ons: AWS S3 Sync
 
-# About
+## About
 
 This add-on allows you to automate backups to AWS S3, keeping them outside of 
 your home network in case of a catastrophic failure.
@@ -23,17 +23,26 @@ side.
 
 ## Config
 
-* log_level
-  * Info - Will only show error messages from the AWS CLI
-  * Debug - Shows full output of S3 Command. This is really noisey.
+Example Config
+```
+{
+  "log_level": "info",
+  "aws_access_key": "AKIAIOSFODNN7EXAMPLE",
+  "aws_secret_key": "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY",
+  "aws_s3_bucket": "my-s3-bucket"
+}
+```
 
-* aws_access_key
-  * Only matches AWS Access Key pattern
+### Option: log_level
+Info - Will only show error messages from the AWS CLI
+Debug - Shows full output of S3 Command. This is really noisey.
 
-* aws_access_key
-  * Only matches AWS Secret Access Key pattern
+### Option: aws_access_key
+Only matches AWS Access Key pattern
 
-* aws_s3_bucket
-  * Bucket name, without `s3://` prefix.
+### Option: aws_access_key
+Only matches AWS Secret Access Key pattern
 
+### Option: aws_s3_bucket
+Bucket name, without `s3://` prefix.
 
