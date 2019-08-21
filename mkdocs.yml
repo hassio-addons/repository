@@ -1,0 +1,70 @@
+---
+# Project information
+site_name: 'Community Hass.io Add-ons for Home Assistant'
+site_url: 'https://addons.community'
+site_description: 'The primary goal of this project is to provide you (as a Hass.io / Home Assistant user) with additional, high quality, add-ons that allow you to take your automated home to the next level.'
+site_author: 'Franck Nijhof'
+copyright: 'Copyright 2017-2019 - Franck Nijhof.'
+
+# Repository
+repo_name: 'hassio-addons'
+repo_url: 'https://github.com/hassio-addons/repository'
+edit_uri: ''
+
+# Theme configuration
+theme:
+  name: 'material'
+  logo: 'https://avatars3.githubusercontent.com/u/30772201?s=200&v=4'
+  icon: 'https://avatars3.githubusercontent.com/u/30772201?s=200&v=4'
+  language: 'en'
+  palette:
+    primary: 'light-blue'
+    accent: 'blue'
+  font:
+    text: 'Exo2'
+    code: 'Roboto Mono'
+  feature:
+    tabs: false
+extra_css:
+  - css/extra.css
+
+# Customization
+extra:
+  manifest: 'manifest.webmanifest'
+  social:
+    - type: 'github'
+      link: 'https://github.com/hassio-addons'
+    - type: 'twitter'
+      link: 'https://twitter.com/hassio-addons'
+    - type: 'twitch'
+      link: 'https://twitch.tv/frenck'
+    - type: 'youtube'
+      link: 'https://youtube.com/frenck'
+
+# Extensions
+markdown_extensions:
+  - toc:
+      permalink: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# The pages to serve
+pages:
+  - "Our Add-ons": "index.md"
+  - "Edge Add-ons": "edge.md"
+  - "Contributing": "contributing.md"
+  - "Code of Conduct": "code-of-conduct.md"
+  - "License": "license.md"
