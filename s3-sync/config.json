@@ -1,6 +1,6 @@
 {
     "name"        : "S3 Backup Sync",
-    "version"     : "0.4",
+    "version"     : "0.5",
     "slug"        : "s3-sync",
     "description" : "Sync Backups to S3",
     "url"         : "https://github.com/luthes/hassio-s3-sync",
