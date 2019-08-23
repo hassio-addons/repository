@@ -4,9 +4,9 @@ This release is a generic update release.
 
 ### 🔨 Changes
 
-- :arrow_up: Upgrades add-on base image to v3.1.4
+- :arrow_up: Upgrades add-on base image to v3.2.0
 
-[changelog]: https://github.com/hassio-addons/addon-bitwarden/compare/v0.2.0...v0.2.1
+[changelog]: https://github.com/hassio-addons/addon-bitwarden/compare/v0.2.1...v0.2.2
 
 Questions? Join our Discord server! https://discord.me/hassioaddons
 Enjoying my add-ons? Consider supporting my work: https://patreon.com/frenck
