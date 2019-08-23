@@ -1,11 +1,13 @@
 {
   "name": "SQLite Web",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "slug": "sqlite-web",
   "description": "Explore your SQLite database",
   "url": "https://github.com/hassio-addons/addon-sqlite-web/tree/master/README.md",
   "webui": "[PROTO:ssl]://[HOST]:[PORT:6210]",
   "startup": "services",
+  "ingress": true,
+  "ingress_port": 1337,
   "arch": [
     "aarch64",
     "amd64",
@@ -18,11 +20,11 @@
   "hassio_api": true,
   "hassio_role": "default",
   "ports": {
-    "6210/tcp": 6210,
+    "80/tcp": null,
     "6220/tcp": 6220
   },
   "ports_description": {
-    "6210/tcp": "SQLite Web interface",
+    "80/tcp": "SQLite Web interface (Not required for Hass.io Ingress)",
     "6220/tcp": "Datasette API endpoint"
   },
   "map": [
