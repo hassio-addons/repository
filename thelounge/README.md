@@ -23,7 +23,7 @@ A self-hosted web IRC client that uses a modern and sleek interface with
 [buymeacoffee]: https://www.buymeacoffee.com/frenck
 [discord-shield]: https://img.shields.io/discord/478094546522079232.svg
 [discord]: https://discord.me/hassioaddons
-[docs]: https://github.com/hassio-addons/addon-thelounge/blob/v0.5.0/README.md
+[docs]: https://github.com/hassio-addons/addon-thelounge/blob/v0.6.0/README.md
 [forest-theme]: https://raw.githubusercontent.com/timmo001/thelounge/master/docs/resources/forest-theme.png
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
 [forum]: https://community.home-assistant.io/?u=timmo001
@@ -32,7 +32,7 @@ A self-hosted web IRC client that uses a modern and sleek interface with
 [midnight-theme]: https://raw.githubusercontent.com/timmo001/thelounge/master/docs/resources/midnight-theme.png
 [more-info-light]: https://raw.githubusercontent.com/timmo001/thelounge/master/docs/resources/more-info-light.png
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[release-shield]: https://img.shields.io/badge/version-v0.5.0-blue.svg
-[release]: https://github.com/hassio-addons/addon-thelounge/tree/v0.5.0
+[release-shield]: https://img.shields.io/badge/version-v0.6.0-blue.svg
+[release]: https://github.com/hassio-addons/addon-thelounge/tree/v0.6.0
 [screenshot]: https://raw.githubusercontent.com/hassio-addons/addon-thelounge/master/images/screenshot.png
 [thelounge]: https://github.com/timmo001/thelounge
