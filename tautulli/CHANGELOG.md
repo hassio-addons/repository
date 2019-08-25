@@ -1,15 +1,12 @@
 ## Changes
 
-- cf640a2 :arrow_up: Updates python2-dev to version 2.7.16-r1 (#40) 
-- aed0b15 :arrow_up: Updates python2 to version 2.7.16-r1 (#41) 
-- eab3298 :arrow_up: Upgrades Tautulli to version v2.1.29 (#42) 
-- b2550cb 🔥 Removes non existing config options from documentation 
+- :arrow_up: Updates pycryptodomex to v3.8.2 (#44)
+- :pencil2: Maintaince -> Maintenance
+- :arrow_up: Upgrades add-on base image to v4.1.1
+- :arrow_up: Upgrades Tautulli to v2.1.33
+- :arrow_up: Upgrades git to 2.22.0-r0
+- :arrow_up: Upgrades py-openssl to 19.0.0-r0
 
 [Full Changelog][changelog]
 
-***
-
-This release was created with [reporeleaser][reporeleaser] :tada:
-
-[reporeleaser]: https://pypi.org/project/reporeleaser/
-[changelog]: https://github.com/hassio-addons/addon-tautulli/compare/v1.1.0...v1.2.0
+[changelog]: https://github.com/hassio-addons/addon-tautulli/compare/v1.2.0...v1.2.1
