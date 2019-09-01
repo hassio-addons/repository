@@ -1,6 +1,6 @@
 {
   "name": "WireGuard",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "slug": "wireguard",
   "description": "Fast, modern, secure VPN tunnel",
   "url": "https://github.com/hassio-addons/addon-wireguard",
@@ -37,7 +37,7 @@
     "server": {
       "host": "myautomatedhome.duckdns.org",
       "addresses": [
-        "172.244.66.1"
+        "172.27.66.1"
       ],
       "dns": []
     },
@@ -45,7 +45,7 @@
       {
         "name": "hassio",
         "addresses": [
-          "172.244.66.2"
+          "172.27.66.2"
         ],
         "allowed_ips": [],
         "client_allowed_ips": []
