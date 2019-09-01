@@ -536,6 +536,20 @@ Fully featured VSCode experience, to edit your HA config in the browser, includi
 
 [:books: Visual Studio Code add-on documentation][addon-doc-vscode]
 
+### &#10003; [WireGuard][addon-wireguard]
+
+![Latest Version][wireguard-version-shield]
+![Supports armhf Architecture][wireguard-armhf-shield]
+![Supports armv7 Architecture][wireguard-armv7-shield]
+![Supports aarch64 Architecture][wireguard-aarch64-shield]
+![Supports amd64 Architecture][wireguard-amd64-shield]
+![Supports i386 Architecture][wireguard-i386-shield]
+![Docker Pulls][wireguard-pulls-shield]
+
+Fast, modern, secure VPN tunnel
+
+[:books: WireGuard add-on documentation][addon-doc-wireguard]
+
 ### &#10003; [Z-Wave to MQTT][addon-zwave2mqtt]
 
 ![Latest Version][zwave2mqtt-version-shield]
@@ -653,6 +667,7 @@ on the correct GitHub repository matching the add-on.
 - [Open an issue for the add-on: Traccar][traccar-issue]
 - [Open an issue for the add-on: UniFi Controller][unifi-issue]
 - [Open an issue for the add-on: Visual Studio Code][vscode-issue]
+- [Open an issue for the add-on: WireGuard][wireguard-issue]
 - [Open an issue for the add-on: Z-Wave to MQTT][zwave2mqtt-issue]
 - [Open an issue for the add-on: ZeroTier One][zerotier-issue]
 - [Open an issue for the add-on: chrony][chrony-issue]
@@ -1066,6 +1081,16 @@ SOFTWARE.
 [vscode-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [vscode-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [vscode-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
+[addon-wireguard]: https://github.com/hassio-addons/addon-wireguard/tree/v0.1.0
+[addon-doc-wireguard]: https://github.com/hassio-addons/addon-wireguard/blob/v0.1.0/README.md
+[wireguard-issue]: https://github.com/hassio-addons/addon-wireguard/issues
+[wireguard-version-shield]: https://img.shields.io/badge/version-v0.1.0-blue.svg
+[wireguard-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/wireguard-armhf.svg
+[wireguard-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[wireguard-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[wireguard-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
+[wireguard-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
+[wireguard-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [addon-zwave2mqtt]: https://github.com/hassio-addons/addon-zwave2mqtt/tree/v0.3.3
 [addon-doc-zwave2mqtt]: https://github.com/hassio-addons/addon-zwave2mqtt/blob/v0.3.3/README.md
 [zwave2mqtt-issue]: https://github.com/hassio-addons/addon-zwave2mqtt/issues
