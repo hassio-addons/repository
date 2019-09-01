@@ -153,6 +153,10 @@ addons:
     repository: hassio-addons/addon-vscode
     target: vscode
     image: hassioaddons/vscode-{arch}
+  wireguard:
+    repository: hassio-addons/addon-wireguard
+    target: wireguard
+    image: hassioaddons/wireguard-{arch}
   zerotier:
     repository: hassio-addons/addon-zerotier
     target: zerotier
