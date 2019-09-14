@@ -210,7 +210,7 @@ Presence detection server for Happy Bubbles Bluetooth beacon-based presence dete
 ![Supports i386 Architecture][home-panel-i386-shield]
 ![Docker Pulls][home-panel-pulls-shield]
 
-A touch-compatible web frontend for controlling the home
+A web frontend for controlling the home
 
 [:books: Home Panel add-on documentation][addon-doc-home-panel]
 
