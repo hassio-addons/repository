@@ -2,10 +2,10 @@
 
 ## Changes
 
-- 36c89da 🚑Change format of sed command, add logging (#33) @sinclairpaul 
+- e80a37b :arrow_up: Update Home Panel to [v2.0.2](https://github.com/timmo001/home-panel/releases/tag/v2.0.2) 
 
 [Full Changelog][changelog]
 
-[changelog]: https://github.com/hassio-addons/addon-home-panel/compare/v1.0.2...v1.0.3
-[gitlabci-shield]: https://gitlab.com/hassio-addons/addon-home-panel/badges/v1.0.3/pipeline.svg
+[changelog]: https://github.com/hassio-addons/addon-home-panel/compare/v1.0.3...v1.0.4
+[gitlabci-shield]: https://gitlab.com/hassio-addons/addon-home-panel/badges/v1.0.4/pipeline.svg
 [gitlabci]: https://gitlab.com/hassio-addons/addon-home-panel/pipelines
