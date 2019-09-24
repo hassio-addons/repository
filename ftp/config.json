@@ -1,6 +1,6 @@
 {
   "name": "FTP",
-  "version": "3.0.3",
+  "version": "3.1.0",
   "slug": "ftp",
   "description": "A secure and fast FTP server for Hass.io",
   "url": "https://github.com/hassio-addons/addon-ftp",
@@ -73,7 +73,7 @@
     "max_clients": "int",
     "users": [
       {
-        "username": "match(^!secret [a-zA-Z0-9_\\-]+$|^[a-zA-Z0-9\\d](?:[a-zA-Z0-9\\d]|-(?=[a-zA-Z0-9\\d])){0,32}$)",
+        "username": "match(^[a-zA-Z0-9\\d](?:[a-zA-Z0-9\\d]|-(?=[a-zA-Z0-9\\d])){0,32}$)",
         "password": "str",
         "allow_chmod": "bool",
         "allow_download": "bool",
