@@ -4,10 +4,8 @@ This is a maintenance release.
 
 ### Changed
 
-- :arrow_up: Upgrades nginx to 1.16.1-r0
-- :hammer: Updates HA Auth URL in NGinx LUA script
-- :arrow_up: Upgrades add-on base image to v4.1.1
-- :ambulance: Fixes path handling for SSL certificates
-- :hammer: Use Hass.io DNS as NGinx resolver
+- :arrow_up: Upgrades add-on base image to v5.0.1
+- :arrow_up: Upgrades nodejs to 10.16.3-r0
+- :arrow_up: Upgrades npm to 10.16.3-r0
 
-[changelog]: https://github.com/hassio-addons/addon-log-viewer/compare/v0.6.2...v0.6.3
+[changelog]: https://github.com/hassio-addons/addon-log-viewer/compare/v0.6.3...v0.6.4
