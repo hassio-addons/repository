@@ -1,6 +1,6 @@
 {
   "name": "Bitwarden RS",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "slug": "bitwarden",
   "description": "Open source password management solution",
   "url": "https://github.com/hassio-addons/addon-bitwarden",
@@ -21,7 +21,6 @@
     "7277/tcp": "Bitwarden Vault"
   },
   "map": [
-    "config",
     "ssl"
   ],
   "options": {
