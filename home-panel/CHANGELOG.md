@@ -1,13 +1,13 @@
 [![GitLab CI][gitlabci-shield]][gitlabci]
 
-**See upstream release: <https://github.com/timmo001/home-panel/releases/tag/v2.2.1>**
+**See: <https://github.com/timmo001/home-panel/releases/tag/v2.3.0>**
 
 ## Changes
 
-- 5e4e2e9 :arrow_up: Update Home Panel to v2.2.1 
+- bcca786 :arrow_up: Update Home Panel to v2.3.0 
 
 [Full Changelog][changelog]
 
-[changelog]: https://github.com/hassio-addons/addon-home-panel/compare/v1.2.0...v1.2.1
-[gitlabci-shield]: https://gitlab.com/hassio-addons/addon-home-panel/badges/v1.2.1/pipeline.svg
+[changelog]: https://github.com/hassio-addons/addon-home-panel/compare/v1.2.1...v1.3.0
+[gitlabci-shield]: https://gitlab.com/hassio-addons/addon-home-panel/badges/v1.3.0/pipeline.svg
 [gitlabci]: https://gitlab.com/hassio-addons/addon-home-panel/pipelines
