@@ -30,13 +30,13 @@ Some of its features:
 [buymeacoffee]: https://www.buymeacoffee.com/frenck
 [discord-shield]: https://img.shields.io/discord/478094546522079232.svg
 [discord]: https://discord.me/hassioaddons
-[docs]: https://github.com/hassio-addons/addon-tasmoadmin/blob/v0.8.2/README.md
+[docs]: https://github.com/hassio-addons/addon-tasmoadmin/blob/v0.8.3/README.md
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
 [forum]: https://community.home-assistant.io/t/community-hass-io-add-on-tasmoadmin/54155?u=frenck
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2019.svg
 [patreon-shield]: https://www.frenck.nl/images/patreon.png
 [patreon]: https://www.patreon.com/frenck
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
-[release-shield]: https://img.shields.io/badge/version-v0.8.2-blue.svg
-[release]: https://github.com/hassio-addons/addon-tasmoadmin/tree/v0.8.2
+[release-shield]: https://img.shields.io/badge/version-v0.8.3-blue.svg
+[release]: https://github.com/hassio-addons/addon-tasmoadmin/tree/v0.8.3
 [screenshot]: https://github.com/hassio-addons/addon-tasmoadmin/raw/master/images/screenshot.png
