@@ -1,6 +1,6 @@
 {
   "name": "InfluxDB",
-  "version": "3.3.0",
+  "version": "3.4.0",
   "slug": "influxdb",
   "description": "Scalable datastore for metrics, events, and real-time analytics",
   "url": "https://github.com/hassio-addons/addon-influxdb",
@@ -38,7 +38,8 @@
     "reporting": true,
     "ssl": true,
     "certfile": "fullchain.pem",
-    "keyfile": "privkey.pem"
+    "keyfile": "privkey.pem",
+    "envvars": []
   },
   "schema": {
     "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)?",
@@ -47,6 +48,12 @@
     "ssl": "bool",
     "certfile": "str",
     "keyfile": "str",
+    "envvars": [
+      {
+        "name": "match(^INFLUXDB_([A-Z0-9_])+$))",
+        "value": "str"
+      }
+    ],
     "leave_front_door_open": "bool?"
   },
   "image": "hassioaddons/influxdb-{arch}"
