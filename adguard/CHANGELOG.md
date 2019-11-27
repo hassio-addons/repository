@@ -1,22 +1,14 @@
 [Full Changelog][changelog]
 
-⚠️ **If you see `This add-on is not available on your system.`; please continue reading...**
-
-This is a release ships AdGuard Home v0.99.2
-
-<https://github.com/AdguardTeam/AdGuardHome/releases/tag/v0.99.2>
-
-There are some caveats with this release:
-
-- The add-on **requires** Home Assistant **>= 0.101.0b0** (0.101.0 beta or newer). **You won't be able to update or install this version if you don't meet this requirement.**
-  In that case, you will get a `This add-on is not available on your system.` message.
-- Home Assistant >= 0.100.0b0 requires at least AdGuard Home v0.99.0 (this release) for the integration to work.
+This is a general maintenance release.
 
 ### 🔨 Changes
 
-- :arrow_up: Upgrades AdGuard Home to v0.99.2
+- :arrow_up: Upgrades nginx to 1.16.1-r1
+- :arrow_up: Upgrades AdGuard to v0.99.3
+- :arrow_up: Upgrades add-on base image to v5.0.2
 
-[changelog]: https://github.com/hassio-addons/addon-adguard-home/compare/v2.2.2...v2.2.3
+[changelog]: https://github.com/hassio-addons/addon-adguard-home/compare/v2.2.3...v2.2.4
 
 Questions? Join our Discord server! https://discord.me/hassioaddons
 Enjoying my add-ons? Consider supporting my work: https://patreon.com/frenck
