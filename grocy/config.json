@@ -1,6 +1,6 @@
 {
   "name": "Grocy",
-  "version": "0.3.2",
+  "version": "0.4.0",
   "slug": "grocy",
   "description": "ERP beyond your fridge! A groceries & household management solution for your home",
   "url": "https://github.com/hassio-addons/addon-grocy",
@@ -31,6 +31,7 @@
   "options": {
     "culture": "en",
     "currency": "USD",
+    "entry_page": "stock",
     "features": {
       "batteries": true,
       "calendar": true,
@@ -41,6 +42,14 @@
       "stock": true,
       "tasks": true
     },
+    "tweaks": {
+      "chores_assignment": true,
+      "multiple_shopping_lists": true,
+      "stock_best_before_date_tracking": true,
+      "stock_location_tracking": true,
+      "stock_price_tracking": true,
+      "stock_product_opened_tracking": true
+    },
     "ssl": true,
     "certfile": "fullchain.pem",
     "keyfile": "privkey.pem"
@@ -49,6 +58,7 @@
     "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)?",
     "culture": "match(^(da|de|en|en_GB|es|fr|it|nl|no|pl|ru|sv_SE|ta|tr)$)",
     "currency": "match(^[A-Z]{3}$)",
+    "entry_page": "match(^(stock|shoppinglist|recipes|chores|tasks|batteries|equipment|calendar|mealplan)$)",
     "features": {
       "batteries": "bool",
       "calendar": "bool",
@@ -58,6 +68,14 @@
       "shoppinglist": "bool",
       "stock": "bool",
       "tasks": "bool"
+    },
+    "tweaks": {
+      "chores_assignment": "bool",
+      "multiple_shopping_lists": "bool",
+      "stock_best_before_date_tracking": "bool",
+      "stock_location_tracking": "bool",
+      "stock_price_tracking": "bool",
+      "stock_product_opened_tracking": "bool"
     },
     "ssl": "bool",
     "certfile": "str",
