@@ -22,12 +22,12 @@ used to get full local control over your Android (TV) devices.
 [buymeacoffee]: https://www.buymeacoffee.com/frenck
 [discord-shield]: https://img.shields.io/discord/478094546522079232.svg
 [discord]: https://discord.me/hassioaddons
-[docs]: https://github.com/hassio-addons/addon-adb/blob/v0.5.3/README.md
+[docs]: https://github.com/hassio-addons/addon-adb/blob/v0.5.4/README.md
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
 [forum]: https://community.home-assistant.io/t/community-hass-io-add-on-adb-android-debug-bridge/96375?u=frenck
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2019.svg
 [patreon-shield]: https://www.frenck.nl/images/patreon.png
 [patreon]: https://www.patreon.com/frenck
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
-[release-shield]: https://img.shields.io/badge/version-v0.5.3-blue.svg
-[release]: https://github.com/hassio-addons/addon-adb/tree/v0.5.3
+[release-shield]: https://img.shields.io/badge/version-v0.5.4-blue.svg
+[release]: https://github.com/hassio-addons/addon-adb/tree/v0.5.4
