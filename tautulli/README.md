@@ -27,11 +27,11 @@ graphs, which makes it easy to brag about your server to everyone else.
 [buymeacoffee]: https://www.buymeacoffee.com/ludeeus
 [discord-shield]: https://img.shields.io/discord/330944238910963714.svg
 [discord]: https://discord.gg/c5DvZ4e
-[docs]: https://github.com/hassio-addons/addon-tautulli/blob/v1.2.1/README.md
+[docs]: https://github.com/hassio-addons/addon-tautulli/blob/v1.3.0/README.md
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
 [forum]: https://community.home-assistant.io/t/community-hass-io-add-on-tautulli/68745?u=ludeeus
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2019.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[release-shield]: https://img.shields.io/badge/version-v1.2.1-blue.svg
-[release]: https://github.com/hassio-addons/addon-tautulli/tree/v1.2.1
+[release-shield]: https://img.shields.io/badge/version-v1.3.0-blue.svg
+[release]: https://github.com/hassio-addons/addon-tautulli/tree/v1.3.0
 [screenshot]: https://github.com/hassio-addons/addon-tautulli/raw/master/images/screenshot.png
