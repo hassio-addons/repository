@@ -13,7 +13,7 @@ This is a general maintenance release.
 - :arrow_up: Upgrades nmap to 7.70-r4
 - :arrow_up: Upgrades bind-tools to 9.14.8-r0
 
-[changelog]: https://github.com/hassio-addons/addon-ssh/compare/v6.4.0...v6.4.1
+[changelog]: https://github.com/hassio-addons/addon-ssh/compare/v6.4.1...v6.4.2
 
 Questions? Join our Discord server! https://discord.me/hassioaddons
 Enjoying my add-ons? Consider supporting my work: https://patreon.com/frenck
