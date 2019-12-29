@@ -1,10 +1,9 @@
 {
   "name": "SSH & Web Terminal",
-  "version": "6.4.3",
+  "version": "7.0.0",
   "slug": "ssh",
   "description": "SSH & Web Terminal access to your Home Assistant instance",
   "url": "https://github.com/hassio-addons/addon-ssh",
-  "webui": "https://[HOST]:[PORT:80]",
   "startup": "services",
   "ingress": true,
   "ingress_port": 0,
@@ -19,17 +18,14 @@
     "i386"
   ],
   "ports": {
-    "22/tcp": 22,
-    "80/tcp": null
+    "22/tcp": 22
   },
   "ports_description": {
-    "22/tcp": "SSH server port (make empty to disable)",
-    "80/tcp": "Web Terminal (Not required for Hass.io Ingress)"
+    "22/tcp": "SSH server port (make empty to disable)"
   },
   "boot": "auto",
   "hassio_api": true,
   "hassio_role": "manager",
-  "auth_api": true,
   "homeassistant_api": true,
   "host_network": true,
   "auto_uart": true,
@@ -68,12 +64,8 @@
       "allow_remote_port_forwarding": false,
       "allow_tcp_forwarding": false
     },
-    "web": {
-      "ssl": true,
-      "certfile": "fullchain.pem",
-      "keyfile": "privkey.pem"
-    },
-    "share_sessions": true,
+    "zsh": true,
+    "share_sessions": false,
     "packages": [],
     "init_commands": []
   },
@@ -91,11 +83,7 @@
       "allow_remote_port_forwarding": "bool",
       "allow_tcp_forwarding": "bool"
     },
-    "web": {
-      "ssl": "bool",
-      "certfile": "str",
-      "keyfile": "str"
-    },
+    "zsh": "bool",
     "share_sessions": "bool",
     "packages": [
       "str"
@@ -103,8 +91,7 @@
     "init_commands": [
       "str"
     ],
-    "i_like_to_be_pwned": "bool?",
-    "leave_front_door_open": "bool?"
+    "i_like_to_be_pwned": "bool?"
   },
   "image": "hassioaddons/ssh-{arch}"
 }

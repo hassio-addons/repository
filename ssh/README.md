@@ -4,9 +4,9 @@
 
 [![Discord][discord-shield]][discord] [![Community Forum][forum-shield]][forum]
 
-[![Buy me a coffee][buymeacoffee-shield]][buymeacoffee]
+[![Sponsor Frenck via GitHub Sponsors][github-sponsors-shield]][github-sponsors]
 
-[![Support my work on Patreon][patreon-shield]][patreon]
+[![Support Frenck on Patreon][patreon-shield]][patreon]
 
 This add-on allows you to log in to your Hass.io Home Assistant instance using
 SSH or by using the Web Terminal.
@@ -74,22 +74,22 @@ well. Additionally, it comes out of the box with the following:
 
 [Click here for the full documentation][docs]
 
-[buymeacoffee-shield]: https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-2.svg
-[buymeacoffee]: https://www.buymeacoffee.com/frenck
 [discord-shield]: https://img.shields.io/discord/478094546522079232.svg
 [discord]: https://discord.me/hassioaddons
-[docs]: https://github.com/hassio-addons/addon-ssh/blob/v6.4.3/README.md
+[docs]: https://github.com/hassio-addons/addon-ssh/blob/v7.0.0/README.md
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
 [forum]: https://community.home-assistant.io/t/community-hass-io-add-on-ssh-web-terminal/33820?u=frenck
+[github-sponsors-shield]: https://frenck.dev/wp-content/uploads/2019/12/github_sponsor.png
+[github-sponsors]: https://github.com/sponsors/frenck
 [hass-ssh]: https://home-assistant.io/addons/ssh/
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2019.svg
 [ohmyzsh]: http://ohmyz.sh/
 [openssh]: https://www.openssh.com/
-[patreon-shield]: https://www.frenck.nl/images/patreon.png
+[patreon-shield]: https://frenck.dev/wp-content/uploads/2019/12/patreon.png
 [patreon]: https://www.patreon.com/frenck
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[release-shield]: https://img.shields.io/badge/version-v6.4.3-blue.svg
-[release]: https://github.com/hassio-addons/addon-ssh/tree/v6.4.3
+[release-shield]: https://img.shields.io/badge/version-v7.0.0-blue.svg
+[release]: https://github.com/hassio-addons/addon-ssh/tree/v7.0.0
 [screenshot]: https://github.com/hassio-addons/addon-ssh/raw/master/images/screenshot.png
 [ssh-audit-image]: https://github.com/hassio-addons/addon-ssh/raw/master/images/ssh-audit.png
 [ssh-audit]: https://github.com/arthepsy/ssh-audit
