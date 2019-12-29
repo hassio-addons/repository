@@ -1,9 +1,10 @@
-Minor maintenance release updating base image.
+Maintenance release
 
 ## Changes
 
-- ⬆Update base to 5.0.2
+- ⬆Update chrony to v3.5-r1
+- ⬆Update add-on base image to v6.0.1
 
 [Full Changelog][changelog]
 
-[changelog]: https://github.com/hassio-addons/addon-chrony/compare/v1.0.4...v1.0.5
+[changelog]: https://github.com/hassio-addons/addon-chrony/compare/v1.0.5...v1.0.6
