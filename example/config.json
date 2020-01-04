@@ -1,6 +1,6 @@
 {
   "name": "Example",
-  "version": "3.1.0",
+  "version": "3.2.0",
   "slug": "example",
   "description": "Example add-on by Community Hass.io Add-ons",
   "url": "https://github.com/hassio-addons/addon-example",
