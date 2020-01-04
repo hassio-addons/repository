@@ -1,6 +1,6 @@
 {
   "name": "Bitwarden RS",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "slug": "bitwarden",
   "description": "Open source password management solution",
   "url": "https://github.com/hassio-addons/addon-bitwarden",
@@ -15,12 +15,10 @@
   "hassio_api": true,
   "hassio_role": "default",
   "ports": {
-    "7277/tcp": 7277,
-    "3012/tcp": 3012
+    "7277/tcp": 7277
   },
   "ports_description": {
-    "7277/tcp": "Bitwarden Vault",
-    "3012/tcp": "Bitwarden WebSocket notifications"
+    "7277/tcp": "Bitwarden Vault"
   },
   "map": [
     "ssl"
