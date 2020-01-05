@@ -42,10 +42,10 @@ labels:
     description: "New features or options."
   - name: "Type: Support"
     color: 5319e7
-    description: "Marks an issue as an support ticket."
+    description: "Marks an issue as a support ticket."
   - name: "Type: Discussion"
     color: d4c5f9
-    description: "Marks an issue as an generic discussion ticket."
+    description: "Marks an issue as a generic discussion ticket."
   - name: "Type: Maintaince"
     color: 2af79e
     description: "Generic maintaince tasks, e.g., package updates."
@@ -53,13 +53,13 @@ labels:
   # Additional markers
   - name: "Security"
     color: ee0701
-    description: "Marks an security issues that needs to be resolved asap."
+    description: "Marks a security issue that needs to be resolved asap."
   - name: "Idea"
     color: fef2c0
     description: "Marks an idea, which might be excepted and implemented."
   - name: "Incomplete"
     color: fef2c0
-    description: "Marks an PR or issue that is missing information."
+    description: "Marks a PR or issue that is missing information."
   - name: "Pull request"
     color: fbca04
     description: "There is an PR opened for this issue."

@@ -34,14 +34,14 @@ requestInfoUserstoExclude: []
 newIssueWelcomeComment: >
   :wave: Thanks for opening your first issue here!
   If you're reporting a :bug: bug, please make sure you include steps to reproduce it.
-  Also, logs, error messages and information about your hardware might be usefull.
+  Also, logs, error messages and information about your hardware might be useful.
 
 # Configuration for new-pr-welcome - https://github.com/behaviorbot/new-pr-welcome
 
 # Comment to be posted to on PRs from first time contributors in your repository
 newPRWelcomeComment: >
-   :sparkling_heart: Thanks for opening this pull request! :sparkling_heart:
-   If your PR gets accepted and merged in, we will invite you to the project :tada:
+  :sparkling_heart: Thanks for opening this pull request! :sparkling_heart:
+  If your PR gets accepted and merged in, we will invite you to the project :tada:
 
 # Configuration for first-pr-merge - https://github.com/behaviorbot/first-pr-merge
 
