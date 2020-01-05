@@ -1,6 +1,6 @@
 {
   "name": "AppDaemon",
-  "version": "4.1.0",
+  "version": "5.0.0",
   "slug": "appdaemon3",
   "description": "Python Apps and HADashboard using AppDaemon 3.x for Home Assistant",
   "url": "https://github.com/hassio-addons/addon-appdaemon3",
@@ -33,7 +33,8 @@
   "options": {
     "disable_auto_token": false,
     "system_packages": [],
-    "python_packages": []
+    "python_packages": [],
+    "init_commands": []
   },
   "schema": {
     "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)?",
@@ -42,6 +43,9 @@
       "str"
     ],
     "python_packages": [
+      "str"
+    ],
+    "init_commands": [
       "str"
     ]
   },
