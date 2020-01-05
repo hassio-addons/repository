@@ -1,12 +1,12 @@
 {
   "name": "Grafana",
-  "version": "3.0.2",
+  "version": "4.0.0",
   "slug": "grafana",
   "description": "The open platform for beautiful analytics and monitoring",
   "url": "https://github.com/hassio-addons/addon-grafana",
   "startup": "services",
   "ingress": true,
-  "ingress_port": 80,
+  "ingress_port": 1337,
   "panel_icon": "mdi:chart-timeline",
   "panel_title": "Grafana",
   "arch": [
@@ -17,15 +17,31 @@
   "boot": "auto",
   "hassio_api": true,
   "hassio_role": "default",
+  "map": [
+    "ssl"
+  ],
   "options": {
     "plugins": [],
-    "env_vars": []
+    "env_vars": [],
+    "ssl": true,
+    "certfile": "fullchain.pem",
+    "keyfile": "privkey.pem"
+  },
+  "ports": {
+    "80/tcp": null
+  },
+  "ports_description": {
+    "80/tcp": "Not required for Ingress"
   },
   "schema": {
     "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)?",
     "plugins": [
       "str"
     ],
+    "certfile": "str",
+    "keyfile": "str",
+    "ssl": "bool",
+    "grafana_ingress_user": "str?",
     "env_vars": [
       {
         "name": "match(^GF_([A-Z0-9_])+$)",
