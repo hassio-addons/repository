@@ -1,15 +1,12 @@
 [Full Changelog][changelog]
 
-This is a general maintenance release.
+This is a small bugfix/improvement release.
 
 ### :hammer: Changes
 
-- :fireworks: Updates maintenance/license year to 2020
-- :arrow_up: Upgrades add-on base image to v4.0.3
-- :pencil2: Funding adjustments
-- :pencil2: Fixes some spelling and grammar
+- 🔨 Change adb-connect to wait on port (#20)
 
-[changelog]: https://github.com/hassio-addons/addon-adb/compare/v0.5.4...v0.5.5
+[changelog]: https://github.com/hassio-addons/addon-adb/compare/v0.5.5...v0.5.6
 
 Questions? Join our Discord server! https://discord.me/hassioaddons
 Enjoying my add-ons? Consider supporting my work:
