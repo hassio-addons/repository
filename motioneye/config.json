@@ -36,6 +36,7 @@
     "share:rw",
     "ssl"
   ],
+  "devices": ["/dev/video0:/dev/video0:rwm"],
   "options": {
     "motion_webcontrol": false,
     "ssl": true,
