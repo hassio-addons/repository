@@ -4,10 +4,9 @@ This is a general maintenance release.
 
 ### 🔨  Changes
 
-- :arrow_up: Upgrades nginx to 1.14.0-0ubuntu1.7
-- :arrow_up: Upgrades Grafana to v6.5.3
+- :arrow_up: Upgrades Grafana to v6.6.0
 
-[changelog]: https://github.com/hassio-addons/addon-grafana/compare/v4.0.0...v4.0.1
+[changelog]: https://github.com/hassio-addons/addon-grafana/compare/v4.0.1...v4.1.0
 
 Questions? Join our Discord server! https://discord.me/hassioaddons
 Enjoying my add-ons? Consider supporting my work:
