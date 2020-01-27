@@ -1,17 +1,19 @@
 [Full Changelog][changelog]
 
-### Changes
+This is a general maintenance release.
 
-- :ambulance: Fixes client definitions for stealth mode (#13)
-- :ambulance: Fixes client names when in stealth mode
-- :ambulance: Sets missing HiddenServicesVersion
-- :ambulance: Fixes incorrect torrc configuration
-- :pencil2: Maintaince -> Maintenance
-- :arrow_up: Upgrades add-on base image to v4.1.1
-- :arrow_up: Upgrades tor to 0.3.5.8-r0
-- :books: fixed client_names (#14)
+### 🔨  Changes
 
-[changelog]: https://github.com/hassio-addons/addon-tor/compare/v2.0.0...v2.1.0
+- :books: Update add-on installation instructions
+- :fireworks: Updates maintenance/license year to 2020
+- :pencil2: Funding adjustments
+- :pencil2: Fixes some spelling and grammar
+- :arrow_up: Upgrades add-on base image to v6.0.1
+- :arrow_up: Upgrades tor to 0.4.1.7-r0
+- :ambulance: Fix hostname detection
+
+[changelog]: https://github.com/hassio-addons/addon-tor/compare/v2.1.0...v2.2.0
 
 Questions? Join our Discord server! https://discord.me/hassioaddons
-Enjoying my add-ons? Consider supporting my work: https://patreon.com/frenck
+Enjoying my add-ons? Consider supporting my work:
+https://github.com/sponsors/frenck or https://patreon.com/frenck
