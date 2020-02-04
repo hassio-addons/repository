@@ -1,6 +1,6 @@
 {
   "name": "chrony",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "slug": "chrony",
   "description": "A local NTP (Network Time Protocol) server for cameras etc.",
   "url": "https://github.com/hassio-addons/addon-chrony",
@@ -34,13 +34,13 @@
     ]
   },
   "schema": {
-    "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)?",
+    "log_level": "list(trace|debug|info|notice|warning|error|fatal)?",
     "set_system_clock": "bool",
     "ntp_pool": "str?",
     "ntp_server": [
       "str?"
     ],
-    "mode": "match(^(pool|server)$)"
+    "mode": "list(pool|server)"
   },
   "image": "hassioaddons/chrony-{arch}"
 }
