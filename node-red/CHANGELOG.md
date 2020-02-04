@@ -4,13 +4,10 @@ This is a general maintenance release.
 
 ### 🔨  Changes
 
-- :arrow_up: Updates node-red-contrib-theme-midnight-red to v1.0.26 (#426)
-- :arrow_up: Updates node-red-contrib-home-assistant-websocket to v0.19.5 (#429)
-- [Snyk] Fix for 1 vulnerabilities (#428)
-- :arrow_up: Updates snyk to v1.281.0 (#427)
-- :arrow_up: Upgrades nginx to 1.16.1-r6
+- :arrow_up: Updates node-red-node-email to v1.7.6 (#435)
+- :ambulance: node-red/package.json to reduce vulnerabilities (#436)
 
-[changelog]: https://github.com/hassio-addons/addon-node-red/compare/v6.0.2...v6.0.3
+[changelog]: https://github.com/hassio-addons/addon-node-red/compare/v6.0.3...v6.0.4
 
 Questions? Join our Discord server! https://discord.me/hassioaddons
 Enjoying my add-ons? Consider supporting my work:
