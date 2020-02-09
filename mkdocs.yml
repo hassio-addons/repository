@@ -1,28 +1,28 @@
 ---
 # Project information
-site_name: 'Community Hass.io Add-ons for Home Assistant'
-site_url: 'https://addons.community'
-site_description: 'The primary goal of this project is to provide you (as a Hass.io / Home Assistant user) with additional, high quality, add-ons that allow you to take your automated home to the next level.'
-site_author: 'Franck Nijhof'
-copyright: 'Copyright 2017-2020 - Franck Nijhof.'
+site_name: "Community Home Assistant Add-ons"
+site_url: "https://addons.community"
+site_description: "The primary goal of this project is to provide you (as a Home Assistant user) with additional, high quality, add-ons that allow you to take your automated home to the next level."
+site_author: "Franck Nijhof"
+copyright: "Copyright 2017-2020 - Franck Nijhof."
 
 # Repository
-repo_name: 'hassio-addons'
-repo_url: 'https://github.com/hassio-addons/repository'
-edit_uri: ''
+repo_name: "hassio-addons"
+repo_url: "https://github.com/hassio-addons/repository"
+edit_uri: ""
 
 # Theme configuration
 theme:
-  name: 'material'
-  logo: 'https://avatars3.githubusercontent.com/u/30772201?s=200&v=4'
-  icon: 'https://avatars3.githubusercontent.com/u/30772201?s=200&v=4'
-  language: 'en'
+  name: "material"
+  logo: "https://avatars3.githubusercontent.com/u/30772201?s=200&v=4"
+  icon: "https://avatars3.githubusercontent.com/u/30772201?s=200&v=4"
+  language: "en"
   palette:
-    primary: 'light-blue'
-    accent: 'blue'
+    primary: "light-blue"
+    accent: "blue"
   font:
-    text: 'Exo2'
-    code: 'Roboto Mono'
+    text: "Exo2"
+    code: "Roboto Mono"
   feature:
     tabs: false
 extra_css:
@@ -30,16 +30,16 @@ extra_css:
 
 # Customization
 extra:
-  manifest: 'manifest.webmanifest'
+  manifest: "manifest.webmanifest"
   social:
-    - type: 'github'
-      link: 'https://github.com/hassio-addons'
-    - type: 'twitter'
-      link: 'https://twitter.com/hassio-addons'
-    - type: 'twitch'
-      link: 'https://twitch.tv/frenck'
-    - type: 'youtube'
-      link: 'https://youtube.com/frenck'
+    - type: "github"
+      link: "https://github.com/hassio-addons"
+    - type: "twitter"
+      link: "https://twitter.com/hassio-addons"
+    - type: "twitch"
+      link: "https://twitch.tv/frenck"
+    - type: "youtube"
+      link: "https://youtube.com/frenck"
 
 # Extensions
 markdown_extensions:
@@ -64,6 +64,7 @@ markdown_extensions:
 # The pages to serve
 pages:
   - "Our Add-ons": "index.md"
+  - "Beta Add-ons": "beta.md"
   - "Edge Add-ons": "edge.md"
   - "Contributing": "contributing.md"
   - "Code of Conduct": "code-of-conduct.md"

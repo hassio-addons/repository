@@ -1,8 +1,8 @@
 ---
 repository:
-  description: "Community Hass.io Add-ons for Home Assistant"
+  description: "Community Home Assistant Add-ons"
   homepage: https://addons.community
-  topics: stable, hassio-addons, home-assistant, hassio, addons, hassio-repository, repository
+  topics: stable, home-assistant, homeassistant, addons, addons-repository, repository
   private: false
   has_issues: true
   has_projects: false
