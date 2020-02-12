@@ -1,6 +1,6 @@
 ---
 repository:
-  description: "Community Home Assistant Add-ons"
+  description: "Home Assistant Community Add-ons"
   homepage: https://addons.community
   topics: stable, home-assistant, homeassistant, addons, addons-repository, repository
   private: false
