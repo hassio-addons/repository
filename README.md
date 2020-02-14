@@ -1,4 +1,4 @@
-# Community Hass.io Add-ons for Home Assistant
+# Home Assistant Community Add-ons
 
 ![Project Stage][project-stage-shield]
 ![Maintenance][maintenance-shield]
@@ -12,19 +12,25 @@
 
 ## About
 
-Hass.io allows anyone to create add-on repositories to share their add-ons for
-Hass.io easily. This repository is one of those repositories, providing extra
-Home Assistant add-ons for your Hass.io installation.
+Home Assistant allows anyone to create add-on repositories to share their
+add-ons for Home Assistant easily. This repository is one of those repositories,
+providing extra Home Assistant add-ons for your installation.
 
-The primary goal of this project is to provide you (as a Hass.io /
-Home Assistant user) with additional, high quality, add-ons that allow you to
-take your automated home to the next level.
+The primary goal of this project is to provide you (as a Home Assistant user)
+with additional, high quality, add-ons that allow you to take your automated
+home to the next level.
 
 ## Installation
 
-Adding this add-ons repository to your Hass.io Home Assistant instance is
-pretty easy. Follow [the official instructions][third-party-addons] on the
-website of Home Assistant, and use the following URL:
+In general, there is no need to install this repository on your
+Home Assistant instance. It is activated and added by Home Assistant
+by default.
+
+However, if the repository is missing on your setup, adding this add-ons
+repository to your Home Assistant instance is pretty easy. In the
+Home Assistant add-on store, a possibility to add a repository is provided.
+
+Use the following URL to add this repository:
 
 ```txt
 https://github.com/hassio-addons/repository
@@ -636,7 +642,7 @@ Got questions?
 
 You have several options to get them answered:
 
-- The Community Hass.io Add-ons [Discord Chat Server][discord]
+- The Home Assistant Community Add-ons [Discord Chat Server][discord]
 - The Home Assistant [Community Forum][forum].
 - The Home Assistant [Discord Chat Server][discord-ha].
 - Join the [Reddit subreddit][reddit] in [/r/homeassistant][reddit]
@@ -702,15 +708,13 @@ Thank you for being involved! :heart_eyes:
 
 ## Adding a new add-on
 
-Have you created an add-on that you want to list in the Community Repository?
-Contact [Franck Nijhof][frenck]:
+We are currently not accepting third party add-ons to this repository.
+
+For questions, please contact [Franck Nijhof][frenck]:
 
 - Drop him an email: frenck@addons.community
 - Chat with him on [Discord Chat][discord]
 - Message him via the forums: [frenck][forum-frenck]
-
-He will set up a GitHub repository and all the other plumbing,
-and of course, give you developer access to your contribution.
 
 ## License
 
@@ -1173,4 +1177,3 @@ SOFTWARE.
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
 [reddit]: https://reddit.com/r/homeassistant
 [semver]: http://semver.org/spec/v2.0.0.html
-[third-party-addons]: https://home-assistant.io/hassio/installing_third_party_addons/
