@@ -1,6 +1,6 @@
 {
   "name": "SSH & Web Terminal",
-  "version": "7.0.1",
+  "version": "7.1.0",
   "slug": "ssh",
   "description": "SSH & Web Terminal access to your Home Assistant instance",
   "url": "https://github.com/hassio-addons/addon-ssh",
@@ -26,6 +26,10 @@
   "boot": "auto",
   "hassio_api": true,
   "hassio_role": "manager",
+  "services": [
+    "mysql:want",
+    "mqtt:want"
+  ],
   "homeassistant_api": true,
   "host_network": true,
   "auto_uart": true,
@@ -70,10 +74,10 @@
     "init_commands": []
   },
   "schema": {
-    "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)?",
+    "log_level": "list(trace|debug|info|notice|warning|error|fatal)?",
     "ssh": {
       "username": "str",
-      "password": "str",
+      "password": "password",
       "authorized_keys": [
         "str"
       ],

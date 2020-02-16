@@ -1,4 +1,4 @@
-# Community Hass.io Add-ons: SSH & Web Terminal
+# Home Assistant Community Add-on: SSH & Web Terminal
 
 [![Release][release-shield]][release] ![Project Stage][project-stage-shield] ![Project Maintenance][maintenance-shield]
 
@@ -8,13 +8,13 @@
 
 [![Support Frenck on Patreon][patreon-shield]][patreon]
 
-This add-on allows you to log in to your Hass.io Home Assistant instance using
+This add-on allows you to log in to your Home Assistant instance using
 SSH or by using the Web Terminal.
 
 ## About
 
-This add-on allows you to log in to your Hass.io Home Assistant instance using
-SSH or a Web Terminal, giving you to access your Hass.io folders and
+This add-on allows you to log in to your Home Assistant instance using
+SSH or a Web Terminal, giving you to access your folders and
 also includes a command-line tool to do things like restart, update,
 and check your instance.
 
@@ -52,14 +52,14 @@ well. Additionally, it comes out of the box with the following:
 - Comes with an SSH compatibility mode option to allow older clients to connect.
 - Support for Mosh allowing roaming and supports intermittent connectivity.
 - SFTP support is disabled by default but is user configurable.
-- Compatible if Hass.io was installed via the generic Linux installer.
+- Compatible if Home Assistant was installed via the generic Linux installer.
 - Username is configurable, so `root` is no longer mandatory.
 - Persists custom SSH client settings & keys between add-on restarts
 - Log levels for allowing you to triage issues easier.
 - Hardware access to your audio, uart/serial devices and GPIO pins.
 - Runs with more privileges, allowing you to debug and test more situations.
 - Has access to the dbus of the host system.
-- Has the option to access the Docker instance running Hass.io host system.
+- Has the option to access the Docker instance running on the host system.
 - Runs on host level network, allowing you to open ports or run little daemons.
 - Have custom Alpine packages installed on start. This allows you to install
   your favorite tools, which will be available every single time you log in.
@@ -76,20 +76,20 @@ well. Additionally, it comes out of the box with the following:
 
 [discord-shield]: https://img.shields.io/discord/478094546522079232.svg
 [discord]: https://discord.me/hassioaddons
-[docs]: https://github.com/hassio-addons/addon-ssh/blob/v7.0.1/README.md
+[docs]: https://github.com/hassio-addons/addon-ssh/blob/v7.1.0/README.md
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
 [forum]: https://community.home-assistant.io/t/community-hass-io-add-on-ssh-web-terminal/33820?u=frenck
 [github-sponsors-shield]: https://frenck.dev/wp-content/uploads/2019/12/github_sponsor.png
 [github-sponsors]: https://github.com/sponsors/frenck
 [hass-ssh]: https://home-assistant.io/addons/ssh/
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2019.svg
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2020.svg
 [ohmyzsh]: http://ohmyz.sh/
 [openssh]: https://www.openssh.com/
 [patreon-shield]: https://frenck.dev/wp-content/uploads/2019/12/patreon.png
 [patreon]: https://www.patreon.com/frenck
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[release-shield]: https://img.shields.io/badge/version-v7.0.1-blue.svg
-[release]: https://github.com/hassio-addons/addon-ssh/tree/v7.0.1
+[release-shield]: https://img.shields.io/badge/version-v7.1.0-blue.svg
+[release]: https://github.com/hassio-addons/addon-ssh/tree/v7.1.0
 [screenshot]: https://github.com/hassio-addons/addon-ssh/raw/master/images/screenshot.png
 [ssh-audit-image]: https://github.com/hassio-addons/addon-ssh/raw/master/images/ssh-audit.png
 [ssh-audit]: https://github.com/arthepsy/ssh-audit
