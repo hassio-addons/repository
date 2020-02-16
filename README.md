@@ -1120,7 +1120,7 @@ SOFTWARE.
 [vscode-issue]: https://github.com/hassio-addons/addon-vscode/issues
 [vscode-version-shield]: https://img.shields.io/badge/version-v1.2.3-blue.svg
 [vscode-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/vscode-amd64.svg
-[vscode-aarch64-shield]: https://img.shields.io/badge/aarch64-no-red.svg
+[vscode-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [vscode-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [vscode-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [vscode-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
