@@ -1,30 +1,22 @@
 {
   "name": "Visual Studio Code",
-  "version": "1.2.3",
+  "version": "2.0.0",
   "slug": "vscode",
   "description": "Fully featured VSCode experience, to edit your HA config in the browser, including auto-completion!",
   "url": "https://github.com/hassio-addons/addon-vscode",
-  "webui": "[PROTO:ssl]://[HOST]:[PORT:80]",
   "ingress": true,
   "ingress_port": 1337,
   "panel_icon": "mdi:visual-studio-code",
   "startup": "services",
-  "homeassistant": "0.92.0b2",
   "arch": [
+    "aarch64",
     "amd64"
   ],
   "boot": "auto",
+  "auto_uart": true,
   "hassio_api": true,
-  "auth_api": true,
   "hassio_role": "manager",
   "homeassistant_api": true,
-  "auto_uart": true,
-  "ports": {
-    "80/tcp": null
-  },
-  "ports_description": {
-    "80/tcp": "VSCode (Not required for Hass.io Ingress)"
-  },
   "map": [
     "config:rw",
     "ssl:rw",
@@ -32,27 +24,24 @@
     "share:rw",
     "backup:rw"
   ],
+  "services": [
+    "mysql:want",
+    "mqtt:want"
+  ],
   "options": {
-    "ssl": true,
-    "certfile": "fullchain.pem",
-    "keyfile": "privkey.pem",
     "packages": [],
     "init_commands": [],
     "disable_telemetry": false
   },
   "schema": {
-    "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)?",
-    "ssl": "bool",
-    "certfile": "str",
-    "keyfile": "str",
+    "log_level": "list(trace|debug|info|notice|warning|error|fatal)?",
     "packages": [
       "str"
     ],
     "init_commands": [
       "str"
     ],
-    "disable_telemetry": "bool?",
-    "leave_front_door_open": "bool?"
+    "disable_telemetry": "bool?"
   },
   "image": "hassioaddons/vscode-{arch}"
 }
