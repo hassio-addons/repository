@@ -1,6 +1,6 @@
 {
   "name": "AirCast",
-  "version": "2.2.2",
+  "version": "2.3.0",
   "slug": "aircast",
   "description": "AirPlay capabilities for your Chromecast devices.",
   "url": "https://github.com/hassio-addons/addon-aircast",
@@ -25,7 +25,7 @@
     "drift": false
   },
   "schema": {
-    "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)?",
+    "log_level": "list(trace|debug|info|notice|warning|error|fatal)?",
     "address": "str",
     "latency_rtp": "int",
     "latency_http": "int",
