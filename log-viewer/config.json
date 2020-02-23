@@ -1,8 +1,8 @@
 {
   "name": "Log Viewer",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "slug": "logviewer",
-  "description": "Browser-based log utility for Hass.io",
+  "description": "Browser-based log utility for Home Assistant",
   "url": "https://github.com/hassio-addons/addon-log-viewer",
   "webui": "[PROTO:ssl]://[HOST]:[PORT:80]",
   "startup": "application",
@@ -26,7 +26,7 @@
     "80/tcp": null
   },
   "ports_description": {
-    "80/tcp": "Web interface (Not required for Hass.io Ingress)"
+    "80/tcp": "Web interface (Not required for Ingress)"
   },
   "map": [
     "config",
@@ -39,7 +39,7 @@
     "keyfile": "privkey.pem"
   },
   "schema": {
-    "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)?",
+    "log_level": "list(trace|debug|info|notice|warning|error|fatal)?",
     "ssl": "bool",
     "certfile": "str",
     "keyfile": "str",
