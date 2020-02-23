@@ -1,6 +1,6 @@
 {
   "name": "AirSonos",
-  "version": "2.2.2",
+  "version": "2.3.0",
   "slug": "airsonos",
   "description": "AirPlay capabilities for your Sonos (and UPnP) devices.",
   "url": "https://github.com/hassio-addons/addon-airsonos",
@@ -26,7 +26,7 @@
     "drift": false
   },
   "schema": {
-    "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)?",
+    "log_level": "list(trace|debug|info|notice|warning|error|fatal)?",
     "address": "str",
     "port": "port",
     "latency_rtp": "int",
