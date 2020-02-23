@@ -1,6 +1,6 @@
 {
   "name": "Happy Bubbles",
-  "version": "3.0.5",
+  "version": "3.1.0",
   "slug": "happy-bubbles",
   "description": "Presence detection server for Happy Bubbles Bluetooth beacon-based presence detection system.",
   "url": "https://github.com/hassio-addons/addon-happy-bubbles",
@@ -28,7 +28,7 @@
     "80/tcp": null
   },
   "ports_description": {
-    "80/tcp": "Web interface (Not required for Hass.io Ingress)"
+    "80/tcp": "Web interface (Not required for Ingress)"
   },
   "options": {
     "ssl": true,
@@ -41,7 +41,7 @@
     "mqtt_password": ""
   },
   "schema": {
-    "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)?",
+    "log_level": "list(trace|debug|info|notice|warning|error|fatal)?",
     "ssl": "bool",
     "certfile": "str",
     "keyfile": "str",
@@ -49,7 +49,7 @@
     "mqtt_port": "port",
     "mqtt_client_id": "str",
     "mqtt_username": "str",
-    "mqtt_password": "str"
+    "mqtt_password": "password"
   },
   "image": "hassioaddons/happy-bubbles-{arch}"
 }

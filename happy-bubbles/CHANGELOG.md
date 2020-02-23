@@ -4,15 +4,15 @@ This is a general maintenance release.
 
 ### 🔨 Changes
 
-- :fireworks: Updates maintenance/license year to 2020
-- :pencil2: Funding adjustments
-- :pencil2: Fixes some spelling and grammar
-- :arrow_up: Upgrades add-on base image to v6.0.1
-- :arrow_up: Upgrades lua-resty-http to 0.15-r0
-- :arrow_up: Upgrades nginx to 1.16.1-r4
-- :books: Adjust add-on installation instructions
+- :arrow_up: Upgrades nginx to 1.16.1-r6
+- :books: Update add-on documentation to use new YAML configuration format
+- :hammer: Update add-on config with new password & list features
+- :hammer: Re-branding
+- :hammer: Updates for upstream Supervisor changes
+- :arrow_up: Upgrades add-on base image to v7.0.2
+- :hammer: Update community forum links
 
-[changelog]: https://github.com/hassio-addons/addon-happy-bubbles/compare/v3.0.4...v3.0.5
+[changelog]: https://github.com/hassio-addons/addon-happy-bubbles/compare/v3.0.5...v3.1.0
 
 Questions? Join our Discord server! https://discord.me/hassioaddons
 Enjoying my add-ons? Consider supporting my work:
