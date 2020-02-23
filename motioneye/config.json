@@ -1,6 +1,6 @@
 {
   "name": "motionEye",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "slug": "motioneye",
   "description": "Simple, elegant and feature-rich CCTV/NVR for your cameras",
   "url": "https://github.com/hassio-addons/addon-motioneye",
@@ -21,7 +21,7 @@
     "80/tcp": null
   },
   "ports_description": {
-    "80/tcp": "Web interface (Not required for Hass.io Ingress)"
+    "80/tcp": "Web interface (Not required for Ingress)"
   },
   "boot": "auto",
   "hassio_api": true,
@@ -40,14 +40,22 @@
     "motion_webcontrol": false,
     "ssl": true,
     "certfile": "fullchain.pem",
-    "keyfile": "privkey.pem"
+    "keyfile": "privkey.pem",
+    "action_buttons": []
   },
   "schema": {
-    "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)?",
+    "log_level": "list(trace|debug|info|notice|warning|error|fatal)?",
     "motion_webcontrol": "bool",
     "ssl": "bool",
     "certfile": "str",
-    "keyfile": "str"
+    "keyfile": "str",
+    "action_buttons": [
+      {
+        "type": "list(lock|unlock|light_on|light_off|alarm_on|alarm_off|up|right|down|left|zoom_in|zoom_out|preset1|preset2|preset3|preset4|preset5|preset6|preset7|preset8|preset9)?",
+        "camera": "int?",
+        "command": "str?"
+      }
+    ]
   },
   "image": "hassioaddons/motioneye"
 }
