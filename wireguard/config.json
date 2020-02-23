@@ -1,6 +1,6 @@
 {
   "name": "WireGuard",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "slug": "wireguard",
   "description": "Fast, modern, secure VPN tunnel",
   "url": "https://github.com/hassio-addons/addon-wireguard",
@@ -52,7 +52,7 @@
     ]
   },
   "schema": {
-    "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)?",
+    "log_level": "list(trace|debug|info|notice|warning|error|fatal)?",
     "server": {
       "host": "str",
       "interface": "match(^wg([0-9])+$)?",
@@ -62,7 +62,7 @@
       "dns": [
         "str"
       ],
-      "private_key": "str?",
+      "private_key": "password?",
       "public_key": "str?",
       "fwmark": "str?",
       "table": "str?",
