@@ -1,6 +1,6 @@
 {
   "name": "SQLite Web",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "slug": "sqlite-web",
   "description": "Explore your SQLite database",
   "url": "https://github.com/hassio-addons/addon-sqlite-web/tree/master/README.md",
@@ -25,7 +25,7 @@
     "6220/tcp": 6220
   },
   "ports_description": {
-    "80/tcp": "SQLite Web interface (Not required for Hass.io Ingress)",
+    "80/tcp": "SQLite Web interface (Not required for Ingress)",
     "6220/tcp": "Datasette API endpoint"
   },
   "map": [
@@ -41,7 +41,7 @@
     "keyfile": "privkey.pem"
   },
   "schema": {
-    "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)?",
+    "log_level": "list(trace|debug|info|notice|warning|error|fatal)?",
     "database_path": "str",
     "read_only": "bool",
     "datasette": "bool",
