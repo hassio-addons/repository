@@ -286,7 +286,7 @@ Create documents containing live code, equations, visualizations, and explanator
 ![Supports i386 Architecture][log-viewer-i386-shield]
 ![Docker Pulls][log-viewer-pulls-shield]
 
-Browser-based log utility for Hass.io
+Browser-based log utility for Home Assistant
 
 [:books: Log Viewer add-on documentation][addon-doc-log-viewer]
 
