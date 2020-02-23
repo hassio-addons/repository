@@ -1,6 +1,6 @@
 {
   "name": "AdGuard Home",
-  "version": "2.3.1",
+  "version": "2.3.2",
   "slug": "adguard",
   "description": "Network-wide ads & trackers blocking DNS server",
   "url": "https://github.com/hassio-addons/addon-adguard-home",
@@ -23,7 +23,7 @@
   },
   "ports_description": {
     "53/udp": "DNS server port",
-    "80/tcp": "Web interface (Not required for Hass.io Ingress)"
+    "80/tcp": "Web interface (Not required for Ingress)"
   },
   "discovery": [
     "adguard"
@@ -42,7 +42,7 @@
     "keyfile": "privkey.pem"
   },
   "schema": {
-    "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)?",
+    "log_level": "list(trace|debug|info|notice|warning|error|fatal)?",
     "ssl": "bool",
     "certfile": "str",
     "keyfile": "str",
