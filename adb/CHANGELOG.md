@@ -4,9 +4,13 @@ This is a small bugfix/improvement release.
 
 ### :hammer: Changes
 
-- 🔨 Change adb-connect to wait on port (#20)
+- :books: Update add-on documentation to use new YAML configuration format
+- :hammer: Update add-on config with new password & list features
+- :hammer: Re-branding
+- :arrow_up: Upgrades add-on base image to v5.0.1
+- :hammer: Update community forum link
 
-[changelog]: https://github.com/hassio-addons/addon-adb/compare/v0.5.5...v0.5.6
+[changelog]: https://github.com/hassio-addons/addon-adb/compare/v0.5.6...v0.6.0
 
 Questions? Join our Discord server! https://discord.me/hassioaddons
 Enjoying my add-ons? Consider supporting my work:
