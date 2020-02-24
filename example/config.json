@@ -1,6 +1,6 @@
 {
   "name": "Example",
-  "version": "3.2.0",
+  "version": "3.3.0",
   "slug": "example",
   "description": "Example add-on by Community Hass.io Add-ons",
   "url": "https://github.com/hassio-addons/addon-example",
@@ -20,7 +20,7 @@
     "seconds_between_quotes": 5
   },
   "schema": {
-    "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)",
+    "log_level": "list(trace|debug|info|notice|warning|error|fatal)",
     "seconds_between_quotes": "int(1,120)"
   },
   "image": "hassioaddons/example-{arch}"

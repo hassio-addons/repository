@@ -2,15 +2,12 @@
 
 ### :hammer: Changes
 
-- 🚑Fix permissions on shell scripts (#16)
-- :fireworks: Updates maintenance/license year to 2020
-- :books: Adjust add-on installation instructions
-- :pencil2: Fixes some spelling and grammar
-- :pencil2: Funding adjustments
-- :arrow_up: Upgrades add-on base image to v6.0.1
-- :pencil2: Fixes some spelling and grammar
+- :books: Update add-on documentation to use new YAML configuration format
+- :hammer: Re-branding
+- :hammer: Update add-on config with new password & list features
+- :arrow_up: Upgrades add-on base image to v7.0.2
 
-[changelog]: https://github.com/hassio-addons/addon-example/compare/v3.1.0...v3.2.0
+[changelog]: https://github.com/hassio-addons/addon-example/compare/v3.2.0...v3.3.0
 
 Questions? Join our Discord server! https://discord.me/hassioaddons
 Enjoying my add-ons? Consider supporting my work:
