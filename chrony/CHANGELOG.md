@@ -1,17 +1,10 @@
-Minor release mostly updating documentation.
+Minor release, documentation and image updates.
 
-## Changes
-
-- 🔨Align config.json layout
-- 💄Add logo
-- ✏Update license year
-- 💄Add icon
-- 📚Grammar/year changes
-- 📚Readme alignment
-- ✏Update maintenance shield
-- 📚Align readme installation instructions
-- 📚Adjust funding
+- 📚Change example to YAML
+- 🚑 Fix YAML example in documentation
+- 🔨 Re-branding
+- ⬆ Upgrades add-on base image to v7.0.2
 
 [Full Changelog][changelog]
 
-[changelog]: https://github.com/hassio-addons/addon-chrony/compare/v1.0.6...v1.0.7
+[changelog]: https://github.com/hassio-addons/addon-chrony/compare/v1.0.7...v1.0.8
