@@ -160,7 +160,7 @@ Example add-on by Community Hass.io Add-ons
 ![Supports i386 Architecture][ftp-i386-shield]
 ![Docker Pulls][ftp-pulls-shield]
 
-A secure and fast FTP server for Hass.io
+A secure and fast FTP server for Home Assistant
 
 [:books: FTP add-on documentation][addon-doc-ftp]
 
