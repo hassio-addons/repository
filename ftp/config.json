@@ -1,8 +1,8 @@
 {
   "name": "FTP",
-  "version": "3.2.0",
+  "version": "3.3.0",
   "slug": "ftp",
-  "description": "A secure and fast FTP server for Hass.io",
+  "description": "A secure and fast FTP server for Home Assistant",
   "url": "https://github.com/hassio-addons/addon-ftp",
   "startup": "services",
   "arch": [
@@ -58,7 +58,7 @@
     ]
   },
   "schema": {
-    "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)?",
+    "log_level": "list(trace|debug|info|notice|warning|error|fatal)?",
     "port": "port",
     "data_port": "port",
     "banner": "str",
@@ -74,7 +74,7 @@
     "users": [
       {
         "username": "match(^[a-zA-Z0-9\\d](?:[a-zA-Z0-9\\d]|-(?=[a-zA-Z0-9\\d])){0,32}$)",
-        "password": "str",
+        "password": "password",
         "allow_chmod": "bool",
         "allow_download": "bool",
         "allow_upload": "bool",
