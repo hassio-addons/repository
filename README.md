@@ -845,10 +845,10 @@ SOFTWARE.
 [ftp-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [ftp-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [ftp-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
-[addon-glances]: https://github.com/hassio-addons/addon-glances/tree/v0.6.0
-[addon-doc-glances]: https://github.com/hassio-addons/addon-glances/blob/v0.6.0/README.md
+[addon-glances]: https://github.com/hassio-addons/addon-glances/tree/v0.7.0
+[addon-doc-glances]: https://github.com/hassio-addons/addon-glances/blob/v0.7.0/README.md
 [glances-issue]: https://github.com/hassio-addons/addon-glances/issues
-[glances-version-shield]: https://img.shields.io/badge/version-v0.6.0-blue.svg
+[glances-version-shield]: https://img.shields.io/badge/version-v0.7.0-blue.svg
 [glances-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/glances-armhf.svg
 [glances-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [glances-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg

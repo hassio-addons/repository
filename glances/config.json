@@ -1,6 +1,6 @@
 {
   "name": "Glances",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "slug": "glances",
   "description": "A cross-platform system monitoring tool",
   "url": "https://github.com/hassio-addons/addon-glances",
@@ -21,7 +21,7 @@
     "80/tcp": null
   },
   "ports_description": {
-    "80/tcp": "Web interface (Not required for Hass.io Ingress)"
+    "80/tcp": "Web interface (Not required for Ingress)"
   },
   "map": [
     "addons",
@@ -57,7 +57,7 @@
     }
   },
   "schema": {
-    "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)",
+    "log_level": "list(trace|debug|info|notice|warning|error|fatal)",
     "process_info": "bool",
     "refresh_time": "int",
     "ssl": "bool",
@@ -68,7 +68,7 @@
       "host": "str",
       "port": "port",
       "username": "str",
-      "password": "str",
+      "password": "password",
       "database": "str",
       "prefix": "str",
       "interval": "int",
