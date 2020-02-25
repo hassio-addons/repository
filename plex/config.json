@@ -1,6 +1,6 @@
 {
   "name": "Plex Media Server",
-  "version": "2.2.5",
+  "version": "2.3.0",
   "slug": "plex",
   "description": "Recorded media, live TV, online news, and podcasts ready to stream.",
   "url": "https://github.com/hassio-addons/addon-plex",
@@ -52,7 +52,7 @@
     "webtools": false
   },
   "schema": {
-    "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)?",
+    "log_level": "list(trace|debug|info|notice|warning|error|fatal)?",
     "claim_code": "str",
     "webtools": "bool"
   },
