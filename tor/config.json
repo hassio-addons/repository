@@ -1,6 +1,6 @@
 {
   "name": "Tor",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "slug": "tor",
   "description": "Protect your privacy and access Home Assistant via Tor.",
   "url": "https://github.com/hassio-addons/addon-tor",
@@ -33,7 +33,7 @@
     ]
   },
   "schema": {
-    "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)?",
+    "log_level": "list(trace|debug|info|notice|warning|error|fatal)?",
     "socks": "bool",
     "hidden_services": "bool",
     "stealth": "bool",

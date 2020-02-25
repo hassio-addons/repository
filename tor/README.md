@@ -1,4 +1,4 @@
-# Community Hass.io Add-ons: Tor
+# Home Assistant Community Add-on: Tor
 
 [![Release][release-shield]][release] ![Project Stage][project-stage-shield] ![Project Maintenance][maintenance-shield]
 
@@ -30,21 +30,21 @@ This is useful if you want to have:
 
 The add-on also offers the possibility to open a Sock proxy into the
 Tor network. Allowing you to access Tor from any of your (SOCKS supporting)
-applications through your Hass.io installation.
+applications through your Home Assistant installation.
 
 [Click here for the full documentation][docs]
 
 [discord-shield]: https://img.shields.io/discord/478094546522079232.svg
 [discord]: https://discord.me/hassioaddons
-[docs]: https://github.com/hassio-addons/addon-tor/blob/v2.2.0/README.md
+[docs]: https://github.com/hassio-addons/addon-tor/blob/v2.3.0/README.md
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
-[forum]: https://community.home-assistant.io/t/community-hass-io-add-on-tor/33822?u=frenck
+[forum]: https://community.home-assistant.io/t/home-assistant-community-add-on-tor/33822?u=frenck
 [github-sponsors-shield]: https://frenck.dev/wp-content/uploads/2019/12/github_sponsor.png
 [github-sponsors]: https://github.com/sponsors/frenck
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2020.svg
 [patreon-shield]: https://frenck.dev/wp-content/uploads/2019/12/patreon.png
 [patreon]: https://www.patreon.com/frenck
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[release-shield]: https://img.shields.io/badge/version-v2.2.0-blue.svg
-[release]: https://github.com/hassio-addons/addon-tor/tree/v2.2.0
+[release-shield]: https://img.shields.io/badge/version-v2.3.0-blue.svg
+[release]: https://github.com/hassio-addons/addon-tor/tree/v2.3.0
 [tor-hidden-service]: https://www.torproject.org/docs/hidden-services.html.en

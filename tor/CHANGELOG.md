@@ -4,15 +4,14 @@ This is a general maintenance release.
 
 ### 🔨  Changes
 
-- :books: Update add-on installation instructions
-- :fireworks: Updates maintenance/license year to 2020
-- :pencil2: Funding adjustments
-- :pencil2: Fixes some spelling and grammar
-- :arrow_up: Upgrades add-on base image to v6.0.1
-- :arrow_up: Upgrades tor to 0.4.1.7-r0
-- :ambulance: Fix hostname detection
+- :books: Update add-on documentation to use new YAML configuration format
+- :hammer: Re-branding
+- :hammer: Update add-on config with new password & list features
+- :arrow_up: Upgrades add-on base image to v7.0.2
+- :hammer: Update community forum links
+- :pencil2: Replace some Hass.io occurances
 
-[changelog]: https://github.com/hassio-addons/addon-tor/compare/v2.1.0...v2.2.0
+[changelog]: https://github.com/hassio-addons/addon-tor/compare/v2.2.0...v2.3.0
 
 Questions? Join our Discord server! https://discord.me/hassioaddons
 Enjoying my add-ons? Consider supporting my work:
