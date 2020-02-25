@@ -1,6 +1,6 @@
 {
   "name": "Tautulli",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "slug": "tautulli",
   "description": "Monitoring and tracking tool for Plex Media Server",
   "url": "https://github.com/hassio-addons/addon-tautulli/tree/master/README.md",
@@ -34,9 +34,9 @@
     "keyfile": "privkey.pem"
   },
   "schema": {
-    "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)?",
+    "log_level": "list(trace|debug|info|notice|warning|error|fatal)?",
     "username": "str",
-    "password": "str",
+    "password": "password",
     "ssl": "bool",
     "certfile": "str",
     "keyfile": "str",
