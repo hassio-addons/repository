@@ -1,6 +1,6 @@
 {
   "name": "MQTT Server & Web client",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "slug": "mqtt",
   "description": "Mosquitto MQTT Server bundled with Hivemq's web client",
   "url": "https://github.com/hassio-addons/addon-mqtt/tree/master/README.md",
@@ -30,7 +30,7 @@
     "4884/tcp": 4884
   },
   "ports_description": {
-    "80/tcp": "HiveMQ web interface (Not required for Hass.io Ingress)",
+    "80/tcp": "HiveMQ web interface (Not required for Ingress)",
     "1883/tcp": "Standard MQTT port (without SSL)",
     "1884/tcp": "Standard WebSocket port (without SSL)",
     "4883/tcp": "Secure MQTT port (with SSL)",
@@ -59,7 +59,7 @@
     ]
   },
   "schema": {
-    "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)?",
+    "log_level": "list(trace|debug|info|notice|warning|error|fatal)?",
     "ssl": "bool",
     "certfile": "str",
     "keyfile": "str",
@@ -68,7 +68,7 @@
     "mqttusers": [
       {
         "username": "str",
-        "password": "str",
+        "password": "password",
         "readonly": "bool",
         "topics": [
           "str"
