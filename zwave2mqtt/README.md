@@ -1,12 +1,12 @@
-# Community Hass.io Add-ons: Z-Wave to MQTT
+# Home Assistant Community Add-on: Z-Wave to MQTT
 
 [![Release][release-shield]][release] ![Project Stage][project-stage-shield] ![Project Maintenance][maintenance-shield]
 
 [![Discord][discord-shield]][discord] [![Community Forum][forum-shield]][forum]
 
-[![Buy me a coffee][buymeacoffee-shield]][buymeacoffee]
+[![Sponsor Frenck via GitHub Sponsors][github-sponsors-shield]][github-sponsors]
 
-[![Support my work on Patreon][patreon-shield]][patreon]
+[![Support Frenck on Patreon][patreon-shield]][patreon]
 
 Fully configurable Z-Wave to MQTT gateway and control panel.
 
@@ -29,18 +29,18 @@ Some advantages and use-cases for this are:
 
 [Click here for the full documentation][docs]
 
-[buymeacoffee-shield]: https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-2.svg
-[buymeacoffee]: https://www.buymeacoffee.com/frenck
 [discord-shield]: https://img.shields.io/discord/478094546522079232.svg
 [discord]: https://discord.me/hassioaddons
-[docs]: https://github.com/hassio-addons/addon-zwave2mqtt/blob/v0.4.2/README.md
+[docs]: https://github.com/hassio-addons/addon-zwave2mqtt/blob/v0.5.0/README.md
 [esphome]: https://esphome.io/components/mqtt.html#on-message-trigger
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
 [forum]: https://community.home-assistant.io/t/community-hass-io-add-on-z-wave-to-mqtt/115899?u=frenck
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2019.svg
-[patreon-shield]: https://www.frenck.nl/images/patreon.png
+[github-sponsors-shield]: https://frenck.dev/wp-content/uploads/2019/12/github_sponsor.png
+[github-sponsors]: https://github.com/sponsors/frenck
+[logo]: https://github.com/hassio-addons/addon-zwave2mqtt/raw/master/zwave2mqtt/logo.png
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2020.svg
+[patreon-shield]: https://frenck.dev/wp-content/uploads/2019/12/patreon.png
 [patreon]: https://www.patreon.com/frenck
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
-[release-shield]: https://img.shields.io/badge/version-v0.4.2-blue.svg
-[release]: https://github.com/hassio-addons/addon-zwave2mqtt/tree/v0.4.2
-[logo]: https://github.com/hassio-addons/addon-zwave2mqtt/raw/master/zwave2mqtt/logo.png
+[release-shield]: https://img.shields.io/badge/version-v0.5.0-blue.svg
+[release]: https://github.com/hassio-addons/addon-zwave2mqtt/tree/v0.5.0
