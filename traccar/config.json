@@ -1,6 +1,6 @@
 {
   "name": "Traccar",
-  "version": "0.6.1",
+  "version": "0.7.0",
   "slug": "traccar",
   "description": "Modern GPS Tracking Platform",
   "url": "https://github.com/hassio-addons/addon-traccar",
@@ -24,11 +24,14 @@
     "80/tcp": null
   },
   "ports_description": {
-    "80/tcp": "Web interface (Not required for Hass.io Ingress)"
+    "80/tcp": "Web interface (Not required for Ingress)"
   },
   "map": [
     "config:rw",
     "ssl"
+  ],
+  "services": [
+    "mysql:want"
   ],
   "options": {
     "ssl": true,
@@ -36,7 +39,7 @@
     "keyfile": "privkey.pem"
   },
   "schema": {
-    "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)?",
+    "log_level": "list(trace|debug|info|notice|warning|error|fatal)?",
     "ssl": "bool",
     "certfile": "str",
     "keyfile": "str"
