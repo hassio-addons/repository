@@ -1,4 +1,4 @@
-# Community Hass.io Add-ons: Matrix
+# Home Assistant Community Add-on: Matrix
 
 [![Release][release-shield]][release] ![Project Stage][project-stage-shield] ![Project Maintenance][maintenance-shield]
 
@@ -23,12 +23,12 @@ Matrix is a secure and decentralized communication platform served as an
 [buymeacoffee]: https://www.buymeacoffee.com/timmo
 [discord-shield]: https://img.shields.io/discord/478094546522079232.svg
 [discord]: https://discord.me/hassioaddons
-[docs]: https://github.com/hassio-addons/addon-matrix/blob/v0.8.0/README.md
+[docs]: https://github.com/hassio-addons/addon-matrix/blob/v0.9.0/README.md
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
 [forum]: https://community.home-assistant.io
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2020.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
-[release-shield]: https://img.shields.io/badge/version-v0.8.0-blue.svg
-[release]: https://github.com/hassio-addons/addon-matrix/tree/v0.8.0
+[release-shield]: https://img.shields.io/badge/version-v0.9.0-blue.svg
+[release]: https://github.com/hassio-addons/addon-matrix/tree/v0.9.0
 [screenshot]: https://github.com/hassio-addons/addon-matrix/raw/master/images/screenshot.png
 [clients]: https://matrix.org/docs/projects/try-matrix-now.html

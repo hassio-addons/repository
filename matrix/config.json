@@ -1,6 +1,6 @@
 {
   "name": "Matrix",
-  "version": "0.8.0",
+  "version": "0.9.0",
   "slug": "matrix",
   "description": "A secure and decentralized communication platform.",
   "url": "https://github.com/hassio-addons/addon-matrix",
@@ -27,7 +27,7 @@
   },
   "ports_description": {
     "8448/tcp": "Matrix Synapse Home Server",
-    "80/tcp": "Riot Matrix web client (Not required for Hass.io Ingress)"
+    "80/tcp": "Riot Matrix web client (Not required for Ingress)"
   },
   "map": [
     "config:rw",
@@ -41,7 +41,7 @@
     "server_name": "hassio.local"
   },
   "schema": {
-    "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)?",
+    "log_level": "list(trace|debug|info|notice|warning|error|fatal)?",
     "ssl": "bool",
     "certfile": "str",
     "keyfile": "str",
