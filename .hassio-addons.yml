@@ -21,10 +21,6 @@ addons:
     repository: hassio-addons/addon-appdaemon
     target: appdaemon
     image: hassioaddons/appdaemon-{arch}
-  appdaemon3:
-    repository: hassio-addons/addon-appdaemon3
-    target: appdaemon
-    image: hassioaddons/appdaemon3-{arch}
   bitwarden:
     repository: hassio-addons/addon-bitwarden
     target: bitwarden

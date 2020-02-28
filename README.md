@@ -94,20 +94,6 @@ AirPlay capabilities for your Sonos (and UPnP) devices.
 
 [:books: AirSonos add-on documentation][addon-doc-airsonos]
 
-### &#10003; [AppDaemon 3][addon-appdaemon3]
-
-![Latest Version][appdaemon3-version-shield]
-![Supports armhf Architecture][appdaemon3-armhf-shield]
-![Supports armv7 Architecture][appdaemon3-armv7-shield]
-![Supports aarch64 Architecture][appdaemon3-aarch64-shield]
-![Supports amd64 Architecture][appdaemon3-amd64-shield]
-![Supports i386 Architecture][appdaemon3-i386-shield]
-![Docker Pulls][appdaemon3-pulls-shield]
-
-Python Apps and HADashboard using AppDaemon 3.x for Home Assistant
-
-[:books: AppDaemon 3 add-on documentation][addon-doc-appdaemon3]
-
 ### &#10003; [AppDaemon 4][addon-appdaemon]
 
 ![Latest Version][appdaemon-version-shield]
@@ -669,7 +655,6 @@ on the correct GitHub repository matching the add-on.
 - [Open an issue for the add-on: AdGuard Home][adguard-issue]
 - [Open an issue for the add-on: AirCast][aircast-issue]
 - [Open an issue for the add-on: AirSonos][airsonos-issue]
-- [Open an issue for the add-on: AppDaemon 3][appdaemon3-issue]
 - [Open an issue for the add-on: AppDaemon 4][appdaemon-issue]
 - [Open an issue for the add-on: Bitwarden RS][bitwarden-issue]
 - [Open an issue for the add-on: Example][example-issue]
@@ -795,16 +780,6 @@ SOFTWARE.
 [airsonos-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [airsonos-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [airsonos-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
-[addon-appdaemon3]: https://github.com/hassio-addons/addon-appdaemon3/tree/v5.0.1
-[addon-doc-appdaemon3]: https://github.com/hassio-addons/addon-appdaemon3/blob/v5.0.1/README.md
-[appdaemon3-issue]: https://github.com/hassio-addons/addon-appdaemon3/issues
-[appdaemon3-version-shield]: https://img.shields.io/badge/version-v5.0.1-blue.svg
-[appdaemon3-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/appdaemon3-armhf.svg
-[appdaemon3-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
-[appdaemon3-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
-[appdaemon3-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
-[appdaemon3-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
-[appdaemon3-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [addon-appdaemon]: https://github.com/hassio-addons/addon-appdaemon/tree/v0.2.1
 [addon-doc-appdaemon]: https://github.com/hassio-addons/addon-appdaemon/blob/v0.2.1/README.md
 [appdaemon-issue]: https://github.com/hassio-addons/addon-appdaemon/issues
