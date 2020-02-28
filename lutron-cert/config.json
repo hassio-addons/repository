@@ -1,6 +1,6 @@
 {
   "name": "Lutron Certificate",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "slug": "lutron-cert",
   "description": "Generate certificate to control Lutron Caseta bridge locally",
   "url": "https://github.com/hassio-addons/addon-lutron-cert",
@@ -28,7 +28,7 @@
   ],
   "options": {},
   "schema": {
-    "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)?"
+    "log_level": "list(trace|debug|info|notice|warning|error|fatal)?"
   },
   "image": "hassioaddons/lutron-cert-{arch}"
 }
