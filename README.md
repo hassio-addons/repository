@@ -122,6 +122,20 @@ Open source password management solution
 
 [:books: Bitwarden RS add-on documentation][addon-doc-bitwarden]
 
+### &#10003; [Bookstack][addon-bookstack]
+
+![Latest Version][bookstack-version-shield]
+![Supports armhf Architecture][bookstack-armhf-shield]
+![Supports armv7 Architecture][bookstack-armv7-shield]
+![Supports aarch64 Architecture][bookstack-aarch64-shield]
+![Supports amd64 Architecture][bookstack-amd64-shield]
+![Supports i386 Architecture][bookstack-i386-shield]
+![Docker Pulls][bookstack-pulls-shield]
+
+Simple & Free Wiki Software
+
+[:books: Bookstack add-on documentation][addon-doc-bookstack]
+
 ### &#10003; [Example][addon-example]
 
 ![Latest Version][example-version-shield]
@@ -671,6 +685,7 @@ on the correct GitHub repository matching the add-on.
 - [Open an issue for the add-on: AirSonos][airsonos-issue]
 - [Open an issue for the add-on: AppDaemon 4][appdaemon-issue]
 - [Open an issue for the add-on: Bitwarden RS][bitwarden-issue]
+- [Open an issue for the add-on: Bookstack][bookstack-issue]
 - [Open an issue for the add-on: Example][example-issue]
 - [Open an issue for the add-on: FTP][ftp-issue]
 - [Open an issue for the add-on: FlexTV][phlex-issue]
@@ -815,6 +830,16 @@ SOFTWARE.
 [bitwarden-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [bitwarden-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [bitwarden-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
+[addon-bookstack]: https://github.com/hassio-addons/addon-bookstack/tree/v0.1.0
+[addon-doc-bookstack]: https://github.com/hassio-addons/addon-bookstack/blob/v0.1.0/README.md
+[bookstack-issue]: https://github.com/hassio-addons/addon-bookstack/issues
+[bookstack-version-shield]: https://img.shields.io/badge/version-v0.1.0-blue.svg
+[bookstack-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/bookstack-armhf.svg
+[bookstack-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[bookstack-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[bookstack-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
+[bookstack-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
+[bookstack-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [addon-example]: https://github.com/hassio-addons/addon-example/tree/v3.3.0
 [addon-doc-example]: https://github.com/hassio-addons/addon-example/blob/v3.3.0/README.md
 [example-issue]: https://github.com/hassio-addons/addon-example/issues
