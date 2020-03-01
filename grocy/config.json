@@ -1,6 +1,6 @@
 {
   "name": "Grocy",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "slug": "grocy",
   "description": "ERP beyond your fridge! A groceries & household management solution for your home",
   "url": "https://github.com/hassio-addons/addon-grocy",
@@ -71,7 +71,9 @@
       "tasks": "bool"
     },
     "tweaks": {
+      "calendar_first_day_of_week": "int(0,6)?",
       "chores_assignment": "bool",
+      "meal_plan_first_day_of_week": "int(0,6)?",
       "multiple_shopping_lists": "bool",
       "stock_best_before_date_tracking": "bool",
       "stock_location_tracking": "bool",
