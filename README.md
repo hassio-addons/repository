@@ -370,7 +370,7 @@ A super-sexy text and voice interface for Plex
 ![Supports i386 Architecture][pi-hole-i386-shield]
 ![Docker Pulls][pi-hole-pulls-shield]
 
-Network-wide ad blocking using your Hass.io instance
+Network-wide ad blocking
 
 [:books: Pi-hole add-on documentation][addon-doc-pi-hole]
 
