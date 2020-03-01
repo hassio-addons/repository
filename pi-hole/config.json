@@ -1,8 +1,8 @@
 {
   "name": "Pi-hole",
-  "version": "4.0.0",
+  "version": "4.1.0",
   "slug": "pi-hole",
-  "description": "Network-wide ad blocking using your Hass.io instance",
+  "description": "Network-wide ad blocking",
   "url": "https://github.com/hassio-addons/addon-pi-hole",
   "webui": "[PROTO:ssl]://[HOST]:[PORT:4865]",
   "ingress": true,
@@ -23,7 +23,7 @@
   },
   "ports_description": {
     "53/udp": "DNS server port",
-    "80/tcp": "Web interface (Not required for Hass.io Ingress)",
+    "80/tcp": "Web interface (Not required for Ingress)",
     "4865/tcp": "API endpoint (For HA integration)"
   },
   "boot": "auto",
@@ -47,11 +47,10 @@
     "ipv6": true,
     "ipv4_address": "",
     "ipv6_address": "",
-    "virtual_host": "",
     "hosts": []
   },
   "schema": {
-    "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)?",
+    "log_level": "list(trace|debug|info|notice|warning|error|fatal)?",
     "update_lists_on_start": "bool",
     "ssl": "bool",
     "certfile": "str",
@@ -60,7 +59,6 @@
     "ipv6": "bool",
     "ipv4_address": "str",
     "ipv6_address": "str",
-    "virtual_host": "str",
     "hosts": [
       {
         "name": "str",
