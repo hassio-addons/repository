@@ -1,4 +1,4 @@
-# Community Hass.io Add-ons: Nginx Proxy Manager
+# Home Assistant Community Add-on: Nginx Proxy Manager
 
 [![Release][release-shield]][release] ![Project Stage][project-stage-shield] ![Project Maintenance][maintenance-shield]
 
@@ -16,7 +16,7 @@ This add-on enables you to easily forward incoming connections to anywhere,
 including free SSL, without having to know too much about Nginx
 or Let’s Encrypt.
 
-Forward your domain to your Home Assistant, Hass.io add-ons, or websites running
+Forward your domain to your Home Assistant, add-ons, or websites running
 at home or anywhere else, straight from a simple, powerful interface.
 
 Want to protect the website with a username/password? Well, it can do that too!
@@ -32,7 +32,7 @@ Nginx proxy manager by providing additional Nginx directives.
 
 [discord-shield]: https://img.shields.io/discord/478094546522079232.svg
 [discord]: https://discord.me/hassioaddons
-[docs]: https://github.com/hassio-addons/addon-nginx-proxy-manager/blob/v0.4.0/README.md
+[docs]: https://github.com/hassio-addons/addon-nginx-proxy-manager/blob/v0.5.0/README.md
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
 [forum]: https://community.home-assistant.io/t/community-hass-io-add-on-nginx-proxy-manager/111830?u=frenck
 [github-sponsors-shield]: https://frenck.dev/wp-content/uploads/2019/12/github_sponsor.png
@@ -41,6 +41,6 @@ Nginx proxy manager by providing additional Nginx directives.
 [patreon-shield]: https://frenck.dev/wp-content/uploads/2019/12/patreon.png
 [patreon]: https://www.patreon.com/frenck
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
-[release-shield]: https://img.shields.io/badge/version-v0.4.0-blue.svg
-[release]: https://github.com/hassio-addons/addon-nginx-proxy-manager/tree/v0.4.0
+[release-shield]: https://img.shields.io/badge/version-v0.5.0-blue.svg
+[release]: https://github.com/hassio-addons/addon-nginx-proxy-manager/tree/v0.5.0
 [screenshot]: https://github.com/hassio-addons/addon-nginx-proxy-manager/raw/master/images/screenshot.gif
