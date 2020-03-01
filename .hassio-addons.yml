@@ -25,6 +25,10 @@ addons:
     repository: hassio-addons/addon-bitwarden
     target: bitwarden
     image: hassioaddons/bitwarden-{arch}
+  bookstack:
+    repository: hassio-addons/addon-bookstack
+    target: bookstack
+    image: hassioaddons/bookstack-{arch}
   chrony:
     repository: hassio-addons/addon-chrony
     target: chrony
