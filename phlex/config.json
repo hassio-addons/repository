@@ -1,6 +1,6 @@
 {
-  "name": "Phlex",
-  "version": "1.1.0",
+  "name": "FlexTV",
+  "version": "1.2.0",
   "slug": "phlex",
   "description": "A super-sexy text and voice interface for Plex",
   "url": "https://github.com/hassio-addons/addon-phlex/tree/master/README.md",
@@ -20,7 +20,7 @@
     "1778/tcp": 1778
   },
   "ports_description": {
-    "1778/tcp": "Phlex web interface"
+    "1778/tcp": "FlexTV web interface"
   },
   "map": [
     "ssl",
@@ -32,7 +32,7 @@
     "keyfile": "privkey.pem"
   },
   "schema": {
-    "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)?",
+    "log_level": "list(trace|debug|info|notice|warning|error|fatal)?",
     "ssl": "bool",
     "certfile": "str",
     "keyfile": "str"

@@ -1,4 +1,4 @@
-# Community Hass.io Add-ons: Phlex
+# Home Assistant Community Add-on: FlexTV
 
 [![Release][release-shield]][release] ![Project Stage][project-stage-shield] ![Project Maintenance][maintenance-shield]
 
@@ -10,7 +10,7 @@ A super-sexy text and voice interface for Plex.
 
 ## About
 
-The purpose of [Phlex][phlex-wiki] is to provide a natural language interface
+The purpose of [FlexTV][flextv-wiki] is to provide a natural language interface
 for Home Theater applications - effectively bridging the current gap between
 commercial AI Solutions like Google Home/Alexa and personal
 web applications like Plex.
@@ -23,12 +23,12 @@ web applications like Plex.
 [buymeacoffee]: https://www.buymeacoffee.com/ludeeus
 [discord-shield]: https://img.shields.io/discord/330944238910963714.svg
 [discord]: https://discord.gg/c5DvZ4e
-[docs]: https://github.com/hassio-addons/addon-phlex/blob/v1.1.0/README.md
+[docs]: https://github.com/hassio-addons/addon-phlex/blob/v1.2.0/README.md
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
-[forum]: https://community.home-assistant.io/t/community-hass-io-add-ons-phlex/70378
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2019.svg
-[phlex-wiki]: https://github.com/d8ahazard/Phlex/wiki
+[forum]: https://community.home-assistant.io/t/home-assistant-community-add-on-flextv/70378?u=frenck
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2020.svg
+[flextv-wiki]: https://github.com/d8ahazard/FlexTV/wiki
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[release-shield]: https://img.shields.io/badge/version-v1.1.0-blue.svg
-[release]: https://github.com/hassio-addons/addon-phlex/tree/v1.1.0
+[release-shield]: https://img.shields.io/badge/version-v1.2.0-blue.svg
+[release]: https://github.com/hassio-addons/addon-phlex/tree/v1.2.0
 [screenshot]: https://github.com/hassio-addons/addon-phlex/raw/master/images/screenshot.png
