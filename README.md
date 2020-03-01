@@ -332,6 +332,20 @@ A secure and decentralized communication platform.
 
 [:books: Matrix add-on documentation][addon-doc-matrix]
 
+### &#10003; [Network UPS Tools][addon-nut]
+
+![Latest Version][nut-version-shield]
+![Supports armhf Architecture][nut-armhf-shield]
+![Supports armv7 Architecture][nut-armv7-shield]
+![Supports aarch64 Architecture][nut-aarch64-shield]
+![Supports amd64 Architecture][nut-amd64-shield]
+![Supports i386 Architecture][nut-i386-shield]
+![Docker Pulls][nut-pulls-shield]
+
+Manage battery backup (UPS) devices
+
+[:books: Network UPS Tools add-on documentation][addon-doc-nut]
+
 ### &#10003; [Nginx Proxy Manager][addon-nginxproxymanager]
 
 ![Latest Version][nginxproxymanager-version-shield]
@@ -672,6 +686,7 @@ on the correct GitHub repository matching the add-on.
 - [Open an issue for the add-on: Lutron Certificate][lutron-cert-issue]
 - [Open an issue for the add-on: MQTT Server & Web client][mqtt-issue]
 - [Open an issue for the add-on: Matrix][matrix-issue]
+- [Open an issue for the add-on: Network UPS Tools][nut-issue]
 - [Open an issue for the add-on: Nginx Proxy Manager][nginxproxymanager-issue]
 - [Open an issue for the add-on: Node-RED][node-red-issue]
 - [Open an issue for the add-on: Pi-hole][pi-hole-issue]
@@ -950,6 +965,16 @@ SOFTWARE.
 [matrix-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [matrix-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [matrix-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
+[addon-nut]: https://github.com/hassio-addons/addon-nut/tree/v0.1.0
+[addon-doc-nut]: https://github.com/hassio-addons/addon-nut/blob/v0.1.0/README.md
+[nut-issue]: https://github.com/hassio-addons/addon-nut/issues
+[nut-version-shield]: https://img.shields.io/badge/version-v0.1.0-blue.svg
+[nut-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/nut-armhf.svg
+[nut-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[nut-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[nut-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
+[nut-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
+[nut-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [addon-nginxproxymanager]: https://github.com/hassio-addons/addon-nginx-proxy-manager/tree/v0.5.0
 [addon-doc-nginxproxymanager]: https://github.com/hassio-addons/addon-nginx-proxy-manager/blob/v0.5.0/README.md
 [nginxproxymanager-issue]: https://github.com/hassio-addons/addon-nginx-proxy-manager/issues
