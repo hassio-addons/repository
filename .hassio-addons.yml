@@ -97,6 +97,10 @@ addons:
     repository: hassio-addons/addon-nginx-proxy-manager
     target: proxy-manager
     image: hassioaddons/nginxproxymanager-{arch}
+  nut:
+    repository: hassio-addons/addon-nut
+    target: nut
+    image: hassioaddons/nut-{arch}
   phlex:
     repository: hassio-addons/addon-phlex
     target: phlex
