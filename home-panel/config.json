@@ -1,6 +1,6 @@
 {
   "name": "Home Panel",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "slug": "home-panel",
   "description": "A web frontend for controlling the home",
   "url": "https://github.com/hassio-addons/addon-home-panel",
@@ -25,7 +25,7 @@
     "80/tcp": null
   },
   "ports_description": {
-    "80/tcp": "Web UI (Not required for Hass.io Ingress)"
+    "80/tcp": "Web UI (Not required for Ingress)"
   },
   "map": [
     "config:rw",
@@ -37,7 +37,7 @@
     "keyfile": "privkey.pem"
   },
   "schema": {
-    "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)?",
+    "log_level": "list(trace|debug|info|notice|warning|error|fatal)?",
     "ssl": "bool",
     "certfile": "str",
     "keyfile": "str",
