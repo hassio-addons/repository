@@ -1,10 +1,9 @@
-Minor release, documentation and image updates.
+General maintenance release
 
-- 📚Change example to YAML
-- 🚑 Fix YAML example in documentation
-- 🔨 Re-branding
-- ⬆ Upgrades add-on base image to v7.0.2
+- ⬆Update base image to 7.0.4
+
+Questions? Join our Discord server! https://discord.me/hassioaddons
 
 [Full Changelog][changelog]
 
-[changelog]: https://github.com/hassio-addons/addon-chrony/compare/v1.0.7...v1.0.8
+[changelog]: https://github.com/hassio-addons/addon-chrony/compare/v1.0.8...v1.0.9
