@@ -37,6 +37,10 @@ addons:
     repository: hassio-addons/addon-example
     target: example
     image: hassioaddons/example-{arch}
+  foldingathome:
+    repository: hassio-addons/addon-foldingathome
+    target: foldingathome
+    image: hassioaddons/foldingathome-{arch}
   ftp:
     repository: hassio-addons/addon-ftp
     target: ftp
