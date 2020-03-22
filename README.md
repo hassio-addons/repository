@@ -178,6 +178,20 @@ A super-sexy text and voice interface for Plex
 
 [:books: FlexTV add-on documentation][addon-doc-phlex]
 
+### &#10003; [Folding@home][addon-foldingathome]
+
+![Latest Version][foldingathome-version-shield]
+![Supports armhf Architecture][foldingathome-armhf-shield]
+![Supports armv7 Architecture][foldingathome-armv7-shield]
+![Supports aarch64 Architecture][foldingathome-aarch64-shield]
+![Supports amd64 Architecture][foldingathome-amd64-shield]
+![Supports i386 Architecture][foldingathome-i386-shield]
+![Docker Pulls][foldingathome-pulls-shield]
+
+Fighting disease with a world wide distributed super computer
+
+[:books: Folding@home add-on documentation][addon-doc-foldingathome]
+
 ### &#10003; [Glances][addon-glances]
 
 ![Latest Version][glances-version-shield]
@@ -689,6 +703,7 @@ on the correct GitHub repository matching the add-on.
 - [Open an issue for the add-on: Example][example-issue]
 - [Open an issue for the add-on: FTP][ftp-issue]
 - [Open an issue for the add-on: FlexTV][phlex-issue]
+- [Open an issue for the add-on: Folding@home][foldingathome-issue]
 - [Open an issue for the add-on: Glances][glances-issue]
 - [Open an issue for the add-on: Grafana][grafana-issue]
 - [Open an issue for the add-on: Grocy][grocy-issue]
@@ -870,6 +885,16 @@ SOFTWARE.
 [phlex-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [phlex-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [phlex-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
+[addon-foldingathome]: https://github.com/hassio-addons/addon-foldingathome/tree/v0.1.1
+[addon-doc-foldingathome]: https://github.com/hassio-addons/addon-foldingathome/blob/v0.1.1/README.md
+[foldingathome-issue]: https://github.com/hassio-addons/addon-foldingathome/issues
+[foldingathome-version-shield]: https://img.shields.io/badge/version-v0.1.1-blue.svg
+[foldingathome-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/foldingathome-amd64.svg
+[foldingathome-aarch64-shield]: https://img.shields.io/badge/aarch64-no-red.svg
+[foldingathome-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[foldingathome-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
+[foldingathome-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
+[foldingathome-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [addon-glances]: https://github.com/hassio-addons/addon-glances/tree/v0.7.1
 [addon-doc-glances]: https://github.com/hassio-addons/addon-glances/blob/v0.7.1/README.md
 [glances-issue]: https://github.com/hassio-addons/addon-glances/issues
