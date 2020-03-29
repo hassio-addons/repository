@@ -1,6 +1,6 @@
 {
   "name": "Traccar",
-  "version": "0.7.2",
+  "version": "0.7.3",
   "slug": "traccar",
   "description": "Modern GPS Tracking Platform",
   "url": "https://github.com/hassio-addons/addon-traccar",
@@ -16,6 +16,7 @@
     "armv7",
     "i386"
   ],
+  "init": false,
   "boot": "auto",
   "hassio_api": true,
   "hassio_role": "default",
