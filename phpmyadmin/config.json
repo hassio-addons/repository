@@ -1,6 +1,6 @@
 {
   "name": "phpMyAdmin",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "slug": "phpmyadmin",
   "description": "A web interface for the official MariaDB add-on",
   "url": "https://github.com/hassio-addons/addon-phpmyadmin",
@@ -14,6 +14,7 @@
     "armv7",
     "i386"
   ],
+  "init": false,
   "boot": "auto",
   "services": [
     "mysql:need"

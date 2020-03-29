@@ -1,16 +1,13 @@
 [Full Changelog][changelog]
 
-This is a general maintenance release.
-
 ### 🔨  Changes
 
-- ✨ Add php7-curl (#5)
-- :fire: Disable version check (#7)
-- :arrow_up: Upgrades add-on base image to v7.0.2
-- :arrow_up: Upgrades php7 to 7.3.15-r0
-- :ambulance: Set a valid temporary dictory
+- :arrow_up: Upgrade phpMyAdmin to 5.0.2 (#9)
+- :arrow_up: Upgrades add-on base image to v7.0.5
+- :arrow_up: Upgrades php7 to 7.3.16-r0
+- :hammer: Disable Docker init
 
-[changelog]: https://github.com/hassio-addons/addon-phpmyadmin/compare/v0.1.0...v0.1.1
+[changelog]: https://github.com/hassio-addons/addon-phpmyadmin/compare/v0.1.1...v0.1.2
 
 Questions? Join our Discord server! https://discord.me/hassioaddons
 Enjoying my add-ons? Consider supporting my work:
