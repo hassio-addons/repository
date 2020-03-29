@@ -1,6 +1,6 @@
 {
   "name": "AdGuard Home",
-  "version": "2.3.2",
+  "version": "2.3.3",
   "slug": "adguard",
   "description": "Network-wide ads & trackers blocking DNS server",
   "url": "https://github.com/hassio-addons/addon-adguard-home",
@@ -17,6 +17,7 @@
     "armv7",
     "i386"
   ],
+  "init": false,
   "ports": {
     "53/udp": 53,
     "80/tcp": null
