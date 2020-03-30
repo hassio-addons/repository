@@ -1,8 +1,9 @@
 {
-  "name": "Pi-hole",
-  "version": "4.1.1",
+  "name": "Pi-hole (DEPRECATED!)",
+  "stage": "deprecated",
+  "version": "4.1.2",
   "slug": "pi-hole",
-  "description": "Network-wide ad blocking",
+  "description": "The Pi-hole add-on is deprecated, use the AdGuard Home add-on instead.",
   "url": "https://github.com/hassio-addons/addon-pi-hole",
   "webui": "[PROTO:ssl]://[HOST]:[PORT:4865]",
   "ingress": true,

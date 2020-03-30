@@ -10,6 +10,29 @@
 
 Network-wide ad blocking
 
+## Deprecation warning
+
+**This add-on is in a deprecated state!**
+
+The Pi-hole add-on is now deprecated and will no longer be supported, maintained
+and will not receive future updates or fixes.
+
+Pi-hole used to be a great solution to filter network traffic, but it has been
+a challenge to keep/get it in a working state as an add-on.
+
+Meanwhile, the AdGuard team published an alternative:
+[AdGuard Home](https://github.com/hassio-addons/addon-adguard-home).
+
+AdGuard Home as surpassed Pi-hole in terms of capabilities, features,
+and stability, and Home Assistant provides a good integration with AdGuard.
+Above all, the AdGuard Home team has been supportive in developing the add-on.
+
+For those reasons, it is no longer viable to keep maintaining the Pi-hole
+add-on, which has been problematic at best.
+
+We strongly recommend migrating to the AdGuard Home add-on, which is available
+in the add-on store.
+
 ## About
 
 [Pi-hole][pi-hole] is an advertising-aware DNS- and web server, meant to be run
@@ -24,7 +47,7 @@ is based on Alpine Linux and is using Docker.
 
 [discord-shield]: https://img.shields.io/discord/478094546522079232.svg
 [discord]: https://discord.me/hassioaddons
-[docs]: https://github.com/hassio-addons/addon-pi-hole/blob/v4.1.1/README.md
+[docs]: https://github.com/hassio-addons/addon-pi-hole/blob/v4.1.2/README.md
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
 [forum]: https://community.home-assistant.io/t/home-assistant-community-add-on-pi-hole/33817?u=frenck
 [github-sponsors-shield]: https://frenck.dev/wp-content/uploads/2019/12/github_sponsor.png
@@ -33,6 +56,6 @@ is based on Alpine Linux and is using Docker.
 [patreon-shield]: https://frenck.dev/wp-content/uploads/2019/12/patreon.png
 [patreon]: https://www.patreon.com/frenck
 [pi-hole]: https://pi-hole.net/
-[project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[release-shield]: https://img.shields.io/badge/version-v4.1.1-blue.svg
-[release]: https://github.com/hassio-addons/addon-pi-hole/tree/v4.1.1
+[project-stage-shield]: https://img.shields.io/badge/project%20stage-%20!%20DEPRECATED%20%20%20!-ff0000.svg
+[release-shield]: https://img.shields.io/badge/version-v4.1.2-blue.svg
+[release]: https://github.com/hassio-addons/addon-pi-hole/tree/v4.1.2
