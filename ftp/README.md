@@ -28,7 +28,7 @@ access to your Home Assistant configuration via FTP.
 
 [discord-shield]: https://img.shields.io/discord/478094546522079232.svg
 [discord]: https://discord.me/hassioaddons
-[docs]: https://github.com/hassio-addons/addon-ftp/blob/v3.3.0/README.md
+[docs]: https://github.com/hassio-addons/addon-ftp/blob/v3.3.1/README.md
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
 [forum]: https://community.home-assistant.io/t/home-assistant-community-add-on-ftp/36799?u=frenck
 [github-sponsors-shield]: https://frenck.dev/wp-content/uploads/2019/12/github_sponsor.png
@@ -37,5 +37,5 @@ access to your Home Assistant configuration via FTP.
 [patreon-shield]: https://frenck.dev/wp-content/uploads/2019/12/patreon.png
 [patreon]: https://www.patreon.com/frenck
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[release-shield]: https://img.shields.io/badge/version-v3.3.0-blue.svg
-[release]: https://github.com/hassio-addons/addon-ftp/tree/v3.3.0
+[release-shield]: https://img.shields.io/badge/version-v3.3.1-blue.svg
+[release]: https://github.com/hassio-addons/addon-ftp/tree/v3.3.1

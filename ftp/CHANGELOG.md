@@ -1,17 +1,13 @@
 [Full Changelog][changelog]
 
-This is a general maintenance release.
-
 ### :hammer: Changes
 
-- :books: Update add-on documentation to use new YAML configuration format
-- :hammer: Update add-on config with new password & list features
-- :hammer: Re-branding
-- :arrow_up: Upgrades add-on base image to v7.0.2
-- :hammer: Update community forum links
-- :hammer: Don't use apk cache on cleanup
+- :arrow_up: Upgrades add-on base image to v7.0.5
+- :arrow_up: Upgrades gcc to 9.2.0-r4
+- :arrow_up: Upgrades musl-dev to 1.1.24-r2
+- :hammer: Disable Docker init
 
-[changelog]: https://github.com/hassio-addons/addon-ftp/compare/v3.2.0...v3.3.0
+[changelog]: https://github.com/hassio-addons/addon-ftp/compare/v3.3.0...v3.3.1
 
 Questions? Join our Discord server! https://discord.me/hassioaddons
 Enjoying my add-ons? Consider supporting my work:
