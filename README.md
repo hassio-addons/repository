@@ -402,7 +402,7 @@ Flow-based programming for the Internet of Things
 
 [:books: Node-RED add-on documentation][addon-doc-node-red]
 
-### &#10003; [Pi-hole][addon-pi-hole]
+### &#10003; [Pi-hole (DEPRECATED!)][addon-pi-hole]
 
 ![Latest Version][pi-hole-version-shield]
 ![Supports armhf Architecture][pi-hole-armhf-shield]
@@ -412,9 +412,9 @@ Flow-based programming for the Internet of Things
 ![Supports i386 Architecture][pi-hole-i386-shield]
 ![Docker Pulls][pi-hole-pulls-shield]
 
-Network-wide ad blocking
+The Pi-hole add-on is deprecated, use the AdGuard Home add-on instead.
 
-[:books: Pi-hole add-on documentation][addon-doc-pi-hole]
+[:books: Pi-hole (DEPRECATED!) add-on documentation][addon-doc-pi-hole]
 
 ### &#10003; [Plex Media Server][addon-plex]
 
@@ -719,7 +719,7 @@ on the correct GitHub repository matching the add-on.
 - [Open an issue for the add-on: Network UPS Tools][nut-issue]
 - [Open an issue for the add-on: Nginx Proxy Manager][nginxproxymanager-issue]
 - [Open an issue for the add-on: Node-RED][node-red-issue]
-- [Open an issue for the add-on: Pi-hole][pi-hole-issue]
+- [Open an issue for the add-on: Pi-hole (DEPRECATED!)][pi-hole-issue]
 - [Open an issue for the add-on: Plex Media Server][plex-issue]
 - [Open an issue for the add-on: Portainer][portainer-issue]
 - [Open an issue for the add-on: SQLite Web][sqlite-web-issue]
