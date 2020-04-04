@@ -1,6 +1,6 @@
 {
   "name": "Home Panel",
-  "version": "1.7.0",
+  "version": "1.7.1",
   "slug": "home-panel",
   "description": "A web frontend for controlling the home",
   "url": "https://github.com/hassio-addons/addon-home-panel",
@@ -13,6 +13,7 @@
     "armv7",
     "i386"
   ],
+  "init": false,
   "boot": "auto",
   "hassio_api": true,
   "hassio_role": "default",
