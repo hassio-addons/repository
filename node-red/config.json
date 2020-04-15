@@ -1,6 +1,6 @@
 {
   "name": "Node-RED",
-  "version": "6.1.4",
+  "version": "6.2.0",
   "slug": "nodered",
   "description": "Flow-based programming for the Internet of Things",
   "url": "https://github.com/hassio-addons/addon-node-red",
@@ -9,6 +9,7 @@
   "ingress_port": 0,
   "panel_icon": "mdi:sitemap",
   "startup": "application",
+  "init": false,
   "homeassistant": "0.92.0b2",
   "arch": [
     "aarch64",
