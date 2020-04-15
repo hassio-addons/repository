@@ -4,11 +4,12 @@ This is a general maintenance release.
 
 ### 🔨  Changes
 
-- :arrow_up: Updates appdaemon to v4.0.3 (#18)
-- :arrow_up: Upgrades python3 to 3.8.2-r0
-- :fire: Remove now obsolete astral pinning on the add-on end
+- :arrow_up: Upgrades add-on base image to v7.0.5
+- :hammer: Disable Docker init
+- :arrow_up: Upgrades gcc to 9.2.0-r4
+- :arrow_up: Upgrades base image to v7.1.0
 
-[changelog]: https://github.com/hassio-addons/addon-appdaemon/compare/v0.2.2...v0.2.3
+[changelog]: https://github.com/hassio-addons/addon-appdaemon/compare/v0.2.3...v0.2.4
 
 Questions? Join our Discord server! https://discord.me/hassioaddons
 Enjoying my add-ons? Consider supporting my work:
