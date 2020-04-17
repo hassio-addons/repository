@@ -1,6 +1,6 @@
 {
   "name": "WireGuard",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "slug": "wireguard",
   "description": "Fast, modern, secure VPN tunnel",
   "url": "https://github.com/hassio-addons/addon-wireguard",
@@ -12,6 +12,7 @@
     "armv7",
     "i386"
   ],
+  "init": false,
   "ports": {
     "80/tcp": null,
     "51820/udp": 51820
