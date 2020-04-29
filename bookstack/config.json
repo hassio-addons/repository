@@ -1,10 +1,11 @@
 {
   "name": "Bookstack",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "slug": "bookstack",
   "description": "Simple & Free Wiki Software",
   "url": "https://github.com/hassio-addons/addon-bookstack",
   "webui": "[PROTO:ssl]://[HOST]:[PORT:80]",
+  "init": false,
   "startup": "application",
   "arch": [
     "aarch64",
