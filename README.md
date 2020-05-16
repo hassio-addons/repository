@@ -402,20 +402,6 @@ Flow-based programming for the Internet of Things
 
 [:books: Node-RED add-on documentation][addon-doc-node-red]
 
-### &#10003; [Pi-hole (DEPRECATED!)][addon-pi-hole]
-
-![Latest Version][pi-hole-version-shield]
-![Supports armhf Architecture][pi-hole-armhf-shield]
-![Supports armv7 Architecture][pi-hole-armv7-shield]
-![Supports aarch64 Architecture][pi-hole-aarch64-shield]
-![Supports amd64 Architecture][pi-hole-amd64-shield]
-![Supports i386 Architecture][pi-hole-i386-shield]
-![Docker Pulls][pi-hole-pulls-shield]
-
-The Pi-hole add-on is deprecated, use the AdGuard Home add-on instead.
-
-[:books: Pi-hole (DEPRECATED!) add-on documentation][addon-doc-pi-hole]
-
 ### &#10003; [Plex Media Server][addon-plex]
 
 ![Latest Version][plex-version-shield]
@@ -719,7 +705,6 @@ on the correct GitHub repository matching the add-on.
 - [Open an issue for the add-on: Network UPS Tools][nut-issue]
 - [Open an issue for the add-on: Nginx Proxy Manager][nginxproxymanager-issue]
 - [Open an issue for the add-on: Node-RED][node-red-issue]
-- [Open an issue for the add-on: Pi-hole (DEPRECATED!)][pi-hole-issue]
 - [Open an issue for the add-on: Plex Media Server][plex-issue]
 - [Open an issue for the add-on: Portainer][portainer-issue]
 - [Open an issue for the add-on: SQLite Web][sqlite-web-issue]
@@ -1045,16 +1030,6 @@ SOFTWARE.
 [node-red-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [node-red-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [node-red-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
-[addon-pi-hole]: https://github.com/hassio-addons/addon-pi-hole/tree/v4.1.2
-[addon-doc-pi-hole]: https://github.com/hassio-addons/addon-pi-hole/blob/v4.1.2/README.md
-[pi-hole-issue]: https://github.com/hassio-addons/addon-pi-hole/issues
-[pi-hole-version-shield]: https://img.shields.io/badge/version-v4.1.2-blue.svg
-[pi-hole-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/pi-hole-armhf.svg
-[pi-hole-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
-[pi-hole-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
-[pi-hole-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
-[pi-hole-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
-[pi-hole-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [addon-plex]: https://github.com/hassio-addons/addon-plex/tree/v2.3.2
 [addon-doc-plex]: https://github.com/hassio-addons/addon-plex/blob/v2.3.2/README.md
 [plex-issue]: https://github.com/hassio-addons/addon-plex/issues
