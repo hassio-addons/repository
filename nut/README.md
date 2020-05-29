@@ -44,14 +44,11 @@ sensor:
 For more information on how to configure the NUT Sensor in Home Assistant
 see the [NUT Sensor documentation][nut-sensor-docs].
 
-[Click here for the full documentation][docs]
-
 
 [buymeacoffee-shield]: https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-2.svg
 [buymeacoffee]: https://www.buymeacoffee.com/dale3h
 [discord-shield]: https://img.shields.io/discord/478094546522079232.svg
 [discord]: https://discord.me/hassioaddons
-[docs]: https://github.com/hassio-addons/addon-nut/blob/v0.1.2/README.md
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
 [forum]: https://community.home-assistant.io/t/community-hass-io-add-on-network-ups-tools/68516
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2020.svg
@@ -60,5 +57,5 @@ see the [NUT Sensor documentation][nut-sensor-docs].
 [nut-features]: https://networkupstools.org/features.html
 [nut-sensor-docs]: https://www.home-assistant.io/components/sensor.nut/
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
-[release-shield]: https://img.shields.io/badge/version-v0.1.2-blue.svg
-[release]: https://github.com/hassio-addons/addon-nut/tree/v0.1.2
+[release-shield]: https://img.shields.io/badge/version-v0.2.0-blue.svg
+[release]: https://github.com/hassio-addons/addon-nut/tree/v0.2.0
