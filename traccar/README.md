@@ -28,12 +28,9 @@ so that you can track those as well. AND! With the Home Assistant `traccar`
 integration (introduced in 0.83) the data in Traccar will be sent back into
 your Home Assistant instance as well.
 
-[Click here for the full documentation][docs]
-
 
 [discord-shield]: https://img.shields.io/discord/478094546522079232.svg
 [discord]: https://discord.me/hassioaddons
-[docs]: https://github.com/hassio-addons/addon-traccar/blob/v0.7.3/README.md
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
 [forum]: https://community.home-assistant.io/t/home-assistant-community-add-on-traccar/81407?u=frenck
 [github-sponsors-shield]: https://frenck.dev/wp-content/uploads/2019/12/github_sponsor.png
@@ -42,7 +39,7 @@ your Home Assistant instance as well.
 [patreon-shield]: https://frenck.dev/wp-content/uploads/2019/12/patreon.png
 [patreon]: https://www.patreon.com/frenck
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
-[release-shield]: https://img.shields.io/badge/version-v0.7.3-blue.svg
-[release]: https://github.com/hassio-addons/addon-traccar/tree/v0.7.3
+[release-shield]: https://img.shields.io/badge/version-v0.7.4-blue.svg
+[release]: https://github.com/hassio-addons/addon-traccar/tree/v0.7.4
 [screenshot]: https://github.com/hassio-addons/addon-traccar/raw/master/images/screenshot.png
 [traccar]: https://www.traccar.org
