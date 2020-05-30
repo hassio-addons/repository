@@ -4,16 +4,17 @@ This is a general maintenance release.
 
 ### 🔨 Changes
 
-- :arrow_up: Updates docker to v4.2.0 (#49)
-- :arrow_up: Updates zeroconf to v0.24.5 (#55)
-- :arrow_up: Updates glances to v3.1.4 (#56)
-- :arrow_up: Upgrades add-on base image to v7.0.3
-- :arrow_up: Upgrades gcc to 9.2.0-r4
-- :arrow_up: Upgrades musl-dev to 1.1.24-r1
-- :arrow_up: Upgrades python3 to 3.8.2-r0
-- :hammer: Don't use apk cache on cleanup
+- ⬆ Updates glances to v3.1.4.1 (#59)
+- ⬆ Updates influxdb to v5.3.0 (#62)
+- 📚Update integration details (#68)
+- ⬆ Upgrades add-on base image to v7.2.0
+- 🔨 Implement OCI image specification on labels
+- ⬆ Upgrades musl-dev to 1.1.24-r2
+- ⬆ Updates zeroconf to v0.27.0 (#72)
+- ✏ Split add-on documentation
+- 🚑 Set history_size to 0, to deal with memory leak
 
-[changelog]: https://github.com/hassio-addons/addon-glances/compare/v0.7.0...v0.7.1
+[changelog]: https://github.com/hassio-addons/addon-glances/compare/v0.7.1...v0.8.0
 
 Questions? Join our Discord server! https://discord.me/hassioaddons
 Enjoying my add-ons? Consider supporting my work: https://patreon.com/frenck
