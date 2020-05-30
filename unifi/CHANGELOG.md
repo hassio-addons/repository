@@ -1,13 +1,14 @@
 [Full Changelog][changelog]
 
-### :hammer: Changes
+### 🔨 Changes
 
-- :sparkles: Update port for remote debugging (#74)
-- :arrow_up: Upgrades base image to v5.1.0
-- :arrow_up: Upgrades binutils to 2.30-21ubuntu1~18.04.3
-- :arrow_up: Upgrades openjdk-8-jdk-headless to 8u252-b09-1~18.04
+- ✏ Typo (#80)
+- ⬆ Update Unifi Controller to 5.12.72 (#84)
+- 🔨 Implement OCI image specification on labels
+- ⬆ Upgrades add-on base image to v5.2.1
+- ✏ Split add-on documentation
 
-[changelog]: https://github.com/hassio-addons/addon-unifi/compare/v0.14.1...v0.15.0
+[changelog]: https://github.com/hassio-addons/addon-unifi/compare/v0.15.0...v0.16.0
 
 Questions? Join our Discord server! https://discord.me/hassioaddons
 Enjoying my add-ons? Consider supporting my work:
