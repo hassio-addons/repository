@@ -27,14 +27,11 @@ under attack every day. Security breaches occur and your passwords are stolen.
 When you reuse the same passwords everywhere hackers can easily access your
 email, bank, and other important accounts. USE A PASSWORD MANAGER!
 
-[Click here for the full documentation][docs]
-
 ![Bitwarden Preview][screenshot]
 
 [bitwarden-rs]: https://github.com/dani-garcia/bitwarden_rs
 [discord-shield]: https://img.shields.io/discord/478094546522079232.svg
 [discord]: https://discord.me/hassioaddons
-[docs]: https://github.com/hassio-addons/addon-bitwarden/blob/v0.6.1/README.md
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
 [forum]: https://community.home-assistant.io/t/home-assistant-community-add-on-bitwarden-rs/115573?u=frenck
 [github-sponsors-shield]: https://frenck.dev/wp-content/uploads/2019/12/github_sponsor.png
@@ -43,6 +40,6 @@ email, bank, and other important accounts. USE A PASSWORD MANAGER!
 [patreon-shield]: https://frenck.dev/wp-content/uploads/2019/12/patreon.png
 [patreon]: https://www.patreon.com/frenck
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
-[release-shield]: https://img.shields.io/badge/version-v0.6.1-blue.svg
-[release]: https://github.com/hassio-addons/addon-bitwarden/tree/v0.6.1
+[release-shield]: https://img.shields.io/badge/version-v0.6.2-blue.svg
+[release]: https://github.com/hassio-addons/addon-bitwarden/tree/v0.6.2
 [screenshot]: https://github.com/hassio-addons/addon-bitwarden/raw/master/images/screenshot.png
