@@ -27,11 +27,8 @@ It shows off several features and structures like:
 - Small use of the Bash function library in our base images.
 - The use of Docker label schema.
 
-[Click here for the full documentation][docs]
-
 [discord-shield]: https://img.shields.io/discord/478094546522079232.svg
 [discord]: https://discord.me/hassioaddons
-[docs]: https://github.com/hassio-addons/addon-example/blob/v3.3.2/README.md
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
 [forum]: https://community.home-assistant.io?u=frenck
 [github-sponsors-shield]: https://frenck.dev/wp-content/uploads/2019/12/github_sponsor.png
@@ -40,5 +37,5 @@ It shows off several features and structures like:
 [patreon-shield]: https://frenck.dev/wp-content/uploads/2019/12/patreon.png
 [patreon]: https://www.patreon.com/frenck
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[release-shield]: https://img.shields.io/badge/version-v3.3.2-blue.svg
-[release]: https://github.com/hassio-addons/addon-example/tree/v3.3.2
+[release-shield]: https://img.shields.io/badge/version-v3.4.0-blue.svg
+[release]: https://github.com/hassio-addons/addon-example/tree/v3.4.0

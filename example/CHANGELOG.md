@@ -1,11 +1,12 @@
 [Full Changelog][changelog]
 
-### :hammer: Changes
+### 🔨 Changes
 
-- :arrow_up: Upgrades base image to v7.1.0
-- :hammer: Disable Docker init
+- ⬆ Upgrades add-on base image to v7.2.0
+- 🔨 Implement OCI image specification on labels
+- ✏ Split add-on documentation
 
-[changelog]: https://github.com/hassio-addons/addon-example/compare/v3.3.1...v3.3.2
+[changelog]: https://github.com/hassio-addons/addon-example/compare/v3.3.2...v3.4.0
 
 Questions? Join our Discord server! https://discord.me/hassioaddons
 Enjoying my add-ons? Consider supporting my work:
