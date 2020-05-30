@@ -4,11 +4,14 @@ This is a general maintenance release.
 
 ### 🔨 Changed
 
-- :arrow_up: Upgrades base image to v5.1.0
-- :arrow_up: Upgrades AirConnect to 0.2.24.7
-- :hammer: Disable Docker init
+- ⬆ Upgrades add-on base image to v5.2.0
+- 🔨 Implement OCI image specification on labels
+- ⬆ Upgrades AirConnect to 0.2.25.0
+- ⬆ Upgrades add-on base image to v5.2.1
+- ✏ Split add-on documentation
+- ✏ Documentation tweak
 
-[changelog]: https://github.com/hassio-addons/addon-aircast/compare/v2.3.0...v2.3.1
+[changelog]: https://github.com/hassio-addons/addon-aircast/compare/v2.3.1...v2.3.2
 
 Questions? Join our Discord server! https://discord.me/hassioaddons
 Enjoying my add-ons? Consider supporting my work:
