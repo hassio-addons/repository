@@ -4,15 +4,16 @@ This is a general maintenance release, without any breaking changes.
 
 ### 🔨 Changes
 
-- :arrow_up: Upgrades nginx to 1.16.1-r6
-- :arrow_up: Upgrades php7 to 7.3.14-r0
-- :books: Update add-on documentation to use new YAML configuration format
-- :hammer: Re-branding
-- :hammer: Update add-on config with new password & list features
-- :arrow_up: Upgrades add-on base image to v7.0.2
-- :hammer: Update community forum links
+- ⬆ Upgrades base image to v7.1.0
+- ⬆ Upgrades php7 to 7.3.16-r0
+- 🔨 Disable Docker init
+- ⬆ Upgrades add-on base image to v7.2.0
+- 🔨 Implement OCI image specification on labels
+- ⬆ Upgrades php7 to 7.3.18-r0
+- ⬆ Upgrades git to 2.24.3-r0
+- ✏ Split add-on documentation
 
-[changelog]: https://github.com/hassio-addons/addon-tasmoadmin/compare/v0.9.0...v0.10.0
+[changelog]: https://github.com/hassio-addons/addon-tasmoadmin/compare/v0.10.0...v0.11.0
 
 Questions? Join our Discord server! https://discord.me/hassioaddons
 Enjoying my add-ons? Consider supporting my work:

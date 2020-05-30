@@ -22,13 +22,10 @@ Some of its features:
 - Send out firmware updates over the air to one or more your devices at once
 - Can automatically download the latest firmware for you
 
-[Click here for the full documentation][docs]
-
 ![TasmoAdmin screenshot][screenshot]
 
 [discord-shield]: https://img.shields.io/discord/478094546522079232.svg
 [discord]: https://discord.me/hassioaddons
-[docs]: https://github.com/hassio-addons/addon-tasmoadmin/blob/v0.10.0/README.md
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
 [forum]: https://community.home-assistant.io/t/home-assistant-community-add-on-tasmoadmin/54155?u=frenck
 [github-sponsors-shield]: https://frenck.dev/wp-content/uploads/2019/12/github_sponsor.png
@@ -37,6 +34,6 @@ Some of its features:
 [patreon-shield]: https://frenck.dev/wp-content/uploads/2019/12/patreon.png
 [patreon]: https://www.patreon.com/frenck
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
-[release-shield]: https://img.shields.io/badge/version-v0.10.0-blue.svg
-[release]: https://github.com/hassio-addons/addon-tasmoadmin/tree/v0.10.0
+[release-shield]: https://img.shields.io/badge/version-v0.11.0-blue.svg
+[release]: https://github.com/hassio-addons/addon-tasmoadmin/tree/v0.11.0
 [screenshot]: https://github.com/hassio-addons/addon-tasmoadmin/raw/master/images/screenshot.png

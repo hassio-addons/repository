@@ -1,11 +1,12 @@
 {
   "name": "TasmoAdmin",
-  "version": "0.10.0",
+  "version": "0.11.0",
   "slug": "sonweb",
   "description": "Centrally manage all your Sonoff-Tasmota devices",
   "url": "https://github.com/hassio-addons/addon-tasmoadmin",
   "webui": "[PROTO:ssl]://[HOST]:[PORT:9541]",
   "startup": "system",
+  "init": false,
   "arch": [
     "aarch64",
     "amd64",
