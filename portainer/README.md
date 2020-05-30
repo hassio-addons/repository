@@ -19,8 +19,6 @@ It has never been so easy to manage Docker. Portainer provides a detailed
 overview of Docker and allows you to manage containers, images, networks and
 volumes.
 
-[Click here for the full documentation][docs]
-
 ## WARNING
 
 The Portainer add-on is really powerful and gives you virtually access to
@@ -32,7 +30,6 @@ it could damage your system.
 
 [discord-shield]: https://img.shields.io/discord/478094546522079232.svg
 [discord]: https://discord.me/hassioaddons
-[docs]: https://github.com/hassio-addons/addon-portainer/blob/v1.1.0/README.md
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
 [forum]: https://community.home-assistant.io/t/home-assistant-community-add-on-portainer/68836?u=frenck
 [github-sponsors-shield]: https://frenck.dev/wp-content/uploads/2019/12/github_sponsor.png
@@ -41,6 +38,6 @@ it could damage your system.
 [patreon-shield]: https://frenck.dev/wp-content/uploads/2019/12/patreon.png
 [patreon]: https://www.patreon.com/frenck
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[release-shield]: https://img.shields.io/badge/version-v1.1.0-blue.svg
-[release]: https://github.com/hassio-addons/addon-portainer/tree/v1.1.0
+[release-shield]: https://img.shields.io/badge/version-v1.2.0-blue.svg
+[release]: https://github.com/hassio-addons/addon-portainer/tree/v1.2.0
 [screenshot]: https://github.com/hassio-addons/addon-portainer/raw/master/images/screenshot.png
