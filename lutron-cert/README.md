@@ -38,18 +38,15 @@ lutron_caseta:
 For more information on how to configure Lutron Caseta in Home Assistant see
 the [Lutron Caseta documentation][lutron-caseta-docs].
 
-[Click here for the full documentation][docs]
-
 
 [buymeacoffee-shield]: https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-2.svg
 [buymeacoffee]: https://www.buymeacoffee.com/dale3h
 [discord-shield]: https://img.shields.io/discord/478094546522079232.svg
 [discord]: https://discord.me/hassioaddons
-[docs]: https://github.com/hassio-addons/addon-lutron-cert/blob/v0.5.1/README.md
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
 [forum]: https://community.home-assistant.io/t/home-assistant-community-add-on-lutron-certificate/70317?u=frenck
 [lutron-caseta-docs]: https://www.home-assistant.io/components/lutron_caseta/
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2020.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
-[release-shield]: https://img.shields.io/badge/version-v0.5.1-blue.svg
-[release]: https://github.com/hassio-addons/addon-lutron-cert/tree/v0.5.1
+[release-shield]: https://img.shields.io/badge/version-v0.5.2-blue.svg
+[release]: https://github.com/hassio-addons/addon-lutron-cert/tree/v0.5.2
