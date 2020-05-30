@@ -870,10 +870,10 @@ SOFTWARE.
 [phlex-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [phlex-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [phlex-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
-[addon-foldingathome]: https://github.com/hassio-addons/addon-foldingathome/tree/v0.1.1
-[addon-doc-foldingathome]: https://github.com/hassio-addons/addon-foldingathome/blob/v0.1.1/README.md
+[addon-foldingathome]: https://github.com/hassio-addons/addon-foldingathome/tree/v0.2.0
+[addon-doc-foldingathome]: https://github.com/hassio-addons/addon-foldingathome/blob/v0.2.0/README.md
 [foldingathome-issue]: https://github.com/hassio-addons/addon-foldingathome/issues
-[foldingathome-version-shield]: https://img.shields.io/badge/version-v0.1.1-blue.svg
+[foldingathome-version-shield]: https://img.shields.io/badge/version-v0.2.0-blue.svg
 [foldingathome-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/foldingathome-amd64.svg
 [foldingathome-aarch64-shield]: https://img.shields.io/badge/aarch64-no-red.svg
 [foldingathome-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
