@@ -4,11 +4,12 @@ This is a general maintenance release.
 
 ### Changed
 
-- :arrow_up: Upgrades base image to v7.1.0
-- :arrow_up: Upgrades libgcc to 9.2.0-r4
-- :hammer: Disable Docker init
+- ⬆ Upgrades add-on base image to v7.2.0
+- 🔨 Implement OCI image specification on labels
+- ⬆ Upgrades git to 2.24.3-r0
+- ✏ Split add-on documentation
 
-[changelog]: https://github.com/hassio-addons/addon-zerotier/compare/v0.7.0...v0.7.1
+[changelog]: https://github.com/hassio-addons/addon-zerotier/compare/v0.7.1...v0.7.2
 
 Questions? Join our Discord server! https://discord.me/hassioaddons
 Enjoying my add-ons? Consider supporting my work:
