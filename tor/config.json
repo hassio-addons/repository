@@ -1,6 +1,6 @@
 {
   "name": "Tor",
-  "version": "2.3.0",
+  "version": "2.4.0",
   "slug": "tor",
   "description": "Protect your privacy and access Home Assistant via Tor.",
   "url": "https://github.com/hassio-addons/addon-tor",
@@ -12,6 +12,7 @@
     "armv7",
     "i386"
   ],
+  "init": false,
   "boot": "auto",
   "hassio_api": true,
   "hassio_role": "default",
