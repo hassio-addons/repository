@@ -4,11 +4,11 @@ This is a general maintenance release.
 
 ### 🔨 Changes
 
-- :arrow_up: Upgrades add-on base image to v7.0.5
-- :arrow_up: Upgrades unzip to 6.0-r6
-- :hammer: Disable Docker init
+- ⬆ Upgrades add-on base image to v7.2.0
+- 🔨 Implement OCI image specification on labels
+- ✏ Split add-on documentation
 
-[changelog]: https://github.com/hassio-addons/addon-happy-bubbles/compare/v3.1.0...v3.1.1
+[changelog]: https://github.com/hassio-addons/addon-happy-bubbles/compare/v3.1.1...v3.1.2
 
 Questions? Join our Discord server! https://discord.me/hassioaddons
 Enjoying my add-ons? Consider supporting my work:
