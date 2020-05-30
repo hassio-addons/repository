@@ -28,11 +28,8 @@ WireGuard is currently under heavy development, but already it might be
 regarded as the most secure, easiest to use, and the simplest VPN solution
 in the industry.
 
-[Click here for the full documentation][docs]
-
 [discord-shield]: https://img.shields.io/discord/478094546522079232.svg
 [discord]: https://discord.me/hassioaddons
-[docs]: https://github.com/hassio-addons/addon-wireguard/blob/v0.3.1/README.md
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
 [forum]: https://community.home-assistant.io/t/home-assistant-community-add-on-wireguard/134662?u=frenck
 [github-sponsors-shield]: https://frenck.dev/wp-content/uploads/2019/12/github_sponsor.png
@@ -41,6 +38,6 @@ in the industry.
 [patreon-shield]: https://frenck.dev/wp-content/uploads/2019/12/patreon.png
 [patreon]: https://www.patreon.com/frenck
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
-[release-shield]: https://img.shields.io/badge/version-v0.3.1-blue.svg
-[release]: https://github.com/hassio-addons/addon-wireguard/tree/v0.3.1
+[release-shield]: https://img.shields.io/badge/version-v0.3.2-blue.svg
+[release]: https://github.com/hassio-addons/addon-wireguard/tree/v0.3.2
 [wireguard]: https://www.wireguard.com
