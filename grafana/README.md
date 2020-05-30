@@ -22,13 +22,10 @@ data visualizations.
 Combine this add-on with the InfluxDB add-on to get insanely powerful
 insights to your home.
 
-[Click here for the full documentation][docs]
-
 ![Grafana in the Home Assistant Frontend][screenshot]
 
 [discord-shield]: https://img.shields.io/discord/478094546522079232.svg
 [discord]: https://discord.me/hassioaddons
-[docs]: https://github.com/hassio-addons/addon-grafana/blob/v4.2.1/README.md
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
 [forum]: https://community.home-assistant.io/t/home-assistant-community-add-on-grafana/54674?u=frenck
 [github-sponsors-shield]: https://frenck.dev/wp-content/uploads/2019/12/github_sponsor.png
@@ -37,6 +34,6 @@ insights to your home.
 [patreon-shield]: https://frenck.dev/wp-content/uploads/2019/12/patreon.png
 [patreon]: https://www.patreon.com/frenck
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[release-shield]: https://img.shields.io/badge/version-v4.2.1-blue.svg
-[release]: https://github.com/hassio-addons/addon-grafana/tree/v4.2.1
+[release-shield]: https://img.shields.io/badge/version-v5.0.0-blue.svg
+[release]: https://github.com/hassio-addons/addon-grafana/tree/v5.0.0
 [screenshot]: https://github.com/hassio-addons/addon-grafana/raw/master/images/screenshot.png
