@@ -115,9 +115,9 @@ for Home Assistant.
 
 - This add-on does support ARM-based devices, nevertheless, they must
   at least be an ARMv7 device. (Raspberry Pi 1 and Zero is not supported).
-- The ARM versions (e.g, Raspberry Pi) do not have support for PhantomJS,
-  since Grafana does not support it. The PhantomJS project has been
-  abandoned as well.
+- `To render a panel image, you must install the Grafana Image Renderer plugin.`
+  This message is shown on ARM devices, like a Raspberry Pi. The Grafana Image
+  Renderer plugin is not available for these devices.
 
 ## Changelog & Releases
 
