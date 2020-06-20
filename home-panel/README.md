@@ -32,8 +32,8 @@ A web frontend for controlling the home. Integrates with
 [home-panel]: https://github.com/timmo001/home-panel
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2020.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[release-shield]: https://img.shields.io/badge/version-v1.7.3-blue.svg
-[release]: https://github.com/hassio-addons/addon-home-panel/tree/v1.7.3
+[release-shield]: https://img.shields.io/badge/version-v1.8.0-blue.svg
+[release]: https://github.com/hassio-addons/addon-home-panel/tree/v1.8.0
 [screen-configuration-main]: https://raw.githubusercontent.com/timmo001/home-panel/master/docs/resources/screen-configuration-main.png
 [screen-main]: https://raw.githubusercontent.com/timmo001/home-panel/master/docs/resources/screen-main.png
 [showcase-purple-space]: https://raw.githubusercontent.com/timmo001/home-panel/master/docs/docs/showcase/timmo/purple-space.png
