@@ -21,7 +21,7 @@ A web frontend for controlling the home. Integrates with
 ![Showcase Purple Space][showcase-purple-space]
 
 
-[banner]: https://raw.githubusercontent.com/timmo001/home-panel/master/docs/resources/banner.png
+[banner]: https://raw.githubusercontent.com/timmo001/home-panel/master/documentation/resources/banner.png
 [buymeacoffee-shield]: https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-2.svg
 [buymeacoffee]: https://www.buymeacoffee.com/timmo
 [discord-shield]: https://img.shields.io/discord/478094546522079232.svg
@@ -32,8 +32,8 @@ A web frontend for controlling the home. Integrates with
 [home-panel]: https://github.com/timmo001/home-panel
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2020.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[release-shield]: https://img.shields.io/badge/version-v1.8.0-blue.svg
-[release]: https://github.com/hassio-addons/addon-home-panel/tree/v1.8.0
-[screen-configuration-main]: https://raw.githubusercontent.com/timmo001/home-panel/master/docs/resources/screen-configuration-main.png
-[screen-main]: https://raw.githubusercontent.com/timmo001/home-panel/master/docs/resources/screen-main.png
-[showcase-purple-space]: https://raw.githubusercontent.com/timmo001/home-panel/master/docs/docs/showcase/timmo/purple-space.png
+[release-shield]: https://img.shields.io/badge/version-v1.8.1-blue.svg
+[release]: https://github.com/hassio-addons/addon-home-panel/tree/v1.8.1
+[screen-configuration-main]: https://raw.githubusercontent.com/timmo001/home-panel/master/documentation/resources/screen-configuration-main.png
+[screen-main]: https://raw.githubusercontent.com/timmo001/home-panel/master/documentation/resources/screen-main.png
+[showcase-purple-space]: https://raw.githubusercontent.com/timmo001/home-panel/master/documentation/docs/showcase/timmo/purple-space.png
