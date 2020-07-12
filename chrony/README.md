@@ -21,5 +21,5 @@ time on devices with controlled internet access (such as cameras).
 [forum]: https://community.home-assistant.io/?u=frenck
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2020.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[release-shield]: https://img.shields.io/badge/version-v1.0.11-blue.svg
-[release]: https://github.com/hassio-addons/addon-chrony/tree/v1.0.11
+[release-shield]: https://img.shields.io/badge/version-v1.1.0-blue.svg
+[release]: https://github.com/hassio-addons/addon-chrony/tree/v1.1.0
