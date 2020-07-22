@@ -2,10 +2,10 @@
 
 ### 🔨 Changes
 
-- ⬆ Upgrades base image to v3.2.1
-- ⬆ Upgrades Chronograf to 1.8.5
+- ⬆ Upgrades InfluxDB to 1.8.1
+- 🔥 Remove Renovatebot
 
-[changelog]: https://github.com/hassio-addons/addon-influxdb/compare/v3.7.1...v3.7.2
+[changelog]: https://github.com/hassio-addons/addon-influxdb/compare/v3.7.2...v3.7.3
 
 Questions? Join our Discord server! https://discord.me/hassioaddons
 Enjoying my add-ons? Consider supporting my work:
