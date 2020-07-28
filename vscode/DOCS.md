@@ -35,7 +35,6 @@ packages:
   - mariadb-client
 init_commands:
   - ls -la
-disable_telemetry: false
 ```
 
 **Note**: _This is just an example, don't copy and paste it! Create your own!_
@@ -71,10 +70,6 @@ time for the add-on._
 Customize your VSCode environment even more with the `init_commands` option.
 Add one or more shell commands to the list, and they will be executed every
 single time this add-on starts.
-
-### Option: `disable_telemetry`
-
-Disables anonymous usage telemetry data from being sent to code-server.
 
 ## Resetting your VSCode settings to the add-on defaults
 

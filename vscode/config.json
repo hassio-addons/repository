@@ -1,12 +1,12 @@
 {
   "name": "Visual Studio Code",
-  "version": "2.3.0",
+  "version": "2.4.0",
   "slug": "vscode",
   "description": "Fully featured VSCode experience, to edit your HA config in the browser, including auto-completion!",
   "url": "https://github.com/hassio-addons/addon-vscode",
   "ingress": true,
   "ingress_port": 1337,
-  "panel_icon": "mdi:visual-studio-code",
+  "panel_icon": "mdi:microsoft-visual-studio-code",
   "startup": "services",
   "init": false,
   "arch": [
