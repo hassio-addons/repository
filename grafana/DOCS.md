@@ -180,7 +180,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 [contributors]: https://github.com/hassio-addons/addon-grafana/graphs/contributors
-[create-db]: https://github.com/hassio-addons/addon-influxdb#integrating-into-home-assistant
+[create-db]: https://github.com/hassio-addons/addon-influxdb/blob/master/influxdb/DOCS.md#integrating-into-home-assistant
 [discord-ha]: https://discord.gg/c5DvZ4e
 [discord]: https://discord.me/hassioaddons
 [forum]: https://community.home-assistant.io/t/home-assistant-community-add-on-grafana/54674?u=frenck
