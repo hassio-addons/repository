@@ -59,6 +59,8 @@ you are troubleshooting.
 Enables/Disables SSL (HTTPS) on the web interface of TasmoAdmin
 Panel. Set it `true` to enable it, `false` otherwise.
 
+**Note** Tasmota does not support OTA via SSL
+
 ### Option: `certfile`
 
 The certificate file to use for SSL.
