@@ -2,14 +2,12 @@
 
 ### 🔨  Changes
 
-- ⬆ Upgrades add-on base image to v7.2.0
-- 🔨 Implement OCI image specification on labels
-- ⬆ Upgrades mariadb-client to 10.4.13-r0
-- ⬆ Upgrades php7 to 7.3.18-r0
-- 🔨 Add php7-iconv (#14)
-- ✏ Split add-on documentation
+- ⬆ Upgrades add-on base image to v8.0.1
+- ⬆ Upgrades php7 to 7.3.21-r0
+- ⬆ Upgrades nginx to 1.18.0-r0
+- 🔥 Remove Renovatebot
 
-[changelog]: https://github.com/hassio-addons/addon-phpmyadmin/compare/v0.1.2...v0.1.3
+[changelog]: https://github.com/hassio-addons/addon-phpmyadmin/compare/v0.1.3...v0.1.4
 
 Questions? Join our Discord server! https://discord.me/hassioaddons
 Enjoying my add-ons? Consider supporting my work:
