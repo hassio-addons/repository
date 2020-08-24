@@ -155,6 +155,9 @@ This is the recommended over setting a password.
 Please take a look at the awesome [documentation created by GitHub][github-ssh]
 about using public/private key pairs and how to create them.
 
+**Note**: _Please ensure the keys are specified as a list by pasting within the
+`[]` comma delimited._
+
 #### Option `ssh`: `sftp`
 
 When set to `true` the addon will enable SFTP support on the SSH daemon.
