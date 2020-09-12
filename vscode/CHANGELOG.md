@@ -1,26 +1,20 @@
 [Full Changelog][changelog]
 
-Sorry, it has been a while! It took a bit to get all parts of this add-on working together as it should, which now it does!
-
-A brand new code-server, with a Home Assistant vscode extension that had some major upgrades! Furthermore, the latest MDI icons, supported by Home Assistant Core 0.113 are available and quite a bit of tweaking in general.
+This release upgrades all main parts of the add-on, including a new code-server/vscode and an updated extension for Home Assistant; Ready for the features in the upcoming Home Assistant 0.115! 🥳 
 
 ### 🔨 Changes
 
-- ⬆️  Upgrades code-server to 3.4.1 (#112)
-- 📚 Update README for removal of disable_telemetry config option (#110)
-- ⬆ Upgrades base image to v3.2.1
-- ⬆ Upgrades ESPHome.esphome-vscode to 0.3.0
-- ⬆ Upgrades lukas-tr.materialdesignicons-intellisense to 3.0.0
-- 🔥 Remove Renovatebot
-- 🚑 Increase sleep between extension downloads
-- 🚑  Fix extension downloads (#120)
-- ⬆ Upgrades keesschollaart.vscode-home-assistant to 1.7.1
-- 🚑 Fix MDI icon to new name (#121)
-- ⬆ Upgrades emilast.LogFileHighlighter to 2.9.0
-- ⬆ Upgrades redhat.vscode-yaml to 0.9.1
-- ⬆ Upgrades keesschollaart.vscode-home-assistant to 1.8.1
+- ⬆ Upgrades add-on base image to v3.2.2
+- ⬆ Upgrades mariadb-client to 1:10.3.23-0+deb10u1
+- ⬆ Upgrades nmap to 7.70+dfsg1-6+deb10u1
+- ⬆ Upgrades code-server to 3.5.0
+- ⬆ Upgrades redhat.vscode-yaml to 0.10.1
+- ⬆ Upgrades usernamehw.errorlens to 3.2.1
+- ⬆ Upgrades Home Assistant CLI to v4.4.1
+- ⬆ Upgrades keesschollaart.vscode-home-assistant to 1.9.0
+- ✨ Add symlink from code to code-server for natrual use
 
-[changelog]: https://github.com/hassio-addons/addon-vscode/compare/v2.3.0...v2.4.0
+[changelog]: https://github.com/hassio-addons/addon-vscode/compare/v2.4.0...v2.5.0
 
 Questions? Join our Discord server! https://discord.me/hassioaddons
 Enjoying my add-ons? Consider supporting my work:
