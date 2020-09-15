@@ -1,6 +1,6 @@
 {
   "name": "FTP",
-  "version": "3.3.3",
+  "version": "3.4.0",
   "slug": "ftp",
   "description": "A secure and fast FTP server for Home Assistant",
   "url": "https://github.com/hassio-addons/addon-ftp",
@@ -26,6 +26,7 @@
     "addons:rw",
     "backup:rw",
     "config:rw",
+    "media:rw",
     "share:rw",
     "ssl:rw"
   ],
@@ -53,6 +54,7 @@
         "addons": false,
         "backup": false,
         "config": false,
+        "media": true,
         "share": true,
         "ssl": false
       }
@@ -83,6 +85,7 @@
         "addons": "bool",
         "backup": "bool",
         "config": "bool",
+        "media": "bool",
         "share": "bool",
         "ssl": "bool"
       }
