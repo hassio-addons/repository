@@ -1,4 +1,4 @@
-# ESPHome Hass.io Add-On
+# ESPHome Home Assistant Add-On
 
 [![ESPHome logo](https://raw.githubusercontent.com/esphome/hassio/master/esphome-dev/logo.png)](https://esphome.io/)
 
@@ -9,7 +9,7 @@
 ## About
 
 This add-on allows you to manage and program your ESP8266 and ESP32 based microcontrollers
-directly through Hass.io **with no programming experience required**. All you need to do
+directly through Home Assistant **with no programming experience required**. All you need to do
 is write YAML configuration files; the rest (over-the-air updates, compiling) is all
 handled by ESPHome.
 
@@ -17,7 +17,7 @@ handled by ESPHome.
 <img title="ESPHome dashboard screenshot" src="https://raw.githubusercontent.com/esphome/hassio/master/esphome-dev/images/screenshot.png" width="700px"></img>
 </p>
 
-[_View the ESPHome documentation here_](https://esphome.io/)
+[View the ESPHome documentation](https://esphome.io/)
 
 ## Example
 
@@ -34,17 +34,17 @@ Then just click UPLOAD and the sensor will magically appear in Home Assistant:
 
 ## Installation
 
-To install this Hass.io add-on you need to add the ESPHome add-on repository
+To install this Home Assistant add-on you need to add the ESPHome add-on repository
 first:
 
-1. Add the epshomeyaml add-ons repository to your Hass.io instance. You can do this by navigating to the "Add-on Store" tab in the Hass.io panel and then entering https://github.com/esphome/hassio in the "Add new repository by URL" field.
+1. Add the ESPHome add-ons repository to your Home Assistant instance. You can do this by navigating to the "Add-on store" tab in the Supervisor panel and then entering https://github.com/esphome/hassio in the "Add repository" field after selecting "Repositories" from the top-right menu.
 2. Now scroll down and select the "ESPHome" add-on.
 3. Press install to download the add-on and unpack it on your machine. This can take some time.
-4. Optional: If you're using SSL certificates and want to encrypt your communication to this add-on, please enter `true` into the `ssl` field and set the `fullchain` and `certfile` options accordingly.
+4. Optional: If you're using SSL/TLS certificates and want to encrypt your communication to this add-on, please enter `true` into the `ssl` field and set the `fullchain` and `certfile` options accordingly.
 5. Start the add-on, check the logs of the add-on to see if everything went well.
-6. Click "OPEN WEB UI" to open the ESPHome dashboard. You will be asked for your Home Assistant credentials - ESPHome uses Hass.io's authentication system to log you in.
+6. Click "OPEN WEB UI" to open the ESPHome dashboard. You will be asked for your Home Assistant credentials - ESPHome uses Home Assistant's authentication system to log you in.
 
-You can view the ESPHome docs here: https://esphome.io/
+You can view the ESPHome documentation at https://esphome.io/
 
 ## Configuration
 
@@ -62,7 +62,7 @@ Example add-on configuration:
 
 ### Option: `ssl`
 
-Enables/Disables encrypted SSL (HTTPS) connections to the web server of this add-on.
+Enables or disables encrypted SSL/TLS (HTTPS) connections to the web server of this add-on.
 Set it to `true` to encrypt communications, `false` otherwise.
 Please note that if you set this to `true` you must also generate the key and certificate
 files for encryption. For example using [Let's Encrypt](https://www.home-assistant.io/addons/lets_encrypt/)
@@ -72,13 +72,13 @@ or [Self-signed certificates](https://www.home-assistant.io/docs/ecosystem/certi
 
 The certificate file to use for SSL. If this file doesn't exist, the add-on start will fail.
 
-**Note**: The file MUST be stored in `/ssl/`, which is the default for Hass.io
+**Note**: The file MUST be stored in `/ssl/`, which is the default for Home Assistant
 
 ### Option: `keyfile`
 
 The private key file to use for SSL. If this file doesn't exist, the add-on start will fail.
 
-**Note**: The file MUST be stored in `/ssl/`, which is the default for Hass.io
+**Note**: The file MUST be stored in `/ssl/`, which is the default for Home Assistant
 
 ### Option: `leave_front_door_open`
 
@@ -87,9 +87,9 @@ authentication by setting it to `true`.
 
 ### Option: `esphome_version`
 
-Manually override which ESPHome version to use in the addon.
+Manually override which ESPHome version to use in the add-on.
 For example to install the latest development version, use `"esphome_version": "dev"`,
-or for version 1.10.0: `"esphome_version": "v1.10.0""`.
+or for version 1.14.0: `"esphome_version": "v1.14.0""`.
 
 Please note that this does not always work and is only meant for testing, usually the
 ESPHome add-on and dashboard version must match to guarantee a working system.
@@ -97,7 +97,7 @@ ESPHome add-on and dashboard version must match to guarantee a working system.
 ### Option: `relative_url`
 
 Host the ESPHome dashboard under a relative URL, so that it can be integrated
-into existing web proxys like nginx under a relative URl. Defaults to `/`.
+into existing web proxies like NGINX under a relative URL. Defaults to `/`.
 
 ### Option: `status_use_ping`
 
@@ -110,7 +110,7 @@ Setting this to `true` will make ESPHome use ICMP ping requests to get the node 
 
 If set to `true`, this will enable streamer mode, which makes ESPHome hide all
 potentially private information. So for example WiFi (B)SSIDs (which could be
-used to find your location), usernames etc. Please note that you need to use
+used to find your location), usernames, etc. Please note that you need to use
 the `!secret` tag in your YAML file to also prevent these from showing up
 while editing and validating.
 
