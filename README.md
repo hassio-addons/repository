@@ -864,7 +864,7 @@ SOFTWARE.
 [esphome-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [esphome-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [esphome-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
-[esphome-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
+[esphome-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [addon-example]: https://github.com/hassio-addons/addon-example/tree/v3.4.0
 [addon-doc-example]: https://github.com/hassio-addons/addon-example/blob/v3.4.0/README.md
 [example-issue]: https://github.com/hassio-addons/addon-example/issues
