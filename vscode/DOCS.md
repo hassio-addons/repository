@@ -31,6 +31,7 @@ Example add-on configuration:
 
 ```yaml
 log_level: info
+config_path: /share/my_path
 packages:
   - mariadb-client
 init_commands:
@@ -49,13 +50,21 @@ dealing with an unknown issue. Possible values are:
 - `debug`: Shows detailed debug information.
 - `info`: Normal (usually) interesting events.
 - `warning`: Exceptional occurrences that are not errors.
-- `error`:  Runtime errors that do not require immediate action.
+- `error`: Runtime errors that do not require immediate action.
 - `fatal`: Something went terribly wrong. Add-on becomes unusable.
 
 Please note that each level automatically includes log messages from a
 more severe level, e.g., `debug` also shows `info` messages. By default,
 the `log_level` is set to `info`, which is the recommended setting unless
 you are troubleshooting.
+
+### Option: `config_path`
+
+This option allows you to override the default path the add-on will open
+when accessing the web interface. For example, use a different
+configuration directory like `/share/myconfig` instead of `/config`.
+
+When not configured, the addon will automatically use the default: `/config`
 
 ### Option: `packages`
 
@@ -128,13 +137,13 @@ will come up with a better solution for this soon.
 - "Visual Studio Code is unable to watch for file changes in this large
   workspace" (error ENOSPC)
 
-   This issue is caused by your system not having enough file handles,
-   which causes VSCode to be unable to watch all your files. For HassOS,
-   currently the only option is to click on the little cog when the
-   notification appears and tell it to not show again. In case you have
-   a generic Linux setup (e.g., Ubuntu), follow this guide by Microsoft:
+  This issue is caused by your system not having enough file handles,
+  which causes VSCode to be unable to watch all your files. For HassOS,
+  currently the only option is to click on the little cog when the
+  notification appears and tell it to not show again. In case you have
+  a generic Linux setup (e.g., Ubuntu), follow this guide by Microsoft:
 
-   <https://code.visualstudio.com/docs/setup/linux#_visual-studio-code-is-unable-to-watch-for-file-changes-in-this-large-workspace-error-enospc>
+  <https://code.visualstudio.com/docs/setup/linux#_visual-studio-code-is-unable-to-watch-for-file-changes-in-this-large-workspace-error-enospc>
 
 ## Changelog & Releases
 
@@ -143,12 +152,12 @@ functionality. The format of the log is based on
 [Keep a Changelog][keepchangelog].
 
 Releases are based on [Semantic Versioning][semver], and use the format
-of ``MAJOR.MINOR.PATCH``. In a nutshell, the version will be incremented
+of `MAJOR.MINOR.PATCH`. In a nutshell, the version will be incremented
 based on the following:
 
-- ``MAJOR``: Incompatible or major changes.
-- ``MINOR``: Backwards-compatible new features and enhancements.
-- ``PATCH``: Backwards-compatible bugfixes and package updates.
+- `MAJOR`: Incompatible or major changes.
+- `MINOR`: Backwards-compatible new features and enhancements.
+- `PATCH`: Backwards-compatible bugfixes and package updates.
 
 ## Support
 
