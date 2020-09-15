@@ -2,9 +2,9 @@
 
 ### 🔨 Changes
 
-- ⬆️ Upgrades Plex Media Server to 1.20.1.3252 (#42)
+- ✨ Add support for the new media folder
 
-[changelog]: https://github.com/hassio-addons/addon-plex/compare/v2.3.3...v2.3.4
+[changelog]: https://github.com/hassio-addons/addon-plex/compare/v2.3.4...v2.4.0
 
 Questions? Join our Discord server! https://discord.me/hassioaddons
 Enjoying my add-ons? Consider supporting my work:
