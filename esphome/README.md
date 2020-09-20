@@ -89,7 +89,11 @@ authentication by setting it to `true`.
 
 Manually override which ESPHome version to use in the add-on.
 For example to install the latest development version, use `"esphome_version": "dev"`,
-or for version 1.14.0: `"esphome_version": "v1.14.0""`.
+or for version 1.14.0: `"esphome_version": "v1.14.0"`.
+
+This can also be used to specify a branch of a fork of the esphome repository.
+For example to install the test_new_component branch of a fork made by user123, use `"user123:test_new_component"`.
+This usage assumes the forked repository is named `esphome`.
 
 Please note that this does not always work and is only meant for testing, usually the
 ESPHome add-on and dashboard version must match to guarantee a working system.
