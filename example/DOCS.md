@@ -1,6 +1,6 @@
 # Home Assistant Community Add-on: Example
 
-This is an example add-on for Hass.io. When started, it displays a
+This is an example add-on for Home Assistant. When started, it displays a
 random quote every 5 seconds.
 
 It shows off several features and structures like:
@@ -10,8 +10,8 @@ It shows off several features and structures like:
 - The use of the `config.json` and `build.json` files.
 - General shell scripting structure (`run.sh`).
 - Quality assurance using CodeClimate.
-- Continuous integration and deployment using CircleCI.
-- Usage of the Community Hass.io Add-ons build environment.
+- Continuous integration and deployment using GitLab.
+- Usage of the Community Home Assistant Add-ons build environment.
 - Small use of the Bash function library in our base images.
 - The use of Docker label schema.
 
@@ -40,7 +40,7 @@ seconds_between_quotes: 5
 
 ### Option: `log_level`
 
-The `log_level` option controls the level of log output by the addon and can
+The `log_level` option controls the level of log output by the add-on and can
 be changed to be more or less verbose, which might be useful when you are
 dealing with an unknown issue. Possible values are:
 

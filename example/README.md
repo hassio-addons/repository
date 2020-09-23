@@ -8,11 +8,11 @@
 
 [![Support Frenck on Patreon][patreon-shield]][patreon]
 
-Example add-on by Community Hass.io add-ons.
+Example add-on by Community Home Assistant add-ons.
 
 ## About
 
-This is an example add-on for Hass.io. When started, it displays a
+This is an example add-on for Home Assistant. When started, it displays a
 random quote every 5 seconds.
 
 It shows off several features and structures like:
@@ -22,8 +22,8 @@ It shows off several features and structures like:
 - The use of the `config.json` and `build.json` files.
 - General shell scripting structure (`run.sh`).
 - Quality assurance using CodeClimate.
-- Continuous integration and deployment using CircleCI.
-- Usage of the Community Hass.io Add-ons build environment.
+- Continuous integration and deployment using GitLab.
+- Usage of the Community Home Assistant Add-ons build environment.
 - Small use of the Bash function library in our base images.
 - The use of Docker label schema.
 
@@ -37,5 +37,5 @@ It shows off several features and structures like:
 [patreon-shield]: https://frenck.dev/wp-content/uploads/2019/12/patreon.png
 [patreon]: https://www.patreon.com/frenck
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[release-shield]: https://img.shields.io/badge/version-v3.4.0-blue.svg
-[release]: https://github.com/hassio-addons/addon-example/tree/v3.4.0
+[release-shield]: https://img.shields.io/badge/version-v3.5.1-blue.svg
+[release]: https://github.com/hassio-addons/addon-example/tree/v3.5.1
