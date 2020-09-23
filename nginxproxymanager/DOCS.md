@@ -60,6 +60,14 @@ more severe level, e.g., `debug` also shows `info` messages. By default,
 the `log_level` is set to `info`, which is the recommended setting unless
 you are troubleshooting.
 
+### Option: `reset_database`
+
+By setting to `true` provides the option to delete and recreate the database. As
+the data is held within the MariaDB addon, it is not removed on an uninstall.
+
+**Note**: _Once the database is reset the configuration for the addon will be
+cleared automatically_
+
 ## Known issues and limitations
 
 - The original NGinx Proxy Manager has support for forwarding TCP/UDP streams,
