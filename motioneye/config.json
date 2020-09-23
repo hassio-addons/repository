@@ -1,6 +1,6 @@
 {
   "name": "motionEye",
-  "version": "0.9.0",
+  "version": "0.10.0",
   "slug": "motioneye",
   "description": "Simple, elegant and feature-rich CCTV/NVR for your cameras",
   "url": "https://github.com/hassio-addons/addon-motioneye",
@@ -35,6 +35,7 @@
     "SYS_ADMIN"
   ],
   "map": [
+    "media:rw",
     "share:rw",
     "ssl"
   ],
