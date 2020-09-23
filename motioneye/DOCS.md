@@ -115,7 +115,7 @@ Type of action button. Acceptable types are:
 - `zoom_in` and `zoom_out`.
 - `preset1` to `preset9`.
 
-#### Sub-option: `action_buttons. camera`
+#### Sub-option: `action_buttons.camera`
 
 The camera identification number. Corresponds to the camera number as set up
 within the motionEye UI.
