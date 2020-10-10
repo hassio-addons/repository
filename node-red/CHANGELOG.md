@@ -2,11 +2,12 @@
 
 ### 🔨  Changes
 
-- ⬆️ Bump node-red-contrib-moment from 3.0.3 to 4.0.0 (#706)
-- ⬆️ Bump snyk from 1.406.0 to 1.409.1 (#707)
-- ⬆️ Bump node-red-contrib-home-assistant-websocket to 0.27.0 (#708)
+- ⬆️ Bump node-red-contrib-bigtimer from 2.5.0 to 2.6.0 (#712)
+- ⬆️ Bump snyk from 1.409.1 to 1.410.2 (#711)
+- ⬆️ Bump node-red-contrib-home-assistant-websocket from 0.27.0 to 0.27.1 (#710)
+- ⬆️ Bump snyk from 1.410.2 to 1.410.4 (#716)
 
-[changelog]: https://github.com/hassio-addons/addon-node-red/compare/v7.2.2...v7.2.3
+[changelog]: https://github.com/hassio-addons/addon-node-red/compare/v7.2.3...v7.2.4
 
 Questions? Join our Discord server! https://discord.me/hassioaddons
 Enjoying my add-ons? Consider supporting my work:
