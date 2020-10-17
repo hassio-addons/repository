@@ -126,14 +126,12 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[config]: https://timmo.dev/home-panel/configui/
+[config]: https://home-panel-docs.timmo.dev/configui/
 [contributors]: https://github.com/hassio-addons/addon-home-panel/graphs/contributors
 [discord-ha]: https://discord.gg/c5DvZ4e
 [discord]: https://discord.me/hassioaddons
-[docs]: https://timmo.dev/home-panel/
 [forum]: https://community.home-assistant.io/t/home-panel-a-touch-compatible-webapp-for-controlling-the-home/62597?u=timmo001
 [hass]: https://www.home-assistant.io/
-[home-panel]: https://timmo.dev/home-panel
 [issue]: https://github.com/hassio-addons/addon-home-panel/issues
 [keepchangelog]: http://keepachangelog.com/en/1.0.0/
 [reddit]: https://reddit.com/r/homeassistant
