@@ -1,0 +1,11 @@
+{
+  "squash": false,
+  "build_from": {
+    "aarch64": "mcr.microsoft.com/azure-sql-edge:latest",
+    "amd64": "mcr.microsoft.com/azure-sql-edge:latest",
+    "armhf": "mcr.microsoft.com/azure-sql-edge:latest",
+    "armv7": "mcr.microsoft.com/azure-sql-edge:latest",
+    "i386": "mcr.microsoft.com/azure-sql-edge:latest"
+  },
+  "args": {}
+}

@@ -1,0 +1,24 @@
+{
+  "name": "MSSQL",
+  "version": "0.30.01",
+  "slug": "mssql",
+  "description": "MS-SQL Server",
+  "url": "https://github.com/ocalvo/addon-mssql",
+  "startup": "application",
+  "init": false,
+  "arch": ["aarch64", "amd64", "armhf", "armv7", "i386"],
+  "boot": "auto",
+  "hassio_api": true,
+  "hassio_role": "default",
+  "ports": {
+      "1433/tcp": null
+  },
+  "options": {
+    "ACCEPT_EULA": 0,
+    "MSSQL_SA_PASSWORD": null
+  },
+  "schema": {
+    "ACCEPT_EULA": "int(0,1)",
+    "MSSQL_SA_PASSWORD": "str"
+  }
+}
