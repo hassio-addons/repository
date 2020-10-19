@@ -2,9 +2,9 @@
 
 ### 🔨 Changes
 
-- ⬆ Upgrades UniFi Controller to v6.0.23
+- ⬆ Upgrades UniFi Controller to v6.0.27 (#110)
 
-[changelog]: https://github.com/hassio-addons/addon-unifi/compare/v0.18.1...v0.19.0
+[changelog]: https://github.com/hassio-addons/addon-unifi/compare/v0.19.0...v0.19.1
 
 Questions? Join our Discord server! https://discord.me/hassioaddons
 Enjoying my add-ons? Consider supporting my work:
