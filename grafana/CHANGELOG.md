@@ -2,10 +2,10 @@
 
 ### 🔨  Changes
 
-- ⬆ Upgrades libx11-6 to 2:1.6.7-1+deb10u1
-- ⬆ Upgrades Grafana to v7.2.1
+- ⬆ Upgrades Grafana to v7.2.2
+- ⬆ Upgrades base image to v3.2.3
 
-[changelog]: https://github.com/hassio-addons/addon-grafana/compare/v5.3.0...v5.3.1
+[changelog]: https://github.com/hassio-addons/addon-grafana/compare/v5.3.1...v5.3.2
 
 Questions? Join our Discord server! https://discord.me/hassioaddons
 Enjoying my add-ons? Consider supporting my work:
