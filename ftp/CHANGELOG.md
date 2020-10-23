@@ -1,16 +1,11 @@
 [Full Changelog][changelog]
-
-This release add support for the new media folder that is exposed.
-Please note, this also means the configuration changed!
-
-Each user now has a `allow_media` configuration option, to grant users access to that folder.
-
 ### 🔨 Changes
 
-- ✨ Add support for the new media folder
-- ⬆ Upgrades add-on base image to v8.0.2
+- 🔨Add pasv_addr_resolve to config (#20)
+- ⬆ Upgrades add-on base image to v8.0.3
+- ⬆ Upgrades base image to v8.0.4
 
-[changelog]: https://github.com/hassio-addons/addon-ftp/compare/v3.3.3...v3.4.0
+[changelog]: https://github.com/hassio-addons/addon-ftp/compare/v3.4.0...v3.5.0
 
 Questions? Join our Discord server! https://discord.me/hassioaddons
 Enjoying my add-ons? Consider supporting my work:

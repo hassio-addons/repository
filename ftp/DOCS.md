@@ -126,6 +126,10 @@ in response to the PASV command. Provide a numeric IP address, or provide a
 hostname which will be DNS resolved for you at startup. When left empty, the
 address is taken from the incoming connected socket.
 
+### Option: `pasv_addr_resolve`
+
+Set to `true` to allow a hostname to be resolved for PASV connections.
+
 ### Option: `ssl`
 
 Enables/Disables SSL on the FTP Server. Set it `true` to enable it,
