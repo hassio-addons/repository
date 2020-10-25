@@ -11,6 +11,20 @@
 Presence detection server for Happy Bubbles Bluetooth beacon-based
 presence detection system.
 
+## Deprecation warning
+
+**This add-on is in a deprecated state!**
+
+The Happy Bubbles project/company announced in 2018, that they would take a
+break. Two years later, they still haven't returned and at this point,
+it seems unlikely that that will every happen.
+
+See: <https://www.happybubbles.tech/blog/post/2018-hiatus/>
+
+The time has come to deprecate this add-on because of the above. If you
+are still in need of running a Happy Bubbles presence server, please refer to
+the official Happy Bubbles site.
+
 ## About
 
 This add-on is a server that subscribes to MQTT topics that the "Happy Bubbles"
@@ -36,6 +50,6 @@ as they happen, to not have to keep polling it.
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2020.svg
 [patreon-shield]: https://frenck.dev/wp-content/uploads/2019/12/patreon.png
 [patreon]: https://www.patreon.com/frenck
-[project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[release-shield]: https://img.shields.io/badge/version-v3.1.3-blue.svg
-[release]: https://github.com/hassio-addons/addon-happy-bubbles/tree/v3.1.3
+[project-stage-shield]: https://img.shields.io/badge/project%20stage-%20!%20DEPRECATED%20%20%20!-ff0000.svg
+[release-shield]: https://img.shields.io/badge/version-v3.1.4-blue.svg
+[release]: https://github.com/hassio-addons/addon-happy-bubbles/tree/v3.1.4
