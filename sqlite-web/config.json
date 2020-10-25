@@ -1,6 +1,6 @@
 {
   "name": "SQLite Web",
-  "version": "2.2.2",
+  "version": "2.3.0",
   "slug": "sqlite-web",
   "description": "Explore your SQLite database",
   "url": "https://github.com/hassio-addons/addon-sqlite-web/tree/master/README.md",
@@ -29,6 +29,7 @@
     "6220/tcp": "Datasette API endpoint"
   },
   "map": [
+    "share:rw",
     "ssl",
     "config:rw"
   ],
@@ -43,6 +44,7 @@
   "schema": {
     "log_level": "list(trace|debug|info|notice|warning|error|fatal)?",
     "database_path": "str",
+    "folder_path": "str?",
     "read_only": "bool",
     "datasette": "bool",
     "ssl": "bool",

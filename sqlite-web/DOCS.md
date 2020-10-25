@@ -55,7 +55,13 @@ you are troubleshooting.
 
 ### Option: `database_path`
 
-The path for the database file relative to `/config/`
+The path for the database file relative to `/config/` or the folder path
+configuration.
+
+### Option: `folder_path`
+
+If the database has been moved from `/config/` allows the folder to be specified
+for example `/share/somefolder/`. Please ensure the trailing slash is set.
 
 ### Option: `read_only`
 
