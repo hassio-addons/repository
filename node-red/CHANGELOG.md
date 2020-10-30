@@ -2,14 +2,11 @@
 
 ### 🔨  Changes
 
-- ⬆️ Bump node-red-node-email to 1.8.0 (#725)
-- ⬆️ Bump node-red to 1.2.2 (#726)
-- ⬆️ Bump node-red-node-geofence to 0.1.3 (#729)
-- ⬆️ Bump snyk to 1.419.1 (#730)
-- ⬆ Upgrades nginx to 1.18.0-r1
-- ⬆ Upgrades base image to v8.0.5
+- ⬆️ Bump node-red-dashboard from 2.23.4 to 2.23.5 (#739)
+- ⬆️ Bump snyk from 1.419.1 to 1.421.1 (#738)
+- ⬆️ Bump node-red-node-email from 1.8.0 to 1.8.2 (#735)
 
-[changelog]: https://github.com/hassio-addons/addon-node-red/compare/v7.2.5...v7.2.6
+[changelog]: https://github.com/hassio-addons/addon-node-red/compare/v7.2.6...v7.2.7
 
 Questions? Join our Discord server! https://discord.me/hassioaddons
 Enjoying my add-ons? Consider supporting my work:
