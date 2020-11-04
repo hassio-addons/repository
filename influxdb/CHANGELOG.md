@@ -2,9 +2,9 @@
 
 ### 🔨 Changes
 
-- ⬆ Upgrades Kapacitor to 1.5.7-1
+- ⬆ Upgrades Chronograf to 1.8.8
 
-[changelog]: https://github.com/hassio-addons/addon-influxdb/compare/v3.7.7...v3.7.8
+[changelog]: https://github.com/hassio-addons/addon-influxdb/compare/v3.7.8...v3.7.9
 
 Questions? Join our Discord server! https://discord.me/hassioaddons
 Enjoying my add-ons? Consider supporting my work:
