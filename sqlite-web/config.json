@@ -1,6 +1,6 @@
 {
   "name": "SQLite Web",
-  "version": "2.3.1",
+  "version": "2.3.2",
   "slug": "sqlite-web",
   "description": "Explore your SQLite database",
   "url": "https://github.com/hassio-addons/addon-sqlite-web/tree/master/README.md",
