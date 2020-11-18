@@ -1,0 +1,40 @@
+{
+    "name": "Agent DVR",
+    "version": "v0.01.0",
+    "slug": "agentdvr",
+    "description": "Addon to run AgentDVR with Home Assistant",
+    "arch": ["amd64", "i386"],
+    "ingress": true,
+    "ingress_port": 8090,
+    "startup": "system",
+    "webui": "http://[HOST]:[PORT:8090]/",
+    "boot": "auto",
+    "host_network": true,
+    "options": {
+        "log_level": "info"
+    },
+    "schema": {
+        "log_level": "list(trace|debug|info|notice|warning|error|fatal)?"
+    },
+    "ports": {
+        "8090/tcp": 8090,
+        "3478/udp": 3478,
+        "50000/udp": 50000,
+        "50001/udp": 50001,
+        "50002/udp": 50002,
+        "50003/udp": 50003,
+        "50004/udp": 50004,
+        "50005/udp": 50005,
+        "50006/udp": 50006,
+        "50007/udp": 50007,
+        "50008/udp": 50008,
+        "50009/udp": 50009,
+        "50010/udp": 50010
+    },
+    "panel_icon": "mdi:cctv",
+    "panel_title": "AgentDVR",
+    "image": "jpeterson37/agentdvr-{arch}",
+    "init": true,
+    "map": ["config:rw", "media:rw"],
+    "watchdog": "tcp://[HOST]:[PORT:8090]"
+  }
