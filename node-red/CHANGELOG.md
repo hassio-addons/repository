@@ -2,13 +2,15 @@
 
 ### 🔨  Changes
 
-- ⬆️ Bump node-red-node-serialport from 0.11.0 to 0.11.1 (#742)
-- ⬆️ Bump node-red-node-geofence from 0.1.3 to 0.1.4 (#747)
-- ⬆️ Bump node-red-contrib-influxdb from 0.4.1 to 0.5.0 (#746)
-- ⬆️ Bump snyk to 1.424.4 (#750)
-- ⬆️ Bump node-red from 1.2.2 to 1.2.3 (#749)
+- ⬆️ Bump node-red-dashboard from 2.23.5 to 2.24.0 (#758)
+- ⬆️ Bump snyk from 1.424.4 to 1.427.0 (#757)
+- ⬆️ Bump node-red-contrib-cast from 0.2.15 to 0.2.16 (#756)
+- ⬆️ Bump node-red-node-twitter from 1.1.6 to 1.1.7 (#760)
+- ⬆️ Bump node-red-node-pi-gpio from 1.2.0 to 1.2.1 (#759)
+- ⬆️ Bump snyk from 1.427.0 to 1.427.2 (#763)
+- ⬆️ Bump node-red from 1.2.3 to 1.2.5 (#762)
 
-[changelog]: https://github.com/hassio-addons/addon-node-red/compare/v7.2.7...v7.2.8
+[changelog]: https://github.com/hassio-addons/addon-node-red/compare/v7.2.8...v7.2.9
 
 Questions? Join our Discord server! https://discord.me/hassioaddons
 Enjoying my add-ons? Consider supporting my work:
