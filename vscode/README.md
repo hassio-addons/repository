@@ -35,6 +35,6 @@ instantly, without the need for configuring anything.
 [patreon-shield]: https://frenck.dev/wp-content/uploads/2019/12/patreon.png
 [patreon]: https://www.patreon.com/frenck
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[release-shield]: https://img.shields.io/badge/version-v2.8.2-blue.svg
-[release]: https://github.com/hassio-addons/addon-vscode/tree/v2.8.2
+[release-shield]: https://img.shields.io/badge/version-v2.9.0-blue.svg
+[release]: https://github.com/hassio-addons/addon-vscode/tree/v2.9.0
 [screenshot]: https://github.com/hassio-addons/addon-vscode/raw/master/images/screenshot.png
