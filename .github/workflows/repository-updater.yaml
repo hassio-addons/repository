@@ -51,5 +51,4 @@ jobs:
           message: |
             ⬆️ ${{ github.event.client_payload.name }} ${{ github.event.client_payload.version }}
 
-            Release notes: 
             https://github.com/${{ github.event.client_payload.repository }}/releases/tag/${{ github.event.client_payload.version }}
