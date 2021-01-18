@@ -1,5 +1,5 @@
 ## What’s changed
 
-## 📚 Documentation
+## 🧰 Maintenance
 
-- Extend list of features in README @frenck (#28)
+- Dispatch correct version number to updater @frenck (#29)
