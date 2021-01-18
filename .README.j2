@@ -44,7 +44,6 @@ Use the following URL to add this repository:
 ![Supports aarch64 Architecture][{{ addon.target }}-aarch64-shield]
 ![Supports amd64 Architecture][{{ addon.target }}-amd64-shield]
 ![Supports i386 Architecture][{{ addon.target }}-i386-shield]
-![Docker Pulls][{{ addon.target }}-pulls-shield]
 
 {{ addon.description }}
 
@@ -131,12 +130,6 @@ SOFTWARE.
 [addon-doc-{{ addon.target}}]: {{ addon.repo }}/blob/{{ addon.version }}/README.md
 [{{ addon.target }}-issue]: {{ addon.repo }}/issues
 [{{ addon.target }}-version-shield]: https://img.shields.io/badge/version-{{ addon.version }}-blue.svg
-{% for arch in ['armhf', 'amd64', 'i386', 'armv7', 'aarch64'] %}
-{% if arch in addon.archs %}
-[{{ addon.target }}-pulls-shield]: https://img.shields.io/docker/pulls/{{ addon.images[arch] }}.svg
-{% break %}
-{% endif %}
-{% endfor %}
 {% for arch in ['aarch64', 'amd64', 'armhf', 'armv7', 'i386'] %}
 {% if arch in addon.archs %}
 [{{ addon.target }}-{{ arch }}-shield]: https://img.shields.io/badge/{{ arch }}-yes-green.svg
