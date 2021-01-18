@@ -1,12 +1,19 @@
-[Full Changelog][changelog]
+## What’s changed
 
-### 🔨 Changes
+Updates this add-on to the latest base images and a new GitHub Actions workflow.
 
-- ⬆ Upgrades add-on base image to v8.0.3
-- 👕 Ignore shellcheck warning
+## 🧰 Maintenance
 
-[changelog]: https://github.com/hassio-addons/addon-example/compare/v3.5.0...v3.5.1
+- Cleanup repository @frenck (#20)
+- Add new repository workflow @frenck (#21)
+- Fix deployment workflow @frenck (#22)
+- Adjust deployment supporting all environments @frenck (#23)
+- Happy New Year @frenck (#25)
 
-Questions? Join our Discord server! https://discord.me/hassioaddons
-Enjoying my add-ons? Consider supporting my work:
-https://github.com/sponsors/frenck or https://patreon.com/frenck
+## 📚 Documentation
+
+- Fix CI badge in README @frenck (#26)
+
+## ⬆️ Dependency updates
+
+- Upgrade add-on base image to 9.0.0 @frenck (#24)
