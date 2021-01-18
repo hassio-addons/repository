@@ -2,4 +2,4 @@
 
 ## 📚 Documentation
 
-- Adjust README to be correct @frenck (#27)
+- Extend list of features in README @frenck (#28)
