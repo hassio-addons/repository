@@ -866,7 +866,7 @@ SOFTWARE.
 [addon-doc-example]: https://github.com/hassio-addons/addon-example/blob/v3.5.1/README.md
 [example-issue]: https://github.com/hassio-addons/addon-example/issues
 [example-version-shield]: https://img.shields.io/badge/version-v3.5.1-blue.svg
-[example-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/example-armhf.svg
+[example-pulls-shield]: https://img.shields.io/docker/pulls/ghcr.io/hassio-addons/example/armhf.svg
 [example-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [example-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [example-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
@@ -1232,6 +1232,8 @@ SOFTWARE.
 [phpmyadmin-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [phpmyadmin-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [phpmyadmin-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
+[awesome-shield]: https://img.shields.io/badge/awesome%3F-yes-brightgreen.svg
+[awesome]: https://awesome-ha.com
 [discord-ha]: https://discord.gg/c5DvZ4e
 [discord-shield]: https://img.shields.io/discord/478094546522079232.svg
 [discord]: https://discord.me/hassioaddons
@@ -1239,6 +1241,8 @@ SOFTWARE.
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
 [forum]: https://community.home-assistant.io?u=frenck
 [frenck]: https://github.com/frenck
+[gitlabci-shield]: https://gitlab.com/hassio-addons/repository/badges/master/pipeline.svg
+[gitlabci]: https://gitlab.com/hassio-addons/repository/pipelines
 [issue]: https://github.com/hassio-addons/repository/issues
 [license-shield]: https://img.shields.io/github/license/hassio-addons/repository.svg
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2021.svg
