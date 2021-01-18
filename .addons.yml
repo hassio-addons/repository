@@ -40,7 +40,7 @@ addons:
   example:
     repository: hassio-addons/addon-example
     target: example
-    image: hassioaddons/example-{arch}
+    image: ghcr.io/hassio-addons/example/{arch}
   foldingathome:
     repository: hassio-addons/addon-foldingathome
     target: foldingathome
