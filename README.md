@@ -4,9 +4,6 @@
 ![Maintenance][maintenance-shield]
 [![License][license-shield]](LICENSE.md)
 
-[![GitLab CI][gitlabci-shield]][gitlabci]
-[![Awesome][awesome-shield]][awesome]
-
 [![Discord][discord-shield]][discord]
 [![Community Forum][forum-shield]][forum]
 
@@ -765,7 +762,7 @@ For questions, please contact [Franck Nijhof][frenck]:
 
 MIT License
 
-Copyright (c) 2017-2020 Franck Nijhof
+Copyright (c) 2017-2021 Franck Nijhof
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -1235,8 +1232,6 @@ SOFTWARE.
 [phpmyadmin-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [phpmyadmin-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [phpmyadmin-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
-[awesome-shield]: https://img.shields.io/badge/awesome%3F-yes-brightgreen.svg
-[awesome]: https://awesome-ha.com
 [discord-ha]: https://discord.gg/c5DvZ4e
 [discord-shield]: https://img.shields.io/discord/478094546522079232.svg
 [discord]: https://discord.me/hassioaddons
@@ -1244,11 +1239,9 @@ SOFTWARE.
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
 [forum]: https://community.home-assistant.io?u=frenck
 [frenck]: https://github.com/frenck
-[gitlabci-shield]: https://gitlab.com/hassio-addons/repository/badges/master/pipeline.svg
-[gitlabci]: https://gitlab.com/hassio-addons/repository/pipelines
 [issue]: https://github.com/hassio-addons/repository/issues
 [license-shield]: https://img.shields.io/github/license/hassio-addons/repository.svg
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2020.svg
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2021.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
 [reddit]: https://reddit.com/r/homeassistant
 [semver]: http://semver.org/spec/v2.0.0.html
