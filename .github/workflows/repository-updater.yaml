@@ -1,0 +1,40 @@
+---
+name: Repository Updater
+
+# yamllint disable-line rule:truthy
+on:
+  repository_dispatch:
+    types: ["update"]
+
+jobs:
+  publish:
+    name: Publish add-on update
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🚀 Run Repository Updater
+        uses: hassio-addons/repository-updater@v1.0.0
+        with:
+          addon: ${{ github.event.client_payload.addon }}
+          repository: ${{ github.repository }}
+          token: ${{ secrets.UPDATER_TOKEN }}
+
+  announce:
+    name: Announce add-on update
+    runs-on: ubuntu-latest
+    steps:
+      - uses: sarisia/actions-status-discord@v1.8.3
+        with:
+          webhook: ${{ secrets.DISCORD_WEBHOOK }}
+          nodetail: true
+          username: ${{ github.event.client_payload.name }}
+          avatar_url: |
+            https://raw.githubusercontent.com/${{ github.repository }}/master/${{ github.event.client_payload.addon }}/icon.png
+          title: ":arrow_up: ${{ github.event.client_payload.name }} ${{ github.event.client_payload.version }}"
+          image: |
+            https://raw.githubusercontent.com/${{ github.repository }}/master/${{ github.event.client_payload.addon }}/logo.png
+          description: |
+            A new version of the ${{ github.event.client_payload.name }} add-on has been published.
+
+            **Version**: `${{ github.event.client_payload.version }}`
+            **Release notes**:
+            <https://github.com/${{ github.event.client_payload.repository }}/releases/tag/${{ github.event.client_payload.version }}>

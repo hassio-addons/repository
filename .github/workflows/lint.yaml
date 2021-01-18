@@ -1,0 +1,33 @@
+---
+name: Lint
+
+# yamllint disable-line rule:truthy
+on:
+  push:
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - synchronize
+  workflow_dispatch:
+
+jobs:
+  json:
+    name: JSON Lint
+    runs-on: ubuntu-latest
+    steps:
+      - name: ⤵️ Check out code from GitHub
+        uses: actions/checkout@v2.3.4
+      - name: 🚀 Run JQ
+        run: |
+          shopt -s globstar
+          cat **/*.json | jq '.'
+
+  yamllint:
+    name: YAMLLint
+    runs-on: ubuntu-latest
+    steps:
+      - name: ⤵️ Check out code from GitHub
+        uses: actions/checkout@v2.3.4
+      - name: 🚀 Run YAMLLint
+        uses: frenck/action-yamllint@v1.0.2

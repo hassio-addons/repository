@@ -1,0 +1,22 @@
+---
+name: Sync labels
+
+# yamllint disable-line rule:truthy
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - .github/labels.yml
+
+jobs:
+  labels:
+    name: ♻️ Sync labels
+    runs-on: ubuntu-latest
+    steps:
+      - name: ⤵️ Check out code from GitHub
+        uses: actions/checkout@v2.3.4
+      - name: 🚀 Run Label Syncer
+        uses: micnncim/action-label-syncer@v1.2.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
