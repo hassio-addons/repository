@@ -15,7 +15,6 @@ edit_uri: ""
 theme:
   name: "material"
   logo: "https://avatars3.githubusercontent.com/u/30772201?s=200&v=4"
-  icon: "https://avatars3.githubusercontent.com/u/30772201?s=200&v=4"
   language: "en"
   palette:
     primary: "light-blue"
@@ -24,7 +23,7 @@ theme:
     text: "Exo2"
     code: "Roboto Mono"
   feature:
-    tabs: false
+    - tabs
 extra_css:
   - css/extra.css
 
@@ -32,15 +31,15 @@ extra_css:
 extra:
   manifest: "manifest.webmanifest"
   social:
-    - type: fontawesome/brands/github-alt
+    - icon: fontawesome/brands/github-alt
       link: "https://github.com/hassio-addons"
-    - type: fontawesome/brands/twitter
+    - icon: fontawesome/brands/twitter
       link: "https://twitter.com/hassio-addons"
     - icon: fontawesome/brands/instagram
       link: "https://instagram.com/frenck"
-    - type: fontawesome/brands/twitch
+    - icon: fontawesome/brands/twitch
       link: "https://twitch.tv/frenck"
-    - type: fontawesome/brands/youtube
+    - icon: fontawesome/brands/youtube
       link: "https://youtube.com/frenck"
     - icon: fontawesome/brands/linkedin
       link: "https://www.linkedin.com/in/frenck"
@@ -66,7 +65,7 @@ markdown_extensions:
   - pymdownx.tilde
 
 # The pages to serve
-pages:
+nav:
   - "Our Add-ons": "index.md"
   - "Beta Add-ons": "beta.md"
   - "Edge Add-ons": "edge.md"
