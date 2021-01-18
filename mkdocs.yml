@@ -32,14 +32,18 @@ extra_css:
 extra:
   manifest: "manifest.webmanifest"
   social:
-    - type: "github"
+    - type: fontawesome/brands/github-alt
       link: "https://github.com/hassio-addons"
-    - type: "twitter"
+    - type: fontawesome/brands/twitter
       link: "https://twitter.com/hassio-addons"
-    - type: "twitch"
+    - icon: fontawesome/brands/instagram
+      link: "https://instagram.com/frenck"
+    - type: fontawesome/brands/twitch
       link: "https://twitch.tv/frenck"
-    - type: "youtube"
+    - type: fontawesome/brands/youtube
       link: "https://youtube.com/frenck"
+    - icon: fontawesome/brands/linkedin
+      link: "https://www.linkedin.com/in/frenck"
 
 # Extensions
 markdown_extensions:
