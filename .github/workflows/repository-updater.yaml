@@ -20,6 +20,7 @@ jobs:
 
   announce:
     name: Announce add-on update
+    needs: publish
     runs-on: ubuntu-latest
     steps:
       - uses: sarisia/actions-status-discord@v1.8.3
