@@ -156,7 +156,7 @@ addons:
   tor:
     repository: hassio-addons/addon-tor
     target: tor
-    image: hassioaddons/tor-{arch}
+    image: ghcr.io/hassio-addons/tor/{arch}
   traccar:
     repository: hassio-addons/addon-traccar
     target: traccar
