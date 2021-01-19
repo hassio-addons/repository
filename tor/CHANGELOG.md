@@ -1,22 +1,12 @@
 ## What’s changed
 
-This release is marked as a major release because:
-
-- Major changes in the upstream add-on base image
-- Complete new build & deployment process
-- The add-on is now served from the GitHub Container Registry
-
-## 🧰 Maintenance
-
-- Cleanup repository @frenck (#26)
-- Add new repository workflow @frenck (#27)
-- Upgrade Code of Conduct @frenck (#29)
-- Happy New Year @frenck (#30)
+Small bugfix release that fixes an issue that during add-on startup, it would always show an update was available.
+This patch release addresses that.
 
 ## 📚 Documentation
 
-- Documentation tweaks @frenck (#31)
+- Fix commits badge in README @frenck (#33)
 
 ## ⬆️ Dependency updates
 
-- Upgrade add-on base image to 9.0.0 @frenck (#28)
+- Upgrade add-on base image to 9.0.1 @frenck (#32)
