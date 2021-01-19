@@ -1,15 +1,22 @@
-[Full Changelog][changelog]
+## What’s changed
 
-This is a general maintenance release.
+This release is marked as a major release because:
 
-### 🔨  Changes
+- Major changes in the upstream add-on base image
+- Complete new build & deployment process
+- The add-on is now served from the GitHub Container Registry
 
-- ⬆ Upgrades add-on base image to v8.0.1
-- ⬆ Upgrades tor to 0.4.3.5-r0
-- 🔥 Remove Renovatebot
+## 🧰 Maintenance
 
-[changelog]: https://github.com/hassio-addons/addon-tor/compare/v2.4.0...v2.4.1
+- Cleanup repository @frenck (#26)
+- Add new repository workflow @frenck (#27)
+- Upgrade Code of Conduct @frenck (#29)
+- Happy New Year @frenck (#30)
 
-Questions? Join our Discord server! https://discord.me/hassioaddons
-Enjoying my add-ons? Consider supporting my work:
-https://github.com/sponsors/frenck or https://patreon.com/frenck
+## 📚 Documentation
+
+- Documentation tweaks @frenck (#31)
+
+## ⬆️ Dependency updates
+
+- Upgrade add-on base image to 9.0.0 @frenck (#28)
