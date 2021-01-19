@@ -24,7 +24,7 @@ addons:
   bitwarden:
     repository: hassio-addons/addon-bitwarden
     target: bitwarden
-    image: hassioaddons/bitwarden-{arch}
+    image: ghcr.io/hassio-addons/bitwarden/{arch}
   bookstack:
     repository: hassio-addons/addon-bookstack
     target: bookstack
