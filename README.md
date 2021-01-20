@@ -230,19 +230,6 @@ ERP beyond your fridge! A groceries & household management solution for your hom
 
 [:books: Grocy add-on documentation][addon-doc-grocy]
 
-### &#10003; [Happy Bubbles][addon-happy-bubbles]
-
-![Latest Version][happy-bubbles-version-shield]
-![Supports armhf Architecture][happy-bubbles-armhf-shield]
-![Supports armv7 Architecture][happy-bubbles-armv7-shield]
-![Supports aarch64 Architecture][happy-bubbles-aarch64-shield]
-![Supports amd64 Architecture][happy-bubbles-amd64-shield]
-![Supports i386 Architecture][happy-bubbles-i386-shield]
-
-Presence detection server for Happy Bubbles Bluetooth beacon-based presence detection system.
-
-[:books: Happy Bubbles add-on documentation][addon-doc-happy-bubbles]
-
 ### &#10003; [Home Panel][addon-home-panel]
 
 ![Latest Version][home-panel-version-shield]
@@ -660,7 +647,6 @@ on the correct GitHub repository matching the add-on.
 - [Open an issue for the add-on: Glances][glances-issue]
 - [Open an issue for the add-on: Grafana][grafana-issue]
 - [Open an issue for the add-on: Grocy][grocy-issue]
-- [Open an issue for the add-on: Happy Bubbles][happy-bubbles-issue]
 - [Open an issue for the add-on: Home Panel][home-panel-issue]
 - [Open an issue for the add-on: IDE][ide-issue]
 - [Open an issue for the add-on: InfluxDB][influxdb-issue]
@@ -872,15 +858,6 @@ SOFTWARE.
 [grocy-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [grocy-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [grocy-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
-[addon-happy-bubbles]: https://github.com/hassio-addons/addon-happy-bubbles/tree/v3.1.4
-[addon-doc-happy-bubbles]: https://github.com/hassio-addons/addon-happy-bubbles/blob/v3.1.4/README.md
-[happy-bubbles-issue]: https://github.com/hassio-addons/addon-happy-bubbles/issues
-[happy-bubbles-version-shield]: https://img.shields.io/badge/version-v3.1.4-blue.svg
-[happy-bubbles-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
-[happy-bubbles-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
-[happy-bubbles-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
-[happy-bubbles-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
-[happy-bubbles-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [addon-home-panel]: https://github.com/hassio-addons/addon-home-panel/tree/v1.8.3
 [addon-doc-home-panel]: https://github.com/hassio-addons/addon-home-panel/blob/v1.8.3/README.md
 [home-panel-issue]: https://github.com/hassio-addons/addon-home-panel/issues
