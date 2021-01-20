@@ -125,6 +125,8 @@ will come up with a better solution for this soon.
 
 ## Known issues and limitations
 
+- Can this add-on run on a Raspberry Pi? Yes, but only if you run a 64 bits
+  operating system. Also, see point below.
 - This add-on currently only supports AMD64 and aarch64/ARM64 machines.
   Although we support ARM devices, please be aware, that this add-on is quite
   heavy to run, and requires quite a bit of RAM. We do not recommended to run
@@ -148,8 +150,7 @@ will come up with a better solution for this soon.
 ## Changelog & Releases
 
 This repository keeps a change log using [GitHub's releases][releases]
-functionality. The format of the log is based on
-[Keep a Changelog][keepchangelog].
+functionality.
 
 Releases are based on [Semantic Versioning][semver], and use the format
 of `MAJOR.MINOR.PATCH`. In a nutshell, the version will be incremented
@@ -185,7 +186,7 @@ check [the contributor's page][contributors].
 
 MIT License
 
-Copyright (c) 2019-2020 Franck Nijhof
+Copyright (c) 2019-2021 Franck Nijhof
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -211,7 +212,6 @@ SOFTWARE.
 [forum]: https://community.home-assistant.io/t/home-assistant-community-add-on-visual-studio-code/107863?u=frenck
 [frenck]: https://github.com/frenck
 [issue]: https://github.com/hassio-addons/addon-vscode/issues
-[keepchangelog]: http://keepachangelog.com/en/1.0.0/
 [reddit]: https://reddit.com/r/homeassistant
 [releases]: https://github.com/hassio-addons/addon-vscode/releases
 [semver]: http://semver.org/spec/v2.0.0
