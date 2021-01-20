@@ -168,7 +168,7 @@ addons:
   vscode:
     repository: hassio-addons/addon-vscode
     target: vscode
-    image: hassioaddons/vscode-{arch}
+    image: ghcr.io/hassio-addons/vscode/{arch}
   wireguard:
     repository: hassio-addons/addon-wireguard
     target: wireguard
