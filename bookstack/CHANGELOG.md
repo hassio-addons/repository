@@ -1,10 +1,22 @@
-Maintenance release:
+## What’s changed
 
-- ⬆ Update Bookstack to v0.31.3
-- ⬆ Update php to 7.3.26-r0
+## ✨ New features
 
-Questions? Join our Discord server! https://discord.me/hassioaddons
+- ✨ Add envvars option to configuration @sinclairpaul (#32)
 
-[Full Changelog][changelog]
+## 🧰 Maintenance
 
-[changelog]: https://github.com/hassio-addons/addon-bookstack/compare/v0.6.4...v0.7.0
+- 🔨 Update CI @sinclairpaul (#25)
+- 📚 Update year @sinclairpaul (#27)
+- 🔨 Remove no longer needed gitlab config @sinclairpaul (#29)
+- 📚 Update Code of Conduct @sinclairpaul (#28)
+- Fix add-on description extraction @frenck (#33)
+
+## 📚 Documentation
+
+- 📚 Documentation updates @sinclairpaul (#31)
+- 📚 Fix commit activity @sinclairpaul (#34)
+
+## ⬆️ Dependency updates
+
+- ⬆ Update image to 9.0.1 and package dependencies @sinclairpaul (#30)

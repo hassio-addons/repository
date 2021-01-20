@@ -25,6 +25,9 @@ log_level: info
 ssl: false
 certfile: fullchain.pem
 keyfile: privkey.pem
+envvars:
+  - name: SESSION_COOKIE_NAME
+    value: bookstack_session
 ```
 
 **Note**: _This is just an example, don't copy and paste it! Create your own!_
@@ -39,7 +42,7 @@ dealing with an unknown issue. Possible values are:
 - `debug`: Shows detailed debug information.
 - `info`: Normal (usually) interesting events.
 - `warning`: Exceptional occurrences that are not errors.
-- `error`:  Runtime errors that do not require immediate action.
+- `error`: Runtime errors that do not require immediate action.
 - `fatal`: Something went terribly wrong. Add-on becomes unusable.
 
 Please note that each level automatically includes log messages from a
@@ -91,6 +94,27 @@ Only applies if a remote MYSQL database is used, the password of the above user.
 Only applies if a remote MYSQL database is used, the port that the database
 server is listening on.
 
+### Option: `envvars`
+
+This allows the setting of Environment Variables to control Bookstack
+configuration as documented at:
+
+<https://www.bookstackapp.com/docs/>
+
+**Note**: _Changing these options can possibly cause issues with you instance.
+USE AT YOUR OWN RISK!_
+
+These are case sensitive and any items set by specific configuration will take
+precedence.
+
+#### Sub-option: `name`
+
+The name of the environment variable to set.
+
+#### Sub-option: `value`
+
+The value of the environment variable to set.
+
 ## Database usage
 
 By default, Bookstack will automatically use and configure the Home Assistant
@@ -106,16 +130,15 @@ that there is no easy upgrade path between the two options.
 ## Changelog & Releases
 
 This repository keeps a change log using [GitHub's releases][releases]
-functionality. The format of the log is based on
-[Keep a Changelog][keepchangelog].
+functionality.
 
 Releases are based on [Semantic Versioning][semver], and use the format
-of ``MAJOR.MINOR.PATCH``. In a nutshell, the version will be incremented
+of `MAJOR.MINOR.PATCH`. In a nutshell, the version will be incremented
 based on the following:
 
-- ``MAJOR``: Incompatible or major changes.
-- ``MINOR``: Backwards-compatible new features and enhancements.
-- ``PATCH``: Backwards-compatible bugfixes and package updates.
+- `MAJOR`: Incompatible or major changes.
+- `MINOR`: Backwards-compatible new features and enhancements.
+- `PATCH`: Backwards-compatible bugfixes and package updates.
 
 ## Support
 
@@ -143,7 +166,7 @@ check [the contributor's page][contributors].
 
 MIT License
 
-Copyright (c) 2019-2020 Paul Sinclair
+Copyright (c) 2019-2021 Paul Sinclair
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -170,7 +193,6 @@ SOFTWARE.
 [forum]: https://community.home-assistant.io/t/community-hass-io-xxxxx/xxxxx
 [sinclairpaul]: https://github.com/sinclairpaul
 [issue]: https://github.com/hassio-addons/addon-bookstack/issues
-[keepchangelog]: http://keepachangelog.com/en/1.0.0/
 [reddit]: https://reddit.com/r/homeassistant
 [releases]: https://github.com/hassio-addons/addon-bookstack/releases
 [semver]: http://semver.org/spec/v2.0.0
