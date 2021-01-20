@@ -61,10 +61,6 @@ addons:
     repository: hassio-addons/addon-grocy
     target: grocy
     image: hassioaddons/grocy-{arch}
-  happy-bubbles:
-    repository: hassio-addons/addon-happy-bubbles
-    target: happy-bubbles
-    image: hassioaddons/happy-bubbles-{arch}
   home-panel:
     repository: hassio-addons/addon-home-panel
     target: home-panel
