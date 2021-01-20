@@ -36,10 +36,10 @@ email, bank, and other important accounts. USE A PASSWORD MANAGER!
 [forum]: https://community.home-assistant.io/t/home-assistant-community-add-on-bitwarden-rs/115573?u=frenck
 [github-sponsors-shield]: https://frenck.dev/wp-content/uploads/2019/12/github_sponsor.png
 [github-sponsors]: https://github.com/sponsors/frenck
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2020.svg
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2021.svg
 [patreon-shield]: https://frenck.dev/wp-content/uploads/2019/12/patreon.png
 [patreon]: https://www.patreon.com/frenck
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
-[release-shield]: https://img.shields.io/badge/version-v0.6.2-blue.svg
-[release]: https://github.com/hassio-addons/addon-bitwarden/tree/v0.6.2
-[screenshot]: https://github.com/hassio-addons/addon-bitwarden/raw/master/images/screenshot.png
+[release-shield]: https://img.shields.io/badge/version-v0.7.0-blue.svg
+[release]: https://github.com/hassio-addons/addon-bitwarden/tree/v0.7.0
+[screenshot]: https://github.com/hassio-addons/addon-bitwarden/raw/main/images/screenshot.png

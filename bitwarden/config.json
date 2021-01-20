@@ -1,6 +1,6 @@
 {
   "name": "Bitwarden RS",
-  "version": "0.6.2",
+  "version": "0.7.0",
   "slug": "bitwarden",
   "description": "Open source password management solution",
   "url": "https://github.com/hassio-addons/addon-bitwarden",
@@ -12,9 +12,6 @@
     "amd64",
     "armv7"
   ],
-  "boot": "auto",
-  "hassio_api": true,
-  "hassio_role": "default",
   "ports": {
     "7277/tcp": 7277
   },
@@ -36,5 +33,5 @@
     "keyfile": "str",
     "request_size_limit": "int?"
   },
-  "image": "hassioaddons/bitwarden-{arch}"
+  "image": "ghcr.io/hassio-addons/bitwarden/{arch}"
 }
