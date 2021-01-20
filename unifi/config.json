@@ -1,6 +1,6 @@
 {
   "name": "UniFi Controller",
-  "version": "0.19.3",
+  "version": "0.20.0",
   "slug": "unifi",
   "description": "Manage your UniFi network using a web browser",
   "url": "https://github.com/hassio-addons/addon-unifi",
@@ -17,7 +17,6 @@
     "backup:rw",
     "ssl"
   ],
-  "boot": "auto",
   "ports": {
     "161/udp": null,
     "1900/udp": null,
@@ -43,7 +42,6 @@
     "10001/udp": "Used for device discovery"
   },
   "hassio_api": true,
-  "hassio_role": "default",
   "options": {
     "ssl": true,
     "certfile": "fullchain.pem",
@@ -57,5 +55,5 @@
     "memory_max": "int?",
     "memory_init": "int?"
   },
-  "image": "hassioaddons/unifi-{arch}"
+  "image": "ghcr.io/hassio-addons/unifi/{arch}"
 }

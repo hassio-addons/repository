@@ -1,12 +1,14 @@
-[Full Changelog][changelog]
+## What’s changed
 
-### 🔨 Changes
+## 🧰 Maintenance
 
-- ⬆ Upgrade UniFi Controller v6.0.36 (#118)
-- ⬆ Upgrades openjdk-8-jdk-headless to 8u275-b01-0ubuntu1~18.04
+- Cleanup repository @frenck (#132)
+- Happy New Year @frenck (#133)
+- Upgrade Code of Conduct @frenck (#134)
+- Add new repository workflow @frenck (#136)
 
-[changelog]: https://github.com/hassio-addons/addon-unifi/compare/v0.19.2...v0.19.3
+## ⬆️ Dependency updates
 
-Questions? Join our Discord server! https://discord.me/hassioaddons
-Enjoying my add-ons? Consider supporting my work:
-https://github.com/sponsors/frenck or https://patreon.com/frenck
+- ⬆️ Upgrade UniFi Controller v6.0.41 @lopesdasilva (#121)
+- ⬆️ Upgrade UniFi Controller v6.0.43 @stocker85 (#125)
+- Upgrade add-on base image to 6.0.0 @frenck (#137)

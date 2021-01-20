@@ -53,7 +53,7 @@ dealing with an unknown issue. Possible values are:
 - `debug`: Shows detailed debug information.
 - `info`: Normal (usually) interesting events.
 - `warning`: Exceptional occurrences that are not errors.
-- `error`:  Runtime errors that do not require immediate action.
+- `error`: Runtime errors that do not require immediate action.
 - `fatal`: Something went terribly wrong. Add-on becomes unusable.
 
 Please note that each level automatically includes log messages from a
@@ -133,7 +133,7 @@ you can manually adopt a device by following these steps:
   instructions carefully. You need to change some controller settings
   in order for this add-on to work properly. Using the Ubiquiti Discovery
   Tool, or SSH'ing into the AP and setting the INFORM after adopting
-  will resolve this. (see: *Manually adopting a device*)
+  will resolve this. (see: _Manually adopting a device_)
 - This add-on does support ARM-based devices, nevertheless, they must
   at least be an ARMv7 device. (Raspberry Pi 1 and Zero is not supported).
 - When using SSL, the following warning is shown in the add-on logs:
@@ -141,9 +141,13 @@ you can manually adopt a device by following these steps:
   be safely ignored. There is nothing wrong and your add-on will function
   normally.
 - The following error can show up in the log, but can be safely ignored:
-  `INFO: I/O exception (java.net.ConnectException) caught when
-  processing request: Connection refused (Connection refused)`.
-  This is a known issue, however, the add-on functions normally.
+
+  ```
+    INFO: I/O exception (java.net.ConnectException) caught when processing
+    request: Connection refused (Connection refused)`. This is a known issue,
+    however, the add-on functions normally.
+  ```
+
 - Due limitation, renewed SSL certificates are not picked up automatically.
   You'd have to restart the add-on in order for UniFi to pick up the change.
 - Due to security policies in the UniFi Controller software, it is currently
@@ -162,12 +166,12 @@ functionality. The format of the log is based on
 [Keep a Changelog][keepchangelog].
 
 Releases are based on [Semantic Versioning][semver], and use the format
-of ``MAJOR.MINOR.PATCH``. In a nutshell, the version will be incremented
+of `MAJOR.MINOR.PATCH`. In a nutshell, the version will be incremented
 based on the following:
 
-- ``MAJOR``: Incompatible or major changes.
-- ``MINOR``: Backwards-compatible new features and enhancements.
-- ``PATCH``: Backwards-compatible bugfixes and package updates.
+- `MAJOR`: Incompatible or major changes.
+- `MINOR`: Backwards-compatible new features and enhancements.
+- `PATCH`: Backwards-compatible bugfixes and package updates.
 
 ## Support
 
@@ -195,7 +199,7 @@ check [the contributor's page][contributors].
 
 MIT License
 
-Copyright (c) 2018-2020 Franck Nijhof
+Copyright (c) 2018-2021 Franck Nijhof
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
