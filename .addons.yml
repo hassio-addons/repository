@@ -65,10 +65,6 @@ addons:
     repository: hassio-addons/addon-home-panel
     target: home-panel
     image: hassioaddons/home-panel-{arch}
-  ide:
-    repository: hassio-addons/addon-ide
-    target: ide
-    image: hassioaddons/ide-{arch}
   influxdb:
     repository: hassio-addons/addon-influxdb
     target: influxdb
