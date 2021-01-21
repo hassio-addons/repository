@@ -105,10 +105,6 @@ addons:
     repository: hassio-addons/addon-nut
     target: nut
     image: hassioaddons/nut-{arch}
-  phlex:
-    repository: hassio-addons/addon-phlex
-    target: phlex
-    image: hassioaddons/phlex-{arch}
   phpmyadmin:
     repository: hassio-addons/addon-phpmyadmin
     target: phpmyadmin
