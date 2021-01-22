@@ -1,6 +1,6 @@
 {
   "name": "AirSonos",
-  "version": "2.4.1",
+  "version": "3.0.0",
   "slug": "airsonos",
   "description": "AirPlay capabilities for your Sonos (and UPnP) devices.",
   "url": "https://github.com/hassio-addons/addon-airsonos",
@@ -12,9 +12,7 @@
     "armv7",
     "i386"
   ],
-  "boot": "auto",
   "hassio_api": true,
-  "hassio_role": "default",
   "host_network": true,
   "map": [
     "config:rw"
@@ -34,5 +32,5 @@
     "latency_http": "int",
     "drift": "bool"
   },
-  "image": "hassioaddons/airsonos-{arch}"
+  "image": "ghcr.io/hassio-addons/airsonos/{arch}"
 }

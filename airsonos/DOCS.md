@@ -52,7 +52,7 @@ dealing with an unknown issue. Possible values are:
 - `debug`: Shows detailed debug information.
 - `info`: Normal (usually) interesting events.
 - `warning`: Exceptional occurrences that are not errors.
-- `error`:  Runtime errors that do not require immediate action.
+- `error`: Runtime errors that do not require immediate action.
 - `fatal`: Something went terribly wrong. Add-on becomes unusable.
 
 Please note that each level automatically includes log messages from a
@@ -153,12 +153,12 @@ is larger than the buffer in the Sonos player, playback will stop by
 lack of audio. Note that `latency_rtp` does not delay playback start.
 
 > **Note**: `latency_rtp` and `latency_http` could have been merged into a
-single `latency` parameter which would have set the max RTP frames holding time
-as well as the duration of the initial additional silence (delay),
-however, all Sonos devices do properly their own buffering of HTTP audio
-(i.e., they wait until they have received a certain amount of audio before
-starting to play), then adding silence would have introduced an extra
-unnecessary delay in playback.
+> single `latency` parameter which would have set the max RTP frames holding time
+> as well as the duration of the initial additional silence (delay),
+> however, all Sonos devices do properly their own buffering of HTTP audio
+> (i.e., they wait until they have received a certain amount of audio before
+> starting to play), then adding silence would have introduced an extra
+> unnecessary delay in playback.
 
 ## Tweaking AirSonos
 
@@ -167,7 +167,7 @@ Assistant configuration directory. This file allows you to tweak each device
 separately. Every time it finds a new device, it will be added to that file.
 
 > **NOTE**: It is HIGHLY recommended to stop the addon before making changes
-to the configuration file manually.
+> to the configuration file manually.
 
 ## Known issues and limitations
 
@@ -177,16 +177,15 @@ to the configuration file manually.
 ## Changelog & Releases
 
 This repository keeps a change log using [GitHub's releases][releases]
-functionality. The format of the log is based on
-[Keep a Changelog][keepchangelog].
+functionality.
 
 Releases are based on [Semantic Versioning][semver], and use the format
-of ``MAJOR.MINOR.PATCH``. In a nutshell, the version will be incremented
+of `MAJOR.MINOR.PATCH`. In a nutshell, the version will be incremented
 based on the following:
 
-- ``MAJOR``: Incompatible or major changes.
-- ``MINOR``: Backwards-compatible new features and enhancements.
-- ``PATCH``: Backwards-compatible bugfixes and package updates.
+- `MAJOR`: Incompatible or major changes.
+- `MINOR`: Backwards-compatible new features and enhancements.
+- `PATCH`: Backwards-compatible bugfixes and package updates.
 
 ## Support
 
@@ -214,7 +213,7 @@ check [the contributor's page][contributors].
 
 MIT License
 
-Copyright (c) 2017-2020 Franck Nijhof
+Copyright (c) 2017-2021 Franck Nijhof
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -234,14 +233,13 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[commits]: https://github.com/hassio-addons/addon-airsonos/commits/master
+[commits]: https://github.com/hassio-addons/addon-airsonos/commits/main
 [contributors]: https://github.com/hassio-addons/addon-airsonos/graphs/contributors
 [discord-ha]: https://discord.gg/c5DvZ4e
 [discord]: https://discord.me/hassioaddons
 [forum]: https://community.home-assistant.io/t/home-assistant-community-add-on-airsonos/36796?u=frenck
 [frenck]: https://github.com/frenck
 [issue]: https://github.com/hassio-addons/addon-airsonos/issues
-[keepchangelog]: http://keepachangelog.com/en/1.0.0/
 [reddit]: https://reddit.com/r/homeassistant
 [releases]: https://github.com/hassio-addons/addon-airsonos/releases
 [semver]: http://semver.org/spec/v2.0.0.htm

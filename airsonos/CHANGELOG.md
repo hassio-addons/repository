@@ -1,13 +1,16 @@
-[Full Changelog][changelog]
+## What’s changed
 
-This is a general maintenance release.
+No big changes, but still a major release!
+The add-on is now published via GitHub and the add-on itself now runs on Debian.
 
-### 🔨 Changes
+## 🧰 Maintenance
 
-- ⬆ Upgrades AirConnect to 0.2.28.3
+- Cleanup repository @frenck (#23)
+- Happy New Year @frenck (#24)
+- Upgrade Code of Conduct @frenck (#25)
+- Add new repository workflow @frenck (#26)
 
-[changelog]: https://github.com/hassio-addons/addon-airsonos/compare/v2.4.0...v2.4.1
+## ⬆️ Dependency updates
 
-Questions? Join our Discord server! https://discord.me/hassioaddons
-Enjoying my add-ons? Consider supporting my work:
-https://github.com/sponsors/frenck or https://patreon.com/frenck
+- Switch add-on base image to Debian @frenck (#27)
+- ⬆ Upgrades AirConnect to 0.2.43.1 @frenck (#28)
