@@ -1,16 +1,16 @@
-Release to fix issues with SNMP devices.
+## What’s changed
 
-NUT is now being built rather than relying on the Alpine package.  This should resolve the issues with the current release and 32 bit compatibility (particularly on ARM).
+## 🚀 Enhancements
 
-Although USB connected devices have been confirmed to be working, please ensure to snapshot prior to the upgrade, and report any issues found.
+- ⬆Update base image to v9.0.1 and dependencies @sinclairpaul (#65)
 
-- 🔨Add openssl=1.1.1g-r0
-- 🔨Add net-snmp-libs=5.8-r3
-- 🔨Add neon=0.31.1-r0
-- 🔨Keep libtool installed
+## 🧰 Maintenance
 
-Questions? Join our Discord server! https://discord.me/hassioaddons
+- Cleanup repository @frenck (#60)
+- Happy New Year @frenck (#62)
+- Upgrade Code of Conduct @frenck (#63)
+- 🔨 Add new CI workflow @sinclairpaul (#64)
 
-[Full Changelog][changelog]
+## ⬆️ Dependency updates
 
-[changelog]: https://github.com/hassio-addons/addon-nut/compare/v0.3.0...v0.3.1
+- ⬆Update base image to v9.0.1 and dependencies @sinclairpaul (#65)

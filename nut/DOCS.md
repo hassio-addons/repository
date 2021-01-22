@@ -71,7 +71,7 @@ devices:
     port: auto
     config: []
 mode: netserver
-shutdown_host: 'false'
+shutdown_host: "false"
 ```
 
 **Note**: _This is just an example, don't copy and paste it! Create your own!_
@@ -86,7 +86,7 @@ dealing with an unknown issue. Possible values are:
 - `debug`: Shows detailed debug information.
 - `info`: Normal (usually) interesting events.
 - `warning`: Exceptional occurrences that are not errors.
-- `error`:  Runtime errors that do not require immediate action.
+- `error`: Runtime errors that do not require immediate action.
 - `fatal`: Something went terribly wrong. Add-on becomes unusable.
 
 Please note that each level automatically includes log messages from a
@@ -261,7 +261,7 @@ Whenever your UPS changes state, an event named `nut.ups_event` will be fired.
 It's payload looks like this:
 
 | Key           | Value                                        |
-|---------------|----------------------------------------------|
+| ------------- | -------------------------------------------- |
 | `ups_name`    | The name of the UPS as you configured it     |
 | `notify_type` | The type of notification                     |
 | `notify_msg`  | The NUT default message for the notification |
@@ -271,7 +271,7 @@ See the below table for more information as well as the message that will be in
 `notify_msg`. `%s` is automatically replaced by NUT with your UPS name.
 
 | Type       | Cause                                                                 | Default Message                                    |
-|------------|-----------------------------------------------------------------------|----------------------------------------------------|
+| ---------- | --------------------------------------------------------------------- | -------------------------------------------------- |
 | `ONLINE`   | UPS is back online                                                    | "UPS %s on line power"                             |
 | `ONBATT`   | UPS is on battery                                                     | "UPS %s on battery"                                |
 | `LOWBATT`  | UPS has a low battery (if also on battery, it's "critical")           | "UPS %s battery is low"                            |
@@ -288,21 +288,21 @@ This event allows you to create automations to do things like send a
 
 ```yaml
 automations:
-  - alias: 'UPS changed state'
+  - alias: "UPS changed state"
     trigger:
-    - platform: event
-      event_type: nut.ups_event
+      - platform: event
+        event_type: nut.ups_event
     action:
-    - service: notify.mobile_app_<your_device_id_here>
-      data_template:
-        title: "UPS changed state"
-        message: "{{ trigger.event.data.notify_msg }}"
-        data:
-          push:
-            sound:
-              name: default
-              critical: 1
-              volume: 1.0
+      - service: notify.mobile_app_<your_device_id_here>
+        data_template:
+          title: "UPS changed state"
+          message: "{{ trigger.event.data.notify_msg }}"
+          data:
+            push:
+              sound:
+                name: default
+                critical: 1
+                volume: 1.0
 ```
 
 For more information, see the NUT docs [here][nut-notif-doc-1] and
@@ -311,16 +311,15 @@ For more information, see the NUT docs [here][nut-notif-doc-1] and
 ## Changelog & Releases
 
 This repository keeps a change log using [GitHub's releases][releases]
-functionality. The format of the log is based on
-[Keep a Changelog][keepchangelog].
+functionality.
 
 Releases are based on [Semantic Versioning][semver], and use the format
-of ``MAJOR.MINOR.PATCH``. In a nutshell, the version will be incremented
+of `MAJOR.MINOR.PATCH`. In a nutshell, the version will be incremented
 based on the following:
 
-- ``MAJOR``: Incompatible or major changes.
-- ``MINOR``: Backwards-compatible new features and enhancements.
-- ``PATCH``: Backwards-compatible bugfixes and package updates.
+- `MAJOR`: Incompatible or major changes.
+- `MINOR`: Backwards-compatible new features and enhancements.
+- `PATCH`: Backwards-compatible bugfixes and package updates.
 
 ## Support
 
@@ -348,7 +347,7 @@ check [the contributor's page][contributors].
 
 MIT License
 
-Copyright (c) 2018-2020 Dale Higgs
+Copyright (c) 2018-2021 Dale Higgs
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -376,7 +375,6 @@ SOFTWARE.
 [fake-usb]: https://github.com/hassio-addons/addon-nut/issues/24
 [forum]: https://community.home-assistant.io/t/community-hass-io-add-on-network-ups-tools/68516
 [issue]: https://github.com/hassio-addons/addon-nut/issues
-[keepchangelog]: https://keepachangelog.com/en/1.0.0/
 [nut-acknowledgements]: https://networkupstools.org/acknowledgements.html
 [nut-compatible]: https://networkupstools.org/stable-hcl.html
 [nut-conf]: https://networkupstools.org/docs/man/nut.conf.html
