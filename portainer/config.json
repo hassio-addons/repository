@@ -1,6 +1,6 @@
 {
   "name": "Portainer",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "slug": "portainer",
   "description": "Manage your Docker environment with ease",
   "url": "https://github.com/hassio-addons/addon-portainer",
@@ -26,14 +26,11 @@
   "ports_description": {
     "8000/tcp": "Edge Agent Api (Enable when managing remote edge agents)"
   },
-  "boot": "auto",
   "hassio_api": true,
-  "hassio_role": "default",
   "docker_api": true,
-  "options": {},
   "schema": {
     "log_level": "list(trace|debug|info|notice|warning|error|fatal)?",
     "agent_secret": "str?"
   },
-  "image": "hassioaddons/portainer-{arch}"
+  "image": "ghcr.io/hassio-addons/portainer/{arch}"
 }
