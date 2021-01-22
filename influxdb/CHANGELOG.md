@@ -1,11 +1,18 @@
-[Full Changelog][changelog]
+## What’s changed
 
-### 🔨 Changes
+This release is marked major, because of some major changes to our deployment process.
 
-- ⬆ Upgrades Chronograf to 1.8.8
+## 🐛 Bug fixes
 
-[changelog]: https://github.com/hassio-addons/addon-influxdb/compare/v3.7.8...v3.7.9
+- Restore add-on Supervisor API access @frenck (#108)
 
-Questions? Join our Discord server! https://discord.me/hassioaddons
-Enjoying my add-ons? Consider supporting my work:
-https://github.com/sponsors/frenck or https://patreon.com/frenck
+## 🧰 Maintenance
+
+- Cleanup repository @frenck (#102)
+- Happy New Year @frenck (#103)
+- Upgrade Code of Conduct @frenck (#104)
+- Add new repository workflow @frenck (#105)
+
+## ⬆️ Dependency updates
+
+- Upgrade add-on base image to 4.0.0 @frenck (#107)

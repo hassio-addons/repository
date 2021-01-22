@@ -1,6 +1,6 @@
 {
   "name": "InfluxDB",
-  "version": "3.7.9",
+  "version": "4.0.0",
   "slug": "influxdb",
   "description": "Scalable datastore for metrics, events, and real-time analytics",
   "url": "https://github.com/hassio-addons/addon-influxdb",
@@ -10,6 +10,7 @@
   "panel_icon": "mdi:chart-areaspline",
   "startup": "services",
   "homeassistant": "0.92.0b2",
+  "hassio_api": true,
   "arch": [
     "aarch64",
     "amd64",
@@ -21,7 +22,6 @@
     "share:rw",
     "ssl"
   ],
-  "boot": "auto",
   "ports": {
     "80/tcp": null,
     "8086/tcp": 8086
@@ -30,10 +30,7 @@
     "80/tcp": "Web interface (Not required for Ingress)",
     "8086/tcp": "InfluxDB server"
   },
-  "hassio_api": true,
   "auth_api": true,
-  "hassio_role": "default",
-  "homeassistant_api": false,
   "options": {
     "auth": true,
     "reporting": true,
@@ -57,5 +54,5 @@
     ],
     "leave_front_door_open": "bool?"
   },
-  "image": "hassioaddons/influxdb-{arch}"
+  "image": "ghcr.io/hassio-addons/influxdb/{arch}"
 }
