@@ -27,10 +27,10 @@ runtime in a single click.
 [forum]: https://community.home-assistant.io/t/home-assistant-community-add-on-node-red/55023?u=frenck
 [github-sponsors-shield]: https://frenck.dev/wp-content/uploads/2019/12/github_sponsor.png
 [github-sponsors]: https://github.com/sponsors/frenck
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2020.svg
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2021.svg
 [patreon-shield]: https://frenck.dev/wp-content/uploads/2019/12/patreon.png
 [patreon]: https://www.patreon.com/frenck
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[release-shield]: https://img.shields.io/badge/version-v7.2.11-blue.svg
-[release]: https://github.com/hassio-addons/addon-node-red/tree/v7.2.11
+[release-shield]: https://img.shields.io/badge/version-v8.0.0-blue.svg
+[release]: https://github.com/hassio-addons/addon-node-red/tree/v8.0.0
 [screenshot]: https://github.com/hassio-addons/addon-node-red/raw/master/images/screenshot.png
