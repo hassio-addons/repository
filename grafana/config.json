@@ -1,6 +1,6 @@
 {
   "name": "Grafana",
-  "version": "5.3.6",
+  "version": "6.0.0",
   "slug": "grafana",
   "description": "The open platform for beautiful analytics and monitoring",
   "url": "https://github.com/hassio-addons/addon-grafana",
@@ -14,9 +14,6 @@
     "amd64",
     "armv7"
   ],
-  "boot": "auto",
-  "hassio_api": true,
-  "hassio_role": "default",
   "map": [
     "ssl"
   ],
@@ -49,5 +46,5 @@
       }
     ]
   },
-  "image": "hassioaddons/grafana-{arch}"
+  "image": "ghcr.io/hassio-addons/grafana/{arch}"
 }

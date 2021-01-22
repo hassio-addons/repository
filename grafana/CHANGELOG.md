@@ -1,11 +1,15 @@
-[Full Changelog][changelog]
+## What’s changed
 
-### 🔨  Changes
+This release is marked major, because of some major changes to our deployment process.
 
-- ⬆ Upgrades Grafana to v7.3.3
+## 🧰 Maintenance
 
-[changelog]: https://github.com/hassio-addons/addon-grafana/compare/v5.3.5...v5.3.6
+- Cleanup repository @frenck (#86)
+- Happy New Year @frenck (#87)
+- Upgrade Code of Conduct @frenck (#88)
+- Add new repository workflow @frenck (#89)
 
-Questions? Join our Discord server! https://discord.me/hassioaddons
-Enjoying my add-ons? Consider supporting my work:
-https://github.com/sponsors/frenck or https://patreon.com/frenck
+## ⬆️ Dependency updates
+
+- Upgrade add-on base image to 4.0.0 @frenck (#90)
+- ⬆ Upgrades Grafana to v7.3.7 @frenck (#91)

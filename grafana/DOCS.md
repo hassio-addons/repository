@@ -22,7 +22,7 @@ comparison to installing any other Home Assistant add-on.
 1. Open the Web UI.
 
 **Note**: As the addon now supports both Ingress and direct access, the default
-`admin` user has a password of `hassio`.  __Please ensure to change this.__
+`admin` user has a password of `hassio`. **Please ensure to change this.**
 
 ## Configuration
 
@@ -53,7 +53,7 @@ dealing with an unknown issue. Possible values are:
 - `debug`: Shows detailed debug information.
 - `info`: Normal (usually) interesting events.
 - `warning`: Exceptional occurrences that are not errors.
-- `error`:  Runtime errors that do not require immediate action.
+- `error`: Runtime errors that do not require immediate action.
 - `fatal`: Something went terribly wrong. Add-on becomes unusable.
 
 Please note that each level automatically includes log messages from a
@@ -64,7 +64,7 @@ you are troubleshooting.
 ### Option: `grafana_ingress_user`
 
 When using Ingress grafana will automatically log in by default with a username
-of `admin`.  If a different user is required this option can be set.
+of `admin`. If a different user is required this option can be set.
 
 ### Option: `plugins`
 
@@ -86,7 +86,7 @@ documentation:
 
 <http://docs.grafana.org/installation/configuration/#using-environment-variables>
 
-**Note**: _Only environment variables starting with `GF_` are accepted._
+**Note**: _Only environment variables starting with `GF_` are accepted.\_
 
 ## Using it with the InfluxDB Community add-on
 
@@ -99,16 +99,18 @@ for Home Assistant.
    (InfluxDB Admin -> Users and "+ Create User")
 1. Login into Grafana
 1. Create a new datasource:
-  - Name: Anything you want, e.g., Home Assistant
-  - Type: InfluxDB
-  - HTTP > URL: `http://a0d7b954-influxdb:8086`
-  - HTTP > Access: Server (Default)
-  - Auth: (leave them all disabled)
-  - InfluxDB Details > Database: _Your Home Assistant InfluxDB database_,
-    e.g., `homeassistant`
-  - InfluxDB Details > User: _Grafana InfluxDB username defined in step 1_
-  - InfluxDB Details > Password: _Grafana InfluxDB user password defined_
-    _in step 1_
+
+- Name: Anything you want, e.g., Home Assistant
+- Type: InfluxDB
+- HTTP > URL: `http://a0d7b954-influxdb:8086`
+- HTTP > Access: Server (Default)
+- Auth: (leave them all disabled)
+- InfluxDB Details > Database: _Your Home Assistant InfluxDB database_,
+  e.g., `homeassistant`
+- InfluxDB Details > User: _Grafana InfluxDB username defined in step 1_
+- InfluxDB Details > Password: _Grafana InfluxDB user password defined_
+  _in step 1_
+
 1. Hit Save & Test
 
 ## Known issues and limitations
@@ -122,16 +124,15 @@ for Home Assistant.
 ## Changelog & Releases
 
 This repository keeps a change log using [GitHub's releases][releases]
-functionality. The format of the log is based on
-[Keep a Changelog][keepchangelog].
+functionality.
 
 Releases are based on [Semantic Versioning][semver], and use the format
-of ``MAJOR.MINOR.PATCH``. In a nutshell, the version will be incremented
+of `MAJOR.MINOR.PATCH`. In a nutshell, the version will be incremented
 based on the following:
 
-- ``MAJOR``: Incompatible or major changes.
-- ``MINOR``: Backwards-compatible new features and enhancements.
-- ``PATCH``: Backwards-compatible bugfixes and package updates.
+- `MAJOR`: Incompatible or major changes.
+- `MINOR`: Backwards-compatible new features and enhancements.
+- `PATCH`: Backwards-compatible bugfixes and package updates.
 
 ## Support
 
@@ -159,7 +160,7 @@ check [the contributor's page][contributors].
 
 MIT License
 
-Copyright (c) 2018-2020 Franck Nijhof
+Copyright (c) 2018-2021 Franck Nijhof
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -180,14 +181,13 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 [contributors]: https://github.com/hassio-addons/addon-grafana/graphs/contributors
-[create-db]: https://github.com/hassio-addons/addon-influxdb/blob/master/influxdb/DOCS.md#integrating-into-home-assistant
+[create-db]: https://github.com/hassio-addons/addon-influxdb/blob/main/influxdb/DOCS.md#integrating-into-home-assistant
 [discord-ha]: https://discord.gg/c5DvZ4e
 [discord]: https://discord.me/hassioaddons
 [forum]: https://community.home-assistant.io/t/home-assistant-community-add-on-grafana/54674?u=frenck
 [frenck]: https://github.com/frenck
 [influxdb-addon]: https://github.com/hassio-addons/addon-influxdb
 [issue]: https://github.com/hassio-addons/addon-grafana/issues
-[keepchangelog]: http://keepachangelog.com/en/1.0.0/
 [reddit]: https://reddit.com/r/homeassistant
 [releases]: https://github.com/hassio-addons/addon-grafana/releases
 [semver]: http://semver.org/spec/v2.0.0.htm
