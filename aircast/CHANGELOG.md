@@ -1,13 +1,16 @@
-[Full Changelog][changelog]
+## What’s changed
 
-This is a general maintenance release.
+No big changes, but still a major release!
+The add-on is now published via GitHub and the add-on itself now runs on Debian.
 
-### 🔨 Changed
+## 🧰 Maintenance
 
-- ⬆ Upgrades AirConnect to 0.2.28.3 (#33)
+- Cleanup repository @frenck (#37)
+- Happy New Year @frenck (#38)
+- Upgrade Code of Conduct @frenck (#39)
+- Add new repository workflow @frenck (#40)
 
-[changelog]: https://github.com/hassio-addons/addon-aircast/compare/v2.4.0...v2.4.1
+## ⬆️ Dependency updates
 
-Questions? Join our Discord server! https://discord.me/hassioaddons
-Enjoying my add-ons? Consider supporting my work:
-https://github.com/sponsors/frenck or https://patreon.com/frenck
+- Switch add-on base image to Debian @frenck (#41)
+- ⬆ Upgrades AirConnect to 0.2.43.1 @frenck (#42)
