@@ -1,18 +1,17 @@
 ## What’s changed
 
-This release is marked major, because of some major changes to our deployment process.
+Fixes a login issue that slipped into v4.0.0.
+Thanks to @tjorim for providing a fix! 🎉 
 
 ## 🐛 Bug fixes
 
-- Restore add-on Supervisor API access @frenck (#108)
+- ⬆️ Upgrades Chronograf to 1.8.9.1 @tjorim (#110)
 
-## 🧰 Maintenance
+## 📚 Documentation
 
-- Cleanup repository @frenck (#102)
-- Happy New Year @frenck (#103)
-- Upgrade Code of Conduct @frenck (#104)
-- Add new repository workflow @frenck (#105)
+- Clarify user permissions step in documentation @sveip (#101)
+- Fix CI badges to show the right status @frenck (#112)
 
 ## ⬆️ Dependency updates
 
-- Upgrade add-on base image to 4.0.0 @frenck (#107)
+- ⬆️ Upgrades Chronograf to 1.8.9.1 @tjorim (#110)
