@@ -1,6 +1,6 @@
 {
   "name": "FTP",
-  "version": "3.5.0",
+  "version": "4.0.0",
   "slug": "ftp",
   "description": "A secure and fast FTP server for Home Assistant",
   "url": "https://github.com/hassio-addons/addon-ftp",
@@ -13,10 +13,6 @@
     "i386"
   ],
   "init": false,
-  "boot": "auto",
-  "hassio_api": true,
-  "hassio_role": "default",
-  "homeassistant_api": false,
   "host_network": true,
   "privileged": [
     "SYS_ADMIN"
@@ -93,5 +89,5 @@
     ],
     "i_like_to_be_pwned": "bool?"
   },
-  "image": "hassioaddons/ftp-{arch}"
+  "image": "ghcr.io/hassio-addons/ftp/{arch}"
 }

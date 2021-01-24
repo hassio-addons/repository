@@ -1,12 +1,12 @@
-[Full Changelog][changelog]
-### 🔨 Changes
+## What’s changed
 
-- 🔨Add pasv_addr_resolve to config (#20)
-- ⬆ Upgrades add-on base image to v8.0.3
-- ⬆ Upgrades base image to v8.0.4
+## 🧰 Maintenance
 
-[changelog]: https://github.com/hassio-addons/addon-ftp/compare/v3.4.0...v3.5.0
+- Cleanup repository @frenck (#21)
+- Happy New Year @frenck (#22)
+- Upgrade Code of Conduct @frenck (#23)
+- Add new repository workflow @frenck (#24)
 
-Questions? Join our Discord server! https://discord.me/hassioaddons
-Enjoying my add-ons? Consider supporting my work:
-https://github.com/sponsors/frenck or https://patreon.com/frenck
+## ⬆️ Dependency updates
+
+- Upgrade add-on base image to 9.1.0 @frenck (#25)
