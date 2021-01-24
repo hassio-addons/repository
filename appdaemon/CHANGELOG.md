@@ -1,11 +1,14 @@
-[Full Changelog][changelog]
+## What’s changed
 
-### 🔨  Changes
+## 🧰 Maintenance
 
-- ⬆ Upgrades add-on base image to v8.0.6
+- Cleanup repository @frenck (#55)
+- Happy New Year @frenck (#57)
+- Upgrade Code of Conduct @frenck (#58)
+- Add new repository workflow @frenck (#59)
+- Allow dependabot to upgrade Python dependencies @frenck (#60)
 
-[changelog]: https://github.com/hassio-addons/addon-appdaemon/compare/v0.3.1...v0.3.2
+## ⬆️ Dependency updates
 
-Questions? Join our Discord server! https://discord.me/hassioaddons
-Enjoying my add-ons? Consider supporting my work:
-https://github.com/sponsors/frenck or https://patreon.com/frenck
+- ⬆️ Bump actions/stale from v3.0.14 to v3.0.15 @dependabot (#62)
+- Upgrade add-on base image to 9.1.0 @frenck (#61)
