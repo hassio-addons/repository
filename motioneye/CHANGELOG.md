@@ -1,11 +1,20 @@
-[Full Changelog][changelog]
+## What’s changed
 
-### 🔨 Changes
+## 🚀 Enhancements
 
-- 🔨 Fix deletion of uploadservices.json (#125)
+- Refactor NGINX configuration @frenck (#158)
 
-[changelog]: https://github.com/hassio-addons/addon-motioneye/compare/v0.10.1...v0.10.2
+## 🧰 Maintenance
 
-Questions? Join our Discord server! https://discord.me/hassioaddons
-Enjoying my add-ons? Consider supporting my work:
-https://github.com/sponsors/frenck or https://patreon.com/frenck
+- Cleanup repository @frenck (#144)
+- Happy New Year @frenck (#145)
+- Upgrade Code of Conduct @frenck (#146)
+- Add new repository workflow @frenck (#147)
+- Activate dependabot for Python dependencies @frenck (#150)
+- Add .python-version for dependabot @frenck (#157)
+
+## ⬆️ Dependency updates
+
+- Upgrade add-on base image to 9.1.0 @frenck (#149)
+- ⬆️ Bump actions/stale from v3.0.14 to v3.0.15 @dependabot (#151)
+- Upgrade motion to 4.3.2 @frenck (#156)
