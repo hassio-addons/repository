@@ -1,14 +1,24 @@
-[Full Changelog][changelog]
+## What’s changed
 
-### 🔨 Changes
+Grocy 3 is here! 🎉
 
-- ⬆ Upgrades add-on base image to v8.0.5
-- ⬆ Upgrades php7 to 7.3.23-r0
-- ⬆ Upgrades nginx to 1.18.0-r1
-- ⬆ Upgrades composer to 1.10.16-r0
+## 🐛 Bug fixes
 
-[changelog]: https://github.com/hassio-addons/addon-grocy/compare/v0.9.1...v0.9.2
+- Fix NGINX waiting for non-activated FPM @frenck (#116)
 
-Questions? Join our Discord server! https://discord.me/hassioaddons
-Enjoying my add-ons? Consider supporting my work:
-https://github.com/sponsors/frenck or https://patreon.com/frenck
+## 🚀 Enhancements
+
+- Refactor NGINX/PHP-FPM configuration @frenck (#115)
+
+## 🧰 Maintenance
+
+- Cleanup repository @frenck (#106)
+- Happy New Year @frenck (#107)
+- Upgrade Code of Conduct @frenck (#108)
+- Add new repository workflow @frenck (#109)
+
+## ⬆️ Dependency updates
+
+- Upgrades add-on base image to v9.0.1 @fsironman (#111)
+- Upgrades Grocy to v3.0.1 @fsironman (#113)
+- Upgrade add-on base image to 9.1.0 @frenck (#114)
