@@ -1,6 +1,6 @@
 {
   "name": "AdGuard Home",
-  "version": "2.6.1",
+  "version": "3.0.0",
   "slug": "adguard",
   "description": "Network-wide ads & trackers blocking DNS server",
   "url": "https://github.com/hassio-addons/addon-adguard-home",
@@ -29,9 +29,6 @@
   "discovery": [
     "adguard"
   ],
-  "boot": "auto",
-  "hassio_api": true,
-  "hassio_role": "default",
   "auth_api": true,
   "host_network": true,
   "map": [
@@ -49,5 +46,5 @@
     "keyfile": "str",
     "leave_front_door_open": "bool?"
   },
-  "image": "hassioaddons/adguard-{arch}"
+  "image": "ghcr.io/hassio-addons/adguard/{arch}"
 }
