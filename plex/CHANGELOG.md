@@ -1,11 +1,13 @@
-[Full Changelog][changelog]
+## What’s changed
 
-### 🔨 Changes
+## 🧰 Maintenance
 
-- ⬆ Upgrades Plex Media Server to 1.20.4.3517
+- Cleanup repository @frenck (#47)
+- Happy New Year @frenck (#48)
+- Upgrade Code of Conduct @frenck (#49)
+- Add new repository workflow @frenck (#50)
 
-[changelog]: https://github.com/hassio-addons/addon-plex/compare/v2.4.1...v2.4.2
+## ⬆️ Dependency updates
 
-Questions? Join our Discord server! https://discord.me/hassioaddons
-Enjoying my add-ons? Consider supporting my work:
-https://github.com/sponsors/frenck or https://patreon.com/frenck
+- ⬆️ Upgrades Plex Media Server to 1.21.1.3876 @cappee (#45)
+- Upgrade add-on base image to 6.1.0 @frenck (#51)

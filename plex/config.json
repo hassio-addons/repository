@@ -1,6 +1,6 @@
 {
   "name": "Plex Media Server",
-  "version": "2.4.2",
+  "version": "2.5.0",
   "slug": "plex",
   "description": "Recorded media, live TV, online news, and podcasts ready to stream.",
   "url": "https://github.com/hassio-addons/addon-plex",
@@ -17,7 +17,6 @@
     "share:rw",
     "ssl"
   ],
-  "boot": "auto",
   "ports": {
     "1900/udp": 1900,
     "3005/tcp": 3005,
@@ -45,9 +44,6 @@
     "33443/tcp": "WebTools"
   },
   "hassio_api": true,
-  "hassio_role": "default",
-  "homeassistant_api": false,
-  "host_network": false,
   "options": {
     "claim_code": "",
     "webtools": false
@@ -57,5 +53,5 @@
     "claim_code": "str",
     "webtools": "bool"
   },
-  "image": "hassioaddons/plex-{arch}"
+  "image": "ghcr.io/hassio-addons/plex/{arch}"
 }
