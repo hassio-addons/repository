@@ -1,11 +1,12 @@
-[Full Changelog][changelog]
+## What’s changed
 
-### 🔨 Changes
+## 🧰 Maintenance
 
-- ⬆ Upgrades add-on base image to v5.2.2
+- Cleanup repository @frenck (#29)
+- Happy New Year @frenck (#30)
+- Upgrade Code of Conduct @frenck (#31)
+- Add new repository workflow @frenck (#32)
 
-[changelog]: https://github.com/hassio-addons/addon-adb/compare/v0.6.2...v0.6.3
+## ⬆️ Dependency updates
 
-Questions? Join our Discord server! https://discord.me/hassioaddons
-Enjoying my add-ons? Consider supporting my work:
-https://github.com/sponsors/frenck or https://patreon.com/frenck
+- Upgrade add-on base image to 6.1.0 @frenck (#33)
