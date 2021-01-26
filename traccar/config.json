@@ -1,10 +1,9 @@
 {
   "name": "Traccar",
-  "version": "0.9.2",
+  "version": "0.10.0",
   "slug": "traccar",
   "description": "Modern GPS Tracking Platform",
   "url": "https://github.com/hassio-addons/addon-traccar",
-  "webui": "[PROTO:ssl]://[HOST]:[PORT:80]",
   "ingress": true,
   "ingress_port": 0,
   "panel_icon": "mdi:car-connected",
@@ -17,9 +16,6 @@
     "i386"
   ],
   "init": false,
-  "boot": "auto",
-  "hassio_api": true,
-  "hassio_role": "default",
   "host_network": true,
   "ports": {
     "80/tcp": null
@@ -45,5 +41,5 @@
     "certfile": "str",
     "keyfile": "str"
   },
-  "image": "hassioaddons/traccar-{arch}"
+  "image": "ghcr.io/hassio-addons/traccar/{arch}"
 }
