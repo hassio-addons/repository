@@ -1,11 +1,25 @@
-[Full Changelog][changelog]
+## What’s changed
 
-### 🔨 Changes
+## 🐛 Bug fixes
 
-- ⬆ Upgrades Zwave2Mqtt to v4.0.6
-- ⬆ Upgrades open-zwave database to 893e076a1a45af31bf8c69d321646ec5f770b270
+- Refactor NGINX configuration and HA authentication @frenck (#77)
 
-[changelog]: https://github.com/hassio-addons/addon-zwave2mqtt/compare/v0.8.2...v0.8.3
+## 🚀 Enhancements
 
-Questions? Join our Discord server! https://discord.me/hassioaddons
-Enjoying my add-ons? Consider supporting my work: https://patreon.com/frenck
+- Refactor NGINX configuration and HA authentication @frenck (#77)
+
+## 🧰 Maintenance
+
+- Cleanup repository @frenck (#71)
+- Happy New Year @frenck (#73)
+- Upgrade Code of Conduct @frenck (#74)
+- Add new repository workflow @frenck (#75)
+
+## ⬆️ Dependency updates
+
+- Upgrade add-on base image to 9.1.0 @frenck (#76)
+- ⬆️ Bump actions/stale from v3.0.14 to v3.0.15 @dependabot (#78)
+- ⬆️ Bump frenck/action-addon-linter from v1.3.1 to v1.4 @dependabot (#79)
+- ⬆ Upgrades Zwave2Mqtt to v4.1.1 @frenck (#81)
+- ⬆ Update OpenZWave database to ee90c896c137b3a473232565c45a5… @frenck (#82)
+- Upgrade add-on base image to 9.1.1 @frenck (#83)
