@@ -1,24 +1,26 @@
 ## What’s changed
 
-Grocy 3 is here! 🎉
+New languages!
 
-## 🐛 Bug fixes
+- `cs` (Czech)
+- `el_GR` (Greek - Greece)
+- `fi` (Finnish)
+- `he_IL` (Hebrew - Israel)
+- `ja` (Japanese)
+- `ko_KR` (Korean - South Korea)
+- `zh_CN` (Chinese - China)
+- `zh_TW` (Chinese - Taiwan)
 
-- Fix NGINX waiting for non-activated FPM @frenck (#116)
+## ✨ New features
 
-## 🚀 Enhancements
-
-- Refactor NGINX/PHP-FPM configuration @frenck (#115)
+- Add languages: cs, el_GR, fi, he_IL, ja, ko_KR, zh_CN, zh_TW @frenck (#121)
 
 ## 🧰 Maintenance
 
-- Cleanup repository @frenck (#106)
-- Happy New Year @frenck (#107)
-- Upgrade Code of Conduct @frenck (#108)
-- Add new repository workflow @frenck (#109)
+- Remove obsolete webui from configuration @frenck (#119)
 
 ## ⬆️ Dependency updates
 
-- Upgrades add-on base image to v9.0.1 @fsironman (#111)
-- Upgrades Grocy to v3.0.1 @fsironman (#113)
-- Upgrade add-on base image to 9.1.0 @frenck (#114)
+- ⬆️ Bump actions/stale from v3.0.14 to v3.0.15 @dependabot (#118)
+- ⬆️ Bump frenck/action-addon-linter from v1.3.1 to v1.4 @dependabot (#117)
+- Upgrade add-on base image to 9.1.1 @frenck (#122)

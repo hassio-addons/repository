@@ -99,14 +99,20 @@ The private key file to use for SSL.
 
 Is used for setting the language. Choose between:
 
+- `cs` (Czech)
 - `da` (Danish)
 - `de` (German)
+- `el_GR` (Greek - Greece)
 - `en` (English)
 - `en_GB` (English - United Kingdom)
 - `es` (Spanish)
+- `fi` (Finnish)
 - `fr` (French)
+- `he_IL` (Hebrew - Israel)
 - `hu` (Hungarian)
 - `it` (Italian)
+- `ja` (Japanese)
+- `ko_KR` (Korean - South Korea)
 - `nl` (Dutch)
 - `no` (Norwegian)
 - `pl` (Polish)
@@ -117,6 +123,8 @@ Is used for setting the language. Choose between:
 - `sv_SE` (Swedish - Sweden)
 - `ta` (Tamil)
 - `tr` (Turkish)
+- `zh_CN` (Chinese - China)
+- `zh_TW` (Chinese - Taiwan)
 
 ### Option: `currency`
 
