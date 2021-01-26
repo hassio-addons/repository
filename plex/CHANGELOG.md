@@ -1,13 +1,8 @@
 ## What’s changed
 
-## 🧰 Maintenance
-
-- Cleanup repository @frenck (#47)
-- Happy New Year @frenck (#48)
-- Upgrade Code of Conduct @frenck (#49)
-- Add new repository workflow @frenck (#50)
-
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades Plex Media Server to 1.21.1.3876 @cappee (#45)
-- Upgrade add-on base image to 6.1.0 @frenck (#51)
+- ⬆️ Bump frenck/action-addon-linter from v1.3.1 to v1.4 @dependabot (#53)
+- ⬆️ Bump actions/stale from v3.0.14 to v3.0.15 @dependabot (#52)
+- Upgrade add-on base image to 6.1.1 @frenck (#54)
+- ⬆ Upgrades Plex Media Server to 1.21.2.3939 @frenck (#55)
