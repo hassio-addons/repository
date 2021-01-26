@@ -1,14 +1,25 @@
-## Changes
+## What’s changed
 
-- ⬆ Upgrades gcc to 9.2.0-r4
-- ⬆ Upgrades git to 2.24.3-r0
-- ⬆ Upgrades add-on base image to v7.2.0
-- ⬆ Upgrades Tautulli to v2.2.4
-- ⬆ Upgrades python2 to 2.7.18-r0
-- 🔨 Implement OCI image specification on labels
-- ✏ Split add-on documentation
-- ⬆ Updates plexapi to v3.6.0 (#57)
+## 🐛 Bug fixes
 
-[Full Changelog][changelog]
+- Fix Tautulli Python startup @frenck (#75)
 
-[changelog]: https://github.com/hassio-addons/addon-tautulli/compare/v1.5.0...v1.5.1
+## 🧰 Maintenance
+
+- ⬆ Updates plexapi to v4 @renovate (#60)
+- Cleanup repository @frenck (#67)
+- Happy New Year @frenck (#68)
+- Upgrade Code of Conduct @frenck (#69)
+- Add new repository workflow @frenck (#70)
+- Allow dependabot to upgrade Python dependencies @frenck (#76)
+
+## ⬆️ Dependency updates
+
+- Upgrade add-on base image to 9.1.0 @frenck (#71)
+- ⬆ Upgrades Tautulli to v2.6.5 @frenck (#72)
+- ⬆️ Bump actions/stale from v3.0.14 to v3.0.15 @dependabot (#74)
+- ⬆️ Bump frenck/action-addon-linter from v1.3.1 to v1.4 @dependabot (#73)
+- ⬆ Upgrades py3-pip to 20.3.4-r0 @frenck (#77)
+- ⬆️ Bump pyopenssl from 19.1.0 to 20.0.1 @dependabot (#78)
+- ⬆️ Bump plexapi from 4.2.0 to 4.3.0 in /tautulli @dependabot (#79)
+- Upgrade add-on base image to 9.1.1 @frenck (#80)

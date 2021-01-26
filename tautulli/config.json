@@ -1,9 +1,9 @@
 {
   "name": "Tautulli",
-  "version": "1.5.1",
+  "version": "2.0.0",
   "slug": "tautulli",
   "description": "Monitoring and tracking tool for Plex Media Server",
-  "url": "https://github.com/hassio-addons/addon-tautulli/tree/master/README.md",
+  "url": "https://github.com/hassio-addons/addon-tautulli/tree/main/README.md",
   "webui": "[PROTO:ssl]://[HOST]:[PORT:8181]",
   "startup": "services",
   "arch": [
@@ -13,9 +13,7 @@
     "armv7",
     "i386"
   ],
-  "boot": "auto",
   "hassio_api": true,
-  "hassio_role": "default",
   "ports": {
     "8181/tcp": 8181
   },
@@ -43,5 +41,5 @@
     "i_like_to_be_pwned": "bool?",
     "leave_front_door_open": "bool?"
   },
-  "image": "hassioaddons/tautulli"
+  "image": "ghcr.io/hassio-addons/tautulli/{arch}"
 }
