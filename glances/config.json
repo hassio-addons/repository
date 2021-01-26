@@ -1,10 +1,9 @@
 {
   "name": "Glances",
-  "version": "0.9.1",
+  "version": "0.10.0",
   "slug": "glances",
   "description": "A cross-platform system monitoring tool",
   "url": "https://github.com/hassio-addons/addon-glances",
-  "webui": "[PROTO:ssl]://[HOST]:[PORT:80]",
   "ingress": true,
   "ingress_port": 0,
   "panel_icon": "mdi:speedometer",
@@ -30,9 +29,7 @@
     "share",
     "ssl"
   ],
-  "boot": "auto",
   "hassio_api": true,
-  "hassio_role": "default",
   "auth_api": true,
   "docker_api": true,
   "host_network": true,
@@ -79,5 +76,5 @@
   "environment": {
     "LOG_FORMAT": "{LEVEL}: {MESSAGE}"
   },
-  "image": "hassioaddons/glances-{arch}"
+  "image": "ghcr.io/hassio-addons/glances/{arch}"
 }
