@@ -1,11 +1,8 @@
 ## What’s changed
 
-The initial release of the Z-Wave JS to MQTT add-on 🎉 
+The add-on will now create a default configuration on the first run, pre-configured as much as possible for use with Home Assistant.
+Additionally, if the Mosquitto add-on is found, it will configure that too.
 
 ## ✨ New features
 
-- Add initial add-on code @frenck (#1)
-
-## 📚 Documentation
-
-- Extend setup instructions @frenck (#2)
+- Initiate default configuration on first run @frenck (#3)

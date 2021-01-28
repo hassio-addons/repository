@@ -1,6 +1,6 @@
 {
   "name": "Z-Wave JS to MQTT",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "slug": "zwavejs2mqtt",
   "description": "Fully configurable Z-Wave JS to MQTT gateway and control panel",
   "url": "https://github.com/hassio-addons/addon-zwavejs2mqtt",
@@ -18,6 +18,9 @@
   ],
   "discovery": [
     "zwave_js"
+  ],
+  "services": [
+    "mqtt:want"
   ],
   "auto_uart": true,
   "map": [

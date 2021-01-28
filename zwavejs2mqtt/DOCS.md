@@ -13,6 +13,7 @@ Some advantages and use-cases for this are:
   it is available for Home Assistant at the same time.
 - Allow [ESPHome.io][esphome] based ESP devices to directly respond or work
   with your Z-Wave network.
+- Pre-configures itself with the Mosquitto add-on when found.
 
 This add-on uses the [Zwavejs2Mqtt][zwavejs2mqtt] software.
 
@@ -55,10 +56,6 @@ To do this:
 1. Enter the following information:
    - Serial Port (e.g., `/dev/serial/by-id/usb-0658_0200_if00`)
    - Network Key (e.g., `2232666D100F795E5BB17F0A1BB7A146`)
-   - **Enable the WS Server** checkbox!
-
-You can check the "Disable Gateway" box for now, as you can set up MQTT
-later (if you like that is).
 
 Now click the "SAVE" button and navigate to the "Control Panel" in the menu.
 If you had devices paired already, you should see the showing up slowly.
