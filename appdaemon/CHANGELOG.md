@@ -1,14 +1,15 @@
 ## What’s changed
 
-## 🧰 Maintenance
+This patch release applies a patch to fix an issue with AppDaemon's dependencies.
 
-- Cleanup repository @frenck (#55)
-- Happy New Year @frenck (#57)
-- Upgrade Code of Conduct @frenck (#58)
-- Add new repository workflow @frenck (#59)
-- Allow dependabot to upgrade Python dependencies @frenck (#60)
+The bug is reported upstream, but not recognized as one by AppDaemon's collaborators; thus this release applies a patch during build-time to ensure you as a user of the add-on won't run into it.
+
+## 🐛 Bug fixes
+
+- Patch AppDaemon Engine.io dependency issues @frenck (#67)
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Bump actions/stale from v3.0.14 to v3.0.15 @dependabot (#62)
-- Upgrade add-on base image to 9.1.0 @frenck (#61)
+- ⬆️ Bump frenck/action-addon-linter from v1.3.1 to v1.4 @dependabot (#63)
+- ⬆ Upgrades py3-pip to 20.3.4-r0 @frenck (#65)
+- Upgrade add-on base image to 9.1.1 @frenck (#66)
