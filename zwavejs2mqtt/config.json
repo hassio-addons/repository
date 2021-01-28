@@ -1,0 +1,30 @@
+{
+  "name": "Z-Wave JS to MQTT",
+  "version": "0.1.0",
+  "slug": "zwavejs2mqtt",
+  "description": "Fully configurable Z-Wave JS to MQTT gateway and control panel",
+  "url": "https://github.com/hassio-addons/addon-zwavejs2mqtt",
+  "ingress": true,
+  "panel_title": "Z-Wave JS",
+  "panel_icon": "mdi:z-wave",
+  "startup": "system",
+  "init": false,
+  "arch": [
+    "aarch64",
+    "amd64",
+    "armhf",
+    "armv7",
+    "i386"
+  ],
+  "discovery": [
+    "zwave_js"
+  ],
+  "auto_uart": true,
+  "map": [
+    "share:rw"
+  ],
+  "schema": {
+    "log_level": "list(trace|debug|info|notice|warning|error|fatal)?"
+  },
+  "image": "ghcr.io/hassio-addons/zwavejs2mqtt/{arch}"
+}
