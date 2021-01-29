@@ -1,8 +1,10 @@
 ## What’s changed
 
-The add-on will now create a default configuration on the first run, pre-configured as much as possible for use with Home Assistant.
-Additionally, if the Mosquitto add-on is found, it will configure that too.
+## 🐛 Bug fixes
 
-## ✨ New features
+- Ensure HA Discovery awaits for Z-Wave JS Server @frenck (#5)
 
-- Initiate default configuration on first run @frenck (#3)
+## ⬆️ Dependency updates
+
+- Upgrade zwavejs2mqtt to v1.0.1 @frenck (#6)
+- Upgrade Z-Wave JS database to 93d505e97daa7649d0d4af16d0145b52cbdcc141 @frenck (#7)
