@@ -1,27 +1,19 @@
 ## What’s changed
 
-A major release! Not that there is much changed from a user perspective, so everything as normal 👍 
-Under the hood, the way the add-on is built has changed and the image is now distributed via
-the GitHub Container Registry.
-
-## ✨ New features
-
-- Add zip/unzip commands @frenck (#163)
-
 ## 🧰 Maintenance
 
-- Cleanup repository @frenck (#156)
-- Upgrade Code of Conduct @frenck (#157)
-- Happy New Year @frenck (#158)
-- Add new repository workflow @frenck (#159)
+- Fix add-on description extraction @frenck (#167)
 
 ## 📚 Documentation
 
-- Documentation tweaks @frenck (#165)
+- Fix CI badges to show the right status @frenck (#168)
 
 ## ⬆️ Dependency updates
 
-- ⬆ Upgrades mariadb-client to 1:10.3.27-0+deb10u1 @frenck (#161)
-- ⬆ Upgrades code-server to 3.8.0 @frenck (#162)
-- ⬆ Upgrades oderwat.indent-rainbow to 7.5.0 @frenck (#164)
-- ⬆ Upgrades redhat.vscode-yaml to 0.14.0 @frenck (#166)
+- ⬆️ Bump frenck/action-addon-linter from v1.3.0 to v1.4 @dependabot (#170)
+- ⬆️ Bump actions/stale from v3.0.14 to v3.0.15 @dependabot (#171)
+- ⬆️ Bump yamllint from 1.25.0 to 1.26.0 @dependabot (#172)
+- ⬆ Upgrades openssl to 1.1.1d-0+deb10u4 @frenck (#173)
+- Upgrade add-on base image to 4.1.2 @frenck (#174)
+- ⬆ Upgrades Home Assistant CLI to v4.10.0 @frenck (#175)
+- Upgrades keesschollaart.vscode-home-assistant to 1.14.0 @frenck (#176)
