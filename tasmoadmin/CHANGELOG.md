@@ -1,14 +1,18 @@
-[Full Changelog][changelog]
+## What’s changed
 
-### 🔨 Changes
+## 🧰 Maintenance
 
-- 🔥 Remove portable dir from upstream (#99)
-- ⬆ Upgrades PHP to 7.3.23 (#100)
-- ⬆ Upgrades nginx to 1.18.0-r1
-- ⬆ Upgrades add-on base image to v8.0.5
+- Cleanup repository @frenck (#109)
+- Happy New Year @frenck (#110)
+- Upgrade Code of Conduct @frenck (#111)
+- Add new repository workflow @frenck (#112)
 
-[changelog]: https://github.com/hassio-addons/addon-tasmoadmin/compare/v0.13.0...v0.13.1
+## 📚 Documentation
 
-Questions? Join our Discord server! https://discord.me/hassioaddons
-Enjoying my add-ons? Consider supporting my work:
-https://github.com/sponsors/frenck or https://patreon.com/frenck
+- 📚 Remove non-existing IPv6 option from documentation @erikpendragon (#107)
+
+## ⬆️ Dependency updates
+
+- ⬆️ Bump frenck/action-addon-linter from v1.3.1 to v1.4 @dependabot (#113)
+- ⬆️ Bump actions/stale from v3.0.14 to v3.0.15 @dependabot (#114)
+- Upgrade add-on base image to 9.1.2 @frenck (#115)

@@ -1,6 +1,6 @@
 {
   "name": "TasmoAdmin",
-  "version": "0.13.1",
+  "version": "0.14.0",
   "slug": "sonweb",
   "description": "Centrally manage all your Sonoff-Tasmota devices",
   "url": "https://github.com/hassio-addons/addon-tasmoadmin",
@@ -14,9 +14,6 @@
     "armv7",
     "i386"
   ],
-  "boot": "auto",
-  "hassio_api": true,
-  "hassio_role": "default",
   "map": [
     "ssl"
   ],
@@ -37,5 +34,5 @@
     "certfile": "str",
     "keyfile": "str"
   },
-  "image": "hassioaddons/sonweb-{arch}"
+  "image": "ghcr.io/hassio-addons/tasmoadmin/{arch}"
 }
