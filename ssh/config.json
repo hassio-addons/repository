@@ -1,6 +1,6 @@
 {
   "name": "SSH & Web Terminal",
-  "version": "7.8.0",
+  "version": "8.0.0",
   "slug": "ssh",
   "description": "SSH & Web Terminal access to your Home Assistant instance",
   "url": "https://github.com/hassio-addons/addon-ssh",
@@ -24,7 +24,6 @@
   "ports_description": {
     "22/tcp": "SSH server port (make empty to disable)"
   },
-  "boot": "auto",
   "hassio_api": true,
   "hassio_role": "manager",
   "services": [
@@ -99,5 +98,5 @@
     ],
     "i_like_to_be_pwned": "bool?"
   },
-  "image": "hassioaddons/ssh-{arch}"
+  "image": "ghcr.io/hassio-addons/ssh/{arch}"
 }
