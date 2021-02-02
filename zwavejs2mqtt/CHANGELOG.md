@@ -2,6 +2,5 @@
 
 ## ⬆️ Dependency updates
 
-- ⬆ Upgrades ZwaveJS2Mqtt to v1.0.2 @frenck (#9)
-- ⬆ Update ZwaveJS device database to b62505309ef31c4717d321a @frenck (#10)
-- Upgrade add-on base image to 9.1.2 @frenck (#11)
+- Bump frenck/action-yamllint from v1.0.2 to v1.1 @dependabot (#12)
+- ⬆ Upgrades ZwaveJS2Mqtt to v1.0.3 @frenck (#13)
