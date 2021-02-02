@@ -943,10 +943,10 @@ SOFTWARE.
 [portainer-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [portainer-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [portainer-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
-[addon-sqlite-web]: https://github.com/hassio-addons/addon-sqlite-web/tree/v2.3.2
-[addon-doc-sqlite-web]: https://github.com/hassio-addons/addon-sqlite-web/blob/v2.3.2/README.md
+[addon-sqlite-web]: https://github.com/hassio-addons/addon-sqlite-web/tree/v3.0.0
+[addon-doc-sqlite-web]: https://github.com/hassio-addons/addon-sqlite-web/blob/v3.0.0/README.md
 [sqlite-web-issue]: https://github.com/hassio-addons/addon-sqlite-web/issues
-[sqlite-web-version-shield]: https://img.shields.io/badge/version-v2.3.2-blue.svg
+[sqlite-web-version-shield]: https://img.shields.io/badge/version-v3.0.0-blue.svg
 [sqlite-web-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [sqlite-web-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [sqlite-web-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg

@@ -20,8 +20,8 @@ This enables you to easily explore all tables and content that is saved in your 
 [discord]: https://discord.gg/c5DvZ4e
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
 [forum]: https://community.home-assistant.io/t/home-assistant-community-add-on-sqlite-web/68912?u=frenck
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2020.svg
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2021.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
-[release-shield]: https://img.shields.io/badge/version-v2.3.2-blue.svg
-[release]: https://github.com/hassio-addons/addon-sqlite-web/tree/v2.3.2
-[screenshot]: https://github.com/hassio-addons/addon-sqlite-web/raw/master/images/sample-view.png
+[release-shield]: https://img.shields.io/badge/version-v3.0.0-blue.svg
+[release]: https://github.com/hassio-addons/addon-sqlite-web/tree/v3.0.0
+[screenshot]: https://github.com/hassio-addons/addon-sqlite-web/raw/main/images/sample-view.png
