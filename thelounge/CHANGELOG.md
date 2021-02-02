@@ -1,16 +1,24 @@
-[![GitLab CI][gitlabci-shield]][gitlabci]
+## What’s changed
 
-## Changes
+## 🐛 Bug fixes
 
-- ⬆ Upgrades add-on base image to v8.0.1
-- ⬆ Upgrades nodejs to 12.18.3-r0
-- ⬆ Upgrades yarn to 1.22.4-r0
-- ⬆ Upgrades nginx to 1.18.0-r0
-- ⬆ Upgrades The Lounge to v4.2.0
-- 🔥 Remove Renovatebot
+- Add build dependencies for sqlite3 @y0ast (#12)
 
-[Full Changelog][changelog]
+## 🚀 Enhancements
 
-[changelog]: https://github.com/hassio-addons/addon-thelounge/compare/v0.9.2...v0.10.0
-[gitlabci-shield]: https://gitlab.com/hassio-addons/addon-thelounge/badges/v0.10.0/pipeline.svg
-[gitlabci]: https://gitlab.com/hassio-addons/addon-thelounge/pipelines
+- Refactor NGINX configuration and API access @frenck (#22)
+
+## 🧰 Maintenance
+
+- Cleanup repository @frenck (#13)
+- Happy New Year @frenck (#14)
+- Upgrade Code of Conduct @frenck (#15)
+- Add new repository workflow @frenck (#16)
+- Remove obsolete webui from configuration @frenck (#19)
+
+## ⬆️ Dependency updates
+
+- ⬆️ Bump actions/stale from v3.0.14 to v3.0.15 @dependabot (#17)
+- ⬆️ Bump frenck/action-addon-linter from v1.3.1 to v1.4 @dependabot (#18)
+- Upgrade add-on base image to 9.1.2 @frenck (#20)
+- ⬆️ Bump frenck/action-yamllint from v1.0.2 to v1.1 @dependabot (#21)
