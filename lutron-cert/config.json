@@ -1,6 +1,6 @@
 {
   "name": "Lutron Certificate",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "slug": "lutron-cert",
   "description": "Generate certificate to control Lutron Caseta bridge locally",
   "url": "https://github.com/hassio-addons/addon-lutron-cert",
@@ -15,7 +15,6 @@
   ],
   "boot": "manual",
   "init": false,
-  "hassio_role": "default",
   "hassio_api": true,
   "homeassistant_api": true,
   "ports": {
@@ -27,9 +26,8 @@
   "map": [
     "ssl:rw"
   ],
-  "options": {},
   "schema": {
     "log_level": "list(trace|debug|info|notice|warning|error|fatal)?"
   },
-  "image": "hassioaddons/lutron-cert-{arch}"
+  "image": "ghcr.io/hassio-addons/lutron-cert/{arch}"
 }
