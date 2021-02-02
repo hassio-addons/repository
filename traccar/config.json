@@ -1,6 +1,6 @@
 {
   "name": "Traccar",
-  "version": "0.10.0",
+  "version": "0.11.0",
   "slug": "traccar",
   "description": "Modern GPS Tracking Platform",
   "url": "https://github.com/hassio-addons/addon-traccar",
