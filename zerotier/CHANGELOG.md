@@ -1,19 +1,33 @@
-[Full Changelog][changelog]
+## What’s changed
 
-This release downgrades ZeroTier One from 1.6.0 to 1.4.6.
+Major release of the ZeroTier One add-on!
 
-The latest releases cause a lot of problems on many occasions and extensive testing and tuning haven't lead to a working stable solution. At this point, the only solution is the downgrade in this release.
+The add-on is now built by GitHub Actions and distributes via the GitHub Container Registry.
+While this was a major task, you should not notice 😉 
 
-If you are using add-on version v0.8.0, without issues, you can, of course, skip this release.
+So, what does this upgrade bring? Well, Alpine Linux running this add-on has been upgraded, but most importantly:
 
-Hopefully, the ZeroTier team is able to address the many issues the community has raised with the 1.6.0 version.
+ZeroTier One 1.6.2
 
-### Changed
+(Yeah, working this time 😉 )
 
-- ⬇️ Downgrades ZeroTier One to 1.4.6
+../Frenck
 
-[changelog]: https://github.com/hassio-addons/addon-zerotier/compare/v0.8.0...v0.9.0
+## 🚀 Enhancements
 
-Questions? Join our Discord server! https://discord.me/hassioaddons
-Enjoying my add-ons? Consider supporting my work:
-https://github.com/sponsors/frenck or https://patreon.com/frenck
+- Make transparent icons @LiJu09 (#21)
+
+## 🧰 Maintenance
+
+- Cleanup repository @frenck (#22)
+- Happy New Year @frenck (#24)
+- Upgrade Code of Conduct @frenck (#25)
+- Add new repository workflow @frenck (#26)
+
+## ⬆️ Dependency updates
+
+- ⬆️ Bump actions/stale from v3.0.14 to v3.0.15 @dependabot (#30)
+- ⬆️ Bump frenck/action-addon-linter from v1.3.1 to v1.4 @dependabot (#29)
+- Upgrade add-on base image to 9.1.2 @frenck (#28)
+- Upgrade ZeroTier to 1.6.2 @frenck (#31)
+- ⬆️ Bump frenck/action-yamllint from v1.0.2 to v1.1 @dependabot (#32)
