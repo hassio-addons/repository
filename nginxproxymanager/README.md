@@ -34,10 +34,10 @@ Nginx proxy manager by providing additional Nginx directives.
 [forum]: https://community.home-assistant.io/t/home-assistant-community-add-on-nginx-proxy-manager/111830?u=frenck
 [github-sponsors-shield]: https://frenck.dev/wp-content/uploads/2019/12/github_sponsor.png
 [github-sponsors]: https://github.com/sponsors/frenck
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2020.svg
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2021.svg
 [patreon-shield]: https://frenck.dev/wp-content/uploads/2019/12/patreon.png
 [patreon]: https://www.patreon.com/frenck
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
-[release-shield]: https://img.shields.io/badge/version-v0.8.2-blue.svg
-[release]: https://github.com/hassio-addons/addon-nginx-proxy-manager/tree/v0.8.2
-[screenshot]: https://github.com/hassio-addons/addon-nginx-proxy-manager/raw/master/images/screenshot.gif
+[release-shield]: https://img.shields.io/badge/version-v0.9.0-blue.svg
+[release]: https://github.com/hassio-addons/addon-nginx-proxy-manager/tree/v0.9.0
+[screenshot]: https://github.com/hassio-addons/addon-nginx-proxy-manager/raw/main/images/screenshot.gif

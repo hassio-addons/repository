@@ -1,11 +1,10 @@
 {
   "name": "Nginx Proxy Manager",
-  "version": "0.8.2",
+  "version": "0.9.0",
   "slug": "nginxproxymanager",
   "description": "Manage Nginx proxy hosts with a simple, powerful interface",
   "url": "https://github.com/hassio-addons/addon-nginx-proxy-manager",
   "webui": "http://[HOST]:[PORT:81]",
-  "startup": "application",
   "init": false,
   "arch": [
     "aarch64",
@@ -17,27 +16,24 @@
   "services": [
     "mysql:need"
   ],
+  "hassio_api": true,
   "ports": {
-    "80": 80,
-    "81": 81,
-    "443": 443
+    "80/tcp": 80,
+    "81/tcp": 81,
+    "443/tcp": 443
   },
   "ports_description": {
-    "80": "HTTP Entrance port",
-    "81": "Proxy management web interface",
-    "443": "HTTPS/SSL Entrance port"
+    "80/tcp": "HTTP Entrance port",
+    "81/tcp": "Proxy management web interface",
+    "443/tcp": "HTTPS/SSL Entrance port"
   },
-  "boot": "auto",
-  "hassio_api": true,
-  "hassio_role": "default",
   "map": [
     "ssl:rw",
     "backup:rw"
   ],
-  "options": {},
   "schema": {
     "log_level": "list(trace|debug|info|notice|warning|error|fatal)?",
     "reset_database": "bool?"
   },
-  "image": "hassioaddons/nginxproxymanager-{arch}"
+  "image": "ghcr.io/hassio-addons/nginxproxymanager/{arch}"
 }
