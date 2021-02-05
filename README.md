@@ -243,6 +243,19 @@ Scalable datastore for metrics, events, and real-time analytics
 
 [:books: InfluxDB add-on documentation][addon-doc-influxdb]
 
+### &#10003; [JupyterLab][addon-jupyterlab]
+
+![Latest Version][jupyterlab-version-shield]
+![Supports armhf Architecture][jupyterlab-armhf-shield]
+![Supports armv7 Architecture][jupyterlab-armv7-shield]
+![Supports aarch64 Architecture][jupyterlab-aarch64-shield]
+![Supports amd64 Architecture][jupyterlab-amd64-shield]
+![Supports i386 Architecture][jupyterlab-i386-shield]
+
+Create documents containing live code, equations, visualizations, and explanatory text
+
+[:books: JupyterLab add-on documentation][addon-doc-jupyterlab]
+
 ### &#10003; [Log Viewer][addon-log-viewer]
 
 ![Latest Version][log-viewer-version-shield]
@@ -622,6 +635,7 @@ on the correct GitHub repository matching the add-on.
 - [Open an issue for the add-on: Grocy][grocy-issue]
 - [Open an issue for the add-on: Home Panel][home-panel-issue]
 - [Open an issue for the add-on: InfluxDB][influxdb-issue]
+- [Open an issue for the add-on: JupyterLab][jupyterlab-issue]
 - [Open an issue for the add-on: Log Viewer][log-viewer-issue]
 - [Open an issue for the add-on: Lutron Certificate][lutron-cert-issue]
 - [Open an issue for the add-on: MQTT Server & Web client][mqtt-issue]
@@ -839,6 +853,15 @@ SOFTWARE.
 [influxdb-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [influxdb-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [influxdb-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
+[addon-jupyterlab]: https://github.com/hassio-addons/addon-jupyterlab/tree/v0.4.0
+[addon-doc-jupyterlab]: https://github.com/hassio-addons/addon-jupyterlab/blob/v0.4.0/README.md
+[jupyterlab-issue]: https://github.com/hassio-addons/addon-jupyterlab/issues
+[jupyterlab-version-shield]: https://img.shields.io/badge/version-v0.4.0-blue.svg
+[jupyterlab-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[jupyterlab-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[jupyterlab-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
+[jupyterlab-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
+[jupyterlab-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [addon-log-viewer]: https://github.com/hassio-addons/addon-log-viewer/tree/v0.9.1
 [addon-doc-log-viewer]: https://github.com/hassio-addons/addon-log-viewer/blob/v0.9.1/README.md
 [log-viewer-issue]: https://github.com/hassio-addons/addon-log-viewer/issues
