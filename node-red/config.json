@@ -1,10 +1,9 @@
 {
   "name": "Node-RED",
-  "version": "8.0.1",
+  "version": "8.1.0",
   "slug": "nodered",
   "description": "Flow-based programming for the Internet of Things",
   "url": "https://github.com/hassio-addons/addon-node-red",
-  "webui": "[PROTO:ssl]://[HOST]:[PORT:80]",
   "ingress": true,
   "ingress_port": 0,
   "panel_icon": "mdi:sitemap",
