@@ -1,6 +1,6 @@
 {
   "name": "Z-Wave JS to MQTT",
-  "version": "0.2.3",
+  "version": "0.3.0",
   "slug": "zwavejs2mqtt",
   "description": "Fully configurable Z-Wave JS to MQTT gateway and control panel",
   "url": "https://github.com/hassio-addons/addon-zwavejs2mqtt",
@@ -28,6 +28,12 @@
   ],
   "schema": {
     "log_level": "list(trace|debug|info|notice|warning|error|fatal)?"
+  },
+  "ports": {
+    "3000/tcp": null
+  },
+  "ports_description": {
+    "3000/tcp": "Z-Wave JS communication"
   },
   "image": "ghcr.io/hassio-addons/zwavejs2mqtt/{arch}"
 }

@@ -1042,10 +1042,10 @@ SOFTWARE.
 [wireguard-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [wireguard-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [wireguard-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
-[addon-zwavejs2mqtt]: https://github.com/hassio-addons/addon-zwavejs2mqtt/tree/v0.2.3
-[addon-doc-zwavejs2mqtt]: https://github.com/hassio-addons/addon-zwavejs2mqtt/blob/v0.2.3/README.md
+[addon-zwavejs2mqtt]: https://github.com/hassio-addons/addon-zwavejs2mqtt/tree/v0.3.0
+[addon-doc-zwavejs2mqtt]: https://github.com/hassio-addons/addon-zwavejs2mqtt/blob/v0.3.0/README.md
 [zwavejs2mqtt-issue]: https://github.com/hassio-addons/addon-zwavejs2mqtt/issues
-[zwavejs2mqtt-version-shield]: https://img.shields.io/badge/version-v0.2.3-blue.svg
+[zwavejs2mqtt-version-shield]: https://img.shields.io/badge/version-v0.3.0-blue.svg
 [zwavejs2mqtt-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [zwavejs2mqtt-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [zwavejs2mqtt-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
