@@ -69,10 +69,10 @@ addons:
     repository: hassio-addons/addon-influxdb
     target: influxdb
     image: ghcr.io/hassio-addons/influxdb/{arch}
-  jupyterlablite:
-    repository: hassio-addons/addon-jupyterlab-lite
+  jupyterlab:
+    repository: hassio-addons/addon-jupyterlab
     target: jupyterlab
-    image: ghcr.io/hassio-addons/jupyterlablite/{arch}
+    image: ghcr.io/hassio-addons/jupyterlab/{arch}
   log-viewer:
     repository: hassio-addons/addon-log-viewer
     target: log-viewer
