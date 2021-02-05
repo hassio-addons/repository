@@ -1,15 +1,11 @@
 ## What’s changed
 
-This patch release applies a patch to fix an issue with AppDaemon's dependencies.
+## 🚀 Enhancements
 
-The bug is reported upstream, but not recognized as one by AppDaemon's collaborators; thus this release applies a patch during build-time to ensure you as a user of the add-on won't run into it.
-
-## 🐛 Bug fixes
-
-- Patch AppDaemon Engine.io dependency issues @frenck (#67)
+- Raise fatal error message on missing AppDaemon configuration file @frenck (#74)
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Bump frenck/action-addon-linter from v1.3.1 to v1.4 @dependabot (#63)
-- ⬆ Upgrades py3-pip to 20.3.4-r0 @frenck (#65)
-- Upgrade add-on base image to 9.1.1 @frenck (#66)
+- Upgrade add-on base image to 9.1.2 @frenck (#72)
+- ⬆️ Bump frenck/action-yamllint from v1.0.2 to v1.1 @dependabot (#73)
+- ⬆️ Bump actionshub/markdownlint from 2.0.0 to 2.0.2 @dependabot (#76)
