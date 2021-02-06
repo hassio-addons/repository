@@ -1,19 +1,12 @@
 ## What’s changed
 
-## 🧰 Maintenance
-
-- Fix add-on description extraction @frenck (#167)
-
-## 📚 Documentation
-
-- Fix CI badges to show the right status @frenck (#168)
-
 ## ⬆️ Dependency updates
 
-- ⬆️ Bump frenck/action-addon-linter from v1.3.0 to v1.4 @dependabot (#170)
-- ⬆️ Bump actions/stale from v3.0.14 to v3.0.15 @dependabot (#171)
-- ⬆️ Bump yamllint from 1.25.0 to 1.26.0 @dependabot (#172)
-- ⬆ Upgrades openssl to 1.1.1d-0+deb10u4 @frenck (#173)
-- Upgrade add-on base image to 4.1.2 @frenck (#174)
-- ⬆ Upgrades Home Assistant CLI to v4.10.0 @frenck (#175)
-- Upgrades keesschollaart.vscode-home-assistant to 1.14.0 @frenck (#176)
+- ⬆️ Bump frenck/action-yamllint from v1.0.2 to v1.1 @dependabot (#177)
+- ⬆️ Bump actionshub/markdownlint from 2.0.0 to 2.0.2 @dependabot (#179)
+- ⬆️ Bump actions/cache from v2.1.3 to v2.1.4 @dependabot (#178)
+- ⬆ Upgrades Home Assistant CLI to v4.10.1 @frenck (#180)
+- ⬆ Upgrades unzip to 6.0-23+deb10u2 @frenck (#182)
+- ⬆ Upgrades code-server to 3.8.1 @frenck (#181)
+- ⬆ Upgrades keesschollaart.vscode-home-assistant to 1.14.1 @frenck (#183)
+- ⬆ Upgrades esbenp.prettier-vscode to 5.9.1 @frenck (#184)
