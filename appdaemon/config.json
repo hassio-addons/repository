@@ -1,6 +1,6 @@
 {
   "name": "AppDaemon 4",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "slug": "appdaemon",
   "description": "Python Apps and Dashboard using AppDaemon 4.x for Home Assistant",
   "url": "https://github.com/hassio-addons/addon-appdaemon",
@@ -14,7 +14,7 @@
   ],
   "init": false,
   "homeassistant_api": true,
-  "auto_uart": true,
+  "uart": true,
   "ports": {
     "5050/tcp": 5050
   },
