@@ -5,12 +5,9 @@
     "aarch64"
   ],
   "auth_api": true,
-  "auto_uart": true,
-  "boot": "auto",
+  "uart": true,
   "description": "ESPHome Hass.io add-on for intelligently managing all your ESP8266/ESP32 devices.",
   "hassio_api": true,
-  "hassio_role": "default",
-  "homeassistant_api": false,
   "host_network": true,
   "image": "esphome/esphome-hassio-{arch}",
   "ingress": true,
@@ -20,7 +17,6 @@
     "config:rw"
   ],
   "name": "ESPHome",
-  "options": {},
   "panel_icon": "mdi:chip",
   "ports": {
     "6052/tcp": null
@@ -39,9 +35,6 @@
     "streamer_mode": "bool?"
   },
   "slug": "esphome",
-  "stage": "stable",
-  "startup": "application",
   "url": "https://esphome.io/",
-  "version": "1.16.0",
-  "webui": "http://[HOST]:[PORT:6052]"
+  "version": "1.16.0"
 }
