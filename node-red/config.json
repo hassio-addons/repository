@@ -1,6 +1,6 @@
 {
   "name": "Node-RED",
-  "version": "8.1.0",
+  "version": "8.1.1",
   "slug": "nodered",
   "description": "Flow-based programming for the Internet of Things",
   "url": "https://github.com/hassio-addons/addon-node-red",
@@ -27,13 +27,13 @@
   "homeassistant_api": true,
   "host_network": true,
   "auth_api": true,
-  "auto_uart": true,
+  "uart": true,
   "gpio": true,
   "privileged": [
     "SYS_RAWIO"
   ],
   "devices": [
-    "/dev/mem:/dev/mem:rwm"
+    "/dev/mem"
   ],
   "apparmor": false,
   "map": [
