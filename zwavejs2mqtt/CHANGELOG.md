@@ -1,14 +1,11 @@
 ## What’s changed
 
-Upgrade to the latest and greatest! Additionally, @raman325 added the possibility to open up the Z-Wave JS Server port for direct access. This can be useful when, for example, testing or using Z-Wave JS Server on a secondary system.
+## 🧰 Maintenance
 
-## ✨ New features
-
-- Optionally expose WS port @raman325 (#15)
+- Update add-on configuration for Supervisor 2021.2 @frenck (#27)
 
 ## ⬆️ Dependency updates
 
-- ⬆ Update OpenZWave database to 76408b1623f966815c98a4b5ce581 @frenck (#18)
-- ⬆ Upgrades ZwaveJS2Mqtt to v1.0.5 @frenck (#17)
-- ⬆️ Bump actionshub/markdownlint from 2.0.0 to 2.0.2 @dependabot (#21)
-- ⬆️ Bump actions/cache from v2.1.3 to v2.1.4 @dependabot (#20)
+- ⬆️ Bump actions/stale from v3.0.15 to v3.0.16 @dependabot (#26)
+- ⬆ Upgrades ZwaveJS2Mqtt to v1.1.0 @frenck (#28)
+- Update database to d86e9956f6b0160fcf675c2b3d33faed33dfba7c @frenck (#29)
