@@ -1,6 +1,6 @@
 {
   "name": "SSH & Web Terminal",
-  "version": "8.0.0",
+  "version": "8.0.1",
   "slug": "ssh",
   "description": "SSH & Web Terminal access to your Home Assistant instance",
   "url": "https://github.com/hassio-addons/addon-ssh",
@@ -32,7 +32,8 @@
   ],
   "homeassistant_api": true,
   "host_network": true,
-  "auto_uart": true,
+  "uart": true,
+  "usb": true,
   "gpio": true,
   "audio": true,
   "apparmor": false,
@@ -48,7 +49,7 @@
     "SYS_NICE"
   ],
   "devices": [
-    "/dev/mem:/dev/mem:rwm"
+    "/dev/mem"
   ],
   "map": [
     "config:rw",
