@@ -1,6 +1,6 @@
 {
   "name": "ZeroTier One",
-  "version": "0.10.1",
+  "version": "0.10.2",
   "slug": "zerotier",
   "description": "Radically simplify your network with a virtual networking layer that works the same everywhere",
   "url": "https://github.com/hassio-addons/addon-zerotier",
@@ -25,7 +25,7 @@
     "SYS_ADMIN"
   ],
   "devices": [
-    "/dev/net/tun:/dev/net/tun:rwm"
+    "/dev/net/tun"
   ],
   "map": [
     "ssl:rw"

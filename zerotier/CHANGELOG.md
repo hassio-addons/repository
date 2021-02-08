@@ -1,7 +1,9 @@
 ## What’s changed
 
+## 🧰 Maintenance
+
+- Update add-on configuration for Supervisor 2021.2 @frenck (#37)
+
 ## ⬆️ Dependency updates
 
-- ⬆️ Bump actionshub/markdownlint from 2.0.0 to 2.0.2 @dependabot (#35)
-- ⬆️ Bump actions/cache from v2.1.3 to v2.1.4 @dependabot (#34)
-- ⬆ Upgrades ZeroTier One to 1.6.3 @frenck (#33)
+- ⬆️ Bump actions/stale from v3.0.15 to v3.0.16 @dependabot (#36)
