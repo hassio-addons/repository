@@ -1,27 +1,18 @@
 ## What’s changed
 
-## 🚀 Enhancements
+## ✨ New features
 
-- Refactor NGINX configuration and HA authentication @frenck (#97)
-
-## 🧰 Maintenance
-
-- Cleanup repository @frenck (#92)
-- Happy New Year @frenck (#93)
-- Upgrade Code of Conduct @frenck (#94)
-- Add new repository workflow @frenck (#95)
-- Remove obsolete webui from configuration @frenck (#100)
-- Allow dependabot to upgrade Python dependencies @frenck (#102)
+- Add media folder @IonutNeagu (#91)
 
 ## ⬆️ Dependency updates
 
-- Upgrade add-on base image to 9.1.0 @frenck (#96)
-- ⬆️ Bump actions/stale from v3.0.14 to v3.0.15 @dependabot (#99)
-- ⬆️ Bump frenck/action-addon-linter from v1.3.1 to v1.4 @dependabot (#98)
-- ⬆ Upgrades py3-pip to 20.3.4-r0 @frenck (#101)
-- ⬆️ Bump zeroconf from 0.28.1 to 0.28.8 in /glances @dependabot (#104)
-- ⬆️ Bump bottle from 0.12.18 to 0.12.19 in /glances @dependabot (#107)
-- ⬆️ Bump psutil from 5.7.2 to 5.8.0 in /glances @dependabot (#105)
-- ⬆️ Bump influxdb from 5.3.0 to 5.3.1 in /glances @dependabot (#103)
-- ⬆️ Bump docker from 4.3.1 to 4.4.1 in /glances @dependabot (#106)
-- Upgrade add-on base image to 9.1.1 @frenck (#108)
+- ⬆️ Bump requests from 2.24.0 to 2.25.1 in /glances @dependabot (#110)
+- ⬆️ Bump py-cpuinfo from 5.0.0 to 7.0.0 in /glances @dependabot (#112)
+- ⬆️ Bump paho-mqtt from 1.5.0 to 1.5.1 in /glances @dependabot (#111)
+- ⬆️ Bump glances from 3.1.5 to 3.1.6.1 in /glances @dependabot (#109)
+- Upgrade add-on base image to 9.1.2 @frenck (#113)
+- ⬆️ Bump frenck/action-yamllint from v1.0.2 to v1.1 @dependabot (#114)
+- ⬆️ Bump actions/cache from v2.1.3 to v2.1.4 @dependabot (#116)
+- ⬆️ Bump actionshub/markdownlint from 2.0.0 to 2.0.2 @dependabot (#115)
+- ⬆️ Bump glances from 3.1.6.1 to 3.1.6.2 in /glances @dependabot (#117)
+- ⬆️ Bump actions/stale from v3.0.15 to v3.0.16 @dependabot (#118)
