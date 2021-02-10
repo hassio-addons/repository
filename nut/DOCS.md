@@ -212,12 +212,6 @@ When running in `netclient` mode, the password of the remote UPS.
 **Note**: _When using the remote option, the user and device options must still
 be present, however they will have no effect_
 
-#### Option: `fake_usb_devices`
-
-Creates fake USB devices to fix problems with Cyber Power UPSes.
-Only enable this if you sure you are affected.
-[More info][fake-usb]
-
 #### Option: `upsd_maxage`
 
 Allows setting the MAXAGE value in upsd.conf to increase the timeout for
