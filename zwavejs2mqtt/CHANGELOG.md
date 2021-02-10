@@ -1,11 +1,10 @@
 ## What’s changed
 
-## 🧰 Maintenance
+## 🚀 Enhancements
 
-- Update add-on configuration for Supervisor 2021.2 @frenck (#27)
+- Enable udev @frenck (#31)
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Bump actions/stale from v3.0.15 to v3.0.16 @dependabot (#26)
-- ⬆ Upgrades ZwaveJS2Mqtt to v1.1.0 @frenck (#28)
-- Update database to d86e9956f6b0160fcf675c2b3d33faed33dfba7c @frenck (#29)
+- Update database to 6cc6466e2ce050b95364b1740cc6d123af3cdba1 @frenck (#33)
+- ⬆ Upgrades ZwaveJS2Mqtt to v1.1.1 @frenck (#32)
