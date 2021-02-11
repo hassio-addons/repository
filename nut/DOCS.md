@@ -32,7 +32,7 @@ comparison to installing any other Home Assistant add-on.
 1. Configure the `users` and `devices` options.
 1. Start the "Network UPS Tools" add-on.
 1. Check the logs of the "Network UPS Tools" add-on to see if everything went well.
-1. Configure [NUT Sensor][nut-sensor-docs] in your `configuration.yaml` file.
+1. Configure the [NUT Integration][nut-ha-docs].
 
 ## Configuration
 
