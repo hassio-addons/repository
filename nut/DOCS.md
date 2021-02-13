@@ -217,6 +217,11 @@ be present, however they will have no effect_
 Allows setting the MAXAGE value in upsd.conf to increase the timeout for
 specific drivers, should not be changed for the majority of users.
 
+#### Option: `upsmon_deadtime`
+
+Allows setting the DEADTIME value in upsmon.conf to adjust the stale time for
+the monitor process, should not be changed for the majority of users.
+
 ### Option: `i_like_to_be_pwned`
 
 Adding this option to the add-on configuration allows to you bypass the

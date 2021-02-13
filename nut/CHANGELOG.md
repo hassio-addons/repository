@@ -1,7 +1,11 @@
 ## What’s changed
 
-Minor release to update references to the HA integration
+Adds optional deadtime configuration, to ease stale issues with Cyberpower UPS devices.
+
+## 🚀 Enhancements
+
+- 🔨 Add deadtime configuration option @sinclairpaul (#94)
 
 ## 📚 Documentation
 
-- 📚 Doc tweaks @sinclairpaul (#90)
+- 🔨 Add deadtime configuration option @sinclairpaul (#94)
