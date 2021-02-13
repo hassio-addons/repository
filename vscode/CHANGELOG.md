@@ -1,9 +1,8 @@
 ## What’s changed
 
-## 🧰 Maintenance
-
-- Update add-on configuration for Supervisor 2021.2 @frenck (#186)
+This release has the latest code-server, which has added quite a bit of compression.
+Loading up the VSCode frontend is now blazing fast 🎉 
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Bump actions/stale from v3.0.15 to v3.0.16 @dependabot (#185)
+- Upgrades code-server to 3.9.0 @frenck (#187)
