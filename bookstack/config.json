@@ -1,6 +1,6 @@
 {
   "name": "Bookstack",
-  "version": "0.8.2",
+  "version": "0.8.3",
   "slug": "bookstack",
   "description": "Simple & Free Wiki Software",
   "url": "https://github.com/hassio-addons/addon-bookstack",
@@ -13,7 +13,6 @@
     "armv7",
     "i386"
   ],
-  "hassio_api": true,
   "services": [
     "mysql:want"
   ],

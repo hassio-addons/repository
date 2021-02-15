@@ -23,6 +23,6 @@ storing information.
 [forum]: https://community.home-assistant.io/?u=frenck
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2021.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
-[release-shield]: https://img.shields.io/badge/version-v0.8.2-blue.svg
-[release]: https://github.com/hassio-addons/addon-bookstack/tree/v0.8.2
+[release-shield]: https://img.shields.io/badge/version-v0.8.3-blue.svg
+[release]: https://github.com/hassio-addons/addon-bookstack/tree/v0.8.3
 [screenshot]: https://github.com/hassio-addons/addon-bookstack/raw/master/images/screenshot.png
