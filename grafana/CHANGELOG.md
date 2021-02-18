@@ -1,9 +1,8 @@
 ## What’s changed
 
-Updates Grafana to v7.4.1
-
 ## ⬆️ Dependency updates
 
-- ⬆️ Bump actions/stale from v3.0.15 to v3.0.16 @dependabot (#108)
-- ⬆️ Bump frenck/action-addon-linter from v1.4 to v2 @dependabot (#109)
-- ⬆ Upgrades Grafana to v7.4.1 @frenck (#110)
+- ⬆️ Bump release-drafter/release-drafter from v5.13.0 to v5.14.0 @dependabot (#112)
+- ⬆️ Bump docker/build-push-action from v2.2.2 to v2.3.0 @dependabot (#113)
+- ⬆ Upgrades Grafana to v7.4.2 @frenck (#114)
+- Upgrade add-on base image to 4.1.3 @frenck (#115)
