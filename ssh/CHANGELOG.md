@@ -1,13 +1,16 @@
 ## What’s changed
 
-## 🧰 Maintenance
+## 🚀 Enhancements
 
-- Update add-on configuration for Supervisor 2021.2 @frenck (#202)
+- Remove full access parameter @frenck (#210)
+
+## 📚 Documentation
+
+- Fix/Remove broken documentation link @frenck (#206)
 
 ## ⬆️ Dependency updates
 
-- ⬆ Upgrades docker to 20.10.3-r0 @frenck (#199)
-- ⬆ Upgrades Home Assistant CLI to v4.10.1 @frenck (#200)
-- ⬆️ Bump actions/cache from v2.1.3 to v2.1.4 @dependabot (#198)
-- ⬆️ Bump actionshub/markdownlint from 2.0.0 to 2.0.2 @dependabot (#197)
-- ⬆️ Bump actions/stale from v3.0.15 to v3.0.16 @dependabot (#201)
+- ⬆ Upgrades git to 2.30.1-r0 @frenck (#203)
+- ⬆️ Bump release-drafter/release-drafter from v5.13.0 to v5.14.0 @dependabot (#207)
+- Upgrade add-on base image to 9.1.4 @frenck (#209)
+- ⬆️ Bump docker/build-push-action from v2.2.2 to v2.3.0 @dependabot (#208)

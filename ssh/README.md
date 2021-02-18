@@ -70,8 +70,6 @@ well. Additionally, it comes out of the box with the following:
   Nmap, Mosquitto client, MariaDB/MySQL client, Awake (“wake on LAN”), Nano,
   Vim, tmux, and a bunch commonly used networking tools.
 
-[Click here for the full documentation][docs]
-
 [discord-shield]: https://img.shields.io/discord/478094546522079232.svg
 [discord]: https://discord.me/hassioaddons
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
@@ -85,8 +83,8 @@ well. Additionally, it comes out of the box with the following:
 [patreon-shield]: https://frenck.dev/wp-content/uploads/2019/12/patreon.png
 [patreon]: https://www.patreon.com/frenck
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[release-shield]: https://img.shields.io/badge/version-v8.0.1-blue.svg
-[release]: https://github.com/hassio-addons/addon-ssh/tree/v8.0.1
+[release-shield]: https://img.shields.io/badge/version-v8.0.2-blue.svg
+[release]: https://github.com/hassio-addons/addon-ssh/tree/v8.0.2
 [screenshot]: https://github.com/hassio-addons/addon-ssh/raw/main/images/screenshot.png
 [ssh-audit-image]: https://github.com/hassio-addons/addon-ssh/raw/main/images/ssh-audit.png
 [ssh-audit]: https://github.com/arthepsy/ssh-audit
