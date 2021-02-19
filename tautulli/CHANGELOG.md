@@ -2,10 +2,11 @@
 
 ## ⬆️ Dependency updates
 
-- Upgrade add-on base image to 9.1.2 @frenck (#81)
-- ⬆️ Bump frenck/action-yamllint from v1.0.2 to v1.1 @dependabot (#82)
-- ⬆️ Bump plexapi from 4.3.0 to 4.3.1 @dependabot (#83)
-- ⬆️ Bump actionshub/markdownlint from 2.0.0 to 2.0.2 @dependabot (#84)
-- ⬆️ Bump actions/cache from v2.1.3 to v2.1.4 @dependabot (#85)
-- ⬆️ Bump actions/stale from v3.0.15 to v3.0.16 @dependabot (#86)
-- ⬆ Upgrades Tautulli to v2.6.6 @frenck (#87)
+- ⬆ Upgrades git to 2.30.1-r0 @frenck (#89)
+- ⬆️ Bump frenck/action-addon-linter from v1.4 to v2 @dependabot (#88)
+- ⬆️ Bump pycryptodomex from 3.9.9 to 3.10.1 in /tautulli @dependabot (#91)
+- ⬆️ Bump release-drafter/release-drafter from v5.13.0 to v5.14.0 @dependabot (#92)
+- ⬆️ Bump docker/build-push-action from v2.2.2 to v2.3.0 @dependabot (#93)
+- ⬆ Upgrades python3 to 3.8.7-r1 @frenck (#95)
+- ⬆️ Bump actions/stale from v3.0.16 to v3.0.17 @dependabot (#94)
+- Upgrade add-on base image to 9.1.4 @frenck (#96)
