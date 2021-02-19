@@ -1,12 +1,15 @@
 ## What’s changed
 
+## 🐛 Bug fixes
+
+- Fix Watchdog URL to match Supervisor validation @frenck (#50)
+
+## 🚀 Enhancements
+
+- Allow Supervisor to use health check for watchdog @pvizeli (#49)
+
 ## ⬆️ Dependency updates
 
-- ⬆️ Bump release-drafter/release-drafter from v5.13.0 to v5.14.0 @dependabot (#34)
-- ⬆ Upgrades nodejs to 14.15.5-r0 @frenck (#37)
-- ⬆ Upgrades libusb to 1.0.24-r1 @frenck (#38)
-- ⬆️ Bump docker/build-push-action from v2.2.2 to v2.3.0 @dependabot (#36)
-- Upgrade add-on base image to 9.1.3 @frenck (#39)
-- ⬆ Upgrades ZwaveJS2Mqtt to v1.2.0 @frenck (#40)
-- Update database to bcb1feca586b2fe1dc584283e548e1441d188547 @frenck (#41)
-- ⬆ Upgrades ZwaveJS2Mqtt to v1.2.1 @frenck (#42)
+- ⬆️ Bump actions/stale from v3.0.16 to v3.0.17 @dependabot (#43)
+- ⬆ Upgrades python3-dev to 3.8.7-r1 @frenck (#46)
+- ⬆ Upgrades ZwaveJS2Mqtt to v1.2.2 @frenck (#48)

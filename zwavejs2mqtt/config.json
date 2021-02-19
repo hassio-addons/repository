@@ -1,6 +1,6 @@
 {
   "name": "Z-Wave JS to MQTT",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "slug": "zwavejs2mqtt",
   "description": "Fully configurable Z-Wave JS to MQTT gateway and control panel",
   "url": "https://github.com/hassio-addons/addon-zwavejs2mqtt",
@@ -22,6 +22,7 @@
   "services": [
     "mqtt:want"
   ],
+  "watchdog": "http://[HOST]:[PORT:8099]/health/zwave",
   "uart": true,
   "udev": true,
   "map": [
