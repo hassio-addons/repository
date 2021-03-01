@@ -2,6 +2,5 @@
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades nodejs to 14.16.0-r0 @frenck (#59)
-- ⬆️ Upgrades ZwaveJS2Mqtt to v2.0.0 @frenck (#60)
-- ⬆️ Update database to 23f96601431beb6c8b2bf88b6dcc580612d0fcd3 @frenck (#61)
+- ⬆️ Upgrades ZwaveJS2Mqtt to v2.0.1 @frenck (#64)
+- Update database to 37f4b05431d5513cda291560a31de3a951c17f11 @frenck (#65)
