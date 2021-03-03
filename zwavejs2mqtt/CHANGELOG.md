@@ -2,5 +2,6 @@
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades ZwaveJS2Mqtt to v2.0.1 @frenck (#64)
-- Update database to 37f4b05431d5513cda291560a31de3a951c17f11 @frenck (#65)
+- ⬆ Upgrades add-on base image to v9.1.5 @frenck (#67)
+- ⬆ Upgrades ZwaveJS2Mqtt to v2.1.0 @frenck (#68)
+- Update database to 3c9ea7190f4f704070bbffedf9a03df647b73221 @frenck (#69)
