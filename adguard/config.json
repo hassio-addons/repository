@@ -1,10 +1,9 @@
 {
   "name": "AdGuard Home",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "slug": "adguard",
   "description": "Network-wide ads & trackers blocking DNS server",
   "url": "https://github.com/hassio-addons/addon-adguard-home",
-  "webui": "[PROTO:ssl]://[HOST]:[PORT:80]",
   "ingress": true,
   "ingress_port": 0,
   "panel_icon": "mdi:shield-check",
@@ -31,6 +30,8 @@
   ],
   "auth_api": true,
   "host_network": true,
+  "hassio_api": true,
+  "hassio_role": "manager",
   "map": [
     "ssl"
   ],
@@ -46,5 +47,8 @@
     "keyfile": "str",
     "leave_front_door_open": "bool?"
   },
+  "snapshot_exclude": [
+    "*/adguard/data/querylog.json"
+  ],
   "image": "ghcr.io/hassio-addons/adguard/{arch}"
 }
