@@ -2,6 +2,6 @@
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades ZwaveJS2Mqtt to v2.3.0 @frenck (#82)
-- Update database to d4d6c1dcf239359ec52b9482465d9d3e8d2ad984 @frenck (#83)
-- ⬆️ Upgrades python3-dev to 3.8.8-r0 @frenck (#84)
+- ⬆️ Bump release-drafter/release-drafter from v5.14.0 to v5.15.0 @dependabot (#85)
+- ⬆️ Upgrades ZwaveJS2Mqtt to v2.4.0 @frenck (#88)
+- Update database to 840fdd7d81ba6b94dae36c006da450476554822d @frenck (#89)
