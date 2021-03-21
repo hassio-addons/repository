@@ -1,14 +1,17 @@
 ## What’s changed
 
-## 🚀 Enhancements
+⚠️  While AppDaemon published this version as a patch release, it does contain breaking changes ⚠️ 
 
-- Make transparent logo @LiJu09 (#79)
+Please be sure to read: <https://community.home-assistant.io/t/announcement-appdaemon-4-0-6/292258?u=frenck>
+For more information about this new AppDaemon version.
+
+## 🧰 Maintenance
+
+- Patch AppDaemon 4.0.6 for Supervisor compatibility @frenck (#93)
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Bump release-drafter/release-drafter from v5.13.0 to v5.14.0 @dependabot (#80)
-- Upgrade add-on base image to 9.1.4 @frenck (#82)
-- ⬆️ Bump docker/build-push-action from v2.2.2 to v2.3.0 @dependabot (#81)
-- ⬆️ Bump actions/stale from v3.0.16 to v3.0.17 @dependabot (#83)
-- ⬆ Upgrades python3 to 3.8.7-r1 @frenck (#84)
-- ⬆️ Upgrades add-on base image to v9.1.5 @frenck (#87)
+- ⬆️ Bump actions/stale from v3.0.17 to v3.0.18 @dependabot (#88)
+- ⬆️ Upgrades python3 to 3.8.8-r0 @frenck (#91)
+- ⬆️ Bump release-drafter/release-drafter from v5.14.0 to v5.15.0 @dependabot (#89)
+- ⬆️ Upgrades AppDaemon to 4.0.6 @frenck (#92)
