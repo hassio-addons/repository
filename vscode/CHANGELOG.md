@@ -1,13 +1,16 @@
 ## What’s changed
 
+## ✨ New features
+
+- Common directories in /root like SSH add-on @mdegat01 (#197)
+
 ## ⬆️ Dependency updates
 
-- ⬆️ Bump release-drafter/release-drafter from v5.13.0 to v5.14.0 @dependabot (#188)
-- ⬆️ Bump docker/build-push-action from v2.2.2 to v2.3.0 @dependabot (#189)
-- ⬆️ Bump actions/stale from v3.0.16 to v3.0.17 @dependabot (#190)
-- ⬆️ Upgrades esbenp.prettier-vscode to 5.9.2 @frenck (#191)
-- ⬆️ Bump actions/stale from v3.0.17 to v3.0.18 @dependabot (#192)
-- ⬆ Upgrades add-on base image to v4.1.3 @frenck (#193)
-- ⬆ Upgrades emilast.LogFileHighlighter to 2.11.0 @frenck (#195)
-- ⬆ Upgrades redhat.vscode-yaml to 0.16.0 @frenck (#196)
-- ⬆ Upgrades code-server to 3.9.1 @frenck (#194)
+- ⬆️ Upgrades Home Assistant CLI to v4.11.0 @frenck (#198)
+- ⬆️ Bump release-drafter/release-drafter from v5.14.0 to v5.15.0 @dependabot (#201)
+- ⬆️ Upgrades esbenp.prettier-vscode to 6.3.1 @frenck (#205)
+- ⬆️ Upgrades usernamehw.errorlens to 3.2.5 @frenck (#206)
+- ⬆️ Upgrades Home Assistant CLI to v4.11.2 @frenck (#204)
+- ⬆️ Upgrades ESPHome.esphome-vscode to 0.13.0 @frenck (#207)
+- ⬆️ Bump frenck/action-addon-linter from v2.0.0 to v2.1 @dependabot (#208)
+- ⬆️ Upgrades keesschollaart.vscode-home-assistant to 1.15.0 @frenck (#209)

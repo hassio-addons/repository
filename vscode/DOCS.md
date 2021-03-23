@@ -62,7 +62,9 @@ you are troubleshooting.
 
 This option allows you to override the default path the add-on will open
 when accessing the web interface. For example, use a different
-configuration directory like `/share/myconfig` instead of `/config`.
+configuration directory like `/share/myconfig` instead of `/config`. If set
+to `/root` then all the common folders of HA such as `/config`, `/ssl`,
+`/share`, etc. will appear as subfolders for each access.
 
 When not configured, the addon will automatically use the default: `/config`
 
