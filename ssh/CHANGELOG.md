@@ -1,8 +1,23 @@
 ## What’s changed
 
+## ✨ New features
+
+- Add access to journald @frenck (#224)
+
+## 🚀 Enhancements
+
+- ttyd renamed their main branch upstream @frenck (#220)
+
+## 🧰 Maintenance
+
+- Upgrade add-on linter to 2.1.0 @frenck (#223)
+
 ## ⬆️ Dependency updates
 
-- ⬆️ Bump actions/stale from v3.0.17 to v3.0.18 @dependabot (#215)
-- ⬆️  Upgrades python3 to 3.8.8-r0 @frenck (#216)
-- ⬆️  Upgrades git to 2.30.2-r0 @frenck (#217)
-- ⬆️ Upgrades Home Assistant CLI to v4.11.0 @frenck (#218)
+- ⬆️ Bump release-drafter/release-drafter from v5.14.0 to v5.15.0 @dependabot (#219)
+- ⬆️  Upgrades add-on base image to v9.1.5 @frenck (#221)
+- ⬆️ Upgrades docker to 20.10.3-r1 @frenck (#222)
+- Upgrade add-on linter to 2.1.0 @frenck (#223)
+- ⬆️ Upgrades Home Assistant CLI to v4.11.2 @frenck (#225)
+- ⬆️ Upgrades Home Assistant CLI to v4.11.3 @frenck (#227)
+- ⬆️ Upgrades openssh to 8.4_p1-r3 @frenck (#228)
