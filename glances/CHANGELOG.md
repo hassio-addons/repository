@@ -2,10 +2,9 @@
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Bump frenck/action-addon-linter from v1.4 to v2 @dependabot (#119)
-- ⬆️ Bump release-drafter/release-drafter from v5.13.0 to v5.14.0 @dependabot (#120)
-- ⬆️ Bump docker from 4.4.1 to 4.4.2 @dependabot (#121)
-- ⬆️ Bump docker/build-push-action from v2.2.2 to v2.3.0 @dependabot (#123)
-- ⬆️ Bump actions/stale from v3.0.16 to v3.0.17 @dependabot (#124)
-- ⬆ Upgrades python3 to 3.8.7-r1 @frenck (#126)
-- ⬆️ Bump docker from 4.4.2 to 4.4.3 @dependabot (#125)
+- ⬆️ Bump docker from 4.4.3 to 4.4.4 in /glances @dependabot (#127)
+- ⬆️ Bump actions/stale from v3.0.17 to v3.0.18 @dependabot (#128)
+- ⬆️ Bump release-drafter/release-drafter from v5.14.0 to v5.15.0 @dependabot (#129)
+- ⬆️ Upgrades python3 to 3.8.8-r0 @frenck (#131)
+- ⬆️ Bump zeroconf from 0.28.8 to 0.29.0 in /glances @dependabot (#130)
+- ⬆️ Upgrades add-on base image to v9.1.5 @frenck (#132)
