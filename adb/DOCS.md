@@ -4,6 +4,21 @@ The Android Debug Bridge (ADB) is a client-server program used in Android
 application development. This add-on provides the server program and can be
 used to get full local control over your Android (TV) devices.
 
+## Deprecation warning
+
+**This add-on is in a deprecated state!**
+
+This add-on was created at the time, that the best solution for communicating
+with an Android device from Home Assistant, was using an Android Debug Bridge.
+
+However, the time has changed. Right now, the Home Assistant project recommends
+using built-in Python implementation, which renders this add-on obsolete.
+
+Additionally, this add-on will become problematic to maintain in the future,
+as the packages used are stalled.
+
+Therefore, this add-on is now deprecated.
+
 ## Installation
 
 The installation of this add-on is pretty straightforward and not different in

@@ -1,6 +1,7 @@
 {
   "name": "ADB - Android Debug Bridge",
-  "version": "0.7.0",
+  "stage": "deprecated",
+  "version": "0.8.0",
   "slug": "adb",
   "description": "The Android Debug Bridge server program",
   "url": "https://github.com/hassio-addons/addon-adb",
