@@ -529,7 +529,7 @@ Fully configurable Z-Wave JS to MQTT gateway and control panel
 
 [:books: Z-Wave JS to MQTT add-on documentation][addon-doc-zwavejs2mqtt]
 
-### &#10003; [Z-Wave to MQTT][addon-zwave2mqtt]
+### &#10003; [Z-Wave to MQTT (DEPRECATED)][addon-zwave2mqtt]
 
 ![Latest Version][zwave2mqtt-version-shield]
 ![Supports armhf Architecture][zwave2mqtt-armhf-shield]
@@ -540,7 +540,7 @@ Fully configurable Z-Wave JS to MQTT gateway and control panel
 
 Fully configurable Z-Wave to MQTT gateway and control panel
 
-[:books: Z-Wave to MQTT add-on documentation][addon-doc-zwave2mqtt]
+[:books: Z-Wave to MQTT (DEPRECATED) add-on documentation][addon-doc-zwave2mqtt]
 
 ### &#10003; [ZeroTier One][addon-zerotier]
 
@@ -657,7 +657,7 @@ on the correct GitHub repository matching the add-on.
 - [Open an issue for the add-on: Visual Studio Code][vscode-issue]
 - [Open an issue for the add-on: WireGuard][wireguard-issue]
 - [Open an issue for the add-on: Z-Wave JS to MQTT][zwavejs2mqtt-issue]
-- [Open an issue for the add-on: Z-Wave to MQTT][zwave2mqtt-issue]
+- [Open an issue for the add-on: Z-Wave to MQTT (DEPRECATED)][zwave2mqtt-issue]
 - [Open an issue for the add-on: ZeroTier One][zerotier-issue]
 - [Open an issue for the add-on: chrony][chrony-issue]
 - [Open an issue for the add-on: motionEye][motioneye-issue]
