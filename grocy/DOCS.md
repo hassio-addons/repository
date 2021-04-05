@@ -50,8 +50,9 @@ tweaks:
   stock_best_before_date_tracking: true
   stock_location_tracking: true
   stock_price_tracking: true
-  stock_produc_freezing: true
+  stock_product_freezing: true
   stock_product_opened_tracking: true
+  stock_count_opened_products_against_minimum_stock_amount: true
 log_level: info
 ssl: false
 certfile: fullchain.pem
@@ -180,6 +181,7 @@ The following sub features can be enabled or disabled:
 - `stock_price_tracking`
 - `stock_product_freezing`
 - `stock_product_opened_tracking`
+- `stock_count_opened_products_against_minimum_stock_amount`
 
 Set it `true` to enable it, `false` otherwise.
 
