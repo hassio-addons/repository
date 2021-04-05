@@ -108,7 +108,7 @@ The name of the environment variable to set which must start with `INFLUXDB_`
 #### Sub-option: `value`
 
 The value of the environment variable to set, set the Influx documentation for
-full details.
+full details. Values should always be entered as a string (even true/false values).
 
 ### Option: `leave_front_door_open`
 
