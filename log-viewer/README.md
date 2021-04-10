@@ -19,7 +19,7 @@ is available to make it simple to differentiate different types of logs.
 [discord]: https://discord.me/hassioaddons
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
 [forum]: https://community.home-assistant.io/t/home-assistant-community-add-on-log-viewer/64377?u=dale3h
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2020.svg
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2021.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
-[release-shield]: https://img.shields.io/badge/version-v0.9.1-blue.svg
-[release]: https://github.com/hassio-addons/addon-log-viewer/tree/v0.9.1
+[release-shield]: https://img.shields.io/badge/version-v0.10.2-blue.svg
+[release]: https://github.com/hassio-addons/addon-log-viewer/tree/v0.10.2

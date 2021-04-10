@@ -1,14 +1,11 @@
 {
   "name": "Log Viewer",
-  "version": "0.9.1",
+  "version": "0.10.2",
   "slug": "logviewer",
   "description": "Browser-based log utility for Home Assistant",
   "url": "https://github.com/hassio-addons/addon-log-viewer",
-  "webui": "[PROTO:ssl]://[HOST]:[PORT:80]",
-  "startup": "application",
   "init": false,
   "ingress": true,
-  "ingress_port": 1337,
   "panel_icon": "mdi:text-box-outline",
   "homeassistant": "0.92.0b2",
   "arch": [
@@ -19,10 +16,7 @@
     "i386"
   ],
   "homeassistant_api": true,
-  "hassio_api": true,
-  "hassio_role": "default",
   "auth_api": true,
-  "boot": "auto",
   "ports": {
     "80/tcp": null
   },
@@ -46,5 +40,5 @@
     "keyfile": "str",
     "leave_front_door_open": "bool?"
   },
-  "image": "hassioaddons/log-viewer-{arch}"
+  "image": "ghcr.io/hassio-addons/log-viewer/{arch}"
 }

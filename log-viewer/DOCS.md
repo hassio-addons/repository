@@ -15,7 +15,7 @@ comparison to installing any other Home Assistant add-on.
 1. Open the web UI for the "Log Viewer" add-on to start watching logs.
 
 **Tip:** To see more logs, be sure to enable the [`logger`][logger] integration
-         in your Home Assistant `configuration.yaml`:
+in your Home Assistant `configuration.yaml`:
 
 ```yaml
 logger:
@@ -47,7 +47,7 @@ dealing with an unknown issue. Possible values are:
 - `debug`: Shows detailed debug information.
 - `info`: Normal (usually) interesting events.
 - `warning`: Exceptional occurrences that are not errors.
-- `error`:  Runtime errors that do not require immediate action.
+- `error`: Runtime errors that do not require immediate action.
 - `fatal`: Something went terribly wrong. Add-on becomes unusable.
 
 Please note that each level automatically includes log messages from a
@@ -87,16 +87,15 @@ only exposed to your internal network. USE AT YOUR OWN RISK!_
 ## Changelog & Releases
 
 This repository keeps a change log using [GitHub's releases][releases]
-functionality. The format of the log is based on
-[Keep a Changelog][keepchangelog].
+functionality.
 
 Releases are based on [Semantic Versioning][semver], and use the format
-of ``MAJOR.MINOR.PATCH``. In a nutshell, the version will be incremented
+of `MAJOR.MINOR.PATCH`. In a nutshell, the version will be incremented
 based on the following:
 
-- ``MAJOR``: Incompatible or major changes.
-- ``MINOR``: Backwards-compatible new features and enhancements.
-- ``PATCH``: Backwards-compatible bugfixes and package updates.
+- `MAJOR`: Incompatible or major changes.
+- `MINOR`: Backwards-compatible new features and enhancements.
+- `PATCH`: Backwards-compatible bugfixes and package updates.
 
 ## Support
 
@@ -124,7 +123,7 @@ check [the contributor's page][contributors].
 
 MIT License
 
-Copyright (c) 2018-2020 Dale Higgs <@dale3h>
+Copyright (c) 2018-2021 Dale Higgs <@dale3h>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -150,7 +149,6 @@ SOFTWARE.
 [discord]: https://discord.me/hassioaddons
 [forum]: https://community.home-assistant.io/t/home-assistant-community-add-on-log-viewer/64377?u=dale3h
 [issue]: https://github.com/hassio-addons/addon-log-viewer/issues
-[keepchangelog]: https://keepachangelog.com/en/1.0.0/
 [logger]: https://www.home-assistant.io/integrations/logger/
 [reddit]: https://reddit.com/r/homeassistant
 [releases]: https://github.com/hassio-addons/addon-log-viewer/releases
