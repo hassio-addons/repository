@@ -1,6 +1,6 @@
 {
   "name": "Grafana",
-  "version": "6.2.0",
+  "version": "6.3.0",
   "slug": "grafana",
   "description": "The open platform for beautiful analytics and monitoring",
   "url": "https://github.com/hassio-addons/addon-grafana",
@@ -15,8 +15,10 @@
     "armv7"
   ],
   "map": [
+    "config",
     "ssl"
   ],
+  "watchdog": "http://[HOST]:1337/api/health",
   "options": {
     "plugins": [],
     "env_vars": [],

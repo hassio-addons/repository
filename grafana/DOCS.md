@@ -113,6 +113,26 @@ for Home Assistant.
 
 1. Hit Save & Test
 
+## Anonymous Access
+
+Anonymous access on a local network is possible by exposing the port in the
+add-on configuration, along with setting the following environment variables:
+
+```yaml
+env_vars:
+  - name: GF_AUTH_ANONYMOUS_ACCESS_ENABLED
+    value: "true"
+  - name: GF_AUTH_ANONYMOUS_ACCESS_ORG_NAME
+    value: "Main Org."
+  - name: GF_AUTH_ANONYMOUS_ACCESS_ORG_ROLE
+    value: "Viewer"
+```
+
+It is not possible to enable anonymous or non-administrator access with Home
+Assistant Cloud. This includes embedding Grafana resources with an iframe or
+rendered image inside of a dashboard. For more details see
+[Anonymous login not working, Grafana add-on 3.0.0 #55](https://github.com/hassio-addons/addon-grafana/issues/55).
+
 ## Known issues and limitations
 
 - This add-on does support ARM-based devices, nevertheless, they must
