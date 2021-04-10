@@ -1,6 +1,7 @@
 {
   "name": "Lutron Certificate",
-  "version": "0.7.0",
+  "stage": "deprecated",
+  "version": "0.8.0",
   "slug": "lutron-cert",
   "description": "Generate certificate to control Lutron Caseta bridge locally",
   "url": "https://github.com/hassio-addons/addon-lutron-cert",

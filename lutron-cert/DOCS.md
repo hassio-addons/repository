@@ -4,6 +4,24 @@ This add-on will guide you through the necessary steps to create signed
 certificate files necessary to control your Lutron Caseta smart bridge with
 Home Assistant.
 
+## Deprecation warning
+
+**This add-on is in a deprecated state!**
+
+This add-on used to be helpful when in need of getting the signed certificates
+of your Lutron Caseta smart bridge in order to use it with Home Assistant.
+
+Nowadays, Home Assistant does support/help with this itself and this add-on
+is therefore no longer needed.
+
+If you want to integrate Lutron Caseta with Home Assistant, than follow
+the instructions on the Home Assistant Lutron Caseta integration documentation
+page:
+
+<https://www.home-assistant.io/integrations/lutron_caseta/#configuration>
+
+## Usage
+
 Three files will be created during successful execution of the wizard:
 
 - `/ssl/lutron/caseta.key`: the private key file used to generate the

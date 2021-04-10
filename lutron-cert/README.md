@@ -9,6 +9,22 @@
 A simple utility to generate signed certificate files to allow local control of
 a Lutron Caseta smart bridge.
 
+## Deprecation warning
+
+**This add-on is in a deprecated state!**
+
+This add-on used to be helpful when in need of getting the signed certificates
+of your Lutron Caseta smart bridge in order to use it with Home Assistant.
+
+Nowadays, Home Assistant does support/help with this itself and this add-on
+is therefore no longer needed.
+
+If you want to integrate Lutron Caseta with Home Assistant, than follow
+the instructions on the Home Assistant Lutron Caseta integration documentation
+page:
+
+<https://www.home-assistant.io/integrations/lutron_caseta/#configuration>
+
 ## About
 
 This add-on will guide you through the necessary steps to create signed
@@ -47,6 +63,6 @@ the [Lutron Caseta documentation][lutron-caseta-docs].
 [forum]: https://community.home-assistant.io/t/home-assistant-community-add-on-lutron-certificate/70317?u=frenck
 [lutron-caseta-docs]: https://www.home-assistant.io/components/lutron_caseta/
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2021.svg
-[project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
-[release-shield]: https://img.shields.io/badge/version-v0.7.0-blue.svg
-[release]: https://github.com/hassio-addons/addon-lutron-cert/tree/v0.7.0
+[project-stage-shield]: https://img.shields.io/badge/project%20stage-%20!%20DEPRECATED%20%20%20!-ff0000.svg
+[release-shield]: https://img.shields.io/badge/version-v0.8.0-blue.svg
+[release]: https://github.com/hassio-addons/addon-lutron-cert/tree/v0.8.0
