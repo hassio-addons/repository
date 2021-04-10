@@ -1,20 +1,20 @@
 ## What’s changed
 
-## 🧰 Maintenance
-
-- Cleanup repository @frenck (#59)
-- Happy New Year @frenck (#60)
-- Upgrade Code of Conduct @frenck (#61)
-- Add new repository workflow @frenck (#62)
-- Update add-on configuration for Supervisor 2021.2 @frenck (#73)
-
 ## ⬆️ Dependency updates
 
-- ⬆️ Bump frenck/action-addon-linter from v1.3.1 to v1.4 @dependabot (#63)
-- ⬆️ Bump actions/stale from v3.0.14 to v3.0.15 @dependabot (#64)
-- ⬆️ Bump frenck/action-yamllint from v1.0.2 to v1.1 @dependabot (#67)
-- Upgrade add-on base image to 9.1.2 @frenck (#68)
-- ⬆ Upgrades WireGuard Go to 0.0.20201118 @frenck (#69)
-- ⬆️ Bump actionshub/markdownlint from 2.0.0 to 2.0.2 @dependabot (#71)
-- ⬆️ Bump actions/cache from v2.1.3 to v2.1.4 @dependabot (#70)
-- ⬆️ Bump actions/stale from v3.0.15 to v3.0.16 @dependabot (#72)
+- ⬆ Upgrades git to 2.30.1-r0 @frenck (#74)
+- ⬆️ Bump release-drafter/release-drafter from v5.13.0 to v5.14.0 @dependabot (#75)
+- ⬆️ Bump docker/build-push-action from v2.2.2 to v2.3.0 @dependabot (#76)
+- ⬆️ Bump actions/stale from v3.0.16 to v3.0.17 @dependabot (#79)
+- ⬆️ Bump actions/stale from v3.0.17 to v3.0.18 @dependabot (#85)
+- ⬆️ Upgrades git to 2.30.2-r0 @frenck (#88)
+- ⬆️ Bump release-drafter/release-drafter from v5.14.0 to v5.15.0 @dependabot (#87)
+- ⬆️ Upgrades go to 1.15.10-r0 @frenck (#89)
+- ⬆️ Upgrades add-on base image to v9.1.5 @frenck (#90)
+- ⬆️ Bump frenck/action-addon-linter from v2.0.0 to v2.1 @dependabot (#92)
+- ⬆️ Bump ludeeus/action-shellcheck from 1.0.0 to 1.1.0 @dependabot (#96)
+- ⬆️ Bump docker/build-push-action from v2.3.0 to v2.4.0 @dependabot (#97)
+- ⬆️ Bump docker/setup-buildx-action from v1.1.1 to v1.1.2 @dependabot (#99)
+- ⬆️ Bump docker/setup-qemu-action from v1.0.1 to v1.0.2 @dependabot (#100)
+- ⬆️ Upgrades add-on base image to v9.1.7 @frenck (#101)
+- ⬆️ Upgrades WireGuard Go to 0.0.20210212 @frenck (#102)
