@@ -1,10 +1,16 @@
 ## What’s changed
 
+Tautulli to v2.7.0
+<https://github.com/Tautulli/Tautulli/releases/tag/v2.7.0>
+
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades python3 to 3.8.8-r0 @frenck (#103)
-- ⬆️ Upgrades git to 2.30.2-r0 @frenck (#104)
-- ⬆️ Bump plexapi from 4.4.0 to 4.4.1 in /tautulli @dependabot (#102)
-- ⬆️ Bump release-drafter/release-drafter from v5.14.0 to v5.15.0 @dependabot (#105)
-- ⬆️ Upgrades Tautulli to v2.6.9 @frenck (#106)
-- ⬆️ Upgrades Tautulli to v2.6.10 @frenck (#107)
+- ⬆️ Bump plexapi from 4.4.1 to 4.5.0 in /tautulli @dependabot (#108)
+- ⬆️ Bump plexapi from 4.5.0 to 4.5.1 in /tautulli @dependabot (#109)
+- ⬆️ Bump ludeeus/action-shellcheck from 1.0.0 to 1.1.0 @dependabot (#110)
+- ⬆️ Bump plexapi from 4.5.1 to 4.5.2 @dependabot (#111)
+- ⬆️ Bump docker/build-push-action from v2.3.0 to v2.4.0 @dependabot (#112)
+- ⬆️ Bump docker/setup-buildx-action from v1.1.1 to v1.1.2 @dependabot (#113)
+- ⬆️ Bump docker/setup-qemu-action from v1.0.1 to v1.0.2 @dependabot (#114)
+- ⬆️ Upgrades Tautulli to v2.7.0 @frenck (#115)
+- ⬆️ Upgrades add-on base image to v9.1.7 @frenck (#116)
