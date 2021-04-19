@@ -1,0 +1,10 @@
+---
+configuration:
+  log_level:
+    name: Log level
+    description: The amount of logging the add-on should do.
+  seconds_between_quotes:
+    name: Seconds between quotes
+    description: >-
+      The number of seconds the add-on waits until showing a new quote in the
+      add-on log.
