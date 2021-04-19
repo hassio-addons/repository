@@ -1,10 +1,19 @@
 ## What’s changed
 
+## ✨ New features
+
+- Add add-on translation support @frenck (#110)
+
+## 🚀 Enhancements
+
+- Improve translations source file @frenck (#111)
+
+## 🧰 Maintenance
+
+- Apply updated repository structure & CI workflow @frenck (#109)
+
 ## ⬆️ Dependency updates
 
-- ⬆️ Bump appdaemon from 4.0.7 to 4.0.8 @dependabot (#99)
-- ⬆️ Bump ludeeus/action-shellcheck from 1.0.0 to 1.1.0 @dependabot (#100)
-- ⬆️ Bump docker/build-push-action from v2.3.0 to v2.4.0 @dependabot (#102)
-- ⬆️ Bump docker/setup-qemu-action from v1.0.1 to v1.0.2 @dependabot (#103)
-- ⬆️ Bump docker/setup-buildx-action from v1.1.1 to v1.1.2 @dependabot (#104)
-- ⬆️ Upgrades add-on base image to v9.1.7 @frenck (#105)
+- ⬆️ Bump actions/cache from v2.1.4 to v2.1.5 @dependabot (#106)
+- ⬆️ Bump brpaz/hadolint-action from v1.3.1 to v1.4.0 @dependabot (#107)
+- Upgrades add-on base image to v9.2.0 @frenck (#108)
