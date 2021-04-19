@@ -1,0 +1,31 @@
+---
+configuration:
+  log_level:
+    name: Log level
+    description: >-
+      Controls the level of log details the add-on provides.
+  motion_webcontrol:
+    name: Motion webcontrol
+    description: >-
+      Enables the motion webcontrol endpoint running on port 7999.
+  ssl:
+    name: SSL
+    description: >-
+      Enables/Disables SSL (HTTPS) on the web interface of motionEye.
+  certfile:
+    name: Certificate file
+    description: >-
+      The certificate file to use for SSL. Note that this file must
+      exists in the /ssl/ folder.
+  keyfile:
+    name: Private key file
+    description: >-
+      The private key file to use for SSL. Note that this file must
+      exists in the /ssl/ folder.
+  action_buttons:
+    name: Action buttons
+    description: >-
+      If configured, a script will be created to implement an motionEye
+      action button. See add-on documentation for usage details.
+network:
+  80/tcp: Web interface (Not required for Ingress)
