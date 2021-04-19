@@ -1,10 +1,10 @@
 ## What’s changed
 
-## 📚 Documentation
+## 🧰 Maintenance
 
-- 📚 Update docs in reference to password change @sinclairpaul (#138)
+- Apply updated repository structure & CI workflow @frenck (#143)
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Bump actions/cache from v2.1.4 to v2.1.5 @dependabot (#137)
-- ⬆️ Upgrades Grafana to v7.5.4 @frenck (#139)
+- ⬆️ Bump brpaz/hadolint-action from v1.3.1 to v1.4.0 @dependabot (#140)
+- Upgrades add-on base image to v4.2.0 @frenck (#142)
