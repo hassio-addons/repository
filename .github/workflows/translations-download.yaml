@@ -1,0 +1,75 @@
+---
+name: Translations Download
+
+# yamllint disable-line rule:truthy
+on:
+  schedule:
+    - cron: "0 8 * * *"
+  workflow_dispatch:
+  workflow_run:
+    workflows: ["Translations Upload"]
+    branches: [master]
+    types:
+      - completed
+
+jobs:
+  json:
+    name: Download Translations
+    runs-on: ubuntu-latest
+    steps:
+      - name: ⤵️ Check out code from GitHub
+        uses: actions/checkout@v2.3.4
+        with:
+          fetch-depth: 0
+      - name: 🏗 Set up yq
+        uses: frenck/action-setup-yq@v1.0.0
+      - name: 🏗 Set up the Lokalise CLI
+        uses: frenck/action-setup-lokalise@v1.0.0
+      - name: ⤵️ Download translations
+        run: |
+          echo "Downloading translations to lokalise"
+          lokalise2 file download \
+            --token "${LOKALISE_TOKEN}" \
+            --project-id "${LOKALISE_PROJECT}" \
+            --format yaml \
+            --original-filenames=false \
+            --export-empty-as base \
+            --bundle-structure ".translations/%LANG_ISO%.yaml"
+        env:
+          LOKALISE_TOKEN: ${{ secrets.LOKALISE_TOKEN }}
+          LOKALISE_PROJECT: ${{ secrets.LOKALISE_PROJECT }}
+      - name: 🚀 Process translations
+        run: |
+          addons=$(yq e '.addons | keys | .[]' .addons.yml)
+          mkdir -p .translations
+          for file in .translations/*.yaml;
+          do
+            filename=$(basename "${file}")
+            language="${filename%.*}"
+            if [[ "${language}" == "en" ]]; then
+              continue
+            fi
+            echo "Processing downloaded translations in ${language}..."
+            while read addon;
+            do
+              if [[ -f "${addon}/translations/en.yaml" ]];
+              then
+                echo "Processing downloaded translations in ${language} for ${addon}..."
+                yq e ".${addon}" "${file}" \
+                    > "${addon}/translations/${filename}"
+              fi
+            done <<<"${addons}"
+          done
+      - name: 🚀 Commit changes
+        continue-on-error: true
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "${GITHUB_ACTOR}"
+          git add .
+          git commit -m "🌍 Updating translations" -a
+      - name: 🚀 Push changes
+        uses: ad-m/github-push-action@v0.6.0
+        continue-on-error: true
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}

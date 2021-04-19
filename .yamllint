@@ -1,4 +1,6 @@
 ---
+ignore: |
+  */translations/*.yaml
 rules:
   braces:
     level: error
