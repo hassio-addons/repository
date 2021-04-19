@@ -1,0 +1,30 @@
+example:
+    configuration:
+        log_level:
+            description: 'The amount of logging the add-on should do.'
+            name: 'Log level'
+        seconds_between_quotes:
+            description: 'The number of seconds the add-on waits until showing a new quote in the add-on log.'
+            name: 'Aantal seconden tussen de citaten'
+motioneye:
+    configuration:
+        action_buttons:
+            description: 'If configured, a script will be created to implement an motionEye action button. See add-on documentation for usage details.\n'
+            name: 'Action buttons'
+        certfile:
+            description: 'The certificate file to use for SSL. Note that this file must exists in the /ssl/ folder.\n'
+            name: 'Certificate file'
+        keyfile:
+            description: 'The private key file to use for SSL. Note that this file must exists in the /ssl/ folder.\n'
+            name: 'Private key file'
+        log_level:
+            description: 'Controls the level of log details the add-on provides.\n'
+            name: 'Log level'
+        motion_webcontrol:
+            description: 'Enables the motion webcontrol endpoint running on port 7999.\n'
+            name: 'Motion webcontrol'
+        ssl:
+            description: 'Enables/Disables SSL (HTTPS) on the web interface of motionEye.\n'
+            name: SSL
+    network:
+        80/tcp: 'Web interface (Not required for Ingress)'
