@@ -11,3 +11,4 @@ pyvenv.cfg
 include/
 lib/
 venv/
+.translations
