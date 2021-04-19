@@ -3,8 +3,8 @@ configuration:
     description: 'Allows you to specificy a list of custom shell commands that are ran before AppDaemon starts.'
     name: 'Init commands'
   log_level:
-    description: 'Controls the level of log details the add-on provides.'
-    name: 'Log level'
+    description: 'Bepaalt het niveau van de logs die de add-on toont.'
+    name: 'Log niveau'
   python_packages:
     description: 'Allows you to specificy a list of additional Python packages to be installed before AppDaemon starts.'
     name: 'Python packages'
