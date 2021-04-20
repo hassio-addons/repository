@@ -1,16 +1,14 @@
 ## What’s changed
 
-## 📚 Documentation
+## 🧰 Maintenance
 
-- Add note about env values to documentation @michaelpiron (#140)
+- Apply updated repository structure & CI workflow @frenck (#156)
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Bump release-drafter/release-drafter from v5.13.0 to v5.14.0 @dependabot (#133)
-- ⬆️ Bump docker/build-push-action from v2.2.2 to v2.3.0 @dependabot (#135)
-- ⬆️ Bump actions/stale from v3.0.16 to v3.0.17 @dependabot (#136)
-- ⬆️ Bump actions/stale from v3.0.17 to v3.0.18 @dependabot (#143)
-- ⬆️ Bump release-drafter/release-drafter from v5.14.0 to v5.15.0 @dependabot (#144)
-- ⬆️ Bump ludeeus/action-shellcheck from 1.0.0 to 1.1.0 @dependabot (#146)
-- ⬆️ Upgrades add-on base image to v4.1.4 @frenck (#148)
-- ⬆️ Upgrades Kapacitor to 1.5.9-1 @frenck (#149)
+- ⬆️ Bump docker/build-push-action from v2.3.0 to v2.4.0 @dependabot (#150)
+- ⬆️ Bump docker/setup-buildx-action from v1.1.1 to v1.1.2 @dependabot (#152)
+- ⬆️ Bump docker/setup-qemu-action from v1.0.1 to v1.0.2 @dependabot (#151)
+- ⬆️ Bump actions/cache from v2.1.4 to v2.1.5 @dependabot (#153)
+- ⬆️ Bump brpaz/hadolint-action from v1.3.1 to v1.4.0 @dependabot (#154)
+- Upgrades add-on base image to v4.2.0 @frenck (#155)
