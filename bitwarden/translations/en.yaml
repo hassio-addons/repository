@@ -1,0 +1,28 @@
+---
+configuration:
+  log_level:
+    name: Log level
+    description: >-
+      Controls the level of log details the add-on provides.
+  ssl:
+    name: SSL
+    description: >-
+      Enables/Disables SSL (HTTPS) on the web interface.
+  certfile:
+    name: Certificate file
+    description: >-
+      The certificate file to use for SSL. Note that this file must
+      exist in the /ssl/ folder.
+  keyfile:
+    name: Private key file
+    description: >-
+      The private key file to use for SSL. Note that this file must
+      exist in the /ssl/ folder.
+  request_size_limit:
+    name: Size limit of HTTP requests
+    description: >-
+      Optionally set the size limit of HTTP requests on the API of
+      Bitwarden RS. This might be needed to support larger imports.
+      The default is 10485760, which is 10MB.
+network:
+  7277/tcp: Web interface
