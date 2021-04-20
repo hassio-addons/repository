@@ -110,15 +110,16 @@ You might need it in the future! (e.g., When restoring a backup).
 Node-RED from being able to decrypt your existing credentials and they will be
 lost._
 
-**Note**: _This option support secrets, e.g., `!secret red_secret`._
+### Option: `theme`
 
-### Option: `dark_mode`
+Sets one of the Node-RED themes. Currently available options:
 
-When set to `true`, the Midnight Node-RED theme by [Mauricio Bonani][bonanitech]
-will be enabled. For more information and a glance at how it looks,
-see the GitHub repository of this theme:
-
-<https://github.com/node-red-contrib-themes/midnight-red>
+- `default`
+- `dark`
+- `midnight-red`
+- `oled`
+- `solarized-dark`
+- `solarized-light`
 
 ### Option: `http_node`
 
@@ -127,8 +128,6 @@ the following properties can be used:
 
 - `username`
 - `password`
-
-**Note**: _These options support secrets, e.g., `!secret red_password`._
 
 **Note**: _In order to use the `http_node` you will need to expose Node-RED using
 a network port in addition to ingress. The HTTP nodes will also be presented
@@ -142,8 +141,6 @@ properties can be used:
 
 - `username`
 - `password`
-
-**Note**: _These options support secrets, e.g., `!secret red_password`._
 
 ### Option: `system_packages`
 
@@ -288,7 +285,6 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 [alpine-packages]: https://pkgs.alpinelinux.org/packages
-[bonanitech]: https://github.com/bonanitech
 [contributors]: https://github.com/hassio-addons/addon-node-red/graphs/contributors
 [discord-ha]: https://discord.gg/c5DvZ4e
 [discord]: https://discord.me/hassioaddons
