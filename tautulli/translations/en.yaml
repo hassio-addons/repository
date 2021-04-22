@@ -1,0 +1,36 @@
+---
+configuration:
+  log_level:
+    name: Log level
+    description: >-
+      Controls the level of log details the add-on provides.
+  username:
+    name: Username
+    description: >-
+      The username for authenticating with the web interface.
+  password:
+    name: Password
+    description: >-
+      The password for authenticating with the web interface.
+  ssl:
+    name: SSL
+    description: >-
+      Enables/Disables SSL (HTTPS) on the web interface.
+  certfile:
+    name: Certificate file
+    description: >-
+      The certificate file to use for SSL. Note that this file must
+      exist in the /ssl/ folder.
+  keyfile:
+    name: Private key file
+    description: >-
+      The private key file to use for SSL. Note that this file must
+      exist in the /ssl/ folder.
+  leave_front_door_open:
+    name: Leave front door open
+    description: >-
+      When enabled, this option disables the username/password authentication
+      on the add-on. It is STRONGLY suggested not to use this option.
+      USE AT YOUR OWN RISK!
+network:
+  8181/tcp: Web interface

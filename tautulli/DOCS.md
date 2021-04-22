@@ -67,13 +67,9 @@ to prevent users from using your installation for themselves.
 This option is HIGHLY recommended in case you expose this add-on to the outside
 world.
 
-**Note**: _This option support secrets, e.g., `!secret tautulli_username`._
-
 ### Option: `password`
 
 Password for authenticating with Tautulli interface.
-
-**Note**: _This option support secrets, e.g., `!secret tautulli_password`._
 
 ### Option: `ssl`
 
@@ -91,14 +87,6 @@ The certificate file to use for SSL.
 The private key file to use for SSL.
 
 **Note**: _The file MUST be stored in `/ssl/`, which is the default_
-
-### Option: `i_like_to_be_pwned`
-
-Adding this option to the add-on configuration allows to you bypass the
-HaveIBeenPwned password requirement by setting it to `true`.
-
-**Note**: _We STRONGLY suggest picking a stronger/safer password instead of
-using this option! USE AT YOUR OWN RISK!_
 
 ### Option: `leave_front_door_open`
 
