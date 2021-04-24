@@ -1,6 +1,6 @@
 {
   "name": "Home Panel",
-  "version": "2.1.1",
+  "version": "2.2.0",
   "slug": "home-panel",
   "description": "A web frontend for controlling the home",
   "url": "https://github.com/hassio-addons/addon-home-panel",
