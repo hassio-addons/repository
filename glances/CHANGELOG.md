@@ -1,10 +1,17 @@
 ## What’s changed
 
+## 🧰 Maintenance
+
+- Apply updated repository structure & CI workflow @frenck (#142)
+
 ## ⬆️ Dependency updates
 
-- ⬆️ Bump docker from 4.4.3 to 4.4.4 in /glances @dependabot (#127)
-- ⬆️ Bump actions/stale from v3.0.17 to v3.0.18 @dependabot (#128)
-- ⬆️ Bump release-drafter/release-drafter from v5.14.0 to v5.15.0 @dependabot (#129)
-- ⬆️ Upgrades python3 to 3.8.8-r0 @frenck (#131)
-- ⬆️ Bump zeroconf from 0.28.8 to 0.29.0 in /glances @dependabot (#130)
-- ⬆️ Upgrades add-on base image to v9.1.5 @frenck (#132)
+- ⬆️ Bump ludeeus/action-shellcheck from 1.0.0 to 1.1.0 @dependabot (#133)
+- ⬆️ Bump docker/build-push-action from v2.3.0 to v2.4.0 @dependabot (#134)
+- ⬆️ Bump docker from 4.4.4 to 5.0.0 in /glances @dependabot (#135)
+- ⬆️ Bump docker/setup-buildx-action from v1.1.1 to v1.1.2 @dependabot (#136)
+- ⬆️ Bump docker/setup-qemu-action from v1.0.1 to v1.0.2 @dependabot (#137)
+- ⬆️ Bump actions/cache from v2.1.4 to v2.1.5 @dependabot (#138)
+- ⬆️ Bump py-cpuinfo from 7.0.0 to 8.0.0 in /glances @dependabot (#139)
+- ⬆️ Bump brpaz/hadolint-action from v1.3.1 to v1.4.0 @dependabot (#140)
+- Upgrades add-on base image to v9.2.0 @frenck (#141)
