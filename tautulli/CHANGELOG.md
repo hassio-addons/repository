@@ -2,4 +2,4 @@
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades Tautulli to v2.7.1 @frenck (#123)
+- ⬆️ Upgrades Tautulli to v2.7.2 @frenck (#124)
