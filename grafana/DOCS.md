@@ -122,11 +122,11 @@ add-on configuration, along with setting the following environment variables:
 
 ```yaml
 env_vars:
-  - name: GF_AUTH_ANONYMOUS_ACCESS_ENABLED
+  - name: GF_AUTH_ANONYMOUS_ENABLED
     value: "true"
-  - name: GF_AUTH_ANONYMOUS_ACCESS_ORG_NAME
+  - name: GF_AUTH_ANONYMOUS_ORG_NAME
     value: "Main Org."
-  - name: GF_AUTH_ANONYMOUS_ACCESS_ORG_ROLE
+  - name: GF_AUTH_ANONYMOUS_ORG_ROLE
     value: "Viewer"
 ```
 
