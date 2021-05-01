@@ -26,8 +26,8 @@ curl https://raw.githubusercontent.com/hassio-addons/repository-edge/master/READ
 # Get the pages into the docs folder
 ln -sf ../README.md docs/index.md
 ln -sf ../LICENSE.md docs/license.md
-ln -sf ../CONTRIBUTING.md docs/contributing.md
-ln -sf ../CODE_OF_CONDUCT.md docs/code-of-conduct.md
+ln -sf ../.github/CONTRIBUTING.md docs/contributing.md
+ln -sf ../.github/CODE_OF_CONDUCT.md docs/code-of-conduct.md
 
 # Build!
 mkdocs build
