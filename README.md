@@ -269,19 +269,6 @@ Browser-based log utility for Home Assistant
 
 [:books: Log Viewer add-on documentation][addon-doc-log-viewer]
 
-### &#10003; [Lutron Certificate][addon-lutron-cert]
-
-![Latest Version][lutron-cert-version-shield]
-![Supports armhf Architecture][lutron-cert-armhf-shield]
-![Supports armv7 Architecture][lutron-cert-armv7-shield]
-![Supports aarch64 Architecture][lutron-cert-aarch64-shield]
-![Supports amd64 Architecture][lutron-cert-amd64-shield]
-![Supports i386 Architecture][lutron-cert-i386-shield]
-
-Generate certificate to control Lutron Caseta bridge locally
-
-[:books: Lutron Certificate add-on documentation][addon-doc-lutron-cert]
-
 ### &#10003; [MQTT Server & Web client][addon-mqtt]
 
 ![Latest Version][mqtt-version-shield]
@@ -637,7 +624,6 @@ on the correct GitHub repository matching the add-on.
 - [Open an issue for the add-on: InfluxDB][influxdb-issue]
 - [Open an issue for the add-on: JupyterLab][jupyterlab-issue]
 - [Open an issue for the add-on: Log Viewer][log-viewer-issue]
-- [Open an issue for the add-on: Lutron Certificate][lutron-cert-issue]
 - [Open an issue for the add-on: MQTT Server & Web client][mqtt-issue]
 - [Open an issue for the add-on: Matrix][matrix-issue]
 - [Open an issue for the add-on: Network UPS Tools][nut-issue]
@@ -871,15 +857,6 @@ SOFTWARE.
 [log-viewer-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [log-viewer-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [log-viewer-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
-[addon-lutron-cert]: https://github.com/hassio-addons/addon-lutron-cert/tree/v0.8.0
-[addon-doc-lutron-cert]: https://github.com/hassio-addons/addon-lutron-cert/blob/v0.8.0/README.md
-[lutron-cert-issue]: https://github.com/hassio-addons/addon-lutron-cert/issues
-[lutron-cert-version-shield]: https://img.shields.io/badge/version-v0.8.0-blue.svg
-[lutron-cert-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
-[lutron-cert-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
-[lutron-cert-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
-[lutron-cert-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
-[lutron-cert-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [addon-mqtt]: https://github.com/hassio-addons/addon-mqtt/tree/v1.2.0
 [addon-doc-mqtt]: https://github.com/hassio-addons/addon-mqtt/blob/v1.2.0/README.md
 [mqtt-issue]: https://github.com/hassio-addons/addon-mqtt/issues
