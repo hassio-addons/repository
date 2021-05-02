@@ -1,0 +1,29 @@
+---
+configuration:
+  log_level:
+    name: Log level
+    description: >-
+      Controls the level of log details the add-on provides.
+  address:
+    name: Address
+    description: >-
+      Allows you to specify the IP address the AirCast server needs to
+      bind to.
+  latency_rtp:
+    name: RTP Latency
+    description: >-
+      Allows you to tweak the buffering, which is needed when the audio is
+      stuttering (e.g., low-quality network). This option specifies the number
+      of ms the add-on has to buffer the RTP audio (AirPlay). Setting this value
+      below 500ms is not recommended! Setting the value to 0 makes the add-on
+      to get the value from AirPlay.
+  latency_http:
+    name: HTTP Latency
+    description: >-
+      Allows you to tweak the buffering, which is needed when the audio is
+      stuttering (e.g., low-quality network). This option specifies the number
+      of ms the add-on has to buffer the HTTP audio.
+  drift:
+    name: Drift
+    description: >-
+      Allow to let timing reference drift (no click).
