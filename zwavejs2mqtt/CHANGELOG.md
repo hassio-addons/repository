@@ -1,9 +1,11 @@
 ## What’s changed
 
+## 🐛 Bug fixes
+
+- Fix hanging config update @frenck (#159)
+
 ## ⬆️ Dependency updates
 
-- ⬆️ Bump docker/setup-buildx-action from v1.1.2 to v1.2.0 @dependabot (#146)
-- ⬆️ Bump docker/setup-qemu-action from v1.0.2 to v1.1.0 @dependabot (#147)
-- ⬆️ Bump docker/login-action from v1.8.0 to v1.9.0 @dependabot (#151)
-- Update database to 060eba16cecf4f5f6eb0a75e2bdbde27a4986e1c @frenck (#153)
-- ⬆️ Upgrades ZwaveJS2Mqtt to v4.0.0 @frenck (#152)
+- ⬆️ Bump docker/setup-buildx-action from v1.2.0 to v1.3.0 @dependabot (#154)
+- Update database to a3d67de7d113c46460044ca3ecf01eb5c953cffc @frenck (#158)
+- ⬆️ Upgrades ZwaveJS2Mqtt to v4.0.1 @frenck (#157)
