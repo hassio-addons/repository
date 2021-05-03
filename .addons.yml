@@ -161,10 +161,6 @@ addons:
     repository: hassio-addons/addon-zerotier
     target: zerotier
     image: ghcr.io/hassio-addons/zerotier/{arch}
-  zwave2mqtt:
-    repository: hassio-addons/addon-zwave2mqtt
-    target: zwave2mqtt
-    image: ghcr.io/hassio-addons/zwave2mqtt/{arch}
   zwavejs2mqtt:
     repository: hassio-addons/addon-zwavejs2mqtt
     target: zwavejs2mqtt
