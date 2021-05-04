@@ -1,0 +1,13 @@
+---
+configuration:
+  log_level:
+    name: Log level
+    description: >-
+      Controls the level of log details the add-on provides.
+  agent_secret:
+    name: Agent Secret
+    description: >-
+      An option to set a shared agent secret. Must also be set in the remote
+      agent as an Environment variable.
+network:
+  8000/tcp: Edge Agent Api (Enable when managing remote edge agents)
