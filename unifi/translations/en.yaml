@@ -1,0 +1,41 @@
+---
+configuration:
+  log_level:
+    name: Log level
+    description: >-
+      Controls the level of log details the add-on provides.
+  ssl:
+    name: SSL
+    description: >-
+      Enables/Disables SSL (HTTPS) on the web interface.
+  certfile:
+    name: Certificate file
+    description: >-
+      The certificate file to use for SSL. Note that this file must
+      exist in the /ssl/ folder.
+  keyfile:
+    name: Private key file
+    description: >-
+      The private key file to use for SSL. Note that this file must
+      exist in the /ssl/ folder.
+  memory_max:
+    name: Max Memory
+    description: >-
+      This option allows you to change the amount of memory the UniFi Controller
+      is allowed to consume.
+  memory_init:
+    name: Initial Memory
+    description: >-
+      This option allows you to change the amount of memory the UniFi Controller
+      will initially reserve/consume when starting.
+network:
+  161/udp: Used for SNMP Access
+  1900/udp: L2 discoverable port
+  3478/udp: Used for STUN
+  5514/udp: Used for remote syslog debugging
+  6789/tcp: Used for UniFi mobile speed test
+  8080/tcp: Used for device and controller communication
+  8443/tcp: Used for controller web interface and API
+  8843/tcp: Used for HTTPS portal redirection
+  8880/tcp: Used for HTTP portal redirection
+  10001/udp: Used for device discovery
