@@ -1,21 +1,24 @@
 ## What’s changed
 
-## 🐛 Bug fixes
+## ✨ New features
 
-- 🚑  Fix deployment of add-on (again) @frenck (#74)
+- Add translation support @frenck (#86)
+
+## 🚀 Enhancements
+
+- Remove NGINX access log from Supervisor log output @frenck (#85)
 
 ## 🧰 Maintenance
 
-- 🚑  Fix deployment of add-on @frenck (#72)
-- 🚑  Fix deployment of add-on (again) @frenck (#73)
+- Apply updated repository structure & CI workflow @frenck (#84)
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Bump release-drafter/release-drafter from v5.14.0 to v5.15.0 @dependabot (#63)
-- ⬆️ Upgrades git to 2.30.2-r0 @frenck (#64)
-- ⬆️ Bump ludeeus/action-shellcheck from 1.0.0 to 1.1.0 @dependabot (#66)
-- ⬆️ Bump docker/build-push-action from v2.3.0 to v2.4.0 @dependabot (#67)
-- ⬆️ Upgrades nodejs to 14.16.1-r0 @frenck (#70)
-- ⬆️ Bump docker/setup-buildx-action from v1.1.1 to v1.1.2 @dependabot (#69)
-- ⬆️ Bump docker/setup-qemu-action from v1.0.1 to v1.0.2 @dependabot (#68)
-- ⬆️ Upgrades add-on base image to v9.1.7 @frenck (#71)
+- ⬆️ Bump actions/cache from v2.1.4 to v2.1.5 @dependabot (#75)
+- ⬆️ Upgrades nodejs to 14.16.1-r1 @frenck (#76)
+- ⬆️ Bump brpaz/hadolint-action from v1.3.1 to v1.4.0 @dependabot (#77)
+- ⬆️ Bump docker/setup-buildx-action from v1.1.2 to v1.2.0 @dependabot (#78)
+- ⬆️ Bump docker/setup-qemu-action from v1.0.2 to v1.1.0 @dependabot (#79)
+- ⬆️ Bump docker/login-action from v1.8.0 to v1.9.0 @dependabot (#80)
+- ⬆️ Bump docker/setup-buildx-action from v1.2.0 to v1.3.0 @dependabot (#81)
+- ⬆️ Upgrades add-on base image to v9.2.0 @frenck (#83)
