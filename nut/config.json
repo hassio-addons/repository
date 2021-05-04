@@ -1,6 +1,6 @@
 {
   "name": "Network UPS Tools",
-  "version": "0.6.2",
+  "version": "0.7.0",
   "slug": "nut",
   "description": "Manage battery backup (UPS) devices",
   "url": "https://github.com/hassio-addons/addon-nut",

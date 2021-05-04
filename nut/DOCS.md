@@ -171,7 +171,7 @@ devices:
       - product = ".*(Smart|Back)-?UPS.*"
 ```
 
-#### Option: `mode`
+### Option: `mode`
 
 Recognized values are `netserver` and `netclient`.
 
@@ -180,44 +180,44 @@ Recognized values are `netserver` and `netclient`.
 - `netclient`: Only runs `upsmon` to connect to a remote system running as
   `netserver`.
 
-#### Option: `shutdown_host`
+### Option: `shutdown_host`
 
 When this option is set to `true` on a UPS shutdown command, the host system
 will be shutdown. When set to `false` only the add-on will be stopped. This is to
 allow testing without impact to the system.
 
-#### Option: `list_usb_devices`
+### Option: `list_usb_devices`
 
 When this option is set to `true`, a list of connected USB devices will be
 displayed in the add-on log when the add-on starts up. This option can be used
 to help identify different UPS devices when multiple UPS devices are connected
 to the system.
 
-#### Option: `remote_ups_name`
+### Option: `remote_ups_name`
 
 When running in `netclient` mode, the name of the remote UPS.
 
-#### Option: `remote_ups_host`
+### Option: `remote_ups_host`
 
 When running in `netclient` mode, the host of the remote UPS.
 
-#### Option: `remote_ups_user`
+### Option: `remote_ups_user`
 
 When running in `netclient` mode, the user of the remote UPS.
 
-#### Option: `remote_ups_password`
+### Option: `remote_ups_password`
 
 When running in `netclient` mode, the password of the remote UPS.
 
 **Note**: _When using the remote option, the user and device options must still
 be present, however they will have no effect_
 
-#### Option: `upsd_maxage`
+### Option: `upsd_maxage`
 
 Allows setting the MAXAGE value in upsd.conf to increase the timeout for
 specific drivers, should not be changed for the majority of users.
 
-#### Option: `upsmon_deadtime`
+### Option: `upsmon_deadtime`
 
 Allows setting the DEADTIME value in upsmon.conf to adjust the stale time for
 the monitor process, should not be changed for the majority of users.
