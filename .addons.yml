@@ -1,10 +1,6 @@
 ---
 channel: stable
 addons:
-  adb:
-    repository: hassio-addons/addon-adb
-    target: adb
-    image: ghcr.io/hassio-addons/adb/{arch}
   adguard:
     repository: hassio-addons/addon-adguard-home
     target: adguard
