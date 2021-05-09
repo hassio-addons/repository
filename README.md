@@ -87,7 +87,7 @@ Python Apps and Dashboard using AppDaemon 4.x for Home Assistant
 
 [:books: AppDaemon 4 add-on documentation][addon-doc-appdaemon]
 
-### &#10003; [Bitwarden RS][addon-bitwarden]
+### &#10003; [Bitwarden (Vaultwarden)][addon-bitwarden]
 
 ![Latest Version][bitwarden-version-shield]
 ![Supports armhf Architecture][bitwarden-armhf-shield]
@@ -98,7 +98,7 @@ Python Apps and Dashboard using AppDaemon 4.x for Home Assistant
 
 Open source password management solution
 
-[:books: Bitwarden RS add-on documentation][addon-doc-bitwarden]
+[:books: Bitwarden (Vaultwarden) add-on documentation][addon-doc-bitwarden]
 
 ### &#10003; [Bookstack][addon-bookstack]
 
@@ -584,7 +584,7 @@ on the correct GitHub repository matching the add-on.
 - [Open an issue for the add-on: AirCast][aircast-issue]
 - [Open an issue for the add-on: AirSonos][airsonos-issue]
 - [Open an issue for the add-on: AppDaemon 4][appdaemon-issue]
-- [Open an issue for the add-on: Bitwarden RS][bitwarden-issue]
+- [Open an issue for the add-on: Bitwarden (Vaultwarden)][bitwarden-issue]
 - [Open an issue for the add-on: Bookstack][bookstack-issue]
 - [Open an issue for the add-on: ESPHome][esphome-issue]
 - [Open an issue for the add-on: Example][example-issue]
