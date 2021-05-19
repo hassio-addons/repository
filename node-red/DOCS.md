@@ -110,6 +110,9 @@ You might need it in the future! (e.g., When restoring a backup).
 Node-RED from being able to decrypt your existing credentials and they will be
 lost._
 
+**Note**: _If you have manually enabled the use of project in Node-RED, this
+option will, eventhough required, be ignored by Node-RED._
+
 ### Option: `theme`
 
 Sets one of the Node-RED themes. Currently available options:
