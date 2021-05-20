@@ -2,4 +2,4 @@
 
 ## 🐛 Bug fixes
 
-- Ensure AdGuard can do migration from < 7 config schemas @frenck (#187)
+- Ensure AdGuard can do migration from config without schema version @frenck (#189)
