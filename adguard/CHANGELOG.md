@@ -2,4 +2,4 @@
 
 ## 🐛 Bug fixes
 
-- Use double parentheses for arithmetic expression @frenck (#186)
+- Ensure AdGuard can do migration from < 7 config schemas @frenck (#187)
