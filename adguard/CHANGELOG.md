@@ -2,4 +2,4 @@
 
 ## 🐛 Bug fixes
 
-- Fix multiple address on a single interface @frenck (#171)
+- Fix interfaces with correctly configured multiple addresses @frenck (#172)
