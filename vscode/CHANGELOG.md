@@ -2,9 +2,9 @@
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Bump brpaz/hadolint-action from v1.4.0 to v1.5.0 @dependabot (#249)
-- ⬆️ Bump frenck/action-addon-linter from 2 to 2.1 @dependabot (#250)
-- ⬆️ Upgrades code-server to 3.10.0 @frenck (#253)
-- ⬆️ Upgrades esbenp.prettier-vscode to 6.4.0 @frenck (#254)
-- ⬆️ Upgrades keesschollaart.vscode-home-assistant to 1.17.0 @frenck (#255)
-- ⬆️ Upgrades ESPHome.esphome-vscode to 0.16.0 @frenck (#256)
+- ⬆️ Bump actions/stale from 3.0.18 to 3.0.19 @dependabot (#257)
+- ⬆️ Upgrades Home Assistant CLI to v4.12.2 @frenck (#260)
+- ⬆️ Upgrades code-server to 3.10.1 @frenck (#261)
+- ⬆️ Bump frenck/action-addon-information from 1.0.0 to 1.1 @dependabot (#262)
+- ⬆️ Upgrades code-server to 3.10.2 @frenck (#263)
+- ⬆️ Upgrades keesschollaart.vscode-home-assistant to 1.18.0 @frenck (#264)
