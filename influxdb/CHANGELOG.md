@@ -1,15 +1,8 @@
 ## What’s changed
 
-## 🚀 Enhancements
-
-- 🔨 Disable chronograf telemetry @sinclairpaul (#165)
-- 🔨 Disable kapacitor telemetry @sinclairpaul (#166)
-
 ## ⬆️ Dependency updates
 
-- ⬆️ Bump docker/setup-buildx-action from v1.1.2 to v1.2.0 @dependabot (#158)
-- ⬆️ Bump docker/login-action from v1.8.0 to v1.9.0 @dependabot (#160)
-- ⬆️ Bump docker/setup-buildx-action from v1.2.0 to v1.3.0 @dependabot (#161)
-- ⬆️ Bump docker/setup-qemu-action from v1.0.2 to v1.1.0 @dependabot (#159)
-- ⬆️ Bump brpaz/hadolint-action from v1.4.0 to v1.5.0 @dependabot (#162)
-- ⬆️ Bump frenck/action-addon-linter from 2 to 2.1 @dependabot (#163)
+- ⬆️ Bump actions/stale from 3.0.18 to 3.0.19 @dependabot (#167)
+- ⬆️ Bump frenck/action-addon-information from 1.0.0 to 1.1 @dependabot (#168)
+- ⬆️ Bump micnncim/action-label-syncer from 1.2.0 to 1.3.0 @dependabot (#169)
+- ⬆️ Upgrades InfluxDB to 1.8.6 @frenck (#170)
