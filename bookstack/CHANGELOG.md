@@ -1,26 +1,26 @@
 ## What’s changed
 
-- 💄 Fix line length for warning message @sinclairpaul (#77)
+The proxy_host option has been removed as it can be set via the envvars option, along with any other additional config.  If you use this option please ensure to update your configuration.
 
-## 🚀 Enhancements
 
-- Update nginx.sh to remove if Statement @ajesseperez (#76)
-- Remove NGINX access log from Supervisor log ouput @frenck (#87)
+## 🚨 Breaking changes
 
-## 🧰 Maintenance
+- 🔨 Remove duplicated config item @sinclairpaul (#89)
 
-- Apply updated repository structure & CI workflow @frenck (#86)
+## 📚 Documentation
+
+- 📚 Update docs for removal of APP_URL @sinclairpaul (#91)
 
 ## ⬆️ Dependency updates
 
-- Bump actions/cache from v2.1.4 to v2.1.5 @dependabot (#74)
-- Bump brpaz/hadolint-action from v1.3.1 to v1.4.0 @dependabot (#75)
-- ⬆ Update mariadb-client to 10.5.9 @sinclairpaul (#78)
-- ⬆ Update bookstack to v21.04.1 @sinclairpaul (#79)
-- Bump docker/setup-buildx-action from v1.1.2 to v1.2.0 @dependabot (#80)
-- Bump docker/setup-qemu-action from v1.0.2 to v1.1.0 @dependabot (#81)
-- Bump docker/login-action from v1.8.0 to v1.9.0 @dependabot (#82)
-- ⬆️ Upgrades composer to 2.0.13-r0 @frenck (#83)
-- Bump docker/setup-buildx-action from v1.2.0 to v1.3.0 @dependabot (#84)
-- ⬆️ Upgrades add-on base image to v9.2.0 @frenck (#85)
-- ⬆️ Upgrades BookStack to v21.04.3 @frenck (#88)
+- Bump brpaz/hadolint-action from v1.4.0 to v1.5.0 @dependabot (#90)
+- Bump actions/stale from 3.0.18 to 3.0.19 @dependabot (#93)
+- Bump frenck/action-addon-linter from 2 to 2.1 @dependabot (#92)
+- ⬆️ Upgrades php7 to 7.4.19-r0 @frenck (#94)
+- Bump frenck/action-addon-information from 1.0.0 to 1.1 @dependabot (#95)
+- Bump micnncim/action-label-syncer from 1.2.0 to 1.3.0 @dependabot (#96)
+- Bump actions/cache from 2.1.5 to 2.1.6 @dependabot (#99)
+- Bump docker/setup-qemu-action from 1.1.0 to 1.2.0 @dependabot (#98)
+- Bump docker/build-push-action from 2.4.0 to 2.5.0 @dependabot (#97)
+- ⬆️ Upgrades add-on base image to v9.2.1 @frenck (#100)
+- ⬆ Update bookstack to v21.05 @sinclairpaul (#101)

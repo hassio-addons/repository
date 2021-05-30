@@ -67,11 +67,6 @@ The private key file to use for SSL.
 
 **Note**: _The file MUST be stored in `/ssl/`, which is the default_
 
-### Option: `proxy_host`
-
-If using a reverse proxy, the domain configured for example
-`https://www.example.com`.
-
 ### Option: `remote_mysql_host`
 
 If using an external database, the hostname/address for the MYSQL/MariaDB
