@@ -1,6 +1,6 @@
 {
   "name": "motionEye",
-  "version": "0.13.0",
+  "version": "0.14.0",
   "slug": "motioneye",
   "description": "Simple, elegant and feature-rich CCTV/NVR for your cameras",
   "url": "https://github.com/hassio-addons/addon-motioneye",
@@ -22,6 +22,9 @@
   "ports_description": {
     "80/tcp": "Web interface (Not required for Ingress)"
   },
+  "discovery": [
+    "motioneye"
+  ],
   "host_network": true,
   "apparmor": false,
   "video": true,
