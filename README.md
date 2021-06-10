@@ -9,9 +9,10 @@
 
 ## About
 
-Home Assistant allows anyone to create add-on repositories to share their
-add-ons for Home Assistant easily. This repository is one of those repositories,
-providing extra Home Assistant add-ons for your installation.
+[Home Assistant](https://www.home-assistant.io/) allows anyone to create add-on
+repositories to share their add-ons for Home Assistant easily. This repository 
+is one of those repositories, providing extra Home Assistant add-ons for your 
+installation.
 
 The primary goal of this project is to provide you (as a Home Assistant user)
 with additional, high quality, add-ons that allow you to take your automated
