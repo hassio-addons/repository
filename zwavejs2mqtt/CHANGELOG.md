@@ -1,6 +1,10 @@
 ## What’s changed
 
+## 🚀 Enhancements
+
+- Update build and service scripts to match upstream changes @frenck (#197)
+
 ## ⬆️ Dependency updates
 
-- ⬆️ Bump frenck/action-addon-information from 1.1 to 1.2 @dependabot (#189)
-- ⬆️ Upgrades ZwaveJS2Mqtt to v4.5.1 @frenck (#190)
+- ⬆️ Upgrades add-on base image to v9.2.2 @frenck (#195)
+- ⬆️ Upgrades ZwaveJS2Mqtt to v5.0.1 @frenck (#196)
