@@ -5,7 +5,7 @@
     "aarch64"
   ],
   "auth_api": true,
-  "description": "ESPHome Hass.io add-on for intelligently managing all your ESP8266/ESP32 devices.",
+  "description": "ESPHome add-on for intelligently managing all your ESP8266/ESP32 devices.",
   "hassio_api": true,
   "host_network": true,
   "image": "esphome/esphome-hassio-{arch}",
@@ -36,5 +36,5 @@
   "slug": "esphome",
   "uart": true,
   "url": "https://esphome.io/",
-  "version": "1.18.0"
+  "version": "1.19.0"
 }
