@@ -36,5 +36,5 @@
   "slug": "esphome",
   "uart": true,
   "url": "https://esphome.io/",
-  "version": "1.19.0"
+  "version": "1.19.1"
 }
