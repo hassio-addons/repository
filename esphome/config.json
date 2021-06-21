@@ -5,7 +5,7 @@
     "aarch64"
   ],
   "auth_api": true,
-  "description": "ESPHome add-on for intelligently managing all your ESP8266/ESP32 devices.",
+  "description": "ESPHome add-on for intelligently managing all your ESP8266/ESP32 devices",
   "hassio_api": true,
   "host_network": true,
   "image": "esphome/esphome-hassio-{arch}",
@@ -21,7 +21,7 @@
     "6052/tcp": null
   },
   "ports_description": {
-    "6052/tcp": "Web interface (Not required for Home Assistant Ingress)"
+    "6052/tcp": "Web interface (not required for Home Assistant ingress)"
   },
   "schema": {
     "certfile": "str?",
@@ -34,7 +34,10 @@
     "streamer_mode": "bool?"
   },
   "slug": "esphome",
+  "snapshot_exclude": [
+    "*/*/"
+  ],
   "uart": true,
   "url": "https://esphome.io/",
-  "version": "1.19.1"
+  "version": "1.19.2"
 }
