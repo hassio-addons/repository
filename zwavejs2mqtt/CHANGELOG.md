@@ -2,4 +2,5 @@
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades ZwaveJS2Mqtt to v5.0.2 @frenck (#198)
+- ⬆️ Upgrades add-on base image to v10.0.0 @frenck (#199)
+- ⬆️ Upgrades ZwaveJS2Mqtt to v5.0.4 @frenck (#200)
