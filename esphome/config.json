@@ -39,5 +39,5 @@
   ],
   "uart": true,
   "url": "https://esphome.io/",
-  "version": "1.19.2"
+  "version": "1.19.3"
 }
