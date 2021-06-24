@@ -2,5 +2,5 @@
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades add-on base image to v10.0.0 @frenck (#199)
-- ⬆️ Upgrades ZwaveJS2Mqtt to v5.0.4 @frenck (#200)
+- ⬆️ Bump docker/login-action from 1.9.0 to 1.10.0 @dependabot (#202)
+- ⬆️ Upgrades ZwaveJS2Mqtt to v5.1.0 @frenck (#203)
