@@ -1,15 +1,25 @@
 ## What’s changed
 
+## 🐛 Bug fixes
+
+- Fix wheels link @frenck (#143)
+- Bump wheels link again @frenck (#153)
+
+## 🚀 Enhancements
+
+- Change add-on startup to application level @frenck (#152)
+
 ## ⬆️ Dependency updates
 
-- ⬆️ Bump docker/setup-qemu-action from v1.0.2 to v1.1.0 @dependabot (#126)
-- ⬆️ Bump docker/setup-buildx-action from v1.1.2 to v1.2.0 @dependabot (#125)
-- ⬆️ Bump docker/login-action from v1.8.0 to v1.9.0 @dependabot (#127)
-- ⬆️ Bump docker/setup-buildx-action from v1.2.0 to v1.3.0 @dependabot (#128)
-- ⬆️ Bump brpaz/hadolint-action from v1.4.0 to v1.5.0 @dependabot (#129)
-- ⬆️ Upgrades python3 to 3.8.10-r0 @frenck (#130)
-- ⬆️ Bump frenck/action-addon-linter from 2 to 2.1 @dependabot (#131)
-- ⬆️ Bump actions/stale from 3.0.18 to 3.0.19 @dependabot (#132)
-- ⬆️ Bump frenck/action-addon-information from 1.0.0 to 1.1 @dependabot (#133)
-- ⬆️ Bump micnncim/action-label-syncer from 1.2.0 to 1.3.0 @dependabot (#134)
-- ⬆️ Upgrades Tautulli to v2.7.3 @frenck (#135)
+- ⬆️ Bump docker/setup-qemu-action from 1.1.0 to 1.2.0 @dependabot (#137)
+- ⬆️ Bump docker/build-push-action from 2.4.0 to 2.5.0 @dependabot (#136)
+- ⬆️ Bump actions/cache from 2.1.5 to 2.1.6 @dependabot (#138)
+- ⬆️ Bump frenck/action-addon-information from 1.1 to 1.2.2 @dependabot (#140)
+- ⬆️ Bump plexapi from 4.5.2 to 4.6.0 @dependabot (#141)
+- ⬆️ Upgrades add-on base image to v9.2.2 @frenck (#142)
+- ⬆️ Bump plexapi from 4.6.0 to 4.6.1 in /tautulli @dependabot (#144)
+- ⬆️ Bump docker/build-push-action from 2.5.0 to 2.6.1 @dependabot (#148)
+- ⬆️ Bump docker/setup-buildx-action from 1.3.0 to 1.4.1 @dependabot (#147)
+- ⬆️ Bump docker/login-action from 1.9.0 to 1.10.0 @dependabot (#146)
+- ⬆️ Upgrades add-on base image to v10.0.0 @frenck (#150)
+- ⬆️ Upgrades Tautulli to v2.7.4 @frenck (#151)
