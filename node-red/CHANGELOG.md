@@ -1,14 +1,16 @@
 ## What’s changed
 
+## 📚 Documentation
+
+- Small documentation change. Fixed a link, added a link @agilejon (#1043)
+
 ## ⬆️ Dependency updates
 
-- Bump docker/setup-qemu-action from 1.1.0 to 1.2.0 @dependabot (#1031)
-- Bump docker/build-push-action from 2.4.0 to 2.5.0 @dependabot (#1032)
-- ⬆️ Upgrades add-on base image to v9.2.1 @frenck (#1033)
-- ⬆️ Upgrades RPi.GPIO to 0.7.1a4 @frenck (#1034)
-- Bump actions/cache from 2.1.5 to 2.1.6 @dependabot (#1035)
-- Bump frenck/action-addon-information from 1.1 to 1.2 @dependabot (#1037)
-- ⬆️ Upgrades add-on base image to v9.2.2 @frenck (#1045)
-- Bump node-red-contrib-home-assistant-websocket from 0.33.0 to 0.33.1 in /node-red @dependabot (#1036)
-- Bump node-red-contrib-time-range-switch from 1.1.0 to 1.1.1 in /node-red @dependabot (#1041)
-- Bump node-red-node-serialport from 0.14.0 to 0.14.1 in /node-red @dependabot (#1042)
+- Bump node-red-dashboard from 2.29.1 to 2.29.3 @dependabot (#1046)
+- Bump @node-red-contrib-themes/theme-collection from 1.0.1 to 1.0.2 in /node-red @dependabot (#1050)
+- ⬆️ Upgrades add-on base image to v10.0.0 @frenck (#1051)
+- Bump docker/setup-buildx-action from 1.3.0 to 1.5.0 @dependabot (#1058)
+- Bump docker/build-push-action from 2.5.0 to 2.6.1 @dependabot (#1057)
+- Bump docker/login-action from 1.9.0 to 1.10.0 @dependabot (#1053)
+- ⬆️ Upgrades openssh-client to 8.6_p1-r2 @frenck (#1060)
+- Bump node-red-node-email from 1.12.1 to 1.12.2 in /node-red @dependabot (#1055)
