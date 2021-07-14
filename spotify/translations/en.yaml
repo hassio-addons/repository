@@ -1,0 +1,25 @@
+---
+configuration:
+  log_level:
+    name: Log level
+    description: >-
+      Controls the level of log details the add-on provides.
+  name:
+    name: Name
+    description: >-
+      The name of your device (the Spotify Connect target), as shown on
+      the official Spotify clients.
+  bitrate:
+    name: Bitrate
+    description: >-
+      The bitrate Spotify should use. The higher, the better the sound quality,
+      however, the add-on consumes more data.
+  username:
+    name: Spotify username
+    description: >-
+      An optional username that you use to login to your Spotify Premium
+      account. This can be helpful when experiencing discovery issues.
+  password:
+    name: Spotify password
+    description: >-
+      The password to log into your Spotify Premium account with.
