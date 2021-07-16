@@ -81,10 +81,6 @@ addons:
     repository: hassio-addons/addon-motioneye
     target: motioneye
     image: ghcr.io/hassio-addons/motioneye/{arch}
-  mqtt:
-    repository: hassio-addons/addon-mqtt
-    target: mqtt
-    image: hassioaddons/mqtt
   node-red:
     repository: hassio-addons/addon-node-red
     target: node-red
