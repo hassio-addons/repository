@@ -1,16 +1,10 @@
 ## What’s changed
 
-## 📚 Documentation
-
-- Small documentation change. Fixed a link, added a link @agilejon (#1043)
-
 ## ⬆️ Dependency updates
 
-- Bump node-red-dashboard from 2.29.1 to 2.29.3 @dependabot (#1046)
-- Bump @node-red-contrib-themes/theme-collection from 1.0.1 to 1.0.2 in /node-red @dependabot (#1050)
-- ⬆️ Upgrades add-on base image to v10.0.0 @frenck (#1051)
-- Bump docker/setup-buildx-action from 1.3.0 to 1.5.0 @dependabot (#1058)
-- Bump docker/build-push-action from 2.5.0 to 2.6.1 @dependabot (#1057)
-- Bump docker/login-action from 1.9.0 to 1.10.0 @dependabot (#1053)
-- ⬆️ Upgrades openssh-client to 8.6_p1-r2 @frenck (#1060)
-- Bump node-red-node-email from 1.12.1 to 1.12.2 in /node-red @dependabot (#1055)
+- Bump node-red-dashboard from 2.29.3 to 2.30.0 @dependabot (#1062)
+- Bump node-red-node-email from 1.12.2 to 1.12.3 @dependabot (#1069)
+- Bump dessant/lock-threads from 2.0.3 to 2.1.1 @dependabot (#1063)
+- Bump docker/setup-buildx-action from 1.5.0 to 1.5.1 @dependabot (#1065)
+- Bump frenck/action-addon-linter from 2.1 to 2.2 @dependabot (#1066)
+- Bump actions/stale from 3.0.19 to 4 @dependabot (#1067)
