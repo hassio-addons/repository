@@ -1,6 +1,6 @@
 # ESPHome Home Assistant Add-On
 
-[![ESPHome logo](https://raw.githubusercontent.com/esphome/hassio/master/esphome-dev/logo.png)](https://esphome.io/)
+[![ESPHome logo](https://raw.githubusercontent.com/esphome/hassio/main/esphome-dev/logo.png)](https://esphome.io/)
 
 [![GitHub stars](https://img.shields.io/github/stars/esphome/esphome.svg?style=social&label=Star&maxAge=2592000)](https://github.com/esphome/esphome)
 [![GitHub Release][releases-shield]][releases]
@@ -14,7 +14,7 @@ is write YAML configuration files; the rest (over-the-air updates, compiling) is
 handled by ESPHome.
 
 <p align="center">
-<img title="ESPHome dashboard screenshot" src="https://raw.githubusercontent.com/esphome/hassio/master/esphome-dev/images/screenshot.png" width="700px"></img>
+<img title="ESPHome dashboard screenshot" src="https://raw.githubusercontent.com/esphome/hassio/main/esphome-dev/images/screenshot.png" width="700px"></img>
 </p>
 
 [View the ESPHome documentation](https://esphome.io/)
@@ -26,11 +26,11 @@ firmware. For example, to include a [DHT22][dht22].
 temperature and humidity sensor, you just need to include 8 lines of YAML
 in your configuration file:
 
-<img title="ESPHome DHT configuration example" src="https://raw.githubusercontent.com/esphome/hassio/master/esphome-dev/images/dht-example.png" width="500px"></img>
+<img title="ESPHome DHT configuration example" src="https://raw.githubusercontent.com/esphome/hassio/main/esphome-dev/images/dht-example.png" width="500px"></img>
 
 Then just click UPLOAD and the sensor will magically appear in Home Assistant:
 
-<img title="ESPHome Home Assistant MQTT discovery" src="https://raw.githubusercontent.com/esphome/hassio/master/esphome-dev/images/temperature-humidity.png" width="600px"></img>
+<img title="ESPHome Home Assistant MQTT discovery" src="https://raw.githubusercontent.com/esphome/hassio/main/esphome-dev/images/temperature-humidity.png" width="600px"></img>
 
 [discord-shield]: https://img.shields.io/discord/429907082951524364.svg
 [dht22]: https://esphome.io/components/sensor/dht.html
