@@ -87,19 +87,6 @@ Python Apps and Dashboard using AppDaemon 4.x for Home Assistant
 
 [:books: AppDaemon 4 add-on documentation][addon-doc-appdaemon]
 
-### &#10003; [Bitwarden (Vaultwarden)][addon-bitwarden]
-
-![Latest Version][bitwarden-version-shield]
-![Supports armhf Architecture][bitwarden-armhf-shield]
-![Supports armv7 Architecture][bitwarden-armv7-shield]
-![Supports aarch64 Architecture][bitwarden-aarch64-shield]
-![Supports amd64 Architecture][bitwarden-amd64-shield]
-![Supports i386 Architecture][bitwarden-i386-shield]
-
-Open source password management solution
-
-[:books: Bitwarden (Vaultwarden) add-on documentation][addon-doc-bitwarden]
-
 ### &#10003; [Bookstack][addon-bookstack]
 
 ![Latest Version][bookstack-version-shield]
@@ -451,6 +438,19 @@ Manage your UniFi network using a web browser
 
 [:books: UniFi Controller add-on documentation][addon-doc-unifi]
 
+### &#10003; [Vaultwarden (Bitwarden)][addon-bitwarden]
+
+![Latest Version][bitwarden-version-shield]
+![Supports armhf Architecture][bitwarden-armhf-shield]
+![Supports armv7 Architecture][bitwarden-armv7-shield]
+![Supports aarch64 Architecture][bitwarden-aarch64-shield]
+![Supports amd64 Architecture][bitwarden-amd64-shield]
+![Supports i386 Architecture][bitwarden-i386-shield]
+
+Open source password management solution
+
+[:books: Vaultwarden (Bitwarden) add-on documentation][addon-doc-bitwarden]
+
 ### &#10003; [Visual Studio Code][addon-vscode]
 
 ![Latest Version][vscode-version-shield]
@@ -571,7 +571,6 @@ on the correct GitHub repository matching the add-on.
 - [Open an issue for the add-on: AirCast][aircast-issue]
 - [Open an issue for the add-on: AirSonos][airsonos-issue]
 - [Open an issue for the add-on: AppDaemon 4][appdaemon-issue]
-- [Open an issue for the add-on: Bitwarden (Vaultwarden)][bitwarden-issue]
 - [Open an issue for the add-on: Bookstack][bookstack-issue]
 - [Open an issue for the add-on: ESPHome][esphome-issue]
 - [Open an issue for the add-on: Example][example-issue]
@@ -599,6 +598,7 @@ on the correct GitHub repository matching the add-on.
 - [Open an issue for the add-on: Tor][tor-issue]
 - [Open an issue for the add-on: Traccar][traccar-issue]
 - [Open an issue for the add-on: UniFi Controller][unifi-issue]
+- [Open an issue for the add-on: Vaultwarden (Bitwarden)][bitwarden-issue]
 - [Open an issue for the add-on: Visual Studio Code][vscode-issue]
 - [Open an issue for the add-on: WireGuard][wireguard-issue]
 - [Open an issue for the add-on: Z-Wave JS to MQTT][zwavejs2mqtt-issue]
@@ -689,15 +689,6 @@ SOFTWARE.
 [appdaemon-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [appdaemon-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [appdaemon-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
-[addon-bitwarden]: https://github.com/hassio-addons/addon-bitwarden/tree/v0.12.0
-[addon-doc-bitwarden]: https://github.com/hassio-addons/addon-bitwarden/blob/v0.12.0/README.md
-[bitwarden-issue]: https://github.com/hassio-addons/addon-bitwarden/issues
-[bitwarden-version-shield]: https://img.shields.io/badge/version-v0.12.0-blue.svg
-[bitwarden-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
-[bitwarden-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
-[bitwarden-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
-[bitwarden-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
-[bitwarden-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [addon-bookstack]: https://github.com/hassio-addons/addon-bookstack/tree/v0.12.1
 [addon-doc-bookstack]: https://github.com/hassio-addons/addon-bookstack/blob/v0.12.1/README.md
 [bookstack-issue]: https://github.com/hassio-addons/addon-bookstack/issues
@@ -941,6 +932,15 @@ SOFTWARE.
 [unifi-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [unifi-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [unifi-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
+[addon-bitwarden]: https://github.com/hassio-addons/addon-bitwarden/tree/v0.12.0
+[addon-doc-bitwarden]: https://github.com/hassio-addons/addon-bitwarden/blob/v0.12.0/README.md
+[bitwarden-issue]: https://github.com/hassio-addons/addon-bitwarden/issues
+[bitwarden-version-shield]: https://img.shields.io/badge/version-v0.12.0-blue.svg
+[bitwarden-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[bitwarden-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[bitwarden-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
+[bitwarden-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
+[bitwarden-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [addon-vscode]: https://github.com/hassio-addons/addon-vscode/tree/v3.6.1
 [addon-doc-vscode]: https://github.com/hassio-addons/addon-vscode/blob/v3.6.1/README.md
 [vscode-issue]: https://github.com/hassio-addons/addon-vscode/issues
