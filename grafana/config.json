@@ -1,12 +1,13 @@
 {
   "name": "Grafana",
-  "version": "7.0.4",
+  "version": "7.1.0",
   "slug": "grafana",
   "description": "The open platform for beautiful analytics and monitoring",
   "url": "https://github.com/hassio-addons/addon-grafana",
   "startup": "services",
   "ingress": true,
   "ingress_port": 1337,
+  "ingress_stream": true,
   "panel_icon": "mdi:chart-timeline",
   "panel_title": "Grafana",
   "arch": [
