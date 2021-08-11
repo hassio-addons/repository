@@ -1,7 +1,14 @@
 ## What’s changed
 
-## ⬆️ Dependency updates
+## 🚀 Enhancements
 
-- ⬆️ Upgrades nodejs to 14.17.4-r0 @frenck (#230)
-- ⬆️ Upgrades add-on base image to v10.0.1 @frenck (#231)
-- ⬆️ Upgrades ZwaveJS2Mqtt to v5.4.5 @frenck (#232)
+- 🔑 Update NGINX SSL parameters @frenck (#234)
+- 🏎 Enable streaming mode for Ingress @frenck (#236)
+
+## 🧰 Maintenance
+
+- 🚀 Add-on CI improvements @frenck (#233)
+
+## 📚 Documentation
+
+- 🚑 Fix contributing link in readme @frenck (#235)
