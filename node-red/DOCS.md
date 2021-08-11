@@ -44,7 +44,6 @@ http_static:
 ssl: true
 certfile: fullchain.pem
 keyfile: privkey.pem
-require_ssl: true
 system_packages:
   - ffmpeg
 npm_packages:
@@ -93,11 +92,6 @@ The certificate file to use for SSL.
 The private key file to use for SSL.
 
 **Note**: _The file MUST be stored in `/ssl/`, which is the default_
-
-### Option: `require_ssl`
-
-This option can be used to cause insecure HTTP connections to be redirected
-to HTTPS. This is recommended when you have SSL enabled.
 
 ### Option: `credential_secret`
 
@@ -167,14 +161,6 @@ for the add-on._
 Customize your Node-RED environment even more with the `init_commands` option.
 Add one or more shell commands to the list, and they will be executed every
 single time this add-on starts.
-
-### Option: `i_like_to_be_pwned`
-
-Adding this option to the add-on configuration allows to you bypass the
-HaveIBeenPwned password requirement by setting it to `true`.
-
-**Note**: _We STRONGLY suggest picking a stronger/safer password instead of
-using this option! USE AT YOUR OWN RISK!_
 
 ### Option: `leave_front_door_open`
 
@@ -294,7 +280,6 @@ SOFTWARE.
 [forum]: https://community.home-assistant.io/t/home-assistant-community-add-on-node-red/55023?u=frenck
 [frenck]: https://github.com/frenck
 [issue]: https://github.com/hassio-addons/addon-node-red/issues
-[keepchangelog]: http://keepachangelog.com/en/1.0.0/
 [node-red-nodes]: https://flows.nodered.org/?type=node&num_pages=1
 [npm-packages]: https://www.npmjs.com
 [reddit]: https://reddit.com/r/homeassistant

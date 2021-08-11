@@ -1,11 +1,12 @@
 {
   "name": "Node-RED",
-  "version": "9.2.1",
+  "version": "10.0.0",
   "slug": "nodered",
   "description": "Flow-based programming for the Internet of Things",
   "url": "https://github.com/hassio-addons/addon-node-red",
   "ingress": true,
   "ingress_port": 0,
+  "ingress_stream": true,
   "panel_icon": "mdi:sitemap",
   "init": false,
   "homeassistant": "0.92.0b2",
@@ -56,7 +57,6 @@
     "ssl": true,
     "certfile": "fullchain.pem",
     "keyfile": "privkey.pem",
-    "require_ssl": true,
     "system_packages": [],
     "npm_packages": [],
     "init_commands": []
@@ -64,7 +64,6 @@
   "schema": {
     "log_level": "list(trace|debug|info|notice|warning|error|fatal)?",
     "credential_secret": "password",
-    "dark_mode": "bool?",
     "theme": "list(default|dark|midnight-red|oled|solarized-dark|solarized-light)?",
     "http_node": {
       "username": "str",
@@ -77,7 +76,6 @@
     "ssl": "bool",
     "certfile": "str",
     "keyfile": "str",
-    "require_ssl": "bool",
     "system_packages": [
       "str"
     ],
@@ -87,7 +85,6 @@
     "init_commands": [
       "str"
     ],
-    "i_like_to_be_pwned": "bool?",
     "leave_front_door_open": "bool?"
   },
   "image": "ghcr.io/hassio-addons/node-red/{arch}"
