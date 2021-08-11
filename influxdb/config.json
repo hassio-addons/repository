@@ -1,11 +1,12 @@
 {
   "name": "InfluxDB",
-  "version": "4.1.1",
+  "version": "4.2.1",
   "slug": "influxdb",
   "description": "Scalable datastore for metrics, events, and real-time analytics",
   "url": "https://github.com/hassio-addons/addon-influxdb",
   "ingress": true,
   "ingress_port": 1337,
+  "ingress_stream": true,
   "panel_icon": "mdi:chart-areaspline",
   "startup": "services",
   "homeassistant": "0.92.0b2",
