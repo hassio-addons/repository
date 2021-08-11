@@ -1,7 +1,18 @@
 ## What’s changed
 
+## 🚀 Enhancements
+
+- 🏎 Enable streaming mode for Ingress @frenck (#306)
+
+## 🧰 Maintenance
+
+- 🚀 Add-on CI improvements @frenck (#302)
+
+## 📚 Documentation
+
+- 🚑 Fix contributing link in readme @frenck (#303)
+
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades keesschollaart.vscode-home-assistant to 1.21.0 @frenck (#298)
-- ⬆️ Upgrades ESPHome.esphome-vscode to 0.22.0 @frenck (#299)
-- ⬆️ Bump yamllint from 1.26.1 to 1.26.2 in /vscode @dependabot (#300)
+- ⬆️ Upgrades add-on base image to v4.2.3 @frenck (#304)
+- ⬆️ Upgrades code-server to 3.11.1 @frenck (#305)
