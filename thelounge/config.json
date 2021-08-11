@@ -1,6 +1,6 @@
 {
   "name": "The Lounge",
-  "version": "0.12.2",
+  "version": "0.12.3",
   "slug": "thelounge",
   "description": "A self-hosted web IRC client",
   "url": "https://github.com/hassio-addons/addon-thelounge",
@@ -12,6 +12,7 @@
     "i386"
   ],
   "ingress": true,
+  "ingress_stream": true,
   "panel_icon": "mdi:chat",
   "ports": {
     "80/tcp": null
@@ -28,7 +29,7 @@
     "keyfile": "privkey.pem",
     "default_theme": "default",
     "themes": [
-      "thelounge-theme-material"
+      "thelounge-theme-solarized"
     ],
     "users": []
   },
