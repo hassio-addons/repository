@@ -34,9 +34,6 @@ Example add-on configuration, with all available options:
 
 ```yaml
 log_level: info
-ssl: true
-certfile: fullchain.pem
-keyfile: privkey.pem
 memory_max: 2048
 memory_init: 512
 ```
@@ -61,26 +58,6 @@ more severe level, e.g., `debug` also shows `info` messages. By default,
 the `log_level` is set to `info`, which is the recommended setting unless
 you are troubleshooting.
 
-### Option: `ssl`
-
-Enables/Disables the use of a custom SSL (HTTPS) certificate with the in UniFi
-web interface. Set it `true` to enable it, `false` otherwise.
-
-**Note**: _When leaving this option disabled, UniFi will use a
-custom/self-signed SSL certificate._
-
-### Option: `certfile`
-
-The certificate file to use for SSL.
-
-**Note**: _The file MUST be stored in `/ssl/`, which is the default_
-
-### Option: `keyfile`
-
-The private key file to use for SSL.
-
-**Note**: _The file MUST be stored in `/ssl/`, which is the default_
-
 ### Option: `memory_max`
 
 This option allows you to change the amount of memory the UniFi Controller
@@ -88,7 +65,7 @@ is allowed to consume. By default, this is limited to 1 GB. You might want
 to increase this, in order to reduce CPU load or reduce this, in order
 to optimize your system for lower memory usage.
 
-This option takes the number of Megabyte, for example, the default is 1024.
+This option takes the number of Megabyte, for example, the default is 256.
 
 ### Option: `memory_init`
 
@@ -96,7 +73,7 @@ This option allows you to change the amount of memory the UniFi Controller
 will initially reserve/consume when starting. By default, this is limited to
 512M.
 
-This option takes the number of Megabyte, for example, the default is 512.
+This option takes the number of Megabyte, for example, the default is 128.
 
 ## Automated backups
 
@@ -134,12 +111,6 @@ you can manually adopt a device by following these steps:
   in order for this add-on to work properly. Using the Ubiquiti Discovery
   Tool, or SSH'ing into the AP and setting the INFORM after adopting
   will resolve this. (see: _Manually adopting a device_)
-- This add-on does support ARM-based devices, nevertheless, they must
-  at least be an ARMv7 device. (Raspberry Pi 1 and Zero is not supported).
-- When using SSL, the following warning is shown in the add-on logs:
-  `Warning: The JKS keystore uses a proprietary format.`. This warning can
-  be safely ignored. There is nothing wrong and your add-on will function
-  normally.
 - The following error can show up in the log, but can be safely ignored:
 
   ```
@@ -148,8 +119,6 @@ you can manually adopt a device by following these steps:
     however, the add-on functions normally.
   ```
 
-- Due limitation, renewed SSL certificates are not picked up automatically.
-  You'd have to restart the add-on in order for UniFi to pick up the change.
 - Due to security policies in the UniFi Controller software, it is currently
   impossible to add the UniFI web interface to your Home Assistant frontend
   using a `panel_iframe`.
@@ -158,6 +127,9 @@ you can manually adopt a device by following these steps:
   to open the required "range" of ports needed for this feature to work.
 - This add-on cannot support Ingress due to technical limitations of the
   UniFi software.
+- During making a backup of this add-on via Home Assistant, this add-on will
+  temporary shutdown and start up after the backup has finished. This prevents
+  data corruption during taking the backup.
 
 ## Changelog & Releases
 

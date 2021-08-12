@@ -1,22 +1,33 @@
-## ⚠️ Deprecation warning
-
-This is the final release that supports 32-bits operating systems. Support for 32-bits architectures (armhf, armv7 & i386) will be dropped as of the next release.
-
-The way this add-on currently works around limitations for making it work on those architectures isn't sustainable for the future and slowly becomes problematic. If you are using one of the deprecated architectures, you can update to this release and use that for as long as you want, however, you won't be offered an upgrade to the next release.
-
-If you run a 32-bits operating system, we highly recommend moving/upgrading to a 64-bits OS.
-
 ## What’s changed
+
+⚠️  This is a major release with breaking changes!
+Please read them carefully.
+
+**Besides that, we call this version 1.0.0! Magic** 🪄 
+
+## 🚨 Breaking changes
+
+- 🔥 **Drop support for 32-bits systems (armv7, i386)** @frenck (#242)
+  As announced in the previous release, support for the 32-bits operating system has been dropped. Please migrate to a 64-bits (operating) system in order to use this add-on.
+
+- 🥶 **Use cold backups** @frenck (#243)
+  To make backups (snapshots) more reliable, the add-on will now shut down during the time Home Assistant is making the backup (and of course will start again after the backup is done).
+
+- 🔥 **Drop support for custom SSL certificates** @frenck (#244)
+  Lately, SSL gave problems for a lot of users, which is partly additionally hard because UniFi runs quite some old internals. Therefore, we've removed the SSL options from the add-on. The add-on will migrate your UniFi configuration to use a self-signed SSL certificate on upgrade. If you want to run the UniFi controller with your own SSL certificate, we recommend using a reverse proxy to achieve that.
+
+## 🚀 Enhancements
+
+- 🏎 Reduce default memory footprint @frenck (#245)
+
+## 🧰 Maintenance
+
+- 🚀 Add-on CI improvements @frenck (#241)
+
+## 📚 Documentation
+
+- ✏️ Mark add-on stable @frenck (#246)
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Bump docker/login-action from 1.9.0 to 1.10.0 @dependabot (#221)
-- ⬆️ Bump docker/setup-buildx-action from 1.3.0 to 1.4.1 @dependabot (#223)
-- ⬆️ Bump docker/build-push-action from 2.5.0 to 2.6.1 @dependabot (#224)
-- ⬆️ Bump docker/setup-buildx-action from 1.4.1 to 1.5.0 @dependabot (#225)
-- ⬆️ Bump dessant/lock-threads from 2.0.3 to 2.1.1 @dependabot (#227)
-- ⬆️ Bump docker/setup-buildx-action from 1.5.0 to 1.5.1 @dependabot (#228)
-- ⬆️ Bump actions/stale from 3.0.19 to 4 @dependabot (#229)
-- ⬆️ Bump frenck/action-addon-linter from 2.1 to 2.2 @dependabot (#230)
-- ⬆️ Upgrades add-on base image to v6.2.1 @frenck (#233)
-- ⬆ Upgrade UniFi Controller to 6.2.26 @chrismccracken (#232)
+- ⬇️  Downgrade MongoDB to 3.4 to provide an upgrade path @frenck (#247)
