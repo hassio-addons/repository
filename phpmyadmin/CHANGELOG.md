@@ -1,11 +1,23 @@
 ## What’s changed
 
+## 🚀 Enhancements
+
+- 🔥 Less logging by removing access log from log ouput @frenck (#88)
+- 🏎 Enable streaming mode for Ingress @frenck (#89)
+- ⬆️ Upgrade php7 -> php8 @frenck (#90)
+
+## 🧰 Maintenance
+
+- 🚀 Add-on CI improvements @frenck (#86)
+
+## 📚 Documentation
+
+- 🚑 Fix contributing link in readme @frenck (#87)
+
 ## ⬆️ Dependency updates
 
-- ⬆️ Bump docker/setup-buildx-action from 1.3.0 to 1.5.0 @dependabot (#77)
-- ⬆️ Bump docker/build-push-action from 2.5.0 to 2.6.1 @dependabot (#76)
-- ⬆️ Bump docker/login-action from 1.9.0 to 1.10.0 @dependabot (#74)
-- ⬆️ Upgrades add-on base image to v10.0.0 @frenck (#78)
-- ⬆️ Bump dessant/lock-threads from 2.0.3 to 2.1.1 @dependabot (#79)
-- ⬆️ Bump docker/setup-buildx-action from 1.5.0 to 1.5.1 @dependabot (#80)
-- ⬆️ Upgrades php7 to 7.4.21-r0 @frenck (#81)
+- ⬆️ Bump frenck/action-addon-linter from 2.1 to 2.2 @dependabot (#82)
+- ⬆️ Bump actions/stale from 3.0.19 to 4 @dependabot (#83)
+- ⬆️ Upgrades mariadb-client to 10.5.12-r0 @frenck (#84)
+- ⬆️ Upgrades php7 to 7.4.22-r0 @frenck (#85)
+- ⬆️ Upgrades add-on base image to v10.0.1 @frenck (#91)
