@@ -1,11 +1,12 @@
 {
   "name": "AdGuard Home",
-  "version": "4.1.6",
+  "version": "4.1.7",
   "slug": "adguard",
   "description": "Network-wide ads & trackers blocking DNS server",
   "url": "https://github.com/hassio-addons/addon-adguard-home",
   "ingress": true,
   "ingress_port": 0,
+  "ingress_stream": true,
   "panel_icon": "mdi:shield-check",
   "startup": "services",
   "homeassistant": "0.113.2",

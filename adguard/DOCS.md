@@ -16,7 +16,10 @@ comparison to installing any other Home Assistant add-on.
 1. **Ensure your Home Assistant device has a
    [static IP and static external DNS servers!](https://github.com/home-assistant/hassos/blob/dev/Documentation/network.md#static-ip)**
    This is important! You **WILL** end up having issues if you skip this step.
-   Also, please note, setting a fixed IP in your router is **NOT** static.
+   - Change this setting in Supervisor:
+     [![Open your Home Assistant instance and show your Supervisor system information.](https://my.home-assistant.io/badges/supervisor_info.svg)](https://my.home-assistant.io/redirect/supervisor_info/)
+     (_Host → IP Address → Change → IPv4 → Static_)
+   - Please note, setting a fixed IP in your router is **NOT** static.
 1. Search for the "AdGuard Home" add-on in the Supervisor add-on store and
    install it.
 1. Start the "AdGuard Home" add-on.
