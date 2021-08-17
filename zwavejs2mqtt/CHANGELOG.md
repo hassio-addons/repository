@@ -1,14 +1,5 @@
 ## What’s changed
 
-## 🚀 Enhancements
+## ⬆️ Dependency updates
 
-- 🔑 Update NGINX SSL parameters @frenck (#234)
-- 🏎 Enable streaming mode for Ingress @frenck (#236)
-
-## 🧰 Maintenance
-
-- 🚀 Add-on CI improvements @frenck (#233)
-
-## 📚 Documentation
-
-- 🚑 Fix contributing link in readme @frenck (#235)
+- ⬆️ Upgrades ZwaveJS2Mqtt to v5.4.6 @frenck (#238)
