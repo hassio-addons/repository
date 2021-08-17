@@ -1,11 +1,21 @@
 ## What’s changed
 
+## 🚀 Enhancements
+
+- 🔑 Update NGINX SSL parameters @frenck (#134)
+- 🏎 Enable streaming mode for Ingress @frenck (#135)
+
+## 🧰 Maintenance
+
+- 🚀 Add-on CI improvements @frenck (#131)
+
+## 📚 Documentation
+
+- 🚑 Fix contributing link in readme @frenck (#133)
+
 ## ⬆️ Dependency updates
 
-- Bump docker/login-action from 1.9.0 to 1.10.0 @dependabot (#122)
-- Bump docker/setup-buildx-action from 1.3.0 to 1.4.1 @dependabot (#123)
-- Bump docker/build-push-action from 2.5.0 to 2.6.1 @dependabot (#124)
-- Bump docker/setup-buildx-action from 1.4.1 to 1.5.0 @dependabot (#125)
-- Bump dessant/lock-threads from 2.0.3 to 2.1.1 @dependabot (#126)
-- Bump docker/setup-buildx-action from 1.5.0 to 1.5.1 @dependabot (#127)
-- ⬆️ Upgrades add-on base image to v10.0.0 @frenck (#128)
+- Bump frenck/action-addon-linter from 2.1 to 2.2 @dependabot (#129)
+- Bump actions/stale from 3.0.19 to 4 @dependabot (#130)
+- ⬆️ Upgrades nodejs-current to 16.6.0-r0 @frenck (#132)
+- ⬆️ Upgrades add-on base image to v10.0.1 @frenck (#136)
