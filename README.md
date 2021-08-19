@@ -360,6 +360,19 @@ Play Spotify music on your Home Assistant device
 
 [:books: Spotify Connect add-on documentation][addon-doc-spotify]
 
+### &#10003; [Tailscale][addon-tailscale]
+
+![Latest Version][tailscale-version-shield]
+![Supports armhf Architecture][tailscale-armhf-shield]
+![Supports armv7 Architecture][tailscale-armv7-shield]
+![Supports aarch64 Architecture][tailscale-aarch64-shield]
+![Supports amd64 Architecture][tailscale-amd64-shield]
+![Supports i386 Architecture][tailscale-i386-shield]
+
+Zero config VPN for building secure networks
+
+[:books: Tailscale add-on documentation][addon-doc-tailscale]
+
 ### &#10003; [TasmoAdmin][addon-tasmoadmin]
 
 ![Latest Version][tasmoadmin-version-shield]
@@ -592,6 +605,7 @@ on the correct GitHub repository matching the add-on.
 - [Open an issue for the add-on: SQLite Web][sqlite-web-issue]
 - [Open an issue for the add-on: SSH & Web Terminal][ssh-issue]
 - [Open an issue for the add-on: Spotify Connect][spotify-issue]
+- [Open an issue for the add-on: Tailscale][tailscale-issue]
 - [Open an issue for the add-on: TasmoAdmin][tasmoadmin-issue]
 - [Open an issue for the add-on: Tautulli][tautulli-issue]
 - [Open an issue for the add-on: The Lounge][thelounge-issue]
@@ -878,6 +892,15 @@ SOFTWARE.
 [spotify-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [spotify-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [spotify-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
+[addon-tailscale]: https://github.com/hassio-addons/addon-tailscale/tree/v0.1.0
+[addon-doc-tailscale]: https://github.com/hassio-addons/addon-tailscale/blob/v0.1.0/README.md
+[tailscale-issue]: https://github.com/hassio-addons/addon-tailscale/issues
+[tailscale-version-shield]: https://img.shields.io/badge/version-v0.1.0-blue.svg
+[tailscale-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[tailscale-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[tailscale-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
+[tailscale-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
+[tailscale-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [addon-tasmoadmin]: https://github.com/hassio-addons/addon-tasmoadmin/tree/v0.15.0
 [addon-doc-tasmoadmin]: https://github.com/hassio-addons/addon-tasmoadmin/blob/v0.15.0/README.md
 [tasmoadmin-issue]: https://github.com/hassio-addons/addon-tasmoadmin/issues
