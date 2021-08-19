@@ -109,6 +109,10 @@ addons:
     repository: hassio-addons/addon-spotify-connect
     target: spotify
     image: ghcr.io/hassio-addons/spotify/{arch}
+  tailscale:
+    repository: hassio-addons/addon-tailscale
+    target: tailscale
+    image: ghcr.io/hassio-addons/tailscale/{arch}
   tasmoadmin:
     repository: hassio-addons/addon-tasmoadmin
     target: tasmoadmin
