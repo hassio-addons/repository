@@ -65,16 +65,6 @@ you are troubleshooting.
 An option to set a shared agent secret. Must also be set in the remote agent
 as an Environment variable.
 
-## Known issues and limitations
-
-By default all Home Assistant managed containers are hidden from Portainer.
-This is recommended since fooling around with Home Assistant managed containers
-can easily lead to a broken system.
-
-Access to these containers can be gained by going into Portainer ->
-Settings -> Hidden containers. Then delete the listed hidden labels
-(io.hass.type labels). **Only do this if you know what you're doing!**
-
 ## Changelog & Releases
 
 This repository keeps a change log using [GitHub's releases][releases]
