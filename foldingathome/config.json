@@ -1,19 +1,15 @@
 {
   "name": "Folding@home",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "slug": "foldingathome",
   "description": "Fighting disease with a world wide distributed super computer",
   "url": "https://github.com/hassio-addons/addon-foldingathome",
   "webui": "http://[HOST]:[PORT:7396]",
-  "startup": "application",
   "arch": [
     "amd64"
   ],
-  "boot": "auto",
   "init": false,
   "hassio_api": true,
-  "hassio_role": "default",
-  "options": {},
   "video": true,
   "ports": {
     "7396/tcp": 7396,
@@ -23,8 +19,5 @@
     "7396/tcp": "Web interface",
     "36330/tcp": "Remote command interface"
   },
-  "schema": {
-    "log_level": "list(trace|debug|info|notice|warning|error|fatal)?"
-  },
-  "image": "hassioaddons/foldingathome-{arch}"
+  "image": "ghcr.io/hassio-addons/foldingathome/{arch}"
 }

@@ -29,10 +29,10 @@ Join the Home Assistant Folding@home team! (id: 247478)
 [forum]: https://community.home-assistant.io/t/home-assistant-community-add-on-folding-home/180496?u=frenck
 [github-sponsors-shield]: https://frenck.dev/wp-content/uploads/2019/12/github_sponsor.png
 [github-sponsors]: https://github.com/sponsors/frenck
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2020.svg
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2021.svg
 [patreon-shield]: https://frenck.dev/wp-content/uploads/2019/12/patreon.png
 [patreon]: https://www.patreon.com/frenck
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
-[release-shield]: https://img.shields.io/badge/version-v0.2.0-blue.svg
-[release]: https://github.com/hassio-addons/addon-foldingathome/tree/v0.2.0
-[screenshot]: https://github.com/hassio-addons/addon-foldingathome/raw/master/images/screenshot.png
+[release-shield]: https://img.shields.io/badge/version-v0.3.0-blue.svg
+[release]: https://github.com/hassio-addons/addon-foldingathome/tree/v0.3.0
+[screenshot]: https://github.com/hassio-addons/addon-foldingathome/raw/main/images/screenshot.png
