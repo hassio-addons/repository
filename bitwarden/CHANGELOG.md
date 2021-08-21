@@ -1,9 +1,10 @@
 ## What’s changed
 
-## 🚀 Enhancements
+## 🐛 Bug fixes
 
-- 🔑 Update NGINX SSL parameters @frenck (#158)
+- 🚑 Start add-on as service to prevent timezone issues @frenck (#161)
 
-## 🧰 Maintenance
+## ⬆️ Dependency updates
 
-- 🚀 Add-on CI improvements @frenck (#157)
+- ⬆️ Bump dessant/lock-threads from 2.1.1 to 2.1.2 @dependabot (#159)
+- ⬆️ Upgrades add-on base image to v5.0.0 @frenck (#160)
