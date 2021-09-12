@@ -1,6 +1,6 @@
 {
   "name": "Bookstack",
-  "version": "0.12.1",
+  "version": "0.13.0",
   "slug": "bookstack",
   "description": "Simple & Free Wiki Software",
   "url": "https://github.com/hassio-addons/addon-bookstack",
@@ -37,6 +37,8 @@
     "remote_mysql_username": "str?",
     "remote_mysql_password": "password?",
     "remote_mysql_port": "int?",
+    "show_appkey": "bool?",
+    "appkey": "str?",
     "log_level": "list(trace|debug|info|notice|warning|error|fatal)?",
     "certfile": "str",
     "keyfile": "str",

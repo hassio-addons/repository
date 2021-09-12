@@ -89,6 +89,16 @@ Only applies if a remote MYSQL database is used, the password of the above user.
 Only applies if a remote MYSQL database is used, the port that the database
 server is listening on.
 
+### Option: `show_appkey`
+
+If set to `true`, will show the currently configured appkey in the addon logs.
+This should be recorded in case of a restore.
+
+### Option: `appkey`
+
+Allows the appkey to be defined by the user, in case of restoring from another
+system. Will automatically be removed from config on first run if set.
+
 ### Option: `envvars`
 
 This allows the setting of Environment Variables to control Bookstack
