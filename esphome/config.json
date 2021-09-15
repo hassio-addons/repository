@@ -5,6 +5,9 @@
     "aarch64"
   ],
   "auth_api": true,
+  "backup_exclude": [
+    "*/*/"
+  ],
   "description": "ESPHome add-on for intelligently managing all your ESP8266/ESP32 devices",
   "hassio_api": true,
   "host_network": true,
@@ -33,10 +36,7 @@
     "streamer_mode": "bool?"
   },
   "slug": "esphome",
-  "snapshot_exclude": [
-    "*/*/"
-  ],
   "uart": true,
   "url": "https://esphome.io/",
-  "version": "2021.8.2"
+  "version": "2021.9.0"
 }

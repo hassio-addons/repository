@@ -51,15 +51,6 @@ The private key file to use for SSL. If this file doesn't exist, the add-on star
 Adding this option to the add-on configuration allows you to disable
 authentication by setting it to `true`.
 
-### Option: `esphome_version`
-
-Manually override which ESPHome version to use in the add-on.
-For example to install the latest development version, use `"esphome_version": "dev"`,
-or for version 1.14.0: `"esphome_version": "v1.14.0""`.
-
-Please note that this does not always work and is only meant for testing, usually the
-ESPHome add-on and dashboard version must match to guarantee a working system.
-
 ### Option: `relative_url`
 
 Host the ESPHome dashboard under a relative URL, so that it can be integrated
