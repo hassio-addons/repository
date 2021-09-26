@@ -1,22 +1,27 @@
 ## What’s changed
 
+## 🚀 Enhancements
+
+- 🔑 Update NGINX SSL parameters @frenck (#110)
+- 🏎 Enable streaming mode for Ingress @frenck (#111)
+
+## 🧰 Maintenance
+
+- 🚀 Add-on CI improvements @frenck (#107)
+
+## 📚 Documentation
+
+- 🚑 Fix contributing link in readme @frenck (#109)
+
 ## ⬆️ Dependency updates
 
-- ⬆️ Bump brpaz/hadolint-action from v1.4.0 to v1.5.0 @dependabot (#87)
-- ⬆️ Bump frenck/action-addon-linter from 2 to 2.1 @dependabot (#88)
-- ⬆️ Bump actions/stale from 3.0.18 to 3.0.19 @dependabot (#89)
-- ⬆️ Bump frenck/action-addon-information from 1.0.0 to 1.1 @dependabot (#90)
-- ⬆ Bump micnncim/action-label-syncer from 1.2.0 to 1.3.0 @dependabot (#91)
-- ⬆️ Bump docker/setup-qemu-action from 1.1.0 to 1.2.0 @dependabot (#93)
-- ⬆️ Bump docker/build-push-action from 2.4.0 to 2.5.0 @dependabot (#92)
-- ⬆️ Bump actions/cache from 2.1.5 to 2.1.6 @dependabot (#94)
-- ⬆️ Upgrades add-on base image to v9.2.1 @frenck (#95)
-- ⬆️ Bump frenck/action-addon-information from 1.1 to 1.2 @dependabot (#96)
-- ⬆️ Upgrades add-on base image to v9.2.2 @frenck (#97)
-- ⬆️ Bump docker/login-action from 1.9.0 to 1.10.0 @dependabot (#98)
-- ⬆️ Bump docker/setup-buildx-action from 1.3.0 to 1.4.1 @dependabot (#99)
-- ⬆️ Bump docker/build-push-action from 2.5.0 to 2.6.1 @dependabot (#100)
-- ⬆️ Bump docker/setup-buildx-action from 1.4.1 to 1.5.0 @dependabot (#101)
-- ⬆️ Bump dessant/lock-threads from 2.0.3 to 2.1.1 @dependabot (#102)
-- ⬆️ Bump docker/setup-buildx-action from 1.5.0 to 1.5.1 @dependabot (#103)
-- ⬆️ Upgrades add-on base image to v10.0.0 @frenck (#104)
+- ⬆️ Bump frenck/action-addon-linter from 2.1 to 2.2 @dependabot (#105)
+- ⬆️ Bump actions/stale from 3.0.19 to 4 @dependabot (#106)
+- ⬆️ Upgrades nodejs to 14.17.4-r0 @frenck (#108)
+- ⬆️ Bump dessant/lock-threads from 2.1.1 to 2.1.2 @dependabot (#112)
+- ⬆️ Bump docker/build-push-action from 2.6.1 to 2.7.0 @dependabot (#113)
+- ⬆️ Bump frenck/action-addon-linter from 2.2 to 2.3 @dependabot (#114)
+- ⬆️ Bump docker/setup-buildx-action from 1.5.1 to 1.6.0 @dependabot (#115)
+- ⬆️ Bump creyD/prettier_action from 3.3 to 4.0 @dependabot (#116)
+- ⬆️ Upgrades nodejs to 14.17.6-r0 @frenck (#117)
+- ⬆️ Upgrades add-on base image to 10.1.0 @frenck (#118)
