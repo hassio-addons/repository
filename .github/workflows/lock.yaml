@@ -12,10 +12,10 @@ jobs:
     name: 🔒 Lock closed issues and PRs
     runs-on: ubuntu-latest
     steps:
-      - uses: dessant/lock-threads@v2.1.2
+      - uses: dessant/lock-threads@v3.0.0
         with:
           github-token: ${{ github.token }}
-          issue-lock-inactive-days: "30"
+          issue-inactive-days: "30"
           issue-lock-reason: ""
-          pr-lock-inactive-days: "1"
+          pr-inactive-days: "1"
           pr-lock-reason: ""
