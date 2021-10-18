@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: ⤵️ Check out code from GitHub
-        uses: actions/checkout@v2.3.4
+        uses: actions/checkout@v2.3.5
       - name: 🏗 Set up yq
         uses: frenck/action-setup-yq@v1.0.0
       - name: 🏗 Set up the Lokalise CLI
