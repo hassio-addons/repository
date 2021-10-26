@@ -712,10 +712,10 @@ SOFTWARE.
 [bookstack-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [bookstack-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [bookstack-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
-[addon-esphome]: https://github.com/esphome/hassio/tree/v2021.10.2
-[addon-doc-esphome]: https://github.com/esphome/hassio/blob/v2021.10.2/README.md
+[addon-esphome]: https://github.com/esphome/hassio/tree/v2021.10.3
+[addon-doc-esphome]: https://github.com/esphome/hassio/blob/v2021.10.3/README.md
 [esphome-issue]: https://github.com/esphome/hassio/issues
-[esphome-version-shield]: https://img.shields.io/badge/version-v2021.10.2-blue.svg
+[esphome-version-shield]: https://img.shields.io/badge/version-v2021.10.3-blue.svg
 [esphome-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [esphome-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [esphome-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
