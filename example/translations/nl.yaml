@@ -1,7 +1,0 @@
-configuration:
-  log_level:
-    description: 'Bepaalt het niveau van de logs die de add-on toont.'
-    name: 'Log niveau'
-  seconds_between_quotes:
-    description: 'The number of seconds the add-on waits until showing a new quote in the add-on log.'
-    name: 'Aantal seconden tussen de citaten'

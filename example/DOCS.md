@@ -7,7 +7,7 @@ It shows off several features and structures like:
 
 - Full blown GitHub repository.
 - General Dockerfile structure and setup.
-- The use of the `config.json` and `build.json` files.
+- The use of the `config.yaml` and `build.yaml` files.
 - General shell scripting structure (`run.sh`).
 - Quality assurance using CodeClimate.
 - Continuous integration and deployment using GitLab.
