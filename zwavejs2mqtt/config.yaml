@@ -1,0 +1,33 @@
+arch:
+- aarch64
+- amd64
+- armhf
+- armv7
+- i386
+description: Fully configurable Z-Wave JS to MQTT gateway and control panel
+discovery:
+- zwave_js
+image: ghcr.io/hassio-addons/zwavejs2mqtt/{arch}
+ingress: true
+ingress_stream: true
+init: false
+map:
+- share:rw
+name: Z-Wave JS to MQTT
+panel_icon: mdi:z-wave
+panel_title: Z-Wave JS
+ports:
+  3000/tcp: null
+ports_description:
+  3000/tcp: Z-Wave JS communication
+schema:
+  log_level: list(trace|debug|info|notice|warning|error|fatal)?
+services:
+- mqtt:want
+slug: zwavejs2mqtt
+startup: system
+uart: true
+udev: true
+url: https://github.com/hassio-addons/addon-zwavejs2mqtt
+version: 0.28.0
+watchdog: http://[HOST]:[PORT:8099]/health/zwave

@@ -1,6 +1,0 @@
-configuration:
-  log_level:
-    description: 'Bepaalt het niveau van de logs die de add-on toont.'
-    name: 'Log niveau'
-network:
-  3000/tcp: 'Z-Wave JS server port'
