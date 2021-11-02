@@ -8,14 +8,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  lock:
-    name: 🔒 Lock closed issues and PRs
-    runs-on: ubuntu-latest
-    steps:
-      - uses: dessant/lock-threads@v3.0.0
-        with:
-          github-token: ${{ github.token }}
-          issue-inactive-days: "30"
-          issue-lock-reason: ""
-          pr-inactive-days: "1"
-          pr-lock-reason: ""
+  workflows:
+    uses: hassio-addons/workflows/.github/workflows/lock.yaml@main
+    secrets:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

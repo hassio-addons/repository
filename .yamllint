@@ -1,6 +1,8 @@
 ---
 ignore: |
   */translations/*.yaml
+  */config.yaml
+  */config.yml
 rules:
   braces:
     level: error
