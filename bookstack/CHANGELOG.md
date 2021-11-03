@@ -1,5 +1,9 @@
 ## What’s changed
 
+## 🐛 Bug fixes
+
+- 🔨 Fix Laravel Logging @sinclairpaul (#155)
+
 ## ⬆️ Dependency updates
 
-- ⬆️ Update bookstack to v21.10.2 @sinclairpaul (#150)
+- ⬆️ Update Bookstack to v21.10.3 @sinclairpaul (#156)
