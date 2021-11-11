@@ -7,13 +7,13 @@ configuration:
   memory_max:
     name: Max Memory
     description: >-
-      This option allows you to change the amount of memory the UniFi Controller
-      is allowed to consume.
+      This option allows you to change the amount of memory the UniFi Network
+      Application is allowed to consume.
   memory_init:
     name: Initial Memory
     description: >-
-      This option allows you to change the amount of memory the UniFi Controller
-      will initially reserve/consume when starting.
+      This option allows you to change the amount of memory the UniFi Network
+      Application will initially reserve/consume when starting.
 network:
   161/udp: Used for SNMP Access
   1900/udp: L2 discoverable port

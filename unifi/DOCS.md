@@ -1,28 +1,27 @@
-# Home Assistant Community Add-on: UniFi Controller
+# Home Assistant Community Add-on: UniFi Network Application
 
-This add-on runs Ubiquiti Networks' UniFi Controller software, which allows
-you to manage your UniFi network via the web browser. The add-on provides a
-single-click installation and run solution for Home Assistant, allowing users
-to get their network up, running, and updated, easily.
-
-This add-on supports all Home Assistant supported architectures, including the
-Raspberry Pi.
+This add-on runs Ubiquiti Networks' UniFi Network Application software, which
+allows you to manage your UniFi network via the web browser. The add-on
+provides a single-click installation and run solution for Home Assistant,
+allowing users to get their network up, running, and updated, easily.
 
 ## Installation
 
 The installation of this add-on is pretty straightforward and not different in
 comparison to installing any other Home Assistant add-on.
 
-1. Search for the "UniFi Controller" add-on in the Supervisor add-on store
-   and install it.
-1. Start the "UniFi Controller" add-on.
-1. Check the logs of the "UniFi Controller" to see if everything went well.
+1. Search for the "UniFi Network Application" add-on in the Supervisor add-on
+   store and install it.
+1. Start the "UniFi Network Application" add-on.
+1. Check the logs of the "UniFi Network Application" to see if everything went
+   well.
 1. Click the "OPEN WEB UI" button, and follow the initial wizard.
 1. After completing the wizard, log in with the credentials just created.
-1. Go to the settings (gears icon in the bottom left) -> Controller (tab).
-1. Change the `Controller Hostname/IP` to match the IP or hostname of
+1. Go to the settings (gears icon in the bottom left) -> System Settings ->
+   Scroll down to Controller Configuration.
+1. Change the `Host for Inform` to match the IP or hostname of
    the device running Home Assistant.
-1. Check the box `Override inform host with controller hostname/IP`.
+1. Check the box `Override Inform Host`.
 1. Hit the "Apply Changes" button to activate the settings.
 1. Ready to go!
 
@@ -60,25 +59,26 @@ you are troubleshooting.
 
 ### Option: `memory_max`
 
-This option allows you to change the amount of memory the UniFi Controller
-is allowed to consume. By default, this is limited to 1 GB. You might want
-to increase this, in order to reduce CPU load or reduce this, in order
-to optimize your system for lower memory usage.
+This option allows you to change the amount of memory the UniFi Network
+Application is allowed to consume. By default, this is limited to 1 GB.
+You might want to increase this, in order to reduce CPU load or reduce this,
+in order to optimize your system for lower memory usage.
 
 This option takes the number of Megabyte, for example, the default is 256.
 
 ### Option: `memory_init`
 
-This option allows you to change the amount of memory the UniFi Controller
-will initially reserve/consume when starting. By default, this is limited to
-512M.
+This option allows you to change the amount of memory the UniFi Network
+Application will initially reserve/consume when starting. By default,
+this is limited to 512M.
 
 This option takes the number of Megabyte, for example, the default is 128.
 
 ## Automated backups
 
-The UniFi Controller ships with an automated backup feature. This feature works
-but has been adjusted to put the created backups in a different location.
+The UniFi Network Application ships with an automated backup feature. This
+feature works but has been adjusted to put the created backups in a different
+location.
 
 Backups are created in `/backup/unifi`. You can access this folder using
 the normal Home Assistant methods (e.g., using Samba, Terminal, SSH).
@@ -119,9 +119,9 @@ you can manually adopt a device by following these steps:
     however, the add-on functions normally.
   ```
 
-- Due to security policies in the UniFi Controller software, it is currently
-  impossible to add the UniFI web interface to your Home Assistant frontend
-  using a `panel_iframe`.
+- Due to security policies in the UniFi Network Application software, it is
+  currently impossible to add the UniFI web interface to your Home Assistant
+  frontend using a `panel_iframe`.
 - The broadcast feature of the EDU type APs are currently not working with
   this add-on. Due to a limitation in Home Assistant, is it currently impossible
   to open the required "range" of ports needed for this feature to work.
