@@ -438,7 +438,7 @@ Modern GPS Tracking Platform
 
 [:books: Traccar add-on documentation][addon-doc-traccar]
 
-### &#10003; [UniFi Controller][addon-unifi]
+### &#10003; [UniFi Network Application][addon-unifi]
 
 ![Latest Version][unifi-version-shield]
 ![Supports armhf Architecture][unifi-armhf-shield]
@@ -449,7 +449,7 @@ Modern GPS Tracking Platform
 
 Manage your UniFi network using a web browser
 
-[:books: UniFi Controller add-on documentation][addon-doc-unifi]
+[:books: UniFi Network Application add-on documentation][addon-doc-unifi]
 
 ### &#10003; [Vaultwarden (Bitwarden)][addon-bitwarden]
 
@@ -611,7 +611,7 @@ on the correct GitHub repository matching the add-on.
 - [Open an issue for the add-on: The Lounge][thelounge-issue]
 - [Open an issue for the add-on: Tor][tor-issue]
 - [Open an issue for the add-on: Traccar][traccar-issue]
-- [Open an issue for the add-on: UniFi Controller][unifi-issue]
+- [Open an issue for the add-on: UniFi Network Application][unifi-issue]
 - [Open an issue for the add-on: Vaultwarden (Bitwarden)][bitwarden-issue]
 - [Open an issue for the add-on: Visual Studio Code][vscode-issue]
 - [Open an issue for the add-on: WireGuard][wireguard-issue]
