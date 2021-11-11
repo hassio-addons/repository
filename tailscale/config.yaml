@@ -1,0 +1,24 @@
+arch:
+- aarch64
+- amd64
+- armhf
+- armv7
+- i386
+description: Zero config VPN for building secure networks
+devices:
+- /dev/net/tun
+hassio_api: true
+host_network: true
+image: ghcr.io/hassio-addons/tailscale/{arch}
+ingress: true
+ingress_port: 0
+ingress_stream: true
+init: false
+name: Tailscale
+panel_icon: mdi:vpn
+privileged:
+- NET_ADMIN
+slug: tailscale
+startup: services
+url: https://github.com/hassio-addons/addon-tailscale
+version: 0.3.0
