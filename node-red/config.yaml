@@ -1,0 +1,74 @@
+apparmor: false
+arch:
+- aarch64
+- amd64
+- armhf
+- armv7
+- i386
+auth_api: true
+description: Flow-based programming for the Internet of Things
+devices:
+- /dev/mem
+gpio: true
+hassio_api: true
+hassio_role: manager
+homeassistant: 0.92.0b2
+homeassistant_api: true
+host_network: true
+image: ghcr.io/hassio-addons/node-red/{arch}
+ingress: true
+ingress_port: 0
+ingress_stream: true
+init: false
+map:
+- config:rw
+- media:rw
+- share:rw
+- ssl
+name: Node-RED
+options:
+  certfile: fullchain.pem
+  credential_secret: ''
+  http_node:
+    password: ''
+    username: ''
+  http_static:
+    password: ''
+    username: ''
+  init_commands: []
+  keyfile: privkey.pem
+  npm_packages: []
+  ssl: true
+  system_packages: []
+  theme: default
+panel_icon: mdi:sitemap
+ports:
+  80/tcp: 1880
+ports_description:
+  80/tcp: Web interface
+privileged:
+- SYS_RAWIO
+schema:
+  certfile: str
+  credential_secret: password
+  http_node:
+    password: password
+    username: str
+  http_static:
+    password: password
+    username: str
+  init_commands:
+  - str
+  keyfile: str
+  leave_front_door_open: bool?
+  log_level: list(trace|debug|info|notice|warning|error|fatal)?
+  npm_packages:
+  - str
+  ssl: bool
+  system_packages:
+  - str
+  theme: list(default|dark|dracula|midnight-red|oled|solarized-dark|solarized-light)?
+slug: nodered
+uart: true
+url: https://github.com/hassio-addons/addon-node-red
+version: 10.1.0

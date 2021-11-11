@@ -1,6 +1,6 @@
 # Home Assistant Community Add-on: Node-RED
 
-Node-RED is a programming tool for wiring together hardware devices,
+[Node-RED][nodered] is a programming tool for wiring together hardware devices,
 APIs and online services in new and interesting ways.
 
 It provides a browser-based editor that makes it easy to wire together flows
@@ -113,6 +113,7 @@ Sets one of the Node-RED themes. Currently available options:
 
 - `default`
 - `dark`
+- `dracula`
 - `midnight-red`
 - `oled`
 - `solarized-dark`
@@ -239,6 +240,7 @@ You have several options to get them answered:
   Assistant discussions and questions.
 - The Home Assistant [Community Forum][forum].
 - Join the [Reddit subreddit][reddit] in [/r/homeassistant][reddit]
+- The [Node-RED documentation][nodered-docs]
 
 You could also [open an issue here][issue] GitHub.
 
@@ -281,6 +283,8 @@ SOFTWARE.
 [frenck]: https://github.com/frenck
 [issue]: https://github.com/hassio-addons/addon-node-red/issues
 [node-red-nodes]: https://flows.nodered.org/?type=node&num_pages=1
+[nodered]: https://nodered.org
+[nodered-docs]: https://nodered.org/docs
 [npm-packages]: https://www.npmjs.com
 [reddit]: https://reddit.com/r/homeassistant
 [releases]: https://github.com/hassio-addons/addon-node-red/releases
