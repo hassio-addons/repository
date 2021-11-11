@@ -1,4 +1,0 @@
-configuration:
-  log_level:
-    description: 'Controls the level of log details the add-on provides.'
-    name: 'Log level'
