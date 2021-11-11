@@ -1,0 +1,18 @@
+arch:
+- amd64
+description: Fighting disease with a world wide distributed super computer
+hassio_api: true
+image: ghcr.io/hassio-addons/foldingathome/{arch}
+init: false
+name: Folding@home
+ports:
+  36330/tcp: null
+  7396/tcp: 7396
+ports_description:
+  36330/tcp: Remote command interface
+  7396/tcp: Web interface
+slug: foldingathome
+url: https://github.com/hassio-addons/addon-foldingathome
+version: 0.4.0
+video: true
+webui: http://[HOST]:[PORT:7396]
