@@ -1,0 +1,27 @@
+arch:
+- aarch64
+- amd64
+description: Create documents containing live code, equations, visualizations, and
+  explanatory text
+homeassistant_api: true
+image: ghcr.io/hassio-addons/jupyterlab/{arch}
+ingress: true
+map:
+- config:rw
+- share:rw
+name: JupyterLab
+options:
+  github_access_token: ''
+  init_commands: []
+  system_packages: []
+panel_icon: mdi:flask-outline
+schema:
+  github_access_token: password
+  init_commands:
+  - str
+  log_level: list(trace|debug|info|notice|warning|error|fatal)?
+  system_packages:
+  - str
+slug: jupyterlablite
+url: https://github.com/hassio-addons/addon-jupyterlab
+version: 0.6.0
