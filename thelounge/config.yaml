@@ -1,0 +1,39 @@
+arch:
+- aarch64
+- amd64
+- armhf
+- armv7
+- i386
+description: A self-hosted web IRC client
+image: ghcr.io/hassio-addons/thelounge/{arch}
+ingress: true
+ingress_stream: true
+map:
+- ssl
+name: The Lounge
+options:
+  certfile: fullchain.pem
+  default_theme: default
+  keyfile: privkey.pem
+  ssl: true
+  themes:
+  - thelounge-theme-solarized
+  users: []
+panel_icon: mdi:chat
+ports:
+  80/tcp: null
+ports_description:
+  80/tcp: The Lounge Web UI (Not required for Ingress)
+schema:
+  certfile: str
+  default_theme: str
+  keyfile: str
+  log_level: list(trace|debug|info|notice|warning|error|fatal)?
+  ssl: bool
+  themes:
+  - str
+  users:
+  - str
+slug: thelounge
+url: https://github.com/hassio-addons/addon-thelounge
+version: 0.12.4

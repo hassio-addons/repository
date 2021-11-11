@@ -1,25 +1,23 @@
 ## What’s changed
 
-## 🐛 Bug fixes
-
-- 🚑 Fix missing theme in default configuration @frenck (#77)
-
 ## 🚀 Enhancements
 
-- 🔑 Update NGINX SSL parameters (#74)                 @frenck (#74)
-- 🏎 Enable streaming mode for Ingress @frenck (#76)
+- Migrate JSON config to YAML @frenck (#95)
 
 ## 🧰 Maintenance
 
-- 🚀 Add-on CI improvements @frenck (#71)
-
-## 📚 Documentation
-
-- 🚑 Fix contributing link in readme @frenck (#75)
+- ⬆️ Upgrade lock-threads workflow to 3.0.0 @frenck (#88)
+- Switch to centralized GitHub Action Workflows @frenck (#94)
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Bump frenck/action-addon-linter from 2.1 to 2.2 @dependabot (#70)
-- ⬆️ Bump actions/stale from 3.0.19 to 4 @dependabot (#69)
-- ⬆️ Upgrades nodejs to 14.17.4-r0 @frenck (#72)
-- ⬆️ Upgrades add-on base image to v10.0.1 @frenck (#73)
+- ⬆️ Bump dessant/lock-threads from 2.1.1 to 2.1.2 @dependabot (#79)
+- ⬆️ Bump docker/build-push-action from 2.6.1 to 2.7.0 @dependabot (#80)
+- ⬆️ Bump frenck/action-addon-linter from 2.2 to 2.3 @dependabot (#81)
+- ⬆️ Bump docker/setup-buildx-action from 1.5.1 to 1.6.0 @dependabot (#82)
+- ⬆️ Bump creyD/prettier_action from 3.3 to 4.0 @dependabot (#83)
+- ⬆️ Upgrades nodejs to 14.17.6-r0 @frenck (#84)
+- ⬆️ Bump frenck/action-addon-linter from 2.3 to 2.4.1 @dependabot (#87)
+- ⬆️ Bump actions/checkout from 2.3.4 to 2.3.5 @dependabot (#89)
+- ⬆️ Upgrades nodejs to 14.18.1-r0 @frenck (#93)
+- ⬆️ Upgrades add-on base image to 10.2.2 @frenck (#96)
