@@ -1,0 +1,27 @@
+arch:
+- aarch64
+- amd64
+- armv7
+- i386
+description: AirPlay capabilities for your Chromecast devices.
+hassio_api: true
+host_network: true
+image: ghcr.io/hassio-addons/aircast/{arch}
+init: false
+map:
+- config:rw
+name: AirCast
+options:
+  drift: false
+  latency_http: 0
+  latency_rtp: 0
+schema:
+  address: str?
+  drift: bool
+  latency_http: int
+  latency_rtp: int
+  log_level: list(trace|debug|info|notice|warning|error|fatal)?
+slug: aircast
+startup: services
+url: https://github.com/hassio-addons/addon-aircast
+version: 3.2.0
