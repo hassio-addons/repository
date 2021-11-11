@@ -1,0 +1,41 @@
+arch:
+- aarch64
+- amd64
+- armv7
+description: The open platform for beautiful analytics and monitoring
+image: ghcr.io/hassio-addons/grafana/{arch}
+ingress: true
+ingress_port: 1337
+ingress_stream: true
+map:
+- config
+- ssl
+name: Grafana
+options:
+  certfile: fullchain.pem
+  env_vars: []
+  keyfile: privkey.pem
+  plugins: []
+  ssl: true
+panel_icon: mdi:chart-timeline
+panel_title: Grafana
+ports:
+  80/tcp: null
+ports_description:
+  80/tcp: Not required for Ingress
+schema:
+  certfile: str
+  env_vars:
+  - name: match(^GF_([A-Z0-9_])+$)
+    value: str
+  grafana_ingress_user: str?
+  keyfile: str
+  log_level: list(trace|debug|info|notice|warning|error|fatal)?
+  plugins:
+  - str
+  ssl: bool
+slug: grafana
+startup: services
+url: https://github.com/hassio-addons/addon-grafana
+version: 7.3.0
+watchdog: http://[HOST]:1337/api/health
