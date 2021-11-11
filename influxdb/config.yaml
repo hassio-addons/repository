@@ -1,0 +1,47 @@
+arch:
+- aarch64
+- amd64
+- armv7
+- i386
+auth_api: true
+description: Scalable datastore for metrics, events, and real-time analytics
+hassio_api: true
+homeassistant: 0.92.0b2
+image: ghcr.io/hassio-addons/influxdb/{arch}
+ingress: true
+ingress_port: 1337
+ingress_stream: true
+init: false
+map:
+- share:rw
+- ssl
+name: InfluxDB
+options:
+  auth: true
+  certfile: fullchain.pem
+  envvars: []
+  keyfile: privkey.pem
+  reporting: true
+  ssl: true
+panel_icon: mdi:chart-areaspline
+ports:
+  80/tcp: null
+  8086/tcp: 8086
+ports_description:
+  80/tcp: Web interface (Not required for Ingress)
+  8086/tcp: InfluxDB server
+schema:
+  auth: bool
+  certfile: str
+  envvars:
+  - name: match(^INFLUXDB_([A-Z0-9_])+$)
+    value: str
+  keyfile: str
+  leave_front_door_open: bool?
+  log_level: list(trace|debug|info|notice|warning|error|fatal)?
+  reporting: bool
+  ssl: bool
+slug: influxdb
+startup: services
+url: https://github.com/hassio-addons/addon-influxdb
+version: 4.3.0
