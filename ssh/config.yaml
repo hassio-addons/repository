@@ -1,0 +1,88 @@
+advanced: true
+apparmor: false
+arch:
+- aarch64
+- amd64
+- armhf
+- armv7
+- i386
+audio: true
+description: SSH & Web Terminal access to your Home Assistant instance
+devices:
+- /dev/mem
+docker_api: true
+gpio: true
+hassio_api: true
+hassio_role: manager
+homeassistant: 0.92.0b2
+homeassistant_api: true
+host_dbus: true
+host_network: true
+image: ghcr.io/hassio-addons/ssh/{arch}
+ingress: true
+ingress_port: 0
+ingress_stream: true
+journald: true
+map:
+- config:rw
+- ssl:rw
+- addons:rw
+- media:rw
+- share:rw
+- backup:rw
+name: SSH & Web Terminal
+options:
+  init_commands: []
+  packages: []
+  share_sessions: false
+  ssh:
+    allow_agent_forwarding: false
+    allow_remote_port_forwarding: false
+    allow_tcp_forwarding: false
+    authorized_keys: []
+    compatibility_mode: false
+    password: ''
+    sftp: false
+    username: hassio
+  zsh: true
+panel_icon: mdi:console
+panel_title: Terminal
+ports:
+  22/tcp: 22
+ports_description:
+  22/tcp: SSH server port (make empty to disable)
+privileged:
+- NET_ADMIN
+- SYS_ADMIN
+- SYS_RAWIO
+- SYS_TIME
+- SYS_NICE
+schema:
+  i_like_to_be_pwned: bool?
+  init_commands:
+  - str
+  log_level: list(trace|debug|info|notice|warning|error|fatal)?
+  packages:
+  - str
+  share_sessions: bool
+  ssh:
+    allow_agent_forwarding: bool
+    allow_remote_port_forwarding: bool
+    allow_tcp_forwarding: bool
+    authorized_keys:
+    - str
+    compatibility_mode: bool
+    password: password
+    sftp: bool
+    username: str
+  zsh: bool
+services:
+- mysql:want
+- mqtt:want
+slug: ssh
+startup: services
+stdin: true
+uart: true
+url: https://github.com/hassio-addons/addon-ssh
+usb: true
+version: 9.1.0
