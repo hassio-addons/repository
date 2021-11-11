@@ -46,7 +46,7 @@ Now, for starters, don't get scared by the number of options and difficult
 terms this add-on provides. WireGuard can be a complex piece of software,
 but the add-on only has a few, simple, required settings. All the rest is
 handled by the add-on. However, If you would like to set up a more complex
-configuration, the add-on would allow that to.
+configuration, the add-on would allow that, too.
 
 If you are familiar with WireGuard, please note the following:
 The configuration of WireGuard looks very similar to all terms used in the
@@ -204,7 +204,7 @@ This is an identifier for you. It helps you to know what this peer is, e.g.,
 This name is also used for creating the directory in `/ssl/wireguard` where
 the generated client configuration and QR codes are stored. Therefore, a name
 has a maximum of 32 characters, can only contain A-Z (or a-z) and 0-9.
-Names contain a hyphen (-) but must not start or end with one.
+Names may contain a hyphen (-) but must not start or end with one.
 
 ### Option: `peers.addresses`
 
@@ -466,8 +466,8 @@ If you have, sharing would be appreciated!
   solving this by editing the "Endpoint" setting on the client on the device
   in the connection profile.
 - We had reports of people with connection issues on the client side, being
-  resolved by configuring/setting the "Listen port" to `51820` on the client
-  device in the connection profile.
+  resolved by configuring/setting the `ListenPort = 51820` on the client
+  device in the connection profile (in `[Interface]` section).
 
 ## Changelog & Releases
 
