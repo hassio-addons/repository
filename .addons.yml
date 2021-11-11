@@ -101,10 +101,6 @@ addons:
     repository: hassio-addons/addon-plex
     target: plex
     image: ghcr.io/hassio-addons/plex/{arch}
-  portainer:
-    repository: hassio-addons/addon-portainer
-    target: portainer
-    image: ghcr.io/hassio-addons/portainer/{arch}
   spotify:
     repository: hassio-addons/addon-spotify-connect
     target: spotify
