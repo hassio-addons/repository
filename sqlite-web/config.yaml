@@ -1,0 +1,17 @@
+advanced: true
+arch:
+- aarch64
+- amd64
+- armhf
+- armv7
+- i386
+description: Explore your SQLite database
+image: ghcr.io/hassio-addons/sqlite-web/{arch}
+ingress: true
+map:
+- config:rw
+name: SQLite Web
+panel_icon: mdi:database
+slug: sqlite-web
+url: https://github.com/hassio-addons/addon-sqlite-web/tree/main/README.md
+version: 3.2.0
