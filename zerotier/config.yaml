@@ -1,0 +1,35 @@
+arch:
+- aarch64
+- amd64
+- armhf
+- armv7
+- i386
+description: Radically simplify your network with a virtual networking layer that
+  works the same everywhere
+devices:
+- /dev/net/tun
+host_network: true
+image: ghcr.io/hassio-addons/zerotier/{arch}
+init: false
+map:
+- ssl:rw
+name: ZeroTier One
+options:
+  api_auth_token: ''
+  networks: []
+ports:
+  9993/tcp: 9993
+ports_description:
+  9993/tcp: ZeroTier's primary port
+privileged:
+- NET_ADMIN
+- SYS_ADMIN
+schema:
+  api_auth_token: str
+  log_level: list(trace|debug|info|notice|warning|error|fatal)?
+  networks:
+  - match(^!secret [a-zA-Z0-9_\-]+$|[0-9a-z]{16})
+slug: zerotier
+startup: services
+url: https://github.com/hassio-addons/addon-zerotier
+version: 0.12.0
