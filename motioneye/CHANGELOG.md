@@ -2,27 +2,26 @@
 
 ## 🚀 Enhancements
 
-- 🔑 Update NGINX SSL parameters @frenck (#285)
-- 🏎 Enable streaming mode for Ingress @frenck (#286)
-- 🔥 Less logging for motionEye add-on log output @frenck (#287)
+- Migrate JSON config to YAML @frenck (#319)
 
 ## 🧰 Maintenance
 
-- 🚀 Add-on CI improvements @frenck (#279)
-
-## 📚 Documentation
-
-- 🚑 Fix contributing link in readme @frenck (#284)
+- ⬆️ Upgrade lock-threads workflow to 3.0.0 @frenck (#309)
+- Switch to centralized GitHub Action Workflows @frenck (#318)
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Bump docker/setup-buildx-action from 1.4.1 to 1.5.0 @dependabot (#270)
-- ⬆️ Bump dessant/lock-threads from 2.0.3 to 2.1.1 @dependabot (#272)
-- ⬆️ Bump docker/setup-buildx-action from 1.5.0 to 1.5.1 @dependabot (#273)
-- ⬆️ Bump frenck/action-addon-linter from 2.1 to 2.2 @dependabot (#275)
-- ⬆️ Bump actions/stale from 3.0.19 to 4 @dependabot (#274)
-- ⬆️ Bump pycurl from 7.43.0.5 to 7.44.0 in /motioneye @dependabot (#278)
-- ⬆️ Upgrades curl-dev to 7.78.0-r0 @frenck (#280)
-- ⬆️ Upgrades rsync to 3.2.3-r4 @frenck (#281)
-- ⬇️ Downgrade pycurl to 7.43.0.5 @frenck (#282)
-- ⬆️ Upgrades add-on base image to v10.0.1 @frenck (#283)
+- ⬆️ Bump singledispatch from 3.6.2 to 3.7.0 in /motioneye @dependabot (#290)
+- ⬆️ Bump dessant/lock-threads from 2.1.1 to 2.1.2 @dependabot (#293)
+- ⬆️ Bump docker/build-push-action from 2.6.1 to 2.7.0 @dependabot (#294)
+- ⬆️ Bump frenck/action-addon-linter from 2.2 to 2.3 @dependabot (#295)
+- ⬆️ Bump creyD/prettier_action from 3.3 to 4.0 @dependabot (#299)
+- ⬆️ Bump docker/setup-buildx-action from 1.5.1 to 1.6.0 @dependabot (#298)
+- ⬆️ Upgrades add-on base image to 10.1.0 @frenck (#303)
+- ⬆️ Bump frenck/action-addon-linter from 2.3 to 2.4.1 @dependabot (#306)
+- ⬆️ Bump pillow from 6.2.2 to 8.4.0 in /motioneye @dependabot (#312)
+- ⬆️ Bump actions/checkout from 2.3.4 to 2.3.5 @dependabot (#311)
+- ⬇️ Downgrade pillow to 6.2.2 @frenck (#316)
+- ⬆️ Upgrades ffmpeg to 4.4.1-r0 @frenck (#317)
+- ⬆️ Upgrades add-on base image to 10.2.0 @frenck (#320)
+- ⬆️ Upgrades add-on base image to 10.2.2 @frenck (#323)
