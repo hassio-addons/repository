@@ -1,0 +1,71 @@
+apparmor: false
+arch:
+- aarch64
+- amd64
+- armhf
+- armv7
+- i386
+auth_api: true
+description: A cross-platform system monitoring tool
+docker_api: true
+environment:
+  LOG_FORMAT: '{LEVEL}: {MESSAGE}'
+hassio_api: true
+homeassistant: 0.92.0b2
+host_network: true
+host_pid: true
+image: ghcr.io/hassio-addons/glances/{arch}
+ingress: true
+ingress_port: 0
+ingress_stream: true
+map:
+- addons
+- backup
+- config:rw
+- share
+- ssl
+- media
+name: Glances
+options:
+  certfile: fullchain.pem
+  influxdb:
+    database: glances
+    enabled: false
+    host: a0d7b954-influxdb
+    interval: 60
+    password: ''
+    port: 8086
+    prefix: localhost
+    username: glances
+  keyfile: privkey.pem
+  log_level: info
+  process_info: false
+  refresh_time: 10
+  ssl: false
+panel_icon: mdi:speedometer
+ports:
+  80/tcp: null
+ports_description:
+  80/tcp: Web interface (Not required for Ingress)
+schema:
+  certfile: str
+  influxdb:
+    database: str
+    enabled: bool
+    host: str
+    interval: int
+    password: password
+    port: port
+    prefix: str
+    ssl: bool?
+    username: str
+  keyfile: str
+  leave_front_door_open: bool?
+  log_level: list(trace|debug|info|notice|warning|error|fatal)
+  process_info: bool
+  refresh_time: int
+  ssl: bool
+slug: glances
+startup: services
+url: https://github.com/hassio-addons/addon-glances
+version: 0.14.0
