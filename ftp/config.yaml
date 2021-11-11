@@ -1,0 +1,80 @@
+apparmor: false
+arch:
+- aarch64
+- amd64
+- armhf
+- armv7
+- i386
+description: A secure and fast FTP server for Home Assistant
+host_network: true
+image: ghcr.io/hassio-addons/ftp/{arch}
+init: false
+map:
+- addons:rw
+- backup:rw
+- config:rw
+- media:rw
+- share:rw
+- ssl:rw
+name: FTP
+options:
+  banner: Welcome to the Hass.io FTP service.
+  certfile: fullchain.pem
+  data_port: 20
+  implicit_ssl: false
+  keyfile: privkey.pem
+  max_clients: 5
+  pasv: true
+  pasv_address: ''
+  pasv_max_port: 30010
+  pasv_min_port: 30000
+  port: 21
+  ssl: false
+  users:
+  - addons: false
+    allow_chmod: false
+    allow_dirlist: true
+    allow_download: false
+    allow_upload: false
+    backup: false
+    config: false
+    media: true
+    password: changeme
+    share: true
+    ssl: false
+    username: hassio
+privileged:
+- SYS_ADMIN
+schema:
+  banner: str
+  certfile: str
+  data_port: port
+  i_like_to_be_pwned: bool?
+  implicit_ssl: bool
+  keyfile: str
+  log_level: list(trace|debug|info|notice|warning|error|fatal)?
+  max_clients: int
+  pasv: bool
+  pasv_addr_resolve: bool?
+  pasv_address: str
+  pasv_max_port: port
+  pasv_min_port: port
+  port: port
+  ssl: bool
+  users:
+  - addons: bool
+    allow_chmod: bool
+    allow_dirlist: bool
+    allow_download: bool
+    allow_upload: bool
+    backup: bool
+    config: bool
+    media: bool
+    password: password
+    share: bool
+    ssl: bool
+    username: match(^[a-zA-Z0-9\d](?:[a-zA-Z0-9\d]|-(?=[a-zA-Z0-9\d])){0,32}$)
+slug: ftp
+startup: services
+url: https://github.com/hassio-addons/addon-ftp
+version: 4.3.0
