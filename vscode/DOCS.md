@@ -1,11 +1,9 @@
-# Home Assistant Community Add-on: Visual Studio Code
+# Home Assistant Community Add-on: Studio Code Server
 
-This add-on runs Visual Studio Code, allowing you to edit your Home Assistant
-configuration directly from your web browser and can be embedded straight
-into the Home Assistant frontend UI.
-
-Visual Studio Code runs as a remote server using `code-server`, and is a
-fully fledged VSCode experience.
+This add-on runs [code-server](https://github.com/cdr/code-server), which
+gives you a Visual Studio Code experience straight from the browser. It allows
+you to edit your Home Assistant configuration directly from your web browser,
+directly from within the Home Assistant frontend.
 
 The add-on has the Home Assistant, MDI icons and YAML extensions pre-installed
 and pre-configured right out of the box. This means that auto-completion works
@@ -16,12 +14,12 @@ instantly, without the need for configuring anything.
 The installation of this add-on is pretty straightforward and not different in
 comparison to installing any other Home Assistant add-on.
 
-1. Search for the "Visual Studio Code" add-on in the Supervisor add-on store
+1. Search for the "Studio Code Server" add-on in the Supervisor add-on store
    and install it.
-1. Start the "Visual Studio Code" add-on.
-1. Check the logs of the "Visual Studio Code" add-on to see if everything went
+1. Start the "Studio Code Server" add-on.
+1. Check the logs of the "Studio Code Server" add-on to see if everything went
    well.
-1. Click the "OPEN WEB UI" button to open Visual Studio Code.
+1. Click the "OPEN WEB UI" button to open Studio Code Server.
 
 ## Configuration
 

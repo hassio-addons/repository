@@ -23,7 +23,7 @@ The add-on has the Home Assistant, MDI icons and YAML extensions pre-installed
 and pre-configured right out of the box. This means that auto-completion works
 instantly, without the need for configuring anything.
 
-![Visual Studio Code in the Home Assistant Frontend][screenshot]
+![Studio Code Server in the Home Assistant Frontend][screenshot]
 
 [discord-shield]: https://img.shields.io/discord/478094546522079232.svg
 [discord]: https://discord.me/hassioaddons
@@ -35,6 +35,6 @@ instantly, without the need for configuring anything.
 [patreon-shield]: https://frenck.dev/wp-content/uploads/2019/12/patreon.png
 [patreon]: https://www.patreon.com/frenck
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[release-shield]: https://img.shields.io/badge/version-v3.6.2-blue.svg
-[release]: https://github.com/hassio-addons/addon-vscode/tree/v3.6.2
+[release-shield]: https://img.shields.io/badge/version-v3.7.0-blue.svg
+[release]: https://github.com/hassio-addons/addon-vscode/tree/v3.7.0
 [screenshot]: https://github.com/hassio-addons/addon-vscode/raw/main/images/screenshot.png
