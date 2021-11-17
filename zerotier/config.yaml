@@ -32,4 +32,4 @@ schema:
 slug: zerotier
 startup: services
 url: https://github.com/hassio-addons/addon-zerotier
-version: 0.12.0
+version: 0.12.1
