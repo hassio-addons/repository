@@ -1,5 +1,6 @@
 ## What’s changed
 
-## 🐛 Bug fixes
+## ⬆️ Dependency updates
 
-- 🔨 Add libxshmfence1 v1.3-1 for Image Renderer @sinclairpaul (#230)
+- ⬆️ Upgrades Grafana Image Renderer to 3.3.0 @frenck (#234)
+- ⬆️ Upgrades Grafana to v8.2.5 @frenck (#235)
