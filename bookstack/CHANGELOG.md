@@ -1,9 +1,10 @@
 ## What’s changed
 
-## 🐛 Bug fixes
+## 🧰 Maintenance
 
-- 🔨 Fix Laravel Logging @sinclairpaul (#155)
+- Switch to centralized GitHub Action Workflows @frenck (#157)
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update Bookstack to v21.10.3 @sinclairpaul (#156)
+- ⬆️ Update base image and dependencies @sinclairpaul (#163)
+- ⬆️ Update bookstack to v21.11.1 @sinclairpaul (#164)
