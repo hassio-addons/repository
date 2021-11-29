@@ -32,7 +32,8 @@ however, it is nice to know where you need to go later on.
 
 ## Configuration
 
-This add-on has no additional configuration options for the add-on itself.
+This add-on has almost no additional configuration options for the
+add-on itself.
 
 However, when logging in to Tailscale, you can configure your Tailscale
 network right from their interface.
@@ -43,6 +44,19 @@ The add-on exposes "Exit Node" capabilities that you can enable from your
 Tailscale account. Additionally, if the Supervisor managed your network (
 which is the default), the add-on will also advertise routes to your
 subnet to Tailscale.
+
+```yaml
+tags:
+  - tag:example
+  - tag:homeassistant
+```
+
+### Option: `tags`
+
+This option allows you to specify specific ACL tags for this Tailscale
+instance. They need to start with `tag:`.
+
+More information: <https://tailscale.com/kb/1068/acl-tags/>
 
 ## Changelog & Releases
 
