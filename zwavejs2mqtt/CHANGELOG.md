@@ -2,5 +2,6 @@
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades python3-dev to 3.9.5-r2 @frenck (#302)
-- ⬆️ Upgrades ZwaveJS2Mqtt to v6.0.2 @frenck (#303)
+- ⬆️ Upgrades add-on base image to 11.0.0 @frenck (#305)
+- ⬆️ Upgrades nodejs to 16.13.1-r0 @frenck (#306)
+- ⬆️ Upgrades ZwaveJS2Mqtt to v6.0.3 @frenck (#307)
