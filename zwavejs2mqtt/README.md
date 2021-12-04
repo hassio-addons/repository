@@ -1,4 +1,4 @@
-# Home Assistant Community Add-on: Z-Wave JS to MQTT
+# Home Assistant Community Add-on: Zwavejs2Mqtt
 
 [![Release][release-shield]][release] ![Project Stage][project-stage-shield] ![Project Maintenance][maintenance-shield]
 
@@ -8,13 +8,13 @@
 
 [![Support Frenck on Patreon][patreon-shield]][patreon]
 
-Fully configurable Z-Wave JS to MQTT gateway and control panel.
+Fully configurable Zwavejs2Mqtt gateway and control panel.
 
-![Z-Wave JS to MQTT][logo]
+![Zwavejs2Mqtt][logo]
 
 ## About
 
-The Z-Wave JS to MQTT add-on allows you to decouple your Z-Wave network from
+The Zwavejs2Mqtt add-on allows you to decouple your Z-Wave network from
 your Home Assistant instance by leveraging your MQTT broker. It ships with
 a web-based control panel, allowing you to configure every aspect of your
 Z-Wave network and how they are published in MQTT.

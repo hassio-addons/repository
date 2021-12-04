@@ -4,7 +4,7 @@ arch:
 - armhf
 - armv7
 - i386
-description: Fully configurable Z-Wave JS to MQTT gateway and control panel
+description: Fully configurable Z-Wave MQTT gateway and control panel, using the Z-Wave JS driver
 discovery:
 - zwave_js
 image: ghcr.io/hassio-addons/zwavejs2mqtt/{arch}
