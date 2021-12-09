@@ -615,7 +615,7 @@ This is an active open-source project. We are always open to people who want to
 use the code or contribute to it.
 
 We have set up a separate document containing our
-[contribution guidelines](CONTRIBUTING.md).
+[contribution guidelines](./github/CONTRIBUTING.md).
 
 Thank you for being involved! :heart_eyes:
 
