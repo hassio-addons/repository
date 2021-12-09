@@ -1,9 +1,3 @@
-# Proposed Changes
+# This is an generated repository, therefore pull requests are not accepted.
 
-> (Describe the changes and rationale behind them)
-
-## Related Issues
-
-> ([Github link][autolink-references] to related issues or pull requests)
-
-[autolink-references]: https://help.github.com/articles/autolinked-references-and-urls/
+Please raise an issue with your concerns
