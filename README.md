@@ -486,7 +486,7 @@ Fast, modern, secure VPN tunnel
 ![Supports amd64 Architecture][zwavejs2mqtt-amd64-shield]
 ![Supports i386 Architecture][zwavejs2mqtt-i386-shield]
 
-Fully configurable Z-Wave JS to MQTT gateway and control panel
+Fully configurable Z-Wave JS to MQTT gateway and control panel; based on Zwavejs2Mqtt
 
 [:books: Z-Wave JS to MQTT add-on documentation][addon-doc-zwavejs2mqtt]
 
