@@ -46,7 +46,6 @@ well. Additionally, it comes out of the box with the following:
   - Many more security tweaks, *this addon passes all [ssh-audit] checks
     without warnings!*
     ![Result of SSH-Audit][ssh-audit-image]
-- Passwords are checked with HaveIBeenPwned using K-anonymity.
 - Comes with an SSH compatibility mode option to allow older clients to connect.
 - Support for Mosh allowing roaming and supports intermittent connectivity.
 - SFTP support is disabled by default but is user configurable.
@@ -83,8 +82,8 @@ well. Additionally, it comes out of the box with the following:
 [patreon-shield]: https://frenck.dev/wp-content/uploads/2019/12/patreon.png
 [patreon]: https://www.patreon.com/frenck
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[release-shield]: https://img.shields.io/badge/version-v9.1.1-blue.svg
-[release]: https://github.com/hassio-addons/addon-ssh/tree/v9.1.1
+[release-shield]: https://img.shields.io/badge/version-v10.0.0-blue.svg
+[release]: https://github.com/hassio-addons/addon-ssh/tree/v10.0.0
 [screenshot]: https://github.com/hassio-addons/addon-ssh/raw/main/images/screenshot.png
 [ssh-audit-image]: https://github.com/hassio-addons/addon-ssh/raw/main/images/ssh-audit.png
 [ssh-audit]: https://github.com/arthepsy/ssh-audit

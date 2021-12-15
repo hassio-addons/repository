@@ -30,7 +30,6 @@ well. Additionally, it comes out of the box with the following:
   - Limits login attempts to hold off brute-force attacks better.
   - Many more security tweaks, _this addon passes all [ssh-audit] checks
     without warnings!_
-- Passwords are checked with HaveIBeenPwned using K-anonymity.
 - Comes with an SSH compatibility mode option to allow older clients to connect.
 - Support for Mosh allowing roaming and supports intermittent connectivity.
 - SFTP support is disabled by default but is user configurable.
@@ -54,8 +53,6 @@ well. Additionally, it comes out of the box with the following:
 - Contains a sensible set of tools right out of the box: curl, Wget, RSync, GIT,
   Nmap, Mosquitto client, MariaDB/MySQL client, Awake (“wake on LAN”), Nano,
   Vim, tmux, and a bunch commonly used networking tools.
-- Has the Home Assistant CLI (`hass-cli`) command line tool pre-installed and
-  pre-configured.
 - Support executing commands inside using a Home Assistant service call, e.g.,
   for use with automations.
 
@@ -230,39 +227,6 @@ time for the add-on._
 Customize your shell environment even more with the `init_commands` option.
 Add one or more shell commands to the list, and they will be executed every
 single time this add-on starts.
-
-#### Option: `i_like_to_be_pwned`
-
-Adding this option to the add-on configuration allows to you bypass the
-HaveIBeenPwned password requirement by setting it to `true`.
-
-**Note**: _We STRONGLY suggest picking a stronger/safer password instead of
-using this option! USE AT YOUR OWN RISK!_
-
-## Executing commands in this add-on using a Home Assistant service call
-
-This add-on uses the `hassio.addon_stdin` service to expose a shell interface
-to Home Assistant. This allows you to execute commands and scripts within
-the SSH & Web Terminal add-on, straight from Home Assistant.
-
-This is particularly helpful when you want to execute custom scripts or
-commands from automations.
-
-Example automation running `my_command`:
-
-```yaml
-automation:
-  - alias: "Example my script"
-    trigger:
-      platform: state
-      entity_id: binary_sensor.motion_sensor
-      to: "ON"
-    action:
-      service: hassio.addon_stdin
-      data:
-        addon: a0d7b954_ssh
-        input: "/config/scripts/my_command"
-```
 
 ## Known issues and limitations
 
