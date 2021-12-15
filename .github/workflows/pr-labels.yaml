@@ -13,5 +13,3 @@ on:
 jobs:
   workflows:
     uses: hassio-addons/workflows/.github/workflows/pr-labels.yaml@main
-    secrets:
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
