@@ -1,6 +1,9 @@
 ## What’s changed
 
+## 🧰 Maintenance
+
+- 🚀 Update CI to latest version @frenck (#237)
+
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades Grafana Image Renderer to 3.3.0 @frenck (#234)
-- ⬆️ Upgrades Grafana to v8.2.5 @frenck (#235)
+- Upgrade to Grafana 8.3.3 @tnijboer (#236)
