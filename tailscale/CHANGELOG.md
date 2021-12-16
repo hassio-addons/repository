@@ -1,12 +1,10 @@
 ## What’s changed
 
-## ✨ New features
+## 🧰 Maintenance
 
-- Add support for setting ACL tags @frenck (#57)
+- 🚀 Update CI to latest version @frenck (#63)
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades nginx to 1.20.2-r0 @frenck (#54)
-- ⬆️ Upgrades add-on base image to 10.2.3 @frenck (#55)
-- ⬆️ Upgrades Tailscale to 1.18.0 @frenck (#56)
-- ⬆️ Upgrades Tailscale to 1.18.1 @frenck (#58)
+- ⬆️ Upgrades add-on base image to 11.0.0 @frenck (#64)
+- ⬆️ Upgrades Tailscale to 1.18.2 @frenck (#65)
