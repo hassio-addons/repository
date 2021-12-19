@@ -1,23 +1,19 @@
 ## What’s changed
 
-## 🚀 Enhancements
+## ✨ New features
 
-- Migrate JSON config to YAML @frenck (#101)
+- Allow for showing hidden dot files @frenck (#106)
+
+## 🐛 Bug fixes
+
+- Fix SSL no ciphers available @frenck (#107)
+- Use rbind for mounting the folders so it will include all subfolders @ZMan88 (#56)
+- Fix ssl typo in vsftpd.conf @hcooper (#109)
 
 ## 🧰 Maintenance
 
-- Switch to centralized GitHub Action Workflows @frenck (#100)
+- 🚀 Update CI to latest version @frenck (#110)
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Bump dessant/lock-threads from 2.1.1 to 2.1.2 @dependabot (#84)
-- ⬆️ Bump docker/build-push-action from 2.6.1 to 2.7.0 @dependabot (#85)
-- ⬆️ Bump frenck/action-addon-linter from 2.2 to 2.3 @dependabot (#86)
-- ⬆️ Bump docker/setup-buildx-action from 1.5.1 to 1.6.0 @dependabot (#88)
-- ⬆️ Bump creyD/prettier_action from 3.3 to 4.0 @dependabot (#89)
-- ⬆️ Upgrades openssl to 1.1.1l-r0 @frenck (#90)
-- ⬆️ Upgrades add-on base image to 10.1.0 @frenck (#91)
-- ⬆️ Bump frenck/action-addon-linter from 2.3 to 2.4.1 @dependabot (#94)
-- ⬆️ Bump actions/checkout from 2.3.4 to 2.3.5 @dependabot (#96)
-- ⬆️ Upgrades add-on base image to 10.2.0 @frenck (#102)
-- ⬆️ Upgrades add-on base image to 10.2.2 @frenck (#103)
+- ⬆️ Upgrades add-on base image to 11.0.0 @frenck (#105)
