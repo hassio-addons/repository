@@ -1,0 +1,76 @@
+arch:
+- aarch64
+- amd64
+- armhf
+- armv7
+- i386
+description: ERP beyond your fridge! A groceries & household management solution for
+  your home
+image: ghcr.io/hassio-addons/grocy/{arch}
+ingress: true
+ingress_stream: true
+map:
+- ssl
+name: Grocy
+options:
+  certfile: fullchain.pem
+  culture: en
+  currency: USD
+  entry_page: stock
+  features:
+    batteries: true
+    calendar: true
+    chores: true
+    equipment: true
+    recipes: true
+    shoppinglist: true
+    stock: true
+    tasks: true
+  keyfile: privkey.pem
+  ssl: true
+  tweaks:
+    chores_assignment: true
+    multiple_shopping_lists: true
+    stock_best_before_date_tracking: true
+    stock_count_opened_products_against_minimum_stock_amount: true
+    stock_location_tracking: true
+    stock_price_tracking: true
+    stock_product_freezing: true
+    stock_product_opened_tracking: true
+panel_admin: false
+panel_icon: mdi:cart
+ports:
+  80/tcp: null
+ports_description:
+  80/tcp: Web interface (Not required for Ingress)
+schema:
+  certfile: str
+  culture: list(cs|da|de|el_GR|en|en_GB|es|fi|fr|he_IL|hu|it|ja|ko_KR|nl|no|pl|pt_BR|pt_PT|ru|sk_SK|sv_SE|ta|tr|zh_CN|zh_TW)
+  currency: match(^[A-Z]{3}$)
+  entry_page: list(stock|shoppinglist|recipes|chores|tasks|batteries|equipment|calendar|mealplan)
+  features:
+    batteries: bool
+    calendar: bool
+    chores: bool
+    equipment: bool
+    recipes: bool
+    shoppinglist: bool
+    stock: bool
+    tasks: bool
+  keyfile: str
+  log_level: list(trace|debug|info|notice|warning|error|fatal)?
+  ssl: bool
+  tweaks:
+    calendar_first_day_of_week: int(0,6)?
+    chores_assignment: bool
+    meal_plan_first_day_of_week: int(0,6)?
+    multiple_shopping_lists: bool
+    stock_best_before_date_tracking: bool
+    stock_count_opened_products_against_minimum_stock_amount: bool
+    stock_location_tracking: bool
+    stock_price_tracking: bool
+    stock_product_freezing: bool
+    stock_product_opened_tracking: bool
+slug: grocy
+url: https://github.com/hassio-addons/addon-grocy
+version: 0.16.0
