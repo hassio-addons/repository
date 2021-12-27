@@ -2,4 +2,4 @@
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades ZwaveJS2Mqtt to v6.1.1 @frenck (#316)
+- ⬆️Update zwavejs2mqtt to 6.2.0 @antsar (#319)
