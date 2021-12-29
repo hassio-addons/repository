@@ -2,4 +2,4 @@
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades AdGuard Home to v0.107.0 @frenck (#284)
+- ⬆️ Upgrades AdGuard Home to v0.107.1 @frenck (#287)
