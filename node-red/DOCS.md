@@ -163,6 +163,11 @@ Customize your Node-RED environment even more with the `init_commands` option.
 Add one or more shell commands to the list, and they will be executed every
 single time this add-on starts.
 
+### Option: `safe_mode`
+
+Setting this option to `true` will start Node-Red with the `--safe` flag set,
+starting the application without starting any flows for troubleshooting.
+
 ### Option: `leave_front_door_open`
 
 Adding this option to the add-on configuration allows you to disable
