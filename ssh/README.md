@@ -76,14 +76,14 @@ well. Additionally, it comes out of the box with the following:
 [github-sponsors-shield]: https://frenck.dev/wp-content/uploads/2019/12/github_sponsor.png
 [github-sponsors]: https://github.com/sponsors/frenck
 [hass-ssh]: https://home-assistant.io/addons/ssh/
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2021.svg
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2022.svg
 [ohmyzsh]: http://ohmyz.sh/
 [openssh]: https://www.openssh.com/
 [patreon-shield]: https://frenck.dev/wp-content/uploads/2019/12/patreon.png
 [patreon]: https://www.patreon.com/frenck
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[release-shield]: https://img.shields.io/badge/version-v10.0.0-blue.svg
-[release]: https://github.com/hassio-addons/addon-ssh/tree/v10.0.0
+[release-shield]: https://img.shields.io/badge/version-v10.0.1-blue.svg
+[release]: https://github.com/hassio-addons/addon-ssh/tree/v10.0.1
 [screenshot]: https://github.com/hassio-addons/addon-ssh/raw/main/images/screenshot.png
 [ssh-audit-image]: https://github.com/hassio-addons/addon-ssh/raw/main/images/ssh-audit.png
 [ssh-audit]: https://github.com/arthepsy/ssh-audit
