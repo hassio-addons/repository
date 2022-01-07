@@ -1,13 +1,10 @@
 ## What’s changed
 
-## 🐛 Bug fixes
-
-- Fix incorrect wheels repository for additional Python packages @frenck (#181)
-
 ## 🧰 Maintenance
 
-- 🚀 Update CI to latest version @frenck (#179)
+- 🎆 Updates maintenance/license year to 2021 @frenck (#184)
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades python3 to 3.9.5-r2 @frenck (#182)
+- ⬆️ Upgrades AppDaemon to 4.2.0 @frenck (#183)
+- ⬆️ Upgrades add-on base image to 11.0.1 @frenck (#187)
