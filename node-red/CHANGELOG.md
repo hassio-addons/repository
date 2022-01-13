@@ -1,10 +1,7 @@
 ## What’s changed
 
-## 🧰 Maintenance
-
-- 🎆 Updates maintenance/license year to 2022 @frenck (#1232)
-
 ## ⬆️ Dependency updates
 
-- Bump node-red-contrib-bigtimer from 2.7.6 to 2.7.8 in /node-red @dependabot (#1231)
-- ⬆️ Upgrades add-on base image to 11.0.1 @frenck (#1233)
+- Bump node-red-contrib-bigtimer from 2.7.8 to 2.8.1 in /node-red @dependabot (#1234)
+- ⬆️ Upgrades nodejs to 16.13.2-r0 @frenck (#1236)
+- ⬆️ Upgrades Node-RED to v2.1.5 @frenck (#1237)
