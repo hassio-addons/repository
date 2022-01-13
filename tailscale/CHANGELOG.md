@@ -2,9 +2,9 @@
 
 ## 🧰 Maintenance
 
-- 🚀 Update CI to latest version @frenck (#63)
+- 🎆 Updates maintenance/license year to 2022 @frenck (#68)
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades add-on base image to 11.0.0 @frenck (#64)
-- ⬆️ Upgrades Tailscale to 1.18.2 @frenck (#65)
+- ⬆️ Upgrades add-on base image to 11.0.1 @frenck (#69)
+- ⬆️ Upgrades Tailscale to 1.20.0 @frenck (#70)
