@@ -2,8 +2,8 @@
 
 ## 🧰 Maintenance
 
-- 🚀 Update CI to latest version @frenck (#138)
+- 🎆 Updates maintenance/license year to 2022 @frenck (#141)
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades Plex Media Server to 1.25.2.5319 @cociweb (#139)
+- ⬆️ Update plex to 1.25.3.5385 @monkey-debugger (#140)
