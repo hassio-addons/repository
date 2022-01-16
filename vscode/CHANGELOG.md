@@ -1,21 +1,13 @@
 ## What’s changed
 
-This release ships with a brand new major release of code-server that is built on VS Code v1.63.0
-code-server has been rebased on upstream's newly open-sourced server implementation 🎉 
+This release updates the Home Assistant VSCode extension.
+It has some nice additions, like @kubawolanin for Jinja2 Syntax highlighting! ❤️
+It will make templates in your Home Assistant configuration readable!
 
-Additionally, OpenVSX has been made the default marketplace.
+![image](https://user-images.githubusercontent.com/195327/149660778-eaa78e78-bf11-4f45-8439-dee3ac7909c5.png)
 
-## 🧰 Maintenance
-
-- 🚀 Update CI to latest version @frenck (#358)
-- 🎆 Updates maintenance/license year to 2022 @frenck (#361)
+Additionally, it has some small bug fixes and support for the newer configuration format for template entities.
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades add-on base image to 5.2.3 @frenck (#362)
-- ⬆️ Upgrades Home Assistant CLI to v4.15.1 @frenck (#363)
-- ⬆️ Upgrades lukas-tr.materialdesignicons-intellisense to 4.0.0 @frenck (#364)
-- ⬆️ Upgrades usernamehw.errorlens to 3.4.1 @frenck (#365)
-- ⬆️ Upgrades code-server to 4.0.1 @frenck (#366)
-- ⬆️ Upgrades esbenp.prettier-vscode to 9.1.0 @frenck (#367)
-- ⬆️ Upgrades keesschollaart.vscode-home-assistant to 1.23.0 @frenck (#370)
+- ⬆️ Upgrades keesschollaart.vscode-home-assistant to 1.24.0 @frenck (#373)
