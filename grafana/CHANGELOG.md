@@ -2,8 +2,10 @@
 
 ## 🧰 Maintenance
 
-- 🚀 Update CI to latest version @frenck (#237)
+- 🎆 Updates maintenance/license year to 2022 @frenck (#240)
 
 ## ⬆️ Dependency updates
 
-- Upgrade to Grafana 8.3.3 @tnijboer (#236)
+- ⬆️ Upgrades libnss3 to 2:3.61-1+deb11u1 @frenck (#241)
+- ⬆️ Upgrades add-on base image to 5.2.3 @frenck (#242)
+- ⬆️ Upgrades Grafana to v8.3.4 @frenck (#243)
