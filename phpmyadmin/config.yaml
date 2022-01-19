@@ -14,8 +14,9 @@ name: phpMyAdmin
 panel_icon: mdi:database
 schema:
   log_level: list(trace|debug|info|notice|warning|error|fatal)?
+  upload_limit: int?
 services:
 - mysql:need
 slug: phpmyadmin
 url: https://github.com/hassio-addons/addon-phpmyadmin
-version: 0.6.0
+version: 0.7.0

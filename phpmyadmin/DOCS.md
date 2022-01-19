@@ -30,6 +30,11 @@ log_level: info
 
 **Note**: _This is just an example, don't copy and paste it! Create your own!_
 
+### Option: `upload_limit`
+
+By default, the size limit for uploads (for operations such as imports) is set to
+64MB. This can be increased with this option, for example, `100` would be 100MB.
+
 ### Option: `log_level`
 
 The `log_level` option controls the level of log output by the addon and can
@@ -93,7 +98,7 @@ check [the contributor's page][contributors].
 
 MIT License
 
-Copyright (c) 2021 Franck Nijhof
+Copyright (c) 2021-2022 Franck Nijhof
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
