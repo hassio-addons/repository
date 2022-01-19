@@ -141,9 +141,6 @@ Sets the password to log in with. Leaving it empty would disable the possibility
 to authenticate with a password. We would highly recommend not to use this
 option from a security point of view.
 
-**Note**: _The password will be checked against HaveIBeenPwned. If it is
-listed, the add-on will not start._
-
 #### Option `ssh` `authorized_keys`
 
 Add one or more public keys to your SSH server to use with authentication.
@@ -230,8 +227,6 @@ single time this add-on starts.
 
 ## Known issues and limitations
 
-- The add-on fails to start when a password that is listed by HaveIBeenPwned
-  is used. This is actually not a limitation, but a security feature.
 - When SFTP is enabled, the username MUST be set to `root`.
 - If you want to use rsync for file transfer, the username MUST be set to
   `root`.

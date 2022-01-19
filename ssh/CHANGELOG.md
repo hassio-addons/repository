@@ -1,10 +1,9 @@
 ## What’s changed
 
-## 🧰 Maintenance
+## 🐛 Bug fixes
 
-- 🎆 Updates maintenance/license year to 2022 @frenck (#357)
+- Fix typo introduced in #346 causing error message @lmagyar (#366)
 
-## ⬆️ Dependency updates
+## 📚 Documentation
 
-- ⬆️ Upgrades add-on base image to 11.0.1 @frenck (#358)
-- ⬆️ Upgrades Home Assistant CLI to v4.15.1 @frenck (#359)
+- Remove HaveIBeenPwned references @gerard33 (#363)
