@@ -13,6 +13,6 @@ ports_description:
   7396/tcp: Web interface
 slug: foldingathome
 url: https://github.com/hassio-addons/addon-foldingathome
-version: 0.4.0
+version: 0.4.1
 video: true
 webui: http://[HOST]:[PORT:7396]
