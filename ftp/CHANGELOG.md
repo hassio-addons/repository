@@ -1,19 +1,10 @@
 ## What’s changed
 
-## ✨ New features
-
-- Allow for showing hidden dot files @frenck (#106)
-
-## 🐛 Bug fixes
-
-- Fix SSL no ciphers available @frenck (#107)
-- Use rbind for mounting the folders so it will include all subfolders @ZMan88 (#56)
-- Fix ssl typo in vsftpd.conf @hcooper (#109)
-
 ## 🧰 Maintenance
 
-- 🚀 Update CI to latest version @frenck (#110)
+- 🎆 Updates maintenance/license year to 2022 @frenck (#111)
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades add-on base image to 11.0.0 @frenck (#105)
+- ⬆️ Upgrades openssl to 1.1.1l-r8 @frenck (#112)
+- ⬆️ Upgrades add-on base image to 11.0.1 @frenck (#113)
