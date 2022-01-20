@@ -796,10 +796,10 @@ SOFTWARE.
 [matrix-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [matrix-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [matrix-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
-[addon-nut]: https://github.com/hassio-addons/addon-nut/tree/v0.9.0
-[addon-doc-nut]: https://github.com/hassio-addons/addon-nut/blob/v0.9.0/README.md
+[addon-nut]: https://github.com/hassio-addons/addon-nut/tree/v0.9.1
+[addon-doc-nut]: https://github.com/hassio-addons/addon-nut/blob/v0.9.1/README.md
 [nut-issue]: https://github.com/hassio-addons/addon-nut/issues
-[nut-version-shield]: https://img.shields.io/badge/version-v0.9.0-blue.svg
+[nut-version-shield]: https://img.shields.io/badge/version-v0.9.1-blue.svg
 [nut-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [nut-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [nut-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
