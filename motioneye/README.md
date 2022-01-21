@@ -33,10 +33,10 @@ Some cool features of motionEye:
 [forum]: https://community.home-assistant.io/t/home-assistant-community-add-on-motioneye/71826?u=frenck
 [github-sponsors-shield]: https://frenck.dev/wp-content/uploads/2019/12/github_sponsor.png
 [github-sponsors]: https://github.com/sponsors/frenck
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2021.svg
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2022.svg
 [patreon-shield]: https://frenck.dev/wp-content/uploads/2019/12/patreon.png
 [patreon]: https://www.patreon.com/frenck
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
-[release-shield]: https://img.shields.io/badge/version-v0.16.0-blue.svg
-[release]: https://github.com/hassio-addons/addon-motioneye/tree/v0.16.0
+[release-shield]: https://img.shields.io/badge/version-v0.17.0-blue.svg
+[release]: https://github.com/hassio-addons/addon-motioneye/tree/v0.17.0
 [screenshot]: https://github.com/hassio-addons/addon-motioneye/raw/main/images/screenshot.png
