@@ -26,4 +26,4 @@ schema:
 slug: airsonos
 startup: services
 url: https://github.com/hassio-addons/addon-airsonos
-version: 3.2.0
+version: 3.2.1
