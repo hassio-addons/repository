@@ -1,5 +1,9 @@
 ## What’s changed
 
+## 🧰 Maintenance
+
+- 🎆 Updates maintenance/license year to 2022 @frenck (#291)
+
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades AdGuard Home to v0.107.2 @frenck (#288)
+- ⬆️ Upgrades add-on base image to 11.0.1 @frenck (#292)
