@@ -2,9 +2,9 @@
 
 ## 🧰 Maintenance
 
-- 🚀 Update CI to latest version @frenck (#188)
+- 🎆 Updates maintenance/license year to 2022 @frenck (#193)
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades libpq5 to 13.5-0+deb11u1 @frenck (#189)
-- ⬆️ Upgrades Vaultwarden to 1.23.1 @frenck (#190)
+- ⬆️ Upgrades add-on base image to 5.2.3 @frenck (#194)
+- ⬆️ Upgrades Vaultwarden to 1.24.0 @frenck (#195)
