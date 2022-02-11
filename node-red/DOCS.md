@@ -177,6 +177,14 @@ username and password empty.
 **Note**: _We STRONGLY suggest, not to use this, even if this add-on is
 only exposed to your internal network. USE AT YOUR OWN RISK!_
 
+### Option: `max_old_space_size`
+
+Sets the max memory size (in MB) of nodeJS V8's old memory section.
+As memory consumption approaches the limit, V8 will spend more time
+on garbage collection in an effort to free unused memory.
+
+<https://nodejs.org/api/cli.html#--max-old-space-sizesize-in-megabytes>
+
 ## Configuration folder
 
 The addon will store most of its configuration in the `config/node-red` folder,
