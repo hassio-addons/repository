@@ -1,28 +1,10 @@
 ## What’s changed
 
-This release two nodes have been removed from the built-in nodes.
-
-The `actionflows` node isn't maintained anymore, while the `http-request` node has become obsolete and thus development on that node has stopped.
-
-## 🚨 Breaking changes
-
-- 🔨 Remove node-red-contrib-actionflows @sinclairpaul (#1260)
-- 🔨 Remove node-red-contrib-http-request @bonanitech (#1273)
-
-## ✨ New features
-
-- ✨ Add support for setting max_old_space_size @frenck (#1275)
-
 ## 🐛 Bug fixes
 
-- 🔨 Remove node-red-contrib-actionflows @sinclairpaul (#1260)
-
-## 🚀 Enhancements
-
-- 🔨 Reorganize palette categories  order @bonanitech (#1259)
+- Change minimum Home Assistant version to 2021.3.0 @zachowj (#1281)
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades nodejs to 16.14.0-r0 @frenck (#1274)
-- 🔨 Remove node-red-contrib-http-request @bonanitech (#1273)
-- Bump node-red-contrib-home-assistant-websocket from 0.41.3 to 0.42.0 in /node-red @dependabot (#1271)
+- Bump node-red-contrib-modbus from 5.16.0 to 5.21.0 in /node-red @dependabot (#1284)
+- Bump node-red-contrib-home-assistant-websocket from 0.42.0 to 0.42.4 in /node-red @dependabot (#1283)
