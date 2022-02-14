@@ -2,4 +2,4 @@
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades Plex Media Server to 1.25.3.5409 @invis-z (#142)
+- ⬆️ Upgrades Plex Media Server to 1.25.5.5492 @invis-z (#145)
