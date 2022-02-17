@@ -38,5 +38,5 @@
   "slug": "esphome",
   "uart": true,
   "url": "https://esphome.io/",
-  "version": "2022.2.1"
+  "version": "2022.2.2"
 }
