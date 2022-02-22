@@ -3,6 +3,9 @@ arch:
 - amd64
 - armv7
 - i386
+backup_exclude:
+- '**/Plex Media Server/Cache/**'
+- '**/Plex Media Server/Plug-in Support/Caches/**'
 description: Recorded media, live TV, online news, and podcasts ready to stream.
 hassio_api: true
 image: ghcr.io/hassio-addons/plex/{arch}
@@ -43,5 +46,5 @@ schema:
 slug: plex
 startup: services
 url: https://github.com/hassio-addons/addon-plex
-version: 2.7.4
+version: 2.7.5
 webui: http://[HOST]:[PORT:32400]/web
