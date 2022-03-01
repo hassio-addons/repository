@@ -1,5 +1,5 @@
 ## What’s changed
 
-## 🚀 Enhancements
+## ⬆️ Dependency updates
 
-- Exclude cache from backup @regevbr (#144)
+- ⬆️ Upgrades Plex Media Server to 1.25.6.5577 @invis-z (#147)
