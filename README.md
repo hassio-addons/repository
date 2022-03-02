@@ -688,10 +688,10 @@ SOFTWARE.
 [bookstack-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [bookstack-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [bookstack-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
-[addon-esphome]: https://github.com/esphome/home-assistant-addon/tree/v2022.2.5
-[addon-doc-esphome]: https://github.com/esphome/home-assistant-addon/blob/v2022.2.5/README.md
+[addon-esphome]: https://github.com/esphome/home-assistant-addon/tree/v2022.2.6
+[addon-doc-esphome]: https://github.com/esphome/home-assistant-addon/blob/v2022.2.6/README.md
 [esphome-issue]: https://github.com/esphome/home-assistant-addon/issues
-[esphome-version-shield]: https://img.shields.io/badge/version-v2022.2.5-blue.svg
+[esphome-version-shield]: https://img.shields.io/badge/version-v2022.2.6-blue.svg
 [esphome-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [esphome-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [esphome-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
