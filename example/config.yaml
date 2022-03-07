@@ -4,6 +4,7 @@ arch:
 - armhf
 - armv7
 - i386
+codenotary: codenotary@frenck.dev
 description: Example add-on by Community Home Assistant Add-ons
 image: ghcr.io/hassio-addons/example/{arch}
 init: false
@@ -16,4 +17,4 @@ schema:
   seconds_between_quotes: int(1,120)
 slug: example
 url: https://github.com/hassio-addons/addon-example
-version: 4.4.0
+version: 4.5.0

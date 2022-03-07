@@ -19,7 +19,7 @@ It shows off several features and structures like:
 
 - Full blown GitHub repository.
 - General Dockerfile structure and setup.
-- The use of the `config.json` and `build.json` files.
+- The use of the `config.yaml` and `build.yaml` files.
 - General shell scripting structure (`run.sh`).
 - Quality assurance using CodeClimate.
 - Continuous integration and deployment using GitLab.
@@ -33,9 +33,9 @@ It shows off several features and structures like:
 [forum]: https://community.home-assistant.io?u=frenck
 [github-sponsors-shield]: https://frenck.dev/wp-content/uploads/2019/12/github_sponsor.png
 [github-sponsors]: https://github.com/sponsors/frenck
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2021.svg
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2022.svg
 [patreon-shield]: https://frenck.dev/wp-content/uploads/2019/12/patreon.png
 [patreon]: https://www.patreon.com/frenck
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[release-shield]: https://img.shields.io/badge/version-v4.4.0-blue.svg
-[release]: https://github.com/hassio-addons/addon-example/tree/v4.4.0
+[release-shield]: https://img.shields.io/badge/version-v4.5.0-blue.svg
+[release]: https://github.com/hassio-addons/addon-example/tree/v4.5.0
