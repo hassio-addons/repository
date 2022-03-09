@@ -6,6 +6,7 @@ arch:
 - armv7
 - i386
 auth_api: true
+codenotary: codenotary@frenck.dev
 description: Flow-based programming for the Internet of Things
 devices:
 - /dev/mem
@@ -73,4 +74,4 @@ schema:
 slug: nodered
 uart: true
 url: https://github.com/hassio-addons/addon-node-red
-version: 11.0.4
+version: 11.1.0
