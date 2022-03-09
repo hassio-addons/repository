@@ -4,6 +4,7 @@ arch:
 - armhf
 - armv7
 - i386
+codenotary: codenotary@frenck.dev
 description: Fully configurable Z-Wave JS to MQTT gateway and control panel; based
   on Zwavejs2Mqtt
 discovery:
@@ -30,5 +31,5 @@ startup: system
 uart: true
 udev: true
 url: https://github.com/hassio-addons/addon-zwavejs2mqtt
-version: 0.35.2
+version: 0.36.0
 watchdog: http://[HOST]:[PORT:8099]/health/zwave

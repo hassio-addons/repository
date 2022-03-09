@@ -5,7 +5,12 @@ your Home Assistant instance by leveraging your MQTT broker. It ships with
 a web-based control panel, allowing you to configure every aspect of your
 Z-Wave network and how they are published in MQTT.
 
-Some advantages and use-cases for this are:
+**Note**: Unlike the title of the software suggests, you don't need to
+use MQTT part (it is even disabled by default). It will work directly
+without MQTT using the Home Assistant integration. The add-on will provide
+a nice secondairy and extensive Z-Wave JS control interface in such cases.
+
+Some advantages and use-cases:
 
 - Compatible with the Home Assistant Z-Wave JS integration.
 - Your Z-Wave network will keep running between Home Assistant restarts.
@@ -22,9 +27,12 @@ This add-on uses the [Zwavejs2Mqtt][zwavejs2mqtt] software.
 The installation of this add-on is pretty straightforward and not different in
 comparison to installing any other Home Assistant add-on.
 
-1. Search for the "Z-Wave JS to MQTT" add-on in the Supervisor add-on store
-   and install it.
-1. Start the "Z-Wave JS to MQTT" add-on.
+1. Click the Home Assistant My button below to open the add-on on your Home
+   Assistant instance.
+
+   [![Open this add-on in your Home Assistant instance.][addon-badge]][addon]
+
+1. Click the "Install" button to install the add-on.
 1. Check the logs of the "Z-Wave JS to MQTT" add-on to see if everything went
    well.
 1. Click the "OPEN WEB UI" button.
@@ -165,6 +173,8 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
+[addon-badge]: https://my.home-assistant.io/badges/supervisor_addon.svg
+[addon]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=a0d7b954_zwavejs2mqtt
 [contributors]: https://github.com/hassio-addons/addon-zwavejs2mqtt/graphs/contributors
 [discord-ha]: https://discord.gg/c5DvZ4e
 [discord]: https://discord.me/hassioaddons
@@ -175,5 +185,7 @@ SOFTWARE.
 [issue]: https://github.com/hassio-addons/addon-zwavejs2mqtt/issues
 [reddit]: https://reddit.com/r/homeassistant
 [releases]: https://github.com/hassio-addons/addon-zwavejs2mqtt/releases
+[repository-badge]: https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg
+[repository]: https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fhassio-addons%2Frepository
 [semver]: http://semver.org/spec/v2.0.0.htm
 [zwavejs2mqtt]: https://github.com/zwave-js/zwavejs2mqtt
