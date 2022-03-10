@@ -2,6 +2,7 @@ arch:
 - aarch64
 - amd64
 backup: cold
+codenotary: codenotary@frenck.dev
 description: Manage your UniFi network using a web browser
 hassio_api: true
 image: ghcr.io/hassio-addons/unifi/{arch}
@@ -38,5 +39,5 @@ schema:
 slug: unifi
 startup: services
 url: https://github.com/hassio-addons/addon-unifi
-version: 2.0.0
+version: 2.1.0
 webui: https://[HOST]:[PORT:8443]

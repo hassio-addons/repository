@@ -10,9 +10,12 @@ allowing users to get their network up, running, and updated, easily.
 The installation of this add-on is pretty straightforward and not different in
 comparison to installing any other Home Assistant add-on.
 
-1. Search for the "UniFi Network Application" add-on in the Supervisor add-on
-   store and install it.
-1. Start the "UniFi Network Application" add-on.
+1. Click the Home Assistant My button below to open the add-on on your Home
+   Assistant instance.
+
+   [![Open this add-on in your Home Assistant instance.][addon-badge]][addon]
+
+1. Click the "Install" button to install the add-on.
 1. Check the logs of the "UniFi Network Application" to see if everything went
    well.
 1. Click the "OPEN WEB UI" button, and follow the initial wizard.
@@ -24,6 +27,12 @@ comparison to installing any other Home Assistant add-on.
    the device running Home Assistant.
 1. Hit the "Apply Changes" button to activate the settings.
 1. Ready to go!
+
+Home Assistant, by default, ships with the Community Add-ons store installed.
+However, if it is missing (for any reason), you can add it by clicking the
+button My button below.
+
+[!Add repository to your Home Assitant instance.][repository-badge]][repository]
 
 ## Configuration
 
@@ -82,17 +91,6 @@ location.
 
 Backups are created in `/backup/unifi`. You can access this folder using
 the normal Home Assistant methods (e.g., using Samba, Terminal, SSH).
-
-## Migrating from an existing controller
-
-If you want to migrate from an existing controller to the controller provided
-by this addon, Ubiquiti has an excellent tutorial on this:
-
-<https://help.ubnt.com/hc/en-us/articles/115002869188>
-
-This article explains in detail how to use the UniFi Site Export Wizard
-to quickly and easily export sites from one Controller
-(including configuration and devices) to another (e.g., this add-on).
 
 ## Manually adopting a device
 
@@ -191,6 +189,8 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
+[addon-badge]: https://my.home-assistant.io/badges/supervisor_addon.svg
+[addon]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=a0d7b954_unifi
 [contributors]: https://github.com/hassio-addons/addon-unifi/graphs/contributors
 [discord-ha]: https://discord.gg/c5DvZ4e
 [discord]: https://discord.me/hassioaddons
@@ -200,4 +200,6 @@ SOFTWARE.
 [keepchangelog]: http://keepachangelog.com/en/1.0.0/
 [reddit]: https://reddit.com/r/homeassistant
 [releases]: https://github.com/hassio-addons/addon-unifi/releases
+[repository-badge]: https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg
+[repository]: https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fhassio-addons%2Frepository
 [semver]: http://semver.org/spec/v2.0.0.htm

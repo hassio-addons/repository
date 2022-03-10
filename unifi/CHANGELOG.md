@@ -1,9 +1,14 @@
 ## What’s changed
 
+## 🚀 Enhancements
+
+- 🔒 Sign add-on with Codenotary Community Attestation Service (CAS) @frenck (#352)
+
 ## 📚 Documentation
 
-- 📚 Update Inform Host instructions for new UI @sinclairpaul (#343)
+- 📚 Remove migrating section @sinclairpaul (#349)
+- 📚 Add My buttons to documentation @frenck (#353)
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades UniFi Network Application to v7.0.23 @pattyland (#347)
+- ⬆️ Upgrades add-on base image to 7.2.0 @frenck (#351)
