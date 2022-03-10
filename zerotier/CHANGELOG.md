@@ -1,12 +1,14 @@
 ## What’s changed
 
-## 🧰 Maintenance
+## 🚀 Enhancements
 
-- 🚀 Update CI to latest version @frenck (#134)
-- 🎆 Updates maintenance/license year to 2022 @frenck (#135)
+- 🔒 Sign add-on with Codenotary Community Attestation Service (CAS) @frenck (#139)
+
+## 📚 Documentation
+
+- 📚 Add My buttons to documentation @frenck (#140)
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades add-on base image to 11.0.0 @frenck (#131)
-- ⬆️ Upgrades ZeroTier One to 1.8.4 @frenck (#132)
-- ⬆️ Upgrades add-on base image to 11.0.1 @frenck (#136)
+- ⬆️ Upgrades add-on base image to 11.1.0 @frenck (#138)
+- ⬆️ Upgrades ZeroTier One to 1.8.5 @frenck (#141)

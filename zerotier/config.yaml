@@ -4,6 +4,7 @@ arch:
 - armhf
 - armv7
 - i386
+codenotary: codenotary@frenck.dev
 description: Radically simplify your network with a virtual networking layer that
   works the same everywhere
 devices:
@@ -32,4 +33,4 @@ schema:
 slug: zerotier
 startup: services
 url: https://github.com/hassio-addons/addon-zerotier
-version: 0.12.2
+version: 0.13.0

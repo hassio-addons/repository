@@ -1,8 +1,8 @@
 # Home Assistant Community Add-on: ZeroTier One
 
-ZeroTier delivers the capabilities of VPNs, SDN, and SD-WAN with a single
-system. Manage all your connected resources across both local and wide area
-networks as if the whole world is a single data center.
+[ZeroTier][zerotier] delivers the capabilities of VPNs, SDN, and SD-WAN with
+a single system. Manage all your connected resources across both local
+and wide area networks as if the whole world is a single data center.
 
 People use ZeroTier to seamlessly connect laptops, desktops, phones,
 embedded devices, cloud resources, and apps any way they want anywhere they go.
@@ -14,13 +14,23 @@ can now add your Home Assistant instance using this add-on.
 The installation of this add-on is pretty straightforward and not different in
 comparison to installing any other Home Assistant add-on.
 
-1. Search for the "ZeroTier One" add-on in the Supervisor add-on store
-   and install it.
+1. Click the Home Assistant My button below to open the add-on on your Home
+   Assistant instance.
+
+   [![Open this add-on in your Home Assistant instance.][addon-badge]][addon]
+
+1. Click the "Install" button to install the add-on.
 1. Create a free account at [zerotier.com][zerotier] and get a network ID.
 1. Set the "network_id" add-on option with your network ID.
 1. Start the "ZeroTier One" add-on
 1. Check the logs of the "ZeroTier One" add-on to see if everything went well.
 1. The instance will show up in your ZeroTier account.
+
+Home Assistant, by default, ships with the Community Add-ons store installed.
+However, if it is missing (for any reason), you can add it by clicking the
+button My button below.
+
+[!Add repository to your Home Assitant instance.][repository-badge]][repository]
 
 ## Configuration
 
@@ -134,6 +144,8 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
+[addon-badge]: https://my.home-assistant.io/badges/supervisor_addon.svg
+[addon]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=a0d7b954_zerotier
 [api]: https://www.zerotier.com/manual.shtml#4_1
 [contributors]: https://github.com/hassio-addons/addon-zerotier/graphs/contributors
 [discord-ha]: https://discord.gg/c5DvZ4e
@@ -143,5 +155,7 @@ SOFTWARE.
 [issue]: https://github.com/hassio-addons/addon-zerotier/issues
 [reddit]: https://reddit.com/r/homeassistant
 [releases]: https://github.com/hassio-addons/addon-zerotier/releases
+[repository-badge]: https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg
+[repository]: https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fhassio-addons%2Frepository
 [semver]: http://semver.org/spec/v2.0.0.htm
 [zerotier]: https://www.zerotier.com/
