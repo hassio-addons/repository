@@ -7,6 +7,7 @@ arch:
 auth_api: true
 backup_exclude:
 - '*/adguard/data/querylog.*'
+codenotary: codenotary@frenck.dev
 description: Network-wide ads & trackers blocking DNS server
 discovery:
 - adguard
@@ -42,4 +43,4 @@ schema:
 slug: adguard
 startup: services
 url: https://github.com/hassio-addons/addon-adguard-home
-version: 4.4.6
+version: 4.5.0
