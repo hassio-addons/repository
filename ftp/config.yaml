@@ -5,6 +5,7 @@ arch:
 - armhf
 - armv7
 - i386
+codenotary: codenotary@frenck.dev
 description: A secure and fast FTP server for Home Assistant
 host_network: true
 image: ghcr.io/hassio-addons/ftp/{arch}
@@ -77,4 +78,4 @@ schema:
 slug: ftp
 startup: services
 url: https://github.com/hassio-addons/addon-ftp
-version: 4.4.1
+version: 4.5.0
