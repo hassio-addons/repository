@@ -4,6 +4,7 @@ arch:
 - armhf
 - armv7
 - i386
+codenotary: codenotary@frenck.dev
 description: A web interface for the official MariaDB add-on
 hassio_api: true
 image: ghcr.io/hassio-addons/phpmyadmin/{arch}
@@ -19,4 +20,4 @@ services:
 - mysql:need
 slug: phpmyadmin
 url: https://github.com/hassio-addons/addon-phpmyadmin
-version: 0.7.0
+version: 0.7.1
