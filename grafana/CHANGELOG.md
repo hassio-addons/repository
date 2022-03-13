@@ -1,11 +1,19 @@
 ## What’s changed
 
-## 🧰 Maintenance
+## ✨ New features
 
-- 🎆 Updates maintenance/license year to 2022 @frenck (#240)
+- Enables Grafana unified alerting and disables legacy dashboard alerting @pdecat (#249)
+
+## 🚀 Enhancements
+
+- 🔒 Sign add-on with Codenotary Community Attestation Service (CAS) @frenck (#251)
+
+## 📚 Documentation
+
+- 📚 Add My buttons to documentation @frenck (#253)
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades libnss3 to 2:3.61-1+deb11u1 @frenck (#241)
-- ⬆️ Upgrades add-on base image to 5.2.3 @frenck (#242)
-- ⬆️ Upgrades Grafana to v8.3.4 @frenck (#243)
+- ⬆️ Upgrades add-on base image to 5.3.0 @frenck (#250)
+- ⬆️ Upgrades Grafana to v8.4.3 @frenck (#252)
+- ⬆️ Upgrades Grafana Image Renderer to 3.4.1 @frenck (#254)

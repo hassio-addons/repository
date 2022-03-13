@@ -15,11 +15,21 @@ insights to your home.
 The installation of this add-on is pretty straightforward and not different in
 comparison to installing any other Home Assistant add-on.
 
-1. Search for the "Grafana" add-on in the Supervisor add-on store.
-1. Install the "Grafana" add-on.
+1. Click the Home Assistant My button below to open the add-on on your Home
+   Assistant instance.
+
+   [![Open this add-on in your Home Assistant instance.][addon-badge]][addon]
+
+1. Click the "Install" button to install the add-on.
 1. Start the "Grafana" add-on.
 1. Check the logs of the "Grafana" to see if everything went well.
 1. Open the Web UI.
+
+Home Assistant, by default, ships with the Community Add-ons store installed.
+However, if it is missing (for any reason), you can add it by clicking the
+button My button below.
+
+[!Add repository to your Home Assitant instance.][repository-badge]][repository]
 
 **Note**: As the addon now supports both Ingress and direct access, the default
 `admin` user has a password of `hassio`. **Due to the implementation the
@@ -202,6 +212,8 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
+[addon-badge]: https://my.home-assistant.io/badges/supervisor_addon.svg
+[addon]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=a0d7b954_grafana
 [contributors]: https://github.com/hassio-addons/addon-grafana/graphs/contributors
 [create-db]: https://github.com/hassio-addons/addon-influxdb/blob/main/influxdb/DOCS.md#integrating-into-home-assistant
 [discord-ha]: https://discord.gg/c5DvZ4e
@@ -212,4 +224,6 @@ SOFTWARE.
 [issue]: https://github.com/hassio-addons/addon-grafana/issues
 [reddit]: https://reddit.com/r/homeassistant
 [releases]: https://github.com/hassio-addons/addon-grafana/releases
+[repository-badge]: https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg
+[repository]: https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fhassio-addons%2Frepository
 [semver]: http://semver.org/spec/v2.0.0.htm

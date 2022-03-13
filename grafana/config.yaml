@@ -2,6 +2,7 @@ arch:
 - aarch64
 - amd64
 - armv7
+codenotary: codenotary@frenck.dev
 description: The open platform for beautiful analytics and monitoring
 image: ghcr.io/hassio-addons/grafana/{arch}
 ingress: true
@@ -37,5 +38,5 @@ schema:
 slug: grafana
 startup: services
 url: https://github.com/hassio-addons/addon-grafana
-version: 7.4.1
+version: 7.5.0
 watchdog: http://[HOST]:1337/api/health
