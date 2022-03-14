@@ -23,6 +23,9 @@ and the real Sonos device.
 Since Sonos uses UPnP, the add-on might also work for other UPnP players
 (e.g., newer Samsung televisions).
 
+The AirCast add-on is based on the excellent [AirConnect][airconnect] project.
+
+[airconnect]: https://github.com/philippe44/AirConnect
 [discord-shield]: https://img.shields.io/discord/478094546522079232.svg
 [discord]: https://discord.me/hassioaddons
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
@@ -33,5 +36,5 @@ Since Sonos uses UPnP, the add-on might also work for other UPnP players
 [patreon-shield]: https://frenck.dev/wp-content/uploads/2019/12/patreon.png
 [patreon]: https://www.patreon.com/frenck
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[release-shield]: https://img.shields.io/badge/version-v3.2.1-blue.svg
-[release]: https://github.com/hassio-addons/addon-airsonos/tree/v3.2.1
+[release-shield]: https://img.shields.io/badge/version-v3.3.0-blue.svg
+[release]: https://github.com/hassio-addons/addon-airsonos/tree/v3.3.0
