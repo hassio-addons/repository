@@ -1,12 +1,14 @@
 ## What’s changed
 
-## 🧰 Maintenance
+## 🚀 Enhancements
 
-- 🚀 Update CI to latest version @frenck (#100)
-- 🎆 Updates maintenance/license year to 2022 @frenck (#102)
+- 🔒 Sign add-on with Codenotary Community Attestation Service (CAS) @frenck (#107)
+
+## 📚 Documentation
+
+- 📚 Add My buttons to documentation @frenck (#108)
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades add-on base image to 11.0.0 @frenck (#101)
-- ⬆️ Upgrades nodejs to 16.13.2-r0 @frenck (#103)
-- ⬆️ Upgrades add-on base image to 11.0.1 @frenck (#104)
+- ⬆️ Upgrades nodejs to 16.14.0-r0 @frenck (#105)
+- ⬆️ Upgrades add-on base image to 11.1.0 @frenck (#106)
