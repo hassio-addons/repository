@@ -8,20 +8,31 @@ It detects Chromecast players in your network and creates virtual AirPlay
 devices for each of them. It acts as a bridge between the AirPlay client
 and the real Chromecast player.
 
+The AirCast add-on is based on the excellent [AirConnect][airconnect] project.
+
 ## Installation
 
 The installation of this add-on is pretty straightforward and not different in
 comparison to installing any other Home Assistant add-on.
 
-1. Search for the “AirCast” add-on in the Supervisor add-on store
-   and install it.
-1. Install the "AirCast" add-on.
+1. Click the Home Assistant My button below to open the add-on on your Home
+   Assistant instance.
+
+   [![Open this add-on in your Home Assistant instance.][addon-badge]][addon]
+
+1. Click the "Install" button to install the add-on.
 1. Start the "AirCast" add-on
 1. Check the logs of the "AirCast" add-on to see if everything went well.
 
 After ~30 seconds you should see some log messages appear in the add-on log.
 Using your iOS/Mac/iTunes/Airfoil/other clients, you should now see new AirPlay
 devices and can try to play audio to them.
+
+Home Assistant, by default, ships with the Community Add-ons store installed.
+However, if it is missing (for any reason), you can add it by clicking the
+button My button below.
+
+[![Add repository to your Home Assitant instance.][repository-badge]][repository]
 
 ## Configuration
 
@@ -219,6 +230,9 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
+[addon-badge]: https://my.home-assistant.io/badges/supervisor_addon.svg
+[addon]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=a0d7b954_airconnect
+[airconnect]: https://github.com/philippe44/AirConnect
 [contributors]: https://github.com/hassio-addons/addon-aircast/graphs/contributors
 [discord-ha]: https://discord.gg/c5DvZ4e
 [discord]: https://discord.me/hassioaddons
@@ -228,4 +242,6 @@ SOFTWARE.
 [issue]: https://github.com/hassio-addons/addon-aircast/issues
 [reddit]: https://reddit.com/r/homeassistant
 [releases]: https://github.com/hassio-addons/addon-aircast/releases
+[repository-badge]: https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg
+[repository]: https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fhassio-addons%2Frepository
 [semver]: http://semver.org/spec/v2.0.0.htm

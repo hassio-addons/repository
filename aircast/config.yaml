@@ -3,6 +3,7 @@ arch:
 - amd64
 - armv7
 - i386
+codenotary: codenotary@frenck.dev
 description: AirPlay capabilities for your Chromecast devices.
 hassio_api: true
 host_network: true
@@ -24,4 +25,4 @@ schema:
 slug: aircast
 startup: services
 url: https://github.com/hassio-addons/addon-aircast
-version: 3.2.1
+version: 3.3.0
