@@ -4,6 +4,7 @@ arch:
 - armhf
 - armv7
 - i386
+codenotary: codenotary@frenck.dev
 description: Centrally manage all your Sonoff-Tasmota devices
 image: ghcr.io/hassio-addons/tasmoadmin/{arch}
 init: false
@@ -26,5 +27,5 @@ schema:
 slug: sonweb
 startup: system
 url: https://github.com/hassio-addons/addon-tasmoadmin
-version: 0.16.0
+version: 0.17.0
 webui: '[PROTO:ssl]://[HOST]:[PORT:9541]'
