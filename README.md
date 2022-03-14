@@ -74,7 +74,7 @@ AirPlay capabilities for your Sonos (and UPnP) devices.
 
 [:books: AirSonos add-on documentation][addon-doc-airsonos]
 
-### &#10003; [AppDaemon 4][addon-appdaemon]
+### &#10003; [AppDaemon][addon-appdaemon]
 
 ![Latest Version][appdaemon-version-shield]
 ![Supports armhf Architecture][appdaemon-armhf-shield]
@@ -85,7 +85,7 @@ AirPlay capabilities for your Sonos (and UPnP) devices.
 
 Python Apps and Dashboard using AppDaemon 4.x for Home Assistant
 
-[:books: AppDaemon 4 add-on documentation][addon-doc-appdaemon]
+[:books: AppDaemon add-on documentation][addon-doc-appdaemon]
 
 ### &#10003; [Bookstack][addon-bookstack]
 
@@ -570,7 +570,7 @@ on the correct GitHub repository matching the add-on.
 - [Open an issue for the add-on: AdGuard Home][adguard-issue]
 - [Open an issue for the add-on: AirCast][aircast-issue]
 - [Open an issue for the add-on: AirSonos][airsonos-issue]
-- [Open an issue for the add-on: AppDaemon 4][appdaemon-issue]
+- [Open an issue for the add-on: AppDaemon][appdaemon-issue]
 - [Open an issue for the add-on: Bookstack][bookstack-issue]
 - [Open an issue for the add-on: ESPHome][esphome-issue]
 - [Open an issue for the add-on: Example][example-issue]
