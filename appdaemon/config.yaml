@@ -4,6 +4,7 @@ arch:
 - armhf
 - armv7
 - i386
+codenotary: codenotary@frenck.dev
 description: Python Apps and Dashboard using AppDaemon 4.x for Home Assistant
 homeassistant_api: true
 image: ghcr.io/hassio-addons/appdaemon/{arch}
@@ -12,7 +13,7 @@ map:
 - config:rw
 - share:rw
 - ssl
-name: AppDaemon 4
+name: AppDaemon
 options:
   init_commands: []
   python_packages: []
@@ -32,5 +33,5 @@ schema:
 slug: appdaemon
 uart: true
 url: https://github.com/hassio-addons/addon-appdaemon
-version: 0.8.1
+version: 0.8.2
 webui: http://[HOST]:[PORT:5050]
