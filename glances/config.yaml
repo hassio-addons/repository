@@ -6,6 +6,7 @@ arch:
 - armv7
 - i386
 auth_api: true
+codenotary: codenotary@frenck.dev
 description: A cross-platform system monitoring tool
 docker_api: true
 environment:
@@ -68,4 +69,4 @@ schema:
 slug: glances
 startup: services
 url: https://github.com/hassio-addons/addon-glances
-version: 0.14.2
+version: 0.15.0

@@ -1,13 +1,15 @@
 ## What’s changed
 
-## 🧰 Maintenance
+## 🚀 Enhancements
 
-- 🎆 Updates maintenance/license year to 2022 @frenck (#244)
+- 🔒 Sign add-on with Codenotary Community Attestation Service (CAS) @frenck (#253)
+
+## 📚 Documentation
+
+- 📚 Add My buttons to documentation @frenck (#254)
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Bump zeroconf from 0.37.0 to 0.38.1 in /glances @dependabot (#240)
-- ⬆️ Bump psutil from 5.7.3 to 5.9.0 in /glances @dependabot (#241)
-- Bump requests from 2.26.0 to 2.27.0 in /glances @dependabot (#242)
-- Bump requests from 2.27.0 to 2.27.1 in /glances @dependabot (#243)
-- ⬆️ Upgrades add-on base image to 11.0.1 @frenck (#245)
+- Bump zeroconf from 0.38.1 to 0.38.3 in /glances @dependabot (#247)
+- Bump zeroconf from 0.38.3 to 0.38.4 in /glances @dependabot (#251)
+- ⬆️ Upgrades add-on base image to 11.1.0 @frenck (#252)
