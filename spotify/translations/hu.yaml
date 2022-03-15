@@ -1,0 +1,26 @@
+---
+configuration:
+  log_level:
+    name: Naplózási szint
+    description: >-
+      Ez vezérli, hogy a kiegészítő milyen részletesen legyen naplózva.
+  name:
+    name: Név
+    description: >-
+      Az új, Spotify Connect céleszköz neve. Ez jelenik meg a hivatalos
+       Spotify kliensekben.
+  bitrate:
+    name: Bitráta
+    description: >-
+      A Spotify által használt bitráta beállítása. Minél magasabb, annál jobb
+      minőségű, viszont ez nagyobb adatforgalommal jár.
+  username:
+    name: Spotify felhasználónév
+    description: >-
+      Spotify Premium előfizetéssel rendelkező fiók felhasználóneve.
+      Ez akkor lehet hasznos, ha a Spotify alkalmazás nem találja
+      ezt a kiegészítőt. (Opcionális)
+  password:
+    name: Spotify jelszó
+    description: >-
+      Spotify Premium előfizetéssel rendelkező fiók jelszava.

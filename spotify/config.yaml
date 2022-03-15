@@ -4,6 +4,7 @@ arch:
 - armv7
 - i386
 audio: true
+codenotary: codenotary@frenck.dev
 description: Play Spotify music on your Home Assistant device
 host_network: true
 image: ghcr.io/hassio-addons/spotify/{arch}
@@ -19,4 +20,4 @@ schema:
   username: str?
 slug: spotify
 url: https://github.com/hassio-addons/addon-spotify-connect
-version: 0.10.0
+version: 0.11.0
