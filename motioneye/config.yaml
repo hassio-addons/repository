@@ -5,6 +5,7 @@ arch:
 - armhf
 - armv7
 - i386
+codenotary: codenotary@frenck.dev
 description: Simple, elegant and feature-rich CCTV/NVR for your cameras
 discovery:
 - motioneye
@@ -46,5 +47,5 @@ schema:
   ssl: bool
 slug: motioneye
 url: https://github.com/hassio-addons/addon-motioneye
-version: 0.17.0
+version: 0.18.0
 video: true
