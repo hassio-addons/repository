@@ -30,7 +30,7 @@ Home Assistant, by default, ships with the Community Add-ons store installed.
 However, if it is missing (for any reason), you can add it by clicking the
 button My button below.
 
-[!Add repository to your Home Assitant instance.][repository-badge]][repository]
+[![Add repository to your Home Assitant instance.][repository-badge]][repository]
 
 ## Configuration
 

@@ -1,5 +1,9 @@
 ## What’s changed
 
-## ⬆️ Dependency updates
+## 🐛 Bug fixes
 
-- ⬆️ Upgrades ZeroTier One to 1.8.6 @frenck (#142)
+- Fix authtoken.secret file path @daoudeddy (#143)
+
+## 📚 Documentation
+
+- 📚 Fix documentation link @frenck (#144)
