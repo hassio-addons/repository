@@ -7,15 +7,22 @@ This enables you to easily explore all tables and content that is saved in your 
 The installation of this add-on is pretty straightforward and not different in
 comparison to installing any other Home Assistant add-on.
 
-1. Search for the “SQLite Web” add-on in the Hass.io 166 add-on store
-   and install it.
+1. Click the Home Assistant My button below to open the add-on on your Home
+   Assistant instance.
+
+   [![Open this add-on in your Home Assistant instance.][addon-badge]][addon]
+
+1. Click the "Install" button to install the add-on.
 1. Start the "SQLite Web" add-on
 1. Check the logs of the "SQLite Web" add-on to see if everything went well.
 1. Click "OPEN WEB UI" to open the SQLite Web interface.
 1. Log in with your Home Assistant user.
 
-**NOTE**: Starting the add-on might take a couple of minutes (especially the
-first time starting the add-on).
+Home Assistant, by default, ships with the Community Add-ons store installed.
+However, if it is missing (for any reason), you can add it by clicking the
+button My button below.
+
+[![Add repository to your Home Assitant instance.][repository-badge]][repository]
 
 ## Configuration
 
@@ -80,6 +87,8 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
+[addon-badge]: https://my.home-assistant.io/badges/supervisor_addon.svg
+[addon]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=a0d7b954_sqlite-web
 [contributors]: https://github.com/hassio-addons/addon-sqlite-web/graphs/contributors
 [discord-ha]: https://discord.gg/c5DvZ4e
 [discord]: https://discord.me/hassioaddons
@@ -88,4 +97,6 @@ SOFTWARE.
 [ludeeus]: https://github.com/ludeeus
 [reddit]: https://reddit.com/r/homeassistant
 [releases]: https://github.com/hassio-addons/addon-sqlite-web/releases
-[semver]: http://semver.org/spec/v2.0.0.htm
+[repository-badge]: https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg
+[repository]: https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fhassio-addons%2Frepository
+[semver]: http://semver.org/spec/v2.0.0.html

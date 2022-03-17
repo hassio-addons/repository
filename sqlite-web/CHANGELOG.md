@@ -1,11 +1,17 @@
 ## What’s changed
 
+## 🚀 Enhancements
+
+- 🔒 Sign add-on with Codenotary Community Attestation Service (CAS) @frenck (#201)
+
 ## 🧰 Maintenance
 
-- 🚀 Update CI to latest version @frenck (#192)
-- 🎆 Updates maintenance/license year to 2022 @frenck (#196)
+- 🔒 Pass sign token to main workflow @frenck (#202)
+
+## 📚 Documentation
+
+- 📚 Add My buttons to documentation @frenck (#203)
 
 ## ⬆️ Dependency updates
 
-- ⬆️  Upgrades add-on base image to 11.0.0 @frenck (#193)
-- ⬆️ Upgrades add-on base image to 11.0.1 @frenck (#197)
+- ⬆️ Upgrades add-on base image to 11.1.0 @frenck (#200)

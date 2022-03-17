@@ -5,6 +5,7 @@ arch:
 - armhf
 - armv7
 - i386
+codenotary: codenotary@frenck.dev
 description: Explore your SQLite database
 image: ghcr.io/hassio-addons/sqlite-web/{arch}
 ingress: true
@@ -14,4 +15,4 @@ name: SQLite Web
 panel_icon: mdi:database
 slug: sqlite-web
 url: https://github.com/hassio-addons/addon-sqlite-web/tree/main/README.md
-version: 3.2.1
+version: 3.3.0
