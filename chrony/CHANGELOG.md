@@ -1,15 +1,17 @@
 ## What’s changed
 
+## 🚀 Enhancements
+
+- 🔒 Sign add-on with Codenotary Community Attestation Service (CAS) @frenck (#111)
+
 ## 🧰 Maintenance
 
-- Switch to centralized GitHub Action Workflows @frenck (#102)
-- 🚀 Update CI to latest version @frenck (#104)
+- 🔒 Pass sign token to main workflow @frenck (#112)
 
 ## 📚 Documentation
 
-- 📚 Update year 🎉 @sinclairpaul (#108)
+- 📚 Add My buttons to documentation @frenck (#113)
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update base image to 11.0.0 @sinclairpaul (#107)
-- ⬆️ Upgrades add-on base image to 11.0.1 @frenck (#109)
+- ⬆️ Upgrades add-on base image to 11.1.0 @frenck (#110)
