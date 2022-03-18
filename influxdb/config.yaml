@@ -4,6 +4,7 @@ arch:
 - armv7
 - i386
 auth_api: true
+codenotary: codenotary@frenck.dev
 description: Scalable datastore for metrics, events, and real-time analytics
 hassio_api: true
 homeassistant: 0.92.0b2
@@ -44,4 +45,4 @@ schema:
 slug: influxdb
 startup: services
 url: https://github.com/hassio-addons/addon-influxdb
-version: 4.3.0
+version: 4.4.0
