@@ -5,6 +5,7 @@ arch:
 - armv7
 - i386
 auth_api: true
+codenotary: codenotary@frenck.dev
 description: Browser-based log utility for Home Assistant
 homeassistant: 0.92.0b2
 homeassistant_api: true
@@ -34,4 +35,4 @@ schema:
   ssl: bool
 slug: logviewer
 url: https://github.com/hassio-addons/addon-log-viewer
-version: 0.12.2
+version: 0.13.0
