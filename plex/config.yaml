@@ -6,6 +6,10 @@ arch:
 backup_exclude:
 - '**/Plex Media Server/Cache/**'
 - '**/Plex Media Server/Plug-in Support/Caches/**'
+- '**/Plex Media Server/Logs/**'
+- '**/Plex Media Server/Crash Reports/**'
+- '**/Plex Media Server/Diagnostics/**'
+codenotary: codenotary@frenck.dev
 description: Recorded media, live TV, online news, and podcasts ready to stream.
 hassio_api: true
 image: ghcr.io/hassio-addons/plex/{arch}
@@ -46,5 +50,5 @@ schema:
 slug: plex
 startup: services
 url: https://github.com/hassio-addons/addon-plex
-version: 2.7.6
+version: 2.8.0
 webui: http://[HOST]:[PORT:32400]/web
