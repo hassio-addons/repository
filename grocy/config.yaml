@@ -4,6 +4,7 @@ arch:
 - armhf
 - armv7
 - i386
+codenotary: codenotary@frenck.dev
 description: ERP beyond your fridge! A groceries & household management solution for
   your home
 image: ghcr.io/hassio-addons/grocy/{arch}
@@ -26,6 +27,7 @@ options:
     shoppinglist: true
     stock: true
     tasks: true
+  grocy_ingress_user: ''
   keyfile: privkey.pem
   ssl: true
   tweaks:
@@ -45,7 +47,7 @@ ports_description:
   80/tcp: Web interface (Not required for Ingress)
 schema:
   certfile: str
-  culture: list(cs|da|de|el_GR|en|en_GB|es|fi|fr|he_IL|hu|it|ja|ko_KR|nl|no|pl|pt_BR|pt_PT|ru|sk_SK|sv_SE|ta|tr|zh_CN|zh_TW)
+  culture: list(ca|cs|da|de|el_GR|en|en_GB|es|fi|fr|he_IL|hu|it|ja|ko_KR|nl|no|pl|pt_BR|pt_PT|ru|sk_SK|sv_SE|ta|tr|zh_CN|zh_TW)
   currency: match(^[A-Z]{3}$)
   entry_page: list(stock|shoppinglist|recipes|chores|tasks|batteries|equipment|calendar|mealplan)
   features:
@@ -57,6 +59,7 @@ schema:
     shoppinglist: bool
     stock: bool
     tasks: bool
+  grocy_ingress_user: str
   keyfile: str
   log_level: list(trace|debug|info|notice|warning|error|fatal)?
   ssl: bool
@@ -73,4 +76,4 @@ schema:
     stock_product_opened_tracking: bool
 slug: grocy
 url: https://github.com/hassio-addons/addon-grocy
-version: 0.16.0
+version: 0.17.0
