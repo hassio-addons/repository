@@ -1,14 +1,8 @@
 ## What’s changed
 
-## 🚀 Enhancements
-
-- 🔒 Sign add-on with Codenotary Community Attestation Service (CAS) @frenck (#1316)
-
-## 📚 Documentation
-
-- 📚 Add My buttons to documentation @frenck (#1317)
-
 ## ⬆️ Dependency updates
 
-- Bump node-red-contrib-home-assistant-websocket from 0.43.0 to 0.43.1 in /node-red @dependabot (#1314)
-- ⬆️ Upgrades add-on base image to 11.1.0 @frenck (#1315)
+- Bump node-red-contrib-interval-length from 0.0.4 to 0.0.5 in /node-red @dependabot (#1322)
+- Bump node-red-node-pi-gpio from 2.0.1 to 2.0.2 in /node-red @dependabot (#1320)
+- Bump node-red-node-email from 1.14.0 to 1.15.0 in /node-red @dependabot (#1325)
+- Bump node-red-contrib-time-range-switch from 1.1.2 to 1.1.3 in /node-red @dependabot (#1326)
