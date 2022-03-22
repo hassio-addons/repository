@@ -4,6 +4,7 @@ arch:
 - armhf
 - armv7
 - i386
+codenotary: codenotary@frenck.dev
 description: A web frontend for controlling the home
 image: ghcr.io/hassio-addons/home-panel/{arch}
 ingress: true
@@ -29,4 +30,4 @@ schema:
   ssl: bool
 slug: home-panel
 url: https://github.com/hassio-addons/addon-home-panel
-version: 2.3.3
+version: 2.4.0
