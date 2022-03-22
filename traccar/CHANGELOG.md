@@ -1,13 +1,15 @@
 ## What’s changed
 
-## 🧰 Maintenance
+## 🚀 Enhancements
 
-- 🚀 Update CI to latest version @frenck (#162)
-- 🎆 Updates maintenance/license year to 2022 @frenck (#165)
+- 🔒 Sign add-on with Codenotary Community Attestation Service (CAS) @frenck (#173)
+
+## 📚 Documentation
+
+- 📚 Add My buttons to documentation @frenck (#174)
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades add-on base image to 11.0.0 @frenck (#163)
-- ⬆️ Upgrades nss to 3.72.1-r0 @frenck (#166)
-- ⬆️ Upgrades Traccar to v4.15 @frenck (#167)
-- ⬆️ Upgrades add-on base image to 11.0.1 @frenck (#168)
+- ⬆️ Upgrades mariadb-client to 10.6.7-r0 @frenck (#170)
+- ⬆️ Upgrades openjdk11-jre-headless to 11.0.14_p9-r0 @frenck (#171)
+- ⬆️ Upgrades add-on base image to 11.1.0 @frenck (#172)

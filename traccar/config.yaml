@@ -1,6 +1,7 @@
 arch:
 - aarch64
 - amd64
+codenotary: codenotary@frenck.dev
 description: Modern GPS Tracking Platform
 host_network: true
 image: ghcr.io/hassio-addons/traccar/{arch}
@@ -30,4 +31,4 @@ services:
 slug: traccar
 startup: services
 url: https://github.com/hassio-addons/addon-traccar
-version: 0.15.0
+version: 0.16.0
