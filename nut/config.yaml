@@ -4,6 +4,7 @@ arch:
 - armhf
 - armv7
 - i386
+codenotary: codenotary@frenck.dev
 description: Manage battery backup (UPS) devices
 hassio_api: true
 hassio_role: manager
@@ -61,4 +62,4 @@ uart: true
 udev: true
 url: https://github.com/hassio-addons/addon-nut
 usb: true
-version: 0.9.1
+version: 0.10.0

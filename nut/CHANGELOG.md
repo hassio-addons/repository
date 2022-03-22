@@ -1,13 +1,13 @@
 ## What’s changed
 
-## 🧰 Maintenance
+## 🚀 Enhancements
 
-- 🚀 Update CI to latest version @frenck (#209)
+- 🔒 Sign add-on with Codenotary Community Attestation Service (CAS) @frenck (#219)
 
 ## 📚 Documentation
 
-- 📚 Update Year 🎉 @sinclairpaul (#210)
+- 📚 Add My buttons to documentation @frenck (#220)
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades add-on base image to 5.2.3 @frenck (#212)
+- ⬆️ Upgrades add-on base image to 5.3.0 @frenck (#218)
