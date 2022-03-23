@@ -1,6 +1,7 @@
 arch:
 - aarch64
 - amd64
+codenotary: codenotary@frenck.dev
 description: Fully featured Visual Studio Code (VSCode) experience integrated in the
   Home Assistant frontend.
 hassio_api: true
@@ -37,4 +38,4 @@ slug: vscode
 startup: services
 uart: true
 url: https://github.com/hassio-addons/addon-vscode
-version: 4.1.0
+version: 4.2.0
