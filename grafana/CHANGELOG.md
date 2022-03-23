@@ -2,4 +2,4 @@
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades Grafana to v8.4.4 @frenck (#256)
+- ⬆️ Upgrades Grafana Image Renderer to 3.4.2 @frenck (#257)
