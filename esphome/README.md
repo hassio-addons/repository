@@ -1,10 +1,12 @@
 # ESPHome Home Assistant Add-On
 
-[![ESPHome logo](https://raw.githubusercontent.com/esphome/hassio/main/esphome-dev/logo.png)](https://esphome.io/)
+# This Add-on is Deprecated
 
-[![GitHub stars](https://img.shields.io/github/stars/esphome/esphome.svg?style=social&label=Star&maxAge=2592000)](https://github.com/esphome/esphome)
-[![GitHub Release][releases-shield]][releases]
-[![Discord][discord-shield]][discord]
+Please add the ESPHome repo https://github.com/esphome/home-assistant-addon and install the ESPHome add-on from there to continue getting updates.
+
+[![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fesphome%2Fhome-assistant-addon)
+
+[![Open your Home Assistant instance and show the dashboard of a Supervisor add-on.](https://my.home-assistant.io/badges/supervisor_addon.svg)](https://my.home-assistant.io/redirect/supervisor_addon/?addon=5c53de3b_esphome)
 
 ## About
 
