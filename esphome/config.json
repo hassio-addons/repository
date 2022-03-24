@@ -36,6 +36,7 @@
     "streamer_mode": "bool?"
   },
   "slug": "esphome",
+  "stage": "deprecated",
   "uart": true,
   "url": "https://esphome.io/",
   "version": "2022.3.1"
