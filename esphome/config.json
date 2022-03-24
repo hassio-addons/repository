@@ -8,7 +8,7 @@
   "backup_exclude": [
     "*/*/"
   ],
-  "description": "ESPHome add-on for intelligently managing all your ESP8266/ESP32 devices",
+  "description": "DEPRECATED - ESPHome",
   "hassio_api": true,
   "host_network": true,
   "image": "esphome/esphome-hassio-{arch}",
@@ -36,6 +36,7 @@
     "streamer_mode": "bool?"
   },
   "slug": "esphome",
+  "stage": "deprecated",
   "uart": true,
   "url": "https://esphome.io/",
   "version": "2022.3.1"
