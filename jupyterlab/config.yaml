@@ -1,6 +1,7 @@
 arch:
 - aarch64
 - amd64
+codenotary: codenotary@frenck.dev
 description: Create documents containing live code, equations, visualizations, and
   explanatory text
 homeassistant_api: true
@@ -24,4 +25,4 @@ schema:
   - str
 slug: jupyterlablite
 url: https://github.com/hassio-addons/addon-jupyterlab
-version: 0.6.0
+version: 0.7.0
