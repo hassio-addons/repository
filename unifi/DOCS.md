@@ -69,7 +69,7 @@ you are troubleshooting.
 ### Option: `memory_max`
 
 This option allows you to change the amount of memory the UniFi Network
-Application is allowed to consume. By default, this is limited to 1 GB.
+Application is allowed to consume. By default, this is limited to 256 MB.
 You might want to increase this, in order to reduce CPU load or reduce this,
 in order to optimize your system for lower memory usage.
 
@@ -79,7 +79,7 @@ This option takes the number of Megabyte, for example, the default is 256.
 
 This option allows you to change the amount of memory the UniFi Network
 Application will initially reserve/consume when starting. By default,
-this is limited to 512M.
+this is limited to 128MB.
 
 This option takes the number of Megabyte, for example, the default is 128.
 
