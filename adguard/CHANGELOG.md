@@ -1,13 +1,10 @@
 ## What’s changed
 
-## 🚀 Enhancements
-
-- 🔒 Sign add-on with Codenotary Community Attestation Service (CAS) @frenck (#306)
-
 ## 📚 Documentation
 
-- 📚 Add My buttons to documentation @frenck (#307)
+- 📚 Fix broken link in documentation @OldShaterhan (#310)
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades add-on base image to 11.1.0 @frenck (#305)
+- ⬆️ Upgrades AdGuard Home to v0.107.6 @AlecRust (#311)
+- ⬆️ Upgrades add-on base image to 11.1.2 @frenck (#314)
