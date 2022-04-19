@@ -109,7 +109,7 @@ Simple & Free Wiki Software
 ![Supports amd64 Architecture][esphome-amd64-shield]
 ![Supports i386 Architecture][esphome-i386-shield]
 
-ESPHome add-on for intelligently managing all your ESP8266/ESP32 devices
+DEPRECATED - ESPHome
 
 [:books: ESPHome add-on documentation][addon-doc-esphome]
 
