@@ -140,7 +140,8 @@ only apply to the SSH daemon.
 This option allows you to change to username the use when you log in via SSH.
 It is only utilized for the authentication; you will be the `root` user after
 you have authenticated. Using `root` as the username is possible, but not
-recommended.
+recommended. Usernames will be converted to lower case as per recommended
+practises.
 
 **Note**: _Due to limitations, you will need to set this option to `root` in
 order to be able to enable the SFTP capabilities._
