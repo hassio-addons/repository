@@ -2,4 +2,4 @@
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update bookstack to v22.02.3 @sinclairpaul (#176)
+- ⬆️ Update Bookstack to v22.04 and dependencies @sinclairpaul (#177)
