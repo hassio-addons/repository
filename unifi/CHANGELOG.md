@@ -2,4 +2,4 @@
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades UniFi Network Application to 7.1.61 @sanglt (#361)
+- ⬆️ Upgrades UniFi Network Application to 7.1.65 @ZeroHour (#363)
