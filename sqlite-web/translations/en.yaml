@@ -1,0 +1,7 @@
+---
+configuration:
+  database:
+    name: Database
+    description: >-
+      Path to a custom database location to use. This can be helpful in case
+      your database isn't in the default location.

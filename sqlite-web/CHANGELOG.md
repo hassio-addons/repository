@@ -1,17 +1,10 @@
 ## What’s changed
 
-## 🚀 Enhancements
+## ✨ New features
 
-- 🔒 Sign add-on with Codenotary Community Attestation Service (CAS) @frenck (#201)
-
-## 🧰 Maintenance
-
-- 🔒 Pass sign token to main workflow @frenck (#202)
-
-## 📚 Documentation
-
-- 📚 Add My buttons to documentation @frenck (#203)
+- Add optional configuration for database location @frenck (#207)
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades add-on base image to 11.1.0 @frenck (#200)
+- ⬆️ Upgrades nginx to 1.20.2-r1 @frenck (#205)
+- ⬆️ Upgrades add-on base image to 11.1.2 @frenck (#206)

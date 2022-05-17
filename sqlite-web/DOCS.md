@@ -26,7 +26,13 @@ button My button below.
 
 ## Configuration
 
-This add-on has no configuration options.
+**Note**: _Remember to restart the add-on when the configuration is changed._
+
+### Option: Database
+
+An optional database path that can set to instruct SQLite web to use a specific
+database file. When not set, the default Home Assistant database file location
+is used.
 
 ## Changelog & Releases
 
