@@ -2,4 +2,4 @@
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades zwavejs2mqtt to v6.9.1 @frenck (#375)
+- ⬆️ Upgrades zwavejs2mqtt to v6.10.0 @frenck (#377)
