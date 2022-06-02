@@ -25,12 +25,6 @@ comparison to installing any other Home Assistant add-on.
    well.
 1. Click the "OPEN WEB UI" button to open Studio Code Server.
 
-Home Assistant, by default, ships with the Community Add-ons store installed.
-However, if it is missing (for any reason), you can add it by clicking the
-button My button below.
-
-[![Add repository to your Home Assitant instance.][repository-badge]][repository]
-
 ## Configuration
 
 **Note**: _Remember to restart the add-on when the configuration is changed._
@@ -102,37 +96,6 @@ return to the defaults as delivered by this add-on, do the following:
 1. Execute the following command in the terminal window: `reset-settings`.
 1. Done!
 
-## Using with ESPHome
-
-The add-on has support for ESPHome (and its vscode extension), built-in!
-It has been installed and pre-configured for you, however, it might need
-an adjustment to your ESPHome add-on in order to function.
-
-1. Go to the ESPHome add-on configuration in your Supervisor panel.
-1. Add the `leave_front_door_open` option, since the vscode extension of
-   ESPHome does not support authentication yet. The ESPHome add-on
-   configuration would look like this:
-
-   ```yaml
-   leave_front_door_open: true
-   ```
-
-1. Save the add-on configuration.
-1. Enable direct access to the ESPHome add-on, by enabling the network port.
-   This option can be found on the ESPHome add-on settings page, in the
-   "Network" section. In the "Host" field (that is now showing disabled),
-   enter `6052` and hit save.
-1. Restart the ESPHome add-on.
-
-And you're set!
-
-No changes to the vscode add-on are needed, since it has been pre-configured.
-
-**Please note!** This opens up ESPHome for access within your network
-without authentication! Currently, this is how ESPHome advises how to
-set up your system, but it surely has security risks. We hope ESPHome
-will come up with a better solution for this soon.
-
 ## Known issues and limitations
 
 - Can this add-on run on a Raspberry Pi? Yes, but only if you run a 64 bits
@@ -141,11 +104,6 @@ will come up with a better solution for this soon.
   Although we support ARM devices, please be aware, that this add-on is quite
   heavy to run, and requires quite a bit of RAM. We do not recommended to run
   it on devices with less than 4Gb of memory.
-- If you get a blank screen (and it worked before), it could be that you changed
-  your workspace. Reinstalling the add-on will not help since it keeps the data
-  in your browser. To remove it (in Chrome) open up developer tools (F12),
-  then go to the application tab and click "clear storage".
-  Now refresh the page and you're back in action.
 - "Visual Studio Code is unable to watch for file changes in this large
   workspace" (error ENOSPC)
 
@@ -217,7 +175,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 [addon-badge]: https://my.home-assistant.io/badges/supervisor_addon.svg
-[addon]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=a0d7b954_vscode
+[addon]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=a0d7b954_vscode&repository_url=https%3A%2F%2Fgithub.com%2Fhassio-addons%2Frepository
 [contributors]: https://github.com/hassio-addons/addon-vscode/graphs/contributors
 [discord-ha]: https://discord.gg/c5DvZ4e
 [discord]: https://discord.me/hassioaddons
@@ -226,7 +184,5 @@ SOFTWARE.
 [issue]: https://github.com/hassio-addons/addon-vscode/issues
 [reddit]: https://reddit.com/r/homeassistant
 [releases]: https://github.com/hassio-addons/addon-vscode/releases
-[repository-badge]: https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg
-[repository]: https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fhassio-addons%2Frepository
 [semver]: http://semver.org/spec/v2.0.0
 [ubuntu-packages]: https://packages.ubuntu.com

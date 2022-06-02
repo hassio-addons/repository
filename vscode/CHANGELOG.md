@@ -1,7 +1,10 @@
 ## What’s changed
 
+## 📚 Documentation
+
+- 📚 Documentation cleanup @frenck (#464)
+
 ## ⬆️ Dependency updates
 
-- ⬆️ Bump esphome from 2022.5.0 to 2022.5.1 in /vscode @dependabot (#458)
-- ⬆️ Upgrades keesschollaart.vscode-home-assistant to 1.30.0 @frenck (#459)
-- ⬆️ Upgrades ESPHome.esphome-vscode to 2022.5.3 @frenck (#460)
+- ⬆️ Upgrades Home Assistant CLI to v4.18.0 @frenck (#462)
+- ⬆️ Upgrades keesschollaart.vscode-home-assistant to 1.30.1 @frenck (#463)
