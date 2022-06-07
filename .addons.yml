@@ -29,10 +29,6 @@ addons:
     repository: hassio-addons/addon-chrony
     target: chrony
     image: ghcr.io/hassio-addons/chrony/{arch}
-  esphome:
-    repository: esphome/hassio
-    target: esphome
-    image: esphome/esphome-hassio-{arch}
   example:
     repository: hassio-addons/addon-example
     target: example

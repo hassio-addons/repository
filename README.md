@@ -100,19 +100,6 @@ Simple & Free Wiki Software
 
 [:books: Bookstack add-on documentation][addon-doc-bookstack]
 
-### &#10003; [ESPHome][addon-esphome]
-
-![Latest Version][esphome-version-shield]
-![Supports armhf Architecture][esphome-armhf-shield]
-![Supports armv7 Architecture][esphome-armv7-shield]
-![Supports aarch64 Architecture][esphome-aarch64-shield]
-![Supports amd64 Architecture][esphome-amd64-shield]
-![Supports i386 Architecture][esphome-i386-shield]
-
-DEPRECATED - ESPHome
-
-[:books: ESPHome add-on documentation][addon-doc-esphome]
-
 ### &#10003; [Example][addon-example]
 
 ![Latest Version][example-version-shield]
@@ -572,7 +559,6 @@ on the correct GitHub repository matching the add-on.
 - [Open an issue for the add-on: AirSonos][airsonos-issue]
 - [Open an issue for the add-on: AppDaemon][appdaemon-issue]
 - [Open an issue for the add-on: Bookstack][bookstack-issue]
-- [Open an issue for the add-on: ESPHome][esphome-issue]
 - [Open an issue for the add-on: Example][example-issue]
 - [Open an issue for the add-on: FTP][ftp-issue]
 - [Open an issue for the add-on: Folding@home][foldingathome-issue]
@@ -688,15 +674,6 @@ SOFTWARE.
 [bookstack-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [bookstack-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [bookstack-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
-[addon-esphome]: https://github.com/esphome/home-assistant-addon/tree/v2022.3.1
-[addon-doc-esphome]: https://github.com/esphome/home-assistant-addon/blob/v2022.3.1/README.md
-[esphome-issue]: https://github.com/esphome/home-assistant-addon/issues
-[esphome-version-shield]: https://img.shields.io/badge/version-v2022.3.1-blue.svg
-[esphome-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
-[esphome-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
-[esphome-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
-[esphome-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
-[esphome-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [addon-example]: https://github.com/hassio-addons/addon-example/tree/v4.5.0
 [addon-doc-example]: https://github.com/hassio-addons/addon-example/blob/v4.5.0/README.md
 [example-issue]: https://github.com/hassio-addons/addon-example/issues
