@@ -1,4 +1,3 @@
-apparmor: false
 arch:
 - aarch64
 - amd64
@@ -8,9 +7,6 @@ arch:
 auth_api: true
 codenotary: codenotary@frenck.dev
 description: Flow-based programming for the Internet of Things
-devices:
-- /dev/mem
-gpio: true
 hassio_api: true
 hassio_role: manager
 homeassistant: 2021.3.0
@@ -47,8 +43,6 @@ ports:
   80/tcp: 1880
 ports_description:
   80/tcp: Web interface
-privileged:
-- SYS_RAWIO
 schema:
   certfile: str
   credential_secret: password
@@ -74,4 +68,4 @@ schema:
 slug: nodered
 uart: true
 url: https://github.com/hassio-addons/addon-node-red
-version: 11.1.2
+version: 12.0.0

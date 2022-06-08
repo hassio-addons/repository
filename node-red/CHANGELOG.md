@@ -1,12 +1,47 @@
 ## What’s changed
 
+This is a major release of the add-on, with some breaking changes, fixes, and major upgrades to its dependencies.
+
+## 🚨 Breaking changes
+
+The following Node-RED where previously built-in, and have been removed:
+
+- `node-red-contrib-alexa-home-skill`
+- `node-red-contrib-looptimer`
+- `node-red-contrib-statistics`
+- `node-red-contrib-stoptimer`
+- `node-red-contrib-timecheck`
+- `node-red-contrib-traffic`
+- `node-red-node-msgpack`
+- `node-red-node-sentiment`
+
+They have been removed because of their low usage/installs and most
+of them have not been maintained for years now. If you like to keep any of those, you can add/install them again yourself.
+
+Additionally, the Raspberry Pi GPIO support has been removed.
+It has always been flaky at best, and in many cases not working at all.
+Besides, it generated errors/warnings when using the add-on on a device that is not a Raspberry Pi.
+Removing it reduces the add-on size by ~20% and improves the security rating of the add-on.
+
+- 🔥 Cleanup built-in nodes @frenck (#1359)
+- 🔥 Remove GPIO support @frenck (#1360)
+
+## 🐛 Bug fixes
+
+- 🚑 Fix serial port binding issue @frenck (#1357)
+
+## 🧰 Maintenance
+
+- 🧹 Clean up another 5Mb of cache files @frenck (#1361)
+
+## 📚 Documentation
+
+- 📚 Minor typo for add repo link @sinclairpaul (#1343)
+- 📚 Use new My Home Assistant link format @frenck (#1358)
+
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades git to 2.34.2-r0 @frenck (#1337)
-- ⬆️ Upgrades nodejs to 16.14.2-r0 @frenck (#1338)
-- Bump node-red-contrib-interval-length from 0.0.5 to 0.0.6 in /node-red @dependabot (#1332)
-- Bump node-red-node-pi-gpio from 2.0.2 to 2.0.3 in /node-red @dependabot (#1329)
-- Bump @node-red-contrib-themes/theme-collection from 2.2.0 to 2.2.3 in /node-red @dependabot (#1334)
-- ⬆️ Upgrades nginx to 1.20.2-r1 @frenck (#1339)
-- Bump node-red-node-email from 1.15.0 to 1.15.1 in /node-red @dependabot (#1333)
-- ⬆️ Upgrades add-on base image to 11.1.2 @frenck (#1340)
+- Bump node-red-contrib-persistent-fsm from 1.1.0 to 1.2.0 in /node-red @dependabot (#1344)
+- Bump node-red-dashboard from 3.1.6 to 3.1.7 in /node-red @dependabot (#1345)
+- Bump node-red-node-feedparser from 0.2.2 to 0.3.0 in /node-red @dependabot (#1355)
+- ⬆️ Upgrades add-on base image to 12.0.0 @frenck (#1356)
