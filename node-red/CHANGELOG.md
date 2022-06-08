@@ -3,6 +3,7 @@
 This is a major release of the add-on, with some breaking changes, fixes, and major upgrades to its dependencies.
 
 v12.0.1 additionally cleans up a node that was missed (thanks, @regevbr for spotting that).
+v12.0.2 fixes a possible issue during startup in case of connection problems.
 
 ## 🚨 Breaking changes
 
@@ -31,6 +32,7 @@ Removing it reduces the add-on size by ~20% and improves the security rating of 
 ## 🐛 Bug fixes
 
 - 🚑 Fix serial port binding issue @frenck (#1357)
+- 🚑 Ensure add-on starts without internet @frenck (#1368)
 
 ## 🧰 Maintenance
 
