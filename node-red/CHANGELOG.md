@@ -2,6 +2,8 @@
 
 This is a major release of the add-on, with some breaking changes, fixes, and major upgrades to its dependencies.
 
+v12.0.1 additionally cleans up a node that was missed (thanks, @regevbr for spotting that).
+
 ## 🚨 Breaking changes
 
 The following Node-RED where previously built-in, and have been removed:
@@ -33,6 +35,7 @@ Removing it reduces the add-on size by ~20% and improves the security rating of 
 ## 🧰 Maintenance
 
 - 🧹 Clean up another 5Mb of cache files @frenck (#1361)
+- 🧹 Clean up gpio node @regevbr (#1362)
 
 ## 📚 Documentation
 
