@@ -1,13 +1,13 @@
 ## What’s changed
 
-## 🚀 Enhancements
+## 🐛 Bug fixes
 
-- 🔒 Sign add-on with Codenotary Community Attestation Service (CAS) @frenck (#115)
+- 🚑 Fix s6 services @frenck (#119)
 
 ## 📚 Documentation
 
-- 📚 Add My buttons to documentation @frenck (#116)
+- 📚 Use new My Home Assistant link format @frenck (#118)
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades add-on base image to 11.1.0 @frenck (#114)
+- ⬆️ Upgrades add-on base image to 12.0.0 @frenck (#117)
