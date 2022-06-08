@@ -2,9 +2,9 @@
 
 ## 📚 Documentation
 
-- 📚 Fix broken link in documentation @OldShaterhan (#310)
+- 📚 Use new My Home Assistant link format @frenck (#322)
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades AdGuard Home to v0.107.6 @AlecRust (#311)
-- ⬆️ Upgrades add-on base image to 11.1.2 @frenck (#314)
+- ⬆️ Upgrades add-on base image to 12.0.0 @frenck (#321)
+- ⬆️ Upgrades AdGuard Home to v0.107.7 @AlecRust (#320)
