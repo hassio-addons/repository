@@ -10,6 +10,7 @@ description: ERP beyond your fridge! A groceries & household management solution
 image: ghcr.io/hassio-addons/grocy/{arch}
 ingress: true
 ingress_stream: true
+init: false
 map:
 - ssl
 name: Grocy
@@ -76,4 +77,4 @@ schema:
     stock_product_opened_tracking: bool
 slug: grocy
 url: https://github.com/hassio-addons/addon-grocy
-version: 0.17.0
+version: 0.18.0

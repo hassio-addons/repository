@@ -34,10 +34,10 @@ management solution for your home, delivering features like:
 [github-sponsors]: https://github.com/sponsors/frenck
 [grocy-demo]: https://demo-en.grocy.info
 [grocy]: https://grocy.info/
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2021.svg
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2022.svg
 [patreon-shield]: https://frenck.dev/wp-content/uploads/2019/12/patreon.png
 [patreon]: https://www.patreon.com/frenck
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
-[release-shield]: https://img.shields.io/badge/version-v0.17.0-blue.svg
-[release]: https://github.com/hassio-addons/addon-grocy/tree/v0.17.0
+[release-shield]: https://img.shields.io/badge/version-v0.18.0-blue.svg
+[release]: https://github.com/hassio-addons/addon-grocy/tree/v0.18.0
 [screenshot]: https://github.com/hassio-addons/addon-grocy/raw/main/images/screenshot.gif
