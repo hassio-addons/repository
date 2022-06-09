@@ -1,15 +1,14 @@
 ## What’s changed
 
-## 🚀 Enhancements
+This release updates Python to 3.10!
 
-- 🔨 Rename add-on to just 'AppDaemon' @frenck (#194)
-- 🔒 Sign add-on with Codenotary Community Attestation Service (CAS) @frenck (#192)
+⚠️ Please note/be aware, that this may influence your scripts.
+Python 3.10 release notes: <https://docs.python.org/3/whatsnew/3.10.html>
 
 ## 📚 Documentation
 
-- 📚 Add My buttons to documentation @frenck (#193)
+- 📚 Use new My Home Assistant link format @frenck (#199)
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades add-on base image to 11.1.0 @frenck (#191)
-
+- ⬆️ Upgrades add-on base image to 12.0.0 @frenck (#198)
