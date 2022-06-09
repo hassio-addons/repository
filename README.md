@@ -827,10 +827,10 @@ SOFTWARE.
 [ssh-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [ssh-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [ssh-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
-[addon-spotify]: https://github.com/hassio-addons/addon-spotify-connect/tree/v0.11.0
-[addon-doc-spotify]: https://github.com/hassio-addons/addon-spotify-connect/blob/v0.11.0/README.md
+[addon-spotify]: https://github.com/hassio-addons/addon-spotify-connect/tree/v0.12.0
+[addon-doc-spotify]: https://github.com/hassio-addons/addon-spotify-connect/blob/v0.12.0/README.md
 [spotify-issue]: https://github.com/hassio-addons/addon-spotify-connect/issues
-[spotify-version-shield]: https://img.shields.io/badge/version-v0.11.0-blue.svg
+[spotify-version-shield]: https://img.shields.io/badge/version-v0.12.0-blue.svg
 [spotify-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [spotify-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [spotify-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
