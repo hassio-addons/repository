@@ -1,10 +1,17 @@
 ## What’s changed
 
-## ✨ New features
+## 🐛 Bug fixes
 
-- Add optional configuration for database location @frenck (#207)
+- 🚑 Fix Python version in container init script @frenck (#211)
+
+## 🧰 Maintenance
+
+- Replace and/or remove refrences to ludeeus @ludeeus (#208)
+
+## 📚 Documentation
+
+- 📚 Use new My Home Assistant link format @frenck (#210)
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades nginx to 1.20.2-r1 @frenck (#205)
-- ⬆️ Upgrades add-on base image to 11.1.2 @frenck (#206)
+- ⬆️ Upgrades add-on base image to 12.0.0 @frenck (#209)

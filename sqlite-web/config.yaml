@@ -9,6 +9,7 @@ codenotary: codenotary@frenck.dev
 description: Explore your SQLite database
 image: ghcr.io/hassio-addons/sqlite-web/{arch}
 ingress: true
+init: false
 map:
 - config:rw
 name: SQLite Web
@@ -17,4 +18,4 @@ schema:
   database: str?
 slug: sqlite-web
 url: https://github.com/hassio-addons/addon-sqlite-web/tree/main/README.md
-version: 3.4.0
+version: 3.5.0
