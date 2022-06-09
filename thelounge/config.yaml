@@ -9,6 +9,7 @@ description: A self-hosted web IRC client
 image: ghcr.io/hassio-addons/thelounge/{arch}
 ingress: true
 ingress_stream: true
+init: false
 map:
 - ssl
 name: The Lounge
@@ -37,4 +38,4 @@ schema:
   - str
 slug: thelounge
 url: https://github.com/hassio-addons/addon-thelounge
-version: 0.14.1
+version: 0.15.0
