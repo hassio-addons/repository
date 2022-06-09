@@ -1,5 +1,9 @@
 ## What’s changed
 
+## 📚 Documentation
+
+- 📚 Use new My Home Assistant link format @frenck (#249)
+
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades Chronograf to 1.9.4 @frenck (#245)
+- ⬆️ Upgrades add-on base image to 6.0.0 @frenck (#248)
