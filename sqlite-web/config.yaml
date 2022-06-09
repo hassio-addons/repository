@@ -12,10 +12,11 @@ ingress: true
 init: false
 map:
 - config:rw
+- share:rw
 name: SQLite Web
 panel_icon: mdi:database
 schema:
   database: str?
 slug: sqlite-web
 url: https://github.com/hassio-addons/addon-sqlite-web/tree/main/README.md
-version: 3.5.0
+version: 3.6.0
