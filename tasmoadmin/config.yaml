@@ -27,5 +27,5 @@ schema:
 slug: sonweb
 startup: system
 url: https://github.com/hassio-addons/addon-tasmoadmin
-version: 0.17.0
+version: 0.18.0
 webui: '[PROTO:ssl]://[HOST]:[PORT:9541]'
