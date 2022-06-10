@@ -4,8 +4,6 @@
 
 [![Discord][discord-shield]][discord] [![Community Forum][forum-shield]][forum]
 
-[![Buy me a coffee][buymeacoffee-shield]][buymeacoffee]
-
 Monitoring and tracking tool for Plex Media Server.
 
 ![Screenshot][screenshot]
@@ -21,14 +19,12 @@ who watched it, when and where they watched it, and how it was watched.
 All statistics are presented in a nice and clean interface with many tables and
 graphs, which makes it easy to brag about your server to everyone else.
 
-[buymeacoffee-shield]: https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-2.svg
-[buymeacoffee]: https://www.buymeacoffee.com/ludeeus
 [discord-shield]: https://img.shields.io/discord/330944238910963714.svg
 [discord]: https://discord.gg/c5DvZ4e
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
-[forum]: https://community.home-assistant.io/t/home-assistant-community-add-on-tautulli/68745?u=ludeeus
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2021.svg
+[forum]: https://community.home-assistant.io/t/home-assistant-community-add-on-tautulli/68745
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2022.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[release-shield]: https://img.shields.io/badge/version-v2.3.0-blue.svg
-[release]: https://github.com/hassio-addons/addon-tautulli/tree/v2.3.0
+[release-shield]: https://img.shields.io/badge/version-v3.0.0-blue.svg
+[release]: https://github.com/hassio-addons/addon-tautulli/tree/v3.0.0
 [screenshot]: https://github.com/hassio-addons/addon-tautulli/raw/main/images/screenshot.png

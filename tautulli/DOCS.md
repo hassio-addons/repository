@@ -13,8 +13,12 @@ which makes it easy to brag about your server to everyone else.
 The installation of this add-on is pretty straightforward and not different in
 comparison to installing any other Home Assistant add-on.
 
-1. Search for the "Tautulli" add-on in the Supervisor add-on store
-   and install it.
+1. Click the Home Assistant My button below to open the add-on on your Home
+   Assistant instance.
+
+   [![Open this add-on in your Home Assistant instance.][addon-badge]][addon]
+
+1. Click the "Install" button to install the add-on.
 1. Start the "Tautulli" add-on
 1. Check the logs of the "Tautulli" add-on to see if everything went well.
 1. Click "OPEN WEB UI" to open the Tautulli website and follow the wizard.
@@ -30,14 +34,7 @@ Example add-on configuration:
 
 ```yaml
 log_level: info
-username: MarryPoppins
-password: Supercalifragilisticexpialidocious
-ssl: true
-certfile: fullchain.pem
-keyfile: privkey.pem
 ```
-
-**Note**: _This is just an example, don't copy and past it! Create your own!_
 
 ### Option: `log_level`
 
@@ -57,46 +54,6 @@ more severe level, e.g., `debug` also shows `info` messages. By default,
 the `log_level` is set to `info`, which is the recommended setting unless
 you are troubleshooting.
 
-### Option: `username`
-
-Username for authenticating with the Tautulli interface.
-
-Setting a username/password can be added as an extra line of defense,
-to prevent users from using your installation for themselves.
-
-This option is HIGHLY recommended in case you expose this add-on to the outside
-world.
-
-### Option: `password`
-
-Password for authenticating with Tautulli interface.
-
-### Option: `ssl`
-
-Enables/Disables SSL (HTTPS) on the web interface of Tautulli. Set it `true`
-to enable it, `false` otherwise.
-
-### Option: `certfile`
-
-The certificate file to use for SSL.
-
-**Note**: _The file MUST be stored in `/ssl/`, which is the default_
-
-### Option: `keyfile`
-
-The private key file to use for SSL.
-
-**Note**: _The file MUST be stored in `/ssl/`, which is the default_
-
-### Option: `leave_front_door_open`
-
-Adding this option to the add-on configuration allows you to disable
-authentication on the add-on by setting it to `true` and leaving the
-username and password empty.
-
-**Note**: _We STRONGLY suggest, not to use this, even if this add-on is
-only exposed to your internal network. USE AT YOUR OWN RISK!_
-
 ## Embedding into Home Assistant
 
 It is possible to embed Tautulli directly into Home Assistant, allowing you to
@@ -113,17 +70,6 @@ panel_iframe:
     icon: mdi:filmstrip
     url: http://addres.to.your.home.assistant:8181
 ```
-
-## Use an existing database
-
-**NB!: This is considered advanced usage.**
-
-If you want to import an existing Tautulli database to this addon, you first
-need to extract the `tautulli.db` file from your existing installation.
-Place this file in this directory `/share/tautulli`, you can use samba,
-Cloud9 or any other method to move it there.
-You need to restart the add-on for it to start using this database.
-_if the directory `/share/tautulli` does not exist you need to create it._
 
 ## Changelog & Releases
 
@@ -164,7 +110,8 @@ check [the contributor's page][contributors].
 
 MIT License
 
-Copyright (c) 2018-2021 Joakim Sørensen
+- Copyright (c) 2018-2019 Joakim Sørensen
+- Copyright (c) 2019-2022 Franck Nijhof
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -184,10 +131,12 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
+[addon-badge]: https://my.home-assistant.io/badges/supervisor_addon.svg
+[addon]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=a0d7b954_tautulli&repository_url=https%3A%2F%2Fgithub.com%2Fhassio-addons%2Frepository
 [contributors]: https://github.com/hassio-addons/addon-tautulli/graphs/contributors
 [discord-ha]: https://discord.gg/c5DvZ4e
 [discord]: https://discord.me/hassioaddons
-[forum]: https://community.home-assistant.io/t/home-assistant-community-add-on-tautulli/68745?u=ludeeus
+[forum]: https://community.home-assistant.io/t/home-assistant-community-add-on-tautulli/68745
 [issue]: https://github.com/hassio-addons/addon-tautulli/issues
 [ludeeus]: https://github.com/ludeeus
 [reddit]: https://reddit.com/r/homeassistant
