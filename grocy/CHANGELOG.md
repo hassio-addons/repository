@@ -1,5 +1,6 @@
 ## What’s changed
 
-## 🐛 Bug fixes
+## ⬆️ Dependency updates
 
-- 🚑 Fix Grocy startup issues @frenck (#301)
+- ⬆️ Upgrades php8 to 8.0.20-r0 @frenck (#303)
+- ⬆️ Upgrades Grocy to 3.3.1 @frenck (#302)
