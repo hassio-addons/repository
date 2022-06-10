@@ -1,0 +1,43 @@
+arch:
+- aarch64
+- amd64
+- armhf
+- armv7
+- i386
+codenotary: codenotary@frenck.dev
+description: Simple & Free Wiki Software
+image: ghcr.io/hassio-addons/bookstack/{arch}
+init: false
+map:
+- ssl
+name: Bookstack
+options:
+  certfile: fullchain.pem
+  envvars: []
+  keyfile: privkey.pem
+  ssl: false
+ports:
+  80/tcp: 2665
+ports_description:
+  80/tcp: Web interface
+schema:
+  appkey: str?
+  certfile: str
+  envvars:
+  - name: str
+    value: str
+  keyfile: str
+  log_level: list(trace|debug|info|notice|warning|error|fatal)?
+  remote_mysql_database: str?
+  remote_mysql_host: str?
+  remote_mysql_password: password?
+  remote_mysql_port: int?
+  remote_mysql_username: str?
+  show_appkey: bool?
+  ssl: bool
+services:
+- mysql:want
+slug: bookstack
+url: https://github.com/hassio-addons/addon-bookstack
+version: 1.2.0
+webui: '[PROTO:ssl]://[HOST]:[PORT:80]'

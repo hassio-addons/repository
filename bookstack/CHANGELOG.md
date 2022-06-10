@@ -1,14 +1,10 @@
 ## What’s changed
 
-Updates PHP to v8, along with base image updates.  Please ensure to backup the addon and the database prior to upgrade.
-Fixes issue with QR Code generation allowing MFA setup to work correctly.
+## 🚀 Enhancements
 
-## 🐛 Bug fixes
-
-- 🚑 Add php-xmlwriter for QR Code generation @sinclairpaul (#179)
+- 🔒 Sign add-on with Codenotary Community Attestation Service (CAS) @frenck (#181)
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update image, PHP and dependencies @sinclairpaul (#178)
-- 🚑 Add php-xmlwriter for QR Code generation @sinclairpaul (#179)
-- ⬆️ Update Bookstack to v22.04.1 @sinclairpaul (#180)
+- ⬆️ Upgrades add-on base image to 12.0.0 @frenck (#184)
+- ⬆️ Update Bookstack to v22.04.2 @sinclairpaul (#185)
