@@ -1,14 +1,20 @@
 ## What’s changed
 
-## 🚀 Enhancements
+## 🚨 Breaking changes
 
-- 🔒 Sign add-on with Codenotary Community Attestation Service (CAS) @frenck (#149)
-- Exclude redundant directories from backup @regevbr (#146)
+This release drops support for 32-bits (i386). This add-on is based on Ubuntu Linux, which no longer supports this.
+Therefore, this add-on cannot support it either.
+
+Webtools has been dropped, as the project has been discontinued.
+
+- ⬆️ Upgrades add-on base image to 8.0.0 @frenck (#153)
+- 🔥 Drop Webtools @frenck (#155)
 
 ## 📚 Documentation
 
-- 📚 Add My buttons to documentation @frenck (#150)
+- 📚 Use new My Home Assistant link format @frenck (#154)
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades Plex Media Server to 1.25.7.5604 @regevbr (#148)
+- ⬆️ Upgrades add-on base image to 8.0.0 @frenck (#153)
+- ⬆️ Upgrades Plex Media Server to 1.26.2.5797 @frenck (#156)

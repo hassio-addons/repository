@@ -9,11 +9,6 @@ configuration:
     description: >-
       To allow your server to sign-in to your Plex account, it needs a so-called
       "Claim Code". In order to get your code surf to: https://www.plex.tv/claim
-  webtools:
-    name: WebTools
-    description: >-
-      Install and enable the WebTools plug-in that contains a collection of
-      tools for the Plex Media Server.
 network:
   3005/tcp: Plex Home Theater via Plex Companion
   8324/tcp: Plex for Roku via Plex Companion
@@ -23,5 +18,3 @@ network:
   32413/udp: GDM network discovery
   32414/udp: GDM network discovery
   32469/tcp: Plex DLNA Server
-  33400/tcp: WebTools
-  33443/tcp: WebTools

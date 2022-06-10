@@ -23,14 +23,8 @@ comparison to installing any other Home Assistant add-on.
 1. Check the logs of the "Plex Media Server" to see if everything went well.
 1. Login to the Plex admin interface and complete the setup process.
 
-Home Assistant, by default, ships with the Community Add-ons store installed.
-However, if it is missing (for any reason), you can add it by clicking the
-button My button below.
-
-[![Add repository to your Home Assitant instance.][repository-badge]][repository]
-
-**NOTE**: When adding media locations, please use `/share` as the base
-directory.
+**NOTE**: When adding media locations, please use `/share` and `/media`
+as the base directories.
 
 ## Configuration
 
@@ -41,7 +35,6 @@ Example add-on configuration:
 ```yaml
 log_level: info
 claim_code: claim-cAMrqFrenckFU4x445Tn
-webtools: true
 ```
 
 **Note**: _This is just an example, don't copy and paste it! Create your own!_
@@ -74,24 +67,6 @@ In order to get your code surf to <https://www.plex.tv/claim>.
 
 This code is only used once by the add-on. As soon as the
 server is successfully authenticated with Plex, the code may be removed.
-
-### Option: `webtools`
-
-[WebTools][webtools] is a plug-in that contains a collection of tools
-for the Plex Media Server.
-
-Some of the tools:
-
-- Manage Subs (Subtitles)
-- Logs (PMS)
-- UAS (Unsupported App Store)
-- FindMedia
-- PlayLists
-- TechInfo
-
-The plugin also allows you to add and install custom plugins.
-
-Set this variable to `true` to enable it.
 
 ## Solving connection issues with Plex
 
@@ -198,7 +173,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 [addon-badge]: https://my.home-assistant.io/badges/supervisor_addon.svg
-[addon]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=a0d7b954_plex
+[addon]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=a0d7b954_plex&repository_url=https%3A%2F%2Fgithub.com%2Fhassio-addons%2Frepository
 [contributors]: https://github.com/hassio-addons/addon-plex/graphs/contributors
 [discord-ha]: https://discord.gg/c5DvZ4e
 [discord]: https://discord.me/hassioaddons
@@ -207,7 +182,4 @@ SOFTWARE.
 [issue]: https://github.com/hassio-addons/addon-plex/issues
 [reddit]: https://reddit.com/r/homeassistant
 [releases]: https://github.com/hassio-addons/addon-plex/releases
-[repository-badge]: https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg
-[repository]: https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fhassio-addons%2Frepository
 [semver]: http://semver.org/spec/v2.0.0.htm
-[webtools]: https://github.com/ukdtom/WebTools.bundle/wiki

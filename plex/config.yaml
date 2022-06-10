@@ -2,7 +2,6 @@ arch:
 - aarch64
 - amd64
 - armv7
-- i386
 backup_exclude:
 - '**/Plex Media Server/Cache/**'
 - '**/Plex Media Server/Plug-in Support/Caches/**'
@@ -13,6 +12,7 @@ codenotary: codenotary@frenck.dev
 description: Recorded media, live TV, online news, and podcasts ready to stream.
 hassio_api: true
 image: ghcr.io/hassio-addons/plex/{arch}
+init: false
 map:
 - media:rw
 - share:rw
@@ -20,7 +20,6 @@ map:
 name: Plex Media Server
 options:
   claim_code: ''
-  webtools: false
 ports:
   3005/tcp: 3005
   32400/tcp: 32400
@@ -29,8 +28,6 @@ ports:
   32413/udp: 32413
   32414/udp: 32414
   32469/tcp: 32469
-  33400/tcp: 33400
-  33443/tcp: 33443
   8324/tcp: 8324
 ports_description:
   3005/tcp: Plex Home Theater via Plex Companion
@@ -40,15 +37,12 @@ ports_description:
   32413/udp: GDM network discovery
   32414/udp: GDM network discovery
   32469/tcp: Plex DLNA Server
-  33400/tcp: WebTools
-  33443/tcp: WebTools
   8324/tcp: Plex for Roku via Plex Companion
 schema:
   claim_code: str
   log_level: list(trace|debug|info|notice|warning|error|fatal)?
-  webtools: bool
 slug: plex
 startup: services
 url: https://github.com/hassio-addons/addon-plex
-version: 2.8.0
+version: 3.0.0
 webui: http://[HOST]:[PORT:32400]/web
