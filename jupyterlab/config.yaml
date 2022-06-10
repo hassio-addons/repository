@@ -7,6 +7,7 @@ description: Create documents containing live code, equations, visualizations, a
 homeassistant_api: true
 image: ghcr.io/hassio-addons/jupyterlab/{arch}
 ingress: true
+init: false
 map:
 - config:rw
 - share:rw
@@ -25,4 +26,4 @@ schema:
   - str
 slug: jupyterlablite
 url: https://github.com/hassio-addons/addon-jupyterlab
-version: 0.7.0
+version: 0.8.0
