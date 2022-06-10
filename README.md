@@ -808,7 +808,7 @@ SOFTWARE.
 [plex-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [plex-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [plex-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
-[plex-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
+[plex-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [addon-sqlite-web]: https://github.com/hassio-addons/addon-sqlite-web/tree/v3.6.0
 [addon-doc-sqlite-web]: https://github.com/hassio-addons/addon-sqlite-web/blob/v3.6.0/README.md
 [sqlite-web-issue]: https://github.com/hassio-addons/addon-sqlite-web/issues
