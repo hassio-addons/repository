@@ -408,7 +408,7 @@ A self-hosted web IRC client
 ![Supports amd64 Architecture][tor-amd64-shield]
 ![Supports i386 Architecture][tor-i386-shield]
 
-Protect your privacy and access Home Assistant via Tor.
+Protect your privacy and access Home Assistant via Tor
 
 [:books: Tor add-on documentation][addon-doc-tor]
 
