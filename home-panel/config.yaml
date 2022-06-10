@@ -30,4 +30,4 @@ schema:
   ssl: bool
 slug: home-panel
 url: https://github.com/hassio-addons/addon-home-panel
-version: 2.4.0
+version: 2.5.0
