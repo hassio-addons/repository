@@ -1,5 +1,9 @@
 ## What’s changed
 
+## 📚 Documentation
+
+- 📚 Use new My Home Assistant link format @frenck (#368)
+
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades UniFi Network Application to 7.1.66 @ZeroHour (#364)
+- ⬆️ Upgrades add-on base image to 8.0.0 @frenck (#367)
