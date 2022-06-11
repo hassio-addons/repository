@@ -10,6 +10,7 @@ hassio_api: true
 hassio_role: manager
 homeassistant_api: true
 image: ghcr.io/hassio-addons/nut/{arch}
+init: false
 name: Network UPS Tools
 options:
   devices:
@@ -62,4 +63,4 @@ uart: true
 udev: true
 url: https://github.com/hassio-addons/addon-nut
 usb: true
-version: 0.10.0
+version: 0.11.0

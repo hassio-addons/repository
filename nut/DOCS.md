@@ -37,12 +37,6 @@ comparison to installing any other Home Assistant add-on.
 1. Check the logs of the "Network UPS Tools" add-on to see if everything went well.
 1. Configure the [NUT Integration][nut-ha-docs].
 
-Home Assistant, by default, ships with the Community Add-ons store installed.
-However, if it is missing (for any reason), you can add it by clicking the
-button My button below.
-
-[![Add repository to your Home Assitant instance.][repository-badge]][repository]
-
 ## Configuration
 
 The add-on can be used with the basic configuration, with other options for more
@@ -361,7 +355,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 [addon-badge]: https://my.home-assistant.io/badges/supervisor_addon.svg
-[addon]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=a0d7b954_nut
+[addon]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=a0d7b954_nut&repository_url=https%3A%2F%2Fgithub.com%2Fhassio-addons%2Frepository
 [contributors]: https://github.com/hassio-addons/addon-nut/graphs/contributors
 [critical-notif]: https://companion.home-assistant.io/docs/notifications/critical-notifications
 [dale3h]: https://github.com/dale3h
@@ -380,8 +374,6 @@ SOFTWARE.
 [nutupsdrv]: https://networkupstools.org/docs/man/nutupsdrv.html
 [reddit]: https://reddit.com/r/homeassistant
 [releases]: https://github.com/hassio-addons/addon-nut/releases
-[repository-badge]: https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg
-[repository]: https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fhassio-addons%2Frepository
 [semver]: https://semver.org/spec/v2.0.0
 [sleep]: https://linux.die.net/man/1/sleep
 [ups-conf]: https://networkupstools.org/docs/man/ups.conf.html
