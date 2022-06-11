@@ -8,6 +8,7 @@ image: ghcr.io/hassio-addons/grafana/{arch}
 ingress: true
 ingress_port: 1337
 ingress_stream: true
+init: false
 map:
 - config
 - ssl
@@ -38,5 +39,5 @@ schema:
 slug: grafana
 startup: services
 url: https://github.com/hassio-addons/addon-grafana
-version: 7.5.2
+version: 7.6.0
 watchdog: http://[HOST]:1337/api/health
