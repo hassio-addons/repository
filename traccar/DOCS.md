@@ -32,12 +32,6 @@ comparison to installing any other Home Assistant add-on.
 1. Click the "OPEN WEB UI" button and log in using `admin`/`admin`.
 1. Be sure to change the username, email, and password!
 
-Home Assistant, by default, ships with the Community Add-ons store installed.
-However, if it is missing (for any reason), you can add it by clicking the
-button My button below.
-
-[![Add repository to your Home Assitant instance.][repository-badge]][repository]
-
 ## Configuration
 
 **Note**: _Remember to restart the add-on when the configuration is changed._
@@ -182,7 +176,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 [addon-badge]: https://my.home-assistant.io/badges/supervisor_addon.svg
-[addon]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=a0d7b954_traccar
+[addon]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=a0d7b954_traccar&repository_url=https%3A%2F%2Fgithub.com%2Fhassio-addons%2Frepository
 [contributors]: https://github.com/hassio-addons/addon-traccar/graphs/contributors
 [discord-ha]: https://discord.gg/c5DvZ4e
 [discord]: https://discord.me/hassioaddons
@@ -192,7 +186,5 @@ SOFTWARE.
 [mariadb]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=core_mariadb
 [reddit]: https://reddit.com/r/homeassistant
 [releases]: https://github.com/hassio-addons/addon-traccar/releases
-[repository-badge]: https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg
-[repository]: https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fhassio-addons%2Frepository
 [semver]: http://semver.org/spec/v2.0.0.htm
 [traccar]: https://www.traccar.org

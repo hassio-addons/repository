@@ -5,8 +5,6 @@ codenotary: codenotary@frenck.dev
 description: Modern GPS Tracking Platform
 host_network: true
 image: ghcr.io/hassio-addons/traccar/{arch}
-ingress: true
-ingress_port: 0
 init: false
 map:
 - config:rw
@@ -15,12 +13,12 @@ name: Traccar
 options:
   certfile: fullchain.pem
   keyfile: privkey.pem
-  ssl: true
+  ssl: false
 panel_icon: mdi:car-connected
 ports:
-  80/tcp: null
+  80/tcp: 8082
 ports_description:
-  80/tcp: Web interface (Not required for Ingress)
+  80/tcp: Web interface
 schema:
   certfile: str
   keyfile: str
@@ -31,4 +29,5 @@ services:
 slug: traccar
 startup: services
 url: https://github.com/hassio-addons/addon-traccar
-version: 0.16.0
+version: 0.17.0
+webui: '[PROTO:ssl]://[HOST]:[PORT:80]'

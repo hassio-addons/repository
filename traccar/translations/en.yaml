@@ -19,4 +19,4 @@ configuration:
       The private key file to use for SSL. Note that this file must
       exist in the /ssl/ folder.
 network:
-  80/tcp: Web interface (Not required for Ingress)
+  80/tcp: Web interface
