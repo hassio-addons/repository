@@ -137,6 +137,10 @@ addons:
     repository: hassio-addons/addon-unifi
     target: unifi
     image: ghcr.io/hassio-addons/unifi/{arch}
+  uptime-kuma:
+    repository: hassio-addons/addon-uptime-kuma
+    target: uptime-kuma
+    image: ghcr.io/hassio-addons/uptime-kuma/{arch}
   vscode:
     repository: hassio-addons/addon-vscode
     target: vscode
