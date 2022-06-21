@@ -1,7 +1,11 @@
 ## What’s changed
 
-Although we normally do not ship beta versions; due to a bug in the current stable version that causes the add-on not to function at all, we have no choice.
+## 🐛 Bug fixes
+
+- 🚑 Fix PHP opcache blacklist file @frenck (#246)
+- 🚑 Fix missing multibyte string handling/conversion modules @frenck (#248)
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades TasmoAdmin to v2.0.0-beta6 @frenck (#243)
+- ⬆️ Upgrades TasmoAdmin to v2.0.0-beta8 @frenck (#245)
+- ⬆️ Upgrades TasmoAdmin to v2.0.0-beta9 @frenck (#247)
