@@ -1,10 +1,7 @@
 ## What’s changed
 
-## 📚 Documentation
-
-- 📚 Use new My Home Assistant link format @frenck (#384)
-
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades add-on base image to 12.0.0 @frenck (#382)
-- ⬆️ Upgrades zwavejs2mqtt to v6.12.0 @frenck (#383)
+- ⬆️ Upgrades add-on base image to 12.2.0 @frenck (#389)
+- ⬆️ Upgrades zwavejs2mqtt to 6.13.0 @raman325 (#390)
+- ⬆️ Upgrades nginx to 1.22.0-r1 @frenck (#391)
