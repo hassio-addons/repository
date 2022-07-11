@@ -1,9 +1,10 @@
 ## What’s changed
 
-## 📚 Documentation
+## 🐛 Bug fixes
 
-- 📚 Use new My Home Assistant link format @frenck (#114)
+- Link `python3` to `python` for the `sqlite3` JS module build @sha1sum (#117)
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades add-on base image to 12.0.0 @frenck (#113)
+- ⬆️ Upgrades nginx to 1.22.0-r1 @frenck (#118)
+- ⬆️ Upgrades add-on base image to 12.2.0 @frenck (#119)
