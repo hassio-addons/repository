@@ -167,7 +167,7 @@ order to be able to enable the SFTP capabilities._
 
 #### Option `ssh`: `compatibility_mode`
 
-This SSH add-on focusses on security and has therefore only enabled known
+This SSH add-on focuses on security and has therefore only enabled known
 secure encryption methods. However, some older clients do not support these.
 Setting this option to `true` will enable the original default set of methods,
 allowing those clients to connect.
