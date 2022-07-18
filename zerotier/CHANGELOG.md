@@ -2,4 +2,5 @@
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades ZeroTier One to 1.10.0 @frenck (#151)
+- ⬆️ Upgrades add-on base image to 12.2.1 @frenck (#153)
+- ⬆️ Upgrades ZeroTier One to 1.10.1 @frenck (#154)
