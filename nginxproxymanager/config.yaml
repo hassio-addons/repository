@@ -28,5 +28,5 @@ services:
 - mysql:need
 slug: nginxproxymanager
 url: https://github.com/hassio-addons/addon-nginx-proxy-manager
-version: 0.12.0
+version: 0.12.1
 webui: http://[HOST]:[PORT:81]
