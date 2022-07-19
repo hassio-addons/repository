@@ -1,0 +1,10 @@
+---
+configuration:
+  configuration_file:
+    name: MQTT IO Configuration File
+    description: >-
+      Location of the MQTT IO configuration file.
+  log_level:
+    name: Log level
+    description: >-
+      Controls the level of log details the add-on provides.
