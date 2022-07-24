@@ -114,12 +114,20 @@ option will, eventhough required, be ignored by Node-RED._
 Sets one of the Node-RED themes. Currently available options:
 
 - `default`
+- `aurora`
+- `cobalt2`
 - `dark`
 - `dracula`
+- `espresso-libre`
 - `midnight-red`
+- `monoindustrial`
+- `monokai`
+- `oceanic-next`
 - `oled`
 - `solarized-dark`
 - `solarized-light`
+- `tokyo-night`
+- `zenburn`
 
 ### Option: `http_node`
 

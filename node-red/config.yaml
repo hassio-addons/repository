@@ -64,8 +64,8 @@ schema:
   ssl: bool
   system_packages:
   - str
-  theme: list(default|dark|dracula|midnight-red|oled|solarized-dark|solarized-light)?
+  theme: list(default|aurora|cobalt2|dark|dracula|espresso-libre|midnight-red|monoindustrial|monokai|oceanic-next|oled|solarized-dark|solarized-light|tokyo-night|zenburn)?
 slug: nodered
 uart: true
 url: https://github.com/hassio-addons/addon-node-red
-version: 13.1.0
+version: 13.2.0
