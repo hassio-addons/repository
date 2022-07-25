@@ -2,4 +2,4 @@
 
 ## 🐛 Bug fixes
 
-- Pre-install Adafruit DHT @frenck (#16)
+- Force Adafruit_DHT to build for rpi2 @frenck (#18)
