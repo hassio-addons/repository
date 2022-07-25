@@ -1,3 +1,5 @@
 ## What’s changed
 
-🎉  Initial release 🎉 
+## 🐛 Bug fixes
+
+- Pre-install Adafruit DHT @frenck (#16)
