@@ -16,9 +16,10 @@ comparison to installing any other Home Assistant add-on.
 1. **Ensure your Home Assistant device has a
    [static IP and static external DNS servers!](https://github.com/home-assistant/hassos/blob/dev/Documentation/network.md#static-ip)**
    This is important! You **WILL** end up having issues if you skip this step.
-   - Change this setting in Supervisor:
-     [![Open your Home Assistant instance and show your Supervisor system information.](https://my.home-assistant.io/badges/supervisor_info.svg)](https://my.home-assistant.io/redirect/supervisor_info/)
-     (_Host → IP Address → Change → IPv4 → Static_)
+   - Change this setting in Network:
+     [![Open your Home Assistant instance and manage your systems network configuration.](https://my.home-assistant.io/badges/network.svg)](https://my.home-assistant.io/redirect/network/)
+     (_Settings → System → Network
+     → Configure network interfaces → Your Interface → IPv4 → Static_)
    - Please note, setting a fixed IP in your router is **NOT** static.
 1. Click the Home Assistant My button below to open the add-on on your Home
    Assistant instance.
