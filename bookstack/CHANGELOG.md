@@ -2,9 +2,9 @@
 
 ## 🚀 Enhancements
 
-- 🔒 Sign add-on with Codenotary Community Attestation Service (CAS) @frenck (#181)
+- Reduce add-on image size @frenck (#191)
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades add-on base image to 12.0.0 @frenck (#184)
-- ⬆️ Update Bookstack to v22.04.2 @sinclairpaul (#185)
+- ⬆️ Upgrades add-on base image to 12.2.2 @frenck (#190)
+- ⬆️ Update Bookstack to v22.07.1 @sinclairpaul (#193)
