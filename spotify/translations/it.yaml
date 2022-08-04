@@ -1,0 +1,25 @@
+---
+configuration:
+  log_level:
+    name: Livello Log
+    description: >-
+      Controlla il livello di dettaglio dei log dati dall'add-on.
+  name:
+    name: Nome
+    description: >-
+      Il nome del tuo dispositivo mostrato sui
+      client ufficiali di Spotify.
+  bitrate:
+    name: Bitrate
+    description: >-
+      Il bitrate che Spotify dovrebbe usare. Piú é alto, migliore é la qualitá sonora,
+      tuttavia, l'add-on consumerá piú banda.
+  username:
+    name: Spotify username
+    description: >-
+      Uno username opzionale che puoi usare per accedere al tuo account Spotify Premium.
+      Puó essere utile se hai problemi con l'auto discovery.
+  password:
+    name: Spotify password
+    description: >-
+      La password per accedere al tuo account Spotify Premium.

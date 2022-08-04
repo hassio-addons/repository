@@ -1,9 +1,12 @@
 ## What’s changed
 
-## 🧰 Maintenance
+## 🌎 Translations
 
-- 🧹 Clean up unneeded command line params @frenck (#175)
+- Create it.yaml (italian translation) @WAPEETY (#177)
+- 🌎 Italian translation updates @WAPEETY (#178)
 
-## 📚 Documentation
+## ⬆️ Dependency updates
 
-- 📚 Use new My Home Assistant link format @frenck (#176)
+- ⬆️ Upgrades add-on base image to 12.2.1 @frenck (#181)
+- ⬆️ Upgrades add-on base image to 12.2.2 @frenck (#184)
+- ⬆️ Upgrades librespot to 0.4.2 @frenck (#185)
