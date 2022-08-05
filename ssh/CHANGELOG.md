@@ -1,10 +1,9 @@
 ## What’s changed
 
-## 🧰 Maintenance
+## 🚨 Breaking changes
 
-- Spelling fixes @scop (#416)
+- Remove deprecated `hassio` command @felipecrs (#423)
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Bump yamllint from 1.26.3 to 1.27.1 in /ssh @dependabot (#420)
-- ⬆️ Upgrades add-on base image to 12.2.1 @frenck (#422)
+- ⬆️ Upgrades add-on base image to 12.2.2 @frenck (#427)
