@@ -1,10 +1,8 @@
 ## What’s changed
 
-## ✨ New features
-
-- ✨Add Health Checks @frenck (#1407)
-
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades add-on base image to 12.2.2 @frenck (#1406)
-- ⬆️ Bump node-red-contrib-bigtimer to 2.8.2 @dependabot (#1403)
+- Bump node-red-contrib-modbus to 5.22.0 @dependabot (#1408)
+- Bump node-red-contrib-modbus 5.23.1 @dependabot (#1412)
+- Bump node-red to 3.0.2 @dependabot (#1415)
+- Bump @node-red-contrib-themes/theme-collection to 3.0.2 @dependabot (#1416)
