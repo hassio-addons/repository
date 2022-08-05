@@ -1,9 +1,11 @@
 ## What’s changed
 
+## ✨ New features
+
+- Force disable SSL @frenck (#402)
+
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades add-on base image to 12.2.1 @frenck (#394)
-- ⬆️ Upgrades nodejs to 16.16.0-r0 @frenck (#395)
-- ⬆️ Upgrades zwavejs2mqtt to v6.14.0 @frenck (#396)
-- ⬆️ Upgrades python3-dev to 3.10.5-r0 @frenck (#397)
-- ⬆️ Upgrades zwavejs2mqtt to v6.14.1 @frenck (#398)
+- ⬆️ Upgrades add-on base image to 12.2.2 @frenck (#400)
+- ⬆️ Upgrades zwavejs2mqtt to v6.15.1 @frenck (#401)
+- ⬆️ Upgrades zwavejs2mqtt to v6.15.2 @frenck (#403)
