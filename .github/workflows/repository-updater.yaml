@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 📢 Announce on Discord server
-        uses: sarisia/actions-status-discord@v1.9.0
+        uses: sarisia/actions-status-discord@v1.10.0
         with:
           webhook: ${{ secrets.DISCORD_WEBHOOK }}
           nodetail: true
