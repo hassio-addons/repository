@@ -1,9 +1,6 @@
 ## What’s changed
 
-## 🚨 Breaking changes
-
-- Remove deprecated `hassio` command @felipecrs (#423)
-
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades add-on base image to 12.2.2 @frenck (#427)
+- ⬆️ Upgrades zlib-dev to 1.2.12-r2 @frenck (#428)
+- ⬆️ Upgrades ttyd to 1.7.0 @frenck (#429)
