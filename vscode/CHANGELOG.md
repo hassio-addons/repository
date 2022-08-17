@@ -2,6 +2,6 @@
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Bump esphome from 2022.6.2 to 2022.6.3 @dependabot (#479)
-- ⬆️ Upgrades usernamehw.errorlens to 3.6.0 @frenck (#481)
-- ⬆️ Upgrades lukas-tr.materialdesignicons-intellisense to 4.1.0 @frenck (#482)
+- ⬆️ Upgrades ESPHome from 2022.6.3 to 2022.8.0 @dependabot (#483)
+- ⬆️ Upgrades code-server to 4.5.2 @frenck (#484)
+- ⬆️ Upgrades Home Assistant CLI to v4.19.0 @frenck (#485)
