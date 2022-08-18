@@ -1,5 +1,6 @@
 ## What’s changed
 
-## ✨ New features
+## ⬆️ Dependency updates
 
-- ✨ Give add-on access to share folder @frenck (#213)
+- ⬆️ Upgrades add-on base image to 12.2.1 @frenck (#214)
+- ⬆️ Upgrades add-on base image to 12.2.2 @frenck (#217)
