@@ -2,4 +2,5 @@
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades python3 to 3.10.5-r0 @frenck (#205)
+- ⬆️ Upgrades add-on base image to 12.2.2 @frenck (#208)
+- ⬆️ Upgrades add-on base image to 12.2.3 @frenck (#209)
