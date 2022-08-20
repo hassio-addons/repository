@@ -2,6 +2,5 @@
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades ESPHome from 2022.6.3 to 2022.8.0 @dependabot (#483)
-- ⬆️ Upgrades code-server to 4.5.2 @frenck (#484)
-- ⬆️ Upgrades Home Assistant CLI to v4.19.0 @frenck (#485)
+- ⬆️ Upgrades add-on base image to 6.1.1 @frenck (#486)
+- ⬆️ Upgrades code-server to 4.6.0 @frenck (#487)
