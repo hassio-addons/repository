@@ -2,4 +2,4 @@
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades Vaultwarden to 1.25.2 @frenck (#216)
+- ⬆️ Upgrades add-on base image to 6.1.1 @frenck (#217)
