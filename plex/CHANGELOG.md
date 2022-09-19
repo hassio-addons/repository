@@ -1,7 +1,10 @@
 ## What’s changed
 
+## 🐛 Bug fixes
+
+- Allow re-auth by setting new claim code @frenck (#168)
+
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades Plex Media Server to 1.27.2.5929 @ngseer (#158)
-- ⬆️ Upgrades add-on base image to 8.1.0 @frenck (#163)
-- ⬆️ Upgrades Plex Media Server to 1.28.1.6104 @frenck (#164)
+- ⬆️ Upgrades add-on base image to 8.1.1 @frenck (#166)
+- ⬆️ Upgrades Plex Media Server to 1.28.2.6151 @frenck (#167)
