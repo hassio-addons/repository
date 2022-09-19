@@ -2,5 +2,4 @@
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades add-on base image to 6.1.2 @frenck (#278)
-- ⬆️ Upgrades Grafana to v9.1.5 @QuentinBtd (#275)
+- ⬆️ Upgrades Grafarafana Image Renderer to 3.6.1 @frenck (#279)
