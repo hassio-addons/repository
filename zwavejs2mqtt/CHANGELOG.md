@@ -2,4 +2,5 @@
 
 ## ⬆️ Dependency updates
 
-- Upgrades zwavejs2mqtt to 7.1.0 @doug-hoffman (#411)
+- ⬆️ Upgrades add-on base image to 12.2.4 @frenck (#412)
+- ⬆️ Upgrades zwavejs2mqtt to v7.2.0 @frenck (#413)
