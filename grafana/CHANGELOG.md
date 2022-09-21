@@ -2,4 +2,4 @@
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades Grafarafana Image Renderer to 3.6.1 @frenck (#279)
+- ⬆️ Upgrades Grafana to v9.1.6 @frenck (#280)
