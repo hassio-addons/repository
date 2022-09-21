@@ -490,6 +490,19 @@ Fast, modern, secure VPN tunnel
 
 [:books: WireGuard add-on documentation][addon-doc-wireguard]
 
+### &#10003; [Z-Wave JS UI][addon-zwave-js-ui]
+
+![Latest Version][zwave-js-ui-version-shield]
+![Supports armhf Architecture][zwave-js-ui-armhf-shield]
+![Supports armv7 Architecture][zwave-js-ui-armv7-shield]
+![Supports aarch64 Architecture][zwave-js-ui-aarch64-shield]
+![Supports amd64 Architecture][zwave-js-ui-amd64-shield]
+![Supports i386 Architecture][zwave-js-ui-i386-shield]
+
+Fully configurable Z-Wave JS gateway and control panel
+
+[:books: Z-Wave JS UI add-on documentation][addon-doc-zwave-js-ui]
+
 ### &#10003; [ZeroTier One][addon-zerotier]
 
 ![Latest Version][zerotier-version-shield]
@@ -602,6 +615,7 @@ on the correct GitHub repository matching the add-on.
 - [Open an issue for the add-on: Uptime Kuma][uptime-kuma-issue]
 - [Open an issue for the add-on: Vaultwarden (Bitwarden)][bitwarden-issue]
 - [Open an issue for the add-on: WireGuard][wireguard-issue]
+- [Open an issue for the add-on: Z-Wave JS UI][zwave-js-ui-issue]
 - [Open an issue for the add-on: ZeroTier One][zerotier-issue]
 - [Open an issue for the add-on: chrony][chrony-issue]
 - [Open an issue for the add-on: motionEye][motioneye-issue]
@@ -958,6 +972,15 @@ SOFTWARE.
 [wireguard-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [wireguard-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [wireguard-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
+[addon-zwave-js-ui]: https://github.com/hassio-addons/addon-zwave-js-ui/tree/v1.0.0
+[addon-doc-zwave-js-ui]: https://github.com/hassio-addons/addon-zwave-js-ui/blob/v1.0.0/README.md
+[zwave-js-ui-issue]: https://github.com/hassio-addons/addon-zwave-js-ui/issues
+[zwave-js-ui-version-shield]: https://img.shields.io/badge/version-v1.0.0-blue.svg
+[zwave-js-ui-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[zwave-js-ui-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[zwave-js-ui-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
+[zwave-js-ui-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
+[zwave-js-ui-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [addon-zerotier]: https://github.com/hassio-addons/addon-zerotier/tree/v0.15.1
 [addon-doc-zerotier]: https://github.com/hassio-addons/addon-zerotier/blob/v0.15.1/README.md
 [zerotier-issue]: https://github.com/hassio-addons/addon-zerotier/issues
