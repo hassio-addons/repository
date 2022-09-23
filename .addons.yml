@@ -29,6 +29,10 @@ addons:
     repository: hassio-addons/addon-chrony
     target: chrony
     image: ghcr.io/hassio-addons/chrony/{arch}
+  emqx:
+    repository: hassio-addons/addon-emqx
+    target: emqx
+    image: ghcr.io/hassio-addons/emqx/{arch}
   example:
     repository: hassio-addons/addon-example
     target: example
@@ -161,4 +165,3 @@ addons:
     repository: hassio-addons/addon-zwave-js-ui
     target: zwave-js-ui
     image: ghcr.io/hassio-addons/zwave-js-ui/{arch}
-
