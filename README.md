@@ -100,6 +100,19 @@ Simple & Free Wiki Software
 
 [:books: Bookstack add-on documentation][addon-doc-bookstack]
 
+### &#10003; [EMQX][addon-emqx]
+
+![Latest Version][emqx-version-shield]
+![Supports armhf Architecture][emqx-armhf-shield]
+![Supports armv7 Architecture][emqx-armv7-shield]
+![Supports aarch64 Architecture][emqx-aarch64-shield]
+![Supports amd64 Architecture][emqx-amd64-shield]
+![Supports i386 Architecture][emqx-i386-shield]
+
+The most scalable open-source MQTT broker for IoT. An alternative for the Mosquitto add-on
+
+[:books: EMQX add-on documentation][addon-doc-emqx]
+
 ### &#10003; [Example][addon-example]
 
 ![Latest Version][example-version-shield]
@@ -585,6 +598,7 @@ on the correct GitHub repository matching the add-on.
 - [Open an issue for the add-on: AirSonos][airsonos-issue]
 - [Open an issue for the add-on: AppDaemon][appdaemon-issue]
 - [Open an issue for the add-on: Bookstack][bookstack-issue]
+- [Open an issue for the add-on: EMQX][emqx-issue]
 - [Open an issue for the add-on: Example][example-issue]
 - [Open an issue for the add-on: FTP][ftp-issue]
 - [Open an issue for the add-on: Folding@home][foldingathome-issue]
@@ -702,6 +716,15 @@ SOFTWARE.
 [bookstack-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [bookstack-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [bookstack-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
+[addon-emqx]: https://github.com/hassio-addons/addon-emqx/tree/v0.1.0
+[addon-doc-emqx]: https://github.com/hassio-addons/addon-emqx/blob/v0.1.0/README.md
+[emqx-issue]: https://github.com/hassio-addons/addon-emqx/issues
+[emqx-version-shield]: https://img.shields.io/badge/version-v0.1.0-blue.svg
+[emqx-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[emqx-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[emqx-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
+[emqx-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
+[emqx-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [addon-example]: https://github.com/hassio-addons/addon-example/tree/v5.1.1
 [addon-doc-example]: https://github.com/hassio-addons/addon-example/blob/v5.1.1/README.md
 [example-issue]: https://github.com/hassio-addons/addon-example/issues
