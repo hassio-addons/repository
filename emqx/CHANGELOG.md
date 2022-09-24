@@ -1,3 +1,6 @@
 ## What’s changed
 
-🎉 Initial add-on release!
+## 📚 Documentation
+
+- Add default login credentials @tjorim (#1)
+- Extend documentation based on questions @frenck (#3)

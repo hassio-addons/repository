@@ -9,6 +9,9 @@ The [EMQX MQTT broker][emqx] is an advanced alternative to the Mosquitto MQTT
 broker/add-on that is generally used in Home Assistant. It has a UI
 to configure, manage, and debug your MQTT broker, clients, and traffic.
 
+While EMQX sells their product mainly as a cloud hosted product on their
+website, this add-on runs EMQX in a fully local, self-hosted environment.
+
 ## Installation
 
 The installation of this add-on is pretty straightforward and not different in
@@ -23,8 +26,28 @@ comparison to installing any other Home Assistant add-on.
 1. Start the "EMQX" add-on.
 1. Check the logs of the "EMQX" to see if everything went well.
 1. Open the Web UI.
+1. Log in with the default credentials: username `admin` and password `public`.
+1. Be sure to first set up authentication in for your MQTT client, but setting
+   up an authentication method in the EMQX web UI under "Access Control" ->
+   "Authentication".
+1. Read the step above again and **make sure** you have set up authetication.
+
+_Notes:_
+
+- When configuring Home Assistant, Zigbee2MQTT or any other MQTT application
+  or client on your Home Assistant machine to connect to eMQX, use
+  `homeassistant` or `a0d7b954-emqx` as the broker/hostname to connect to.
+  In some cases, just `localhost` will work as well.
+- When connecting external devices to your EMQX add-on, use the IP address or
+  hostname of your Home Assistant instance as the broker/hostname to connect to.
 
 ## Configuration
+
+You most likely don't need these configuration options. Almost all
+configuration can be done via the web UI that is available in this add-on.
+Some more advanced/complex configuration options are not available in the
+web UI, but can be configured using this option (for example, when
+setting up clustering of multiple instances).
 
 **Note**: _Remember to restart the add-on when the configuration is changed._
 
@@ -54,6 +77,15 @@ documentation:
 ## Known issues and limitations
 
 - This add-on cannot run simultaneously with the Mosquitto add-on.
+- EMQX uses ports 1883, 8083, 8084, and 8883 by default. It is possible
+  one of your existing add-ons conflicts with that. In such cases, either
+  change the ports of the other add-on or change the listner ports of EMQX.
+  To change the ports of EMQX, you will need to temporary stop the conflicting
+  add-on, as you need to access the EMQX web UI to change the listner ports.
+- The WebRTC integration by AlexxIT is known to cause a port conflict on
+  port 8083. Temporary disabling the integration (similar as the point above
+  for add-ons) can be used to allow accessing the EMQX web UI to adjust the
+  listeners.
 
 ## Changelog & Releases
 
