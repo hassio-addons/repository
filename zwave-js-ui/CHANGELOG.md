@@ -2,4 +2,4 @@
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades Z-Wave JS UI to v8.0.1 @raman325 (#423)
+- ⬆️ Upgrades Z-Wave JS UI to v8.1.0 @raman325 (#426)

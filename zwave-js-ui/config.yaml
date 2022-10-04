@@ -30,5 +30,5 @@ startup: system
 uart: true
 udev: true
 url: https://github.com/hassio-addons/addon-zwave-js-ui
-version: 1.0.1
+version: 1.1.0
 watchdog: http://[HOST]:[PORT:8099]/health/zwave
