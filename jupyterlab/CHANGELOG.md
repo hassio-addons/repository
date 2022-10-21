@@ -1,17 +1,26 @@
 ## What’s changed
 
-## 🐛 Bug fixes
-
-- Update and rename for jupyter server @tjorim (#326)
-
-## 🧰 Maintenance
-
-- Add pip updates to dependabot @tjorim (#325)
-
 ## ⬆️ Dependency updates
 
-- ⬆️ Bump matplotlib from 3.4.3 to 3.6.0 @dependabot (#331)
-- ⬆️ Bump sqlalchemy from 1.4.26 to 1.4.41 @dependabot (#330)
-- ⬆️ Bump pandas from 1.3.4 to 1.4.4 @dependabot (#328)
-- ⬆️ Bump bokeh from 2.4.1 to 2.4.3 @dependabot (#327)
-- ⬆️ Bump jupyterlab-widgets from 1.0.2 to 3.0.3 @dependabot (#329)
+- ⬆️ Bump ipywidgets from 7.6.5 to 8.0.2 @dependabot (#337)
+- ⬆️ Bump numpy from 1.22.0 to 1.23.3 @dependabot (#335)
+- ⬆️ Bump jupyterlab from 3.2.3 to 3.4.7 @dependabot (#336)
+- ⬆️ Bump nbconvert from 6.5.1 to 7.0.0 @dependabot (#333)
+- ⬆️ Bump psycopg2 from 2.9.1 to 2.9.3 @dependabot (#334)
+- ⬆️ Bump mysqlclient from 2.0.3 to 2.1.1 @dependabot (#341)
+- ⬆️ Bump beautifulsoup4 from 4.10.0 to 4.11.1 @dependabot (#339)
+- ⬆️ Bump seaborn from 0.11.2 to 0.12.0 @dependabot (#338)
+- ⬆️ Bump pandas from 1.4.4 to 1.5.0 @dependabot (#340)
+- ⬆️ Bump jupyter-bokeh from 3.0.4 to 3.0.5 @dependabot (#342)
+- ⬆️ Upgrades nodejs to 14.20.1-deb-1nodesource1 @frenck (#350)
+- ⬆️ Bump matplotlib from 3.6.0 to 3.6.1 in /jupyterlab @dependabot (#349)
+- ⬆️ Bump psycopg2 from 2.9.3 to 2.9.4 in /jupyterlab @dependabot (#348)
+- ⬆️ Bump scrapy from 2.6.2 to 2.6.3 in /jupyterlab @dependabot (#344)
+- ⬆️ Bump nbconvert from 7.0.0 to 7.2.1 in /jupyterlab @dependabot (#347)
+- ⬆️ Bump jupyterlab from 3.4.7 to 3.4.8 in /jupyterlab @dependabot (#346)
+- ⬆️ Bump numpy from 1.23.3 to 1.23.4 in /jupyterlab @dependabot (#351)
+- ⬆️ Bump sqlalchemy from 1.4.41 to 1.4.42 in /jupyterlab @dependabot (#352)
+- ⬆️ Bump scrapy from 2.6.3 to 2.7.0 in /jupyterlab @dependabot (#353)
+- ⬆️ Bump hass-data-detective from 2.4 to 2.5 in /jupyterlab @dependabot (#357)
+- ⬆️ Bump nbconvert from 7.2.1 to 7.2.2 in /jupyterlab @dependabot (#356)
+- ⬆️ Bump pandas from 1.5.0 to 1.5.1 in /jupyterlab @dependabot (#355)
