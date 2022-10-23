@@ -1,7 +1,7 @@
 # Home Assistant Community Add-on: Z-Wave JS UI
 
 The Z-Wave JS UI add-on provides an additional control panel, allowing you
-to configure every aspect of your Z-Wave network. It provides a decouled
+to configure every aspect of your Z-Wave network. It provides a decoupled
 gateway which can communicate using Z-Wave JS WebSockets (used by the
 Home Assistant Z-Wave JS integration) and MQTT (even simultaneously).
 
