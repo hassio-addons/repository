@@ -2,15 +2,20 @@
 
 ## 🐛 Bug fixes
 
-- Fix a couple of typos @joneshf (#1439)
-
-## 🚀 Enhancements
-
-- Fix a couple of typos @joneshf (#1439)
+- ⏱ Add startup timeout for health check @frenck (#1475)
 
 ## ⬆️ Dependency updates
 
-- Bump node-red-contrib-bigtimer from 2.8.2 to 2.8.3 in /node-red @dependabot (#1438)
-- Bump @node-red-contrib-themes/theme-collection from 3.0.3 to 3.0.5 in /node-red @dependabot (#1440)
-- Bump node-red-dashboard from 3.1.7 to 3.2.0 in /node-red @dependabot (#1441)
-- ⬆️ Upgrades add-on base image to 12.2.4 @frenck (#1445)
+- Bump @node-red-contrib-themes/theme-collection from 3.0.5 to 3.0.6 in /node-red @dependabot (#1447)
+- Bump node-red-contrib-modbus from 5.23.1 to 5.23.2 in /node-red @dependabot (#1449)
+- Bump node-red-contrib-home-assistant-websocket from 0.44.0 to 0.45.0 @dependabot (#1452)
+- Bump node-red-contrib-home-assistant-websocket from 0.45.0 to 0.45.2 in /node-red @dependabot (#1453)
+- Bump node-red-node-ping from 0.3.1 to 0.3.3 @dependabot (#1456)
+- Bump node-red-contrib-home-assistant-websocket from 0.45.2 to 0.45.8 @dependabot (#1457)
+- ⬆️ Upgrades nodejs to 16.17.1-r0 @frenck (#1463)
+- Bump node-red-contrib-home-assistant-websocket from 0.45.8 to 0.46.0 in /node-red @dependabot (#1462)
+- Bump node-red-node-random from 0.4.0 to 0.4.1 @dependabot (#1465)
+- Bump node-red-node-email from 1.17.0 to 1.18.1 in /node-red @dependabot (#1466)
+- ⬆️ Upgrades git to 2.36.3-r0 @frenck (#1471)
+- ⬆️ Upgrades nginx to 1.22.1-r0 @frenck (#1472)
+- Bump node-red-contrib-home-assistant-websocket from 0.46.0 to 0.46.1 in /node-red @dependabot (#1469)
