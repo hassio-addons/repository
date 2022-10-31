@@ -1,6 +1,5 @@
 ## What’s changed
 
-## 📚 Documentation
+## ⬆️ Dependency updates
 
-- Add default login credentials @tjorim (#1)
-- Extend documentation based on questions @frenck (#3)
+- ⬆️ Upgrades EMQX to v5.0.9 @frenck (#11)
