@@ -19,7 +19,7 @@ also includes a command-line tool to do things like restart, update,
 and check your instance.
 
 This is an enhanced version of the provided
-[SSH add-on by Home Assistant][hass-ssh] and focusses on security,
+[SSH add-on by Home Assistant][hass-ssh] and focuses on security,
 usability, flexibility and also provides access using a web interface.
 
 ![Web Terminal in the Home Assistant Frontend][screenshot]
@@ -82,8 +82,8 @@ well. Additionally, it comes out of the box with the following:
 [patreon-shield]: https://frenck.dev/wp-content/uploads/2019/12/patreon.png
 [patreon]: https://www.patreon.com/frenck
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[release-shield]: https://img.shields.io/badge/version-v12.0.2-blue.svg
-[release]: https://github.com/hassio-addons/addon-ssh/tree/v12.0.2
+[release-shield]: https://img.shields.io/badge/version-v12.1.0-blue.svg
+[release]: https://github.com/hassio-addons/addon-ssh/tree/v12.1.0
 [screenshot]: https://github.com/hassio-addons/addon-ssh/raw/main/images/screenshot.png
 [ssh-audit-image]: https://github.com/hassio-addons/addon-ssh/raw/main/images/ssh-audit.png
 [ssh-audit]: https://github.com/arthepsy/ssh-audit

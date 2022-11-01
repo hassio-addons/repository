@@ -6,7 +6,7 @@ also includes a command-line tool to do things like restart, update,
 and check your instance.
 
 This is an enhanced version of the provided
-[SSH add-on by Home Assistant][hass-ssh] and focusses on security,
+[SSH add-on by Home Assistant][hass-ssh] and focuses on security,
 usability, flexibility and also provides access using a web interface.
 
 ## WARNING
@@ -269,7 +269,7 @@ You could also [open an issue here][issue] GitHub.
 The original setup of this repository is by [Franck Nijhof][frenck].
 
 For a full list of all authors and contributors,
-check [the contributor's page][contributors].
+check [the contributors page][contributors].
 
 ## License
 
