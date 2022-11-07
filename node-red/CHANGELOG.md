@@ -2,4 +2,4 @@
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades node-red-contrib-home-assistant-websocket to 0.46.2 @dependabot (#1477)
+- ⬆️ Upgrades add-on base image to 12.2.6 @frenck (#1481)
