@@ -1,6 +1,10 @@
 ## What’s changed
 
+## ✨ New features
+
+- ✨ Add access to media folder @jmarsik (#211)
+
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades add-on base image to 12.2.2 @frenck (#208)
-- ⬆️ Upgrades add-on base image to 12.2.3 @frenck (#209)
+- ⬆️ Upgrades add-on base image to 12.2.5 @frenck (#213)
+- ⬆️ Upgrades add-on base image to 12.2.6 @frenck (#215)
