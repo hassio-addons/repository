@@ -1,0 +1,27 @@
+---
+configuration:
+  log_level:
+    name: Log level
+    description: >-
+      Kontroluje poziom szczegółowości logów, jaki zapewnia dodatek.
+  memory_max:
+    name: Max Memory
+    description: >-
+      Ta opcja pozwala na zmianę ilości pamięci, którą może używać
+      aplikacja UniFi Network.
+  memory_init:
+    name: Initial Memory
+    description: >-
+      Ta opcja pozwala zmienić ilość pamięci, którą aplikacja UniFi
+      Network będzie rezerwować/używać przy starcie.
+network:
+  161/udp: Używany dla dostępu po SNMP
+  1900/udp: L2 wykrywalny port
+  3478/udp: Używany dla STUN
+  5514/udp: Używany do zdalnego debugowania syslogu
+  6789/tcp: Używany do testu prędkości UniFi mobile
+  8080/tcp: Używany do komunikacji urządzeń z kontrolerem
+  8443/tcp: Używany do interfejsu webowego kontrolera i API
+  8843/tcp: Używany do przekierowania na portal po HTTPS
+  8880/tcp: Używany do przekierowania na portal po HTTP
+  10001/udp: Używany do wykrywania urządzeń
