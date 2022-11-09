@@ -2,4 +2,5 @@
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades Grafana to v9.1.6 @frenck (#280)
+- ⬆️ Upgrades add-on base image to 6.1.3 @frenck (#286)
+- ⬆️ Upgrades Grafana to v9.2.4 @frenck (#287)
