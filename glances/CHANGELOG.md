@@ -1,18 +1,21 @@
 ## What’s changed
 
-## 📚 Documentation
-
-- 📚 Use new My Home Assistant link format @frenck (#265)
-
 ## ⬆️ Dependency updates
 
-- Bump glances from 3.2.4.2 to 3.2.5 in /glances @dependabot (#255)
-- Bump zeroconf from 0.38.4 to 0.38.5 in /glances @dependabot (#256)
-- Bump psutil from 5.9.0 to 5.9.1 in /glances @dependabot (#258)
-- Bump glances from 3.2.5 to 3.2.6.1 in /glances @dependabot (#259)
-- Bump glances from 3.2.6.1 to 3.2.6.3 in /glances @dependabot (#260)
-- Bump glances from 3.2.6.3 to 3.2.6.4 in /glances @dependabot (#261)
-- Bump bottle from 0.12.19 to 0.12.21 in /glances @dependabot (#262)
-- Bump zeroconf from 0.38.5 to 0.38.6 in /glances @dependabot (#257)
-- Bump requests from 2.27.1 to 2.28.0 in /glances @dependabot (#263)
-- ⬆️ Upgrades add-on base image to 12.0.0 @frenck (#264)
+- Bump zeroconf from 0.39.0 to 0.39.1 @dependabot (#281)
+- Add gcc build dependency @tjorim (#280)
+- Add python3-dev to build dependencies @tjorim (#282)
+- Bump psutil from 5.9.1 to 5.9.2 @dependabot (#279)
+- Bump glances from 3.2.7 to 3.3.0 @dependabot (#283)
+- Bump glances from 3.3.0 to 3.3.0.1 @dependabot (#284)
+- Bump psutil from 5.9.2 to 5.9.3 @dependabot (#285)
+- ⬆️ Upgrades nginx to 1.22.1-r0 @frenck (#287)
+- Bump zeroconf from 0.39.1 to 0.39.2 @dependabot (#286)
+- Bump py-cpuinfo from 8.0.0 to 9.0.0 @dependabot (#288)
+- Bump zeroconf from 0.39.2 to 0.39.3 @dependabot (#289)
+- Bump glances from 3.3.0.1 to 3.3.0.2 @dependabot (#290)
+- Bump zeroconf from 0.39.3 to 0.39.4 @dependabot (#291)
+- Bump docker from 6.0.0 to 6.0.1 @dependabot (#292)
+- Bump glances from 3.3.0.2 to 3.3.0.4 @dependabot (#293)
+- ⬆️ Upgrades add-on base image to 12.2.6 @frenck (#295)
+- Bump psutil from 5.9.3 to 5.9.4 @dependabot (#294)
