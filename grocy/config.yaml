@@ -48,7 +48,7 @@ ports_description:
   80/tcp: Web interface (Not required for Ingress)
 schema:
   certfile: str
-  culture: list(ca|cs|da|de|el_GR|en|en_GB|es|fi|fr|he_IL|hu|it|ja|ko_KR|nl|no|pl|pt_BR|pt_PT|ru|sk_SK|sv_SE|ta|tr|zh_CN|zh_TW)
+  culture: list(ca|cs|da|de|el_GR|en|en_GB|es|fi|fr|he_IL|hu|it|ja|ko_KR|lt|nl|no|pl|pt_BR|pt_PT|ru|sk_SK|sl|sv_SE|ta|tr|uk|zh_CN|zh_TW)
   currency: match(^[A-Z]{3}$)
   entry_page: list(stock|shoppinglist|recipes|chores|tasks|batteries|equipment|calendar|mealplan)
   features:
@@ -77,4 +77,4 @@ schema:
     stock_product_opened_tracking: bool
 slug: grocy
 url: https://github.com/hassio-addons/addon-grocy
-version: 0.18.2
+version: 0.18.3
