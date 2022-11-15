@@ -1,9 +1,7 @@
 ## What’s changed
 
-## 🐛 Bug fixes
-
-- Fix bash completion @joshuaspence (#462)
-
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades add-on base image to 12.2.6 @frenck (#464)
+- ⬆️ Upgrades Home Assistant CLI to v4.23.0 @frenck (#465)
+- ⬆️ Upgrades python3 to 3.10.8-r0 @frenck (#467)
+- ⬆️ Upgrades add-on base image to 12.2.7 @frenck (#468)
