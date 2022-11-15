@@ -1,10 +1,6 @@
 ## What’s changed
 
-## ✨ New features
-
-- ✨ Add access to media folder @jmarsik (#211)
-
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades add-on base image to 12.2.5 @frenck (#213)
-- ⬆️ Upgrades add-on base image to 12.2.6 @frenck (#215)
+- ⬆️ Upgrades python3 to 3.10.8-r0 @frenck (#217)
+- ⬆️ Upgrades add-on base image to 12.2.7 @frenck (#218)
