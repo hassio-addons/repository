@@ -4,6 +4,8 @@ arch:
 - armhf
 - armv7
 - i386
+backup_exclude:
+- '*/logs'
 codenotary: codenotary@frenck.dev
 description: Manage Nginx proxy hosts with a simple, powerful interface
 hassio_api: true
@@ -28,5 +30,5 @@ services:
 - mysql:need
 slug: nginxproxymanager
 url: https://github.com/hassio-addons/addon-nginx-proxy-manager
-version: 0.12.2
+version: 0.12.3
 webui: http://[HOST]:[PORT:81]
