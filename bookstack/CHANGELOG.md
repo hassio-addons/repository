@@ -2,5 +2,5 @@
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update image and dependencies @sinclairpaul (#196)
-- ⬆️ Update Bookstack to v22.10.2 @sinclairpaul (#197)
+- ⬆️ Update php to 8.0.26-r0 @sinclairpaul (#199)
+- ⬆️ Update Bookstack to v22.11 @sinclairpaul (#200)
