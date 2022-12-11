@@ -1,5 +1,9 @@
 ## What’s changed
 
+## ✨ New features
+
+- 🔨 Migrate old-style base scripts s6-rc @frenck (#126)
+
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades add-on base image to 12.2.6 @frenck (#124)
+- ⬆️ Upgrades add-on base image to 13.0.0 @frenck (#125)
