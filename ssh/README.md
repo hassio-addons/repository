@@ -82,9 +82,9 @@ well. Additionally, it comes out of the box with the following:
 [patreon-shield]: https://frenck.dev/wp-content/uploads/2019/12/patreon.png
 [patreon]: https://www.patreon.com/frenck
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[release-shield]: https://img.shields.io/badge/version-v12.1.3-blue.svg
-[release]: https://github.com/hassio-addons/addon-ssh/tree/v12.1.3
+[release-shield]: https://img.shields.io/badge/version-v13.0.0-blue.svg
+[release]: https://github.com/hassio-addons/addon-ssh/tree/v13.0.0
 [screenshot]: https://github.com/hassio-addons/addon-ssh/raw/main/images/screenshot.png
 [ssh-audit-image]: https://github.com/hassio-addons/addon-ssh/raw/main/images/ssh-audit.png
-[ssh-audit]: https://github.com/arthepsy/ssh-audit
+[ssh-audit]: https://github.com/jtesta/ssh-audit
 [zsh]: https://en.wikipedia.org/wiki/Z_shell

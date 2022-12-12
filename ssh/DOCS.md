@@ -311,5 +311,5 @@ SOFTWARE.
 [reddit]: https://reddit.com/r/homeassistant
 [releases]: https://github.com/hassio-addons/addon-ssh/releases
 [semver]: http://semver.org/spec/v2.0.0.htm
-[ssh-audit]: https://github.com/arthepsy/ssh-audit
+[ssh-audit]: https://github.com/jtesta/ssh-audit
 [zsh]: https://en.wikipedia.org/wiki/Z_shell
