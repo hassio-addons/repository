@@ -32,6 +32,6 @@ runtime in a single click.
 [patreon-shield]: https://frenck.dev/wp-content/uploads/2019/12/patreon.png
 [patreon]: https://www.patreon.com/frenck
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[release-shield]: https://img.shields.io/badge/version-v13.5.3-blue.svg
-[release]: https://github.com/hassio-addons/addon-node-red/tree/v13.5.3
+[release-shield]: https://img.shields.io/badge/version-v14.0.0-blue.svg
+[release]: https://github.com/hassio-addons/addon-node-red/tree/v14.0.0
 [screenshot]: https://github.com/hassio-addons/addon-node-red/raw/main/images/screenshot.png
