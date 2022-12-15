@@ -29,5 +29,5 @@ automation webhook.
 [patreon-shield]: https://frenck.dev/wp-content/uploads/2019/12/patreon.png
 [patreon]: https://www.patreon.com/frenck
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[release-shield]: https://img.shields.io/badge/version-v0.3.2-blue.svg
-[release]: https://github.com/hassio-addons/addon-uptime-kuma/tree/v0.3.2
+[release-shield]: https://img.shields.io/badge/version-v0.4.0-blue.svg
+[release]: https://github.com/hassio-addons/addon-uptime-kuma/tree/v0.4.0
