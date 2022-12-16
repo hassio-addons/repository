@@ -30,6 +30,6 @@ at all your system information and its behavior over time.
 [patreon-shield]: https://frenck.dev/wp-content/uploads/2019/12/patreon.png
 [patreon]: https://www.patreon.com/frenck
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
-[release-shield]: https://img.shields.io/badge/version-v0.17.1-blue.svg
-[release]: https://github.com/hassio-addons/addon-glances/tree/v0.17.1
+[release-shield]: https://img.shields.io/badge/version-v0.17.2-blue.svg
+[release]: https://github.com/hassio-addons/addon-glances/tree/v0.17.2
 [screenshot]: https://github.com/hassio-addons/addon-glances/raw/main/images/screenshot.png

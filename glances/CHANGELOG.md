@@ -2,9 +2,11 @@
 
 ## 🐛 Bug fixes
 
-- 🚑 Fix InfluxDB start by adding six as dependency @ferrix (#299)
+- Add py3-packaging dependency @tjorim (#303)
+- Add py3-six dependency @tjorim (#307)
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades python3 to 3.10.8-r0 @frenck (#300)
-- ⬆️ Upgrades add-on base image to 12.2.7 @frenck (#301)
+- ⬆️ Upgrades python3 to 3.10.9-r0 @tjorim (#304)
+- ⬆️ Upgrades add-on base image to 13.0.0 @frenck (#306)
+- 🧹 Remove obsolete requirements @tjorim (#305)
