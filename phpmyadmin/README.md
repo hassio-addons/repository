@@ -32,6 +32,6 @@ MariaDB add-on.
 [patreon-shield]: https://frenck.dev/wp-content/uploads/2019/12/patreon.png
 [patreon]: https://www.patreon.com/frenck
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
-[release-shield]: https://img.shields.io/badge/version-v0.8.2-blue.svg
-[release]: https://github.com/hassio-addons/addon-phpmyadmin/tree/v0.8.2
+[release-shield]: https://img.shields.io/badge/version-v0.8.3-blue.svg
+[release]: https://github.com/hassio-addons/addon-phpmyadmin/tree/v0.8.3
 [screenshot]: https://github.com/hassio-addons/addon-phpmyadmin/raw/main/images/screenshot.png
