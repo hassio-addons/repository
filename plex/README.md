@@ -28,5 +28,5 @@ and streams them to all of your devices.
 [patreon-shield]: https://frenck.dev/wp-content/uploads/2019/12/patreon.png
 [patreon]: https://www.patreon.com/frenck
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[release-shield]: https://img.shields.io/badge/version-v3.1.2-blue.svg
-[release]: https://github.com/hassio-addons/addon-plex/tree/v3.1.2
+[release-shield]: https://img.shields.io/badge/version-v3.2.0-blue.svg
+[release]: https://github.com/hassio-addons/addon-plex/tree/v3.2.0
