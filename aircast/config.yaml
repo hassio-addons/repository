@@ -25,4 +25,4 @@ schema:
 slug: aircast
 startup: services
 url: https://github.com/hassio-addons/addon-aircast
-version: 3.5.0
+version: 3.5.1
