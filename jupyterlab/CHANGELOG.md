@@ -1,16 +1,20 @@
 ## What’s changed
 
+## 🧰 Maintenance
+
+- 🔨 Migrate old-style S6 scripts to s6-rc.d @frenck (#389)
+
 ## ⬆️ Dependency updates
 
-- ⬆️ Bump hass-data-detective from 2.5 to 2.6 in /jupyterlab @dependabot (#358)
-- ⬆️ Bump jupyterlab from 3.4.8 to 3.5.0 in /jupyterlab @dependabot (#359)
-- ⬆️ Bump psycopg2 from 2.9.4 to 2.9.5 in /jupyterlab @dependabot (#360)
-- ⬆️ Bump bokeh from 2.4.3 to 3.0.0 in /jupyterlab @dependabot (#362)
-- ⬆️ Bump nbconvert from 7.2.2 to 7.2.3 in /jupyterlab @dependabot (#361)
-- ⬆️ Upgrades nodejs to 14.21.1-deb-1nodesource1 @frenck (#367)
-- ⬆️ Bump bokeh from 3.0.0 to 3.0.1 in /jupyterlab @dependabot (#365)
-- ⬆️ Bump sqlalchemy from 1.4.42 to 1.4.43 in /jupyterlab @dependabot (#366)
-- ⬆️ Bump matplotlib from 3.6.1 to 3.6.2 in /jupyterlab @dependabot (#363)
-- ⬆️ Bump scrapy from 2.7.0 to 2.7.1 in /jupyterlab @dependabot (#364)
-- ⬆️ Bump seaborn from 0.12.0 to 0.12.1 in /jupyterlab @dependabot (#354)
-- ⬆️ Bump nbconvert from 7.2.3 to 7.2.4 in /jupyterlab @dependabot (#368)
+- ⬆️ Bump geopy to 2.3.0 @dependabot (#372)
+- ⬆️ Upgrades add-on base image to 6.2.0 @frenck (#380)
+- ⬆️ Bump ipywidgets to 8.0.3 @dependabot (#379)
+- ⬆️ Bump pandas 1.5.2  @dependabot (#376)
+- ⬆️ Bump sqlalchemy 1.4.45 @dependabot (#383)
+- ⬆️ Bump bokeh 3.0.3 @dependabot (#381)
+- ⬆️ Bump jupyterlab-widgets 3.0.4 @dependabot (#382)
+- ⬆️ Upgrades libmariadb3 to 1:10.5.18-0+deb11u1 @frenck (#385)
+- ⬆️ Upgrades libxml2 to 2.9.10+dfsg-6.7+deb11u3 @frenck (#386)
+- ⬆️ Bump numpy to 1.24.0 @dependabot (#384)
+- ⬆️ Bump nbconvert to 7.2.7 @dependabot (#388)
+- ⬆️ Bump jupyterlab to 3.5.2 @dependabot (#387)
