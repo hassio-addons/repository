@@ -1,11 +1,15 @@
 ## What’s changed
 
+## 🧰 Maintenance
+
+- 🔨 Migrate old-style S6 scripts to s6-rc.d @frenck (#259)
+
 ## ⬆️ Dependency updates
 
-- Bump setuptools from 65.3.0 to 65.4.0 in /tautulli @dependabot (#246)
-- Bump setuptools from 65.4.0 to 65.4.1 in /tautulli @dependabot (#247)
-- Bump setuptools from 65.4.1 to 65.5.0 in /tautulli @dependabot (#248)
-- Bump plexapi from 4.13.0 to 4.13.1 in /tautulli @dependabot (#251)
-- Bump setuptools from 65.5.0 to 65.5.1 in /tautulli @dependabot (#250)
-- ⬆️ Upgrades add-on base image to 6.1.3 @frenck (#252)
-- ⬆️ Upgrades Tautulli to v2.10.5 @frenck (#253)
+- Bump setuptools from 65.5.1 to 65.6.0 in /tautulli @dependabot (#254)
+- Bump setuptools from 65.6.0 to 65.6.2 in /tautulli @dependabot (#255)
+- Bump setuptools from 65.6.2 to 65.6.3 in /tautulli @dependabot (#256)
+- Bump pycryptodomex from 3.15.0 to 3.16.0 @dependabot (#257)
+- ⬆️ Upgrades add-on base image to 6.2.0 @frenck (#258)
+- Bump crudini from 0.9.3 to 0.9.4 in /tautulli @dependabot (#261)
+- ⬆️ Upgrades Tautulli to v2.11.1 @frenck (#262)
