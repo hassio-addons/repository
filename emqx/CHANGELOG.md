@@ -2,5 +2,4 @@
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades add-on base image to 6.1.3 @frenck (#13)
-- ⬆️ Upgrades EMQX to v5.0.10 @frenck (#14)
+- ⬆️ Upgrades EMQX to v5.0.13 @frenck (#19)
