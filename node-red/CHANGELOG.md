@@ -1,15 +1,15 @@
 ## What’s changed
 
-This release is marked as major because the base image has had a major upgrade.
-The add-on now runs on Alpine Linux 3.17 with NodeJS 18.
-
 ## 🧰 Maintenance
 
-- 🔨 Migrate old-style base scripts s6-rc @frenck (#1512)
+- 🎆 Updates maintenance/license year to 2023 @frenck (#1534)
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Bump node-red-dashboard from 3.2.0 to 3.2.3 @dependabot (#1499)
-- ⬆️ Upgrades add-on base image to 13.0.0 @frenck (#1511)
-- ⬆️ Bump node-red-contrib-home-assistant-websocket from 0.47.0 to 0.47.1 @dependabot (#1507)
-- ⬆️ Bump node-red-contrib-modbus from 5.23.3 to 5.25.0 @dependabot (#1508)
+- ⬆️ Upgrades python3 to 3.10.9-r1 @frenck (#1517)
+- Bump node-red-contrib-time-range-switch from 1.1.3 to 1.2.0 in /node-red @dependabot (#1515)
+- Bump node-red-node-email from 1.18.2 to 1.18.3 in /node-red @dependabot (#1526)
+- Bump node-red-contrib-home-assistant-websocket from 0.47.1 to 0.48.0 in /node-red @dependabot (#1529)
+- Bump node-red-node-email from 1.18.3 to 1.18.4 in /node-red @dependabot (#1528)
+- Bump node-red-contrib-persistent-fsm from 1.2.0 to 1.2.1 in /node-red @dependabot (#1531)
+- Bump node-red-dashboard from 3.2.3 to 3.3.0 in /node-red @dependabot (#1533)
