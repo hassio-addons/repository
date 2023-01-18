@@ -1,14 +1,16 @@
 ## What’s changed
 
-## ✨ New features
+## 🐛 Bug fixes
 
-- 🩺 Add healthcheck to improve HA watchdog @frenck (#270)
+- 🔨 Fix healthcheck for SSL enabled instances @sinclairpaul (#274)
 
 ## 🧰 Maintenance
 
-- 🔨 Migrate old-style S6 scripts to s6-rc.d @frenck (#269)
+- 🎆 Updates maintenance/license year to 2023 @frenck (#278)
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades add-on base image to 13.0.0 @frenck (#268)
-- ⬆️ Upgrades TasmoAdmin to v2.2.0 @frenck (#271)
+- ⬆️  Upgrades php to 8.1.14 @inverse (#277)
+- ⬆️  Upgrades TasmoAdmin to v2.3.3 @inverse (#276)
+- ⬆️ Upgrades add-on base image to 13.1.0 @frenck (#279)
+- ⬆️ Upgrades git to 2.38.3-r1 @frenck (#280)
