@@ -33,4 +33,4 @@ schema:
 slug: chrony
 startup: system
 url: https://github.com/hassio-addons/addon-chrony
-version: 2.4.0
+version: 2.5.0
