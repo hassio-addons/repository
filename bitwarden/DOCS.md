@@ -32,7 +32,7 @@ comparison to installing any other Home Assistant add-on.
 1. Click the "OPEN WEB UI" button to open Vaultwarden.
 1. Add `/admin` to the URL to access the admin panel, e.g.,
    `http://hassio.local:7277/admin`. Log in using the admin token you got
-   in step 3.
+   in step 4.
 1. The admin/token in the logs is only shown until it is saved or changed.
    Hit save in the admin panel to use the randomly generated password or
    change it to one of your choosing.
@@ -150,7 +150,7 @@ check [the contributor's page][contributors].
 
 MIT License
 
-Copyright (c) 2019-2022 Franck Nijhof
+Copyright (c) 2019-2023 Franck Nijhof
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
