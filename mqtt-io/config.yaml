@@ -9,6 +9,7 @@ description: Expose GPIO modules and digital sensors via MQTT for remote control
   monitoring.
 devices:
 - /dev
+gpio: true
 homeassistant_api: true
 image: ghcr.io/hassio-addons/mqtt-io/{arch}
 init: false
@@ -25,5 +26,6 @@ schema:
   configuration_file: str
   log_level: list(trace|debug|info|notice|warning|error|fatal)?
 slug: mqtt-io
+uart: true
 url: https://github.com/hassio-addons/addon-mqtt-io
-version: 0.2.0
+version: 0.2.1
