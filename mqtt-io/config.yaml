@@ -8,9 +8,7 @@ codenotary: codenotary@frenck.dev
 description: Expose GPIO modules and digital sensors via MQTT for remote control and
   monitoring.
 devices:
-- /dev/mem
-- /dev/gpiomem
-gpio: true
+- /dev
 homeassistant_api: true
 image: ghcr.io/hassio-addons/mqtt-io/{arch}
 init: false
@@ -27,6 +25,5 @@ schema:
   configuration_file: str
   log_level: list(trace|debug|info|notice|warning|error|fatal)?
 slug: mqtt-io
-uart: true
 url: https://github.com/hassio-addons/addon-mqtt-io
-version: 0.1.3
+version: 0.2.0
