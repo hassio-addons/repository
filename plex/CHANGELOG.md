@@ -2,9 +2,9 @@
 
 ## 🧰 Maintenance
 
-- 🔨 Migrate old-style S6 scripts to s6-rc.d @frenck (#176)
+- 🎆 Updates maintenance/license year to 2023 @frenck (#178)
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades add-on base image to 8.2.0 @frenck (#175)
-- ⬆️ Upgrades Plex Media Server to 1.30.0.6486 @gordio (#174)
+- ⬆️ Upgrades add-on base image to 8.2.1 @frenck (#179)
+- ⬆️ Upgrades Plex Media Server to 1.30.1.6562 @NatusPella (#177)
