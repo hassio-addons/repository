@@ -1,9 +1,9 @@
 ## What’s changed
 
-## ✨ New features
+## 🧰 Maintenance
 
-- 🔨 Migrate old-style base scripts s6-rc @frenck (#126)
+- 🎆 Updates maintenance/license year to 2023 @frenck ([#127](https://github.com/hassio-addons/addon-example/pull/127))
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades add-on base image to 13.0.0 @frenck (#125)
+- ⬆️ Upgrades add-on base image to 13.1.1 @frenck ([#128](https://github.com/hassio-addons/addon-example/pull/128))
