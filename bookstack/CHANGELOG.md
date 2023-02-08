@@ -2,5 +2,5 @@
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update php to 8.0.26-r0 @sinclairpaul (#199)
-- ⬆️ Update Bookstack to v22.11 @sinclairpaul (#200)
+- ⬆️ Update image and dependencies @sinclairpaul ([#202](https://github.com/hassio-addons/addon-bookstack/pull/202))
+- ⬆️ Update Bookstack to v23.01.1 @sinclairpaul ([#203](https://github.com/hassio-addons/addon-bookstack/pull/203))
