@@ -1,6 +1,9 @@
 ## What’s changed
 
-## ⬆️ Dependency updates
+## 🐛 Bug fixes
 
-- ⬆️ Update image and dependencies @sinclairpaul ([#202](https://github.com/hassio-addons/addon-bookstack/pull/202))
-- ⬆️ Update Bookstack to v23.01.1 @sinclairpaul ([#203](https://github.com/hassio-addons/addon-bookstack/pull/203))
+- 🚑 Fix appkey generation for new installs @sinclairpaul ([#206](https://github.com/hassio-addons/addon-bookstack/pull/206))
+
+## 📚 Documentation
+
+- 📚 Update Year @sinclairpaul ([#204](https://github.com/hassio-addons/addon-bookstack/pull/204))
