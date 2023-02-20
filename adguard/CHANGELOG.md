@@ -1,13 +1,6 @@
 ## What’s changed
 
-## ✨ New features
-
-- Allow binding to localhost (#371) @kevynb (#382)
-
-## 🧰 Maintenance
-
-- 🎆 Updates maintenance/license year to 2023 @frenck (#383)
-
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades AdGuard Home to v0.107.22 @AlecRust (#384)
+- ⬆️ Upgrades add-on base image to 13.1.2 @frenck ([#393](https://github.com/hassio-addons/addon-adguard-home/pull/393))
+- ⬆️ Upgrades AdGuard Home to v0.107.24 @AlecRust ([#390](https://github.com/hassio-addons/addon-adguard-home/pull/390))
