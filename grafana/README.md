@@ -30,10 +30,10 @@ insights to your home.
 [forum]: https://community.home-assistant.io/t/home-assistant-community-add-on-grafana/54674?u=frenck
 [github-sponsors-shield]: https://frenck.dev/wp-content/uploads/2019/12/github_sponsor.png
 [github-sponsors]: https://github.com/sponsors/frenck
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2022.svg
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2023.svg
 [patreon-shield]: https://frenck.dev/wp-content/uploads/2019/12/patreon.png
 [patreon]: https://www.patreon.com/frenck
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[release-shield]: https://img.shields.io/badge/version-v8.1.0-blue.svg
-[release]: https://github.com/hassio-addons/addon-grafana/tree/v8.1.0
+[release-shield]: https://img.shields.io/badge/version-v8.2.0-blue.svg
+[release]: https://github.com/hassio-addons/addon-grafana/tree/v8.2.0
 [screenshot]: https://github.com/hassio-addons/addon-grafana/raw/main/images/screenshot.png
