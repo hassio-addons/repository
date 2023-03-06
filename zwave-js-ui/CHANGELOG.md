@@ -1,6 +1,10 @@
 ## What’s changed
 
+## 📚 Documentation
+
+- 📚 Fix typo in README @roor0 ([#475](https://github.com/hassio-addons/addon-zwave-js-ui/pull/475))
+
 ## ⬆️ Dependency updates
 
-- ⬆️ Bump python3 to 3.10.10-r0, nodejs to 18.14.1-r0 @roblandry ([#470](https://github.com/hassio-addons/addon-zwave-js-ui/pull/470))
-- ⬆️ Upgrades Z-Wave JS UI to v8.8.6 @roblandry ([#467](https://github.com/hassio-addons/addon-zwave-js-ui/pull/467))
+- ⬆️ Upgrades add-on base image to 13.1.3 @frenck ([#473](https://github.com/hassio-addons/addon-zwave-js-ui/pull/473))
+- ⬆️ Upgrades Z-Wave JS UI to v8.9.0 @frenck ([#474](https://github.com/hassio-addons/addon-zwave-js-ui/pull/474))
