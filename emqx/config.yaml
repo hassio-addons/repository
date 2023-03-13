@@ -24,4 +24,4 @@ schema:
 slug: emqx
 startup: services
 url: https://github.com/hassio-addons/addon-emqx
-version: 0.2.3
+version: 0.2.4
