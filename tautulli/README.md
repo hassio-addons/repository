@@ -23,8 +23,8 @@ graphs, which makes it easy to brag about your server to everyone else.
 [discord]: https://discord.gg/c5DvZ4e
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
 [forum]: https://community.home-assistant.io/t/home-assistant-community-add-on-tautulli/68745
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2022.svg
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2023.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[release-shield]: https://img.shields.io/badge/version-v3.2.0-blue.svg
-[release]: https://github.com/hassio-addons/addon-tautulli/tree/v3.2.0
+[release-shield]: https://img.shields.io/badge/version-v3.2.1-blue.svg
+[release]: https://github.com/hassio-addons/addon-tautulli/tree/v3.2.1
 [screenshot]: https://github.com/hassio-addons/addon-tautulli/raw/main/images/screenshot.png
