@@ -1,12 +1,12 @@
 ## What’s changed
 
-## 🌎 Translations
+## 🧰 Maintenance
 
-- Create it.yaml (italian translation) @WAPEETY (#177)
-- 🌎 Italian translation updates @WAPEETY (#178)
+- 🎆 Updates maintenance/license year to 2023 @frenck ([#206](https://github.com/hassio-addons/addon-spotify-connect/pull/206))
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades add-on base image to 12.2.1 @frenck (#181)
-- ⬆️ Upgrades add-on base image to 12.2.2 @frenck (#184)
-- ⬆️ Upgrades librespot to 0.4.2 @frenck (#185)
+- ⬆️ Upgrades add-on base image to 12.2.3 @frenck ([#188](https://github.com/hassio-addons/addon-spotify-connect/pull/188))
+- ⬆️ Upgrades add-on base image to 12.2.7 @frenck ([#197](https://github.com/hassio-addons/addon-spotify-connect/pull/197))
+- ⬆️ Upgrades add-on base image to 13.0.0 @frenck ([#199](https://github.com/hassio-addons/addon-spotify-connect/pull/199))
+- ⬆️ Upgrades add-on base image to 13.1.3 @frenck ([#207](https://github.com/hassio-addons/addon-spotify-connect/pull/207))
