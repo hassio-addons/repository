@@ -1,14 +1,10 @@
 ## What’s changed
 
-## ✨ New features
-
-- 🩺 Add health check to improve HA watchdog @frenck (#154)
-
 ## 🧰 Maintenance
 
-- 🔨 Migrate old-style S6 scripts to s6-rc.d @frenck (#153)
+- 🎆 Updates maintenance/license year to 2023 @frenck ([#155](https://github.com/hassio-addons/addon-tor/pull/155))
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades add-on base image to 12.2.6 @frenck (#150)
-- ⬆️ Upgrades add-on base image to 13.0.0 @frenck (#152)
+- ⬆️ Upgrades tor to 0.4.7.13-r0 @frenck ([#156](https://github.com/hassio-addons/addon-tor/pull/156))
+- ⬆️ Upgrades add-on base image to 13.1.3 @frenck ([#157](https://github.com/hassio-addons/addon-tor/pull/157))
