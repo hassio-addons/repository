@@ -39,12 +39,20 @@ influxdb:
   enabled: false
   host: a0d7b954-influxdb
   port: 8086
+  interval: 60
+  ssl: false
+  prefix: localhost
+  version: 1 # Either 1 or 2
+
+  # Version 1
   username: glances
   password: "!secret glances_influxdb_password"
   database: glances
-  prefix: localhost
-  interval: 60
-  ssl: false
+
+  # Version 2
+  token: "!secret glances_influxdb2_token"
+  bucket: glances
+  org: myorg
 ```
 
 **Note**: _This is just an example, don't copy and paste it! Create your own!_
@@ -119,28 +127,6 @@ use `a0d7b954-influxdb` as the hostname._
 
 The port on which InfluxDB is listening.
 
-#### Option `influxdb`: `username`
-
-The username that you have created for Glances to authenticate against
-InfluxDB.
-
-#### Option `influxdb`: `password`
-
-The password for the above username option.
-
-#### Option `influxdb`: `database`
-
-The name of the database to store all Glances information into.
-
-**Note**: _It is strongly recommended to create a separate database for glances
-and not store this in the same database name as Home Assistant._
-
-#### Option `prefix`: `localhost`
-
-The hostname to append for exported data.
-
-**Note**: _For the Grafana Glances dashboard set this to `localhost`._
-
 #### Option `influxdb`: `interval`
 
 Defines the interval (in seconds) on how often Glances exports data to InfluxDB.
@@ -150,6 +136,60 @@ Defines the interval (in seconds) on how often Glances exports data to InfluxDB.
 Adding this option will allow SSL to be used on the InfluxDB connection. If not
 set will default to `false` which is the required setting for the Community
 InfluxDB add-on.
+
+#### Option `influxdb`: `prefix`
+
+The hostname to append for exported data.
+
+**Note**: _For the Grafana Glances dashboard set this to `localhost`._
+
+#### Option `influxdb`: `version`
+
+The influxdb version to connecting. Either **1** or **2**.
+
+#### Option `influxdb`: `username`
+
+> Applied to version 1 only
+
+The username that you have created for Glances to authenticate against
+InfluxDB.
+
+#### Option `influxdb`: `password`
+
+> Applied to version 1 only
+
+The password for the above username option.
+
+#### Option `influxdb`: `database`
+
+> Applied to version 1 only
+
+The name of the database to store all Glances information into.
+
+**Note**: _It is strongly recommended to create a separate database for glances
+and not store this in the same database name as Home Assistant._
+
+#### Option `influxdb`: `token`
+
+> Applied to version 2 only
+
+An InfluxDB token with permissions to write to the given bucket. This should
+look like `t9iHPiGQyg0ds4K1IlBrCyBsNGh71dkdR6u8Y9eeR37UzfGuFukFCdbMI4YA9EtKb4zr5coFXKw67tbBEP7CPw==`
+
+#### Option `influxdb`: `bucket`
+
+> Applied to version 1 only
+
+The name of the bucket to store all Glances information into.
+
+**Note**: _It is strongly recommended to create a separate bucket for glances
+and not store this in the same bucket as Home Assistant._
+
+#### Option `influxdb`: `organization`
+
+> Applied to version 1 only
+
+The InfluxDB organization that owns the given bucket.
 
 ## Adding Glances as a sensor into Home Assistant
 
@@ -208,7 +248,7 @@ check [the contributor's page][contributors].
 
 MIT License
 
-Copyright (c) 2019-2022 Franck Nijhof
+Copyright (c) 2019-2023 Franck Nijhof
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
