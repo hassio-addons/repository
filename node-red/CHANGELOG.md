@@ -2,4 +2,5 @@
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades add-on base image to 13.1.3 @frenck ([#1566](https://github.com/hassio-addons/addon-node-red/pull/1566))
+- Bump node-red-dashboard to 3.4.0 @dependabot ([#1568](https://github.com/hassio-addons/addon-node-red/pull/1568))
+- Bump node-red-contrib-home-assistant-websocket to 0.49.0 @dependabot ([#1570](https://github.com/hassio-addons/addon-node-red/pull/1570))
