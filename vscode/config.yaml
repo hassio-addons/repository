@@ -1,17 +1,23 @@
-arch:
-- aarch64
-- amd64
-codenotary: codenotary@frenck.dev
+name: Studio Code Server
+version: 5.5.4
+slug: vscode
 description: Fully featured Visual Studio Code (VSCode) experience integrated in the
   Home Assistant frontend.
-hassio_api: true
-hassio_role: manager
-homeassistant_api: true
-image: ghcr.io/hassio-addons/vscode/{arch}
+url: https://github.com/hassio-addons/addon-vscode
+codenotary: codenotary@frenck.dev
 ingress: true
 ingress_port: 1337
 ingress_stream: true
+panel_icon: mdi:microsoft-visual-studio-code
+startup: services
 init: false
+arch:
+- aarch64
+- amd64
+uart: true
+hassio_api: true
+hassio_role: manager
+homeassistant_api: true
 map:
 - config:rw
 - ssl:rw
@@ -19,23 +25,17 @@ map:
 - media:rw
 - share:rw
 - backup:rw
-name: Studio Code Server
-options:
-  init_commands: []
-  packages: []
-panel_icon: mdi:microsoft-visual-studio-code
-schema:
-  config_path: str?
-  init_commands:
-  - str
-  log_level: list(trace|debug|info|notice|warning|error|fatal)?
-  packages:
-  - str
 services:
 - mysql:want
 - mqtt:want
-slug: vscode
-startup: services
-uart: true
-url: https://github.com/hassio-addons/addon-vscode
-version: 5.5.3
+options:
+  packages: []
+  init_commands: []
+schema:
+  log_level: list(trace|debug|info|notice|warning|error|fatal)?
+  config_path: str?
+  packages:
+  - str
+  init_commands:
+  - str
+image: ghcr.io/hassio-addons/vscode/{arch}
