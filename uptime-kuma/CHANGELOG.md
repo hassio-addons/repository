@@ -2,4 +2,4 @@
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Bump apprise from 1.2.1 to 1.3.0 in /uptime-kuma @dependabot ([#47](https://github.com/hassio-addons/addon-uptime-kuma/pull/47))
+- ⬆️ Upgrades Uptime Kuma to 1.21.0 @frenck ([#60](https://github.com/hassio-addons/addon-uptime-kuma/pull/60))
