@@ -2,13 +2,8 @@
 
 ## 🧰 Maintenance
 
-- 🔨 Migrate old-style S6 scripts to s6-rc.d @frenck (#128)
-
-## 📚 Documentation
-
-- Fix typo in  documentation @r3mcos3 (#125)
+- 🎆 Updates maintenance/license year to 2023 @frenck ([#131](https://github.com/hassio-addons/addon-ftp/pull/131))
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades add-on base image to 12.2.6 @frenck (#126)
-- ⬆️ Upgrades add-on base image to 13.0.0 @frenck (#127)
+- ⬆️ Upgrades add-on base image to 13.1.3 @frenck ([#132](https://github.com/hassio-addons/addon-ftp/pull/132))
