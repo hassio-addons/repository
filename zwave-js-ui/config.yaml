@@ -1,34 +1,34 @@
+name: Z-Wave JS UI
+version: 1.8.0
+slug: zwavejs2mqtt
+description: Fully configurable Z-Wave JS gateway and control panel
+url: https://github.com/hassio-addons/addon-zwave-js-ui
+codenotary: codenotary@frenck.dev
+ingress: true
+ingress_stream: true
+panel_title: Z-Wave JS
+panel_icon: mdi:z-wave
+startup: system
+init: false
 arch:
 - aarch64
 - amd64
 - armhf
 - armv7
 - i386
-codenotary: codenotary@frenck.dev
-description: Fully configurable Z-Wave JS gateway and control panel
 discovery:
 - zwave_js
-image: ghcr.io/hassio-addons/zwave-js-ui/{arch}
-ingress: true
-ingress_stream: true
-init: false
+services:
+- mqtt:want
+watchdog: http://[HOST]:[PORT:8099]/health/zwave
+uart: true
+udev: true
 map:
 - share:rw
-name: Z-Wave JS UI
-panel_icon: mdi:z-wave
-panel_title: Z-Wave JS
+schema:
+  log_level: list(trace|debug|info|notice|warning|error|fatal)?
 ports:
   3000/tcp: null
 ports_description:
   3000/tcp: Z-Wave JS communication
-schema:
-  log_level: list(trace|debug|info|notice|warning|error|fatal)?
-services:
-- mqtt:want
-slug: zwavejs2mqtt
-startup: system
-uart: true
-udev: true
-url: https://github.com/hassio-addons/addon-zwave-js-ui
-version: 1.7.2
-watchdog: http://[HOST]:[PORT:8099]/health/zwave
+image: ghcr.io/hassio-addons/zwave-js-ui/{arch}
