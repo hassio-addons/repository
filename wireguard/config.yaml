@@ -1,71 +1,71 @@
+name: WireGuard
+version: 0.8.0
+slug: wireguard
+description: Fast, modern, secure VPN tunnel
+url: https://github.com/hassio-addons/addon-wireguard
+codenotary: codenotary@frenck.dev
 arch:
 - aarch64
 - amd64
 - armhf
 - armv7
 - i386
-codenotary: codenotary@frenck.dev
-description: Fast, modern, secure VPN tunnel
+init: false
+ports:
+  80/tcp: null
+  51820/udp: 51820
+ports_description:
+  80/tcp: WireGuard peers status API
+  51820/udp: 'WireGuard: forward this port in your router'
+hassio_api: true
+privileged:
+- NET_ADMIN
 devices:
 - /dev/net/tun
-hassio_api: true
-image: ghcr.io/hassio-addons/wireguard/{arch}
-init: false
 map:
 - ssl:rw
-name: WireGuard
 options:
-  peers:
-  - addresses:
-    - 172.27.66.2
-    allowed_ips: []
-    client_allowed_ips: []
-    name: hassio
   server:
+    host: myautomatedhome.duckdns.org
     addresses:
     - 172.27.66.1
     dns: []
-    host: myautomatedhome.duckdns.org
-ports:
-  51820/udp: 51820
-  80/tcp: null
-ports_description:
-  51820/udp: 'WireGuard: forward this port in your router'
-  80/tcp: WireGuard peers status API
-privileged:
-- NET_ADMIN
+  peers:
+  - name: hassio
+    addresses:
+    - 172.27.66.2
+    allowed_ips: []
+    client_allowed_ips: []
 schema:
   log_level: list(trace|debug|info|notice|warning|error|fatal)?
+  server:
+    host: str
+    interface: match(^wg([0-9])+$)?
+    addresses:
+    - str
+    dns:
+    - str
+    private_key: password?
+    public_key: str?
+    fwmark: str?
+    table: str?
+    pre_up: str?
+    pre_down: str?
+    post_up: str?
+    post_down: str?
+    mtu: int?
   peers:
-  - addresses:
+  - name: match(^[a-zA-Z0-9\d](?:[a-zA-Z0-9\d]|-(?=[a-zA-Z0-9\d])){0,32}$)
+    private_key: str?
+    public_key: str?
+    addresses:
     - str
     allowed_ips:
     - str
     client_allowed_ips:
     - str
-    endpoint: str?
-    fwmark: str?
-    name: match(^[a-zA-Z0-9\d](?:[a-zA-Z0-9\d]|-(?=[a-zA-Z0-9\d])){0,32}$)
     persistent_keep_alive: int?
+    endpoint: str?
     pre_shared_key: str?
-    private_key: str?
-    public_key: str?
-  server:
-    addresses:
-    - str
-    dns:
-    - str
     fwmark: str?
-    host: str
-    interface: match(^wg([0-9])+$)?
-    mtu: int?
-    post_down: str?
-    post_up: str?
-    pre_down: str?
-    pre_up: str?
-    private_key: password?
-    public_key: str?
-    table: str?
-slug: wireguard
-url: https://github.com/hassio-addons/addon-wireguard
-version: 0.7.1
+image: ghcr.io/hassio-addons/wireguard/{arch}
