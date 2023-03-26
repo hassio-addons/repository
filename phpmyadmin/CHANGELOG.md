@@ -1,6 +1,10 @@
 ## What’s changed
 
+## 🧰 Maintenance
+
+- Add Renovate for dependency management @frenck ([#151](https://github.com/hassio-addons/addon-phpmyadmin/pull/151))
+
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades add-on base image to 13.1.3 @frenck ([#149](https://github.com/hassio-addons/addon-phpmyadmin/pull/149))
-- ⬆️ Upgrades phpMyAdmin to 5.2.1 @frenck ([#150](https://github.com/hassio-addons/addon-phpmyadmin/pull/150))
+- ⬆️ Update PHP to v8.1.17-r0 @renovate ([#152](https://github.com/hassio-addons/addon-phpmyadmin/pull/152))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v13.1.4 @renovate ([#153](https://github.com/hassio-addons/addon-phpmyadmin/pull/153))
