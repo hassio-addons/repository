@@ -166,6 +166,8 @@ The password for the above username option.
 
 The name of the database to store all Glances information into.
 
+If using Influx v2 the config value must be configured but will be ignored.
+
 **Note**: _It is strongly recommended to create a separate database for glances
 and not store this in the same database name as Home Assistant._
 
@@ -178,16 +180,16 @@ look like `t9iHPiGQyg0ds4K1IlBrCyBsNGh71dkdR6u8Y9eeR37UzfGuFukFCdbMI4YA9EtKb4zr5
 
 #### Option `influxdb`: `bucket`
 
-> Applied to version 1 only
+> Applied to version 2 only
 
 The name of the bucket to store all Glances information into.
 
 **Note**: _It is strongly recommended to create a separate bucket for glances
 and not store this in the same bucket as Home Assistant._
 
-#### Option `influxdb`: `organization`
+#### Option `influxdb`: `org`
 
-> Applied to version 1 only
+> Applied to version 2 only
 
 The InfluxDB organization that owns the given bucket.
 

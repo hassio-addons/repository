@@ -1,5 +1,5 @@
 name: Glances
-version: 0.18.0
+version: 0.18.1
 slug: glances
 description: A cross-platform system monitoring tool
 url: https://github.com/hassio-addons/addon-glances
@@ -51,9 +51,6 @@ options:
     password: ''
     database: glances
     prefix: localhost
-    token: ''
-    bucket: glances
-    org: myorg
 schema:
   log_level: list(trace|debug|info|notice|warning|error|fatal)
   process_info: bool
@@ -62,15 +59,19 @@ schema:
   certfile: str
   keyfile: str
   influxdb:
+    bucket: str?
     enabled: bool
     host: str
     port: port
     username: str
     password: password
     database: str
+    org: str?
     prefix: str
     interval: int
     ssl: bool?
+    token: str?
+    version: int
   leave_front_door_open: bool?
 environment:
   LOG_FORMAT: '{LEVEL}: {MESSAGE}'

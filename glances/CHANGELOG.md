@@ -1,17 +1,15 @@
 ## What’s changed
 
-## ✨ New features
+## 🐛 Bug fixes
 
-- ✨Add support for InfluxDB2 @kamontat ([#311](https://github.com/hassio-addons/addon-glances/pull/311))
+- 🚑 Attempt to fix Influx Issues @sinclairpaul ([#329](https://github.com/hassio-addons/addon-glances/pull/329))
 
 ## 🧰 Maintenance
 
-- 🎆 Updates maintenance/license year to 2023 @frenck ([#323](https://github.com/hassio-addons/addon-glances/pull/323))
+- Add Renovate for dependency management @frenck ([#330](https://github.com/hassio-addons/addon-glances/pull/330))
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Bump requests to 2.28.2 @dependabot ([#314](https://github.com/hassio-addons/addon-glances/pull/314))
-- ⬆️ Bump glances to 3.3.1.1  @dependabot ([#316](https://github.com/hassio-addons/addon-glances/pull/316))
-- ⬆️ Upgrades add-on base image to 13.1.3 @frenck ([#324](https://github.com/hassio-addons/addon-glances/pull/324))
-- ⬆️ Bump zeroconf to 0.47.3 @dependabot ([#320](https://github.com/hassio-addons/addon-glances/pull/320))
-- ⬆️ Bump bottle to 0.12.25 @dependabot ([#322](https://github.com/hassio-addons/addon-glances/pull/322))
+- Bump influxdb-client from 1.21.0 to 1.36.1 in /glances @dependabot ([#326](https://github.com/hassio-addons/addon-glances/pull/326))
+- Bump zeroconf to 0.47.4 @dependabot ([#327](https://github.com/hassio-addons/addon-glances/pull/327))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v13.1.4 @renovate ([#331](https://github.com/hassio-addons/addon-glances/pull/331))
