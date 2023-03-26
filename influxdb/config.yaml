@@ -1,48 +1,48 @@
+name: InfluxDB
+version: 4.6.0
+slug: influxdb
+description: Scalable datastore for metrics, events, and real-time analytics
+url: https://github.com/hassio-addons/addon-influxdb
+codenotary: codenotary@frenck.dev
+ingress: true
+ingress_port: 1337
+ingress_stream: true
+panel_icon: mdi:chart-areaspline
+startup: services
+homeassistant: 0.92.0b2
+hassio_api: true
 arch:
 - aarch64
 - amd64
 - armv7
 - i386
-auth_api: true
-codenotary: codenotary@frenck.dev
-description: Scalable datastore for metrics, events, and real-time analytics
-hassio_api: true
-homeassistant: 0.92.0b2
-image: ghcr.io/hassio-addons/influxdb/{arch}
-ingress: true
-ingress_port: 1337
-ingress_stream: true
 init: false
 map:
 - share:rw
 - ssl
-name: InfluxDB
-options:
-  auth: true
-  certfile: fullchain.pem
-  envvars: []
-  keyfile: privkey.pem
-  reporting: true
-  ssl: true
-panel_icon: mdi:chart-areaspline
 ports:
   80/tcp: null
   8086/tcp: 8086
 ports_description:
   80/tcp: Web interface (Not required for Ingress)
   8086/tcp: InfluxDB server
+auth_api: true
+options:
+  auth: true
+  reporting: true
+  ssl: true
+  certfile: fullchain.pem
+  keyfile: privkey.pem
+  envvars: []
 schema:
+  log_level: list(trace|debug|info|notice|warning|error|fatal)?
   auth: bool
+  reporting: bool
+  ssl: bool
   certfile: str
+  keyfile: str
   envvars:
   - name: match(^INFLUXDB_([A-Z0-9_])+$)
     value: str
-  keyfile: str
   leave_front_door_open: bool?
-  log_level: list(trace|debug|info|notice|warning|error|fatal)?
-  reporting: bool
-  ssl: bool
-slug: influxdb
-startup: services
-url: https://github.com/hassio-addons/addon-influxdb
-version: 4.5.0
+image: ghcr.io/hassio-addons/influxdb/{arch}
