@@ -1,43 +1,43 @@
-arch:
-- aarch64
-- amd64
-- armv7
-codenotary: codenotary@frenck.dev
+name: Grafana
+version: 8.2.1
+slug: grafana
 description: The open platform for beautiful analytics and monitoring
-image: ghcr.io/hassio-addons/grafana/{arch}
+url: https://github.com/hassio-addons/addon-grafana
+codenotary: codenotary@frenck.dev
+startup: services
 ingress: true
 ingress_port: 1337
 ingress_stream: true
 init: false
+panel_icon: mdi:chart-timeline
+panel_title: Grafana
+arch:
+- aarch64
+- amd64
+- armv7
 map:
 - config
 - ssl
-name: Grafana
+watchdog: http://[HOST]:1337/api/health
 options:
-  certfile: fullchain.pem
-  env_vars: []
-  keyfile: privkey.pem
   plugins: []
+  env_vars: []
   ssl: true
-panel_icon: mdi:chart-timeline
-panel_title: Grafana
+  certfile: fullchain.pem
+  keyfile: privkey.pem
 ports:
   80/tcp: null
 ports_description:
   80/tcp: Not required for Ingress
 schema:
-  certfile: str
-  env_vars:
-  - name: match(^GF_([A-Z0-9_])+$)
-    value: str
-  grafana_ingress_user: str?
-  keyfile: str
   log_level: list(trace|debug|info|notice|warning|error|fatal)?
   plugins:
   - str
+  certfile: str
+  keyfile: str
   ssl: bool
-slug: grafana
-startup: services
-url: https://github.com/hassio-addons/addon-grafana
-version: 8.2.0
-watchdog: http://[HOST]:1337/api/health
+  grafana_ingress_user: str?
+  env_vars:
+  - name: match(^GF_([A-Z0-9_])+$)
+    value: str
+image: ghcr.io/hassio-addons/grafana/{arch}
