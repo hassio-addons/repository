@@ -1,27 +1,27 @@
-arch:
-- aarch64
-- amd64
-codenotary: codenotary@frenck.dev
+name: EMQX
+version: 0.2.5
+slug: emqx
 description: The most scalable open-source MQTT broker for IoT. An alternative for
   the Mosquitto add-on
-host_network: true
-image: ghcr.io/hassio-addons/emqx/{arch}
+url: https://github.com/hassio-addons/addon-emqx
+codenotary: codenotary@frenck.dev
+startup: services
 ingress: true
 ingress_port: 18083
 ingress_stream: true
 init: false
-map:
-- ssl
-name: EMQX
-options:
-  env_vars: []
 panel_icon: mdi:pipe
 panel_title: EMQX
+arch:
+- aarch64
+- amd64
+map:
+- ssl
+options:
+  env_vars: []
+host_network: true
 schema:
   env_vars:
   - name: match(^EMQX_([A-Z0-9_])+$)
     value: str
-slug: emqx
-startup: services
-url: https://github.com/hassio-addons/addon-emqx
-version: 0.2.4
+image: ghcr.io/hassio-addons/emqx/{arch}
