@@ -2,9 +2,10 @@
 
 ## 🧰 Maintenance
 
-- 🎆 Updates maintenance/license year to 2023 @frenck ([#165](https://github.com/hassio-addons/addon-zerotier/pull/165))
+- Add Renovate for dependency management @frenck ([#170](https://github.com/hassio-addons/addon-zerotier/pull/170))
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades add-on base image to 13.1.3 @frenck ([#166](https://github.com/hassio-addons/addon-zerotier/pull/166))
-- ⬆️ Upgrades ZeroTier One to 1.10.4 @frenck ([#167](https://github.com/hassio-addons/addon-zerotier/pull/167))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v13.1.4 @renovate ([#174](https://github.com/hassio-addons/addon-zerotier/pull/174))
+- ⬆️ Update alpine_3_17/openssl-dev to v3.0.8-r1 @renovate ([#171](https://github.com/hassio-addons/addon-zerotier/pull/171))
+- ⬆️ Update zerotier/ZeroTierOne to v1.10.6 @renovate ([#172](https://github.com/hassio-addons/addon-zerotier/pull/172))
