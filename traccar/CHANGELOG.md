@@ -1,27 +1,25 @@
 ## What’s changed
 
-This release upgrades Traccar to 5.0! Including their new modern interface.
+## 🚀 Enhancements
 
-## 🚨 Breaking changes
+- Sync default config with Traccar project @frenck ([#210](https://github.com/hassio-addons/addon-traccar/pull/210))
 
-The Home Assistant Ingress feature for add-ons is not compatible with the new modern interface of Traccar. Therefore the Ingress feature has been dropped in order to be able to upgrade/support current and future upgrades.
+## 🧰 Maintenance
 
-- ⬆️ Upgrades Traccar to v5.0 @frenck (#180)
-
-## 🐛 Bug fixes
-
-- 🚑 Fix web UI entry point @frenck (#184)
+- 🎆 Updates maintenance/license year to 2023 @frenck ([#201](https://github.com/hassio-addons/addon-traccar/pull/201))
+- Add Renovate for dependency management @frenck ([#200](https://github.com/hassio-addons/addon-traccar/pull/200))
 
 ## 📚 Documentation
 
-- 📚 Use new My Home Assistant link format @frenck (#181)
+- 📚 Adjust documentation for new Traccar account set up @frenck ([#211](https://github.com/hassio-addons/addon-traccar/pull/211))
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades mariadb-client to 10.6.8-r0 @frenck (#176)
-- ⬆️ Upgrades nginx to 1.20.2-r1 @frenck (#177)
-- ⬆️ Upgrades nss to 3.76.1-r0 @frenck (#178)
-- ⬆️ Upgrades openjdk11-jre-headless to 11.0.15_p10-r0 @frenck (#179)
-- ⬆️ Upgrades Traccar to v5.0 @frenck (#180)
-- ⬆️ Upgrades add-on base image to 11.1.2 @frenck (#182)
-- ⬆️ Upgrades add-on base image to 12.0.0 @frenck (#183)
+- ⬆️ Upgrades add-on base image to 12.2.4 @frenck ([#190](https://github.com/hassio-addons/addon-traccar/pull/190))
+- ⬆️ Update alpine_3_17/mariadb-client to v10.6.12-r0 @renovate ([#202](https://github.com/hassio-addons/addon-traccar/pull/202))
+- ⬆️ Update alpine_3_17/openjdk11-jre-headless to v11.0.18_p10-r0 @renovate ([#205](https://github.com/hassio-addons/addon-traccar/pull/205))
+- ⬆️ Update alpine_3_17/nginx to v1.22.1-r0 @renovate ([#203](https://github.com/hassio-addons/addon-traccar/pull/203))
+- ⬆️ Update alpine_3_17/xmlstarlet to v1.6.1-r1 @renovate ([#206](https://github.com/hassio-addons/addon-traccar/pull/206))
+- ⬆️ Update alpine_3_17/nss to v3.85-r1 @renovate ([#207](https://github.com/hassio-addons/addon-traccar/pull/207))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v13 @renovate ([#208](https://github.com/hassio-addons/addon-traccar/pull/208))
+- ⬆️ Update traccar/traccar to v5.6 @renovate ([#209](https://github.com/hassio-addons/addon-traccar/pull/209))
