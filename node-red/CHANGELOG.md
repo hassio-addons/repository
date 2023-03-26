@@ -1,6 +1,10 @@
 ## What’s changed
 
+## 🧰 Maintenance
+
+- Add Renovate for dependency management @frenck ([#1574](https://github.com/hassio-addons/addon-node-red/pull/1574))
+
 ## ⬆️ Dependency updates
 
-- Bump node-red-dashboard to 3.4.0 @dependabot ([#1568](https://github.com/hassio-addons/addon-node-red/pull/1568))
-- Bump node-red-contrib-home-assistant-websocket to 0.49.0 @dependabot ([#1570](https://github.com/hassio-addons/addon-node-red/pull/1570))
+- Bump node-red-node-suncalc to 1.1.0 @dependabot ([#1573](https://github.com/hassio-addons/addon-node-red/pull/1573))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v13.1.4 @renovate ([#1576](https://github.com/hassio-addons/addon-node-red/pull/1576))
