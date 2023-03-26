@@ -73,10 +73,6 @@ addons:
     repository: hassio-addons/addon-log-viewer
     target: log-viewer
     image: ghcr.io/hassio-addons/log-viewer/{arch}
-  matrix:
-    repository: hassio-addons/addon-matrix
-    target: matrix
-    image: ghcr.io/hassio-addons/matrix/{arch}
   motioneye:
     repository: hassio-addons/addon-motioneye
     target: motioneye

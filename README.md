@@ -256,19 +256,6 @@ Expose GPIO modules and digital sensors via MQTT for remote control and monitori
 
 [:books: MQTT IO add-on documentation][addon-doc-mqtt-io]
 
-### &#10003; [Matrix][addon-matrix]
-
-![Latest Version][matrix-version-shield]
-![Supports armhf Architecture][matrix-armhf-shield]
-![Supports armv7 Architecture][matrix-armv7-shield]
-![Supports aarch64 Architecture][matrix-aarch64-shield]
-![Supports amd64 Architecture][matrix-amd64-shield]
-![Supports i386 Architecture][matrix-i386-shield]
-
-A secure and decentralized communication platform.
-
-[:books: Matrix add-on documentation][addon-doc-matrix]
-
 ### &#10003; [Network UPS Tools][addon-nut]
 
 ![Latest Version][nut-version-shield]
@@ -571,12 +558,12 @@ A web interface for the official MariaDB add-on
 ## Releases
 
 Releases are based on [Semantic Versioning][semver], and use the format
-of ``MAJOR.MINOR.PATCH``. In a nutshell, the version will be incremented
+of `MAJOR.MINOR.PATCH`. In a nutshell, the version will be incremented
 based on the following:
 
-- ``MAJOR``: Incompatible or major changes.
-- ``MINOR``: Backwards-compatible new features and enhancements.
-- ``PATCH``: Backwards-compatible bugfixes and package updates.
+- `MAJOR`: Incompatible or major changes.
+- `MINOR`: Backwards-compatible new features and enhancements.
+- `PATCH`: Backwards-compatible bugfixes and package updates.
 
 ## Support
 
@@ -610,7 +597,6 @@ on the correct GitHub repository matching the add-on.
 - [Open an issue for the add-on: JupyterLab][jupyterlab-issue]
 - [Open an issue for the add-on: Log Viewer][log-viewer-issue]
 - [Open an issue for the add-on: MQTT IO][mqtt-io-issue]
-- [Open an issue for the add-on: Matrix][matrix-issue]
 - [Open an issue for the add-on: Network UPS Tools][nut-issue]
 - [Open an issue for the add-on: Nginx Proxy Manager][nginxproxymanager-issue]
 - [Open an issue for the add-on: Node-RED][node-red-issue]
@@ -824,15 +810,6 @@ SOFTWARE.
 [mqtt-io-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [mqtt-io-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [mqtt-io-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
-[addon-matrix]: https://github.com/hassio-addons/addon-matrix/tree/v0.10.0
-[addon-doc-matrix]: https://github.com/hassio-addons/addon-matrix/blob/v0.10.0/README.md
-[matrix-issue]: https://github.com/hassio-addons/addon-matrix/issues
-[matrix-version-shield]: https://img.shields.io/badge/version-v0.10.0-blue.svg
-[matrix-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
-[matrix-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
-[matrix-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
-[matrix-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
-[matrix-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [addon-nut]: https://github.com/hassio-addons/addon-nut/tree/v0.11.1
 [addon-doc-nut]: https://github.com/hassio-addons/addon-nut/blob/v0.11.1/README.md
 [nut-issue]: https://github.com/hassio-addons/addon-nut/issues
