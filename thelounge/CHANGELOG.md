@@ -1,20 +1,12 @@
 ## What’s changed
 
-## 🐛 Bug fixes
-
-- 🚑 Fix S6 dependencies @frenck (#131)
-
 ## 🧰 Maintenance
 
-- 🎆 Updates maintenance/license year to 2023 @frenck (#128)
-- 🔨 Migrate old-style S6 scripts to s6-rc.d @frenck (#130)
+- Add Renovate for dependency management @frenck ([#132](https://github.com/hassio-addons/addon-thelounge/pull/132))
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades add-on base image to 12.2.3 @frenck (#122)
-- ⬆️ Upgrades git to 2.36.3-r0 @frenck (#123)
-- ⬆️ Upgrades python3 to 3.10.8-r0 @frenck (#124)
-- ⬆️ Upgrades nodejs to 16.17.1-r0 @frenck (#125)
-- ⬆️ Upgrades nginx to 1.22.1-r0 @frenck (#126)
-- ⬆️ Upgrades add-on base image to 12.2.7 @frenck (#127)
-- ⬆️ Upgrades add-on base image to 13.1.1 @frenck (#129)
+- ⬆️ Update alpine_3_17/git to v2.38.4-r1 @renovate ([#133](https://github.com/hassio-addons/addon-thelounge/pull/133))
+- ⬆️ Update alpine_3_17/python3 to v3.10.10-r0 @renovate ([#134](https://github.com/hassio-addons/addon-thelounge/pull/134))
+- ⬆️ Update alpine_3_17/nodejs to v18.14.2-r0 @renovate ([#137](https://github.com/hassio-addons/addon-thelounge/pull/137))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v13.1.4 @renovate ([#136](https://github.com/hassio-addons/addon-thelounge/pull/136))
