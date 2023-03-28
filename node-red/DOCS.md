@@ -313,4 +313,4 @@ SOFTWARE.
 [npm-packages]: https://www.npmjs.com
 [reddit]: https://reddit.com/r/homeassistant
 [releases]: https://github.com/hassio-addons/addon-node-red/releases
-[semver]: http://semver.org/spec/v2.0.0.htm
+[semver]: https://semver.org/spec/v2.0.0.html
