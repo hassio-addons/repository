@@ -1,10 +1,9 @@
 ## What’s changed
 
-## 🧰 Maintenance
+## 🚀 Enhancements
 
-- Add Renovate for dependency management @frenck ([#31](https://github.com/hassio-addons/addon-emqx/pull/31))
+- Limit maximum open file handles for EMQX specifically @agners ([#38](https://github.com/hassio-addons/addon-emqx/pull/38))
 
-## ⬆️ Dependency updates
+## 📚 Documentation
 
-- ⬆️ Update emqx/emqx to v5.0.21 @renovate ([#33](https://github.com/hassio-addons/addon-emqx/pull/33))
-- ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v6.2.4 @renovate ([#34](https://github.com/hassio-addons/addon-emqx/pull/34))
+- Fix broken URL @wrt54g ([#37](https://github.com/hassio-addons/addon-emqx/pull/37))
