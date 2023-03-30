@@ -49,12 +49,13 @@ network right from their interface.
 The add-on exposes "Exit Node" capabilities that you can enable from your
 Tailscale account. Additionally, if the Supervisor managed your network (
 which is the default), the add-on will also advertise routes to your
-subnet to Tailscale.
+subnets on all supported interfaces to Tailscale.
 
 ```yaml
 tags:
   - tag:example
   - tag:homeassistant
+log_level: info
 ```
 
 ### Option: `tags`
@@ -63,6 +64,28 @@ This option allows you to specify specific ACL tags for this Tailscale
 instance. They need to start with `tag:`.
 
 More information: <https://tailscale.com/kb/1068/acl-tags/>
+
+### Option: `log_level`
+
+Optionally enable tailscaled debug messages in the add-on's log. Turn it on only
+in case you are troubleshooting, because Tailscale's daemon is quite chatty.
+
+The `log_level` option controls the level of log output by the addon and can
+be changed to be more or less verbose, which might be useful when you are
+dealing with an unknown issue. Possible values are:
+
+- `trace`: Show every detail, like all called internal functions.
+- `debug`: Shows detailed debug information.
+- `info`: Normal (usually) interesting events.
+- `notice`: Normal but significant events.
+- `warning`: Exceptional occurrences that are not errors.
+- `error`: Runtime errors that do not require immediate action.
+- `fatal`: Something went terribly wrong. Add-on becomes unusable.
+
+Please note that each level automatically includes log messages from a
+more severe level, e.g., `debug` also shows `info` messages. By default,
+the `log_level` is set to `info`, which is the recommended setting unless
+you are troubleshooting.
 
 ## Changelog & Releases
 
@@ -133,4 +156,4 @@ SOFTWARE.
 [issue]: https://github.com/hassio-addons/addon-tailscale/issues
 [reddit]: https://reddit.com/r/homeassistant
 [releases]: https://github.com/hassio-addons/addon-tailscale/releases
-[semver]: http://semver.org/spec/v2.0.0.htm
+[semver]: https://semver.org/spec/v2.0.0.html
