@@ -87,6 +87,14 @@ more severe level, e.g., `debug` also shows `info` messages. By default,
 the `log_level` is set to `info`, which is the recommended setting unless
 you are troubleshooting.
 
+## Taildrop
+
+This add-on support [Tailscale's Taildrop][taildrop] feature, which allows
+you to send files to your Home Assistant instance from other Tailscale
+devices.
+
+Received files are stored in the `/share/taildrop` directory.
+
 ## Changelog & Releases
 
 This repository keeps a change log using [GitHub's releases][releases]
@@ -157,3 +165,4 @@ SOFTWARE.
 [reddit]: https://reddit.com/r/homeassistant
 [releases]: https://github.com/hassio-addons/addon-tailscale/releases
 [semver]: https://semver.org/spec/v2.0.0.html
+[taildrop]: https://tailscale.com/taildrop/
