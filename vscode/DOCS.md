@@ -1,6 +1,6 @@
 # Home Assistant Community Add-on: Studio Code Server
 
-This add-on runs [code-server](https://github.com/cdr/code-server), which
+This add-on runs [code-server](https://github.com/coder/code-server), which
 gives you a Visual Studio Code experience straight from the browser. It allows
 you to edit your Home Assistant configuration directly from your web browser,
 directly from within the Home Assistant frontend.
@@ -184,5 +184,5 @@ SOFTWARE.
 [issue]: https://github.com/hassio-addons/addon-vscode/issues
 [reddit]: https://reddit.com/r/homeassistant
 [releases]: https://github.com/hassio-addons/addon-vscode/releases
-[semver]: http://semver.org/spec/v2.0.0
+[semver]: https://semver.org/spec/v2.0.0
 [ubuntu-packages]: https://packages.ubuntu.com

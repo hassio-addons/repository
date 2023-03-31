@@ -2,11 +2,14 @@
 
 ## 🧰 Maintenance
 
-- Add Renovate for dependency management @frenck ([#593](https://github.com/hassio-addons/addon-vscode/pull/593))
+- 🔨 Adjust upstream code-server org name @frenck ([#603](https://github.com/hassio-addons/addon-vscode/pull/603))
+
+## 📚 Documentation
+
+- Update URLs in documentation @wrt54g ([#602](https://github.com/hassio-addons/addon-vscode/pull/602))
 
 ## ⬆️ Dependency updates
 
-- Bump esphome to 2023.3.1 @dependabot ([#590](https://github.com/hassio-addons/addon-vscode/pull/590))
-- Bump yamllint to 1.30.0 @dependabot ([#591](https://github.com/hassio-addons/addon-vscode/pull/591))
-- ⬆️ Update debian_11/git to v1:2.30.2-1+deb11u2 @renovate ([#594](https://github.com/hassio-addons/addon-vscode/pull/594))
-- ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v6.2.4 @renovate ([#595](https://github.com/hassio-addons/addon-vscode/pull/595))
+- ⬆️ Update esphome to v2023.3.2 @renovate ([#600](https://github.com/hassio-addons/addon-vscode/pull/600))
+- ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v6.2.5 @renovate ([#604](https://github.com/hassio-addons/addon-vscode/pull/604))
+- ⬆️ Update keesschollaart81/vscode-home-assistant to v1.35.0 @renovate ([#605](https://github.com/hassio-addons/addon-vscode/pull/605))

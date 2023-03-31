@@ -873,10 +873,10 @@ SOFTWARE.
 [spotify-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [spotify-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [spotify-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
-[addon-vscode]: https://github.com/hassio-addons/addon-vscode/tree/v5.5.5
-[addon-doc-vscode]: https://github.com/hassio-addons/addon-vscode/blob/v5.5.5/README.md
+[addon-vscode]: https://github.com/hassio-addons/addon-vscode/tree/v5.5.6
+[addon-doc-vscode]: https://github.com/hassio-addons/addon-vscode/blob/v5.5.6/README.md
 [vscode-issue]: https://github.com/hassio-addons/addon-vscode/issues
-[vscode-version-shield]: https://img.shields.io/badge/version-v5.5.5-blue.svg
+[vscode-version-shield]: https://img.shields.io/badge/version-v5.5.6-blue.svg
 [vscode-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [vscode-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [vscode-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
