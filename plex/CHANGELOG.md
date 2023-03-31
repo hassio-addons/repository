@@ -1,5 +1,9 @@
 ## What’s changed
 
+## 📚 Documentation
+
+- Fix broken URL @wrt54g (#192)
+
 ## ⬆️ Dependency updates
 
-- ⬆️ Update Plex Media Server to 1.31.2.6810 @paulovitin (#189)
+- ⬆️ Upgrades Plex Media Server to 1.31.3.6868 @frenck (#193)
