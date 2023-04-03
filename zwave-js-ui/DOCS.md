@@ -178,5 +178,5 @@ SOFTWARE.
 [issue]: https://github.com/hassio-addons/addon-zwave-js-ui/issues
 [reddit]: https://reddit.com/r/homeassistant
 [releases]: https://github.com/hassio-addons/addon-zwave-js-ui/releases
-[semver]: http://semver.org/spec/v2.0.0.htm
+[semver]: https://semver.org/spec/v2.0.0.html
 [zwave-js-ui]: https://github.com/zwave-js/zwave-js-ui

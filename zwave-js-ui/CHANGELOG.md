@@ -1,10 +1,11 @@
 ## What’s changed
 
-## 🧰 Maintenance
+## 📚 Documentation
 
-- Add Renovate for dependency management @frenck ([#488](https://github.com/hassio-addons/addon-zwave-js-ui/pull/488))
+- Fix broken URL @wrt54g ([#495](https://github.com/hassio-addons/addon-zwave-js-ui/pull/495))
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v13.1.4 @renovate ([#489](https://github.com/hassio-addons/addon-zwave-js-ui/pull/489))
-- ⬆️ Update zwave-js/zwave-js-ui to v8.11.1 @renovate ([#490](https://github.com/hassio-addons/addon-zwave-js-ui/pull/490))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v13.1.5 @renovate ([#496](https://github.com/hassio-addons/addon-zwave-js-ui/pull/496))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v13.2.0 @renovate ([#497](https://github.com/hassio-addons/addon-zwave-js-ui/pull/497))
+- ⬆️ Update zwave-js/zwave-js-ui to v8.12.0 @renovate ([#499](https://github.com/hassio-addons/addon-zwave-js-ui/pull/499))
