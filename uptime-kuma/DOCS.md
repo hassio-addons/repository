@@ -104,4 +104,4 @@ SOFTWARE.
 [issue]: https://github.com/hassio-addons/addon-uptime-kuma/issues
 [reddit]: https://reddit.com/r/homeassistant
 [releases]: https://github.com/hassio-addons/addon-uptime-kuma/releases
-[semver]: http://semver.org/spec/v2.0.0.htm
+[semver]: https://semver.org/spec/v2.0.0.html

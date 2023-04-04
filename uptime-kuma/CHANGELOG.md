@@ -1,10 +1,11 @@
 ## What’s changed
 
-## 🧰 Maintenance
+## 📚 Documentation
 
-- Add Renovate for dependency management @frenck ([#62](https://github.com/hassio-addons/addon-uptime-kuma/pull/62))
+- Fix broken URL @wrt54g ([#67](https://github.com/hassio-addons/addon-uptime-kuma/pull/67))
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v13.1.4 @renovate ([#64](https://github.com/hassio-addons/addon-uptime-kuma/pull/64))
-- ⬆️ Update louislam/uptime-kuma to v1.21.1 @renovate ([#66](https://github.com/hassio-addons/addon-uptime-kuma/pull/66))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v13.1.5 @renovate ([#68](https://github.com/hassio-addons/addon-uptime-kuma/pull/68))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v13.2.0 @renovate ([#69](https://github.com/hassio-addons/addon-uptime-kuma/pull/69))
+- ⬆️ Update louislam/uptime-kuma to v1.21.2 @renovate ([#70](https://github.com/hassio-addons/addon-uptime-kuma/pull/70))
