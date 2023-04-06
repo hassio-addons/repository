@@ -14,7 +14,7 @@ The installation of this add-on is pretty straightforward and not different in
 comparison to installing any other Home Assistant add-on.
 
 1. **Ensure your Home Assistant device has a
-   [static IP and static external DNS servers!](https://github.com/home-assistant/hassos/blob/dev/Documentation/network.md#static-ip)**
+   [static IP and static external DNS servers!](https://github.com/home-assistant/operating-system/blob/dev/Documentation/network.md#static-ip)**
    This is important! You **WILL** end up having issues if you skip this step.
    - Change this setting in Network:
      [![Open your Home Assistant instance and manage your systems network configuration.](https://my.home-assistant.io/badges/network.svg)](https://my.home-assistant.io/redirect/network/)
@@ -162,7 +162,7 @@ SOFTWARE.
 
 [addon-badge]: https://my.home-assistant.io/badges/supervisor_addon.svg
 [addon]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=a0d7b954_adguard&repository_url=https%3A%2F%2Fgithub.com%2Fhassio-addons%2Frepository
-[adguard]: https://adguard.com/en/adguard-home/overview.html
+[adguard]: https://adguard.com/adguard-home/overview.html
 [contributors]: https://github.com/hassio-addons/addon-adguard-home/graphs/contributors
 [discord-ha]: https://discord.gg/c5DvZ4e
 [discord]: https://discord.me/hassioaddons
@@ -171,4 +171,4 @@ SOFTWARE.
 [issue]: https://github.com/hassio-addons/addon-adguard-home/issues
 [reddit]: https://reddit.com/r/homeassistant
 [releases]: https://github.com/hassio-addons/addon-adguard-home/releases
-[semver]: http://semver.org/spec/v2.0.0.htm
+[semver]: https://semver.org/spec/v2.0.0.html
