@@ -1,15 +1,12 @@
 ## What’s changed
 
-The base image of this add-on has been updated to the latest version, which is based on Alpine Linux 3.17.
-This might impact any custom package or other customizations you have configured on the add-on.
-
-The Python version had a patch upgrade, it should not impact your existing AppDaemon apps.
-
 ## 🧰 Maintenance
 
-- 🔨 Migrate old-style base scripts s6-rc @frenck (#223)
+- 🎆 Updates maintenance/license year to 2023 @frenck ([#234](https://github.com/hassio-addons/addon-appdaemon/pull/234))
+- Add Renovate for dependency management @frenck ([#239](https://github.com/hassio-addons/addon-appdaemon/pull/239))
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades add-on base image to 13.0.0 @frenck (#221)
-- ⬆️ Upgrades python3 to 3.10.9-r1 @frenck (#222)
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v13.2.0 @renovate ([#244](https://github.com/hassio-addons/addon-appdaemon/pull/244))
+- ⬆️ Update Python to v3.10.11-r0 @renovate ([#245](https://github.com/hassio-addons/addon-appdaemon/pull/245))
+- ⬆️ Update appdaemon to v4.4.1 @renovate ([#247](https://github.com/hassio-addons/addon-appdaemon/pull/247))
