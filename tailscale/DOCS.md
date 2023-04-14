@@ -59,14 +59,8 @@ tags:
   - tag:example
   - tag:homeassistant
 log_level: info
+login_server: "https://controlplane.tailscale.com"
 ```
-
-### Option: `tags`
-
-This option allows you to specify specific ACL tags for this Tailscale
-instance. They need to start with `tag:`.
-
-More information: <https://tailscale.com/kb/1068/acl-tags/>
 
 ### Option: `log_level`
 
@@ -89,6 +83,20 @@ Please note that each level automatically includes log messages from a
 more severe level, e.g., `debug` also shows `info` messages. By default,
 the `log_level` is set to `info`, which is the recommended setting unless
 you are troubleshooting.
+
+### Option: `login_server`
+
+This option lets you specify you to specify a custom control server instead of
+the default (`https://controlplane.tailscale.com`). This is useful if you
+are running your own Tailscale control server, for example, a self-hosted
+[Headscale] instance.
+
+### Option: `tags`
+
+This option allows you to specify specific ACL tags for this Tailscale
+instance. They need to start with `tag:`.
+
+More information: <https://tailscale.com/kb/1068/acl-tags/>
 
 ## Taildrop
 
@@ -164,6 +172,7 @@ SOFTWARE.
 [discord]: https://discord.me/hassioaddons
 [forum]: https://community.home-assistant.io/?u=frenck
 [frenck]: https://github.com/frenck
+[headscale]: https://github.com/juanfont/headscale
 [issue]: https://github.com/hassio-addons/addon-tailscale/issues
 [reddit]: https://reddit.com/r/homeassistant
 [releases]: https://github.com/hassio-addons/addon-tailscale/releases

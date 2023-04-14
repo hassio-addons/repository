@@ -1,13 +1,14 @@
 ## What’s changed
 
-## 🧰 Maintenance
+## ✨ New features
 
-- Remove unneeded add-on privileges @lmagyar ([#171](https://github.com/hassio-addons/addon-tailscale/pull/171))
+- Add custom control server support @frenck ([#180](https://github.com/hassio-addons/addon-tailscale/pull/180))
 
-## 📚 Documentation
+## 🚀 Enhancements
 
-- Extend documentation with disabling key expiry @lmagyar ([#172](https://github.com/hassio-addons/addon-tailscale/pull/172))
+- Tiny code styling changes @frenck ([#178](https://github.com/hassio-addons/addon-tailscale/pull/178))
+- Add translations @frenck ([#179](https://github.com/hassio-addons/addon-tailscale/pull/179))
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update tailscale/tailscale to v1.38.4 @renovate ([#174](https://github.com/hassio-addons/addon-tailscale/pull/174))
+- ⬆️ Update Add-on base image to v13.2.1 @renovate ([#177](https://github.com/hassio-addons/addon-tailscale/pull/177))
