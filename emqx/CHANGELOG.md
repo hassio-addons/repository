@@ -1,9 +1,6 @@
 ## What’s changed
 
-## 🚀 Enhancements
+## ⬆️ Dependency updates
 
-- Limit maximum open file handles for EMQX specifically @agners ([#38](https://github.com/hassio-addons/addon-emqx/pull/38))
-
-## 📚 Documentation
-
-- Fix broken URL @wrt54g ([#37](https://github.com/hassio-addons/addon-emqx/pull/37))
+- ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v6.2.5 @renovate ([#39](https://github.com/hassio-addons/addon-emqx/pull/39))
+- ⬆️ Update emqx/emqx to v5.0.22 @renovate ([#40](https://github.com/hassio-addons/addon-emqx/pull/40))
