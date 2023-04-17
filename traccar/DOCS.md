@@ -185,5 +185,5 @@ SOFTWARE.
 [mariadb]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=core_mariadb
 [reddit]: https://reddit.com/r/homeassistant
 [releases]: https://github.com/hassio-addons/addon-traccar/releases
-[semver]: http://semver.org/spec/v2.0.0.htm
+[semver]: https://semver.org/spec/v2.0.0.html
 [traccar]: https://www.traccar.org
