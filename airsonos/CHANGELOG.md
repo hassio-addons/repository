@@ -1,10 +1,14 @@
 ## What’s changed
 
+## 🚀 Enhancements
+
+- Change PCM to WAV for comaptibility w/latest Sonos @chucklebrother ([#135](https://github.com/hassio-addons/addon-airsonos/pull/135))
+
 ## 🧰 Maintenance
 
-- 🎆 Updates maintenance/license year to 2023 @frenck ([#126](https://github.com/hassio-addons/addon-airsonos/pull/126))
+- Add Renovate for dependency management @frenck ([#130](https://github.com/hassio-addons/addon-airsonos/pull/130))
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades add-on base image to 6.2.3 @frenck ([#127](https://github.com/hassio-addons/addon-airsonos/pull/127))
-- ⬆️ Upgrades AirConnect to 1.0.14 @frenck ([#128](https://github.com/hassio-addons/addon-airsonos/pull/128))
+- ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v6.2.4 @renovate ([#131](https://github.com/hassio-addons/addon-airsonos/pull/131))
+- ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v6.2.5 @renovate ([#133](https://github.com/hassio-addons/addon-airsonos/pull/133))
