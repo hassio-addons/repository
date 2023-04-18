@@ -44,7 +44,7 @@ https://github.com/hassio-addons/repository
 ![Supports amd64 Architecture][adguard-amd64-shield]
 ![Supports i386 Architecture][adguard-i386-shield]
 
-Network-wide ads & trackers blocking DNS server
+Network-wide ads & trackers blocking DNS server.
 
 [:books: AdGuard Home add-on documentation][addon-doc-adguard]
 
@@ -83,7 +83,7 @@ AirPlay capabilities for your Sonos (and UPnP) devices.
 ![Supports amd64 Architecture][appdaemon-amd64-shield]
 ![Supports i386 Architecture][appdaemon-i386-shield]
 
-Python Apps and Dashboard using AppDaemon 4.x for Home Assistant
+Python Apps and Dashboard using AppDaemon 4.x for Home Assistant.
 
 [:books: AppDaemon add-on documentation][addon-doc-appdaemon]
 
@@ -96,7 +96,7 @@ Python Apps and Dashboard using AppDaemon 4.x for Home Assistant
 ![Supports amd64 Architecture][bookstack-amd64-shield]
 ![Supports i386 Architecture][bookstack-i386-shield]
 
-Simple & Free Wiki Software
+Simple & Free Wiki Software.
 
 [:books: Bookstack add-on documentation][addon-doc-bookstack]
 
@@ -109,7 +109,7 @@ Simple & Free Wiki Software
 ![Supports amd64 Architecture][emqx-amd64-shield]
 ![Supports i386 Architecture][emqx-i386-shield]
 
-The most scalable open-source MQTT broker for IoT. An alternative for the Mosquitto add-on
+The most scalable open-source MQTT broker for IoT. An alternative for the Mosquitto add-on.
 
 [:books: EMQX add-on documentation][addon-doc-emqx]
 
@@ -122,7 +122,7 @@ The most scalable open-source MQTT broker for IoT. An alternative for the Mosqui
 ![Supports amd64 Architecture][example-amd64-shield]
 ![Supports i386 Architecture][example-i386-shield]
 
-Example add-on by Community Home Assistant Add-ons
+Example add-on by Community Home Assistant Add-ons.
 
 [:books: Example add-on documentation][addon-doc-example]
 
@@ -135,7 +135,7 @@ Example add-on by Community Home Assistant Add-ons
 ![Supports amd64 Architecture][ftp-amd64-shield]
 ![Supports i386 Architecture][ftp-i386-shield]
 
-A secure and fast FTP server for Home Assistant
+A secure and fast FTP server for Home Assistant.
 
 [:books: FTP add-on documentation][addon-doc-ftp]
 
@@ -148,7 +148,7 @@ A secure and fast FTP server for Home Assistant
 ![Supports amd64 Architecture][foldingathome-amd64-shield]
 ![Supports i386 Architecture][foldingathome-i386-shield]
 
-Fighting disease with a world wide distributed super computer
+Fighting disease with a world wide distributed super computer.
 
 [:books: Folding@home add-on documentation][addon-doc-foldingathome]
 
@@ -161,7 +161,7 @@ Fighting disease with a world wide distributed super computer
 ![Supports amd64 Architecture][glances-amd64-shield]
 ![Supports i386 Architecture][glances-i386-shield]
 
-A cross-platform system monitoring tool
+A cross-platform system monitoring tool.
 
 [:books: Glances add-on documentation][addon-doc-glances]
 
@@ -174,7 +174,7 @@ A cross-platform system monitoring tool
 ![Supports amd64 Architecture][grafana-amd64-shield]
 ![Supports i386 Architecture][grafana-i386-shield]
 
-The open platform for beautiful analytics and monitoring
+The open platform for beautiful analytics and monitoring.
 
 [:books: Grafana add-on documentation][addon-doc-grafana]
 
@@ -187,7 +187,7 @@ The open platform for beautiful analytics and monitoring
 ![Supports amd64 Architecture][grocy-amd64-shield]
 ![Supports i386 Architecture][grocy-i386-shield]
 
-ERP beyond your fridge! A groceries & household management solution for your home
+ERP beyond your fridge! A groceries & household management solution for your home.
 
 [:books: Grocy add-on documentation][addon-doc-grocy]
 
@@ -200,7 +200,7 @@ ERP beyond your fridge! A groceries & household management solution for your hom
 ![Supports amd64 Architecture][home-panel-amd64-shield]
 ![Supports i386 Architecture][home-panel-i386-shield]
 
-A web frontend for controlling the home
+A web frontend for controlling the home.
 
 [:books: Home Panel add-on documentation][addon-doc-home-panel]
 
@@ -213,7 +213,7 @@ A web frontend for controlling the home
 ![Supports amd64 Architecture][influxdb-amd64-shield]
 ![Supports i386 Architecture][influxdb-i386-shield]
 
-Scalable datastore for metrics, events, and real-time analytics
+Scalable datastore for metrics, events, and real-time analytics.
 
 [:books: InfluxDB add-on documentation][addon-doc-influxdb]
 
@@ -226,7 +226,7 @@ Scalable datastore for metrics, events, and real-time analytics
 ![Supports amd64 Architecture][jupyterlab-amd64-shield]
 ![Supports i386 Architecture][jupyterlab-i386-shield]
 
-Create documents containing live code, equations, visualizations, and explanatory text
+Create documents containing live code, equations, visualizations, and explanatory text.
 
 [:books: JupyterLab add-on documentation][addon-doc-jupyterlab]
 
@@ -239,7 +239,7 @@ Create documents containing live code, equations, visualizations, and explanator
 ![Supports amd64 Architecture][log-viewer-amd64-shield]
 ![Supports i386 Architecture][log-viewer-i386-shield]
 
-Browser-based log utility for Home Assistant
+Browser-based log utility for Home Assistant.
 
 [:books: Log Viewer add-on documentation][addon-doc-log-viewer]
 
@@ -265,7 +265,7 @@ Expose GPIO modules and digital sensors via MQTT for remote control and monitori
 ![Supports amd64 Architecture][nut-amd64-shield]
 ![Supports i386 Architecture][nut-i386-shield]
 
-Manage battery backup (UPS) devices
+Manage battery backup (UPS) devices.
 
 [:books: Network UPS Tools add-on documentation][addon-doc-nut]
 
@@ -278,7 +278,7 @@ Manage battery backup (UPS) devices
 ![Supports amd64 Architecture][nginxproxymanager-amd64-shield]
 ![Supports i386 Architecture][nginxproxymanager-i386-shield]
 
-Manage Nginx proxy hosts with a simple, powerful interface
+Manage Nginx proxy hosts with a simple, powerful interface.
 
 [:books: Nginx Proxy Manager add-on documentation][addon-doc-nginxproxymanager]
 
@@ -291,7 +291,7 @@ Manage Nginx proxy hosts with a simple, powerful interface
 ![Supports amd64 Architecture][node-red-amd64-shield]
 ![Supports i386 Architecture][node-red-i386-shield]
 
-Flow-based programming for the Internet of Things
+Flow-based programming for the Internet of Things.
 
 [:books: Node-RED add-on documentation][addon-doc-node-red]
 
@@ -317,7 +317,7 @@ Recorded media, live TV, online news, and podcasts ready to stream.
 ![Supports amd64 Architecture][sqlite-web-amd64-shield]
 ![Supports i386 Architecture][sqlite-web-i386-shield]
 
-Explore your SQLite database
+Explore your SQLite database.
 
 [:books: SQLite Web add-on documentation][addon-doc-sqlite-web]
 
@@ -330,7 +330,7 @@ Explore your SQLite database
 ![Supports amd64 Architecture][ssh-amd64-shield]
 ![Supports i386 Architecture][ssh-i386-shield]
 
-SSH & Web Terminal access to your Home Assistant instance
+SSH & Web Terminal access to your Home Assistant instance.
 
 [:books: SSH & Web Terminal add-on documentation][addon-doc-ssh]
 
@@ -343,7 +343,7 @@ SSH & Web Terminal access to your Home Assistant instance
 ![Supports amd64 Architecture][spotify-amd64-shield]
 ![Supports i386 Architecture][spotify-i386-shield]
 
-Play Spotify music on your Home Assistant device
+Play Spotify music on your Home Assistant device.
 
 [:books: Spotify Connect add-on documentation][addon-doc-spotify]
 
@@ -369,7 +369,7 @@ Fully featured Visual Studio Code (VSCode) experience integrated in the Home Ass
 ![Supports amd64 Architecture][tailscale-amd64-shield]
 ![Supports i386 Architecture][tailscale-i386-shield]
 
-Zero config VPN for building secure networks
+Zero config VPN for building secure networks.
 
 [:books: Tailscale add-on documentation][addon-doc-tailscale]
 
@@ -382,7 +382,7 @@ Zero config VPN for building secure networks
 ![Supports amd64 Architecture][tasmoadmin-amd64-shield]
 ![Supports i386 Architecture][tasmoadmin-i386-shield]
 
-Centrally manage all your Sonoff-Tasmota devices
+Centrally manage all your Sonoff-Tasmota devices.
 
 [:books: TasmoAdmin add-on documentation][addon-doc-tasmoadmin]
 
@@ -395,7 +395,7 @@ Centrally manage all your Sonoff-Tasmota devices
 ![Supports amd64 Architecture][tautulli-amd64-shield]
 ![Supports i386 Architecture][tautulli-i386-shield]
 
-Monitoring and tracking tool for Plex Media Server
+Monitoring and tracking tool for Plex Media Server.
 
 [:books: Tautulli add-on documentation][addon-doc-tautulli]
 
@@ -408,7 +408,7 @@ Monitoring and tracking tool for Plex Media Server
 ![Supports amd64 Architecture][thelounge-amd64-shield]
 ![Supports i386 Architecture][thelounge-i386-shield]
 
-A self-hosted web IRC client
+A self-hosted web IRC client.
 
 [:books: The Lounge add-on documentation][addon-doc-thelounge]
 
@@ -421,7 +421,7 @@ A self-hosted web IRC client
 ![Supports amd64 Architecture][tor-amd64-shield]
 ![Supports i386 Architecture][tor-i386-shield]
 
-Protect your privacy and access Home Assistant via Tor
+Protect your privacy and access Home Assistant via Tor.
 
 [:books: Tor add-on documentation][addon-doc-tor]
 
@@ -434,7 +434,7 @@ Protect your privacy and access Home Assistant via Tor
 ![Supports amd64 Architecture][traccar-amd64-shield]
 ![Supports i386 Architecture][traccar-i386-shield]
 
-Modern GPS Tracking Platform
+Modern GPS Tracking Platform.
 
 [:books: Traccar add-on documentation][addon-doc-traccar]
 
@@ -447,7 +447,7 @@ Modern GPS Tracking Platform
 ![Supports amd64 Architecture][unifi-amd64-shield]
 ![Supports i386 Architecture][unifi-i386-shield]
 
-Manage your UniFi network using a web browser
+Manage your UniFi network using a web browser.
 
 [:books: UniFi Network Application add-on documentation][addon-doc-unifi]
 
@@ -460,7 +460,7 @@ Manage your UniFi network using a web browser
 ![Supports amd64 Architecture][uptime-kuma-amd64-shield]
 ![Supports i386 Architecture][uptime-kuma-i386-shield]
 
-It is a self-hosted monitoring tool like "Uptime Robot"
+It is a self-hosted monitoring tool like "Uptime Robot".
 
 [:books: Uptime Kuma add-on documentation][addon-doc-uptime-kuma]
 
@@ -473,7 +473,7 @@ It is a self-hosted monitoring tool like "Uptime Robot"
 ![Supports amd64 Architecture][bitwarden-amd64-shield]
 ![Supports i386 Architecture][bitwarden-i386-shield]
 
-Open source password management solution
+Open source password management solution.
 
 [:books: Vaultwarden (Bitwarden) add-on documentation][addon-doc-bitwarden]
 
@@ -486,7 +486,7 @@ Open source password management solution
 ![Supports amd64 Architecture][wireguard-amd64-shield]
 ![Supports i386 Architecture][wireguard-i386-shield]
 
-Fast, modern, secure VPN tunnel
+Fast, modern, secure VPN tunnel.
 
 [:books: WireGuard add-on documentation][addon-doc-wireguard]
 
@@ -499,7 +499,7 @@ Fast, modern, secure VPN tunnel
 ![Supports amd64 Architecture][zwave-js-ui-amd64-shield]
 ![Supports i386 Architecture][zwave-js-ui-i386-shield]
 
-Fully configurable Z-Wave JS gateway and control panel
+Fully configurable Z-Wave JS gateway and control panel.
 
 [:books: Z-Wave JS UI add-on documentation][addon-doc-zwave-js-ui]
 
@@ -512,7 +512,7 @@ Fully configurable Z-Wave JS gateway and control panel
 ![Supports amd64 Architecture][zerotier-amd64-shield]
 ![Supports i386 Architecture][zerotier-i386-shield]
 
-Radically simplify your network with a virtual networking layer that works the same everywhere
+Radically simplify your network with a virtual networking layer that works the same everywhere.
 
 [:books: ZeroTier One add-on documentation][addon-doc-zerotier]
 
@@ -538,7 +538,7 @@ A local NTP (Network Time Protocol) server for cameras etc.
 ![Supports amd64 Architecture][motioneye-amd64-shield]
 ![Supports i386 Architecture][motioneye-i386-shield]
 
-Simple, elegant and feature-rich CCTV/NVR for your cameras
+Simple, elegant and feature-rich CCTV/NVR for your cameras.
 
 [:books: motionEye add-on documentation][addon-doc-motioneye]
 
@@ -551,7 +551,7 @@ Simple, elegant and feature-rich CCTV/NVR for your cameras
 ![Supports amd64 Architecture][phpmyadmin-amd64-shield]
 ![Supports i386 Architecture][phpmyadmin-i386-shield]
 
-A web interface for the official MariaDB add-on
+A web interface for the official MariaDB add-on.
 
 [:books: phpMyAdmin add-on documentation][addon-doc-phpmyadmin]
 
