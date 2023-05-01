@@ -1,24 +1,30 @@
 ## What’s changed
 
+The add-on has been renamed to "Advanced SSH & Web Terminal", to better distinguish itself from the core add-on. 
+
+## 🚨 Breaking changes
+
+- Rename add-on to Advanced SSH & Web Terminal @frenck ([#548](https://github.com/hassio-addons/addon-ssh/pull/548))
+
 ## ✨ New features
 
-- Add support for VSCode Remote - SSH @BNolet ([#498](https://github.com/hassio-addons/addon-ssh/pull/498))
+- Allow HA commands without an interactive shell @frenck ([#545](https://github.com/hassio-addons/addon-ssh/pull/545))
 
-## 🚀 Enhancements
+## 📚 Documentation
 
-- Sync server `KexAlgorithms` with OpenSSH 9.1 and ssh-audit dev @scop ([#513](https://github.com/hassio-addons/addon-ssh/pull/513))
-- Implement current ssh-audit dev client recommendations @scop ([#516](https://github.com/hassio-addons/addon-ssh/pull/516))
-- Specify server MACs and KexAlgos in terms of removals @scop ([#515](https://github.com/hassio-addons/addon-ssh/pull/515))
-
-## 🧰 Maintenance
-
-- Add Renovate for dependency management @frenck ([#505](https://github.com/hassio-addons/addon-ssh/pull/505))
-- Renovate tweaks @frenck ([#514](https://github.com/hassio-addons/addon-ssh/pull/514))
+- Fix broken URL @wrt54g ([#517](https://github.com/hassio-addons/addon-ssh/pull/517))
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update dependency alpine_3_17/openssl to v3.0.8-r1 @renovate ([#508](https://github.com/hassio-addons/addon-ssh/pull/508))
-- ⬆️ Update dependency alpine_3_17/cmake to v3.24.4-r0 @renovate ([#507](https://github.com/hassio-addons/addon-ssh/pull/507))
-- ⬆️ Update dependency alpine_3_17/openssl-dev to v3.0.8-r1 @renovate ([#510](https://github.com/hassio-addons/addon-ssh/pull/510))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v13.1.4 @renovate ([#512](https://github.com/hassio-addons/addon-ssh/pull/512))
-- ⬆️ Update yamllint to v1.30.0 @renovate ([#511](https://github.com/hassio-addons/addon-ssh/pull/511))
+- ⬆️ Update OpenSSL to v3.0.8-r3 @renovate ([#523](https://github.com/hassio-addons/addon-ssh/pull/523))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v13.2.0 @renovate ([#520](https://github.com/hassio-addons/addon-ssh/pull/520))
+- ⬆️ Update Docker to v20.10.24-r0 @renovate ([#531](https://github.com/hassio-addons/addon-ssh/pull/531))
+- ⬆️ Update Python to v3.10.11-r0 @renovate ([#533](https://github.com/hassio-addons/addon-ssh/pull/533))
+- ⬆️ Update alpine_3_17/bind-tools to v9.18.13-r0 @renovate ([#534](https://github.com/hassio-addons/addon-ssh/pull/534))
+- ⬆️ Update alpine_3_17/libxml2-utils to v2.10.4-r0 @renovate ([#536](https://github.com/hassio-addons/addon-ssh/pull/536))
+- ⬆️ Update Docker to v20.10.24-r1 @renovate ([#537](https://github.com/hassio-addons/addon-ssh/pull/537))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v13.2.1 @renovate ([#538](https://github.com/hassio-addons/addon-ssh/pull/538))
+- ⬆️ Update OpenSSL to v3.0.8-r4 @renovate ([#541](https://github.com/hassio-addons/addon-ssh/pull/541))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v13.2.2 @renovate ([#542](https://github.com/hassio-addons/addon-ssh/pull/542))
+- ⬆️ Update yamllint to v1.31.0 @renovate ([#543](https://github.com/hassio-addons/addon-ssh/pull/543))
+- ⬆️ Update alpine_3_17/git to v2.38.5-r0 @renovate ([#544](https://github.com/hassio-addons/addon-ssh/pull/544))

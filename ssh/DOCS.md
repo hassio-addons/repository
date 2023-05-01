@@ -1,4 +1,4 @@
-# Home Assistant Community Add-on: SSH & Web Terminal
+# Home Assistant Community Add-on: Advanced SSH & Web Terminal
 
 This add-on allows you to log in to your Home Assistant instance using
 SSH or a Web Terminal, giving you to access your folders and
@@ -11,8 +11,8 @@ usability, flexibility and also provides access using a web interface.
 
 ## WARNING
 
-The SSH & Web Terminal add-on is very powerful and gives you access to almost
-all tools and hardware of your system.
+The advanced SSH & Web Terminal add-on is very powerful and gives you access
+to almost all tools and hardware of your system.
 
 While this add-on is created and maintained with care and with security in mind,
 in the wrong or inexperienced hands, it could damage your system.
@@ -68,8 +68,8 @@ comparison to installing any other Home Assistant add-on.
 
 1. Click the "Install" button to install the add-on.
 1. Configure the `username` and `password`/`authorized_keys` options.
-1. Start the "SSH & Web Terminal" add-on.
-1. Check the logs of the "SSH & Web Terminal" add-on to see if everything
+1. Start the "Advanced SSH & Web Terminal" add-on.
+1. Check the logs of the "Advanced SSH & Web Terminal" add-on to see if everything
    went well.
 
 ## Configuration
@@ -320,6 +320,6 @@ SOFTWARE.
 [openssh]: https://www.openssh.com/
 [reddit]: https://reddit.com/r/homeassistant
 [releases]: https://github.com/hassio-addons/addon-ssh/releases
-[semver]: http://semver.org/spec/v2.0.0.htm
+[semver]: https://semver.org/spec/v2.0.0.html
 [ssh-audit]: https://github.com/jtesta/ssh-audit
 [zsh]: https://en.wikipedia.org/wiki/Z_shell
