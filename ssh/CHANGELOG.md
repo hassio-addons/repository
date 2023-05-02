@@ -1,5 +1,5 @@
 ## What’s changed
 
-## 🐛 Bug fixes
+## ⬆️ Dependency updates
 
-- 🚑 Move env setup after folder creation @sinclairpaul ([#553](https://github.com/hassio-addons/addon-ssh/pull/553))
+- ⬆️ Update home-assistant/cli to v4.24.1 @renovate ([#547](https://github.com/hassio-addons/addon-ssh/pull/547))
