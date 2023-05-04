@@ -81,6 +81,10 @@ addons:
     repository: hassio-addons/addon-mqtt-io
     target: mqtt-io
     image: ghcr.io/hassio-addons/mqtt-io/{arch}
+  netbird:
+    repository: hassio-addons/addon-netbird
+    target: netbird
+    image: ghcr.io/hassio-addons/netbird/{arch}
   node-red:
     repository: hassio-addons/addon-node-red
     target: node-red

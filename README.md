@@ -269,6 +269,20 @@ Expose GPIO modules and digital sensors via MQTT for remote control and monitori
 
 [:books: MQTT IO add-on documentation][addon-doc-mqtt-io]
 
+### &#10003; [NetBird][addon-netbird]
+
+![Latest Version][netbird-version-shield]
+![Supports armhf Architecture][netbird-armhf-shield]
+![Supports armv7 Architecture][netbird-armv7-shield]
+![Supports aarch64 Architecture][netbird-aarch64-shield]
+![Supports amd64 Architecture][netbird-amd64-shield]
+![Supports i386 Architecture][netbird-i386-shield]
+
+An open-source VPN management platform built on top of WireGuard® making it easy to create secure
+private networks for your organization or home.
+
+[:books: NetBird add-on documentation][addon-doc-netbird]
+
 ### &#10003; [Network UPS Tools][addon-nut]
 
 ![Latest Version][nut-version-shield]
@@ -1017,8 +1031,6 @@ SOFTWARE.
 [phpmyadmin-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [phpmyadmin-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [phpmyadmin-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
-[awesome-shield]: https://img.shields.io/badge/awesome%3F-yes-brightgreen.svg
-[awesome]: https://awesome-ha.com
 [discord-ha]: https://discord.gg/c5DvZ4e
 [discord-shield]: https://img.shields.io/discord/478094546522079232.svg
 [discord]: https://discord.me/hassioaddons
@@ -1026,8 +1038,6 @@ SOFTWARE.
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
 [forum]: https://community.home-assistant.io?u=frenck
 [frenck]: https://github.com/frenck
-[gitlabci-shield]: https://gitlab.com/hassio-addons/repository/badges/master/pipeline.svg
-[gitlabci]: https://gitlab.com/hassio-addons/repository/pipelines
 [issue]: https://github.com/hassio-addons/repository/issues
 [license-shield]: https://img.shields.io/github/license/hassio-addons/repository.svg
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2023.svg
