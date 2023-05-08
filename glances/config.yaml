@@ -1,5 +1,5 @@
 name: Glances
-version: 0.18.1
+version: 0.18.2
 slug: glances
 description: A cross-platform system monitoring tool
 url: https://github.com/hassio-addons/addon-glances
@@ -63,11 +63,11 @@ schema:
     enabled: bool
     host: str
     port: port
-    username: str
-    password: password
-    database: str
+    username: str?
+    password: password?
+    database: str?
     org: str?
-    prefix: str
+    prefix: str?
     interval: int
     ssl: bool?
     token: str?

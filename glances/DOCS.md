@@ -201,7 +201,7 @@ provided by the Glances API.
 This enables one to track and display their stats in Home Assistant,
 and even build automations based on that data.
 
-Set up the integration through **Configuration -> Integrations -> Glances**.
+Set up the integration through **Settings -> Devices & Services -> Integrations -> Add integration -> Glances**.
 
 **Note**: _Once the add-on is running, add the integration with all
 defaults, except for port, which should be 61209_
@@ -209,7 +209,7 @@ defaults, except for port, which should be 61209_
 More information about the Glances sensor platform can be found in the
 Home Assistant documentation:
 
-<https://www.home-assistant.io/components/sensor.glances/>
+<https://www.home-assistant.io/integrations/glances/>
 
 ## Changelog & Releases
 
@@ -281,4 +281,4 @@ SOFTWARE.
 [issue]: https://github.com/hassio-addons/addon-glances/issues
 [reddit]: https://reddit.com/r/homeassistant
 [releases]: https://github.com/hassio-addons/addon-glances/releases
-[semver]: http://semver.org/spec/v2.0.0.htm
+[semver]: https://semver.org/spec/v2.0.0.html
