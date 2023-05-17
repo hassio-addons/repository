@@ -1,20 +1,20 @@
+name: Example
+version: 7.0.0
+slug: example
+description: Example add-on by Community Home Assistant Add-ons
+url: https://github.com/hassio-addons/addon-example
+codenotary: codenotary@frenck.dev
+init: false
 arch:
 - aarch64
 - amd64
 - armhf
 - armv7
 - i386
-codenotary: codenotary@frenck.dev
-description: Example add-on by Community Home Assistant Add-ons
-image: ghcr.io/hassio-addons/example/{arch}
-init: false
-name: Example
 options:
   log_level: info
   seconds_between_quotes: 5
 schema:
   log_level: list(trace|debug|info|notice|warning|error|fatal)
   seconds_between_quotes: int(1,120)
-slug: example
-url: https://github.com/hassio-addons/addon-example
-version: 6.0.2
+image: ghcr.io/hassio-addons/example/{arch}
