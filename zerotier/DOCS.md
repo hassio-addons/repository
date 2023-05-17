@@ -149,5 +149,5 @@ SOFTWARE.
 [issue]: https://github.com/hassio-addons/addon-zerotier/issues
 [reddit]: https://reddit.com/r/homeassistant
 [releases]: https://github.com/hassio-addons/addon-zerotier/releases
-[semver]: http://semver.org/spec/v2.0.0.htm
+[semver]: https://semver.org/spec/v2.0.0.html
 [zerotier]: https://www.zerotier.com/
