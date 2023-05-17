@@ -1,36 +1,36 @@
+name: chrony
+version: 2.6.0
+slug: chrony
+description: A local NTP (Network Time Protocol) server for cameras etc.
+url: https://github.com/hassio-addons/addon-chrony
+codenotary: codenotary@frenck.dev
+startup: system
 arch:
 - aarch64
 - amd64
 - armhf
 - armv7
 - i386
-codenotary: codenotary@frenck.dev
-description: A local NTP (Network Time Protocol) server for cameras etc.
 hassio_api: true
-image: ghcr.io/hassio-addons/chrony/{arch}
 init: false
-name: chrony
+privileged:
+- SYS_TIME
+ports:
+  123/udp: 123
+ports_description:
+  123/udp: NTP; Network Time Protocol
 options:
+  set_system_clock: true
   mode: pool
   ntp_pool: pool.ntp.org
   ntp_server:
   - 54.39.13.155
   - briareus.schulte.org
-  set_system_clock: true
-ports:
-  123/udp: 123
-ports_description:
-  123/udp: NTP; Network Time Protocol
-privileged:
-- SYS_TIME
 schema:
   log_level: list(trace|debug|info|notice|warning|error|fatal)?
-  mode: list(pool|server)
+  set_system_clock: bool
   ntp_pool: str?
   ntp_server:
   - str?
-  set_system_clock: bool
-slug: chrony
-startup: system
-url: https://github.com/hassio-addons/addon-chrony
-version: 2.5.0
+  mode: list(pool|server)
+image: ghcr.io/hassio-addons/chrony/{arch}

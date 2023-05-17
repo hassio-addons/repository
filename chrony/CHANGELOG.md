@@ -2,10 +2,13 @@
 
 ## 🧰 Maintenance
 
-- 🎆 Updates maintenance/license year to 2023 @frenck (#120)
-- 🔨 Migrate old-style S6 scripts to s6-rc.d @frenck (#121)
+- Add Renovate for dependency management @frenck ([#123](https://github.com/hassio-addons/addon-chrony/pull/123))
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades add-on base image to 12.2.4 @frenck (#116)
-- ⬆️ Upgrades add-on base image to 13.1.1 @RemCom (#119)
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v13.1.4 @renovate ([#124](https://github.com/hassio-addons/addon-chrony/pull/124))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v13.1.5 @renovate ([#126](https://github.com/hassio-addons/addon-chrony/pull/126))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v13.2.0 @renovate ([#127](https://github.com/hassio-addons/addon-chrony/pull/127))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v13.2.1 @renovate ([#129](https://github.com/hassio-addons/addon-chrony/pull/129))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v13.2.2 @renovate ([#130](https://github.com/hassio-addons/addon-chrony/pull/130))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14 @renovate ([#131](https://github.com/hassio-addons/addon-chrony/pull/131))
