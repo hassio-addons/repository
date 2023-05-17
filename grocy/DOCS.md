@@ -281,4 +281,4 @@ SOFTWARE.
 [python-packages]: https://pypi.org/
 [reddit]: https://reddit.com/r/homeassistant
 [releases]: https://github.com/hassio-addons/addon-grocy/releases
-[semver]: http://semver.org/spec/v2.0.0.html
+[semver]: https://semver.org/spec/v2.0.0.html

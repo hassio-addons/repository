@@ -1,19 +1,16 @@
 ## What’s changed
 
-## 🧰 Maintenance
-
-- 🔨 Migrate old-style S6 scripts to s6-rc.d @frenck ([#327](https://github.com/hassio-addons/addon-grocy/pull/327))
-- 🎆 Updates maintenance/license year to 2023 @frenck ([#331](https://github.com/hassio-addons/addon-grocy/pull/331))
-- Add Renovate for dependency management @frenck ([#341](https://github.com/hassio-addons/addon-grocy/pull/341))
-
 ## 📚 Documentation
 
-- Fixed broken link @monsieurhannes ([#349](https://github.com/hassio-addons/addon-grocy/pull/349))
+- Update URL @wrt54g ([#350](https://github.com/hassio-addons/addon-grocy/pull/350))
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades add-on base image to 13.0.0 @frenck ([#324](https://github.com/hassio-addons/addon-grocy/pull/324))
-- ⬆️ Upgrades add-on base image to 13.1.1 @frenck ([#332](https://github.com/hassio-addons/addon-grocy/pull/332))
-- ⬆️ Upgrades add-on base image to 13.1.3 @frenck ([#339](https://github.com/hassio-addons/addon-grocy/pull/339))
-- ⬆️ Update PHP to v8.1.17-r0 @renovate ([#347](https://github.com/hassio-addons/addon-grocy/pull/347))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v13.1.4 @renovate ([#348](https://github.com/hassio-addons/addon-grocy/pull/348))
+- ⬆️ Update alpine_3_17/patch to v2.7.6-r9 @renovate ([#351](https://github.com/hassio-addons/addon-grocy/pull/351))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v13.1.5 @renovate ([#352](https://github.com/hassio-addons/addon-grocy/pull/352))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v13.2.0 @renovate ([#353](https://github.com/hassio-addons/addon-grocy/pull/353))
+- ⬆️ Update PHP to v8.1.18-r0 @renovate ([#354](https://github.com/hassio-addons/addon-grocy/pull/354))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v13.2.1 @renovate ([#355](https://github.com/hassio-addons/addon-grocy/pull/355))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v13.2.2 @renovate ([#356](https://github.com/hassio-addons/addon-grocy/pull/356))
+- ⬆️ Update alpine_3_17/git to v2.38.5-r0 @renovate ([#357](https://github.com/hassio-addons/addon-grocy/pull/357))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14 @renovate ([#359](https://github.com/hassio-addons/addon-grocy/pull/359))
