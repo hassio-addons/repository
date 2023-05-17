@@ -1,16 +1,16 @@
 ## What’s changed
 
-## 🧰 Maintenance
+## 📚 Documentation
 
-- 🎆 Updates maintenance/license year to 2023 @frenck ([#187](https://github.com/hassio-addons/addon-home-panel/pull/187))
-- Add Renovate for dependency management @frenck ([#186](https://github.com/hassio-addons/addon-home-panel/pull/186))
+- Fix broken URL @wrt54g ([#193](https://github.com/hassio-addons/addon-home-panel/pull/193))
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades add-on base image to 12.2.3 @frenck ([#178](https://github.com/hassio-addons/addon-home-panel/pull/178))
-- ⬆️ Upgrades nodejs to 16.17.1-r0 @frenck ([#181](https://github.com/hassio-addons/addon-home-panel/pull/181))
-- ⬆️ Upgrades add-on base image to 12.2.7 @frenck ([#182](https://github.com/hassio-addons/addon-home-panel/pull/182))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v13 @renovate ([#191](https://github.com/hassio-addons/addon-home-panel/pull/191))
-- ⬆️ Update alpine_3_17/nodejs to v18 @renovate ([#189](https://github.com/hassio-addons/addon-home-panel/pull/189))
-- ⬆️ Update alpine_3_17/tar to v1.34-r2 @renovate ([#188](https://github.com/hassio-addons/addon-home-panel/pull/188))
-- ⬆️ Update alpine_3_17/openssl to v3 @renovate ([#192](https://github.com/hassio-addons/addon-home-panel/pull/192))
+- ⬆️ Update alpine_3_17/openssl to v3.0.8-r2 @renovate ([#194](https://github.com/hassio-addons/addon-home-panel/pull/194))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v13.1.5 @renovate ([#195](https://github.com/hassio-addons/addon-home-panel/pull/195))
+- ⬆️ Update alpine_3_17/openssl to v3.0.8-r3 @renovate ([#196](https://github.com/hassio-addons/addon-home-panel/pull/196))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v13.2.0 @renovate ([#197](https://github.com/hassio-addons/addon-home-panel/pull/197))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v13.2.1 @renovate ([#198](https://github.com/hassio-addons/addon-home-panel/pull/198))
+- ⬆️ Update alpine_3_17/openssl to v3.0.8-r4 @renovate ([#199](https://github.com/hassio-addons/addon-home-panel/pull/199))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v13.2.2 @renovate ([#200](https://github.com/hassio-addons/addon-home-panel/pull/200))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14 @renovate ([#202](https://github.com/hassio-addons/addon-home-panel/pull/202))

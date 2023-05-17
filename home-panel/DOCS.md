@@ -141,5 +141,5 @@ SOFTWARE.
 [issue]: https://github.com/hassio-addons/addon-home-panel/issues
 [reddit]: https://reddit.com/r/homeassistant
 [releases]: https://github.com/hassio-addons/addon-home-panel/releases
-[semver]: http://semver.org/spec/v2.0.0.htm
+[semver]: https://semver.org/spec/v2.0.0.html
 [timmo]: https://github.com/timmo001
