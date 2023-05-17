@@ -1,17 +1,16 @@
 ## What’s changed
 
-## 🧰 Maintenance
+## 📚 Documentation
 
-- Add Renovate for dependency management @frenck ([#218](https://github.com/hassio-addons/addon-wireguard/pull/218))
-- 🎆 Updates maintenance/license year to 2023 @frenck ([#228](https://github.com/hassio-addons/addon-wireguard/pull/228))
+- Fix broken URL @wrt54g ([#229](https://github.com/hassio-addons/addon-wireguard/pull/229))
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update alpine_3_17/iptables to v1.8.8-r2 @renovate ([#219](https://github.com/hassio-addons/addon-wireguard/pull/219))
-- ⬆️ Update alpine_3_17/libqrencode to v4.1.1-r1 @renovate ([#220](https://github.com/hassio-addons/addon-wireguard/pull/220))
-- ⬆️ Update alpine_3_17/wireguard-tools to v1.0.20210914-r1 @renovate ([#223](https://github.com/hassio-addons/addon-wireguard/pull/223))
-- ⬆️ Update alpine_3_17/go to v1.19.7-r0 @renovate ([#225](https://github.com/hassio-addons/addon-wireguard/pull/225))
-- ⬆️ Update alpine_3_17/git to v2.38.4-r1 @renovate ([#224](https://github.com/hassio-addons/addon-wireguard/pull/224))
-- ⬆️ Update alpine_3_17/openresolv to v3.12.0-r1 @renovate ([#222](https://github.com/hassio-addons/addon-wireguard/pull/222))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v13 @renovate ([#226](https://github.com/hassio-addons/addon-wireguard/pull/226))
-- ⬆️ Upgrades WireGuard Go to 0.0.20230223 @frenck ([#227](https://github.com/hassio-addons/addon-wireguard/pull/227))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v13.1.5 @renovate ([#230](https://github.com/hassio-addons/addon-wireguard/pull/230))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v13.2.0 @renovate ([#231](https://github.com/hassio-addons/addon-wireguard/pull/231))
+- ⬆️ Update alpine_3_17/go to v1.19.8-r0 @renovate ([#232](https://github.com/hassio-addons/addon-wireguard/pull/232))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v13.2.1 @renovate ([#233](https://github.com/hassio-addons/addon-wireguard/pull/233))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v13.2.2 @renovate ([#235](https://github.com/hassio-addons/addon-wireguard/pull/235))
+- ⬆️ Update alpine_3_17/git to v2.38.5-r0 @renovate ([#237](https://github.com/hassio-addons/addon-wireguard/pull/237))
+- ⬆️ Update alpine_3_17/go to v1.19.9-r0 @renovate ([#238](https://github.com/hassio-addons/addon-wireguard/pull/238))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14 @renovate ([#240](https://github.com/hassio-addons/addon-wireguard/pull/240))

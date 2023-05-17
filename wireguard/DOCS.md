@@ -540,10 +540,10 @@ SOFTWARE.
 [discord]: https://discord.me/hassioaddons
 [forum]: https://community.home-assistant.io/t/home-assistant-community-add-on-wireguard/134662?u=frenck
 [frenck]: https://github.com/frenck
-[ha-rest]: https://www.home-assistant.io/components/rest/
+[ha-rest]: https://www.home-assistant.io/integrations/rest/
 [issue]: https://github.com/hassio-addons/addon-wireguard/issues
 [reddit]: https://reddit.com/r/homeassistant
 [releases]: https://github.com/hassio-addons/addon-wireguard/releases
-[semver]: http://semver.org/spec/v2.0.0.htm
+[semver]: https://semver.org/spec/v2.0.0.html
 [wireguard-install]: https://www.wireguard.com/install/
 [wireguard]: https://www.wireguard.com
