@@ -1,12 +1,15 @@
 ## What’s changed
 
-## 🧰 Maintenance
+## ✨ New features
 
-- Add Renovate for dependency management @frenck ([#271](https://github.com/hassio-addons/addon-influxdb/pull/271))
-- 🎆 Updates maintenance/license year to 2023 @frenck ([#277](https://github.com/hassio-addons/addon-influxdb/pull/277))
+- Add port configuration for backup and restore @frenck ([#287](https://github.com/hassio-addons/addon-influxdb/pull/287))
+
+## 📚 Documentation
+
+- Fix broken URL @wrt54g ([#279](https://github.com/hassio-addons/addon-influxdb/pull/279))
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update debian_11/nginx to v1.18.0-6.1+deb11u3 @renovate ([#275](https://github.com/hassio-addons/addon-influxdb/pull/275))
-- ⬆️ Update Add-on base image to v6.2.4 @renovate ([#273](https://github.com/hassio-addons/addon-influxdb/pull/273))
-- ⬆️ Upgrades Chronograf to 1.10.1 @frenck ([#276](https://github.com/hassio-addons/addon-influxdb/pull/276))
+- ⬆️ Update Add-on base image to v6.2.5 @renovate ([#280](https://github.com/hassio-addons/addon-influxdb/pull/280))
+- ⬆️ Update Add-on base image to v6.2.6 @renovate ([#282](https://github.com/hassio-addons/addon-influxdb/pull/282))
+- ⬆️ Update Add-on base image to v6.2.7 @renovate ([#284](https://github.com/hassio-addons/addon-influxdb/pull/284))

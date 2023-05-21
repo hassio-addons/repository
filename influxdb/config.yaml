@@ -1,5 +1,5 @@
 name: InfluxDB
-version: 4.6.0
+version: 4.7.0
 slug: influxdb
 description: Scalable datastore for metrics, events, and real-time analytics
 url: https://github.com/hassio-addons/addon-influxdb
@@ -23,9 +23,11 @@ map:
 ports:
   80/tcp: null
   8086/tcp: 8086
+  8088/tcp: 8088
 ports_description:
   80/tcp: Web interface (Not required for Ingress)
   8086/tcp: InfluxDB server
+  8088/tcp: RPC service for backup and restore
 auth_api: true
 options:
   auth: true
