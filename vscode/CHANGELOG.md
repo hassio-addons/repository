@@ -1,13 +1,11 @@
 ## What’s changed
 
-## ✨ New features
+## 🐛 Bug fixes
 
-- Add healthcheck @frenck ([#665](https://github.com/hassio-addons/addon-vscode/pull/665))
+- 🚑 Update healthcheck command @sinclairpaul ([#669](https://github.com/hassio-addons/addon-vscode/pull/669))
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update esphome to v2023.6.0 @renovate ([#660](https://github.com/hassio-addons/addon-vscode/pull/660))
-- ⬆️ Update prettier/prettier-vscode to v9.16.0 @renovate ([#661](https://github.com/hassio-addons/addon-vscode/pull/661))
-- ⬆️ Update esphome to v2023.6.2 @renovate ([#662](https://github.com/hassio-addons/addon-vscode/pull/662))
-- ⬆️ Update esphome/esphome-vscode to v2023.6.0 @renovate ([#663](https://github.com/hassio-addons/addon-vscode/pull/663))
-- ⬆️ Update cdr/code-server to v4.14.1 @renovate ([#664](https://github.com/hassio-addons/addon-vscode/pull/664))
+- ⬆️ Update prettier/prettier-vscode to v9.19.0 @renovate ([#670](https://github.com/hassio-addons/addon-vscode/pull/670))
+- ⬆️ Update esphome to v2023.6.3 @renovate ([#668](https://github.com/hassio-addons/addon-vscode/pull/668))
+- ⬆️ Update esphome to v2023.6.4 @renovate ([#674](https://github.com/hassio-addons/addon-vscode/pull/674))
