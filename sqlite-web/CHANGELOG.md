@@ -1,14 +1,11 @@
 ## What’s changed
 
-## 🐛 Bug fixes
-
-- Fix Python site-packages location @frenck ([#247](https://github.com/hassio-addons/addon-sqlite-web/pull/247))
-
 ## ⬆️ Dependency updates
 
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v13.1.5 @renovate ([#239](https://github.com/hassio-addons/addon-sqlite-web/pull/239))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v13.2.0 @renovate ([#240](https://github.com/hassio-addons/addon-sqlite-web/pull/240))
-- ⬆️ Update alpine_3_17/python3 to v3.10.11-r0 @renovate ([#241](https://github.com/hassio-addons/addon-sqlite-web/pull/241))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v13.2.1 @renovate ([#244](https://github.com/hassio-addons/addon-sqlite-web/pull/244))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v13.2.2 @renovate ([#245](https://github.com/hassio-addons/addon-sqlite-web/pull/245))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14 @renovate ([#246](https://github.com/hassio-addons/addon-sqlite-web/pull/246))
+- ⬆️ Update alpine_3_18/nginx to v1.24.0-r4 @renovate ([#248](https://github.com/hassio-addons/addon-sqlite-web/pull/248))
+- ⬆️ Update alpine_3_18/nginx to v1.24.0-r5 @renovate ([#249](https://github.com/hassio-addons/addon-sqlite-web/pull/249))
+- ⬆️ Update alpine_3_18/nginx to v1.24.0-r6 @renovate ([#250](https://github.com/hassio-addons/addon-sqlite-web/pull/250))
+- ⬆️ Update alpine_3_18/python3 to v3.11.4-r0 @renovate ([#251](https://github.com/hassio-addons/addon-sqlite-web/pull/251))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.0.1 @renovate ([#252](https://github.com/hassio-addons/addon-sqlite-web/pull/252))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.0.2 @renovate ([#253](https://github.com/hassio-addons/addon-sqlite-web/pull/253))
+- ⬆️ Update sqlite-web to v0.5.0 @renovate ([#254](https://github.com/hassio-addons/addon-sqlite-web/pull/254))
