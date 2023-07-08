@@ -1,7 +1,11 @@
 ## What’s changed
 
+## 🐛 Bug fixes
+
+- Fix Tautulli version env @frenck ([#303](https://github.com/hassio-addons/addon-tautulli/pull/303))
+
 ## ⬆️ Dependency updates
 
-- ⬆️ Update pycryptodomex to v3.18.0 @renovate ([#297](https://github.com/hassio-addons/addon-tautulli/pull/297))
-- ⬆️ Update setuptools to v67.8.0 @renovate ([#298](https://github.com/hassio-addons/addon-tautulli/pull/298))
-- ⬆️ Update Tautulli/Tautulli to v2.12.4 @renovate ([#299](https://github.com/hassio-addons/addon-tautulli/pull/299))
+- ⬆️ Update plexapi to v4.14.0 @renovate ([#300](https://github.com/hassio-addons/addon-tautulli/pull/300))
+- ⬆️ Update setuptools to v68 @renovate ([#302](https://github.com/hassio-addons/addon-tautulli/pull/302))
+- ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v7 @renovate ([#301](https://github.com/hassio-addons/addon-tautulli/pull/301))
