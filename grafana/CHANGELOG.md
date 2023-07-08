@@ -1,9 +1,16 @@
 ## What’s changed
 
+Ships with Grafana v10!
+
+## ✨ New features
+
+- Allow installation of unsigned plugins using an URL @llluis ([#331](https://github.com/hassio-addons/addon-grafana/pull/331))
+
+## 🚀 Enhancements
+
+- Replace watchdog with Docker health check @frenck ([#336](https://github.com/hassio-addons/addon-grafana/pull/336))
+
 ## ⬆️ Dependency updates
 
-- ⬆️ Update grafana/grafana to v9.5.1 @renovate ([#321](https://github.com/hassio-addons/addon-grafana/pull/321))
-- ⬆️ Update Add-on base image to v6.2.6 @renovate ([#324](https://github.com/hassio-addons/addon-grafana/pull/324))
-- ⬆️ Update grafana/grafana to v9.5.2 @renovate ([#327](https://github.com/hassio-addons/addon-grafana/pull/327))
-- ⬆️ Update grafana/grafana-image-renderer to v3.7.1 @renovate ([#329](https://github.com/hassio-addons/addon-grafana/pull/329))
-- ⬆️ Update Add-on base image to v6.2.7 @renovate ([#330](https://github.com/hassio-addons/addon-grafana/pull/330))
+- ⬆️ Update Add-on base image to v7 (major) @renovate ([#334](https://github.com/hassio-addons/addon-grafana/pull/334))
+- ⬆️ Update grafana/grafana to v10 @renovate ([#335](https://github.com/hassio-addons/addon-grafana/pull/335))

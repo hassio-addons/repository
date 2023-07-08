@@ -81,6 +81,21 @@ Grafana setup. For a list of available plugins, see:
 
 **Note**: _Adding plugins will result in a longer start-up for the add-on._
 
+### Option: `custom_plugins`
+
+Allows you to specify additional Grafana custom plugins to be installed to your
+Grafana setup from an URL.
+You must specify the property `url` to the plugin configuration.
+
+If you want to install unsigned plugins, you must also set the `unsigned` property to `true`:
+
+```yaml
+custom_plugins:
+  - name: my-plugin-name
+    url: https://github.com/my-repo/my-plugin-name/releases/download/0.1.0/my-plugin-name-0.1.0.zip
+    unsigned: true
+```
+
 ### Option: `env_vars`
 
 This option allows you to tweak every aspect of Grafana by setting
