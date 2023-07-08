@@ -1,17 +1,19 @@
+name: UniFi Network Application
+version: 2.7.0
+slug: unifi
+description: Manage your UniFi network using a web browser
+url: https://github.com/hassio-addons/addon-unifi
+codenotary: codenotary@frenck.dev
+webui: https://[HOST]:[PORT:8443]
+startup: services
 arch:
 - aarch64
 - amd64
-backup: cold
-codenotary: codenotary@frenck.dev
-description: Manage your UniFi network using a web browser
-hassio_api: true
-image: ghcr.io/hassio-addons/unifi/{arch}
 init: false
+backup: cold
 map:
 - backup:rw
-name: UniFi Network Application
 ports:
-  10001/udp: 10001
   161/udp: null
   1900/udp: null
   3478/udp: 3478
@@ -21,8 +23,8 @@ ports:
   8443/tcp: 8443
   8843/tcp: 8843
   8880/tcp: 8880
+  10001/udp: 10001
 ports_description:
-  10001/udp: Used for device discovery
   161/udp: Used for SNMP Access
   1900/udp: L2 discoverable port
   3478/udp: Used for STUN
@@ -32,12 +34,10 @@ ports_description:
   8443/tcp: Used for controller web interface and API
   8843/tcp: Used for HTTPS portal redirection
   8880/tcp: Used for HTTP portal redirection
+  10001/udp: Used for device discovery
+hassio_api: true
 schema:
   log_level: list(trace|debug|info|notice|warning|error|fatal)?
-  memory_init: int?
   memory_max: int?
-slug: unifi
-startup: services
-url: https://github.com/hassio-addons/addon-unifi
-version: 2.6.0
-webui: https://[HOST]:[PORT:8443]
+  memory_init: int?
+image: ghcr.io/hassio-addons/unifi/{arch}
