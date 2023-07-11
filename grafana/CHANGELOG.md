@@ -1,6 +1,5 @@
 ## What’s changed
 
-## 🐛 Bug fixes
+## ⬆️ Dependency updates
 
-- Fix health check @frenck ([#339](https://github.com/hassio-addons/addon-grafana/pull/339))
-- Remove nginx ingress server listening on a single interface @frenck ([#340](https://github.com/hassio-addons/addon-grafana/pull/340))
+- ⬆️ Update grafana/grafana to v10.0.2 @renovate ([#341](https://github.com/hassio-addons/addon-grafana/pull/341))
