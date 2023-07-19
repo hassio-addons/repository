@@ -1,7 +1,11 @@
 ## What’s changed
 
+## 🚀 Enhancements
+
+- Extend timeout on shutdown @frenck ([#537](https://github.com/hassio-addons/addon-zwave-js-ui/pull/537))
+
 ## ⬆️ Dependency updates
 
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.0.2 @renovate ([#534](https://github.com/hassio-addons/addon-zwave-js-ui/pull/534))
-- ⬆️ Update zwave-js/zwave-js-ui to v8.19.0 @renovate ([#535](https://github.com/hassio-addons/addon-zwave-js-ui/pull/535))
-- ⬆️ Update alpine_3_18/nodejs to v18.16.1-r0 @renovate ([#536](https://github.com/hassio-addons/addon-zwave-js-ui/pull/536))
+- ⬆️ Update zwave-js/zwave-js-ui to v8.20.0 @renovate ([#539](https://github.com/hassio-addons/addon-zwave-js-ui/pull/539))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.0.3 @renovate ([#540](https://github.com/hassio-addons/addon-zwave-js-ui/pull/540))
+- ⬆️ Update zwave-js/zwave-js-ui to v8.21.0 @renovate ([#541](https://github.com/hassio-addons/addon-zwave-js-ui/pull/541))
