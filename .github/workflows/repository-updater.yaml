@@ -34,15 +34,3 @@ jobs:
             **Version**: `${{ github.event.client_payload.version }}`
             **Release notes**:
             <https://github.com/${{ github.event.client_payload.repository }}/releases/tag/${{ github.event.client_payload.version }}>
-
-      - name: 📢 Announce on Twitter
-        uses: devigned/go-twitter-action@v1.0.2
-        with:
-          apiKey: ${{ secrets.TWITTER_API_KEY }}
-          apiKeySecret: ${{ secrets.TWITTER_API_SECRET }}
-          accessToken: ${{ secrets.TWITTER_ACCESS_TOKEN }}
-          accessTokenSecret: ${{ secrets.TWITTER_ACCESS_SECRET }}
-          message: |
-            ⬆️ ${{ github.event.client_payload.name }} ${{ github.event.client_payload.version }}
-
-            https://github.com/${{ github.event.client_payload.repository }}/releases/tag/${{ github.event.client_payload.version }}
