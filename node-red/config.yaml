@@ -1,5 +1,5 @@
 name: Node-RED
-version: 14.4.1
+version: 14.4.2
 slug: nodered
 description: Flow-based programming for the Internet of Things
 url: https://github.com/hassio-addons/addon-node-red
@@ -9,7 +9,7 @@ ingress_port: 0
 ingress_stream: true
 panel_icon: mdi:sitemap
 init: false
-homeassistant: 2021.3.0
+homeassistant: 2023.3.0
 arch:
 - aarch64
 - amd64

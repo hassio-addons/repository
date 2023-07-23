@@ -837,10 +837,10 @@ SOFTWARE.
 [nginxproxymanager-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [nginxproxymanager-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [nginxproxymanager-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
-[addon-node-red]: https://github.com/hassio-addons/addon-node-red/tree/v14.4.1
-[addon-doc-node-red]: https://github.com/hassio-addons/addon-node-red/blob/v14.4.1/README.md
+[addon-node-red]: https://github.com/hassio-addons/addon-node-red/tree/v14.4.2
+[addon-doc-node-red]: https://github.com/hassio-addons/addon-node-red/blob/v14.4.2/README.md
 [node-red-issue]: https://github.com/hassio-addons/addon-node-red/issues
-[node-red-version-shield]: https://img.shields.io/badge/version-v14.4.1-blue.svg
+[node-red-version-shield]: https://img.shields.io/badge/version-v14.4.2-blue.svg
 [node-red-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [node-red-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [node-red-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
