@@ -1,5 +1,6 @@
 ## What’s changed
 
-## 🐛 Bug fixes
+## ⬆️ Dependency updates
 
-- Update minimum Home Assistant Core version @zachowj ([#1649](https://github.com/hassio-addons/addon-node-red/pull/1649))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.0.6 @renovate ([#1650](https://github.com/hassio-addons/addon-node-red/pull/1650))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.0.7 @renovate ([#1655](https://github.com/hassio-addons/addon-node-red/pull/1655))
