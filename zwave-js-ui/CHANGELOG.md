@@ -2,5 +2,6 @@
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update alpine_3_18/python3-dev to v3.11.5-r0 @renovate ([#564](https://github.com/hassio-addons/addon-zwave-js-ui/pull/564))
-- ⬆️ Update zwave-js/zwave-js-ui to v8.23.2 @renovate ([#566](https://github.com/hassio-addons/addon-zwave-js-ui/pull/566))
+- ⬆️ Update zwave-js/zwave-js-ui to v8.24.0 @renovate ([#567](https://github.com/hassio-addons/addon-zwave-js-ui/pull/567))
+- ⬆️ Update zwave-js/zwave-js-ui to v8.24.1 @renovate ([#569](https://github.com/hassio-addons/addon-zwave-js-ui/pull/569))
+- ⬆️ Update zwave-js/zwave-js-ui to v8.24.2 @renovate ([#570](https://github.com/hassio-addons/addon-zwave-js-ui/pull/570))
