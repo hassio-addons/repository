@@ -1,5 +1,5 @@
 name: Grocy
-version: 0.19.1
+version: 0.20.0
 slug: grocy
 description: ERP beyond your fridge! A groceries & household management solution for
   your home
@@ -50,7 +50,7 @@ options:
   grocy_ingress_user: ''
 schema:
   log_level: list(trace|debug|info|notice|warning|error|fatal)?
-  culture: list(ca|cs|da|de|el_GR|en|en_GB|es|fi|fr|he_IL|hu|it|ja|ko_KR|lt|nl|no|pl|pt_BR|pt_PT|ru|sk_SK|sl|sv_SE|ta|tr|uk|zh_CN|zh_TW)
+  culture: list(ca|cs|da|de|el_GR|en|en_GB|es|et|fi|fr|he_IL|hu|it|ja|ko_KR|lt|nl|no|pl|pt_BR|pt_PT|ro|ru|sk_SK|sl|sv_SE|ta|tr|uk|zh_CN|zh_TW)
   currency: match(^[A-Z]{3}$)
   entry_page: list(stock|shoppinglist|recipes|chores|tasks|batteries|equipment|calendar|mealplan)
   features:
