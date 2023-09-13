@@ -2,6 +2,7 @@
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update AdguardTeam/AdGuardHome to v0.107.36 @renovate ([#442](https://github.com/hassio-addons/addon-adguard-home/pull/442))
-- ⬆️ Update alpine_3_18/yq to v4.33.3-r2 @renovate ([#444](https://github.com/hassio-addons/addon-adguard-home/pull/444))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.0.8 @renovate ([#443](https://github.com/hassio-addons/addon-adguard-home/pull/443))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.1.0 @renovate ([#446](https://github.com/hassio-addons/addon-adguard-home/pull/446))
+- ⬆️ Update alpine_3_18/yq to v4.33.3-r3 @renovate ([#449](https://github.com/hassio-addons/addon-adguard-home/pull/449))
+- ⬆️ Update AdguardTeam/AdGuardHome to v0.107.37 @renovate ([#448](https://github.com/hassio-addons/addon-adguard-home/pull/448))
+- ⬆️ Update AdguardTeam/AdGuardHome to v0.107.38 @renovate ([#450](https://github.com/hassio-addons/addon-adguard-home/pull/450))
