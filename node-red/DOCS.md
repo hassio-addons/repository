@@ -119,14 +119,24 @@ Sets one of the Node-RED themes. Currently available options:
 - `dark`
 - `dracula`
 - `espresso-libre`
+- `github-dark`
+- `github-dark-default`
+- `github-dark-dimmed`
 - `midnight-red`
 - `monoindustrial`
 - `monokai`
+- `monokai-dimmed`
+- `noctis`
 - `oceanic-next`
 - `oled`
+- `one-dark-pro`
+- `one-dark-pro-darker`
 - `solarized-dark`
 - `solarized-light`
 - `tokyo-night`
+- `tokyo-night-light`
+- `tokyo-night-storm`
+- `totallyinformation`
 - `zenburn`
 
 ### Option: `http_node`
