@@ -2,11 +2,15 @@
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update alpine_3_18/setpriv to v2.38.1-r8 @renovate ([#80](https://github.com/hassio-addons/addon-uptime-kuma/pull/80))
-- ⬆️ Update alpine_3_18/python3 to v3.11.4-r0 @renovate ([#81](https://github.com/hassio-addons/addon-uptime-kuma/pull/81))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.0.1 @renovate ([#82](https://github.com/hassio-addons/addon-uptime-kuma/pull/82))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.0.2 @renovate ([#83](https://github.com/hassio-addons/addon-uptime-kuma/pull/83))
-- ⬆️ Update alpine_3_18/nodejs to v18.16.1-r0 @renovate ([#84](https://github.com/hassio-addons/addon-uptime-kuma/pull/84))
-- ⬆️ Update louislam/uptime-kuma to v1.22.0 @renovate ([#85](https://github.com/hassio-addons/addon-uptime-kuma/pull/85))
-- ⬆️ Update louislam/uptime-kuma to v1.22.1 @renovate ([#86](https://github.com/hassio-addons/addon-uptime-kuma/pull/86))
-- ⬆️ Update apprise to v1.4.5 @renovate ([#87](https://github.com/hassio-addons/addon-uptime-kuma/pull/87))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.0.3 @renovate ([#89](https://github.com/hassio-addons/addon-uptime-kuma/pull/89))
+- ⬆️ Update alpine_3_18/nodejs to v18.17.0-r0 @renovate ([#90](https://github.com/hassio-addons/addon-uptime-kuma/pull/90))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.0.5 @renovate ([#91](https://github.com/hassio-addons/addon-uptime-kuma/pull/91))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.0.6 @renovate ([#92](https://github.com/hassio-addons/addon-uptime-kuma/pull/92))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.0.7 @renovate ([#94](https://github.com/hassio-addons/addon-uptime-kuma/pull/94))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.0.8 @renovate ([#95](https://github.com/hassio-addons/addon-uptime-kuma/pull/95))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.1.0 @renovate ([#96](https://github.com/hassio-addons/addon-uptime-kuma/pull/96))
+- ⬆️ Update louislam/uptime-kuma to v1.23.0 @renovate ([#98](https://github.com/hassio-addons/addon-uptime-kuma/pull/98))
+- ⬆️ Update alpine_3_18/nodejs to v18.17.1-r0 @renovate ([#99](https://github.com/hassio-addons/addon-uptime-kuma/pull/99))
+- ⬆️ Update alpine_3_18/python3 to v3.11.5-r0 @renovate ([#100](https://github.com/hassio-addons/addon-uptime-kuma/pull/100))
+- ⬆️ Update apprise to v1.5.0 @renovate ([#102](https://github.com/hassio-addons/addon-uptime-kuma/pull/102))
+- ⬆️ Update louislam/uptime-kuma to v1.23.1 @renovate ([#103](https://github.com/hassio-addons/addon-uptime-kuma/pull/103))
