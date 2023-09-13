@@ -1,12 +1,8 @@
 ## What’s changed
 
-## 🐛 Bug fixes
-
-- Update protection mode error message @kcpants ([#602](https://github.com/hassio-addons/addon-ssh/pull/602))
-
 ## ⬆️ Dependency updates
 
-- ⬆️ Update OpenSSL to v3.1.2-r0 @renovate ([#597](https://github.com/hassio-addons/addon-ssh/pull/597))
-- ⬆️ Update Docker to v23.0.6-r4 @renovate ([#599](https://github.com/hassio-addons/addon-ssh/pull/599))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.0.8 @renovate ([#598](https://github.com/hassio-addons/addon-ssh/pull/598))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.1.0 @renovate ([#600](https://github.com/hassio-addons/addon-ssh/pull/600))
+- ⬆️ Update alpine_3_18/mosquitto-clients to v2.0.17-r0 @renovate ([#603](https://github.com/hassio-addons/addon-ssh/pull/603))
+- ⬆️ Update Python to v3.11.5-r0 @renovate ([#604](https://github.com/hassio-addons/addon-ssh/pull/604))
+- ⬆️ Update Docker to v23.0.6-r5 @renovate ([#607](https://github.com/hassio-addons/addon-ssh/pull/607))
+- ⬆️ Update alpine_3_18/mariadb-client to v10.11.5-r0 @renovate ([#606](https://github.com/hassio-addons/addon-ssh/pull/606))
