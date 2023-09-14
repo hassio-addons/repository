@@ -2,5 +2,4 @@
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.1.0 @renovate ([#265](https://github.com/hassio-addons/addon-sqlite-web/pull/265))
-- ⬆️ Update sqlite-web to v0.5.2 @renovate ([#266](https://github.com/hassio-addons/addon-sqlite-web/pull/266))
+- ⬆️ Update alpine_3_18/python3 to v3.11.5-r0 @renovate ([#268](https://github.com/hassio-addons/addon-sqlite-web/pull/268))

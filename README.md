@@ -855,10 +855,10 @@ SOFTWARE.
 [plex-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [plex-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [plex-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
-[addon-sqlite-web]: https://github.com/hassio-addons/addon-sqlite-web/tree/v3.9.2
-[addon-doc-sqlite-web]: https://github.com/hassio-addons/addon-sqlite-web/blob/v3.9.2/README.md
+[addon-sqlite-web]: https://github.com/hassio-addons/addon-sqlite-web/tree/v3.9.3
+[addon-doc-sqlite-web]: https://github.com/hassio-addons/addon-sqlite-web/blob/v3.9.3/README.md
 [sqlite-web-issue]: https://github.com/hassio-addons/addon-sqlite-web/issues
-[sqlite-web-version-shield]: https://img.shields.io/badge/version-v3.9.2-blue.svg
+[sqlite-web-version-shield]: https://img.shields.io/badge/version-v3.9.3-blue.svg
 [sqlite-web-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [sqlite-web-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [sqlite-web-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
