@@ -2,5 +2,6 @@
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update alpine_3_18/python3-dev to v3.11.6-r0 @renovate ([#588](https://github.com/hassio-addons/addon-zwave-js-ui/pull/588))
-- ⬆️ Update zwave-js/zwave-js-ui to v9.1.0 @renovate ([#589](https://github.com/hassio-addons/addon-zwave-js-ui/pull/589))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.2.1 @renovate ([#590](https://github.com/hassio-addons/addon-zwave-js-ui/pull/590))
+- ⬆️ Update zwave-js/zwave-js-ui to v9.1.1 @renovate ([#591](https://github.com/hassio-addons/addon-zwave-js-ui/pull/591))
+- ⬆️ Update zwave-js/zwave-js-ui to v9.1.2 @renovate ([#592](https://github.com/hassio-addons/addon-zwave-js-ui/pull/592))
