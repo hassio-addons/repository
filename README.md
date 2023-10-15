@@ -918,10 +918,10 @@ SOFTWARE.
 [thelounge-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [thelounge-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [thelounge-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
-[addon-tor]: https://github.com/hassio-addons/addon-tor/tree/v4.2.0
-[addon-doc-tor]: https://github.com/hassio-addons/addon-tor/blob/v4.2.0/README.md
+[addon-tor]: https://github.com/hassio-addons/addon-tor/tree/v4.3.0
+[addon-doc-tor]: https://github.com/hassio-addons/addon-tor/blob/v4.3.0/README.md
 [tor-issue]: https://github.com/hassio-addons/addon-tor/issues
-[tor-version-shield]: https://img.shields.io/badge/version-v4.2.0-blue.svg
+[tor-version-shield]: https://img.shields.io/badge/version-v4.3.0-blue.svg
 [tor-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [tor-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [tor-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg

@@ -1,19 +1,26 @@
 ## What’s changed
 
-## 🧰 Maintenance
-
-- Add Renovate for dependency management @frenck ([#158](https://github.com/hassio-addons/addon-tor/pull/158))
-
 ## ⬆️ Dependency updates
 
-- ⬆️ Update alpine_3_17/openssl to v3.0.8-r1 @renovate ([#159](https://github.com/hassio-addons/addon-tor/pull/159))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v13.1.4 @renovate ([#160](https://github.com/hassio-addons/addon-tor/pull/160))
-- ⬆️ Update alpine_3_17/openssl to v3.0.8-r2 @renovate ([#162](https://github.com/hassio-addons/addon-tor/pull/162))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v13.1.5 @renovate ([#163](https://github.com/hassio-addons/addon-tor/pull/163))
-- ⬆️ Update alpine_3_17/openssl to v3.0.8-r3 @renovate ([#164](https://github.com/hassio-addons/addon-tor/pull/164))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v13.2.0 @renovate ([#165](https://github.com/hassio-addons/addon-tor/pull/165))
-- ⬆️ Update alpine_3_17/tor to v0.4.7.13-r1 @renovate ([#166](https://github.com/hassio-addons/addon-tor/pull/166))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v13.2.1 @renovate ([#167](https://github.com/hassio-addons/addon-tor/pull/167))
-- ⬆️ Update alpine_3_17/openssl to v3.0.8-r4 @renovate ([#168](https://github.com/hassio-addons/addon-tor/pull/168))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v13.2.2 @renovate ([#169](https://github.com/hassio-addons/addon-tor/pull/169))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14 @renovate ([#171](https://github.com/hassio-addons/addon-tor/pull/171))
+- ⬆️ Update alpine_3_18/openssl to v3.1.1-r1 @renovate ([#172](https://github.com/hassio-addons/addon-tor/pull/172))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.0.1 @renovate ([#173](https://github.com/hassio-addons/addon-tor/pull/173))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.0.2 @renovate ([#174](https://github.com/hassio-addons/addon-tor/pull/174))
+- ⬆️ Update alpine_3_18/openssl to v3.1.1-r2 @renovate ([#175](https://github.com/hassio-addons/addon-tor/pull/175))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.0.3 @renovate ([#176](https://github.com/hassio-addons/addon-tor/pull/176))
+- ⬆️ Update alpine_3_18/openssl to v3.1.1-r3 @renovate ([#177](https://github.com/hassio-addons/addon-tor/pull/177))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.0.5 @renovate ([#178](https://github.com/hassio-addons/addon-tor/pull/178))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.0.6 @renovate ([#179](https://github.com/hassio-addons/addon-tor/pull/179))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.0.7 @renovate ([#180](https://github.com/hassio-addons/addon-tor/pull/180))
+- ⬆️ Update alpine_3_18/openssl to v3.1.2-r0 @renovate ([#181](https://github.com/hassio-addons/addon-tor/pull/181))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.0.8 @renovate ([#182](https://github.com/hassio-addons/addon-tor/pull/182))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.1.0 @renovate ([#183](https://github.com/hassio-addons/addon-tor/pull/183))
+- ⬆️ Update alpine_3_18/tor to v0.4.8.4-r0 @renovate ([#184](https://github.com/hassio-addons/addon-tor/pull/184))
+- ⬆️ Update alpine_3_18/tor to v0.4.8.5-r0 @renovate ([#185](https://github.com/hassio-addons/addon-tor/pull/185))
+- ⬆️ Update alpine_3_18/tor to v0.4.8.6-r0 @renovate ([#186](https://github.com/hassio-addons/addon-tor/pull/186))
+- ⬆️ Update alpine_3_18/openssl to v3.1.3-r0 @renovate ([#187](https://github.com/hassio-addons/addon-tor/pull/187))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.1.1 @renovate ([#188](https://github.com/hassio-addons/addon-tor/pull/188))
+- ⬆️ Update alpine_3_18/tor to v0.4.8.7-r0 @renovate ([#189](https://github.com/hassio-addons/addon-tor/pull/189))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.1.3 @renovate ([#190](https://github.com/hassio-addons/addon-tor/pull/190))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.2.0 @renovate ([#191](https://github.com/hassio-addons/addon-tor/pull/191))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.2.1 @renovate ([#192](https://github.com/hassio-addons/addon-tor/pull/192))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.2.2 @renovate ([#193](https://github.com/hassio-addons/addon-tor/pull/193))
