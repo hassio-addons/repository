@@ -2,8 +2,8 @@
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.0.5 @renovate ([#142](https://github.com/hassio-addons/addon-example/pull/142))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.0.6 @renovate ([#143](https://github.com/hassio-addons/addon-example/pull/143))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.0.7 @renovate ([#144](https://github.com/hassio-addons/addon-example/pull/144))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.0.8 @renovate ([#145](https://github.com/hassio-addons/addon-example/pull/145))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.1.0 @renovate ([#146](https://github.com/hassio-addons/addon-example/pull/146))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.1.1 @renovate ([#148](https://github.com/hassio-addons/addon-example/pull/148))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.1.3 @renovate ([#149](https://github.com/hassio-addons/addon-example/pull/149))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.2.0 @renovate ([#150](https://github.com/hassio-addons/addon-example/pull/150))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.2.1 @renovate ([#151](https://github.com/hassio-addons/addon-example/pull/151))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.2.2 @renovate ([#152](https://github.com/hassio-addons/addon-example/pull/152))
