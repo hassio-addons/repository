@@ -1,31 +1,28 @@
+name: MQTT IO
+version: 0.3.0
+slug: mqtt-io
+description: Expose GPIO modules and digital sensors via MQTT for remote control and
+  monitoring.
+url: https://github.com/hassio-addons/addon-mqtt-io
+codenotary: codenotary@frenck.dev
 arch:
 - aarch64
 - amd64
 - armhf
 - armv7
 - i386
-codenotary: codenotary@frenck.dev
-description: Expose GPIO modules and digital sensors via MQTT for remote control and
-  monitoring.
-devices:
-- /dev
-gpio: true
-homeassistant_api: true
-image: ghcr.io/hassio-addons/mqtt-io/{arch}
 init: false
+homeassistant_api: true
+full_access: true
+privileged:
+- SYS_RAWIO
 map:
 - config:rw
 - share:rw
 - ssl
-name: MQTT IO
 options:
   configuration_file: /config/mqtt-io/config.yml
-privileged:
-- SYS_RAWIO
 schema:
   configuration_file: str
   log_level: list(trace|debug|info|notice|warning|error|fatal)?
-slug: mqtt-io
-uart: true
-url: https://github.com/hassio-addons/addon-mqtt-io
-version: 0.2.1
+image: ghcr.io/hassio-addons/mqtt-io/{arch}
