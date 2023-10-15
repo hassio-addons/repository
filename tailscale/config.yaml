@@ -1,5 +1,5 @@
 name: Tailscale
-version: 0.11.1
+version: 0.12.0
 slug: tailscale
 description: Zero config VPN for building secure networks
 url: https://github.com/hassio-addons/addon-tailscale
@@ -18,11 +18,27 @@ arch:
 init: false
 hassio_api: true
 host_network: true
+host_dbus: true
+privileged:
+- NET_ADMIN
+- NET_RAW
+devices:
+- /dev/net/tun
 map:
 - share:rw
 schema:
+  accept_dns: bool?
+  accept_routes: bool?
+  advertise_exit_node: bool?
+  advertise_routes:
+  - match(^(((25[0-5]|(2[0-4]|1\d|[1-9]?)\d)\.){3}(25[0-5]|(2[0-4]|1\d|[1-9]?)\d)\/(3[0-2]|[12]?\d)|[a-fA-F\d.:]+:[a-fA-F\d.:]+\/(12[0-8]|(1[01]|[1-9]?)\d))$)?
+  funnel: bool?
   log_level: list(trace|debug|info|notice|warning|error|fatal)?
   login_server: url?
+  proxy: bool?
+  snat_subnet_routes: bool?
   tags:
   - match(^tag:[a-zA-Z0-9]-?[a-zA-Z0-9]+$)?
+  taildrop: bool?
+  userspace_networking: bool?
 image: ghcr.io/hassio-addons/tailscale/{arch}

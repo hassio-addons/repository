@@ -1,5 +1,38 @@
 ---
 configuration:
+  accept_dns:
+    name: Accept DNS
+    description: >-
+      If you are experiencing trouble with MagicDNS on this device and wish to
+      disable, you can do so using this option.
+      When not set, this option is enabled by default.
+  accept_routes:
+    name: Accept Routes
+    description: >-
+      This option allows you to accept subnet routes advertised by other nodes
+      in your tailnet.
+      When not set, this option is enabled by default.
+  advertise_exit_node:
+    name: Advertise as an exit node
+    description: >-
+      This option allows you to advertise this Tailscale instance as an exit node.
+      By setting a device on your network as an exit node, you can use it to
+      route all your public internet traffic as needed, like a consumer VPN.
+      When not set, this option is enabled by default.
+  advertise_routes:
+    name: Advertise subnet routes
+    description: >-
+      This option allows you to advertise routes to subnets (accessible on the network
+      your device is connected to) to other clients on your tailnet.
+      When not set, the add-on by default will advertise routes to your subnets on all
+      supported interfaces.
+  funnel:
+    name: Tailscale Funnel
+    description: >-
+      This option allows you to enable Tailscale's Funnel feature to present your
+      Home Assistant instance on the wider internet using your Tailscale domain.
+      This requires Tailscale Proxy to be enabled.
+      When not set, this option is enabled by default.
   log_level:
     name: Log level
     description: >-
@@ -11,8 +44,36 @@ configuration:
       This option allows you to specify a custom control server for this
       Tailscale instance, for example, a self-host Headscale instance.
       By default, it uses the control server provided by Tailscale.
+  proxy:
+    name: Tailscale Proxy
+    description: >-
+      This option allows you to enable Tailscale's Proxy feature to present your
+      Home Assistant instance on your tailnet with a valid certificate.
+      When not set, this option is enabled by default.
+  snat_subnet_routes:
+    name: Source NAT subnet routes
+    description: >-
+      This option allows subnet devices to see the traffic originating from the
+      subnet router, and this simplifies routing configuration.
+      To support advanced Site-to-site networking (eg. to traverse multiple
+      networks), you can disable this functionality.
+      When not set, this option is enabled by default.
   tags:
     name: Tags
     description: >-
       This option allows you to specify specific ACL tags for this
       Tailscale instance. They need to start with `tag:`.
+  taildrop:
+    name: Taildrop
+    description: >-
+      This option allows you to enable Taildrop, a file sharing service
+      that allows you to share files with other Tailscale nodes.
+      When not set, this option is enabled by default.
+  userspace_networking:
+    name: Userspace networking mode
+    description: >-
+      This option allows you to enable userspace networking mode.
+      If you need to access other clients on your Tailnet from your Home
+      Assistant instance, disable userspace networking mode, which will create a
+      `tailscale0` network interface on your host.
+      When not set, this option is enabled by default.
