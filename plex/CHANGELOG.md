@@ -1,15 +1,10 @@
 ## What’s changed
 
-## ✨ New features
+## 🐛 Bug fixes
 
-- Map possible hardware acceleration devices into add-on @frenck (#205)
-
-## 🚀 Enhancements
-
-- Install Plex Media Server from Debian package @frenck (#203)
+- Remove stale plexmediaserver.pid on startup @marciogranzotto (#207)
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades Plex Media Server to 1.32.4.7195 @bertybuttface (#197)
-- ⬆️ Upgrades add-on base image to 9.0.0 @frenck (#202)
-- ⬆️ Upgrades Plex Media Server to 1.32.5.7349 @frenck (#204)
+- ⬆️ Upgrades Plex Media Server to 1.32.6.7557 @frenck (#208)
+- ⬆️ Upgrades add-on base image to 9.0.1 @frenck (#209)
