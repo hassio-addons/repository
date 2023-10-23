@@ -28,8 +28,6 @@ however, it is nice to know where you need to go later on.
    [![Open this add-on in your Home Assistant instance.][addon-badge]][addon]
 
 1. Click the "Install" button to install the add-on.
-1. **See the "Option: `proxy`" section of this documentation for the necessary
-   configuration changes in Home Assistant!**
 1. Start the "Tailscale" add-on.
 1. Check the logs of the "Tailscale" add-on to see if everything went well.
 1. Open the Web UI of the "Tailscale" add-on to complete authentication and
@@ -51,9 +49,9 @@ network right from their interface.
 <https://login.tailscale.com/>
 
 The add-on exposes "Exit Node" capabilities that you can enable from your
-Tailscale account. Additionally, if the Supervisor managed your network (
-which is the default), the add-on will also advertise routes to your
-subnets on all supported interfaces to Tailscale.
+Tailscale account. Additionally, if the Supervisor managed your network (which
+is the default), the add-on will also advertise routes to your subnets on all
+supported interfaces to Tailscale.
 
 Consider disabling key expiry to avoid losing connection to your Home Assistant
 device. See [Key expiry][tailscale_info_key_expiry] for more information.
@@ -62,13 +60,13 @@ device. See [Key expiry][tailscale_info_key_expiry] for more information.
 accept_dns: true
 accept_routes: true
 advertise_exit_node: true
-funnel: true
 advertise_routes:
   - 192.168.1.0/24
   - fd12:3456:abcd::/64
+funnel: false
 log_level: info
 login_server: "https://controlplane.tailscale.com"
-proxy: true
+proxy: false
 snat_subnet_routes: true
 tags:
   - tag:example
@@ -94,7 +92,7 @@ by adding `100.100.100.100` as a DNS server in your Pi-hole or AdGuard Home.
 This option allows you to accept subnet routes advertised by other nodes in
 your tailnet.
 
-More information: <https://tailscale.com/kb/1019/subnets/>
+More information: [Subnet routers][tailscale_info_subnets]
 
 When not set, this option is enabled by default.
 
@@ -105,7 +103,7 @@ This option allows you to advertise this Tailscale instance as an exit node.
 By setting a device on your network as an exit node, you can use it to
 route all your public internet traffic as needed, like a consumer VPN.
 
-More information: <https://tailscale.com/kb/1103/exit-nodes/>
+More information: [Exit nodes][tailscale_info_exit_nodes]
 
 When not set, this option is enabled by default.
 
@@ -132,7 +130,7 @@ This requires Tailscale Proxy to be enabled.
 **Important:** See also the "Option: `proxy`" section of this documentation for the
 necessary configuration changes in Home Assistant!
 
-When not set, this option is enabled by default.
+When not set, this option is disabled by default.
 
 With the Tailscale Funnel feature, you can access your Home Assistant instance
 from the wider internet using your Tailscale domain (like
@@ -149,20 +147,11 @@ proxying for HTTPS communication.
 
 More information: [Tailscale Funnel][tailscale_info_funnel]
 
-1. Navigate to the [Access controls page][tailscale_acls] of the admin console,
-   and add the below policy entries to the policy file. See [Server role
-   accounts using ACL tags][tailscale_info_acls] for more information.
+1. Navigate to the [Access controls page][tailscale_acls] of the admin console:
 
-   ```json
-   {
-     "nodeAttrs": [
-       {
-         "target": ["autogroup:members"],
-         "attr": ["funnel"]
-       }
-     ]
-   }
-   ```
+   - Add the required `funnel` node attribute to the tailnet policy file. See
+     [Tailnet policy file requirement][tailscale_info_funnel_policy_requirement]
+     for more information.
 
 1. Restart the add-on.
 
@@ -202,36 +191,13 @@ you are troubleshooting.
 
 ### Option: `login_server`
 
-This option lets you specify you to specify a custom control server instead of
-the default (`https://controlplane.tailscale.com`). This is useful if you
-are running your own Tailscale control server, for example, a self-hosted
-[Headscale] instance.
-
-### Option: `userspace_networking`
-
-The add-on uses [userspace networking mode][tailscale_info_userspace_networking]
-to make your Home Assistant instance (and optionally the local subnets)
-accessible within your tailnet.
-
-When not set, this option is enabled by default.
-
-If you need to access other clients on your tailnet from your Home Assistant
-instance, disable userspace networking mode, which will create a `tailscale0`
-network interface on your host.
-
-If you want to access other clients on your tailnet even from your local subnet,
-execute steps 2 and 3 as described on [Site-to-site
-networking][tailscale_info_site_to_site].
-
-In case your local subnets collide with subnet routes within your tailnet, your
-local network access has priority, and these addresses won't be routed toward
-your tailnet. This will prevent your Home Assistant instance from losing network
-connection. This also means that using the same subnet on multiple nodes for load
-balancing and failover is impossible with the current add-on behavior.
+This option lets you to specify a custom control server instead of the default
+(`https://controlplane.tailscale.com`). This is useful if you are running your
+own Tailscale control server, for example, a self-hosted [Headscale] instance.
 
 ### Option: `proxy`
 
-When not set, this option is enabled by default.
+When not set, this option is disabled by default.
 
 Tailscale can provide a TLS certificate for your Home Assistant instance within
 your tailnet domain.
@@ -260,7 +226,7 @@ More information: [Enabling HTTPS][tailscale_info_https]
 
 1. Navigate to the [DNS page][tailscale_dns] of the admin console:
 
-   - Choose a Tailnet name.
+   - Choose a tailnet name.
 
    - Enable MagicDNS if not already enabled.
 
@@ -288,7 +254,7 @@ only when you really understand why you need this.
 This option allows you to specify specific ACL tags for this Tailscale
 instance. They need to start with `tag:`.
 
-More information: <https://tailscale.com/kb/1068/acl-tags/>
+More information: [ACL tags][tailscale_info_acls]
 
 ### Option: `taildrop`
 
@@ -299,6 +265,28 @@ devices.
 When not set, this option is enabled by default.
 
 Received files are stored in the `/share/taildrop` directory.
+
+### Option: `userspace_networking`
+
+The add-on uses [userspace networking mode][tailscale_info_userspace_networking]
+to make your Home Assistant instance (and optionally the local subnets)
+accessible within your tailnet.
+
+When not set, this option is enabled by default.
+
+If you need to access other clients on your tailnet from your Home Assistant
+instance, disable userspace networking mode, which will create a `tailscale0`
+network interface on your host.
+
+If you want to access other clients on your tailnet even from your local subnet,
+execute steps 2 and 3 as described on [Site-to-site
+networking][tailscale_info_site_to_site].
+
+In case your local subnets collide with subnet routes within your tailnet, your
+local network access has priority, and these addresses won't be routed toward
+your tailnet. This will prevent your Home Assistant instance from losing network
+connection. This also means that using the same subnet on multiple nodes for load
+balancing and failover is impossible with the current add-on behavior.
 
 ## Changelog & Releases
 
@@ -376,8 +364,11 @@ SOFTWARE.
 [tailscale_acls]: https://login.tailscale.com/admin/acls
 [tailscale_dns]: https://login.tailscale.com/admin/dns
 [tailscale_info_acls]: https://tailscale.com/kb/1068/acl-tags/
+[tailscale_info_exit_nodes]: https://tailscale.com/kb/1103/exit-nodes/
 [tailscale_info_funnel]: https://tailscale.com/kb/1223/tailscale-funnel/
+[tailscale_info_funnel_policy_requirement]: https://tailscale.com/kb/1223/tailscale-funnel/#tailnet-policy-file-requirement
 [tailscale_info_https]: https://tailscale.com/kb/1153/enabling-https/
 [tailscale_info_key_expiry]: https://tailscale.com/kb/1028/key-expiry/
 [tailscale_info_site_to_site]: https://tailscale.com/kb/1214/site-to-site/
+[tailscale_info_subnets]: https://tailscale.com/kb/1019/subnets/
 [tailscale_info_userspace_networking]: https://tailscale.com/kb/1112/userspace-networking/
