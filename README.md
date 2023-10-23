@@ -888,9 +888,9 @@ SOFTWARE.
 [tailscale-version-shield]: https://img.shields.io/badge/version-v0.12.0-blue.svg
 [tailscale-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [tailscale-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
-[tailscale-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
+[tailscale-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [tailscale-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
-[tailscale-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
+[tailscale-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [addon-tasmoadmin]: https://github.com/hassio-addons/addon-tasmoadmin/tree/v0.25.1
 [addon-doc-tasmoadmin]: https://github.com/hassio-addons/addon-tasmoadmin/blob/v0.25.1/README.md
 [tasmoadmin-issue]: https://github.com/hassio-addons/addon-tasmoadmin/issues
