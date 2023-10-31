@@ -843,9 +843,9 @@ SOFTWARE.
 [node-red-version-shield]: https://img.shields.io/badge/version-v14.6.3-blue.svg
 [node-red-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [node-red-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
-[node-red-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
+[node-red-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [node-red-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
-[node-red-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
+[node-red-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [addon-plex]: https://github.com/hassio-addons/addon-plex/tree/v3.3.1
 [addon-doc-plex]: https://github.com/hassio-addons/addon-plex/blob/v3.3.1/README.md
 [plex-issue]: https://github.com/hassio-addons/addon-plex/issues
