@@ -2,4 +2,4 @@
 
 ## 🐛 Bug fixes
 
-- Fix init-user script @frenck ([#734](https://github.com/hassio-addons/addon-vscode/pull/734))
+- Fix unbound variable in log warning message @frenck ([#736](https://github.com/hassio-addons/addon-vscode/pull/736))
