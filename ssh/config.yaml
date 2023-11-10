@@ -1,5 +1,5 @@
 name: Advanced SSH & Web Terminal
-version: 15.1.0
+version: 16.0.0
 slug: ssh
 description: A supercharged SSH & Web Terminal access to your Home Assistant instance
 url: https://github.com/hassio-addons/addon-ssh
@@ -15,9 +15,7 @@ homeassistant: 0.92.0b2
 arch:
 - aarch64
 - amd64
-- armhf
 - armv7
-- i386
 ports:
   22/tcp: 22
 ports_description:
@@ -45,12 +43,13 @@ privileged:
 devices:
 - /dev/mem
 map:
-- config:rw
-- ssl:rw
 - addons:rw
+- all_addon_configs:rw
+- backup:rw
+- homeassistant_config:rw
 - media:rw
 - share:rw
-- backup:rw
+- ssl:rw
 journald: true
 options:
   ssh:
