@@ -92,8 +92,8 @@ single time this add-on starts.
 This add-on does not configure the AppDaemon or HADashboard for you.
 It does, however, create some sample files to get you started on the first run.
 
-The configuration of the AppDaemon can be found in the `/config/appdaemon`
-directory.
+The configuration of the AppDaemon can be found in the add-on configuration
+folder of this add-on.
 
 For more information about configuring AppDaemon, please refer to the
 extensive documentation they offer:

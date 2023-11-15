@@ -1,5 +1,5 @@
 name: AppDaemon
-version: 0.14.0
+version: 0.15.0
 slug: appdaemon
 description: Python Apps and Dashboard using AppDaemon 4.x for Home Assistant
 url: https://github.com/hassio-addons/addon-appdaemon
@@ -17,9 +17,10 @@ ports:
 ports_description:
   5050/tcp: AppDaemon
 map:
-- config:rw
-- share:rw
+- addon_config:rw
+- homeassistant_config:rw
 - media:rw
+- share:rw
 - ssl
 options:
   system_packages: []
