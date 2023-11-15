@@ -106,7 +106,7 @@ been done to reduce the number of open ports the add-on would create.
 
 By default, only the OsmAnd protocol (used by the Traccar Apps) and the API
 are enabled. If you want more protocols, you can do so, by adding entries
-to your `/config/traccar.xml` file.
+to your `traccar.xml` file in the add-on configuration folder.
 
 A list if all entries can be found here:
 

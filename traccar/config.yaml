@@ -1,5 +1,5 @@
 name: Traccar
-version: 0.21.1
+version: 0.22.0
 slug: traccar
 description: Modern GPS Tracking Platform
 url: https://github.com/hassio-addons/addon-traccar
@@ -17,7 +17,8 @@ ports:
 ports_description:
   80/tcp: Web interface
 map:
-- config:rw
+- addon_config:rw
+- homeassistant_config:rw
 - ssl
 services:
 - mysql:want
