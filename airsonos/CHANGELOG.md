@@ -1,5 +1,9 @@
 ## What’s changed
 
-## ⬆️ Dependency updates
+## 🚨 Breaking changes
 
-- ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v7.2.0 @renovate ([#146](https://github.com/hassio-addons/addon-airsonos/pull/146))
+- Drop support for i386 @frenck ([#148](https://github.com/hassio-addons/addon-airsonos/pull/148))
+
+## 🚀 Enhancements
+
+- Migrate AirSonos config out of Home Assistant config folder @frenck ([#149](https://github.com/hassio-addons/addon-airsonos/pull/149))

@@ -168,8 +168,8 @@ lack of audio. Note that `latency_rtp` does not delay playback start.
 
 ## Tweaking AirSonos
 
-AirSonos creates a configuration file called `airsonos.xml` in your Home
-Assistant configuration directory. This file allows you to tweak each device
+AirSonos creates a configuration file called `airsonos.xml` in the add-on
+configuration directory. This file allows you to tweak each device
 separately. Every time it finds a new device, it will be added to that file.
 
 > **NOTE**: It is HIGHLY recommended to stop the addon before making changes
