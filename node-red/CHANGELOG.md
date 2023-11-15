@@ -2,4 +2,4 @@
 
 ## 🐛 Bug fixes
 
-- Fix bug in detecting set credential secret @frenck ([#1734](https://github.com/hassio-addons/addon-node-red/pull/1734))
+- Fix incorrect check for existing files @frenck ([#1738](https://github.com/hassio-addons/addon-node-red/pull/1738))
