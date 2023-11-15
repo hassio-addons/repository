@@ -1,9 +1,5 @@
 ## What’s changed
 
-## 🚨 Breaking changes
+## 🐛 Bug fixes
 
-- Drop support for i386 @frenck ([#188](https://github.com/hassio-addons/addon-aircast/pull/188))
-
-## 🚀 Enhancements
-
-- Migrate Aircast config out of Home Assistant config folder @frenck ([#192](https://github.com/hassio-addons/addon-aircast/pull/192))
+- Fix incorrect check for existing files @frenck ([#193](https://github.com/hassio-addons/addon-aircast/pull/193))
