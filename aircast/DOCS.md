@@ -151,8 +151,8 @@ lack of audio. Note that `latency_rtp` does not delay playback start.
 
 ## Tweaking Aircast
 
-Aircast creates a configuration file called `aircast.xml` in your Home
-Assistant configuration directory. This file allows you to tweak each device
+Aircast creates a configuration file called `aircast.xml` in the add-on
+configuration directory. This file allows you to tweak each device
 separately. Every time it finds a new device, it will be added to that file.
 
 > **NOTE**: It is HIGHLY recommended to stop the addon before making changes
