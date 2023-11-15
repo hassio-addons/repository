@@ -1,5 +1,5 @@
 name: Node-RED
-version: 15.1.1
+version: 16.0.0
 slug: nodered
 description: Flow-based programming for the Internet of Things
 url: https://github.com/hassio-addons/addon-node-red
@@ -25,12 +25,12 @@ host_network: true
 auth_api: true
 uart: true
 map:
-- config:rw
+- addon_config:rw
+- homeassistant_config:rw
 - media:rw
 - share:rw
 - ssl
 options:
-  credential_secret: ''
   theme: default
   http_node:
     username: ''
@@ -46,7 +46,7 @@ options:
   init_commands: []
 schema:
   log_level: list(trace|debug|info|notice|warning|error|fatal)?
-  credential_secret: password
+  credential_secret: password?
   theme: list(default|aurora|cobalt2|dark|dracula|espresso-libre|github-dark|github-dark-default|github-dark-dimmed|midnight-red|monoindustrial|monokai|monokai-dimmed|noctis|oceanic-next|oled|one-dark-pro|one-dark-pro-darker|solarized-dark|solarized-light|tokyo-night|tokyo-night-light|tokyo-night-storm|totallyinformation|zenburn)?
   http_node:
     username: str
