@@ -1,5 +1,5 @@
 ## What’s changed
 
-## 🚀 Enhancements
+## ⬆️ Dependency updates
 
-- Replace health check to prevent high CPU and memory spike @RemCom ([#73](https://github.com/hassio-addons/addon-emqx/pull/73))
+- ⬆️ Update emqx/emqx to v5.3.1 @renovate ([#74](https://github.com/hassio-addons/addon-emqx/pull/74))
