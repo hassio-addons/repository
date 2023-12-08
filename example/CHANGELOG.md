@@ -1,9 +1,12 @@
 ## What’s changed
 
+## 🚨 Breaking changes
+
+- Drop support for armhf & i386 @frenck ([#153](https://github.com/hassio-addons/addon-example/pull/153))
+
 ## ⬆️ Dependency updates
 
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.1.1 @renovate ([#148](https://github.com/hassio-addons/addon-example/pull/148))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.1.3 @renovate ([#149](https://github.com/hassio-addons/addon-example/pull/149))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.2.0 @renovate ([#150](https://github.com/hassio-addons/addon-example/pull/150))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.2.1 @renovate ([#151](https://github.com/hassio-addons/addon-example/pull/151))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.2.2 @renovate ([#152](https://github.com/hassio-addons/addon-example/pull/152))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.3.0 @renovate ([#154](https://github.com/hassio-addons/addon-example/pull/154))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.3.1 @renovate ([#155](https://github.com/hassio-addons/addon-example/pull/155))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.3.3 @renovate ([#157](https://github.com/hassio-addons/addon-example/pull/157))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v15 @renovate ([#158](https://github.com/hassio-addons/addon-example/pull/158))
