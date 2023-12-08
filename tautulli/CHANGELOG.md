@@ -1,10 +1,14 @@
 ## What’s changed
 
+## 🚨 Breaking changes
+
+- Drop support for armhf & i386 @frenck ([#318](https://github.com/hassio-addons/addon-tautulli/pull/318))
+
 ## ⬆️ Dependency updates
 
-- ⬆️ Update plexapi to v4.15.2 @renovate ([#313](https://github.com/hassio-addons/addon-tautulli/pull/313))
-- ⬆️ Update pycryptodomex to v3.19.0 @renovate ([#312](https://github.com/hassio-addons/addon-tautulli/pull/312))
-- ⬆️ Update plexapi to v4.15.3 @renovate ([#314](https://github.com/hassio-addons/addon-tautulli/pull/314))
-- ⬆️ Update crudini to v0.9.5 @renovate ([#316](https://github.com/hassio-addons/addon-tautulli/pull/316))
-- ⬆️ Update plexapi to v4.15.4 @renovate ([#315](https://github.com/hassio-addons/addon-tautulli/pull/315))
-- ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v7.2.0 @renovate ([#317](https://github.com/hassio-addons/addon-tautulli/pull/317))
+- ⬆️ Update plexapi to v4.15.5 @renovate ([#319](https://github.com/hassio-addons/addon-tautulli/pull/319))
+- ⬆️ Update plexapi to v4.15.6 @renovate ([#320](https://github.com/hassio-addons/addon-tautulli/pull/320))
+- ⬆️ Update setuptools to v69 @renovate ([#321](https://github.com/hassio-addons/addon-tautulli/pull/321))
+- ⬆️ Update setuptools to v69.0.1 @renovate ([#322](https://github.com/hassio-addons/addon-tautulli/pull/322))
+- ⬆️ Update setuptools to v69.0.2 @renovate ([#323](https://github.com/hassio-addons/addon-tautulli/pull/323))
+- ⬆️ Upgrades Tautulli to v2.13.4 @frenck ([#324](https://github.com/hassio-addons/addon-tautulli/pull/324))
