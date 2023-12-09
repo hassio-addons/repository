@@ -1,13 +1,13 @@
 ## What’s changed
 
+## ✨ New features
+
+- Make vscode server data persistent @frenck ([#656](https://github.com/hassio-addons/addon-ssh/pull/656))
+
 ## 📚 Documentation
 
-- Update SSH documentation configuration example @josteinh ([#649](https://github.com/hassio-addons/addon-ssh/pull/649))
+- Update screenshot with recent preview @cnotin ([#653](https://github.com/hassio-addons/addon-ssh/pull/653))
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update OpenSSL to v3.1.4-r1 @renovate ([#636](https://github.com/hassio-addons/addon-ssh/pull/636))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.3.2 @renovate ([#637](https://github.com/hassio-addons/addon-ssh/pull/637))
-- ⬆️ Update alpine_3_18/libxml2-utils to v2.11.6-r0 @renovate ([#645](https://github.com/hassio-addons/addon-ssh/pull/645))
-- ⬆️ Update Docker to v23.0.6-r7 @renovate ([#644](https://github.com/hassio-addons/addon-ssh/pull/644))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.3.3 @renovate ([#650](https://github.com/hassio-addons/addon-ssh/pull/650))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v15 @renovate ([#655](https://github.com/hassio-addons/addon-ssh/pull/655))
