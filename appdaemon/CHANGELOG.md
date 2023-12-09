@@ -1,19 +1,9 @@
 ## What’s changed
 
-⚠️ With this release, the `appdaemon` data folder will migrate/move out of the Home Assistant configuration folder into a dedicated folder for this add-on. You can access add-on configuration folders using SSH, Samba, VSCode, and similar add-ons by accessing the `addon_configs` folder/share.
+Upgrades the add-on to use Alpine Linux 3.19.
+This might affect you if you have installed custom system packages.
 
-If you have this in your `appdaemon.yaml` file:
+## ⬆️ Dependency updates
 
-```yaml
-secrets: /config/secrets.yaml
-```
-
-You will need to adjust this to:
-
-```yaml
-secrets: /homeassistant/secrets.yaml
-```
-
-## 🐛 Bug fixes
-
-- Fixed another incorrect check @frenck ([#290](https://github.com/hassio-addons/addon-appdaemon/pull/290))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.3.3 @renovate ([#310](https://github.com/hassio-addons/addon-appdaemon/pull/310))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v15 @renovate ([#312](https://github.com/hassio-addons/addon-appdaemon/pull/312))
