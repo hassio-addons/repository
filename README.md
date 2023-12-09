@@ -996,9 +996,9 @@ SOFTWARE.
 [chrony-version-shield]: https://img.shields.io/badge/version-v2.6.2-blue.svg
 [chrony-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [chrony-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
-[chrony-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
+[chrony-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [chrony-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
-[chrony-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
+[chrony-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [addon-motioneye]: https://github.com/hassio-addons/addon-motioneye/tree/v0.19.1
 [addon-doc-motioneye]: https://github.com/hassio-addons/addon-motioneye/blob/v0.19.1/README.md
 [motioneye-issue]: https://github.com/hassio-addons/addon-motioneye/issues
