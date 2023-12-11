@@ -38,6 +38,6 @@ in the industry.
 [patreon-shield]: https://frenck.dev/wp-content/uploads/2019/12/patreon.png
 [patreon]: https://www.patreon.com/frenck
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
-[release-shield]: https://img.shields.io/badge/version-v0.9.0-blue.svg
-[release]: https://github.com/hassio-addons/addon-wireguard/tree/v0.9.0
+[release-shield]: https://img.shields.io/badge/version-v0.10.0-blue.svg
+[release]: https://github.com/hassio-addons/addon-wireguard/tree/v0.10.0
 [wireguard]: https://www.wireguard.com
