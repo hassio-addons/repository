@@ -708,9 +708,9 @@ SOFTWARE.
 [bookstack-version-shield]: https://img.shields.io/badge/version-v1.10.1-blue.svg
 [bookstack-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [bookstack-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
-[bookstack-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
+[bookstack-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [bookstack-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
-[bookstack-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
+[bookstack-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [addon-emqx]: https://github.com/hassio-addons/addon-emqx/tree/v0.3.0
 [addon-doc-emqx]: https://github.com/hassio-addons/addon-emqx/blob/v0.3.0/README.md
 [emqx-issue]: https://github.com/hassio-addons/addon-emqx/issues
