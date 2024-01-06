@@ -57,10 +57,6 @@ addons:
     repository: hassio-addons/addon-grocy
     target: grocy
     image: ghcr.io/hassio-addons/grocy/{arch}
-  home-panel:
-    repository: hassio-addons/addon-home-panel
-    target: home-panel
-    image: ghcr.io/hassio-addons/home-panel/{arch}
   influxdb:
     repository: hassio-addons/addon-influxdb
     target: influxdb
