@@ -1,5 +1,5 @@
 name: MQTT IO
-version: 0.3.0
+version: 0.4.0
 slug: mqtt-io
 description: Expose GPIO modules and digital sensors via MQTT for remote control and
   monitoring.
@@ -8,9 +8,7 @@ codenotary: codenotary@frenck.dev
 arch:
 - aarch64
 - amd64
-- armhf
 - armv7
-- i386
 init: false
 homeassistant_api: true
 full_access: true
