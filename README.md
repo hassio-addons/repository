@@ -757,9 +757,9 @@ SOFTWARE.
 [grocy-version-shield]: https://img.shields.io/badge/version-v0.20.1-blue.svg
 [grocy-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [grocy-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
-[grocy-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
+[grocy-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [grocy-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
-[grocy-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
+[grocy-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [addon-influxdb]: https://github.com/hassio-addons/addon-influxdb/tree/v4.8.0
 [addon-doc-influxdb]: https://github.com/hassio-addons/addon-influxdb/blob/v4.8.0/README.md
 [influxdb-issue]: https://github.com/hassio-addons/addon-influxdb/issues
