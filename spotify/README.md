@@ -29,10 +29,10 @@ you'll have to do is hook up your sound system to the Pi!
 [forum]: https://community.home-assistant.io/t/home-assistant-community-add-on-spotify-connect/61210?u=frenck
 [github-sponsors-shield]: https://frenck.dev/wp-content/uploads/2019/12/github_sponsor.png
 [github-sponsors]: https://github.com/sponsors/frenck
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2023.svg
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2024.svg
 [patreon-shield]: https://frenck.dev/wp-content/uploads/2019/12/patreon.png
 [patreon]: https://www.patreon.com/frenck
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
-[release-shield]: https://img.shields.io/badge/version-v0.12.6-blue.svg
-[release]: https://github.com/hassio-addons/addon-spotify-connect/tree/v0.12.6
+[release-shield]: https://img.shields.io/badge/version-v0.13.0-blue.svg
+[release]: https://github.com/hassio-addons/addon-spotify-connect/tree/v0.13.0
 [screenshot]: https://github.com/hassio-addons/addon-spotify-connect/raw/main/images/screenshot.png
