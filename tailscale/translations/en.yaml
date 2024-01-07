@@ -50,6 +50,12 @@ configuration:
       This option allows you to enable Tailscale's Proxy feature to present your
       Home Assistant instance on your tailnet with a valid certificate.
       When not set, this option is disabled by default.
+  proxy_and_funnel_port:
+    name: Tailscale Proxy and Funnel port
+    description: >-
+      This option allows you to configure the port the Tailscale Proxy and Funnel
+      features are accessible on.
+      Only port number 443, 8443 and 10000 is allowed by Tailscale.
   snat_subnet_routes:
     name: Source NAT subnet routes
     description: >-
