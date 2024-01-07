@@ -1,14 +1,16 @@
 ## What’s changed
 
-⚠️ The add-on now uses `/homeassistant` instead of `/config` to access the Home Assistant configuration. If you have configured a custom database to pick up, this might affect your add-on settings. Typical use is not affected.
+## 🐛 Bug fixes
 
-## 🚨 Breaking changes
+- Fix Renovate configuration for Alpine 3.19 @frenck ([#291](https://github.com/hassio-addons/addon-sqlite-web/pull/291))
 
-- Drop support for armhf & i386 @frenck ([#282](https://github.com/hassio-addons/addon-sqlite-web/pull/282))
-- Migrate add-on to new Home Assistant configuration mapping @frenck ([#284](https://github.com/hassio-addons/addon-sqlite-web/pull/284))
+## 🧰 Maintenance
+
+- 🎆 Updates maintenance/license year to 2024 @frenck ([#292](https://github.com/hassio-addons/addon-sqlite-web/pull/292))
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update alpine_3_18/nginx to v1.24.0-r7 @renovate ([#279](https://github.com/hassio-addons/addon-sqlite-web/pull/279))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.3.1 @renovate ([#283](https://github.com/hassio-addons/addon-sqlite-web/pull/283))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.3.2 @renovate ([#285](https://github.com/hassio-addons/addon-sqlite-web/pull/285))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.3.3 @renovate ([#286](https://github.com/hassio-addons/addon-sqlite-web/pull/286))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v15 @renovate ([#287](https://github.com/hassio-addons/addon-sqlite-web/pull/287))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v15.0.2 @renovate ([#289](https://github.com/hassio-addons/addon-sqlite-web/pull/289))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v15.0.3 @renovate ([#290](https://github.com/hassio-addons/addon-sqlite-web/pull/290))
