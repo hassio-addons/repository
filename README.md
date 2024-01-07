@@ -760,10 +760,10 @@ SOFTWARE.
 [grocy-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [grocy-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [grocy-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
-[addon-influxdb]: https://github.com/hassio-addons/addon-influxdb/tree/v4.8.0
-[addon-doc-influxdb]: https://github.com/hassio-addons/addon-influxdb/blob/v4.8.0/README.md
+[addon-influxdb]: https://github.com/hassio-addons/addon-influxdb/tree/v5.0.0
+[addon-doc-influxdb]: https://github.com/hassio-addons/addon-influxdb/blob/v5.0.0/README.md
 [influxdb-issue]: https://github.com/hassio-addons/addon-influxdb/issues
-[influxdb-version-shield]: https://img.shields.io/badge/version-v4.8.0-blue.svg
+[influxdb-version-shield]: https://img.shields.io/badge/version-v5.0.0-blue.svg
 [influxdb-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [influxdb-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [influxdb-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
