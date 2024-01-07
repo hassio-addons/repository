@@ -768,7 +768,7 @@ SOFTWARE.
 [influxdb-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [influxdb-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [influxdb-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
-[influxdb-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
+[influxdb-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [addon-jupyterlab]: https://github.com/hassio-addons/addon-jupyterlab/tree/v0.13.0
 [addon-doc-jupyterlab]: https://github.com/hassio-addons/addon-jupyterlab/blob/v0.13.0/README.md
 [jupyterlab-issue]: https://github.com/hassio-addons/addon-jupyterlab/issues
