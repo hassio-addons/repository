@@ -1,5 +1,5 @@
 name: Grocy
-version: 0.20.1
+version: 0.21.0
 slug: grocy
 description: ERP beyond your fridge! A groceries & household management solution for
   your home
@@ -13,9 +13,7 @@ panel_admin: false
 arch:
 - aarch64
 - amd64
-- armhf
 - armv7
-- i386
 map:
 - ssl
 ports:
