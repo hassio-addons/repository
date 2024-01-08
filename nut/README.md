@@ -36,11 +36,11 @@ see the [NUT integration documentation][nut-ha-docs].
 [discord]: https://discord.me/hassioaddons
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
 [forum]: https://community.home-assistant.io/t/community-hass-io-add-on-network-ups-tools/68516
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2023.svg
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2024.svg
 [nut-acknowledgements]: https://networkupstools.org/acknowledgements.html
 [nut-compatible]: https://networkupstools.org/stable-hcl.html
 [nut-features]: https://networkupstools.org/features.html
 [nut-ha-docs]: https://www.home-assistant.io/integrations/nut/
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
-[release-shield]: https://img.shields.io/badge/version-v0.12.2-blue.svg
-[release]: https://github.com/hassio-addons/addon-nut/tree/v0.12.2
+[release-shield]: https://img.shields.io/badge/version-v0.13.0-blue.svg
+[release]: https://github.com/hassio-addons/addon-nut/tree/v0.13.0

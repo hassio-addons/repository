@@ -1,15 +1,20 @@
 ## What’s changed
 
-## 🐛 Bug fixes
+## 🚨 Breaking changes
 
-- patch: fix error on startup @matttbe ([#397](https://github.com/hassio-addons/addon-grocy/pull/397))
+- Drop support for armhf & i386 @frenck ([#403](https://github.com/hassio-addons/addon-grocy/pull/403))
+
+## 🧰 Maintenance
+
+- 🎆 Updates maintenance/license year to 2024 @frenck ([#418](https://github.com/hassio-addons/addon-grocy/pull/418))
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.1.1 @renovate ([#393](https://github.com/hassio-addons/addon-grocy/pull/393))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.1.3 @renovate ([#394](https://github.com/hassio-addons/addon-grocy/pull/394))
-- ⬆️ Update alpine_3_18/composer to v2.6.4-r0 @renovate ([#398](https://github.com/hassio-addons/addon-grocy/pull/398))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.2.0 @renovate ([#396](https://github.com/hassio-addons/addon-grocy/pull/396))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.2.1 @renovate ([#399](https://github.com/hassio-addons/addon-grocy/pull/399))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.2.2 @renovate ([#400](https://github.com/hassio-addons/addon-grocy/pull/400))
-- ⬆️ Update alpine_3_18/composer to v2.6.5-r0 @renovate ([#401](https://github.com/hassio-addons/addon-grocy/pull/401))
+- ⬆️ Update alpine_3_18/nginx to v1.24.0-r7 @renovate ([#402](https://github.com/hassio-addons/addon-grocy/pull/402))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.3.0 @renovate ([#404](https://github.com/hassio-addons/addon-grocy/pull/404))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.3.1 @renovate ([#405](https://github.com/hassio-addons/addon-grocy/pull/405))
+- ⬆️ Update PHP to v8.1.25-r0 @renovate ([#407](https://github.com/hassio-addons/addon-grocy/pull/407))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.3.2 @renovate ([#408](https://github.com/hassio-addons/addon-grocy/pull/408))
+- ⬆️ Update PHP to v8.1.26-r0 @renovate ([#413](https://github.com/hassio-addons/addon-grocy/pull/413))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.3.3 @renovate ([#415](https://github.com/hassio-addons/addon-grocy/pull/415))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v15 @renovate ([#416](https://github.com/hassio-addons/addon-grocy/pull/416))

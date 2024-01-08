@@ -1,5 +1,5 @@
 ## What’s changed
 
-## ⬆️ Dependency updates
+## 🧰 Maintenance
 
-- ⬆️ Update emqx/emqx to v5.3.2 @renovate ([#76](https://github.com/hassio-addons/addon-emqx/pull/76))
+- 🎆 Updates maintenance/license year to 2024 @frenck ([#80](https://github.com/hassio-addons/addon-emqx/pull/80))
