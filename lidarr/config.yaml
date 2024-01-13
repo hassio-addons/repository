@@ -1,0 +1,19 @@
+name: Lidarr
+version: 0.1.0
+slug: lidarr
+description: Looks and smells like Sonarr but made for music
+url: https://github.com/hassio-addons/addon-lidarr/tree/main/README.md
+codenotary: codenotary@frenck.dev
+webui: http://[HOST]:[PORT:8686]
+init: false
+arch:
+- aarch64
+- amd64
+- armv7
+map:
+- addon_config:rw
+- share:rw
+- media:rw
+ports:
+  8686/tcp: 8686
+image: ghcr.io/hassio-addons/lidarr/{arch}

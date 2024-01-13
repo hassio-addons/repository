@@ -230,6 +230,19 @@ Create documents containing live code, equations, visualizations, and explanator
 
 [:books: JupyterLab add-on documentation][addon-doc-jupyterlab]
 
+### &#10003; [Lidarr][addon-lidarr]
+
+![Latest Version][lidarr-version-shield]
+![Supports armhf Architecture][lidarr-armhf-shield]
+![Supports armv7 Architecture][lidarr-armv7-shield]
+![Supports aarch64 Architecture][lidarr-aarch64-shield]
+![Supports amd64 Architecture][lidarr-amd64-shield]
+![Supports i386 Architecture][lidarr-i386-shield]
+
+Looks and smells like Sonarr but made for music
+
+[:books: Lidarr add-on documentation][addon-doc-lidarr]
+
 ### &#10003; [Log Viewer][addon-log-viewer]
 
 ![Latest Version][log-viewer-version-shield]
@@ -595,6 +608,7 @@ on the correct GitHub repository matching the add-on.
 - [Open an issue for the add-on: Grocy][grocy-issue]
 - [Open an issue for the add-on: InfluxDB][influxdb-issue]
 - [Open an issue for the add-on: JupyterLab][jupyterlab-issue]
+- [Open an issue for the add-on: Lidarr][lidarr-issue]
 - [Open an issue for the add-on: Log Viewer][log-viewer-issue]
 - [Open an issue for the add-on: MQTT IO][mqtt-io-issue]
 - [Open an issue for the add-on: Network UPS Tools][nut-issue]
@@ -792,6 +806,15 @@ SOFTWARE.
 [jupyterlab-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [jupyterlab-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [jupyterlab-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
+[addon-lidarr]: https://github.com/hassio-addons/addon-lidarr/tree/v0.1.0
+[addon-doc-lidarr]: https://github.com/hassio-addons/addon-lidarr/blob/v0.1.0/README.md
+[lidarr-issue]: https://github.com/hassio-addons/addon-lidarr/issues
+[lidarr-version-shield]: https://img.shields.io/badge/version-v0.1.0-blue.svg
+[lidarr-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[lidarr-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[lidarr-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
+[lidarr-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
+[lidarr-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [addon-log-viewer]: https://github.com/hassio-addons/addon-log-viewer/tree/v0.17.0
 [addon-doc-log-viewer]: https://github.com/hassio-addons/addon-log-viewer/blob/v0.17.0/README.md
 [log-viewer-issue]: https://github.com/hassio-addons/addon-log-viewer/issues
