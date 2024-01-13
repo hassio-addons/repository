@@ -101,6 +101,10 @@ addons:
     repository: hassio-addons/addon-plex
     target: plex
     image: ghcr.io/hassio-addons/plex/{arch}
+  radarr:
+    repository: hassio-addons/addon-radarr
+    target: radarr
+    image: ghcr.io/hassio-addons/radarr/{arch}
   spotify:
     repository: hassio-addons/addon-spotify-connect
     target: spotify
