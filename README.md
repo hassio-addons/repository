@@ -334,6 +334,19 @@ Indexer manager/proxy built on the popular arr stack to integrate with your vari
 
 [:books: Prowlarr add-on documentation][addon-doc-prowlarr]
 
+### &#10003; [Radarr][addon-radarr]
+
+![Latest Version][radarr-version-shield]
+![Supports armhf Architecture][radarr-armhf-shield]
+![Supports armv7 Architecture][radarr-armv7-shield]
+![Supports aarch64 Architecture][radarr-aarch64-shield]
+![Supports amd64 Architecture][radarr-amd64-shield]
+![Supports i386 Architecture][radarr-i386-shield]
+
+Movie organizer/manager for usenet and torrent users
+
+[:books: Radarr add-on documentation][addon-doc-radarr]
+
 ### &#10003; [SABnzbd][addon-sabnzbd]
 
 ![Latest Version][sabnzbd-version-shield]
@@ -629,6 +642,7 @@ on the correct GitHub repository matching the add-on.
 - [Open an issue for the add-on: Node-RED][node-red-issue]
 - [Open an issue for the add-on: Plex Media Server][plex-issue]
 - [Open an issue for the add-on: Prowlarr][prowlarr-issue]
+- [Open an issue for the add-on: Radarr][radarr-issue]
 - [Open an issue for the add-on: SABnzbd][sabnzbd-issue]
 - [Open an issue for the add-on: SQLite Web][sqlite-web-issue]
 - [Open an issue for the add-on: Spotify Connect][spotify-issue]
@@ -892,6 +906,15 @@ SOFTWARE.
 [prowlarr-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [prowlarr-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [prowlarr-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
+[addon-radarr]: https://github.com/hassio-addons/addon-radarr/tree/v0.1.0
+[addon-doc-radarr]: https://github.com/hassio-addons/addon-radarr/blob/v0.1.0/README.md
+[radarr-issue]: https://github.com/hassio-addons/addon-radarr/issues
+[radarr-version-shield]: https://img.shields.io/badge/version-v0.1.0-blue.svg
+[radarr-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[radarr-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[radarr-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
+[radarr-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
+[radarr-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [addon-sabnzbd]: https://github.com/hassio-addons/addon-sabnzbd/tree/v0.1.0
 [addon-doc-sabnzbd]: https://github.com/hassio-addons/addon-sabnzbd/blob/v0.1.0/README.md
 [sabnzbd-issue]: https://github.com/hassio-addons/addon-sabnzbd/issues
