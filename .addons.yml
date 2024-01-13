@@ -65,6 +65,10 @@ addons:
     repository: hassio-addons/addon-jupyterlab
     target: jupyterlab
     image: ghcr.io/hassio-addons/jupyterlab/{arch}
+  lidarr:
+    repository: hassio-addons/addon-lidarr
+    target: lidarr
+    image: ghcr.io/hassio-addons/lidarr/{arch}
   log-viewer:
     repository: hassio-addons/addon-log-viewer
     target: log-viewer
