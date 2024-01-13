@@ -105,6 +105,10 @@ addons:
     repository: hassio-addons/addon-spotify-connect
     target: spotify
     image: ghcr.io/hassio-addons/spotify/{arch}
+  prowlarr:
+    repository: hassio-addons/addon-prowlarr
+    target: prowlarr
+    image: ghcr.io/hassio-addons/prowlarr/{arch}
   tailscale:
     repository: hassio-addons/addon-tailscale
     target: tailscale
