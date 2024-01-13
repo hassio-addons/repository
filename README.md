@@ -321,6 +321,19 @@ Recorded media, live TV, online news, and podcasts ready to stream.
 
 [:books: Plex Media Server add-on documentation][addon-doc-plex]
 
+### &#10003; [Prowlarr][addon-prowlarr]
+
+![Latest Version][prowlarr-version-shield]
+![Supports armhf Architecture][prowlarr-armhf-shield]
+![Supports armv7 Architecture][prowlarr-armv7-shield]
+![Supports aarch64 Architecture][prowlarr-aarch64-shield]
+![Supports amd64 Architecture][prowlarr-amd64-shield]
+![Supports i386 Architecture][prowlarr-i386-shield]
+
+Indexer manager/proxy built on the popular arr stack to integrate with your various PVR apps
+
+[:books: Prowlarr add-on documentation][addon-doc-prowlarr]
+
 ### &#10003; [SABnzbd][addon-sabnzbd]
 
 ![Latest Version][sabnzbd-version-shield]
@@ -615,6 +628,7 @@ on the correct GitHub repository matching the add-on.
 - [Open an issue for the add-on: Nginx Proxy Manager][nginxproxymanager-issue]
 - [Open an issue for the add-on: Node-RED][node-red-issue]
 - [Open an issue for the add-on: Plex Media Server][plex-issue]
+- [Open an issue for the add-on: Prowlarr][prowlarr-issue]
 - [Open an issue for the add-on: SABnzbd][sabnzbd-issue]
 - [Open an issue for the add-on: SQLite Web][sqlite-web-issue]
 - [Open an issue for the add-on: Spotify Connect][spotify-issue]
@@ -869,6 +883,15 @@ SOFTWARE.
 [plex-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [plex-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [plex-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
+[addon-prowlarr]: https://github.com/hassio-addons/addon-prowlarr/tree/v0.1.0
+[addon-doc-prowlarr]: https://github.com/hassio-addons/addon-prowlarr/blob/v0.1.0/README.md
+[prowlarr-issue]: https://github.com/hassio-addons/addon-prowlarr/issues
+[prowlarr-version-shield]: https://img.shields.io/badge/version-v0.1.0-blue.svg
+[prowlarr-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[prowlarr-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[prowlarr-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
+[prowlarr-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
+[prowlarr-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [addon-sabnzbd]: https://github.com/hassio-addons/addon-sabnzbd/tree/v0.1.0
 [addon-doc-sabnzbd]: https://github.com/hassio-addons/addon-sabnzbd/blob/v0.1.0/README.md
 [sabnzbd-issue]: https://github.com/hassio-addons/addon-sabnzbd/issues
