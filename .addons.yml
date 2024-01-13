@@ -105,6 +105,10 @@ addons:
     repository: hassio-addons/addon-radarr
     target: radarr
     image: ghcr.io/hassio-addons/radarr/{arch}
+  readarr:
+    repository: hassio-addons/addon-readarr
+    target: readarr
+    image: ghcr.io/hassio-addons/readarr/{arch}
   spotify:
     repository: hassio-addons/addon-spotify-connect
     target: spotify
