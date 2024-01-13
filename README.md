@@ -542,6 +542,19 @@ Open source password management solution
 
 [:books: Vaultwarden (Bitwarden) add-on documentation][addon-doc-bitwarden]
 
+### &#10003; [Whisparr][addon-whisparr]
+
+![Latest Version][whisparr-version-shield]
+![Supports armhf Architecture][whisparr-armhf-shield]
+![Supports armv7 Architecture][whisparr-armv7-shield]
+![Supports aarch64 Architecture][whisparr-aarch64-shield]
+![Supports amd64 Architecture][whisparr-amd64-shield]
+![Supports i386 Architecture][whisparr-i386-shield]
+
+Whisparr is an adult video collection manager for Usenet and BitTorrent users
+
+[:books: Whisparr add-on documentation][addon-doc-whisparr]
+
 ### &#10003; [WireGuard][addon-wireguard]
 
 ![Latest Version][wireguard-version-shield]
@@ -684,6 +697,7 @@ on the correct GitHub repository matching the add-on.
 - [Open an issue for the add-on: UniFi Network Application][unifi-issue]
 - [Open an issue for the add-on: Uptime Kuma][uptime-kuma-issue]
 - [Open an issue for the add-on: Vaultwarden (Bitwarden)][bitwarden-issue]
+- [Open an issue for the add-on: Whisparr][whisparr-issue]
 - [Open an issue for the add-on: WireGuard][wireguard-issue]
 - [Open an issue for the add-on: Z-Wave JS UI][zwave-js-ui-issue]
 - [Open an issue for the add-on: ZeroTier One][zerotier-issue]
@@ -1078,6 +1092,15 @@ SOFTWARE.
 [bitwarden-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [bitwarden-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [bitwarden-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
+[addon-whisparr]: https://github.com/hassio-addons/addon-whisparr/tree/v0.1.0
+[addon-doc-whisparr]: https://github.com/hassio-addons/addon-whisparr/blob/v0.1.0/README.md
+[whisparr-issue]: https://github.com/hassio-addons/addon-whisparr/issues
+[whisparr-version-shield]: https://img.shields.io/badge/version-v0.1.0-blue.svg
+[whisparr-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[whisparr-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[whisparr-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
+[whisparr-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
+[whisparr-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [addon-wireguard]: https://github.com/hassio-addons/addon-wireguard/tree/v0.10.2
 [addon-doc-wireguard]: https://github.com/hassio-addons/addon-wireguard/blob/v0.10.2/README.md
 [wireguard-issue]: https://github.com/hassio-addons/addon-wireguard/issues
