@@ -117,6 +117,10 @@ addons:
     repository: hassio-addons/addon-thelounge
     target: thelounge
     image: ghcr.io/hassio-addons/thelounge/{arch}
+  sabnzbd:
+    repository: hassio-addons/addon-sabnzbd
+    target: sabnzbd
+    image: ghcr.io/hassio-addons/sabnzbd/{arch}
   ssh:
     repository: hassio-addons/addon-ssh
     target: ssh
