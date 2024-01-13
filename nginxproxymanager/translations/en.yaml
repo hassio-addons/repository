@@ -1,13 +1,4 @@
 ---
-configuration:
-  log_level:
-    name: Log level
-    description: >-
-      Controls the level of log details the add-on provides.
-  reset_database:
-    name: Reset database
-    description: >-
-      Enabling this option to delete and recreate the database.
 network:
   80/tcp: HTTP Entrance port
   81/tcp: NGinx Proxy Manager Admin web interface
