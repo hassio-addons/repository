@@ -1,0 +1,18 @@
+name: Sonarr
+version: 0.1.0
+slug: sonarr
+description: Smart PVR for newsgroup and bittorrent users
+url: https://github.com/hassio-addons/addon-sonarr/tree/main/README.md
+codenotary: codenotary@frenck.dev
+webui: http://[HOST]:[PORT:8989]
+init: false
+arch:
+- aarch64
+- amd64
+map:
+- addon_config:rw
+- share:rw
+- media:rw
+ports:
+  8989/tcp: 8989
+image: ghcr.io/hassio-addons/sonarr/{arch}

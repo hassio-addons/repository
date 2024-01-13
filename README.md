@@ -386,6 +386,19 @@ Explore your SQLite database
 
 [:books: SQLite Web add-on documentation][addon-doc-sqlite-web]
 
+### &#10003; [Sonarr][addon-sonarr]
+
+![Latest Version][sonarr-version-shield]
+![Supports armhf Architecture][sonarr-armhf-shield]
+![Supports armv7 Architecture][sonarr-armv7-shield]
+![Supports aarch64 Architecture][sonarr-aarch64-shield]
+![Supports amd64 Architecture][sonarr-amd64-shield]
+![Supports i386 Architecture][sonarr-i386-shield]
+
+Smart PVR for newsgroup and bittorrent users
+
+[:books: Sonarr add-on documentation][addon-doc-sonarr]
+
 ### &#10003; [Spotify Connect][addon-spotify]
 
 ![Latest Version][spotify-version-shield]
@@ -659,6 +672,7 @@ on the correct GitHub repository matching the add-on.
 - [Open an issue for the add-on: Readarr][readarr-issue]
 - [Open an issue for the add-on: SABnzbd][sabnzbd-issue]
 - [Open an issue for the add-on: SQLite Web][sqlite-web-issue]
+- [Open an issue for the add-on: Sonarr][sonarr-issue]
 - [Open an issue for the add-on: Spotify Connect][spotify-issue]
 - [Open an issue for the add-on: Studio Code Server][vscode-issue]
 - [Open an issue for the add-on: Tailscale][tailscale-issue]
@@ -956,6 +970,15 @@ SOFTWARE.
 [sqlite-web-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [sqlite-web-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [sqlite-web-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
+[addon-sonarr]: https://github.com/hassio-addons/addon-sonarr/tree/v0.1.0
+[addon-doc-sonarr]: https://github.com/hassio-addons/addon-sonarr/blob/v0.1.0/README.md
+[sonarr-issue]: https://github.com/hassio-addons/addon-sonarr/issues
+[sonarr-version-shield]: https://img.shields.io/badge/version-v0.1.0-blue.svg
+[sonarr-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[sonarr-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[sonarr-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
+[sonarr-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
+[sonarr-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [addon-spotify]: https://github.com/hassio-addons/addon-spotify-connect/tree/v0.13.0
 [addon-doc-spotify]: https://github.com/hassio-addons/addon-spotify-connect/blob/v0.13.0/README.md
 [spotify-issue]: https://github.com/hassio-addons/addon-spotify-connect/issues
