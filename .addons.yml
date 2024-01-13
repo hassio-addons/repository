@@ -169,6 +169,10 @@ addons:
     repository: hassio-addons/addon-vscode
     target: vscode
     image: ghcr.io/hassio-addons/vscode/{arch}
+  whisparr:
+    repository: hassio-addons/addon-whisparr
+    target: whisparr
+    image: ghcr.io/hassio-addons/whisparr/{arch}
   wireguard:
     repository: hassio-addons/addon-wireguard
     target: wireguard
