@@ -321,6 +321,19 @@ Flow-based programming for the Internet of Things
 
 [:books: Node-RED add-on documentation][addon-doc-node-red]
 
+### &#10003; [Overseerr][addon-overseerr]
+
+![Latest Version][overseerr-version-shield]
+![Supports armhf Architecture][overseerr-armhf-shield]
+![Supports armv7 Architecture][overseerr-armv7-shield]
+![Supports aarch64 Architecture][overseerr-aarch64-shield]
+![Supports amd64 Architecture][overseerr-amd64-shield]
+![Supports i386 Architecture][overseerr-i386-shield]
+
+Request management and media discovery tool for the Plex ecosystem
+
+[:books: Overseerr add-on documentation][addon-doc-overseerr]
+
 ### &#10003; [Plex Media Server][addon-plex]
 
 ![Latest Version][plex-version-shield]
@@ -693,6 +706,7 @@ on the correct GitHub repository matching the add-on.
 - [Open an issue for the add-on: Network UPS Tools][nut-issue]
 - [Open an issue for the add-on: Nginx Proxy Manager][nginxproxymanager-issue]
 - [Open an issue for the add-on: Node-RED][node-red-issue]
+- [Open an issue for the add-on: Overseerr][overseerr-issue]
 - [Open an issue for the add-on: Plex Media Server][plex-issue]
 - [Open an issue for the add-on: Prowlarr][prowlarr-issue]
 - [Open an issue for the add-on: Radarr][radarr-issue]
@@ -953,6 +967,15 @@ SOFTWARE.
 [node-red-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [node-red-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [node-red-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
+[addon-overseerr]: https://github.com/hassio-addons/addon-overseerr/tree/v0.1.0
+[addon-doc-overseerr]: https://github.com/hassio-addons/addon-overseerr/blob/v0.1.0/README.md
+[overseerr-issue]: https://github.com/hassio-addons/addon-overseerr/issues
+[overseerr-version-shield]: https://img.shields.io/badge/version-v0.1.0-blue.svg
+[overseerr-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[overseerr-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[overseerr-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
+[overseerr-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
+[overseerr-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [addon-plex]: https://github.com/hassio-addons/addon-plex/tree/v3.4.0
 [addon-doc-plex]: https://github.com/hassio-addons/addon-plex/blob/v3.4.0/README.md
 [plex-issue]: https://github.com/hassio-addons/addon-plex/issues
