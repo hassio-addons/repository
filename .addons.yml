@@ -97,6 +97,10 @@ addons:
     repository: hassio-addons/addon-nut
     target: nut
     image: ghcr.io/hassio-addons/nut/{arch}
+  overseerr:
+    repository: hassio-addons/addon-overseerr
+    target: overseerr
+    image: ghcr.io/hassio-addons/overseerr/{arch}
   phpmyadmin:
     repository: hassio-addons/addon-phpmyadmin
     target: phpmyadmin
