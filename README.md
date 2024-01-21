@@ -100,6 +100,19 @@ Python Apps and Dashboard using AppDaemon 4.x for Home Assistant
 
 [:books: AppDaemon add-on documentation][addon-doc-appdaemon]
 
+### &#10003; [Bazarr][addon-bazarr]
+
+![Latest Version][bazarr-version-shield]
+![Supports armhf Architecture][bazarr-armhf-shield]
+![Supports armv7 Architecture][bazarr-armv7-shield]
+![Supports aarch64 Architecture][bazarr-aarch64-shield]
+![Supports amd64 Architecture][bazarr-amd64-shield]
+![Supports i386 Architecture][bazarr-i386-shield]
+
+Download and manage subtitles for Sonarr and Radarr
+
+[:books: Bazarr add-on documentation][addon-doc-bazarr]
+
 ### &#10003; [Bookstack][addon-bookstack]
 
 ![Latest Version][bookstack-version-shield]
@@ -663,6 +676,7 @@ on the correct GitHub repository matching the add-on.
 - [Open an issue for the add-on: AirCast][aircast-issue]
 - [Open an issue for the add-on: AirSonos][airsonos-issue]
 - [Open an issue for the add-on: AppDaemon][appdaemon-issue]
+- [Open an issue for the add-on: Bazarr][bazarr-issue]
 - [Open an issue for the add-on: Bookstack][bookstack-issue]
 - [Open an issue for the add-on: EMQX][emqx-issue]
 - [Open an issue for the add-on: Example][example-issue]
@@ -786,6 +800,15 @@ SOFTWARE.
 [appdaemon-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [appdaemon-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [appdaemon-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
+[addon-bazarr]: https://github.com/hassio-addons/addon-bazarr/tree/v0.1.0
+[addon-doc-bazarr]: https://github.com/hassio-addons/addon-bazarr/blob/v0.1.0/README.md
+[bazarr-issue]: https://github.com/hassio-addons/addon-bazarr/issues
+[bazarr-version-shield]: https://img.shields.io/badge/version-v0.1.0-blue.svg
+[bazarr-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[bazarr-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[bazarr-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
+[bazarr-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
+[bazarr-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [addon-bookstack]: https://github.com/hassio-addons/addon-bookstack/tree/v2.0.0
 [addon-doc-bookstack]: https://github.com/hassio-addons/addon-bookstack/blob/v2.0.0/README.md
 [bookstack-issue]: https://github.com/hassio-addons/addon-bookstack/issues
