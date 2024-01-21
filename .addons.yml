@@ -17,6 +17,10 @@ addons:
     repository: hassio-addons/addon-appdaemon
     target: appdaemon
     image: ghcr.io/hassio-addons/appdaemon/{arch}
+  bazarr:
+    repository: hassio-addons/addon-bazarr
+    target: bazarr
+    image: ghcr.io/hassio-addons/bazarr/{arch}
   bitwarden:
     repository: hassio-addons/addon-bitwarden
     target: bitwarden
