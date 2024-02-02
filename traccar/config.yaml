@@ -1,5 +1,5 @@
 name: Traccar
-version: 0.24.0
+version: 0.25.0
 slug: traccar
 description: Modern GPS Tracking Platform
 url: https://github.com/hassio-addons/addon-traccar
