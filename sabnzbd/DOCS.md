@@ -21,10 +21,6 @@ comparison to installing any other Home Assistant add-on.
 - Set the download folders to, for example,
   `/media/sabnzbd/Donwloads/complete` and
   `/media/sabnzbd/Donwloads/incomplete`
-- Once you finish the SAZnzbd wizard, you will get an 404 error.
-  This is an unfortunate side effect in the wizard, we haven't been able to
-  fix yet.Reload the page to resolve the 404 issue and everything work
-  normally from there on.
 
 ## Configuration
 
