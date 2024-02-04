@@ -1,13 +1,9 @@
 ## What’s changed
 
-## 🚀 Enhancements
+## 🐛 Bug fixes
 
-- Migrate from Ubuntu to Debian @frenck (#214)
+- Add support for more Intel based Hardware Acceleration @danielpetrovic (#215)
 
 ## 🧰 Maintenance
 
-- 🎆 Updates maintenance/license year to 2024 @frenck (#213)
-
-## ⬆️ Dependency updates
-
-- Install version 1.32.8.7639 of Plex Media Server @avlemos (#212)
+- Update logo/icon to current version. @danielpetrovic (#216)

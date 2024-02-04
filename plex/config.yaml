@@ -1,5 +1,5 @@
 name: Plex Media Server
-version: 3.4.0
+version: 3.4.1
 slug: plex
 description: Recorded media, live TV, online news, and podcasts ready to stream.
 url: https://github.com/hassio-addons/addon-plex
@@ -17,6 +17,9 @@ map:
 - ssl
 devices:
 - /dev/dri
+- /dev/dri/card0
+- /dev/dri/card1
+- /dev/dri/renderD128
 - /dev/vchiq
 ports:
   3005/tcp: 3005
