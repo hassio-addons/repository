@@ -1,13 +1,14 @@
 ## What’s changed
 
-## 🧰 Maintenance
+## 🚀 Enhancements
 
-- 🎆 Updates maintenance/license year to 2024 @frenck ([#477](https://github.com/hassio-addons/addon-unifi/pull/477))
+- Dockerfile improvements @cfergeau ([#481](https://github.com/hassio-addons/addon-unifi/pull/481))
 
-## 🌎 Translations
+## 📚 Documentation
 
-- Add pt-BR translation @rokam ([#474](https://github.com/hassio-addons/addon-unifi/pull/474))
+- Fix markdown formatting in documentation @glyph-se ([#479](https://github.com/hassio-addons/addon-unifi/pull/479))
+- Improve DOCS.md @nickdos ([#483](https://github.com/hassio-addons/addon-unifi/pull/483))
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades UniFi Network Application to v8.0.26 @frenck ([#478](https://github.com/hassio-addons/addon-unifi/pull/478))
+- Update Network controller to version 8.0.28 @renewoensdregt ([#484](https://github.com/hassio-addons/addon-unifi/pull/484))
