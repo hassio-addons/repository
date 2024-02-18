@@ -1,9 +1,6 @@
 ## What’s changed
 
-## 🐛 Bug fixes
+## ⬆️ Dependency updates
 
-- Add support for more Intel based Hardware Acceleration @danielpetrovic (#215)
-
-## 🧰 Maintenance
-
-- Update logo/icon to current version. @danielpetrovic (#216)
+- ⬆️ Upgrades base image to 7.3.3 @frenck (#219)
+- ⬆️ Upgrades Plex Media Server to 1.40.0.7998 @frenck (#220)
