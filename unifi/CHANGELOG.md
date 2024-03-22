@@ -1,14 +1,10 @@
 ## What’s changed
 
-## 🚀 Enhancements
+## 🧰 Maintenance
 
-- Dockerfile improvements @cfergeau ([#481](https://github.com/hassio-addons/addon-unifi/pull/481))
-
-## 📚 Documentation
-
-- Fix markdown formatting in documentation @glyph-se ([#479](https://github.com/hassio-addons/addon-unifi/pull/479))
-- Improve DOCS.md @nickdos ([#483](https://github.com/hassio-addons/addon-unifi/pull/483))
+- Updated logos @renewoensdregt ([#490](https://github.com/hassio-addons/addon-unifi/pull/490))
 
 ## ⬆️ Dependency updates
 
-- Update Network controller to version 8.0.28 @renewoensdregt ([#484](https://github.com/hassio-addons/addon-unifi/pull/484))
+- Update controller to 8.1.133 @cwmoriarty ([#495](https://github.com/hassio-addons/addon-unifi/pull/495))
+- Pin binutils to 2.34-6ubuntu1.9 @renewoensdregt ([#496](https://github.com/hassio-addons/addon-unifi/pull/496))
