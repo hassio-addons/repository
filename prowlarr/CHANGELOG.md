@@ -2,4 +2,4 @@
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update Prowlarr/Prowlarr to v1.14.3.4333 @renovate ([#8](https://github.com/hassio-addons/addon-prowlarr/pull/8))
+- ⬆️ Update Prowlarr/Prowlarr to v1.15.0.4361 @renovate ([#9](https://github.com/hassio-addons/addon-prowlarr/pull/9))
