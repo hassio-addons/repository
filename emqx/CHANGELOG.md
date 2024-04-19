@@ -2,4 +2,4 @@
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update emqx/emqx to v5.6.0 @renovate ([#92](https://github.com/hassio-addons/addon-emqx/pull/92))
+- ⬆️ Update emqx/emqx to v5.6.1 @renovate ([#94](https://github.com/hassio-addons/addon-emqx/pull/94))
