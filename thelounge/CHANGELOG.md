@@ -1,18 +1,14 @@
 ## What’s changed
 
-## 🚨 Breaking changes
-
-- Drop support for armhf & i386 @frenck ([#176](https://github.com/hassio-addons/addon-thelounge/pull/176))
-
-## 🧰 Maintenance
-
-- 🎆 Updates maintenance/license year to 2024 @frenck ([#183](https://github.com/hassio-addons/addon-thelounge/pull/183))
-
 ## ⬆️ Dependency updates
 
-- ⬆️ Update alpine_3_18/nginx to v1.24.0-r7 @renovate ([#175](https://github.com/hassio-addons/addon-thelounge/pull/175))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.3.0 @renovate ([#177](https://github.com/hassio-addons/addon-thelounge/pull/177))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.3.1 @renovate ([#178](https://github.com/hassio-addons/addon-thelounge/pull/178))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.3.2 @renovate ([#179](https://github.com/hassio-addons/addon-thelounge/pull/179))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.3.3 @renovate ([#180](https://github.com/hassio-addons/addon-thelounge/pull/180))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v15 @renovate ([#181](https://github.com/hassio-addons/addon-thelounge/pull/181))
+- ⬆️ Update ghcr.io/hassio-addons/base-nodejs Docker tag to v0.1.1 @renovate ([#184](https://github.com/hassio-addons/addon-thelounge/pull/184))
+- ⬆️ Update ghcr.io/hassio-addons/base-nodejs Docker tag to v0.1.2 @renovate ([#185](https://github.com/hassio-addons/addon-thelounge/pull/185))
+- ⬆️ Update alpine_3_19/nginx to v1.24.0-r15 @renovate ([#186](https://github.com/hassio-addons/addon-thelounge/pull/186))
+- ⬆️ Update ghcr.io/hassio-addons/base-nodejs Docker tag to v0.1.3 @renovate ([#187](https://github.com/hassio-addons/addon-thelounge/pull/187))
+- ⬆️ Update alpine_3_19/python3 to v3.11.8-r0 @renovate ([#188](https://github.com/hassio-addons/addon-thelounge/pull/188))
+- ⬆️ Update ghcr.io/hassio-addons/base-nodejs Docker tag to v0.1.4 @renovate ([#189](https://github.com/hassio-addons/addon-thelounge/pull/189))
+- ⬆️ Update ghcr.io/hassio-addons/base-nodejs Docker tag to v0.2.0 @renovate ([#190](https://github.com/hassio-addons/addon-thelounge/pull/190))
+- ⬆️ Update thelounge/thelounge to v4.4.3 @renovate ([#191](https://github.com/hassio-addons/addon-thelounge/pull/191))
+- ⬆️ Update ghcr.io/hassio-addons/base-nodejs Docker tag to v0.2.1 @renovate ([#192](https://github.com/hassio-addons/addon-thelounge/pull/192))
+- ⬆️ Update alpine_3_19/python3 to v3.11.9-r0 @renovate ([#193](https://github.com/hassio-addons/addon-thelounge/pull/193))
