@@ -2,4 +2,4 @@
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update grafana/grafana to v10.4.1 @renovate ([#393](https://github.com/hassio-addons/addon-grafana/pull/393))
+- ⬆️ Update grafana/grafana to v10.4.2 @renovate ([#395](https://github.com/hassio-addons/addon-grafana/pull/395))
