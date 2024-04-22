@@ -76,23 +76,6 @@ The private key file to use for SSL.
 
 **Note**: _The file MUST be stored in `/ssl/`, which is the default_
 
-## Embedding into Home Assistant
-
-It is possible to embed the TasmoAdmin interface directly into Home Assistant,
-allowing you to access it through the Home Assistant frontend.
-
-Home Assistant provides the `panel_iframe` integration, for these purposes.
-
-Example configuration:
-
-```yaml
-panel_iframe:
-  tasmoadmin:
-    title: TasmoAdmin
-    icon: mdi:lightbulb-on
-    url: http://addres.to.your.hass.io:9541
-```
-
 ## Changelog & Releases
 
 This repository keeps a change log using [GitHub's releases][releases]
