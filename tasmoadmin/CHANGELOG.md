@@ -1,11 +1,8 @@
 ## What’s changed
 
-## 📚 Documentation
-
-- 📚 Remove iframe instructions @sinclairpaul ([#394](https://github.com/hassio-addons/addon-tasmoadmin/pull/394))
-
 ## ⬆️ Dependency updates
 
-- ⬆️ Update PHP to v8.2.18-r0 @renovate ([#397](https://github.com/hassio-addons/addon-tasmoadmin/pull/397))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v15.0.8 @renovate ([#396](https://github.com/hassio-addons/addon-tasmoadmin/pull/396))
-- ⬆️ Update TasmoAdmin/TasmoAdmin to v4.0.2 @renovate ([#395](https://github.com/hassio-addons/addon-tasmoadmin/pull/395))
+- ⬆️ Update alpine_3_19/nginx to v1.24.0-r16 @renovate ([#398](https://github.com/hassio-addons/addon-tasmoadmin/pull/398))
+- ⬆️ Update alpine_3_19/composer to v2.7.4-r0 @renovate ([#399](https://github.com/hassio-addons/addon-tasmoadmin/pull/399))
+- ⬆️ Update TasmoAdmin/TasmoAdmin to v4.1.0 @renovate ([#400](https://github.com/hassio-addons/addon-tasmoadmin/pull/400))
+- ⬆️ Update alpine_3_19/composer to v2.7.6-r0 @renovate ([#401](https://github.com/hassio-addons/addon-tasmoadmin/pull/401))
