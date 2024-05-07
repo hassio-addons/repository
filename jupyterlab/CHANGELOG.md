@@ -2,6 +2,5 @@
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update jupyterlab to v4.1.7 @renovate ([#591](https://github.com/hassio-addons/addon-jupyterlab/pull/591))
-- ⬆️ Update nbconvert to v7.16.4 @renovate ([#593](https://github.com/hassio-addons/addon-jupyterlab/pull/593))
-- ⬆️ Update jupyterlab to v4.1.8 @renovate ([#592](https://github.com/hassio-addons/addon-jupyterlab/pull/592))
+- ⬆️ Update SQLAlchemy to v2.0.30 @renovate ([#594](https://github.com/hassio-addons/addon-jupyterlab/pull/594))
+- ⬆️ Update jupyterlab to v4.2.0 @renovate ([#595](https://github.com/hassio-addons/addon-jupyterlab/pull/595))
