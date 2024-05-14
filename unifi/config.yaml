@@ -1,5 +1,5 @@
 name: UniFi Network Application
-version: 3.0.4
+version: 3.0.5
 slug: unifi
 description: Manage your UniFi network using a web browser
 url: https://github.com/hassio-addons/addon-unifi
