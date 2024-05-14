@@ -2,4 +2,4 @@
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update Radarr/Radarr to v5.5.3.8819 @renovate ([#10](https://github.com/hassio-addons/addon-radarr/pull/10))
+- ⬆️ Update Radarr/Radarr to v5.6.0.8846 @renovate ([#11](https://github.com/hassio-addons/addon-radarr/pull/11))
