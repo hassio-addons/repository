@@ -255,8 +255,9 @@ Setting the following parameters as is shown will allow you to connect to
 your Home Assistant instance using VSCode Remote - SSH:
 
 ```yaml
-allow_remote_port_forwarding: true
-allow_tcp_forwarding: true
+ssh:
+  allow_remote_port_forwarding: true
+  allow_tcp_forwarding: true
 ```
 
 ## Support
