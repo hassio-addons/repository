@@ -19,6 +19,14 @@ configuration:
       By setting a device on your network as an exit node, you can use it to
       route all your public internet traffic as needed, like a consumer VPN.
       When not set, this option is enabled by default.
+  advertise_connector:
+    name: Advertise as an app connector
+    description: >-
+      When you use an app connector, you specify which applications you wish to make
+      accessible over your tailnet, and the domains for those applications. Any traffic
+      for that application is then forced over the tailnet to a node running an app
+      connector before egressing to the target domains.
+      When not set, this option is enabled by default.
   advertise_routes:
     name: Advertise subnet routes
     description: >-
@@ -63,6 +71,14 @@ configuration:
       subnet router, and this simplifies routing configuration.
       To support advanced Site-to-site networking (eg. to traverse multiple
       networks), you can disable this functionality.
+      When not set, this option is enabled by default.
+  stateful_filtering:
+    name: Stateful packet filtering
+    description: >-
+      This option enables stateful packet filtering on packet-forwarding nodes (exit
+      nodes, subnet routers, and app connectors), to only allow return packets for
+      existing outbound connections.
+      To support basic Site-to-site networking, you can disable this functionality.
       When not set, this option is enabled by default.
   tags:
     name: Tags
