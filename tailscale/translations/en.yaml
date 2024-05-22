@@ -78,8 +78,7 @@ configuration:
       This option enables stateful packet filtering on packet-forwarding nodes (exit
       nodes, subnet routers, and app connectors), to only allow return packets for
       existing outbound connections.
-      To support basic Site-to-site networking, you can disable this functionality.
-      When not set, this option is enabled by default.
+      When not set, this option is disabled by default.
   tags:
     name: Tags
     description: >-
