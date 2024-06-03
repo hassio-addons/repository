@@ -1,5 +1,5 @@
 name: Node-RED
-version: 17.0.12
+version: 17.0.13
 slug: nodered
 description: Flow-based programming for the Internet of Things
 url: https://github.com/hassio-addons/addon-node-red
