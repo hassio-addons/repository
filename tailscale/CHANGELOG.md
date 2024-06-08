@@ -2,13 +2,15 @@
 
 ## 🐛 Bug fixes
 
-- Skip default networks without a gateway to enable UDP GRO for forwarding @lmagyar ([#366](https://github.com/hassio-addons/addon-tailscale/pull/366))
+- Failsafe enabling of UDP GRO for forwarding @lmagyar ([#370](https://github.com/hassio-addons/addon-tailscale/pull/370))
 
-## 🚀 Enhancements
+## 📚 Documentation
 
-- Stateful filtering is now off by default @lmagyar ([#368](https://github.com/hassio-addons/addon-tailscale/pull/368))
+- Fix new default value for stateful_filtering in documentation @lmagyar ([#369](https://github.com/hassio-addons/addon-tailscale/pull/369))
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update tailscale/tailscale to v1.66.4 @renovate ([#363](https://github.com/hassio-addons/addon-tailscale/pull/363))
-- ⬆️ Update Add-on base image to v15.0.9 @renovate ([#367](https://github.com/hassio-addons/addon-tailscale/pull/367))
+- ⬆️ Update Add-on base image to v16 (major) @renovate ([#371](https://github.com/hassio-addons/addon-tailscale/pull/371))
+- ⬆️ Update alpine_3_20/nginx to v1.26.0-r2 @renovate ([#373](https://github.com/hassio-addons/addon-tailscale/pull/373))
+- ⬆️ Update alpine_3_20/nginx to v1.26.1-r0 @renovate ([#375](https://github.com/hassio-addons/addon-tailscale/pull/375))
+- ⬆️ Update Add-on base image to v16.0.1 @renovate ([#378](https://github.com/hassio-addons/addon-tailscale/pull/378))

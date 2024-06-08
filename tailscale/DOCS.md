@@ -75,7 +75,7 @@ login_server: "https://controlplane.tailscale.com"
 proxy: false
 proxy_and_funnel_port: 443
 snat_subnet_routes: true
-stateful_filtering: true
+stateful_filtering: false
 tags:
   - tag:example
   - tag:homeassistant
