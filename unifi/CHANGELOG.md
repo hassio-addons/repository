@@ -2,4 +2,4 @@
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades UniFi Network Application to 8.2.93 @cwmoriarty ([#509](https://github.com/hassio-addons/addon-unifi/pull/509))
+- ⬆️ Upgrades UniFi Network Application to 8.3.32 @cwmoriarty ([#513](https://github.com/hassio-addons/addon-unifi/pull/513))
