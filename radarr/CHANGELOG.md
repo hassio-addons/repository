@@ -2,7 +2,8 @@
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v15.0.9 @renovate ([#12](https://github.com/hassio-addons/addon-radarr/pull/12))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v16 @renovate ([#13](https://github.com/hassio-addons/addon-radarr/pull/13))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v16.0.1 @renovate ([#14](https://github.com/hassio-addons/addon-radarr/pull/14))
-- ⬆️ Update Radarr/Radarr to v5.7.0.8882 @renovate ([#15](https://github.com/hassio-addons/addon-radarr/pull/15))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v16.1.0 @renovate ([#16](https://github.com/hassio-addons/addon-radarr/pull/16))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v16.1.1 @renovate ([#17](https://github.com/hassio-addons/addon-radarr/pull/17))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v16.1.2 @renovate ([#18](https://github.com/hassio-addons/addon-radarr/pull/18))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v16.1.3 @renovate ([#19](https://github.com/hassio-addons/addon-radarr/pull/19))
+- ⬆️ Update Radarr/Radarr to v5.8.3.8933 @renovate ([#20](https://github.com/hassio-addons/addon-radarr/pull/20))
