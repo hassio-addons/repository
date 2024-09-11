@@ -2,10 +2,10 @@
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update alpine_3_20/composer to v2.7.7-r0 @renovate ([#411](https://github.com/hassio-addons/addon-tasmoadmin/pull/411))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v16.1.0 @renovate ([#412](https://github.com/hassio-addons/addon-tasmoadmin/pull/412))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v16.1.1 @renovate ([#413](https://github.com/hassio-addons/addon-tasmoadmin/pull/413))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v16.1.2 @renovate ([#415](https://github.com/hassio-addons/addon-tasmoadmin/pull/415))
-- ⬆️ Update PHP to v8.3.9-r0 @renovate ([#416](https://github.com/hassio-addons/addon-tasmoadmin/pull/416))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v16.1.3 @renovate ([#417](https://github.com/hassio-addons/addon-tasmoadmin/pull/417))
-- ⬆️ Update TasmoAdmin/TasmoAdmin to v4.1.2 @renovate ([#418](https://github.com/hassio-addons/addon-tasmoadmin/pull/418))
+- ⬆️ Update PHP to v8.3.10-r0 @renovate ([#420](https://github.com/hassio-addons/addon-tasmoadmin/pull/420))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v16.2.0 @renovate ([#421](https://github.com/hassio-addons/addon-tasmoadmin/pull/421))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v16.2.1 @renovate ([#422](https://github.com/hassio-addons/addon-tasmoadmin/pull/422))
+- ⬆️ Update alpine_3_20/nginx to v1.26.2-r0 @renovate ([#423](https://github.com/hassio-addons/addon-tasmoadmin/pull/423))
+- ⬆️ Update alpine_3_20/composer to v2.7.9-r0 @renovate ([#424](https://github.com/hassio-addons/addon-tasmoadmin/pull/424))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v16.3.0 @renovate ([#428](https://github.com/hassio-addons/addon-tasmoadmin/pull/428))
+- ⬆️ Update TasmoAdmin/TasmoAdmin to v4.1.3 @renovate ([#427](https://github.com/hassio-addons/addon-tasmoadmin/pull/427))
