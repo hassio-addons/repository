@@ -2,11 +2,7 @@
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v15.0.9 @renovate ([#10](https://github.com/hassio-addons/addon-lidarr/pull/10))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v16 @renovate ([#11](https://github.com/hassio-addons/addon-lidarr/pull/11))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v16.0.1 @renovate ([#12](https://github.com/hassio-addons/addon-lidarr/pull/12))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v16.1.0 @renovate ([#13](https://github.com/hassio-addons/addon-lidarr/pull/13))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v16.1.1 @renovate ([#14](https://github.com/hassio-addons/addon-lidarr/pull/14))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v16.1.2 @renovate ([#15](https://github.com/hassio-addons/addon-lidarr/pull/15))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v16.1.3 @renovate ([#16](https://github.com/hassio-addons/addon-lidarr/pull/16))
-- ⬆️ Update Lidarr/Lidarr to v2.4.3.4248 @renovate ([#17](https://github.com/hassio-addons/addon-lidarr/pull/17))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v16.2.0 @renovate ([#18](https://github.com/hassio-addons/addon-lidarr/pull/18))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v16.2.1 @renovate ([#19](https://github.com/hassio-addons/addon-lidarr/pull/19))
+- ⬆️ Update Lidarr/Lidarr to v2.5.3.4341 @renovate ([#20](https://github.com/hassio-addons/addon-lidarr/pull/20))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v16.3.0 @renovate ([#21](https://github.com/hassio-addons/addon-lidarr/pull/21))
