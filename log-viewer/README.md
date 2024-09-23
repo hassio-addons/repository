@@ -21,5 +21,5 @@ is available to make it simple to differentiate different types of logs.
 [forum]: https://community.home-assistant.io/t/home-assistant-community-add-on-log-viewer/64377?u=dale3h
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2024.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
-[release-shield]: https://img.shields.io/badge/version-v0.17.0-blue.svg
-[release]: https://github.com/hassio-addons/addon-log-viewer/tree/v0.17.0
+[release-shield]: https://img.shields.io/badge/version-v0.17.1-blue.svg
+[release]: https://github.com/hassio-addons/addon-log-viewer/tree/v0.17.1
