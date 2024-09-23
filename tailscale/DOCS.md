@@ -333,6 +333,19 @@ your tailnet. This will prevent your Home Assistant instance from losing network
 connection. This also means that using the same subnet on multiple nodes for load
 balancing and failover is impossible with the current add-on behavior.
 
+## Network
+
+### Port: `41641/udp`
+
+UDP port to listen on for WireGuard and peer-to-peer traffic.
+
+Use this option (and router port forwarding) if you experience that Tailscale
+can't establish peer-to-peer connections to some of your devices (usually behind
+CGNAT networks). You can test connections with `tailscale ping
+<hostname-or-ip>`.
+
+When not set, an automatically selected port is used by default.
+
 ## Changelog & Releases
 
 This repository keeps a change log using [GitHub's releases][releases]
