@@ -1,5 +1,5 @@
 name: Studio Code Server
-version: 5.15.0
+version: 5.16.0
 slug: vscode
 description: Fully featured Visual Studio Code (VSCode) experience integrated in the
   Home Assistant frontend.
@@ -19,13 +19,21 @@ hassio_api: true
 hassio_role: manager
 homeassistant_api: true
 map:
-- addons:rw
-- all_addon_configs:rw
-- backup:rw
-- homeassistant_config:rw
-- media:rw
-- share:rw
-- ssl:rw
+- type: addons
+  read_only: false
+- type: all_addon_configs
+  read_only: false
+- type: backup
+  read_only: false
+- type: homeassistant_config
+  read_only: false
+  path: /config
+- type: media
+  read_only: false
+- type: share
+  read_only: false
+- type: ssl
+  read_only: false
 services:
 - mysql:want
 - mqtt:want
