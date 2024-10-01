@@ -1,6 +1,5 @@
 ## What’s changed
 
-## ⬆️ Dependency updates
+## 🐛 Bug fixes
 
-- ⬆️ Update esphome to v2024.9.2 @renovate ([#871](https://github.com/hassio-addons/addon-vscode/pull/871))
-- ⬆️ Update keesschollaart81/vscode-home-assistant to v1.41.3 @renovate ([#872](https://github.com/hassio-addons/addon-vscode/pull/872))
+- Add back symbolic link to /homeassistant for customized workspaces @frenck ([#874](https://github.com/hassio-addons/addon-vscode/pull/874))
