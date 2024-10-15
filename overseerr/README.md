@@ -12,7 +12,7 @@ Request management and media discovery tool for the Plex ecosystem.
 the background and simplifies the downloading verifying and extracting of files
 from [Usenet].
 
-[Overseerr]: https://overseerr.org/
+[Overseerr]: https://overseerr.dev/
 [Usenet]: http://en.wikipedia.org/wiki/Usenet
 
 [discord-shield]: https://img.shields.io/discord/330944238910963714.svg
