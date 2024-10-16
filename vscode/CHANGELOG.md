@@ -2,5 +2,5 @@
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update keesschollaart81/vscode-home-assistant to v1.43.0 @frenck ([#881](https://github.com/hassio-addons/addon-vscode/pull/881))
-- ⬆️ Update emilast/vscode-logfile-highlighter to v3.3.4 @renovate ([#878](https://github.com/hassio-addons/addon-vscode/pull/878))
+- ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v7.5.1 @renovate ([#885](https://github.com/hassio-addons/addon-vscode/pull/885))
+- ⬆️ Update esphome to v2024.10.0 @renovate ([#887](https://github.com/hassio-addons/addon-vscode/pull/887))
