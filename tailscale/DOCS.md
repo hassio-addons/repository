@@ -281,9 +281,8 @@ When not set, this option is enabled by default.
 
 To support advanced [Site-to-site networking][tailscale_info_site_to_site] (eg.
 to traverse multiple networks), you can disable this functionality, and follow
-steps 2 and 3 as described on [Site-to-site
-networking][tailscale_info_site_to_site]. But do it only when you really
-understand why you need this.
+steps from step 3 on [Site-to-site networking][tailscale_info_site_to_site]. But
+do it only when you really understand why you need this.
 
 ### Option: `stateful_filtering`
 
@@ -324,7 +323,7 @@ instance, disable userspace networking mode, which will create a `tailscale0`
 network interface on your host.
 
 If you want to access other clients on your tailnet even from your local subnet,
-follow steps 2 and 3 as described on [Site-to-site
+follow steps from step 3 on [Site-to-site
 networking][tailscale_info_site_to_site].
 
 In case your local subnets collide with subnet routes within your tailnet, your
