@@ -22,5 +22,5 @@ your indexers with no per app Indexer setup required (it does it all).
 [forum]: https://community.home-assistant.io/t/?u=frenck
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2024.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
-[release-shield]: https://img.shields.io/badge/version-v0.12.1-blue.svg
-[release]: https://github.com/hassio-addons/addon-prowlarr/tree/v0.12.1
+[release-shield]: https://img.shields.io/badge/version-v0.13.0-blue.svg
+[release]: https://github.com/hassio-addons/addon-prowlarr/tree/v0.13.0
