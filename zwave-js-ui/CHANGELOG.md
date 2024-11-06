@@ -2,4 +2,4 @@
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update zwave-js/zwave-js-ui to v9.25.0 @renovate ([#720](https://github.com/hassio-addons/addon-zwave-js-ui/pull/720))
+- ⬆️ Update zwave-js/zwave-js-ui to v9.26.0 @renovate ([#721](https://github.com/hassio-addons/addon-zwave-js-ui/pull/721))
