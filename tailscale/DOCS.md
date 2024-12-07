@@ -320,7 +320,9 @@ When not set, this option is enabled by default.
 
 If you need to access other clients on your tailnet from your Home Assistant
 instance, disable userspace networking mode, which will create a `tailscale0`
-network interface on your host.
+network interface on your host. To be able to address those clients not only
+with their tailnet IP, but with their tailnet name, you have to configure Home
+Assistant's DNS options also.
 
 If you want to access other clients on your tailnet even from your local subnet,
 follow steps from step 3 on [Site-to-site
