@@ -151,6 +151,8 @@ wish to monitor, but you don't want low battery on some of them to shut down
 this host. Acceptable values are `1` for "providing power to this host" or `0`
 for "monitor only". Defaults to `1`
 
+**Note**: _There must be a minimum of one attached device with powervalue `1`_
+
 #### Sub-option: `config`
 
 A list of additional [options][ups-fields] to configure for this UPS. The common
