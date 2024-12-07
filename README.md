@@ -787,10 +787,10 @@ SOFTWARE.
 [ssh-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [ssh-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [ssh-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
-[addon-aircast]: https://github.com/hassio-addons/addon-aircast/tree/v4.2.2
-[addon-doc-aircast]: https://github.com/hassio-addons/addon-aircast/blob/v4.2.2/README.md
+[addon-aircast]: https://github.com/hassio-addons/addon-aircast/tree/v4.2.3
+[addon-doc-aircast]: https://github.com/hassio-addons/addon-aircast/blob/v4.2.3/README.md
 [aircast-issue]: https://github.com/hassio-addons/addon-aircast/issues
-[aircast-version-shield]: https://img.shields.io/badge/version-v4.2.2-blue.svg
+[aircast-version-shield]: https://img.shields.io/badge/version-v4.2.3-blue.svg
 [aircast-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [aircast-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [aircast-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
