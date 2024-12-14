@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mushi's Henna</title>
+    <style>
+        body {
+            font-family: 'Verdana', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #FFF8F0;
+        }
+
+        header {
+            background-color: #944D60;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            background-color: #E39A9A;
+            padding: 15px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+            background-image: url('your-hero-image.jpg');
+            background-size: cover;
+            background-position: center;
+            color: black;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 10px;
+            color: black;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            color: black;
+        }
+
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            background-color: #FFEFE8;
+        }
+
+        .product {
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .product img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+
+        .product h3 {
+            margin: 15px 0 10px;
+            color: #944D60;
+        }
+
+        .product p {
+            color: #555;
+            font-size: 1rem;
+        }
+
+        .about, .contact {
+            padding: 40px 20px;
+            background-color: #FFF8F0;
+            text-align: center;
+        }
+
+        .about h2, .contact h2 {
+            color: #944D60;
+        }
+
+        .contact-icons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin: 20px 0;
+        }
+
+        .contact-icons a {
+            color: #944D60;
+            font-size: 1.5rem;
+            text-decoration: none;
+        }
+
+        .contact-icons a:hover {
+            color: #E39A9A;
+        }
+
+        footer {
+            background-color: #944D60;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer a {
+            color: #FFD700;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        i {
+            font-family: "FontAwesome", sans-serif;
+        }
+    </style>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <h1>Mushi's Henna</h1>
+        <p>Creating Beautiful Moments with Henna</p>
+    </header>
+
+    <nav>
+        <a href="#products">Products</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section class="hero">
+        <h1>Welcome to Mushi's Henna</h1>
+        <p>Explore our premium range of henna products and designs crafted with love</p>
+    </section>
+
+    <section id="products" class="products">
+        <div class="product">
+            <img src="C:\Users\AZAR\Desktop\henna-website\images\Natural Henna Cones - 1.jpg" alt="Natural Henna Cone"width="500" height="300">
+            <h3>Natural Henna Cone</h3>
+            <p>Rs.300</p>
+        </div>
+        <div class="product">
+            <img src="C:\Users\AZAR\Desktop\henna-website\images\Aftercare Balm - 2.jpg" alt="Aftercare Balm"width="500" height="300">
+            <h3>Aftercare Balm</h3>
+            <p>Rs.170</p>
+        </div>
+        <div class="product">
+            <img src="C:\Users\AZAR\Desktop\henna-website\images\Aftercare Sealant Spray.jpg" alt="Aftercare Sealant Spray"width="500" height="300">
+            <h3>Aftercare Sealant Spray</h3>
+            <p>Rs.250</p>
+        </div>
+        <div class="product">
+            <img src="C:\Users\AZAR\Desktop\henna-website\images\Henna Powder - 1.jpg" alt="Henna Powder"width="500" height="300">
+            <h3>Henna Powder</h3>
+            <p>100g - Rs.600<br>1Kg - Rs.4,900</p>
+        </div>
+        <div class="product">
+            <img src="C:\Users\AZAR\Desktop\henna-website\images\Eucalyptus Oil.jpg" alt="Eucalyptus Oil"width="500" height="270">
+            <h3>Essential Oils: Eucalyptus Oil</h3>
+            <p>100ml - Rs.1,650</p>
+        </div>
+        <div class="product">
+            <img src="C:\Users\AZAR\Desktop\henna-website\images\Tea Tree Oil.jpg" alt="Tea Tree Oil"width="500" height="270">
+            <h3>Essential Oils: Tea Tree Oil</h3>
+            <p>100ml - Rs.1,850</p>
+        </div>
+        <div class="product">
+            <img src="C:\Users\AZAR\Desktop\henna-website\images\Blend Oil.jpg"alt="Signature Blend Oil"width="500" height="300">
+            <h3>Essential Oils: Signature Blend Oil</h3>
+            <p>100ml - Rs.1,700</p>
+        </div>
+        <div class="product">
+            <img src="C:\Users\AZAR\Desktop\henna-website\images\Practice Henna Cones - 1.jpg" alt="Practice Henna Cones"width="500" height="300">
+            <h3>Practice Henna Cones</h3>
+            <p>Each - Rs.180<br>Buy 6 for Rs.980</p>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>Welcome to Mushi's Henna, where passion meets artistry. My name is Mushrifa Moulana, and I have been a dedicated henna artist since the age of 16. What began as a simple hobby quickly blossomed into a lifelong passion for creating intricate designs and crafting premium henna products.
+        </p>
+        <p>
+        At Mushi's Henna, we believe that henna is more than just a temporary adornment—it is a celebration of culture, beauty, and individuality. Each product we offer is meticulously formulated using natural ingredients to ensure safety, quality, and vibrant results. Whether you are preparing for a special occasion or simply indulging in self-expression, our range of henna cones, powders, and aftercare products are designed to make your experience truly special.
+        </p>
+        <p>
+        What sets us apart is not just our commitment to quality but also the love and care that goes into every design and product. My journey as a henna artist has been deeply fulfilling, and I am thrilled to share this passion with all of you. Thank you for choosing Mushi's Henna as your trusted partner in celebrating the art of henna.
+        </p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Mushrifa Moulana</p>
+        <p>Call or Whatsapp - <a href="tel:+94783921216">+94 78 39 21216</a></p>
+        <p>Instagram - <a href="https://www.instagram.com/mushi.s_henna" target="_blank">mushi.s_henna</a></p>
+        <div class="contact-icons">
+            <a href="https://wa.me/94783921216" target="_blank"><i class="fab fa-WhatsApp"></i></a>
+            <a href="https://www.instagram.com/mushi.s_henna" target="_blank"><i class="fab fa-Instagram"></i></a>
+            <a href="mailto:mushrifamoulana@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+        </div>
+        <p>Have questions? Reach out to us at <strong>mushrifamoulana@gmail.com</strong> or follow us on social media!</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Mushi's Henna. All rights reserved.</p>
+        <p><a href="#">Terms of Service</a> | <a href="#">Privacy Policy</a></p>
+    </footer>
+</body>
+</html>
