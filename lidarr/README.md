@@ -22,5 +22,5 @@ available.
 [forum]: https://community.home-assistant.io/t/?u=frenck
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2024.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
-[release-shield]: https://img.shields.io/badge/version-v0.6.1-blue.svg
-[release]: https://github.com/hassio-addons/addon-lidarr/tree/v0.6.1
+[release-shield]: https://img.shields.io/badge/version-v0.7.0-blue.svg
+[release]: https://github.com/hassio-addons/addon-lidarr/tree/v0.7.0
