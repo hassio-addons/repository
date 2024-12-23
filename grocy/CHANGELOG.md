@@ -2,4 +2,5 @@
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update ghcr.io/hassio-addons/base-nodejs Docker tag to v0.2.5 @renovate ([#462](https://github.com/hassio-addons/addon-grocy/pull/462))
+- ⬆️ Update PHP to v8.2.26-r0 @renovate ([#463](https://github.com/hassio-addons/addon-grocy/pull/463))
+- ⬆️ Update grocy/grocy to v4.3.0 @renovate ([#465](https://github.com/hassio-addons/addon-grocy/pull/465))
