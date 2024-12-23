@@ -1,11 +1,9 @@
 ## What’s changed
 
-## 🐛 Bug fixes
-
-- Fix MySQL commands @frenck ([#354](https://github.com/hassio-addons/addon-bookstack/pull/354))
-
 ## ⬆️ Dependency updates
 
-- ⬆️ Update PHP to v8.3.14-r0 @renovate ([#351](https://github.com/hassio-addons/addon-bookstack/pull/351))
-- ⬆️ Update BookStackApp/BookStack to v24.10.3 @renovate ([#352](https://github.com/hassio-addons/addon-bookstack/pull/352))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v17 @renovate ([#353](https://github.com/hassio-addons/addon-bookstack/pull/353))
+- ⬆️ Update alpine_3_21/composer to v2.8.4-r0 @renovate ([#355](https://github.com/hassio-addons/addon-bookstack/pull/355))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v17.0.1 @renovate ([#356](https://github.com/hassio-addons/addon-bookstack/pull/356))
+- ⬆️ Update PHP to v8.3.15-r0 @renovate ([#358](https://github.com/hassio-addons/addon-bookstack/pull/358))
+- 🔨 Add php-zip @sinclairpaul ([#360](https://github.com/hassio-addons/addon-bookstack/pull/360))
+- ⬆️ Update BookStackApp/BookStack to v24.12 @renovate ([#359](https://github.com/hassio-addons/addon-bookstack/pull/359))
