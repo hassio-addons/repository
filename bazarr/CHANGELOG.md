@@ -1,13 +1,14 @@
 ## What’s changed
 
+## 🧰 Maintenance
+
+- 🎆 Updates maintenance/license year to 2025 @frenck ([#48](https://github.com/hassio-addons/addon-bazarr/pull/48))
+
 ## ⬆️ Dependency updates
 
-- ⬆️ Update alpine_3_20/python3-dev to v3.12.7-r0 @renovate ([#34](https://github.com/hassio-addons/addon-bazarr/pull/34))
-- ⬆️ Update alpine_3_20/python3 to v3.12.7-r0 @renovate ([#33](https://github.com/hassio-addons/addon-bazarr/pull/33))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v16.3.3 @renovate ([#35](https://github.com/hassio-addons/addon-bazarr/pull/35))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v16.3.4 @renovate ([#36](https://github.com/hassio-addons/addon-bazarr/pull/36))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v16.3.5 @renovate ([#37](https://github.com/hassio-addons/addon-bazarr/pull/37))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v16.3.6 @renovate ([#38](https://github.com/hassio-addons/addon-bazarr/pull/38))
-- ⬆️ Update alpine_3_20/python3-dev to v3.12.8-r0 @renovate ([#40](https://github.com/hassio-addons/addon-bazarr/pull/40))
-- ⬆️ Update alpine_3_20/python3 to v3.12.8-r0 @renovate ([#39](https://github.com/hassio-addons/addon-bazarr/pull/39))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v17 @renovate ([#41](https://github.com/hassio-addons/addon-bazarr/pull/41))
+- ⬆️ Update alpine_3_21/python3-dev to v3.12.8-r1 @renovate ([#43](https://github.com/hassio-addons/addon-bazarr/pull/43))
+- ⬆️ Update alpine_3_21/python3 to v3.12.8-r1 @renovate ([#42](https://github.com/hassio-addons/addon-bazarr/pull/42))
+- ⬆️ Update alpine_3_21/ffmpeg to v6.1.2-r1 @renovate ([#44](https://github.com/hassio-addons/addon-bazarr/pull/44))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v17.0.1 @renovate ([#45](https://github.com/hassio-addons/addon-bazarr/pull/45))
+- ⬆️ Update morpheus65535/bazarr to v1.5.0 @renovate ([#46](https://github.com/hassio-addons/addon-bazarr/pull/46))
+- ⬆️ Update morpheus65535/bazarr to v1.5.1 @renovate ([#47](https://github.com/hassio-addons/addon-bazarr/pull/47))
