@@ -2,28 +2,35 @@
 
 ## 🐛 Bug fixes
 
-- Change default shell from /bin/ash to /bin/sh @rskallies ([#747](https://github.com/hassio-addons/addon-ssh/pull/747))
-- ⬆️ Update home-assistant/cli to v4.35.0 @sairon ([#762](https://github.com/hassio-addons/addon-ssh/pull/762))
+- Update profile filename for zsh @jon-hedgerows ([#821](https://github.com/hassio-addons/addon-ssh/pull/821))
 
-## 🚀 Enhancements
+## 🧰 Maintenance
 
-- Remove networkmanager-cli from installed packages @sairon ([#761](https://github.com/hassio-addons/addon-ssh/pull/761))
-- Specify /bin/zsh when creating a new user @dfries ([#755](https://github.com/hassio-addons/addon-ssh/pull/755))
+- 🎆 Updates maintenance/license year to 2025 @frenck ([#822](https://github.com/hassio-addons/addon-ssh/pull/822))
+
+## 📚 Documentation
+
+- Synchronize the Features list across all documentation @Ionshard ([#782](https://github.com/hassio-addons/addon-ssh/pull/782))
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update OpenSSL to v3.3.1-r0 @renovate ([#751](https://github.com/hassio-addons/addon-ssh/pull/751))
-- ⬆️ Update alpine_3_20/git to v2.45.2-r0 @renovate ([#752](https://github.com/hassio-addons/addon-ssh/pull/752))
-- ⬆️ Update Docker to v26.1.3-r1 @renovate ([#750](https://github.com/hassio-addons/addon-ssh/pull/750))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v16.0.1 @renovate ([#753](https://github.com/hassio-addons/addon-ssh/pull/753))
-- ⬆️ Update OpenSSL to v3.3.1-r1 @renovate ([#764](https://github.com/hassio-addons/addon-ssh/pull/764))
-- ⬆️ Update Docker to v26.1.3-r2 @renovate ([#763](https://github.com/hassio-addons/addon-ssh/pull/763))
-- ⬆️ Update alpine_3_20/openssh to v9.7_p1-r4 @renovate ([#767](https://github.com/hassio-addons/addon-ssh/pull/767))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v16.1.2 @renovate ([#765](https://github.com/hassio-addons/addon-ssh/pull/765))
-- ⬆️ Update home-assistant/cli to v4.35.0 @sairon ([#762](https://github.com/hassio-addons/addon-ssh/pull/762))
-- ⬆️ Update OpenSSL to v3.3.1-r3 @renovate ([#772](https://github.com/hassio-addons/addon-ssh/pull/772))
-- ⬆️ Update Docker to v26.1.5-r0 @renovate ([#771](https://github.com/hassio-addons/addon-ssh/pull/771))
-- ⬆️ Update alpine_3_20/vim to v9.1.0707-r0 @renovate ([#780](https://github.com/hassio-addons/addon-ssh/pull/780))
-- ⬆️ Update Python to v3.12.3-r2 @renovate ([#777](https://github.com/hassio-addons/addon-ssh/pull/777))
-- ⬆️ Update OpenSSL to v3.3.2-r0 @renovate ([#781](https://github.com/hassio-addons/addon-ssh/pull/781))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v16.3.0 @renovate ([#773](https://github.com/hassio-addons/addon-ssh/pull/773))
+- ⬆️ Update Python to v3.12.6-r0 @renovate ([#786](https://github.com/hassio-addons/addon-ssh/pull/786))
+- ⬆️ Update alpine_3_20/ncurses to v6.4_p20240420-r1 @renovate ([#789](https://github.com/hassio-addons/addon-ssh/pull/789))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v16.3.1 @renovate ([#790](https://github.com/hassio-addons/addon-ssh/pull/790))
+- ⬆️ Update home-assistant/cli to v4.36.0 @renovate ([#796](https://github.com/hassio-addons/addon-ssh/pull/796))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v16.3.2 @renovate ([#797](https://github.com/hassio-addons/addon-ssh/pull/797))
+- ⬆️ Update Python to v3.12.7-r0 @renovate ([#800](https://github.com/hassio-addons/addon-ssh/pull/800))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v16.3.3 @renovate ([#801](https://github.com/hassio-addons/addon-ssh/pull/801))
+- ⬆️ Update OpenSSL to v3.3.2-r1 @renovate ([#802](https://github.com/hassio-addons/addon-ssh/pull/802))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v16.3.4 @renovate ([#804](https://github.com/hassio-addons/addon-ssh/pull/804))
+- ⬆️ Update alpine_3_20/mariadb-client to v10.11.10-r0 @renovate ([#806](https://github.com/hassio-addons/addon-ssh/pull/806))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v16.3.5 @renovate ([#808](https://github.com/hassio-addons/addon-ssh/pull/808))
+- ⬆️ Update alpine_3_20/ncurses to v6.4_p20240420-r2 @renovate ([#810](https://github.com/hassio-addons/addon-ssh/pull/810))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v16.3.6 @renovate ([#809](https://github.com/hassio-addons/addon-ssh/pull/809))
+- ⬆️ Update alpine_3_20/bind-tools to v9.18.31-r0 @renovate ([#813](https://github.com/hassio-addons/addon-ssh/pull/813))
+- ⬆️ Update Python to v3.12.8-r0 @renovate ([#814](https://github.com/hassio-addons/addon-ssh/pull/814))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v17 @renovate ([#815](https://github.com/hassio-addons/addon-ssh/pull/815))
+- ⬆️ Update Python to v3.12.8-r1 @renovate ([#816](https://github.com/hassio-addons/addon-ssh/pull/816))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v17.0.1 @renovate ([#817](https://github.com/hassio-addons/addon-ssh/pull/817))
+- ⬆️ Update alpine_3_21/rsync to v3.3.0-r1 @renovate ([#819](https://github.com/hassio-addons/addon-ssh/pull/819))
+- ⬆️ Update alpine_3_21/bind-tools to v9.18.32-r0 @renovate ([#820](https://github.com/hassio-addons/addon-ssh/pull/820))
