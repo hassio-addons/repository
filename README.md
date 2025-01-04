@@ -965,7 +965,7 @@ SOFTWARE.
 [node-red-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [node-red-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [node-red-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
-[node-red-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
+[node-red-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [node-red-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [addon-overseerr]: https://github.com/hassio-addons/addon-overseerr/tree/v0.1.0
 [addon-doc-overseerr]: https://github.com/hassio-addons/addon-overseerr/blob/v0.1.0/README.md
