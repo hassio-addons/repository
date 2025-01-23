@@ -34,6 +34,6 @@ Some of its features:
 [patreon-shield]: https://frenck.dev/wp-content/uploads/2019/12/patreon.png
 [patreon]: https://www.patreon.com/frenck
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
-[release-shield]: https://img.shields.io/badge/version-v0.31.2-blue.svg
-[release]: https://github.com/hassio-addons/addon-tasmoadmin/tree/v0.31.2
+[release-shield]: https://img.shields.io/badge/version-v0.31.3-blue.svg
+[release]: https://github.com/hassio-addons/addon-tasmoadmin/tree/v0.31.3
 [screenshot]: https://github.com/hassio-addons/addon-tasmoadmin/raw/main/images/screenshot.png
