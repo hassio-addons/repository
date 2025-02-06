@@ -2,6 +2,5 @@
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update zwave-js/zwave-js-ui to v9.28.0 @renovate ([#738](https://github.com/hassio-addons/addon-zwave-js-ui/pull/738))
-- ⬆️ Update zwave-js/zwave-js-ui to v9.29.0 @renovate ([#739](https://github.com/hassio-addons/addon-zwave-js-ui/pull/739))
-- ⬆️ Update zwave-js/zwave-js-ui to v9.29.1 @renovate ([#744](https://github.com/hassio-addons/addon-zwave-js-ui/pull/744))
+- ⬆️ Update zwave-js/zwave-js-ui to v9.30.0 @[renovate[bot]](https://github.com/apps/renovate) ([#746](https://github.com/hassio-addons/addon-zwave-js-ui/pull/746))
+- ⬆️ Update zwave-js/zwave-js-ui to v9.30.1 @[renovate[bot]](https://github.com/apps/renovate) ([#747](https://github.com/hassio-addons/addon-zwave-js-ui/pull/747))
