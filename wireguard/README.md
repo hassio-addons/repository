@@ -34,10 +34,10 @@ in the industry.
 [forum]: https://community.home-assistant.io/t/home-assistant-community-add-on-wireguard/134662?u=frenck
 [github-sponsors-shield]: https://frenck.dev/wp-content/uploads/2019/12/github_sponsor.png
 [github-sponsors]: https://github.com/sponsors/frenck
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2024.svg
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2025.svg
 [patreon-shield]: https://frenck.dev/wp-content/uploads/2019/12/patreon.png
 [patreon]: https://www.patreon.com/frenck
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
-[release-shield]: https://img.shields.io/badge/version-v0.10.2-blue.svg
-[release]: https://github.com/hassio-addons/addon-wireguard/tree/v0.10.2
+[release-shield]: https://img.shields.io/badge/version-v0.11.0-blue.svg
+[release]: https://github.com/hassio-addons/addon-wireguard/tree/v0.11.0
 [wireguard]: https://www.wireguard.com
