@@ -1,26 +1,19 @@
 ## What’s changed
 
+## 🧰 Maintenance
+
+- 🎆 Updates maintenance/license year to 2025 @frenck ([#265](https://github.com/hassio-addons/addon-zerotier/pull/265))
+
 ## ⬆️ Dependency updates
 
-- ⬆️ Update alpine_3_19/openssl-dev to v3.1.4-r3 @renovate ([#223](https://github.com/hassio-addons/addon-zerotier/pull/223))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v15.0.4 @renovate ([#221](https://github.com/hassio-addons/addon-zerotier/pull/221))
-- ⬆️ Update alpine_3_19/openssl-dev to v3.1.4-r4 @renovate ([#224](https://github.com/hassio-addons/addon-zerotier/pull/224))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v15.0.5 @renovate ([#225](https://github.com/hassio-addons/addon-zerotier/pull/225))
-- ⬆️ Update alpine_3_19/openssl-dev to v3.1.4-r5 @renovate ([#227](https://github.com/hassio-addons/addon-zerotier/pull/227))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v15.0.6 @renovate ([#228](https://github.com/hassio-addons/addon-zerotier/pull/228))
-- ⬆️ Update alpine_3_19/cargo to v1.73.0-r1 @renovate ([#230](https://github.com/hassio-addons/addon-zerotier/pull/230))
-- ⬆️ Update alpine_3_19/cargo to v1.75.0-r0 @renovate ([#231](https://github.com/hassio-addons/addon-zerotier/pull/231))
-- ⬆️ Update alpine_3_19/cargo to v1.76.0-r0 @renovate ([#232](https://github.com/hassio-addons/addon-zerotier/pull/232))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v15.0.7 @renovate ([#229](https://github.com/hassio-addons/addon-zerotier/pull/229))
-- ⬆️ Update alpine_3_19/openssl-dev to v3.1.4-r6 @renovate ([#233](https://github.com/hassio-addons/addon-zerotier/pull/233))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v15.0.8 @renovate ([#234](https://github.com/hassio-addons/addon-zerotier/pull/234))
-- ⬆️ Update alpine_3_19/git to v2.43.4-r0 @renovate ([#237](https://github.com/hassio-addons/addon-zerotier/pull/237))
-- ⬆️ Update alpine_3_19/openssl-dev to v3.1.5-r0 @renovate ([#238](https://github.com/hassio-addons/addon-zerotier/pull/238))
-- ⬆️ Update alpine_3_19/openssl-dev to v3.1.6-r0 @renovate ([#241](https://github.com/hassio-addons/addon-zerotier/pull/241))
-- ⬆️ Update alpine_3_19/openssl-dev to v3.1.6-r2 @renovate ([#242](https://github.com/hassio-addons/addon-zerotier/pull/242))
-- ⬆️ Update alpine_3_19/openssl-dev to v3.1.7-r0 @renovate ([#243](https://github.com/hassio-addons/addon-zerotier/pull/243))
-- ⬆️ Update alpine_3_19/git to v2.43.5-r0 @renovate ([#246](https://github.com/hassio-addons/addon-zerotier/pull/246))
-- ⬆️ Update alpine_3_19/openssl-dev to v3.1.7-r1 @renovate ([#247](https://github.com/hassio-addons/addon-zerotier/pull/247))
-- ⬆️ Update zerotier/ZeroTierOne to v1.14.2 @renovate ([#236](https://github.com/hassio-addons/addon-zerotier/pull/236))
-- ⬆️: migrate renovate config @renovate ([#250](https://github.com/hassio-addons/addon-zerotier/pull/250))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v17 @renovate ([#251](https://github.com/hassio-addons/addon-zerotier/pull/251))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v17.0.1 @[renovate[bot]](https://github.com/apps/renovate) ([#253](https://github.com/hassio-addons/addon-zerotier/pull/253))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v17.0.2 @[renovate[bot]](https://github.com/apps/renovate) ([#255](https://github.com/hassio-addons/addon-zerotier/pull/255))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v17.1.0 @[renovate[bot]](https://github.com/apps/renovate) ([#256](https://github.com/hassio-addons/addon-zerotier/pull/256))
+- ⬆️ Update alpine_3_21/git to v2.47.2-r0 @[renovate[bot]](https://github.com/apps/renovate) ([#257](https://github.com/hassio-addons/addon-zerotier/pull/257))
+- ⬆️ Update alpine_3_21/openssl-dev to v3.3.2-r5 @[renovate[bot]](https://github.com/apps/renovate) ([#259](https://github.com/hassio-addons/addon-zerotier/pull/259))
+- ⬆️ Update alpine_3_21/openssl-dev to v3.3.2-r6 @[renovate[bot]](https://github.com/apps/renovate) ([#260](https://github.com/hassio-addons/addon-zerotier/pull/260))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v17.1.3 @[renovate[bot]](https://github.com/apps/renovate) ([#258](https://github.com/hassio-addons/addon-zerotier/pull/258))
+- ⬆️ Update alpine_3_21/openssl-dev to v3.3.3-r0 @[renovate[bot]](https://github.com/apps/renovate) ([#261](https://github.com/hassio-addons/addon-zerotier/pull/261))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v17.1.4 @[renovate[bot]](https://github.com/apps/renovate) ([#262](https://github.com/hassio-addons/addon-zerotier/pull/262))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v17.2.0 @[renovate[bot]](https://github.com/apps/renovate) ([#263](https://github.com/hassio-addons/addon-zerotier/pull/263))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v17.2.1 @[renovate[bot]](https://github.com/apps/renovate) ([#264](https://github.com/hassio-addons/addon-zerotier/pull/264))
