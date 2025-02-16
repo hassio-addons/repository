@@ -14,6 +14,10 @@ configuration:
     description: >-
       A Spotify által használt bitráta beállítása. Minél magasabb, annál jobb
       minőségű, viszont ez nagyobb adatforgalommal jár.
+  initial_volume:
+    name: Kezdeti térfogat
+    description: >-
+      Kezdeti térfogat %-ban 0-100 között.
   username:
     name: Spotify felhasználónév
     description: >-

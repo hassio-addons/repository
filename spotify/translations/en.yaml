@@ -14,6 +14,10 @@ configuration:
     description: >-
       The bitrate Spotify should use. The higher, the better the sound quality,
       however, the add-on consumes more data.
+  initial_volume:
+    name: Initial Volume
+    description: >-
+      Initial volume in % from 0-100.
   username:
     name: Spotify username
     description: >-
@@ -23,3 +27,7 @@ configuration:
     name: Spotify password
     description: >-
       The password to log into your Spotify Premium account with.
+  autoplay:
+    name: Autoplay
+    description: >-
+      Whether Spotify should autoplay similar songs at the end of the queue.
