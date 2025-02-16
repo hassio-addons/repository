@@ -1,5 +1,5 @@
 ## What’s changed
 
-## ⬆️ Dependency updates
+## 🧰 Maintenance
 
-- ⬆️ Upgrades UniFi Network Application to 9.0.114 @cwmoriarty ([#550](https://github.com/hassio-addons/addon-unifi/pull/550))
+- 🎆 Updates maintenance/license year to 2025 @frenck ([#553](https://github.com/hassio-addons/addon-unifi/pull/553))
