@@ -39,10 +39,10 @@ This add-on uses the [Z-Wave JS UI][zwave-js-ui] software.
 [github-sponsors-shield]: https://frenck.dev/wp-content/uploads/2019/12/github_sponsor.png
 [github-sponsors]: https://github.com/sponsors/frenck
 [logo]: https://github.com/hassio-addons/addon-zwave-js-ui/raw/main/zwave-js-ui/logo.png
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2024.svg
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2025.svg
 [patreon-shield]: https://frenck.dev/wp-content/uploads/2019/12/patreon.png
 [patreon]: https://www.patreon.com/frenck
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[release-shield]: https://img.shields.io/badge/version-v3.20.0-blue.svg
-[release]: https://github.com/hassio-addons/addon-zwave-js-ui/tree/v3.20.0
+[release-shield]: https://img.shields.io/badge/version-v3.21.0-blue.svg
+[release]: https://github.com/hassio-addons/addon-zwave-js-ui/tree/v3.21.0
 [zwave-js-ui]: https://github.com/zwave-js/zwave-js-ui
