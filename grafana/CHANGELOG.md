@@ -2,4 +2,4 @@
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update Add-on base image to v7.7.1 @[renovate[bot]](https://github.com/apps/renovate) ([#446](https://github.com/hassio-addons/addon-grafana/pull/446))
+- ⬆️ Update grafana/grafana to v11.5.2 @[renovate[bot]](https://github.com/apps/renovate) ([#449](https://github.com/hassio-addons/addon-grafana/pull/449))
