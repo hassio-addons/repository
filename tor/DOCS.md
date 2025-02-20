@@ -44,6 +44,7 @@ Example add-on configuration:
 ```yaml
 log_level: info
 socks: true
+http_tunnel: false
 hidden_services: true
 stealth: true
 client_names:
@@ -51,6 +52,7 @@ client_names:
   - haremote2
 ports:
   - 8123
+bridges: []
 ```
 
 **Note**: _This is just an example, don't copy and past it! Create your own!_
@@ -84,6 +86,12 @@ applications on your network to use the Tor network.
 **Note**: _The SOCKS protocol is unencrypted and (as we use it) unauthenticated,
 so exposing it in this way could leak your information to anybody watching your
 network, and allow anybody to use your computer as an open proxy._
+
+### Option: `http_tunnel`
+
+Setting this option to `true` opens port `9080` to listen for connections from
+HTTP-speaking applications. Enabling this feature allows you to use other
+applications on your network to access the Tor network via the HTTP proxy.
 
 ### Option: `hidden_services`
 
@@ -149,6 +157,62 @@ The accepted syntaxs of this configuration is:
 
 If you do not define a published port, the local port will be used.
 If you do not define a hostname or IP adress `homeassistant` will be used.
+
+### Option: `bridges`
+
+> Ensure the option value is clear to avoid unintended use of transport plugins and bridges.
+
+Bridges are Tor relays that help you circumvent censorship.
+Access to bridges is provided by supported transport plugins:
+
+#### OBFS
+
+Because bridge addresses are not public, you will need to request them yourself. You have a few options:
+
+- Visit [Tor][tor-bridges-obfs4] project and follow the instructions, or
+- Email `bridges@torproject.org` from a Gmail, or Riseup email address
+- Send a message to @GetBridgesBot on Telegram. Tap on 'Start' or write /start or /bridges in the chat.
+
+For example:
+
+```yaml
+bridges:
+  - >-
+    obfs4 123.45.67.89:443 EFC6A00EE6272355C023862378AC77F935F091E4
+    cert=KkdWiWlfetJG9SFrzX8g1teBbgxtsc0zPiN5VLxqNNH+iudVW48CoH/XVXPQntbivXIqZA
+    iat-mode=0
+```
+
+#### Webtunnel
+
+Visit [Tor][tor-bridges-webtunnel] project and follow the instructions
+
+For example:
+
+```yaml
+bridges:
+  - >-
+    webtunnel 192.0.2.3:1
+    DEADBEEFDEADBEEFDEADBEEFDEADBEEFDEADBEEF
+    url=https://akbwadp9lc5fyyz0cj4d76z643pxgbfh6oyc-167-71-71-157.sslip.io/5m9yq0j4ghkz0fz7qmuw58cvbjon0ebnrsp0
+    ver=0.0.1
+```
+
+#### Snowflake
+
+What is [snowflake][what-is-snowflake], example:
+
+```yaml
+bridges:
+  - >-
+    snowflake 192.0.2.3:80 2B280B23E1107BB62ABFC40DDCC8824814F80A72
+    fingerprint=2B280B23E1107BB62ABFC40DDCC8824814F80A72
+    url=https://snowflake-broker.torproject.net/
+    ampcache=https://cdn.ampproject.org/
+    front=www.google.com
+    ice=stun:stun.l.google.com:19302,stun:stun.antisip.com:3478,stun:stun.bluesip.net:3478,stun:stun.dus.net:3478,stun:stun.epygi.com:3478,stun:stun.sonetel.com:3478,stun:stun.uls.co.za:3478,stun:stun.voipgate.com:3478,stun:stun.voys.nl:3478
+    utls-imitate=hellorandomizedalpn
+```
 
 ## Tor client access setup
 
@@ -227,7 +291,7 @@ check [the contributor's page][contributors].
 
 MIT License
 
-Copyright (c) 2017-2024 Franck Nijhof
+Copyright (c) 2017-2025 Franck Nijhof
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -261,3 +325,6 @@ SOFTWARE.
 [releases]: https://github.com/hassio-addons/addon-tor/releases
 [semver]: http://semver.org/spec/v2.0.0.htm
 [tor-hidden-service]: https://www.torproject.org/docs/hidden-services.html.en
+[tor-bridges-obfs4]: https://bridges.torproject.org/bridges/?transport=obfs4
+[tor-bridges-webtunnel]: https://bridges.torproject.org/bridges/?transport=webtunnel
+[what-is-snowflake]: https://support.torproject.org/censorship/what-is-snowflake/
