@@ -56,11 +56,6 @@ supported interfaces to Tailscale.
 Consider disabling key expiry to avoid losing connection to your Home Assistant
 device. See [Key expiry][tailscale_info_key_expiry] for more information.
 
-**Note:** _Some of the options below also available on Tailscale's web interface
-through the Web UI, but they are made read only there. You can't change them
-through the Web UI, because all the changes made there would be lost when the
-add-on is restarted._
-
 ```yaml
 accept_dns: true
 accept_routes: true
@@ -82,6 +77,12 @@ tags:
 taildrop: true
 userspace_networking: true
 ```
+
+> [!NOTE]
+> Some of the configuration options are also available on Tailscale's web
+> interface through the Web UI, but they are made read only there. You can't
+> change them through the Web UI, because all the changes made there would be
+> lost when the add-on is restarted.
 
 ### Option: `accept_dns`
 
@@ -279,10 +280,15 @@ router, and this simplifies routing configuration.
 
 When not set, this option is enabled by default.
 
-To support advanced [Site-to-site networking][tailscale_info_site_to_site] (eg.
+To support advanced [Site-to-site networking][tailscale_info_site_to_site] (e.g.
 to traverse multiple networks), you can disable this functionality, and follow
-steps from step 3 on [Site-to-site networking][tailscale_info_site_to_site]. But
-do it only when you really understand why you need this.
+steps in the [Site-to-site networking][tailscale_info_site_to_site] guide (Note:
+The add-on already handles "IP address forwarding" and "Clamp the MSS to the
+MTU" for you).
+
+**Note:** Only disable this option if you fully understand the implications.
+Keep it enabled if preserving the real source IP address is not critical for
+your use case.
 
 ### Option: `stateful_filtering`
 
@@ -295,10 +301,10 @@ When not set, this option is disabled by default.
 
 ### Option: `tags`
 
-This option allows you to specify specific ACL tags for this Tailscale
-instance. They need to start with `tag:`.
+This option allows you to specify specific tags for this Tailscale instance.
+They need to start with `tag:`.
 
-More information: [ACL tags][tailscale_info_acls]
+More information: [Tags][tailscale_info_tags]
 
 ### Option: `taildrop`
 
@@ -325,14 +331,25 @@ with their tailnet IP, but with their tailnet name, you have to configure Home
 Assistant's DNS options also.
 
 If you want to access other clients on your tailnet even from your local subnet,
-follow steps from step 3 on [Site-to-site
-networking][tailscale_info_site_to_site].
+follow steps in the [Site-to-site networking][tailscale_info_site_to_site] guide
+(Note: The add-on already handles "IP address forwarding" and "Clamp the MSS to
+the MTU" for you).
 
-In case your local subnets collide with subnet routes within your tailnet, your
-local network access has priority, and these addresses won't be routed toward
-your tailnet. This will prevent your Home Assistant instance from losing network
-connection. This also means that using the same subnet on multiple nodes for load
-balancing and failover is impossible with the current add-on behavior.
+**Note:** In case your local subnets collide with subnet routes within your
+tailnet, your local network access has priority, and these addresses won't be
+routed toward your tailnet. This will prevent your Home Assistant instance from
+losing network connection. This also means that using the same subnet on
+multiple nodes for load balancing and failover is impossible with the current
+add-on behavior.
+
+**Note:** The `userspace_networking` option can remain enabled if you only need
+one-way access from tailnet clients to your local subnet, without requiring
+access from your local subnet to other tailnet clients.
+
+**Note:** If you implement Site-to-site networking, but you are not interested
+in the real source IP address, i.e. subnet devices can see the traffic
+originating from the subnet router, you don't need to disable the
+`snat_subnet_routes` option, this can simplify routing configuration.
 
 ## Network
 
@@ -386,7 +403,7 @@ check [the contributor's page][contributors].
 
 MIT License
 
-Copyright (c) 2021-2024 Franck Nijhof
+Copyright (c) 2021-2025 Franck Nijhof
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -419,16 +436,16 @@ SOFTWARE.
 [reddit]: https://reddit.com/r/homeassistant
 [releases]: https://github.com/hassio-addons/addon-tailscale/releases
 [semver]: https://semver.org/spec/v2.0.0.html
-[taildrop]: https://tailscale.com/taildrop/
+[taildrop]: https://tailscale.com/taildrop
 [tailscale_acls]: https://login.tailscale.com/admin/acls
 [tailscale_dns]: https://login.tailscale.com/admin/dns
-[tailscale_info_acls]: https://tailscale.com/kb/1068/acl-tags/
-[tailscale_info_exit_nodes]: https://tailscale.com/kb/1103/exit-nodes/
+[tailscale_info_exit_nodes]: https://tailscale.com/kb/1103/exit-nodes
 [tailscale_info_app_connectors]: https://tailscale.com/kb/1281/app-connectors
-[tailscale_info_funnel]: https://tailscale.com/kb/1223/tailscale-funnel/
-[tailscale_info_funnel_policy_requirement]: https://tailscale.com/kb/1223/tailscale-funnel/#tailnet-policy-file-requirement
-[tailscale_info_https]: https://tailscale.com/kb/1153/enabling-https/
-[tailscale_info_key_expiry]: https://tailscale.com/kb/1028/key-expiry/
-[tailscale_info_site_to_site]: https://tailscale.com/kb/1214/site-to-site/
-[tailscale_info_subnets]: https://tailscale.com/kb/1019/subnets/
-[tailscale_info_userspace_networking]: https://tailscale.com/kb/1112/userspace-networking/
+[tailscale_info_funnel]: https://tailscale.com/kb/1223/funnel
+[tailscale_info_funnel_policy_requirement]: https://tailscale.com/kb/1223/funnel#requirements-and-limitations
+[tailscale_info_https]: https://tailscale.com/kb/1153/enabling-https
+[tailscale_info_key_expiry]: https://tailscale.com/kb/1028/key-expiry
+[tailscale_info_site_to_site]: https://tailscale.com/kb/1214/site-to-site
+[tailscale_info_subnets]: https://tailscale.com/kb/1019/subnets
+[tailscale_info_tags]: https://tailscale.com/kb/1068/tags
+[tailscale_info_userspace_networking]: https://tailscale.com/kb/1112/userspace-networking
