@@ -1,9 +1,5 @@
 ## What’s changed
 
-## 🧰 Maintenance
-
-- 🎆 Updates maintenance/license year to 2025 @frenck ([#748](https://github.com/hassio-addons/addon-zwave-js-ui/pull/748))
-
 ## ⬆️ Dependency updates
 
-- Update to Alpine 3.21 (NodeJS 22) @frenck ([#751](https://github.com/hassio-addons/addon-zwave-js-ui/pull/751))
+- ⬆️ Update zwave-js/zwave-js-ui to v9.31.0 @[renovate[bot]](https://github.com/apps/renovate) ([#753](https://github.com/hassio-addons/addon-zwave-js-ui/pull/753))
