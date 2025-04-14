@@ -2,5 +2,6 @@
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update Prowlarr/Prowlarr to v1.32.2.4987 @[renovate[bot]](https://github.com/apps/renovate) ([#56](https://github.com/hassio-addons/addon-prowlarr/pull/56))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v17.2.2 @[renovate[bot]](https://github.com/apps/renovate) ([#57](https://github.com/hassio-addons/addon-prowlarr/pull/57))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v17.2.3 @[renovate[bot]](https://github.com/apps/renovate) ([#58](https://github.com/hassio-addons/addon-prowlarr/pull/58))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v17.2.4 @[renovate[bot]](https://github.com/apps/renovate) ([#59](https://github.com/hassio-addons/addon-prowlarr/pull/59))
+- ⬆️ Update Prowlarr/Prowlarr to v1.33.3.5008 @[renovate[bot]](https://github.com/apps/renovate) ([#60](https://github.com/hassio-addons/addon-prowlarr/pull/60))
