@@ -72,7 +72,7 @@ There is a chapter in this document with instruction on obtaining such a token.
 
 ### Option: `system_packages`
 
-Allows you to specify additional [Alpine packages][alpine-packages] to be
+Allows you to specify additional [Debian packages][debian-packages] to be
 installed to your JupyterLab setup (e.g., `g++`. `make`, `ffmpeg`).
 
 **Note**: _Adding many packages will result in a longer start-up time
@@ -162,7 +162,7 @@ SOFTWARE.
 
 [addon-badge]: https://my.home-assistant.io/badges/supervisor_addon.svg
 [addon]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=a0d7b954_jupyterlablite&repository_url=https%3A%2F%2Fgithub.com%2Fhassio-addons%2Frepository
-[alpine-packages]: https://pkgs.alpinelinux.org/packages
+[debian-packages]: https://www.debian.org/distrib/packages
 [contributors]: https://github.com/hassio-addons/addon-jupyterlab/graphs/contributors
 [discord-ha]: https://discord.gg/c5DvZ4e
 [discord]: https://discord.me/hassioaddons
