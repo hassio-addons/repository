@@ -1,42 +1,5 @@
 ## What’s changed
 
-## 🧰 Maintenance
-
-- 🎆 Updates maintenance/license year to 2025 @frenck ([#546](https://github.com/hassio-addons/addon-motioneye/pull/546))
-
 ## ⬆️ Dependency updates
 
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v17 @[renovate[bot]](https://github.com/apps/renovate) ([#508](https://github.com/hassio-addons/addon-motioneye/pull/508))
-- ⬆️ Update alpine_3_21/ffmpeg-dev to v6.1.2-r1 @[renovate[bot]](https://github.com/apps/renovate) ([#509](https://github.com/hassio-addons/addon-motioneye/pull/509))
-- ⬆️ Update alpine_3_21/ffmpeg-libs to v6.1.2-r1 @[renovate[bot]](https://github.com/apps/renovate) ([#510](https://github.com/hassio-addons/addon-motioneye/pull/510))
-- ⬆️ Update alpine_3_21/ffmpeg to v6.1.2-r1 @[renovate[bot]](https://github.com/apps/renovate) ([#511](https://github.com/hassio-addons/addon-motioneye/pull/511))
-- ⬆️ Update alpine_3_21/curl-dev to v8.11.1-r0 @[renovate[bot]](https://github.com/apps/renovate) ([#512](https://github.com/hassio-addons/addon-motioneye/pull/512))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v17.0.1 @[renovate[bot]](https://github.com/apps/renovate) ([#503](https://github.com/hassio-addons/addon-motioneye/pull/503))
-- ⬆️ Update alpine_3_21/rsync to v3.3.0-r1 @[renovate[bot]](https://github.com/apps/renovate) ([#513](https://github.com/hassio-addons/addon-motioneye/pull/513))
-- ⬆️ Update alpine_3_21/nginx to v1.26.2-r4 @[renovate[bot]](https://github.com/apps/renovate) ([#515](https://github.com/hassio-addons/addon-motioneye/pull/515))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v17.0.2 @[renovate[bot]](https://github.com/apps/renovate) ([#516](https://github.com/hassio-addons/addon-motioneye/pull/516))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v17.1.0 @[renovate[bot]](https://github.com/apps/renovate) ([#518](https://github.com/hassio-addons/addon-motioneye/pull/518))
-- ⬆️ Update alpine_3_21/git to v2.47.2-r0 @[renovate[bot]](https://github.com/apps/renovate) ([#519](https://github.com/hassio-addons/addon-motioneye/pull/519))
-- ⬆️ Update alpine_3_21/rsync to v3.4.0-r0 @[renovate[bot]](https://github.com/apps/renovate) ([#520](https://github.com/hassio-addons/addon-motioneye/pull/520))
-- ⬆️ Update alpine_3_21/curl-dev to v8.12.0-r0 @[renovate[bot]](https://github.com/apps/renovate) ([#523](https://github.com/hassio-addons/addon-motioneye/pull/523))
-- ⬆️ Update alpine_3_21/python3-dev to v3.12.9-r0 @[renovate[bot]](https://github.com/apps/renovate) ([#524](https://github.com/hassio-addons/addon-motioneye/pull/524))
-- ⬆️ Update alpine_3_21/python3 to v3.12.9-r0 @[renovate[bot]](https://github.com/apps/renovate) ([#525](https://github.com/hassio-addons/addon-motioneye/pull/525))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v17.1.2 @[renovate[bot]](https://github.com/apps/renovate) ([#522](https://github.com/hassio-addons/addon-motioneye/pull/522))
-- Revert "⬆️ Update alpine_3_21/curl-dev to v8.12.0-r0" @frenck ([#529](https://github.com/hassio-addons/addon-motioneye/pull/529))
-- ⬆️ Update alpine_3_21/curl-dev to v8.11.1-r1 @[renovate[bot]](https://github.com/apps/renovate) ([#530](https://github.com/hassio-addons/addon-motioneye/pull/530))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v17.1.3 @[renovate[bot]](https://github.com/apps/renovate) ([#527](https://github.com/hassio-addons/addon-motioneye/pull/527))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v17.1.4 @[renovate[bot]](https://github.com/apps/renovate) ([#531](https://github.com/hassio-addons/addon-motioneye/pull/531))
-- ⬆️ Update alpine_3_21/curl-dev to v8.12.1-r0 @[renovate[bot]](https://github.com/apps/renovate) ([#533](https://github.com/hassio-addons/addon-motioneye/pull/533))
-- ⬆️ Update alpine_3_21/musl-dev to v1.2.5-r9 @[renovate[bot]](https://github.com/apps/renovate) ([#532](https://github.com/hassio-addons/addon-motioneye/pull/532))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v17.2.0 @[renovate[bot]](https://github.com/apps/renovate) ([#534](https://github.com/hassio-addons/addon-motioneye/pull/534))
-- ⬆️: migrate renovate config @[renovate[bot]](https://github.com/apps/renovate) ([#536](https://github.com/hassio-addons/addon-motioneye/pull/536))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v17.2.1 @[renovate[bot]](https://github.com/apps/renovate) ([#535](https://github.com/hassio-addons/addon-motioneye/pull/535))
-- ⬆️ Update alpine_3_21/curl-dev to v8.12.1-r1 @[renovate[bot]](https://github.com/apps/renovate) ([#537](https://github.com/hassio-addons/addon-motioneye/pull/537))
-- ⬆️ Update alpine_3_21/nginx to v1.26.3-r0 @[renovate[bot]](https://github.com/apps/renovate) ([#538](https://github.com/hassio-addons/addon-motioneye/pull/538))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v17.2.2 @[renovate[bot]](https://github.com/apps/renovate) ([#539](https://github.com/hassio-addons/addon-motioneye/pull/539))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v17.2.3 @[renovate[bot]](https://github.com/apps/renovate) ([#540](https://github.com/hassio-addons/addon-motioneye/pull/540))
-- ⬆️ Update alpine_3_21/python3-dev to v3.12.10-r0 @[renovate[bot]](https://github.com/apps/renovate) ([#543](https://github.com/hassio-addons/addon-motioneye/pull/543))
-- ⬆️ Update alpine_3_21/python3 to v3.12.10-r0 @[renovate[bot]](https://github.com/apps/renovate) ([#542](https://github.com/hassio-addons/addon-motioneye/pull/542))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v17.2.4 @[renovate[bot]](https://github.com/apps/renovate) ([#541](https://github.com/hassio-addons/addon-motioneye/pull/541))
-- ⬆️ Update motioneye-project/motioneye to v0.43.1b3 @[renovate[bot]](https://github.com/apps/renovate) ([#544](https://github.com/hassio-addons/addon-motioneye/pull/544))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v17.2.5 @[renovate[bot]](https://github.com/apps/renovate) ([#545](https://github.com/hassio-addons/addon-motioneye/pull/545))
+- ⬆️ Update motioneye-project/motioneye to v0.43.1b4 @[renovate[bot]](https://github.com/apps/renovate) ([#547](https://github.com/hassio-addons/addon-motioneye/pull/547))
