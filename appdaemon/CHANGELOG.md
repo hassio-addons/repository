@@ -1,6 +1,5 @@
 ## What’s changed
 
-## 🐛 Bug fixes
+## ⬆️ Dependency updates
 
-- Ensure HTTP URL is always correctly set @frenck ([#385](https://github.com/hassio-addons/addon-appdaemon/pull/385))
-- Only migrate HA authentication when HASS plugin is used: @frenck ([#386](https://github.com/hassio-addons/addon-appdaemon/pull/386))
+- ⬆️ Update appdaemon to v4.5.3 @[renovate[bot]](https://github.com/apps/renovate) ([#387](https://github.com/hassio-addons/addon-appdaemon/pull/387))
