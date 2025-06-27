@@ -247,17 +247,6 @@ based on the following:
 - `MINOR`: Backwards-compatible new features and enhancements.
 - `PATCH`: Backwards-compatible bugfixes and package updates.
 
-## Visual Studio Code Remote - SSH
-
-Setting the following parameters as is shown will allow you to connect to
-your Home Assistant instance using VSCode Remote - SSH:
-
-```yaml
-ssh:
-  allow_remote_port_forwarding: true
-  allow_tcp_forwarding: true
-```
-
 ## Support
 
 Got questions?
