@@ -2,4 +2,4 @@
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update AdguardTeam/AdGuardHome to v0.107.63 @[renovate[bot]](https://github.com/apps/renovate) ([#610](https://github.com/hassio-addons/addon-adguard-home/pull/610))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v18 @[renovate[bot]](https://github.com/apps/renovate) ([#611](https://github.com/hassio-addons/addon-adguard-home/pull/611))
