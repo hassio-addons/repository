@@ -2,5 +2,6 @@
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update alpine_3_21/composer to v2.8.9-r0 @[renovate[bot]](https://github.com/apps/renovate) ([#386](https://github.com/hassio-addons/addon-bookstack/pull/386))
-- ⬆️ Update BookStackApp/BookStack to v25.02.5 @[renovate[bot]](https://github.com/apps/renovate) ([#387](https://github.com/hassio-addons/addon-bookstack/pull/387))
+- ⬆️ Update BookStackApp/BookStack to v25.05 @[renovate[bot]](https://github.com/apps/renovate) ([#390](https://github.com/hassio-addons/addon-bookstack/pull/390))
+- ⬆️ Update BookStackApp/BookStack to v25.05.1 @[renovate[bot]](https://github.com/apps/renovate) ([#391](https://github.com/hassio-addons/addon-bookstack/pull/391))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v18 @[renovate[bot]](https://github.com/apps/renovate) ([#393](https://github.com/hassio-addons/addon-bookstack/pull/393))
