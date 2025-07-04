@@ -209,9 +209,12 @@ configuration folder, including the `flows.json`.
 
 ## Time zone configuration
 
-The addon will use the configured time zone of the underlying operating system.
-If this is incorrect (for example with the Home Assistant Operating System it
-will be UTC), this can be configured in the `settings.js` file.
+The add-on will use the time zone configured in Home Assistant settings. If
+the time zone is incorrect, update the setting in Home Assistant and restart
+the Node-RED add-on to apply the latest configuration.
+
+If you would like to override the time zone for Node-RED specifically, this
+can be configured in the `settings.js` file.
 
 To do so, open the file with a text editor and add the following above the
 `module.exports = {` line.
