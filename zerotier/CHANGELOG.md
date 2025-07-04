@@ -1,9 +1,11 @@
 ## What’s changed
 
+## 🐛 Bug fixes
+
+- Fix unaccepted network str @frenck ([#279](https://github.com/hassio-addons/addon-zerotier/pull/279))
+
 ## ⬆️ Dependency updates
 
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v17.2.2 @[renovate[bot]](https://github.com/apps/renovate) ([#266](https://github.com/hassio-addons/addon-zerotier/pull/266))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v17.2.3 @[renovate[bot]](https://github.com/apps/renovate) ([#268](https://github.com/hassio-addons/addon-zerotier/pull/268))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v17.2.4 @[renovate[bot]](https://github.com/apps/renovate) ([#270](https://github.com/hassio-addons/addon-zerotier/pull/270))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v17.2.5 @[renovate[bot]](https://github.com/apps/renovate) ([#272](https://github.com/hassio-addons/addon-zerotier/pull/272))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v18 @[renovate[bot]](https://github.com/apps/renovate) ([#275](https://github.com/hassio-addons/addon-zerotier/pull/275))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v18.0.1 @[renovate[bot]](https://github.com/apps/renovate) ([#276](https://github.com/hassio-addons/addon-zerotier/pull/276))
+- ⬆️ Update alpine_3_22/openssl-dev to v3.5.1-r0 @[renovate[bot]](https://github.com/apps/renovate) ([#277](https://github.com/hassio-addons/addon-zerotier/pull/277))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v18.0.2 @[renovate[bot]](https://github.com/apps/renovate) ([#278](https://github.com/hassio-addons/addon-zerotier/pull/278))
