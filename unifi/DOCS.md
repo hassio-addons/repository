@@ -20,11 +20,9 @@ comparison to installing any other Home Assistant add-on.
    well.
 1. Click the "OPEN WEB UI" button, and follow the initial wizard.
 1. After completing the wizard, log in with the credentials just created.
-1. Go to the settings (gears icon in the bottom left) -> System ->
-   Advanced.
-1. Next to the `Inform Host` label, click the checkbox option for `Override` so that is now "checked".
-1. Change the `Host for Inform` to match the IP or hostname of
-   the device running Home Assistant.
+1. Select Unifi Devices which you can find on the left hand. Once there, select Device Updates and Settings on the top right.
+1. Scroll down to Device settings and below the `Inform Host Override` label, enter the IP or hostname of the device running Home Assistant.
+1. Click the checkbox option for `Inform Host Override` so that is now "checked".
 1. Hit the "Apply Changes" button to activate the settings.
 1. Ready to go!
 
