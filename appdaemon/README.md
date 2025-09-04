@@ -30,6 +30,6 @@ suitable for wall mounted tablets.
 [patreon-shield]: https://frenck.dev/wp-content/uploads/2019/12/patreon.png
 [patreon]: https://www.patreon.com/frenck
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
-[release-shield]: https://img.shields.io/badge/version-v0.17.8-blue.svg
-[release]: https://github.com/hassio-addons/addon-appdaemon/tree/v0.17.8
+[release-shield]: https://img.shields.io/badge/version-v0.17.9-blue.svg
+[release]: https://github.com/hassio-addons/addon-appdaemon/tree/v0.17.9
 [screenshot]: https://github.com/hassio-addons/addon-appdaemon/raw/main/images/screenshot.png
