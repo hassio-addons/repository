@@ -34,13 +34,6 @@ configuration:
       your device is connected to) to other clients on your tailnet.
       When not set, the add-on by default will advertise routes to your subnets on all
       supported interfaces.
-  funnel:
-    name: Tailscale Funnel
-    description: >-
-      This option allows you to enable Tailscale's Funnel feature to present your
-      Home Assistant instance on the wider internet using your Tailscale domain.
-      This requires Tailscale Proxy to be enabled.
-      When not set, this option is disabled by default.
   log_level:
     name: Log level
     description: >-
@@ -52,18 +45,21 @@ configuration:
       This option allows you to specify a custom control server for this
       Tailscale instance, for example, a self-host Headscale instance.
       By default, it uses the control server provided by Tailscale.
-  proxy:
-    name: Tailscale Proxy
+  share_homeassistant:
+    name: Share Home Assistant with Serve or Funnel
     description: >-
-      This option allows you to enable Tailscale's Proxy feature to present your
-      Home Assistant instance on your tailnet with a valid certificate.
+      This option allows you to enable Tailscale Serve or Funnel features to present
+      your Home Assistant instance with a valid certificate on your tailnet or on the
+      internet.
       When not set, this option is disabled by default.
-  proxy_and_funnel_port:
-    name: Tailscale Proxy and Funnel port
+  share_on_port:
+    name: Share on port
     description: >-
-      This option allows you to configure the port the Tailscale Proxy and Funnel
-      features are accessible on.
-      Only port number 443, 8443 and 10000 is allowed by Tailscale.
+      This option lets you specify which port the Tailscale Serve and Funnel features
+      will use to present your Home Assistant instance on the tailnet and on the
+      internet.
+      Only ports 443, 8443, and 10000 are allowed by Tailscale.
+      When not set, port 443 is used by default.
   snat_subnet_routes:
     name: Source NAT subnet routes
     description: >-

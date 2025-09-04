@@ -64,11 +64,10 @@ advertise_connector: true
 advertise_routes:
   - 192.168.1.0/24
   - fd12:3456:abcd::/64
-funnel: false
 log_level: info
 login_server: "https://controlplane.tailscale.com"
-proxy: false
-proxy_and_funnel_port: 443
+share_homeassistant: disabled
+share_on_port: 443
 snat_subnet_routes: true
 stateful_filtering: false
 tags:
@@ -148,48 +147,6 @@ More information: [Subnet routers][tailscale_info_subnets]
 When not set, the add-on by default will advertise routes to your subnets on all
 supported interfaces.
 
-### Option: `funnel`
-
-This requires Tailscale Proxy to be enabled.
-
-**Important:** See also the "Option: `proxy`" section of this documentation for the
-necessary configuration changes in Home Assistant!
-
-When not set, this option is disabled by default.
-
-With the Tailscale Funnel feature, you can access your Home Assistant instance
-from the wider internet using your Tailscale domain (like
-`https://homeassistant.tail1234.ts.net`) even from devices **without installed
-Tailscale VPN client** (for example, on general phones, tablets, and laptops).
-
-**Client** &#8658; _Internet_ &#8658; **Tailscale Funnel** (TCP proxy) &#8658;
-_VPN_ &#8658; **Tailscale Proxy** (HTTPS proxy) &#8594; **HA** (HTTP web-server)
-
-Without the Tailscale Funnel feature, you will be able to access your Home
-Assistant instance only when your devices (for example, phones, tablets, and laptops)
-are connected to your Tailscale VPN, there will be no Internet &#8658; VPN TCP
-proxying for HTTPS communication.
-
-More information: [Tailscale Funnel][tailscale_info_funnel]
-
-1. Navigate to the [Access controls page][tailscale_acls] of the admin console:
-
-   - Add the required `funnel` node attribute to the tailnet policy file. See
-     [Tailnet policy file requirement][tailscale_info_funnel_policy_requirement]
-     for more information.
-
-1. Restart the add-on.
-
-**Note**: _After initial setup, it can take up to 10 minutes for the domain to
-be publicly available._
-
-**Note:** _You should not use the port number in the URL that you used
-previously to access Home Assistant. Tailscale Funnel works on the default HTTPS
-port 443 (or the port configured in option `proxy_and_funnel_port`)._
-
-**Note:** _If you encounter strange browser behaviour or strange error messages,
-try to clear all site related cookies, clear all browser cache, restart browser._
-
 ### Option: `log_level`
 
 Optionally enable tailscaled debug messages in the add-on's log. Turn it on only
@@ -220,18 +177,36 @@ This option lets you to specify a custom control server instead of the default
 (`https://controlplane.tailscale.com`). This is useful if you are running your
 own Tailscale control server, for example, a self-hosted [Headscale] instance.
 
-### Option: `proxy`
+### Option: `share_homeassistant`
+
+This option allows you to enable Tailscale Serve or Funnel features to present
+your Home Assistant instance with a valid certificate on your tailnet or on the
+internet.
 
 When not set, this option is disabled by default.
 
 Tailscale can provide a TLS certificate for your Home Assistant instance within
 your tailnet domain.
 
-This can prevent browsers from warning that HTTP URLs to your Home Assistant instance
-look unencrypted (browsers are not aware of the connections between Tailscale
-nodes are secured with end-to-end encryption).
+This can prevent browsers from warning that HTTP URLs to your Home Assistant
+instance look unencrypted (browsers are not aware that the connections between
+Tailscale nodes are secured with end-to-end encryption).
 
-More information: [Enabling HTTPS][tailscale_info_https]
+With the Tailscale Serve feature, you can access your Home Assistant instance
+with the provided certificate within your tailnet from devices already connected
+to your tailnet.
+
+With the Tailscale Funnel feature, you can access your Home Assistant instance
+with the provided certificate not only within your tailnet but even from the
+wider internet using your Tailscale domain (like
+`https://homeassistant.tail1234.ts.net`) from devices **without installed
+Tailscale VPN client** (for example, on general phones, tablets, and laptops).
+
+**Client** &#8658; _Internet_ &#8658; **Tailscale Funnel** (TCP proxy) &#8658;
+_VPN_ &#8658; **Tailscale Serve** (HTTPS proxy) &#8594; **HA** (HTTP web-server)
+
+More information: [Enabling HTTPS][tailscale_info_https],
+[Tailscale Serve][tailscale_info_serve], [Tailscale Funnel][tailscale_info_funnel].
 
 1. Configure Home Assistant to be accessible through an HTTP connection (this is
    the default). See [HTTP integration documentation][http_integration] for more
@@ -239,7 +214,7 @@ More information: [Enabling HTTPS][tailscale_info_https]
    Assistant, please use a reverse proxy add-on.
 
 1. Home Assistant, by default, blocks requests from reverse proxies, like the
-   Tailscale Proxy. To enable it, add the following lines to your
+   Tailscale Serve. To enable it, add the following lines to your
    `configuration.yaml`, without changing anything:
 
    ```yaml
@@ -250,28 +225,40 @@ More information: [Enabling HTTPS][tailscale_info_https]
    ```
 
 1. Navigate to the [DNS page][tailscale_dns] of the admin console:
-
    - Choose a tailnet name.
 
    - Enable MagicDNS if not already enabled.
 
    - Under HTTPS Certificates section, click Enable HTTPS.
 
+1. Optionally, if you want to use Tailscale Funnel, navigate to the [Access
+   controls page][tailscale_acls] of the admin console:
+   - Add the required `funnel` node attribute to the tailnet policy file. See
+     [Tailnet policy file requirement][tailscale_info_funnel_policy_requirement]
+     for more information.
+
 1. Restart the add-on.
 
-**Note:** _You should not use the port number in the URL that you used
-previously to access Home Assistant. Tailscale Proxy works on the default HTTPS
-port 443 (or the port configured in option `proxy_and_funnel_port`)._
+**Note**: After initial setup, it can take up to 10 minutes for the domain to
+be publicly available.
 
-### Option: `proxy_and_funnel_port`
+**Note:** You should not use the port number in the URL that you used
+previously to access Home Assistant. Tailscale Serve and Funnel works on the
+default HTTPS port 443 (or the port configured in option `share_on_port`).
 
-This option allows you to configure the port the Tailscale Proxy and Funnel
-features are accessible on the tailnet (in case of Tailscale Proxy is enabled)
-and optionally on the internet (in case of Tailscale Funnel is also enabled).
+**Note:** If you encounter strange browser behaviour or strange error messages,
+try to clear all site-related cookies, clear all browser cache, and restart the
+browser.
 
-Only port number 443, 8443 and 10000 is allowed by Tailscale.
+### Option: `share_on_port`
 
-When not set, port number 443 is used by default.
+This option lets you specify which port the Tailscale Serve and Funnel features
+will use to present your Home Assistant instance on the tailnet and on the
+internet.
+
+Only ports 443, 8443, and 10000 are allowed by Tailscale.
+
+When not set, port 443 is used by default.
 
 ### Option: `snat_subnet_routes`
 
@@ -308,9 +295,9 @@ More information: [Tags][tailscale_info_tags]
 
 ### Option: `taildrop`
 
-This add-on support [Tailscale's Taildrop][taildrop] feature, which allows
-you to send files to your Home Assistant instance from other Tailscale
-devices.
+This add-on supports [Tailscale's Taildrop][tailscale_info_taildrop] feature,
+which allows you to send files to your Home Assistant instance from other
+Tailscale devices.
 
 When not set, this option is enabled by default.
 
@@ -436,7 +423,6 @@ SOFTWARE.
 [reddit]: https://reddit.com/r/homeassistant
 [releases]: https://github.com/hassio-addons/addon-tailscale/releases
 [semver]: https://semver.org/spec/v2.0.0.html
-[taildrop]: https://tailscale.com/taildrop
 [tailscale_acls]: https://login.tailscale.com/admin/acls
 [tailscale_dns]: https://login.tailscale.com/admin/dns
 [tailscale_info_exit_nodes]: https://tailscale.com/kb/1103/exit-nodes
@@ -445,7 +431,9 @@ SOFTWARE.
 [tailscale_info_funnel_policy_requirement]: https://tailscale.com/kb/1223/funnel#requirements-and-limitations
 [tailscale_info_https]: https://tailscale.com/kb/1153/enabling-https
 [tailscale_info_key_expiry]: https://tailscale.com/kb/1028/key-expiry
+[tailscale_info_serve]: https://tailscale.com/kb/1312/serve
 [tailscale_info_site_to_site]: https://tailscale.com/kb/1214/site-to-site
 [tailscale_info_subnets]: https://tailscale.com/kb/1019/subnets
 [tailscale_info_tags]: https://tailscale.com/kb/1068/tags
+[tailscale_info_taildrop]: https://tailscale.com/kb/1106/taildrop
 [tailscale_info_userspace_networking]: https://tailscale.com/kb/1112/userspace-networking

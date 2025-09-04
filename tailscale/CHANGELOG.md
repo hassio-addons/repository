@@ -1,38 +1,45 @@
 ## What’s changed
 
+## 🚨 Breaking changes
+
+- Merge proxy and funnel options into share_homeassistant, rename proxy_and_funnel_port to share_on_port (nonbreaking change, config is automatically updated) @lmagyar ([#445](https://github.com/hassio-addons/addon-tailscale/pull/445))
+
+## ✨ New features
+
+- Add HEALTHCHECK support @lmagyar ([#421](https://github.com/hassio-addons/addon-tailscale/pull/421))
+
 ## 🐛 Bug fixes
 
-- Fix MSS clamping for site-to-site networking @lmagyar ([#453](https://github.com/hassio-addons/addon-tailscale/pull/453))
+- Wait for local network on startup @lmagyar ([#507](https://github.com/hassio-addons/addon-tailscale/pull/507))
 
 ## 🚀 Enhancements
 
-- Don't break sentences into multiple log messages @lmagyar ([#452](https://github.com/hassio-addons/addon-tailscale/pull/452))
-
-## 🧰 Maintenance
-
-- 🎆 Updates maintenance/license year to 2025 @frenck ([#473](https://github.com/hassio-addons/addon-tailscale/pull/473))
+- Add error message directly to bashio::exit.nok call @lmagyar ([#513](https://github.com/hassio-addons/addon-tailscale/pull/513))
+- Merge proxy and funnel options into share_homeassistant, rename proxy_and_funnel_port to share_on_port (nonbreaking change, config is automatically updated) @lmagyar ([#445](https://github.com/hassio-addons/addon-tailscale/pull/445))
+- Forward incoming tailnet connections to the host's primary interface @lmagyar ([#454](https://github.com/hassio-addons/addon-tailscale/pull/454))
+- Remove duplicated service dependencies @lmagyar ([#506](https://github.com/hassio-addons/addon-tailscale/pull/506))
 
 ## 📚 Documentation
 
-- Update links to Tailscale documentation @lmagyar ([#444](https://github.com/hassio-addons/addon-tailscale/pull/444))
-- Reformat docs about read-only Web-UI @lmagyar ([#464](https://github.com/hassio-addons/addon-tailscale/pull/464))
-- Update site-to-site networking related documentation @lmagyar ([#457](https://github.com/hassio-addons/addon-tailscale/pull/457))
+- Update Taildrop link @lmagyar ([#512](https://github.com/hassio-addons/addon-tailscale/pull/512))
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update Add-on base image to v17.0.1 @[renovate[bot]](https://github.com/apps/renovate) ([#437](https://github.com/hassio-addons/addon-tailscale/pull/437))
-- ⬆️ Update alpine_3_21/networkmanager to v1.50.1-r0 @[renovate[bot]](https://github.com/apps/renovate) ([#441](https://github.com/hassio-addons/addon-tailscale/pull/441))
-- ⬆️ Update alpine_3_21/nginx to v1.26.2-r4 @[renovate[bot]](https://github.com/apps/renovate) ([#443](https://github.com/hassio-addons/addon-tailscale/pull/443))
-- ⬆️ Update Add-on base image to v17.0.2 @[renovate[bot]](https://github.com/apps/renovate) ([#446](https://github.com/hassio-addons/addon-tailscale/pull/446))
-- ⬆️ Update alpine_3_21/coreutils to v9.5-r2 @[renovate[bot]](https://github.com/apps/renovate) ([#448](https://github.com/hassio-addons/addon-tailscale/pull/448))
-- ⬆️ Update Add-on base image to v17.1.0 @[renovate[bot]](https://github.com/apps/renovate) ([#451](https://github.com/hassio-addons/addon-tailscale/pull/451))
-- ⬆️ Update alpine_3_21/networkmanager to v1.50.2-r0 @[renovate[bot]](https://github.com/apps/renovate) ([#456](https://github.com/hassio-addons/addon-tailscale/pull/456))
-- ⬆️ Update tailscale/tailscale to v1.80.0 @[renovate[bot]](https://github.com/apps/renovate) ([#458](https://github.com/hassio-addons/addon-tailscale/pull/458))
-- ⬆️ Update alpine_3_21/iptables to v1.8.11-r0 @[renovate[bot]](https://github.com/apps/renovate) ([#459](https://github.com/hassio-addons/addon-tailscale/pull/459))
-- ⬆️ Update alpine_3_21/iptables to v1.8.11-r1 @[renovate[bot]](https://github.com/apps/renovate) ([#460](https://github.com/hassio-addons/addon-tailscale/pull/460))
-- ⬆️ Update Add-on base image to v17.1.1 @[renovate[bot]](https://github.com/apps/renovate) ([#465](https://github.com/hassio-addons/addon-tailscale/pull/465))
-- ⬆️ Update Add-on base image to v17.1.2 @[renovate[bot]](https://github.com/apps/renovate) ([#466](https://github.com/hassio-addons/addon-tailscale/pull/466))
-- ⬆️ Update Add-on base image to v17.1.3 @[renovate[bot]](https://github.com/apps/renovate) ([#467](https://github.com/hassio-addons/addon-tailscale/pull/467))
-- ⬆️ Update Add-on base image to v17.1.4 @[renovate[bot]](https://github.com/apps/renovate) ([#469](https://github.com/hassio-addons/addon-tailscale/pull/469))
-- ⬆️ Update Add-on base image to v17.2.0 @[renovate[bot]](https://github.com/apps/renovate) ([#470](https://github.com/hassio-addons/addon-tailscale/pull/470))
-- ⬆️ Update Add-on base image to v17.2.1 @[renovate[bot]](https://github.com/apps/renovate) ([#472](https://github.com/hassio-addons/addon-tailscale/pull/472))
+- ⬆️ Update tailscale/tailscale to v1.80.2 @[renovate[bot]](https://github.com/apps/renovate) ([#480](https://github.com/hassio-addons/addon-tailscale/pull/480))
+- ⬆️ Update tailscale/tailscale to v1.80.3 @[renovate[bot]](https://github.com/apps/renovate) ([#481](https://github.com/hassio-addons/addon-tailscale/pull/481))
+- ⬆️ Update alpine_3_21/nginx to v1.26.3-r0 @[renovate[bot]](https://github.com/apps/renovate) ([#484](https://github.com/hassio-addons/addon-tailscale/pull/484))
+- ⬆️ Update Add-on base image to v17.2.2 @[renovate[bot]](https://github.com/apps/renovate) ([#485](https://github.com/hassio-addons/addon-tailscale/pull/485))
+- ⬆️ Update tailscale/tailscale to v1.82.0 @[renovate[bot]](https://github.com/apps/renovate) ([#487](https://github.com/hassio-addons/addon-tailscale/pull/487))
+- ⬆️ Update Add-on base image to v17.2.3 @[renovate[bot]](https://github.com/apps/renovate) ([#490](https://github.com/hassio-addons/addon-tailscale/pull/490))
+- ⬆️ Update Add-on base image to v17.2.4 @[renovate[bot]](https://github.com/apps/renovate) ([#491](https://github.com/hassio-addons/addon-tailscale/pull/491))
+- ⬆️ Update tailscale/tailscale to v1.82.5 @[renovate[bot]](https://github.com/apps/renovate) ([#493](https://github.com/hassio-addons/addon-tailscale/pull/493))
+- ⬆️ Update Add-on base image to v17.2.5 @[renovate[bot]](https://github.com/apps/renovate) ([#502](https://github.com/hassio-addons/addon-tailscale/pull/502))
+- ⬆️ Update Add-on base image to v18 (major) @[renovate[bot]](https://github.com/apps/renovate) ([#518](https://github.com/hassio-addons/addon-tailscale/pull/518))
+- ⬆️ Update Add-on base image to v18.0.1 @[renovate[bot]](https://github.com/apps/renovate) ([#519](https://github.com/hassio-addons/addon-tailscale/pull/519))
+- ⬆️ Update Add-on base image to v18.0.2 @[renovate[bot]](https://github.com/apps/renovate) ([#521](https://github.com/hassio-addons/addon-tailscale/pull/521))
+- ⬆️ Update Add-on base image to v18.0.3 @[renovate[bot]](https://github.com/apps/renovate) ([#527](https://github.com/hassio-addons/addon-tailscale/pull/527))
+- ⬆️ Update alpine_3_22/networkmanager to v1.52.1-r0 @[renovate[bot]](https://github.com/apps/renovate) ([#528](https://github.com/hassio-addons/addon-tailscale/pull/528))
+- ⬆️ Update tailscale/tailscale to v1.86.0 @[renovate[bot]](https://github.com/apps/renovate) ([#531](https://github.com/hassio-addons/addon-tailscale/pull/531))
+- ⬆️ Update tailscale/tailscale to v1.86.2 @[renovate[bot]](https://github.com/apps/renovate) ([#532](https://github.com/hassio-addons/addon-tailscale/pull/532))
+- ⬆️ Update Add-on base image to v18.1.0 @[renovate[bot]](https://github.com/apps/renovate) ([#533](https://github.com/hassio-addons/addon-tailscale/pull/533))
+- ⬆️ Update Add-on base image to v18.1.1 @[renovate[bot]](https://github.com/apps/renovate) ([#540](https://github.com/hassio-addons/addon-tailscale/pull/540))
