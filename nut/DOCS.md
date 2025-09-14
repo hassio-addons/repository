@@ -128,8 +128,7 @@ _Refer to the [`ups.conf(5)`][ups-conf] documentation for more information._
 
 #### Sub-option: `name`
 
-The name of the UPS. The name `default` is used internally, so you can’t use
-it in this file.
+The name of the UPS. You cannot use any space characters or the name `default`.
 
 #### Sub-option: `driver`
 
