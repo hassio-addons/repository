@@ -1,10 +1,9 @@
 ## What’s changed
 
-## ✨ New features
+## 📚 Documentation
 
-- Add support for apc_modbus @PaulSD ([#449](https://github.com/hassio-addons/addon-nut/pull/449))
+- Included required Integration settings in the step-by-step instructions @PaulSD ([#450](https://github.com/hassio-addons/addon-nut/pull/450))
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v8.1.0 @[renovate[bot]](https://github.com/apps/renovate) ([#446](https://github.com/hassio-addons/addon-nut/pull/446))
-- ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v8.1.1 @[renovate[bot]](https://github.com/apps/renovate) ([#448](https://github.com/hassio-addons/addon-nut/pull/448))
+- ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v8.1.3 @[renovate[bot]](https://github.com/apps/renovate) ([#454](https://github.com/hassio-addons/addon-nut/pull/454))

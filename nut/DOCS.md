@@ -13,14 +13,6 @@ are [compatible][nut-compatible].
 The Network UPS Tools (NUT) project is the combined effort of
 many [individuals and companies][nut-acknowledgements].
 
-Be sure to add the NUT integration after starting the add-on.
-
-**Note**: _The host `a0d7b954-nut` can be used to allow Home Assistant to
-communicate directly with the addon_
-
-For more information on how to configure the NUT integration in Home Assistant
-see the [NUT integration documentation][nut-ha-docs].
-
 ## Installation
 
 The installation of this add-on is pretty straightforward and not different in
@@ -32,10 +24,14 @@ comparison to installing any other Home Assistant add-on.
    [![Open this add-on in your Home Assistant instance.][addon-badge]][addon]
 
 1. Click the "Install" button to install the add-on.
-1. Configure the `users` and `devices` options.
+1. Configure the `users` and `devices` options, as described below.
 1. Start the "Network UPS Tools" add-on.
 1. Check the logs of the "Network UPS Tools" add-on to see if everything went well.
-1. Configure the [NUT Integration][nut-ha-docs].
+1. Note the `Hostname` listed on the "Info" tab of the "Network UPS Tools" add-on.
+1. Configure the [NUT Integration][nut-ha-docs] using add-on Hostname (identified
+   above), Port `3493`, and the Username/Password configured in the add-on.
+1. For more information on configuring the NUT Integration in Home Assistant see
+   the [NUT integration documentation][nut-ha-docs].
 
 ## Configuration
 
