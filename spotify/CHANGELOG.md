@@ -1,16 +1,14 @@
 ## What’s changed
 
-## 🐛 Bug fixes
-
-- Fix typo in finish-file @ggravlingen ([#307](https://github.com/hassio-addons/addon-spotify-connect/pull/307))
-
 ## ⬆️ Dependency updates
 
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v18.0.1 @[renovate[bot]](https://github.com/apps/renovate) ([#302](https://github.com/hassio-addons/addon-spotify-connect/pull/302))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v18.0.2 @[renovate[bot]](https://github.com/apps/renovate) ([#303](https://github.com/hassio-addons/addon-spotify-connect/pull/303))
-- ⬆️ Update alpine_3_22/git to v2.49.1-r0 @[renovate[bot]](https://github.com/apps/renovate) ([#305](https://github.com/hassio-addons/addon-spotify-connect/pull/305))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v18.1.0 @[renovate[bot]](https://github.com/apps/renovate) ([#306](https://github.com/hassio-addons/addon-spotify-connect/pull/306))
-- Update librespot 0.7.0 @hermzz ([#315](https://github.com/hassio-addons/addon-spotify-connect/pull/315))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v18.1.1 @[renovate[bot]](https://github.com/apps/renovate) ([#316](https://github.com/hassio-addons/addon-spotify-connect/pull/316))
-- ⬆️: migrate renovate config @[renovate[bot]](https://github.com/apps/renovate) ([#317](https://github.com/hassio-addons/addon-spotify-connect/pull/317))
-- ⬆️ Upgrades librespot to 0.7.1 @frenck ([#318](https://github.com/hassio-addons/addon-spotify-connect/pull/318))
+- ⬆️ Update alpine_3_22/openssl-dev to v3.5.3-r0 @[renovate[bot]](https://github.com/apps/renovate) ([#322](https://github.com/hassio-addons/addon-spotify-connect/pull/322))
+- ⬆️ Update alpine_3_22/libssl3 to v3.5.3-r0 @[renovate[bot]](https://github.com/apps/renovate) ([#321](https://github.com/hassio-addons/addon-spotify-connect/pull/321))
+- ⬆️ Update alpine_3_22/libcrypto3 to v3.5.3-r0 @[renovate[bot]](https://github.com/apps/renovate) ([#320](https://github.com/hassio-addons/addon-spotify-connect/pull/320))
+- ⬆️ Update alpine_3_22/libcrypto3 to v3.5.3-r1 @[renovate[bot]](https://github.com/apps/renovate) ([#323](https://github.com/hassio-addons/addon-spotify-connect/pull/323))
+- ⬆️ Update alpine_3_22/openssl-dev to v3.5.3-r1 @[renovate[bot]](https://github.com/apps/renovate) ([#325](https://github.com/hassio-addons/addon-spotify-connect/pull/325))
+- ⬆️ Update alpine_3_22/libssl3 to v3.5.3-r1 @[renovate[bot]](https://github.com/apps/renovate) ([#324](https://github.com/hassio-addons/addon-spotify-connect/pull/324))
+- ⬆️ Update alpine_3_22/libcrypto3 to v3.5.4-r0 @[renovate[bot]](https://github.com/apps/renovate) ([#327](https://github.com/hassio-addons/addon-spotify-connect/pull/327))
+- ⬆️ Update alpine_3_22/libssl3 to v3.5.4-r0 @[renovate[bot]](https://github.com/apps/renovate) ([#328](https://github.com/hassio-addons/addon-spotify-connect/pull/328))
+- ⬆️ Update alpine_3_22/openssl-dev to v3.5.4-r0 @[renovate[bot]](https://github.com/apps/renovate) ([#329](https://github.com/hassio-addons/addon-spotify-connect/pull/329))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v18.1.4 @[renovate[bot]](https://github.com/apps/renovate) ([#326](https://github.com/hassio-addons/addon-spotify-connect/pull/326))
