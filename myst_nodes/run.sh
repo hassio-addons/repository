@@ -1,8 +1,14 @@
-#!/bin/bash
+#!/usr/bin/with-contenv bashio
 
-if [ "$ACCEPT_TERMS" != "true" ]; then
-  echo "You must accept Mysterium Node Terms and Conditions to run this add-on."
-  exit 1
+CONFIG_PATH=/data/options.json
+
+ACCEPT_TERMS_AND_CONDITIONS=$(jq -r '.accept_terms_and_conditions // false' "$CONFIG_PATH")
+
+echo "Accept Terms and Conditions: $ACCEPT_TERMS_AND_CONDITIONS"
+
+if [ "$ACCEPT_TERMS_AND_CONDITIONS" != "true" ]; then
+    echo "You must accept the Mysterium Nodes Terms and Conditions to run this add-on by navigating to the add-on configuration tab and enabling the 'accept_terms_and_conditions' option."
+    exit 0
 fi
 
 echo "Starting Myst Node..."
