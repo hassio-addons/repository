@@ -1,0 +1,31 @@
+name: MYST Nodes
+description: Run your own Mysterium Network node on Home Assistant and earn MYST tokens
+version: "1.0.0"
+webui: http://[HOST]:[PORT:4449]
+url: https://github.com/Jpwaters09/repository/tree/master/myst_nodes
+
+slug: myst_node
+startup: services
+boot: auto
+
+privileged: 
+  - SYS_ADMIN
+  - NET_ADMIN
+
+host_network: true
+
+map:
+  - data:mysterium-node:rw
+
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
+
+options:
+  accept_terms_and_conditions: false
+
+schema:
+  accept_terms_and_conditions: bool
