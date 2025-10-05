@@ -19,7 +19,7 @@ Run your own **unofficial Mysterium Network node** on Home Assistant and earn **
 &nbsp;
 
 ## Usage
-1. Create an account at [https://www.mystnodes.com/](https://mystnodes.co/?referral_code=IW6Y6LzQnDtSrfZPhqDZYjfpOEGrsAuE0C2QNuRV) 
+1. Create an account at [https://www.mystnodes.com/](https://mystnodes.co/?referral_code=IW6Y6LzQnDtSrfZPhqDZYjfpOEGrsAuE0C2QNuRV)
 2. Once the add-on is installed, click on 'Open web UI', then follow the setup instructions to link your node.
 3. To view node statistics, earnings, and manage settings, visit the same address above at any time.
 
