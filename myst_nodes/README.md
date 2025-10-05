@@ -1,7 +1,7 @@
 # Mysterium Nodes
 
 #### **Disclaimer:** This add-on is **not affiliated with, endorsed, or maintained** by Mysterium Nodes or the Mysterium Network
-#### By installing this add-on, you agree to the Mysterium Node [Terms and Conditions](https://www.mystnodes.com/legal/terms-and-conditions)
+#### By installing this add-on, you agree to the Mysterium Nodes [Terms and Conditions](https://www.mystnodes.com/legal/terms-and-conditions)
 
 Developed by **Jacob Waters**. \
 If you encounter any issues, feel free to contact me at [jpwaters09.business@gmail.com](mailto:jpwaters09.business@gmail.com)
