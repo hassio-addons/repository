@@ -1136,7 +1136,7 @@ SOFTWARE.
 [bitwarden-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [bitwarden-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [bitwarden-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
-[bitwarden-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
+[bitwarden-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [bitwarden-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [addon-whisparr]: https://github.com/hassio-addons/addon-whisparr/tree/v0.4.0
 [addon-doc-whisparr]: https://github.com/hassio-addons/addon-whisparr/blob/v0.4.0/README.md
