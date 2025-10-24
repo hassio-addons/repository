@@ -14,7 +14,7 @@ The installation of this add-on is pretty straightforward and not different in
 comparison to installing any other Home Assistant add-on.
 
 1. **Ensure your Home Assistant device has a
-   [static IP and static external DNS servers!](https://github.com/home-assistant/operating-system/blob/dev/Documentation/network.md#static-ip)**
+   [static IP and static external DNS servers!](https://developers.home-assistant.io/docs/operating-system/network)**
    This is important! You **WILL** end up having issues if you skip this step.
    - Change this setting in Network:
      [![Open your Home Assistant instance and manage your systems network configuration.](https://my.home-assistant.io/badges/network.svg)](https://my.home-assistant.io/redirect/network/)
