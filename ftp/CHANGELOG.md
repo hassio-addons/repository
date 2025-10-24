@@ -1,7 +1,10 @@
 ## What’s changed
 
+## 🚨 Breaking changes
+
+- Drop support for armv7 systems @frenck ([#257](https://github.com/hassio-addons/addon-ftp/pull/257))
+
 ## ⬆️ Dependency updates
 
-- ⬆️ Update alpine_3_22/openssl to v3.5.3-r1 @[renovate[bot]](https://github.com/apps/renovate) ([#251](https://github.com/hassio-addons/addon-ftp/pull/251))
-- ⬆️ Update alpine_3_22/openssl to v3.5.4-r0 @[renovate[bot]](https://github.com/apps/renovate) ([#253](https://github.com/hassio-addons/addon-ftp/pull/253))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v18.1.4 @[renovate[bot]](https://github.com/apps/renovate) ([#252](https://github.com/hassio-addons/addon-ftp/pull/252))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v18.2.0 @[renovate[bot]](https://github.com/apps/renovate) ([#255](https://github.com/hassio-addons/addon-ftp/pull/255))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v18.2.1 @[renovate[bot]](https://github.com/apps/renovate) ([#256](https://github.com/hassio-addons/addon-ftp/pull/256))
