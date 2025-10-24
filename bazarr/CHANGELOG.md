@@ -1,8 +1,12 @@
 ## What’s changed
 
+## 🚨 Breaking changes
+
+- Drop support for armv7 systems @frenck ([#86](https://github.com/hassio-addons/addon-bazarr/pull/86))
+
 ## ⬆️ Dependency updates
 
-- ⬆️ Update morpheus65535/bazarr to v1.5.3 @[renovate[bot]](https://github.com/apps/renovate) ([#78](https://github.com/hassio-addons/addon-bazarr/pull/78))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v18.1.2 @[renovate[bot]](https://github.com/apps/renovate) ([#79](https://github.com/hassio-addons/addon-bazarr/pull/79))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v18.1.3 @[renovate[bot]](https://github.com/apps/renovate) ([#80](https://github.com/hassio-addons/addon-bazarr/pull/80))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v18.1.4 @[renovate[bot]](https://github.com/apps/renovate) ([#81](https://github.com/hassio-addons/addon-bazarr/pull/81))
+- ⬆️ Update alpine_3_22/python3-dev to v3.12.12-r0 @[renovate[bot]](https://github.com/apps/renovate) ([#83](https://github.com/hassio-addons/addon-bazarr/pull/83))
+- ⬆️ Update alpine_3_22/python3 to v3.12.12-r0 @[renovate[bot]](https://github.com/apps/renovate) ([#82](https://github.com/hassio-addons/addon-bazarr/pull/82))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v18.2.0 @[renovate[bot]](https://github.com/apps/renovate) ([#84](https://github.com/hassio-addons/addon-bazarr/pull/84))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v18.2.1 @[renovate[bot]](https://github.com/apps/renovate) ([#85](https://github.com/hassio-addons/addon-bazarr/pull/85))
