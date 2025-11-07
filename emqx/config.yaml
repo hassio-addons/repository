@@ -1,10 +1,9 @@
 name: EMQX
-version: 0.8.0
+version: 0.8.1
 slug: emqx
 description: The most scalable open-source MQTT broker for IoT. An alternative for
   the Mosquitto add-on
 url: https://github.com/hassio-addons/addon-emqx
-codenotary: codenotary@frenck.dev
 startup: services
 ingress: true
 ingress_port: 18083
