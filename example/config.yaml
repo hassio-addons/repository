@@ -1,9 +1,8 @@
 name: Example
-version: 12.0.0
+version: 12.0.1
 slug: example
 description: Example add-on by Community Home Assistant Add-ons
 url: https://github.com/hassio-addons/addon-example
-codenotary: codenotary@frenck.dev
 init: false
 arch:
 - aarch64
