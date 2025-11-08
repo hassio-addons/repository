@@ -1,7 +1,14 @@
 ## What’s changed
 
+## 🚨 Breaking changes
+
+- Drop support for armv7 systems @frenck ([#378](https://github.com/hassio-addons/addon-wireguard/pull/378))
+
+## 🐛 Bug fixes
+
+- Remove deprecated codenotary fields @frenck ([#380](https://github.com/hassio-addons/addon-wireguard/pull/380))
+
 ## ⬆️ Dependency updates
 
-- ⬆️ Update alpine_3_22/go to v1.24.8-r0 @[renovate[bot]](https://github.com/apps/renovate) ([#372](https://github.com/hassio-addons/addon-wireguard/pull/372))
-- ⬆️ Update alpine_3_22/go to v1.24.9-r0 @[renovate[bot]](https://github.com/apps/renovate) ([#374](https://github.com/hassio-addons/addon-wireguard/pull/374))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v18.2.0 @[renovate[bot]](https://github.com/apps/renovate) ([#373](https://github.com/hassio-addons/addon-wireguard/pull/373))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v18.2.1 @[renovate[bot]](https://github.com/apps/renovate) ([#375](https://github.com/hassio-addons/addon-wireguard/pull/375))
+- ⬆️: migrate renovate config @[renovate[bot]](https://github.com/apps/renovate) ([#379](https://github.com/hassio-addons/addon-wireguard/pull/379))
