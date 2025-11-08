@@ -1172,7 +1172,7 @@ SOFTWARE.
 [zerotier-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [zerotier-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [zerotier-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
-[zerotier-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
+[zerotier-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [zerotier-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [addon-chrony]: https://github.com/hassio-addons/addon-chrony/tree/v6.0.1
 [addon-doc-chrony]: https://github.com/hassio-addons/addon-chrony/blob/v6.0.1/README.md
