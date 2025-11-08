@@ -785,7 +785,7 @@ SOFTWARE.
 [ssh-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [ssh-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [ssh-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
-[ssh-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
+[ssh-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [ssh-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [addon-aircast]: https://github.com/hassio-addons/addon-aircast/tree/v5.0.1
 [addon-doc-aircast]: https://github.com/hassio-addons/addon-aircast/blob/v5.0.1/README.md
