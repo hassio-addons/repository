@@ -1,6 +1,9 @@
 ## What’s changed
 
+## 🐛 Bug fixes
+
+- Remove deprecated codenotary fields @frenck ([#842](https://github.com/hassio-addons/addon-zwave-js-ui/pull/842))
+
 ## ⬆️ Dependency updates
 
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v18.2.1 @[renovate[bot]](https://github.com/apps/renovate) ([#834](https://github.com/hassio-addons/addon-zwave-js-ui/pull/834))
-- ⬆️ Update zwave-js/zwave-js-ui to v11.5.2 @[renovate[bot]](https://github.com/apps/renovate) ([#835](https://github.com/hassio-addons/addon-zwave-js-ui/pull/835))
+- ⬆️ Update zwave-js/zwave-js-ui to v11.6.1 @[renovate[bot]](https://github.com/apps/renovate) ([#839](https://github.com/hassio-addons/addon-zwave-js-ui/pull/839))
