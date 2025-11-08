@@ -1,16 +1,14 @@
 name: ZeroTier One
-version: 0.23.1
+version: 0.24.0
 slug: zerotier
 description: Radically simplify your network with a virtual networking layer that
   works the same everywhere
 url: https://github.com/hassio-addons/addon-zerotier
-codenotary: codenotary@frenck.dev
 startup: services
 init: false
 arch:
 - aarch64
 - amd64
-- armv7
 ports:
   9993/tcp: 9993
 ports_description:
