@@ -1,9 +1,8 @@
 name: Advanced SSH & Web Terminal
-version: 21.0.4
+version: 22.0.0
 slug: ssh
 description: A supercharged SSH & Web Terminal access to your Home Assistant instance
 url: https://github.com/hassio-addons/addon-ssh
-codenotary: codenotary@frenck.dev
 startup: services
 ingress: true
 ingress_port: 0
@@ -15,7 +14,6 @@ homeassistant: 0.92.0b2
 arch:
 - aarch64
 - amd64
-- armv7
 ports:
   22/tcp: 22
 ports_description:
@@ -50,6 +48,8 @@ map:
 - media:rw
 - share:rw
 - ssl:rw
+backup_exclude:
+- '*/.vscode-server/**'
 journald: true
 options:
   ssh:
