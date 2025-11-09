@@ -123,11 +123,22 @@ Sets one of the Node-RED themes. Currently available options:
 - `monoindustrial`
 - `monokai`
 - `monokai-dimmed`
+- `night-owl`
 - `noctis`
+- `noctis-azureus`
+- `noctis-bordo`
+- `noctis-minimus`
+- `noctis-obscuro`
+- `noctis-sereno`
+- `noctis-uva`
+- `noctis-viola`
 - `oceanic-next`
 - `oled`
 - `one-dark-pro`
 - `one-dark-pro-darker`
+- `railscasts-extended`
+- `selenized-dark`
+- `selenized-light`
 - `solarized-dark`
 - `solarized-light`
 - `tokyo-night`
@@ -135,6 +146,7 @@ Sets one of the Node-RED themes. Currently available options:
 - `tokyo-night-storm`
 - `totallyinformation`
 - `zenburn`
+- `zendesk-garden`
 
 ### Option: `http_node`
 
