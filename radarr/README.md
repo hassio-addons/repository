@@ -22,5 +22,5 @@ a better quality format becomes available.
 [forum]: https://community.home-assistant.io/t/?u=frenck
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2025.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
-[release-shield]: https://img.shields.io/badge/version-v0.26.1-blue.svg
-[release]: https://github.com/hassio-addons/addon-radarr/tree/v0.26.1
+[release-shield]: https://img.shields.io/badge/version-v0.27.0-blue.svg
+[release]: https://github.com/hassio-addons/addon-radarr/tree/v0.27.0
