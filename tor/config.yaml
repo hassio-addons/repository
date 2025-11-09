@@ -1,14 +1,12 @@
 name: Tor
-version: 6.1.4
+version: 7.0.0
 slug: tor
 description: Protect your privacy and access Home Assistant via Tor
 url: https://github.com/hassio-addons/addon-tor
-codenotary: codenotary@frenck.dev
 startup: services
 arch:
 - aarch64
 - amd64
-- armv7
 init: false
 ports:
   9050/tcp: 9050
