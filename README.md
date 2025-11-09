@@ -1001,7 +1001,7 @@ SOFTWARE.
 [radarr-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [radarr-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [radarr-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
-[radarr-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
+[radarr-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [radarr-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [addon-readarr]: https://github.com/hassio-addons/addon-readarr/tree/v0.4.1
 [addon-doc-readarr]: https://github.com/hassio-addons/addon-readarr/blob/v0.4.1/README.md
