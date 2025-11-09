@@ -1145,7 +1145,7 @@ SOFTWARE.
 [whisparr-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [whisparr-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [whisparr-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
-[whisparr-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
+[whisparr-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [whisparr-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [addon-wireguard]: https://github.com/hassio-addons/addon-wireguard/tree/v0.13.0
 [addon-doc-wireguard]: https://github.com/hassio-addons/addon-wireguard/blob/v0.13.0/README.md
