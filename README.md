@@ -1019,7 +1019,7 @@ SOFTWARE.
 [sabnzbd-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [sabnzbd-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [sabnzbd-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
-[sabnzbd-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
+[sabnzbd-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [sabnzbd-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [addon-sqlite-web]: https://github.com/hassio-addons/addon-sqlite-web/tree/v4.4.1
 [addon-doc-sqlite-web]: https://github.com/hassio-addons/addon-sqlite-web/blob/v4.4.1/README.md
