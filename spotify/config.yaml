@@ -1,13 +1,11 @@
 name: Spotify Connect
-version: 0.16.1
+version: 0.17.0
 slug: spotify
 description: Play Spotify music on your Home Assistant device
 url: https://github.com/hassio-addons/addon-spotify-connect
-codenotary: codenotary@frenck.dev
 arch:
 - aarch64
 - amd64
-- armv7
 host_network: true
 audio: true
 init: false
