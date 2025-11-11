@@ -992,7 +992,7 @@ SOFTWARE.
 [prowlarr-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [prowlarr-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [prowlarr-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
-[prowlarr-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
+[prowlarr-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [prowlarr-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [addon-radarr]: https://github.com/hassio-addons/addon-radarr/tree/v0.27.0
 [addon-doc-radarr]: https://github.com/hassio-addons/addon-radarr/blob/v0.27.0/README.md
