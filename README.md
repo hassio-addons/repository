@@ -920,7 +920,7 @@ SOFTWARE.
 [lidarr-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [lidarr-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [lidarr-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
-[lidarr-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
+[lidarr-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [lidarr-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [addon-log-viewer]: https://github.com/hassio-addons/addon-log-viewer/tree/v0.17.1
 [addon-doc-log-viewer]: https://github.com/hassio-addons/addon-log-viewer/blob/v0.17.1/README.md
