@@ -1,9 +1,9 @@
 ## What’s changed
 
-## 🐛 Bug fixes
+## 🚨 Breaking changes
 
-- Remove deprecated codenotary fields @frenck ([#842](https://github.com/hassio-addons/addon-zwave-js-ui/pull/842))
+- Drop support for armv7 systems @frenck ([#845](https://github.com/hassio-addons/addon-zwave-js-ui/pull/845))
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update zwave-js/zwave-js-ui to v11.6.1 @[renovate[bot]](https://github.com/apps/renovate) ([#839](https://github.com/hassio-addons/addon-zwave-js-ui/pull/839))
+- ⬆️ Update zwave-js/zwave-js-ui to v11.7.0 @[renovate[bot]](https://github.com/apps/renovate) ([#844](https://github.com/hassio-addons/addon-zwave-js-ui/pull/844))
