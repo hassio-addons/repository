@@ -1,11 +1,17 @@
 ## What’s changed
 
+## 🚨 Breaking changes
+
+- Drop support for armv7 systems @frenck ([#382](https://github.com/hassio-addons/addon-sqlite-web/pull/382))
+
+## 🐛 Bug fixes
+
+- Remove deprecated codenotary fields @frenck ([#381](https://github.com/hassio-addons/addon-sqlite-web/pull/381))
+
 ## ⬆️ Dependency updates
 
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v18.0.2 @[renovate[bot]](https://github.com/apps/renovate) ([#367](https://github.com/hassio-addons/addon-sqlite-web/pull/367))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v18.0.3 @[renovate[bot]](https://github.com/apps/renovate) ([#369](https://github.com/hassio-addons/addon-sqlite-web/pull/369))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v18.1.0 @[renovate[bot]](https://github.com/apps/renovate) ([#370](https://github.com/hassio-addons/addon-sqlite-web/pull/370))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v18.1.1 @[renovate[bot]](https://github.com/apps/renovate) ([#371](https://github.com/hassio-addons/addon-sqlite-web/pull/371))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v18.1.2 @[renovate[bot]](https://github.com/apps/renovate) ([#372](https://github.com/hassio-addons/addon-sqlite-web/pull/372))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v18.1.3 @[renovate[bot]](https://github.com/apps/renovate) ([#373](https://github.com/hassio-addons/addon-sqlite-web/pull/373))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v18.1.4 @[renovate[bot]](https://github.com/apps/renovate) ([#374](https://github.com/hassio-addons/addon-sqlite-web/pull/374))
+- ⬆️ Update alpine_3_22/python3 to v3.12.12-r0 @[renovate[bot]](https://github.com/apps/renovate) ([#375](https://github.com/hassio-addons/addon-sqlite-web/pull/375))
+- ⬆️ Update sqlite-web to v0.6.5 @[renovate[bot]](https://github.com/apps/renovate) ([#377](https://github.com/hassio-addons/addon-sqlite-web/pull/377))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v18.2.0 @[renovate[bot]](https://github.com/apps/renovate) ([#376](https://github.com/hassio-addons/addon-sqlite-web/pull/376))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v18.2.1 @[renovate[bot]](https://github.com/apps/renovate) ([#379](https://github.com/hassio-addons/addon-sqlite-web/pull/379))
+- ⬆️: migrate Renovate config @[renovate[bot]](https://github.com/apps/renovate) ([#383](https://github.com/hassio-addons/addon-sqlite-web/pull/383))

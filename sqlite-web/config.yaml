@@ -1,9 +1,8 @@
 name: SQLite Web
-version: 4.4.1
+version: 5.0.0
 slug: sqlite-web
 description: Explore your SQLite database
 url: https://github.com/hassio-addons/addon-sqlite-web/tree/main/README.md
-codenotary: codenotary@frenck.dev
 ingress: true
 advanced: true
 init: false
@@ -11,7 +10,6 @@ panel_icon: mdi:database
 arch:
 - aarch64
 - amd64
-- armv7
 map:
 - homeassistant_config:rw
 - share:rw
