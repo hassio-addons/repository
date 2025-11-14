@@ -969,7 +969,7 @@ SOFTWARE.
 [plex-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [plex-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [plex-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
-[plex-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
+[plex-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [plex-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [addon-prowlarr]: https://github.com/hassio-addons/addon-prowlarr/tree/v0.27.0
 [addon-doc-prowlarr]: https://github.com/hassio-addons/addon-prowlarr/blob/v0.27.0/README.md
