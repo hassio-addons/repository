@@ -98,8 +98,6 @@ http://hassio.local:32400,http://192.168.1.88:32400,http://mydomain.duckdns.org:
 
 ## Known issues and limitations
 
-- This add-on does support ARM-based devices, nevertheless, they must
-  at least be an ARMv7 device. (Raspberry Pi 1 and Zero is not supported).
 - This add-on will be able to run on a Raspberry Pi. While it still can be
   useful, don't expect too much. In general, the Pi lacks the processing power
   and is probably not able to stream your media; therefore it is not
