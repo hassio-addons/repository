@@ -1166,9 +1166,9 @@ SOFTWARE.
 [motioneye-version-shield]: https://img.shields.io/badge/version-v0.22.3-blue.svg
 [motioneye-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [motioneye-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
-[motioneye-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
-[motioneye-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
-[motioneye-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
+[motioneye-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
+[motioneye-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
+[motioneye-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [addon-phpmyadmin]: https://github.com/hassio-addons/addon-phpmyadmin/tree/v0.13.0
 [addon-doc-phpmyadmin]: https://github.com/hassio-addons/addon-phpmyadmin/blob/v0.13.0/README.md
 [phpmyadmin-issue]: https://github.com/hassio-addons/addon-phpmyadmin/issues
