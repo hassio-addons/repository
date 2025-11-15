@@ -1,10 +1,9 @@
 name: JupyterLab
-version: 0.16.1
+version: 0.16.2
 slug: jupyterlablite
 description: Create documents containing live code, equations, visualizations, and
   explanatory text
 url: https://github.com/hassio-addons/addon-jupyterlab
-codenotary: codenotary@frenck.dev
 ingress: true
 panel_icon: mdi:flask-outline
 arch:
