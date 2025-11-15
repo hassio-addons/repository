@@ -1,13 +1,16 @@
 ## What’s changed
 
-## 🚀 Enhancements
+## 🚨 Breaking changes
 
-- 🔨 Remove auth header for direct access @sinclairpaul ([#462](https://github.com/hassio-addons/addon-grafana/pull/462))
+- Drop support for armv7 systems @frenck ([#485](https://github.com/hassio-addons/addon-grafana/pull/485))
+
+## 🐛 Bug fixes
+
+- Remove deprecated codenotary fields @frenck ([#484](https://github.com/hassio-addons/addon-grafana/pull/484))
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update Add-on base image to v7.8.2 @[renovate[bot]](https://github.com/apps/renovate) ([#461](https://github.com/hassio-addons/addon-grafana/pull/461))
-- ⬆️ Update grafana/grafana-image-renderer to v3.12.5 @[renovate[bot]](https://github.com/apps/renovate) ([#463](https://github.com/hassio-addons/addon-grafana/pull/463))
-- ⬆️ Update grafana/grafana to v11.6.1 @[renovate[bot]](https://github.com/apps/renovate) ([#464](https://github.com/hassio-addons/addon-grafana/pull/464))
-- ⬆️ Update grafana/grafana to v12 @[renovate[bot]](https://github.com/apps/renovate) ([#465](https://github.com/hassio-addons/addon-grafana/pull/465))
-- ⬆️ Update Add-on base image to v7.8.3 @[renovate[bot]](https://github.com/apps/renovate) ([#466](https://github.com/hassio-addons/addon-grafana/pull/466))
+- ⬆️ Update Add-on base image to v8 (major) @[renovate[bot]](https://github.com/apps/renovate) ([#480](https://github.com/hassio-addons/addon-grafana/pull/480))
+- ⬆️ Update grafana/grafana to v12.2.1 @[renovate[bot]](https://github.com/apps/renovate) ([#471](https://github.com/hassio-addons/addon-grafana/pull/471))
+- ⬆️ Update grafana/grafana-image-renderer to v4 @[renovate[bot]](https://github.com/apps/renovate) ([#478](https://github.com/hassio-addons/addon-grafana/pull/478))
+- ⬆️ Update grafana/grafana-image-renderer to v4.1.5 @[renovate[bot]](https://github.com/apps/renovate) ([#481](https://github.com/hassio-addons/addon-grafana/pull/481))

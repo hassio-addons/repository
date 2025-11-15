@@ -1,9 +1,8 @@
 name: Grafana
-version: 11.0.0
+version: 12.0.0
 slug: grafana
 description: The open platform for beautiful analytics and monitoring
 url: https://github.com/hassio-addons/addon-grafana
-codenotary: codenotary@frenck.dev
 startup: services
 ingress: true
 ingress_port: 1337
@@ -14,7 +13,6 @@ panel_title: Grafana
 arch:
 - aarch64
 - amd64
-- armv7
 map:
 - homeassistant_config
 - share

@@ -156,8 +156,6 @@ rendered image inside of a dashboard. For more details see
 
 ## Known issues and limitations
 
-- This add-on does support ARM-based devices, nevertheless, they must
-  at least be an ARMv7 device. (Raspberry Pi 1 and Zero is not supported).
 - `To render a panel image, you must install the Grafana Image Renderer plugin.`
   This message is shown on ARM devices, like a Raspberry Pi. The Grafana Image
   Renderer plugin is not available for these devices.
