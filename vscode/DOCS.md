@@ -104,6 +104,11 @@ return to the defaults as delivered by this add-on, do the following:
   Although we support ARM devices, please be aware, that this add-on is quite
   heavy to run, and requires quite a bit of RAM. We do not recommended to run
   it on devices with less than 4Gb of memory.
+- **Do not use the root directory (`/`) as your workspace.** Opening the root
+  directory causes severe performance issues, as VS Code will attempt to index
+  the entire filesystem, resulting in excessive CPU and memory usage. Always
+  use `/config` (the default) or another specific directory. The add-on will
+  prevent startup if the root directory is configured as the workspace.
 - "Visual Studio Code is unable to watch for file changes in this large
   workspace" (error ENOSPC)
 
