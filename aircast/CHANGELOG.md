@@ -1,5 +1,6 @@
 ## What’s changed
 
-## 🐛 Bug fixes
+## ⬆️ Dependency updates
 
-- Remove deprecated codenotary fields @frenck ([#239](https://github.com/hassio-addons/addon-aircast/pull/239))
+- ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v9 @[renovate[bot]](https://github.com/apps/renovate) ([#241](https://github.com/hassio-addons/addon-aircast/pull/241))
+- ⬆️ Update philippe44/AirConnect to v1.9.3 @[renovate[bot]](https://github.com/apps/renovate) ([#242](https://github.com/hassio-addons/addon-aircast/pull/242))
