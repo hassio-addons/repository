@@ -1,5 +1,5 @@
 ## What’s changed
 
-## 🐛 Bug fixes
+## ⬆️ Dependency updates
 
-- Remove deprecated codenotary fields @frenck ([#469](https://github.com/hassio-addons/addon-appdaemon/pull/469))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v19 @[renovate[bot]](https://github.com/apps/renovate) ([#472](https://github.com/hassio-addons/addon-appdaemon/pull/472))
