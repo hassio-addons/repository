@@ -38,9 +38,9 @@ addons:
     target: emqx
     image: ghcr.io/hassio-addons/emqx/{arch}
   example:
-    repository: hassio-addons/addon-example
+    repository: hassio-addons/app-example
     target: example
-    image: ghcr.io/hassio-addons/example/{arch}
+    image: ghcr.io/hassio-addons/example
   foldingathome:
     repository: hassio-addons/addon-foldingathome
     target: foldingathome
