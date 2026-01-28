@@ -148,7 +148,7 @@ The most scalable open-source MQTT broker for IoT. An alternative for the Mosqui
 ![Supports amd64 Architecture][example-amd64-shield]
 ![Supports i386 Architecture][example-i386-shield]
 
-Example add-on by Community Home Assistant Add-ons
+Example app by Home Assistant Community Apps
 
 [:books: Example add-on documentation][addon-doc-example]
 
@@ -827,9 +827,9 @@ SOFTWARE.
 [emqx-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [emqx-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [emqx-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
-[addon-example]: https://github.com/hassio-addons/addon-example/tree/v12.0.1
-[addon-doc-example]: https://github.com/hassio-addons/addon-example/blob/v12.0.1/README.md
-[example-issue]: https://github.com/hassio-addons/addon-example/issues
+[addon-example]: https://github.com/hassio-addons/app-example/tree/v12.0.1
+[addon-doc-example]: https://github.com/hassio-addons/app-example/blob/v12.0.1/README.md
+[example-issue]: https://github.com/hassio-addons/app-example/issues
 [example-version-shield]: https://img.shields.io/badge/version-v12.0.1-blue.svg
 [example-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [example-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
