@@ -1,14 +1,10 @@
 ## What’s changed
 
-## 🚀 Enhancements
-
-- Refactoring and renaming add-ons to apps @frenck ([#219](https://github.com/hassio-addons/app-example/pull/219))
-
 ## 🧰 Maintenance
 
-- Refactoring and renaming add-ons to apps @frenck ([#219](https://github.com/hassio-addons/app-example/pull/219))
+- Adopt CI to upstream workflow changes @frenck ([#223](https://github.com/hassio-addons/app-example/pull/223))
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v19 @[renovate[bot]](https://github.com/apps/renovate) ([#217](https://github.com/hassio-addons/app-example/pull/217))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v20 @[renovate[bot]](https://github.com/apps/renovate) ([#220](https://github.com/hassio-addons/app-example/pull/220))
+- ⬆️ Update hassio-addons/workflows action to v2.0.3 @[renovate[bot]](https://github.com/apps/renovate) ([#222](https://github.com/hassio-addons/app-example/pull/222))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v20.0.1 @[renovate[bot]](https://github.com/apps/renovate) ([#221](https://github.com/hassio-addons/app-example/pull/221))
