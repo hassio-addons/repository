@@ -146,9 +146,9 @@ addons:
     target: sabnzbd
     image: ghcr.io/hassio-addons/sabnzbd/{arch}
   ssh:
-    repository: hassio-addons/addon-ssh
+    repository: hassio-addons/app-ssh
     target: ssh
-    image: ghcr.io/hassio-addons/ssh/{arch}
+    image: ghcr.io/hassio-addons/ssh
   sqlite-web:
     repository: hassio-addons/addon-sqlite-web
     target: sqlite-web
