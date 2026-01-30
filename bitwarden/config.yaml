@@ -1,8 +1,8 @@
-name: Vaultwarden (Bitwarden)
-version: 0.25.1
+name: Vaultwarden
+version: 0.26.0
 slug: bitwarden
 description: Open source password management solution
-url: https://github.com/hassio-addons/addon-bitwarden
+url: https://github.com/hassio-addons/app-vaultwarden
 webui: '[PROTO:ssl]://[HOST]:[PORT:7277]'
 init: false
 arch:
@@ -24,4 +24,4 @@ schema:
   certfile: str
   keyfile: str
   request_size_limit: int?
-image: ghcr.io/hassio-addons/bitwarden/{arch}
+image: ghcr.io/hassio-addons/bitwarden
