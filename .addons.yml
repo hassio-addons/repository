@@ -126,9 +126,9 @@ addons:
     target: prowlarr
     image: ghcr.io/hassio-addons/prowlarr/{arch}
   tailscale:
-    repository: hassio-addons/addon-tailscale
+    repository: hassio-addons/app-tailscale
     target: tailscale
-    image: ghcr.io/hassio-addons/tailscale/{arch}
+    image: ghcr.io/hassio-addons/tailscale
   tasmoadmin:
     repository: hassio-addons/addon-tasmoadmin
     target: tasmoadmin
