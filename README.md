@@ -542,7 +542,7 @@ It is a self-hosted monitoring tool like "Uptime Robot"
 
 [:books: Uptime Kuma add-on documentation][addon-doc-uptime-kuma]
 
-### &#10003; [Vaultwarden (Bitwarden)][addon-bitwarden]
+### &#10003; [Vaultwarden][addon-bitwarden]
 
 ![Latest Version][bitwarden-version-shield]
 ![Supports armhf Architecture][bitwarden-armhf-shield]
@@ -553,7 +553,7 @@ It is a self-hosted monitoring tool like "Uptime Robot"
 
 Open source password management solution
 
-[:books: Vaultwarden (Bitwarden) add-on documentation][addon-doc-bitwarden]
+[:books: Vaultwarden add-on documentation][addon-doc-bitwarden]
 
 ### &#10003; [Whisparr][addon-whisparr]
 
@@ -710,7 +710,7 @@ on the correct GitHub repository matching the add-on.
 - [Open an issue for the add-on: Traccar][traccar-issue]
 - [Open an issue for the add-on: UniFi Network Application][unifi-issue]
 - [Open an issue for the add-on: Uptime Kuma][uptime-kuma-issue]
-- [Open an issue for the add-on: Vaultwarden (Bitwarden)][bitwarden-issue]
+- [Open an issue for the add-on: Vaultwarden][bitwarden-issue]
 - [Open an issue for the add-on: Whisparr][whisparr-issue]
 - [Open an issue for the add-on: WireGuard][wireguard-issue]
 - [Open an issue for the add-on: Z-Wave JS UI][zwave-js-ui-issue]
@@ -1106,9 +1106,9 @@ SOFTWARE.
 [uptime-kuma-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [uptime-kuma-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [uptime-kuma-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
-[addon-bitwarden]: https://github.com/hassio-addons/addon-bitwarden/tree/v0.25.1
-[addon-doc-bitwarden]: https://github.com/hassio-addons/addon-bitwarden/blob/v0.25.1/README.md
-[bitwarden-issue]: https://github.com/hassio-addons/addon-bitwarden/issues
+[addon-bitwarden]: https://github.com/hassio-addons/app-vaultwarden/tree/v0.25.1
+[addon-doc-bitwarden]: https://github.com/hassio-addons/app-vaultwarden/blob/v0.25.1/README.md
+[bitwarden-issue]: https://github.com/hassio-addons/app-vaultwarden/issues
 [bitwarden-version-shield]: https://img.shields.io/badge/version-v0.25.1-blue.svg
 [bitwarden-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [bitwarden-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
