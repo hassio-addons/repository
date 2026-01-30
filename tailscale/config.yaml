@@ -1,9 +1,8 @@
 name: Tailscale
-version: 0.26.1
+version: 0.27.0
 slug: tailscale
 description: Zero config VPN for building secure networks
-url: https://github.com/hassio-addons/addon-tailscale
-codenotary: codenotary@frenck.dev
+url: https://github.com/hassio-addons/app-tailscale
 ingress: true
 ingress_port: 0
 ingress_stream: true
@@ -12,7 +11,6 @@ panel_icon: mdi:vpn
 arch:
 - aarch64
 - amd64
-- armv7
 init: false
 hassio_api: true
 host_network: true
@@ -33,6 +31,7 @@ schema:
   advertise_connector: bool?
   advertise_routes:
   - match(^(((25[0-5]|(2[0-4]|1\d|[1-9]?)\d)\.){3}(25[0-5]|(2[0-4]|1\d|[1-9]?)\d)\/(3[0-2]|[12]?\d)|[a-fA-F\d.:]+:[a-fA-F\d.:]+\/(12[0-8]|(1[01]|[1-9]?)\d))$)?
+  exit_node: match(^(?:(?:(?:25[0-5]|(?:2[0-4]|1\d|[1-9]?)\d)\.){3}(?:25[0-5]|(?:2[0-4]|1\d|[1-9]?)\d)|[a-fA-F\d.:]+:[a-fA-F\d.:]+|[a-fA-F\d]{8}(?:-[a-fA-F\d]{4}){3}-[a-fA-F\d]{12}|auto:any)$)?
   log_level: list(trace|debug|info|notice|warning|error|fatal)?
   login_server: url?
   share_homeassistant: list(disabled|serve|funnel)?
@@ -43,4 +42,4 @@ schema:
   - match(^tag:[a-zA-Z][a-zA-Z0-9-]*$)?
   taildrop: bool?
   userspace_networking: bool?
-image: ghcr.io/hassio-addons/tailscale/{arch}
+image: ghcr.io/hassio-addons/tailscale

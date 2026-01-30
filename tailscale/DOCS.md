@@ -1,4 +1,4 @@
-# Home Assistant Community Add-on: Tailscale
+# Home Assistant Community App: Tailscale
 
 Tailscale is a zero config VPN, which installs on any device in minutes,
 including your Home Assistant instance.
@@ -9,7 +9,7 @@ manages firewall rules for you, and works from anywhere you are.
 
 ## Prerequisites
 
-In order to use this add-on, you'll need a Tailscale account.
+In order to use this app, you'll need a Tailscale account.
 
 It is free to use for personal & hobby projects, up to 100 clients/devices on a
 single user account. Sign up using your Google, Microsoft or GitHub account at
@@ -17,40 +17,40 @@ the following URL:
 
 <https://login.tailscale.com/start>
 
-You can also create an account during the add-on installation processes,
+You can also create an account during the app installation processes,
 however, it is nice to know where you need to go later on.
 
 ## Installation
 
-1. Click the Home Assistant My button below to open the add-on on your Home
+1. Click the Home Assistant My button below to open the app on your Home
    Assistant instance.
 
-   [![Open this add-on in your Home Assistant instance.][addon-badge]][addon]
+   [![Open this app in your Home Assistant instance.][addon-badge]][addon]
 
-1. Click the "Install" button to install the add-on.
-1. Start the "Tailscale" add-on.
-1. Check the logs of the "Tailscale" add-on to see if everything went well.
-1. Open the Web UI of the "Tailscale" add-on to complete authentication and
+1. Click the "Install" button to install the app.
+1. Start the "Tailscale" app.
+1. Check the logs of the "Tailscale" app to see if everything went well.
+1. Open the Web UI of the "Tailscale" app to complete authentication and
    couple your Home Assistant instance with your Tailscale account.
    **Note:** Some browsers don't work with this step. It is recommended to
    complete this step on a desktop or laptop computer using the Chrome browser.
-1. Check the logs of the "Tailscale" add-on again, to see if everything went
+1. Check the logs of the "Tailscale" app again, to see if everything went
    well.
 1. Done!
 
 ## Configuration
 
-This add-on has almost no additional configuration options for the
-add-on itself.
+This app has almost no additional configuration options for the
+app itself.
 
 However, when logging in to Tailscale, you can configure your Tailscale
 network right from their interface.
 
 <https://login.tailscale.com/>
 
-The add-on exposes "Exit Node" capabilities that you can enable from your
+The app exposes "Exit Node" capabilities that you can enable from your
 Tailscale account. Additionally, if the Supervisor managed your network (which
-is the default), the add-on will also advertise routes to your subnets on all
+is the default), the app will also advertise routes to your subnets on all
 supported interfaces to Tailscale.
 
 Consider disabling key expiry to avoid losing connection to your Home Assistant
@@ -64,6 +64,7 @@ advertise_connector: true
 advertise_routes:
   - 192.168.1.0/24
   - fd12:3456:abcd::/64
+exit_node: 100.101.102.103
 log_level: info
 login_server: "https://controlplane.tailscale.com"
 share_homeassistant: disabled
@@ -81,7 +82,7 @@ userspace_networking: true
 > Some of the configuration options are also available on Tailscale's web
 > interface through the Web UI, but they are made read only there. You can't
 > change them through the Web UI, because all the changes made there would be
-> lost when the add-on is restarted.
+> lost when the app is restarted.
 
 ### Option: `accept_dns`
 
@@ -91,7 +92,7 @@ disable, you can do so using this option.
 When not set, this option is enabled by default.
 
 MagicDNS may cause issues if you run things like Pi-hole or AdGuard Home
-on the same machine as this add-on. In such cases disabling `accept_dns`
+on the same machine as this app. In such cases disabling `accept_dns`
 will help. You can still leverage MagicDNS on other devices on your network,
 by adding `100.100.100.100` as a DNS server in your Pi-hole or AdGuard Home.
 
@@ -114,6 +115,10 @@ route all your public internet traffic as needed, like a consumer VPN.
 More information: [Exit nodes][tailscale_info_exit_nodes]
 
 When not set, this option is enabled by default.
+
+**Note:** You can't advertise this device as an exit node and at the same time
+specify an exit node to use. See also the "Option: `exit_node`" section of this
+documentation.
 
 ### Option: `advertise_connector`
 
@@ -144,17 +149,38 @@ If you want to disable this option, specify an empty list in the configuration
 
 More information: [Subnet routers][tailscale_info_subnets]
 
-When not set, the add-on by default will advertise routes to your subnets on all
+When not set, the app by default will advertise routes to your subnets on all
 supported interfaces.
+
+### Option: `exit_node`
+
+This option allows you to specify another Tailscale instance as an exit node for
+this device.
+
+By setting a device on your network as an exit node, you can use it to
+route all your public internet traffic as needed, like a consumer VPN.
+
+More information: [Exit nodes][tailscale_info_exit_nodes]
+
+This option is unused by default. To make it visible on the configuration
+editor, click "Show unused optional configuration options" at the bottom of the
+page.
+
+**Note:** You can't advertise this device as an exit node and at the same time
+specify an exit node to use. See also the "Option: `advertise_exit_node`"
+section of this documentation.
+
+**Note:** The `exit-node-allow-lan-access` option is always enabled when an exit
+node is specified. This is required by the Home Assistant environment.
 
 ### Option: `log_level`
 
-Optionally enable tailscaled debug messages in the add-on's log. Turn it on only
+Optionally enable tailscaled debug messages in the app's log. Turn it on only
 in case you are troubleshooting, because Tailscale's daemon is quite chatty. If
-`log_level` is set to `info` or less severe level, the add-on also opts out of
+`log_level` is set to `info` or less severe level, the app also opts out of
 client log upload to log.tailscale.io.
 
-The `log_level` option controls the level of log output by the addon and can
+The `log_level` option controls the level of log output by the app and can
 be changed to be more or less verbose, which might be useful when you are
 dealing with an unknown issue. Possible values are:
 
@@ -164,7 +190,7 @@ dealing with an unknown issue. Possible values are:
 - `notice`: Normal but significant events.
 - `warning`: Exceptional occurrences that are not errors.
 - `error`: Runtime errors that do not require immediate action.
-- `fatal`: Something went terribly wrong. Add-on becomes unusable.
+- `fatal`: Something went terribly wrong. App becomes unusable.
 
 Please note that each level automatically includes log messages from a
 more severe level, e.g., `debug` also shows `info` messages. By default,
@@ -211,11 +237,12 @@ More information: [Enabling HTTPS][tailscale_info_https],
 1. Configure Home Assistant to be accessible through an HTTP connection (this is
    the default). See [HTTP integration documentation][http_integration] for more
    information. If you still want to use another HTTPS connection to access Home
-   Assistant, please use a reverse proxy add-on.
+   Assistant, please use a reverse proxy app.
 
 1. Home Assistant, by default, blocks requests from reverse proxies, like the
    Tailscale Serve. To enable it, add the following lines to your
-   `configuration.yaml`, without changing anything:
+   `configuration.yaml`, without changing anything (don't forget to restart Home
+   Assistant after the changes are saved):
 
    ```yaml
    http:
@@ -237,7 +264,7 @@ More information: [Enabling HTTPS][tailscale_info_https],
      [Tailnet policy file requirement][tailscale_info_funnel_policy_requirement]
      for more information.
 
-1. Restart the add-on.
+1. Restart the app.
 
 **Note**: After initial setup, it can take up to 10 minutes for the domain to
 be publicly available.
@@ -270,7 +297,7 @@ When not set, this option is enabled by default.
 To support advanced [Site-to-site networking][tailscale_info_site_to_site] (e.g.
 to traverse multiple networks), you can disable this functionality, and follow
 steps in the [Site-to-site networking][tailscale_info_site_to_site] guide (Note:
-The add-on already handles "IP address forwarding" and "Clamp the MSS to the
+The app already handles "IP address forwarding" and "Clamp the MSS to the
 MTU" for you).
 
 **Note:** Only disable this option if you fully understand the implications.
@@ -295,7 +322,7 @@ More information: [Tags][tailscale_info_tags]
 
 ### Option: `taildrop`
 
-This add-on supports [Tailscale's Taildrop][tailscale_info_taildrop] feature,
+This app supports [Tailscale's Taildrop][tailscale_info_taildrop] feature,
 which allows you to send files to your Home Assistant instance from other
 Tailscale devices.
 
@@ -305,7 +332,7 @@ Received files are stored in the `/share/taildrop` directory.
 
 ### Option: `userspace_networking`
 
-The add-on uses [userspace networking mode][tailscale_info_userspace_networking]
+The app uses [userspace networking mode][tailscale_info_userspace_networking]
 to make your Home Assistant instance (and optionally the local subnets)
 accessible within your tailnet.
 
@@ -319,7 +346,7 @@ Assistant's DNS options also.
 
 If you want to access other clients on your tailnet even from your local subnet,
 follow steps in the [Site-to-site networking][tailscale_info_site_to_site] guide
-(Note: The add-on already handles "IP address forwarding" and "Clamp the MSS to
+(Note: The app already handles "IP address forwarding" and "Clamp the MSS to
 the MTU" for you).
 
 **Note:** In case your local subnets collide with subnet routes within your
@@ -327,7 +354,7 @@ tailnet, your local network access has priority, and these addresses won't be
 routed toward your tailnet. This will prevent your Home Assistant instance from
 losing network connection. This also means that using the same subnet on
 multiple nodes for load balancing and failover is impossible with the current
-add-on behavior.
+app behavior.
 
 **Note:** The `userspace_networking` option can remain enabled if you only need
 one-way access from tailnet clients to your local subnet, without requiring
@@ -370,7 +397,7 @@ Got questions?
 
 You have several options to get them answered:
 
-- The [Home Assistant Community Add-ons Discord chat server][discord] for add-on
+- The [Home Assistant Community Apps Discord chat server][discord] for app
   support and feature requests.
 - The [Home Assistant Discord chat server][discord-ha] for general Home
   Assistant discussions and questions.
@@ -390,7 +417,7 @@ check [the contributor's page][contributors].
 
 MIT License
 
-Copyright (c) 2021-2025 Franck Nijhof
+Copyright (c) 2021-2026 Franck Nijhof
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -412,16 +439,16 @@ SOFTWARE.
 
 [addon-badge]: https://my.home-assistant.io/badges/supervisor_addon.svg
 [addon]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=a0d7b954_tailscale&repository_url=https%3A%2F%2Fgithub.com%2Fhassio-addons%2Frepository
-[contributors]: https://github.com/hassio-addons/addon-tailscale/graphs/contributors
+[contributors]: https://github.com/hassio-addons/app-tailscale/graphs/contributors
 [discord-ha]: https://discord.gg/c5DvZ4e
 [discord]: https://discord.me/hassioaddons
 [forum]: https://community.home-assistant.io/?u=frenck
 [frenck]: https://github.com/frenck
 [headscale]: https://github.com/juanfont/headscale
 [http_integration]: https://www.home-assistant.io/integrations/http/
-[issue]: https://github.com/hassio-addons/addon-tailscale/issues
+[issue]: https://github.com/hassio-addons/app-tailscale/issues
 [reddit]: https://reddit.com/r/homeassistant
-[releases]: https://github.com/hassio-addons/addon-tailscale/releases
+[releases]: https://github.com/hassio-addons/app-tailscale/releases
 [semver]: https://semver.org/spec/v2.0.0.html
 [tailscale_acls]: https://login.tailscale.com/admin/acls
 [tailscale_dns]: https://login.tailscale.com/admin/dns

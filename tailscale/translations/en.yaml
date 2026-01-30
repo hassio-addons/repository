@@ -32,13 +32,21 @@ configuration:
     description: >-
       This option allows you to advertise routes to subnets (accessible on the network
       your device is connected to) to other clients on your tailnet.
-      When not set, the add-on by default will advertise routes to your subnets on all
+      When not set, the app by default will advertise routes to your subnets on all
       supported interfaces.
+  exit_node:
+    name: Use exit node
+    description: >-
+      This option allows you to specify another Tailscale instance as an exit node for
+      this device.
+      By setting a device on your network as an exit node, you can use it to
+      route all your public internet traffic as needed, like a consumer VPN.
+      This option is unused by default.
   log_level:
     name: Log level
     description: >-
-      Controls the level of log details the add-on provides.
-      This only applies to the add-on itself, not Tailscale.
+      Controls the level of log details the app provides.
+      This only applies to the app itself, not Tailscale.
   login_server:
     name: Login server
     description: >-
