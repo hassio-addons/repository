@@ -6,19 +6,23 @@ on:
   repository_dispatch:
     types: ["update"]
 
+permissions:
+  contents: read
+
 jobs:
   workflows:
-    uses: hassio-addons/workflows/.github/workflows/repository-updater.yaml@main
+    uses: hassio-addons/workflows/.github/workflows/repository-updater.yaml@3d5603e6f0966551a0c99493171cc2808349b28e # v2.0.4
     secrets:
       UPDATER_TOKEN: ${{ secrets.UPDATER_TOKEN }}
 
   announce:
-    name: Announce add-on update
+    name: Announce app update
     needs: workflows
     runs-on: ubuntu-latest
+    permissions: {}
     steps:
-      - name: 📢 Announce on Discord server
-        uses: sarisia/actions-status-discord@v1.16.0
+      - name: Announce on Discord server
+        uses: sarisia/actions-status-discord@eb045afee445dc055c18d3d90bd0f244fd062708 # v1.16.0
         with:
           webhook: ${{ secrets.DISCORD_WEBHOOK }}
           nodetail: true
@@ -29,7 +33,7 @@ jobs:
           image: |
             https://raw.githubusercontent.com/${{ github.repository }}/master/${{ github.event.client_payload.addon }}/logo.png
           description: |
-            A new version of the ${{ github.event.client_payload.name }} add-on has been published.
+            A new version of the ${{ github.event.client_payload.name }} app has been published.
 
             **Version**: `${{ github.event.client_payload.version }}`
             **Release notes**:

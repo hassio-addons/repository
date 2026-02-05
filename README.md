@@ -1,4 +1,4 @@
-# Home Assistant Community Add-ons
+# Home Assistant Community Apps
 
 ![Project Stage][project-stage-shield]
 ![Maintenance][maintenance-shield]
@@ -9,12 +9,12 @@
 
 ## About
 
-Home Assistant allows anyone to create add-on repositories to share their
-add-ons for Home Assistant easily. This repository is one of those repositories,
-providing extra Home Assistant add-ons for your installation.
+Home Assistant allows anyone to create app repositories to share their
+apps for Home Assistant easily. This repository is one of those repositories,
+providing extra Home Assistant apps for your installation.
 
 The primary goal of this project is to provide you (as a Home Assistant user)
-with additional, high quality, add-ons that allow you to take your automated
+with additional, high quality, apps that allow you to take your automated
 home to the next level.
 
 ## Installation
@@ -23,9 +23,9 @@ In general, there is no need to install this repository on your
 Home Assistant instance. It is activated and added by Home Assistant
 by default.
 
-However, if the repository is missing on your setup, adding this add-ons
+However, if the repository is missing on your setup, adding this apps
 repository to your Home Assistant instance is pretty easy. In the
-Home Assistant add-on store, a possibility to add a repository is provided.
+Home Assistant app store, a possibility to add a repository is provided.
 
 Use the following URL to add this repository:
 
@@ -33,7 +33,7 @@ Use the following URL to add this repository:
 https://github.com/hassio-addons/repository
 ```
 
-## Add-ons provided by this repository
+## Apps provided by this repository
 
 ### &#10003; [AdGuard Home][addon-adguard]
 
@@ -46,7 +46,7 @@ https://github.com/hassio-addons/repository
 
 Network-wide ads & trackers blocking DNS server
 
-[:books: AdGuard Home add-on documentation][addon-doc-adguard]
+[:books: AdGuard Home app documentation][addon-doc-adguard]
 
 ### &#10003; [Advanced SSH & Web Terminal][addon-ssh]
 
@@ -59,7 +59,7 @@ Network-wide ads & trackers blocking DNS server
 
 A supercharged SSH & Web Terminal access to your Home Assistant instance
 
-[:books: Advanced SSH & Web Terminal add-on documentation][addon-doc-ssh]
+[:books: Advanced SSH & Web Terminal app documentation][addon-doc-ssh]
 
 ### &#10003; [AirCast][addon-aircast]
 
@@ -72,7 +72,7 @@ A supercharged SSH & Web Terminal access to your Home Assistant instance
 
 AirPlay capabilities for your Chromecast devices.
 
-[:books: AirCast add-on documentation][addon-doc-aircast]
+[:books: AirCast app documentation][addon-doc-aircast]
 
 ### &#10003; [AirSonos][addon-airsonos]
 
@@ -85,7 +85,7 @@ AirPlay capabilities for your Chromecast devices.
 
 AirPlay capabilities for your Sonos (and UPnP) devices.
 
-[:books: AirSonos add-on documentation][addon-doc-airsonos]
+[:books: AirSonos app documentation][addon-doc-airsonos]
 
 ### &#10003; [AppDaemon][addon-appdaemon]
 
@@ -98,7 +98,7 @@ AirPlay capabilities for your Sonos (and UPnP) devices.
 
 Python Apps and Dashboard using AppDaemon 4.x for Home Assistant
 
-[:books: AppDaemon add-on documentation][addon-doc-appdaemon]
+[:books: AppDaemon app documentation][addon-doc-appdaemon]
 
 ### &#10003; [Bazarr][addon-bazarr]
 
@@ -111,7 +111,7 @@ Python Apps and Dashboard using AppDaemon 4.x for Home Assistant
 
 Download and manage subtitles for Sonarr and Radarr
 
-[:books: Bazarr add-on documentation][addon-doc-bazarr]
+[:books: Bazarr app documentation][addon-doc-bazarr]
 
 ### &#10003; [Bookstack][addon-bookstack]
 
@@ -124,7 +124,7 @@ Download and manage subtitles for Sonarr and Radarr
 
 Simple & Free Wiki Software
 
-[:books: Bookstack add-on documentation][addon-doc-bookstack]
+[:books: Bookstack app documentation][addon-doc-bookstack]
 
 ### &#10003; [EMQX][addon-emqx]
 
@@ -137,7 +137,7 @@ Simple & Free Wiki Software
 
 The most scalable open-source MQTT broker for IoT. An alternative for the Mosquitto add-on
 
-[:books: EMQX add-on documentation][addon-doc-emqx]
+[:books: EMQX app documentation][addon-doc-emqx]
 
 ### &#10003; [Example][addon-example]
 
@@ -150,7 +150,7 @@ The most scalable open-source MQTT broker for IoT. An alternative for the Mosqui
 
 Example app by Home Assistant Community Apps
 
-[:books: Example add-on documentation][addon-doc-example]
+[:books: Example app documentation][addon-doc-example]
 
 ### &#10003; [FTP][addon-ftp]
 
@@ -163,7 +163,7 @@ Example app by Home Assistant Community Apps
 
 A secure and fast FTP server for Home Assistant
 
-[:books: FTP add-on documentation][addon-doc-ftp]
+[:books: FTP app documentation][addon-doc-ftp]
 
 ### &#10003; [Folding@home][addon-foldingathome]
 
@@ -176,7 +176,7 @@ A secure and fast FTP server for Home Assistant
 
 Fighting disease with a world wide distributed super computer
 
-[:books: Folding@home add-on documentation][addon-doc-foldingathome]
+[:books: Folding@home app documentation][addon-doc-foldingathome]
 
 ### &#10003; [Glances][addon-glances]
 
@@ -189,7 +189,7 @@ Fighting disease with a world wide distributed super computer
 
 A cross-platform system monitoring tool
 
-[:books: Glances add-on documentation][addon-doc-glances]
+[:books: Glances app documentation][addon-doc-glances]
 
 ### &#10003; [Grafana][addon-grafana]
 
@@ -202,7 +202,7 @@ A cross-platform system monitoring tool
 
 The open platform for beautiful analytics and monitoring
 
-[:books: Grafana add-on documentation][addon-doc-grafana]
+[:books: Grafana app documentation][addon-doc-grafana]
 
 ### &#10003; [Grocy][addon-grocy]
 
@@ -215,7 +215,7 @@ The open platform for beautiful analytics and monitoring
 
 ERP beyond your fridge! A groceries & household management solution for your home
 
-[:books: Grocy add-on documentation][addon-doc-grocy]
+[:books: Grocy app documentation][addon-doc-grocy]
 
 ### &#10003; [InfluxDB][addon-influxdb]
 
@@ -228,7 +228,7 @@ ERP beyond your fridge! A groceries & household management solution for your hom
 
 Scalable datastore for metrics, events, and real-time analytics
 
-[:books: InfluxDB add-on documentation][addon-doc-influxdb]
+[:books: InfluxDB app documentation][addon-doc-influxdb]
 
 ### &#10003; [JupyterLab][addon-jupyterlab]
 
@@ -241,7 +241,7 @@ Scalable datastore for metrics, events, and real-time analytics
 
 Create documents containing live code, equations, visualizations, and explanatory text
 
-[:books: JupyterLab add-on documentation][addon-doc-jupyterlab]
+[:books: JupyterLab app documentation][addon-doc-jupyterlab]
 
 ### &#10003; [Lidarr][addon-lidarr]
 
@@ -254,7 +254,7 @@ Create documents containing live code, equations, visualizations, and explanator
 
 Looks and smells like Sonarr but made for music
 
-[:books: Lidarr add-on documentation][addon-doc-lidarr]
+[:books: Lidarr app documentation][addon-doc-lidarr]
 
 ### &#10003; [Log Viewer][addon-log-viewer]
 
@@ -267,7 +267,7 @@ Looks and smells like Sonarr but made for music
 
 Browser-based log utility for Home Assistant
 
-[:books: Log Viewer add-on documentation][addon-doc-log-viewer]
+[:books: Log Viewer app documentation][addon-doc-log-viewer]
 
 ### &#10003; [MQTT IO][addon-mqtt-io]
 
@@ -280,7 +280,7 @@ Browser-based log utility for Home Assistant
 
 Expose GPIO modules and digital sensors via MQTT for remote control and monitoring.
 
-[:books: MQTT IO add-on documentation][addon-doc-mqtt-io]
+[:books: MQTT IO app documentation][addon-doc-mqtt-io]
 
 ### &#10003; [Network UPS Tools][addon-nut]
 
@@ -293,7 +293,7 @@ Expose GPIO modules and digital sensors via MQTT for remote control and monitori
 
 Manage battery backup (UPS) devices
 
-[:books: Network UPS Tools add-on documentation][addon-doc-nut]
+[:books: Network UPS Tools app documentation][addon-doc-nut]
 
 ### &#10003; [Nginx Proxy Manager][addon-nginxproxymanager]
 
@@ -306,7 +306,7 @@ Manage battery backup (UPS) devices
 
 Manage Nginx proxy hosts with a simple, powerful interface
 
-[:books: Nginx Proxy Manager add-on documentation][addon-doc-nginxproxymanager]
+[:books: Nginx Proxy Manager app documentation][addon-doc-nginxproxymanager]
 
 ### &#10003; [Node-RED][addon-node-red]
 
@@ -319,7 +319,7 @@ Manage Nginx proxy hosts with a simple, powerful interface
 
 Flow-based programming for the Internet of Things
 
-[:books: Node-RED add-on documentation][addon-doc-node-red]
+[:books: Node-RED app documentation][addon-doc-node-red]
 
 ### &#10003; [Overseerr][addon-overseerr]
 
@@ -332,7 +332,7 @@ Flow-based programming for the Internet of Things
 
 Request management and media discovery tool for the Plex ecosystem
 
-[:books: Overseerr add-on documentation][addon-doc-overseerr]
+[:books: Overseerr app documentation][addon-doc-overseerr]
 
 ### &#10003; [Plex Media Server][addon-plex]
 
@@ -345,7 +345,7 @@ Request management and media discovery tool for the Plex ecosystem
 
 Recorded media, live TV, online news, and podcasts ready to stream.
 
-[:books: Plex Media Server add-on documentation][addon-doc-plex]
+[:books: Plex Media Server app documentation][addon-doc-plex]
 
 ### &#10003; [Prowlarr][addon-prowlarr]
 
@@ -358,7 +358,7 @@ Recorded media, live TV, online news, and podcasts ready to stream.
 
 Indexer manager/proxy built on the popular arr stack to integrate with your various PVR apps
 
-[:books: Prowlarr add-on documentation][addon-doc-prowlarr]
+[:books: Prowlarr app documentation][addon-doc-prowlarr]
 
 ### &#10003; [Radarr][addon-radarr]
 
@@ -371,7 +371,7 @@ Indexer manager/proxy built on the popular arr stack to integrate with your vari
 
 Movie organizer/manager for usenet and torrent users
 
-[:books: Radarr add-on documentation][addon-doc-radarr]
+[:books: Radarr app documentation][addon-doc-radarr]
 
 ### &#10003; [SABnzbd][addon-sabnzbd]
 
@@ -384,7 +384,7 @@ Movie organizer/manager for usenet and torrent users
 
 Free and easy binary newsreader
 
-[:books: SABnzbd add-on documentation][addon-doc-sabnzbd]
+[:books: SABnzbd app documentation][addon-doc-sabnzbd]
 
 ### &#10003; [SQLite Web][addon-sqlite-web]
 
@@ -397,7 +397,7 @@ Free and easy binary newsreader
 
 Explore your SQLite database
 
-[:books: SQLite Web add-on documentation][addon-doc-sqlite-web]
+[:books: SQLite Web app documentation][addon-doc-sqlite-web]
 
 ### &#10003; [Sonarr][addon-sonarr]
 
@@ -410,7 +410,7 @@ Explore your SQLite database
 
 Smart PVR for newsgroup and bittorrent users
 
-[:books: Sonarr add-on documentation][addon-doc-sonarr]
+[:books: Sonarr app documentation][addon-doc-sonarr]
 
 ### &#10003; [Spotify Connect][addon-spotify]
 
@@ -423,7 +423,7 @@ Smart PVR for newsgroup and bittorrent users
 
 Play Spotify music on your Home Assistant device
 
-[:books: Spotify Connect add-on documentation][addon-doc-spotify]
+[:books: Spotify Connect app documentation][addon-doc-spotify]
 
 ### &#10003; [Studio Code Server][addon-vscode]
 
@@ -436,7 +436,7 @@ Play Spotify music on your Home Assistant device
 
 Fully featured Visual Studio Code (VSCode) experience integrated in the Home Assistant frontend.
 
-[:books: Studio Code Server add-on documentation][addon-doc-vscode]
+[:books: Studio Code Server app documentation][addon-doc-vscode]
 
 ### &#10003; [Tailscale][addon-tailscale]
 
@@ -449,7 +449,7 @@ Fully featured Visual Studio Code (VSCode) experience integrated in the Home Ass
 
 Zero config VPN for building secure networks
 
-[:books: Tailscale add-on documentation][addon-doc-tailscale]
+[:books: Tailscale app documentation][addon-doc-tailscale]
 
 ### &#10003; [TasmoAdmin][addon-tasmoadmin]
 
@@ -462,7 +462,7 @@ Zero config VPN for building secure networks
 
 Centrally manage all your Sonoff-Tasmota devices
 
-[:books: TasmoAdmin add-on documentation][addon-doc-tasmoadmin]
+[:books: TasmoAdmin app documentation][addon-doc-tasmoadmin]
 
 ### &#10003; [Tautulli][addon-tautulli]
 
@@ -475,7 +475,7 @@ Centrally manage all your Sonoff-Tasmota devices
 
 Monitoring and tracking tool for Plex Media Server
 
-[:books: Tautulli add-on documentation][addon-doc-tautulli]
+[:books: Tautulli app documentation][addon-doc-tautulli]
 
 ### &#10003; [The Lounge][addon-thelounge]
 
@@ -488,7 +488,7 @@ Monitoring and tracking tool for Plex Media Server
 
 A self-hosted web IRC client
 
-[:books: The Lounge add-on documentation][addon-doc-thelounge]
+[:books: The Lounge app documentation][addon-doc-thelounge]
 
 ### &#10003; [Tor][addon-tor]
 
@@ -501,7 +501,7 @@ A self-hosted web IRC client
 
 Protect your privacy and access Home Assistant via Tor
 
-[:books: Tor add-on documentation][addon-doc-tor]
+[:books: Tor app documentation][addon-doc-tor]
 
 ### &#10003; [Traccar][addon-traccar]
 
@@ -514,7 +514,7 @@ Protect your privacy and access Home Assistant via Tor
 
 Modern GPS Tracking Platform
 
-[:books: Traccar add-on documentation][addon-doc-traccar]
+[:books: Traccar app documentation][addon-doc-traccar]
 
 ### &#10003; [UniFi Network Application][addon-unifi]
 
@@ -527,7 +527,7 @@ Modern GPS Tracking Platform
 
 Manage your UniFi network using a web browser
 
-[:books: UniFi Network Application add-on documentation][addon-doc-unifi]
+[:books: UniFi Network Application app documentation][addon-doc-unifi]
 
 ### &#10003; [Uptime Kuma][addon-uptime-kuma]
 
@@ -540,7 +540,7 @@ Manage your UniFi network using a web browser
 
 It is a self-hosted monitoring tool like "Uptime Robot"
 
-[:books: Uptime Kuma add-on documentation][addon-doc-uptime-kuma]
+[:books: Uptime Kuma app documentation][addon-doc-uptime-kuma]
 
 ### &#10003; [Vaultwarden][addon-bitwarden]
 
@@ -553,7 +553,7 @@ It is a self-hosted monitoring tool like "Uptime Robot"
 
 Open source password management solution
 
-[:books: Vaultwarden add-on documentation][addon-doc-bitwarden]
+[:books: Vaultwarden app documentation][addon-doc-bitwarden]
 
 ### &#10003; [Whisparr][addon-whisparr]
 
@@ -566,7 +566,7 @@ Open source password management solution
 
 Whisparr is an adult video collection manager for Usenet and BitTorrent users
 
-[:books: Whisparr add-on documentation][addon-doc-whisparr]
+[:books: Whisparr app documentation][addon-doc-whisparr]
 
 ### &#10003; [WireGuard][addon-wireguard]
 
@@ -579,7 +579,7 @@ Whisparr is an adult video collection manager for Usenet and BitTorrent users
 
 Fast, modern, secure VPN tunnel
 
-[:books: WireGuard add-on documentation][addon-doc-wireguard]
+[:books: WireGuard app documentation][addon-doc-wireguard]
 
 ### &#10003; [Z-Wave JS UI][addon-zwave-js-ui]
 
@@ -592,7 +592,7 @@ Fast, modern, secure VPN tunnel
 
 Fully configurable Z-Wave JS gateway and control panel
 
-[:books: Z-Wave JS UI add-on documentation][addon-doc-zwave-js-ui]
+[:books: Z-Wave JS UI app documentation][addon-doc-zwave-js-ui]
 
 ### &#10003; [ZeroTier One][addon-zerotier]
 
@@ -605,7 +605,7 @@ Fully configurable Z-Wave JS gateway and control panel
 
 Radically simplify your network with a virtual networking layer that works the same everywhere
 
-[:books: ZeroTier One add-on documentation][addon-doc-zerotier]
+[:books: ZeroTier One app documentation][addon-doc-zerotier]
 
 ### &#10003; [chrony][addon-chrony]
 
@@ -618,7 +618,7 @@ Radically simplify your network with a virtual networking layer that works the s
 
 A local NTP (Network Time Protocol) server for cameras etc.
 
-[:books: chrony add-on documentation][addon-doc-chrony]
+[:books: chrony app documentation][addon-doc-chrony]
 
 ### &#10003; [motionEye][addon-motioneye]
 
@@ -631,7 +631,7 @@ A local NTP (Network Time Protocol) server for cameras etc.
 
 Simple, elegant and feature-rich CCTV/NVR for your cameras
 
-[:books: motionEye add-on documentation][addon-doc-motioneye]
+[:books: motionEye app documentation][addon-doc-motioneye]
 
 ### &#10003; [phpMyAdmin][addon-phpmyadmin]
 
@@ -644,7 +644,7 @@ Simple, elegant and feature-rich CCTV/NVR for your cameras
 
 A web interface for the official MariaDB add-on
 
-[:books: phpMyAdmin add-on documentation][addon-doc-phpmyadmin]
+[:books: phpMyAdmin app documentation][addon-doc-phpmyadmin]
 
 ## Releases
 
@@ -662,72 +662,72 @@ Got questions?
 
 You have several options to get them answered:
 
-- The Home Assistant Community Add-ons [Discord Chat Server][discord]
+- The Home Assistant Community Apps [Discord Chat Server][discord]
 - The Home Assistant [Community Forum][forum].
 - The Home Assistant [Discord Chat Server][discord-ha].
 - Join the [Reddit subreddit][reddit] in [/r/homeassistant][reddit]
 
 You could also open an issue here on GitHub. Note, we use a separate
-GitHub repository for each add-on. Please ensure you are creating the issue
-on the correct GitHub repository matching the add-on.
+GitHub repository for each app. Please ensure you are creating the issue
+on the correct GitHub repository matching the app.
 
-- [Open an issue for the add-on: AdGuard Home][adguard-issue]
-- [Open an issue for the add-on: Advanced SSH & Web Terminal][ssh-issue]
-- [Open an issue for the add-on: AirCast][aircast-issue]
-- [Open an issue for the add-on: AirSonos][airsonos-issue]
-- [Open an issue for the add-on: AppDaemon][appdaemon-issue]
-- [Open an issue for the add-on: Bazarr][bazarr-issue]
-- [Open an issue for the add-on: Bookstack][bookstack-issue]
-- [Open an issue for the add-on: EMQX][emqx-issue]
-- [Open an issue for the add-on: Example][example-issue]
-- [Open an issue for the add-on: FTP][ftp-issue]
-- [Open an issue for the add-on: Folding@home][foldingathome-issue]
-- [Open an issue for the add-on: Glances][glances-issue]
-- [Open an issue for the add-on: Grafana][grafana-issue]
-- [Open an issue for the add-on: Grocy][grocy-issue]
-- [Open an issue for the add-on: InfluxDB][influxdb-issue]
-- [Open an issue for the add-on: JupyterLab][jupyterlab-issue]
-- [Open an issue for the add-on: Lidarr][lidarr-issue]
-- [Open an issue for the add-on: Log Viewer][log-viewer-issue]
-- [Open an issue for the add-on: MQTT IO][mqtt-io-issue]
-- [Open an issue for the add-on: Network UPS Tools][nut-issue]
-- [Open an issue for the add-on: Nginx Proxy Manager][nginxproxymanager-issue]
-- [Open an issue for the add-on: Node-RED][node-red-issue]
-- [Open an issue for the add-on: Overseerr][overseerr-issue]
-- [Open an issue for the add-on: Plex Media Server][plex-issue]
-- [Open an issue for the add-on: Prowlarr][prowlarr-issue]
-- [Open an issue for the add-on: Radarr][radarr-issue]
-- [Open an issue for the add-on: SABnzbd][sabnzbd-issue]
-- [Open an issue for the add-on: SQLite Web][sqlite-web-issue]
-- [Open an issue for the add-on: Sonarr][sonarr-issue]
-- [Open an issue for the add-on: Spotify Connect][spotify-issue]
-- [Open an issue for the add-on: Studio Code Server][vscode-issue]
-- [Open an issue for the add-on: Tailscale][tailscale-issue]
-- [Open an issue for the add-on: TasmoAdmin][tasmoadmin-issue]
-- [Open an issue for the add-on: Tautulli][tautulli-issue]
-- [Open an issue for the add-on: The Lounge][thelounge-issue]
-- [Open an issue for the add-on: Tor][tor-issue]
-- [Open an issue for the add-on: Traccar][traccar-issue]
-- [Open an issue for the add-on: UniFi Network Application][unifi-issue]
-- [Open an issue for the add-on: Uptime Kuma][uptime-kuma-issue]
-- [Open an issue for the add-on: Vaultwarden][bitwarden-issue]
-- [Open an issue for the add-on: Whisparr][whisparr-issue]
-- [Open an issue for the add-on: WireGuard][wireguard-issue]
-- [Open an issue for the add-on: Z-Wave JS UI][zwave-js-ui-issue]
-- [Open an issue for the add-on: ZeroTier One][zerotier-issue]
-- [Open an issue for the add-on: chrony][chrony-issue]
-- [Open an issue for the add-on: motionEye][motioneye-issue]
-- [Open an issue for the add-on: phpMyAdmin][phpmyadmin-issue]
+- [Open an issue for the app: AdGuard Home][adguard-issue]
+- [Open an issue for the app: Advanced SSH & Web Terminal][ssh-issue]
+- [Open an issue for the app: AirCast][aircast-issue]
+- [Open an issue for the app: AirSonos][airsonos-issue]
+- [Open an issue for the app: AppDaemon][appdaemon-issue]
+- [Open an issue for the app: Bazarr][bazarr-issue]
+- [Open an issue for the app: Bookstack][bookstack-issue]
+- [Open an issue for the app: EMQX][emqx-issue]
+- [Open an issue for the app: Example][example-issue]
+- [Open an issue for the app: FTP][ftp-issue]
+- [Open an issue for the app: Folding@home][foldingathome-issue]
+- [Open an issue for the app: Glances][glances-issue]
+- [Open an issue for the app: Grafana][grafana-issue]
+- [Open an issue for the app: Grocy][grocy-issue]
+- [Open an issue for the app: InfluxDB][influxdb-issue]
+- [Open an issue for the app: JupyterLab][jupyterlab-issue]
+- [Open an issue for the app: Lidarr][lidarr-issue]
+- [Open an issue for the app: Log Viewer][log-viewer-issue]
+- [Open an issue for the app: MQTT IO][mqtt-io-issue]
+- [Open an issue for the app: Network UPS Tools][nut-issue]
+- [Open an issue for the app: Nginx Proxy Manager][nginxproxymanager-issue]
+- [Open an issue for the app: Node-RED][node-red-issue]
+- [Open an issue for the app: Overseerr][overseerr-issue]
+- [Open an issue for the app: Plex Media Server][plex-issue]
+- [Open an issue for the app: Prowlarr][prowlarr-issue]
+- [Open an issue for the app: Radarr][radarr-issue]
+- [Open an issue for the app: SABnzbd][sabnzbd-issue]
+- [Open an issue for the app: SQLite Web][sqlite-web-issue]
+- [Open an issue for the app: Sonarr][sonarr-issue]
+- [Open an issue for the app: Spotify Connect][spotify-issue]
+- [Open an issue for the app: Studio Code Server][vscode-issue]
+- [Open an issue for the app: Tailscale][tailscale-issue]
+- [Open an issue for the app: TasmoAdmin][tasmoadmin-issue]
+- [Open an issue for the app: Tautulli][tautulli-issue]
+- [Open an issue for the app: The Lounge][thelounge-issue]
+- [Open an issue for the app: Tor][tor-issue]
+- [Open an issue for the app: Traccar][traccar-issue]
+- [Open an issue for the app: UniFi Network Application][unifi-issue]
+- [Open an issue for the app: Uptime Kuma][uptime-kuma-issue]
+- [Open an issue for the app: Vaultwarden][bitwarden-issue]
+- [Open an issue for the app: Whisparr][whisparr-issue]
+- [Open an issue for the app: WireGuard][wireguard-issue]
+- [Open an issue for the app: Z-Wave JS UI][zwave-js-ui-issue]
+- [Open an issue for the app: ZeroTier One][zerotier-issue]
+- [Open an issue for the app: chrony][chrony-issue]
+- [Open an issue for the app: motionEye][motioneye-issue]
+- [Open an issue for the app: phpMyAdmin][phpmyadmin-issue]
 
-For a general repository issue or add-on ideas [open an issue here][issue]
+For a general repository issue or app ideas [open an issue here][issue]
 
-## Adding a new add-on
+## Adding a new app
 
-We are currently not accepting third party add-ons to this repository.
+We are currently not accepting third party apps to this repository.
 
 For questions, please contact [Franck Nijhof][frenck]:
 
-- Drop him an email: frenck@addons.community
+- Drop him an email: opensource@frenck.dev
 - Chat with him on [Discord Chat][discord]
 - Message him via the forums: [frenck][forum-frenck]
 
@@ -735,7 +735,7 @@ For questions, please contact [Franck Nijhof][frenck]:
 
 MIT License
 
-Copyright (c) 2017-2024 Franck Nijhof
+Copyright (c) 2017-2026 Franck Nijhof
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -1191,7 +1191,7 @@ SOFTWARE.
 [gitlabci]: https://gitlab.com/hassio-addons/repository/pipelines
 [issue]: https://github.com/hassio-addons/repository/issues
 [license-shield]: https://img.shields.io/github/license/hassio-addons/repository.svg
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2024.svg
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2026.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
 [reddit]: https://reddit.com/r/homeassistant
 [semver]: http://semver.org/spec/v2.0.0.html

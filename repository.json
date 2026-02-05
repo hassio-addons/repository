@@ -1,5 +1,5 @@
 {
-  "name": "Home Assistant Community Add-ons",
-  "url": "https://addons.community",
-  "maintainer": "Franck Nijhof <frenck@addons.community>"
+  "name": "Home Assistant Community Apps",
+  "url": "https://frenck.dev/home-assistant-apps",
+  "maintainer": "Franck Nijhof <opensource@frenck.dev>"
 }

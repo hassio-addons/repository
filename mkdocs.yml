@@ -1,10 +1,10 @@
 ---
 # Project information
-site_name: "Home Assistant Community Add-ons"
+site_name: "Home Assistant Community Apps"
 site_url: "https://addons.community"
-site_description: "The primary goal of this project is to provide you (as a Home Assistant user) with additional, high quality, add-ons that allow you to take your automated home to the next level."
+site_description: "The primary goal of this project is to provide you (as a Home Assistant user) with additional, high quality, apps that allow you to take your automated home to the next level."
 site_author: "Franck Nijhof"
-copyright: "Copyright 2017-2020 - Franck Nijhof."
+copyright: "Copyright 2017-2026 - Franck Nijhof."
 
 # Repository
 repo_name: "hassio-addons"
@@ -66,9 +66,9 @@ markdown_extensions:
 
 # The pages to serve
 nav:
-  - "Our Add-ons": "index.md"
-  - "Beta Add-ons": "beta.md"
-  - "Edge Add-ons": "edge.md"
+  - "Our Apps": "index.md"
+  - "Beta Apps": "beta.md"
+  - "Edge Apps": "edge.md"
   - "Contributing": "contributing.md"
   - "Code of Conduct": "code-of-conduct.md"
   - "License": "license.md"

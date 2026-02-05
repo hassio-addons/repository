@@ -1,6 +1,6 @@
 ---
 channel: stable
-addons:
+apps:
   adguard:
     repository: hassio-addons/app-adguard-home
     target: adguard

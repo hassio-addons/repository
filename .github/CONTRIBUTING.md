@@ -1,6 +1,6 @@
 # Contributing
 
-When contributing to our add-ons, please first discuss the change you wish
+When contributing to our apps, please first discuss the change you wish
 to make via issue, email, or any other method with the owners of this repository
 before making a change.
 

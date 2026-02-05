@@ -28,7 +28,7 @@ rules:
   comments:
     level: error
     require-starting-space: true
-    min-spaces-from-content: 2
+    min-spaces-from-content: 1
   comments-indentation:
     level: error
   document-end:
@@ -52,11 +52,7 @@ rules:
     check-multi-line-strings: false
   key-duplicates:
     level: error
-  line-length:
-    level: warning
-    max: 120
-    allow-non-breakable-words: true
-    allow-non-breakable-inline-mappings: true
+  line-length: disable
   new-line-at-end-of-file:
     level: error
   new-lines:
