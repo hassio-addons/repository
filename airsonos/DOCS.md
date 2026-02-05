@@ -1,41 +1,41 @@
-# Home Assistant Community Add-on: AirSonos
+# Home Assistant Community App: AirSonos
 
 Apple devices use AirPlay to send audio to other devices, but this is not
-compatible with Sonos players. This add-on tries to solve this
+compatible with Sonos players. This app tries to solve this
 compatibility gap.
 
 It detects Sonos players in your network and creates virtual AirPlay
 devices for each of them. It acts as a bridge between the AirPlay client
 and the real Sonos device.
 
-Since Sonos uses UPnP, the add-on might also work for other UPnP players
+Since Sonos uses UPnP, the app might also work for other UPnP players
 (e.g., newer Samsung televisions).
 
-The AirCast add-on is based on the excellent [AirConnect][airconnect] project.
+The AirCast app is based on the excellent [AirConnect][airconnect] project.
 
 ## Installation
 
-The installation of this add-on is pretty straightforward and not different in
-comparison to installing any other Home Assistant add-on.
+The installation of this app is pretty straightforward and not different in
+comparison to installing any other Home Assistant app.
 
-1. Click the Home Assistant My button below to open the add-on on your Home
+1. Click the Home Assistant My button below to open the app on your Home
    Assistant instance.
 
-   [![Open this add-on in your Home Assistant instance.][addon-badge]][addon]
+   [![Open this app in your Home Assistant instance.][app-badge]][app]
 
-1. Click the "Install" button to install the add-on.
-1. Start the "AirSonos" add-on
-1. Check the logs of the "AirSonos" add-on to see if everything went well.
+1. Click the "Install" button to install the app.
+1. Start the "AirSonos" app
+1. Check the logs of the "AirSonos" app to see if everything went well.
 
-After ~30 seconds you should see some log messages appear in the add-on log.
+After ~30 seconds you should see some log messages appear in the app log.
 Using your iOS/Mac/iTunes/Airfoil/other clients, you should now see new AirPlay
 devices and can try to play audio to them.
 
 ## Configuration
 
-**Note**: _Remember to restart the add-on when the configuration is changed._
+**Note**: _Remember to restart the app when the configuration is changed._
 
-Example add-on configuration:
+Example app configuration:
 
 ```yaml
 log_level: info
@@ -50,7 +50,7 @@ drift: true
 
 ### Option: `log_level`
 
-The `log_level` option controls the level of log output by the addon and can
+The `log_level` option controls the level of log output by the app and can
 be changed to be more or less verbose, which might be useful when you are
 dealing with an unknown issue. Possible values are:
 
@@ -59,7 +59,7 @@ dealing with an unknown issue. Possible values are:
 - `info`: Normal (usually) interesting events.
 - `warning`: Exceptional occurrences that are not errors.
 - `error`: Runtime errors that do not require immediate action.
-- `fatal`: Something went terribly wrong. Add-on becomes unusable.
+- `fatal`: Something went terribly wrong. App becomes unusable.
 
 Please note that each level automatically includes log messages from a
 more severe level, e.g., `debug` also shows `info` messages. By default,
@@ -83,14 +83,14 @@ be fine in most cases. Only change this if you really have to.
 ### Option: `latency_rtp`
 
 Allows you to tweak the buffering, which is needed when the audio is stuttering
-(e.g., low-quality network). This option specifies the number of ms the addon
+(e.g., low-quality network). This option specifies the number of ms the app
 has to buffer the RTP audio (AirPlay). Setting this value below 500ms is not
 recommended!
 
 ### Option: `latency_http`
 
 Allows you to tweak the buffering, which is needed when the audio is stuttering
-(e.g., low-quality network). This option specifies the number of ms the addon
+(e.g., low-quality network). This option specifies the number of ms the app
 has to buffer the HTTP audio.
 
 ### Option: `drift`
@@ -168,16 +168,16 @@ lack of audio. Note that `latency_rtp` does not delay playback start.
 
 ## Tweaking AirSonos
 
-AirSonos creates a configuration file called `airsonos.xml` in the add-on
+AirSonos creates a configuration file called `airsonos.xml` in the app
 configuration directory. This file allows you to tweak each device
 separately. Every time it finds a new device, it will be added to that file.
 
-> **NOTE**: It is HIGHLY recommended to stop the addon before making changes
+> **NOTE**: It is HIGHLY recommended to stop the app before making changes
 > to the configuration file manually.
 
 ## Known issues and limitations
 
-- This add-on does support ARM-based devices, nevertheless, they must
+- This app does support ARM-based devices, nevertheless, they must
   at least be an ARMv7 device. (Raspberry Pi 1 and Zero is not supported).
 
 ## Changelog & Releases
@@ -199,7 +199,7 @@ Got questions?
 
 You have several options to get them answered:
 
-- The [Home Assistant Community Add-ons Discord chat server][discord] for add-on
+- The [Home Assistant Community Apps Discord chat server][discord] for app
   support and feature requests.
 - The [Home Assistant Discord chat server][discord-ha] for general Home
   Assistant discussions and questions.
@@ -219,7 +219,7 @@ check [the contributor's page][contributors].
 
 MIT License
 
-Copyright (c) 2017-2025 Franck Nijhof
+Copyright (c) 2017-2026 Franck Nijhof
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -239,16 +239,16 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[addon-badge]: https://my.home-assistant.io/badges/supervisor_addon.svg
-[addon]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=a0d7b954_airsonos&repository_url=https%3A%2F%2Fgithub.com%2Fhassio-addons%2Frepository
+[app-badge]: https://my.home-assistant.io/badges/supervisor_addon.svg
+[app]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=a0d7b954_airsonos&repository_url=https%3A%2F%2Fgithub.com%2Fhassio-addons%2Frepository
 [airconnect]: https://github.com/philippe44/AirConnect
-[commits]: https://github.com/hassio-addons/addon-airsonos/commits/main
-[contributors]: https://github.com/hassio-addons/addon-airsonos/graphs/contributors
+[commits]: https://github.com/hassio-addons/app-airsonos/commits/main
+[contributors]: https://github.com/hassio-addons/app-airsonos/graphs/contributors
 [discord-ha]: https://discord.gg/c5DvZ4e
 [discord]: https://discord.me/hassioaddons
 [forum]: https://community.home-assistant.io/t/home-assistant-community-add-on-airsonos/36796?u=frenck
 [frenck]: https://github.com/frenck
-[issue]: https://github.com/hassio-addons/addon-airsonos/issues
+[issue]: https://github.com/hassio-addons/app-airsonos/issues
 [reddit]: https://reddit.com/r/homeassistant
-[releases]: https://github.com/hassio-addons/addon-airsonos/releases
+[releases]: https://github.com/hassio-addons/app-airsonos/releases
 [semver]: http://semver.org/spec/v2.0.0.htm

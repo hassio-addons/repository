@@ -1,8 +1,8 @@
 name: AirSonos
-version: 5.0.2
+version: 5.1.0
 slug: airsonos
 description: AirPlay capabilities for your Sonos (and UPnP) devices.
-url: https://github.com/hassio-addons/addon-airsonos
+url: https://github.com/hassio-addons/app-airsonos
 startup: services
 init: false
 arch:
@@ -25,4 +25,4 @@ schema:
   latency_rtp: int
   latency_http: int
   drift: bool
-image: ghcr.io/hassio-addons/airsonos/{arch}
+image: ghcr.io/hassio-addons/airsonos
