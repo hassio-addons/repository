@@ -186,6 +186,6 @@ addons:
     target: zerotier
     image: ghcr.io/hassio-addons/zerotier/{arch}
   zwave-js-ui:
-    repository: hassio-addons/addon-zwave-js-ui
+    repository: hassio-addons/app-zwave-js-ui
     target: zwave-js-ui
-    image: ghcr.io/hassio-addons/zwave-js-ui/{arch}
+    image: ghcr.io/hassio-addons/zwave-js-ui
