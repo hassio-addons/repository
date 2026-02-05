@@ -3,7 +3,7 @@ configuration:
   log_level:
     name: Log level
     description: >-
-      Controls the level of log details the add-on provides.
+      Controls the level of log details the app provides.
   address:
     name: Address
     description: >-
@@ -14,15 +14,15 @@ configuration:
     description: >-
       Allows you to tweak the buffering, which is needed when the audio is
       stuttering (e.g., low-quality network). This option specifies the number
-      of ms the add-on has to buffer the RTP audio (AirPlay). Setting this value
-      below 500ms is not recommended! Setting the value to 0 makes the add-on
-      to get the value from AirPlay.
+      of ms the app has to buffer the RTP audio (AirPlay). Setting this value
+      below 500ms is not recommended! Setting the value to 0 makes the app
+      get the value from AirPlay.
   latency_http:
     name: HTTP Latency
     description: >-
       Allows you to tweak the buffering, which is needed when the audio is
       stuttering (e.g., low-quality network). This option specifies the number
-      of ms the add-on has to buffer the HTTP audio.
+      of ms the app has to buffer the HTTP audio.
   drift:
     name: Drift
     description: >-
