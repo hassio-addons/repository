@@ -10,9 +10,9 @@ addons:
     target: aircast
     image: ghcr.io/hassio-addons/aircast
   airsonos:
-    repository: hassio-addons/addon-airsonos
+    repository: hassio-addons/app-airsonos
     target: airsonos
-    image: ghcr.io/hassio-addons/airsonos/{arch}
+    image: ghcr.io/hassio-addons/airsonos
   appdaemon:
     repository: hassio-addons/addon-appdaemon
     target: appdaemon
