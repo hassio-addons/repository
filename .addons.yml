@@ -2,9 +2,9 @@
 channel: stable
 addons:
   adguard:
-    repository: hassio-addons/addon-adguard-home
+    repository: hassio-addons/app-adguard-home
     target: adguard
-    image: ghcr.io/hassio-addons/adguard/{arch}
+    image: ghcr.io/hassio-addons/adguard
   aircast:
     repository: hassio-addons/addon-aircast
     target: aircast
