@@ -1,6 +1,6 @@
-# Home Assistant Community Add-on: Z-Wave JS UI
+# Home Assistant Community App: Z-Wave JS UI
 
-The Z-Wave JS UI add-on provides an additional control panel, allowing you
+The Z-Wave JS UI app provides an additional control panel, allowing you
 to configure every aspect of your Z-Wave network. It provides a decoupled
 gateway which can communicate using Z-Wave JS WebSockets (used by the
 Home Assistant Z-Wave JS integration) and MQTT (even simultaneously).
@@ -13,25 +13,25 @@ Some advantages and use-cases:
   it is available for Home Assistant at the same time.
 - Allow [ESPHome.io][esphome] based ESP devices to directly respond or work
   with your Z-Wave network.
-- Pre-configures itself with the Mosquitto add-on when found.
+- Pre-configures itself with the Mosquitto app when found.
 
-This add-on uses the [Z-Wave JS UI][zwave-js-ui] software.
+This app uses the [Z-Wave JS UI][zwave-js-ui] software.
 
 ## Installation
 
-The installation of this add-on is pretty straightforward and not different in
-comparison to installing any other Home Assistant add-on.
+The installation of this app is pretty straightforward and not different in
+comparison to installing any other Home Assistant app.
 
-1. Click the Home Assistant My button below to open the add-on on your Home
+1. Click the Home Assistant My button below to open the app on your Home
    Assistant instance.
 
-   [![Open this add-on in your Home Assistant instance.][addon-badge]][addon]
+   [![Open this app in your Home Assistant instance.][addon-badge]][addon]
 
-1. Click the "Install" button to install the add-on.
-1. Check the logs of the "Z-Wave JS UI" add-on to see if everything went
+1. Click the "Install" button to install the app.
+1. Check the logs of the "Z-Wave JS UI" app to see if everything went
    well.
 1. Click the "OPEN WEB UI" button.
-1. Enjoy the add-on!
+1. Enjoy the app!
 
 **NOTE**: The upstream project has documentation on using the software itself:
 <https://zwave-js.github.io/zwave-js-ui/#/>
@@ -39,19 +39,19 @@ comparison to installing any other Home Assistant add-on.
 ## Setting up the Home Assistant Z-Wave JS integration
 
 By default the Home Assistant Z-Wave JS integration will try to set up the
-official "Z-Wave JS" add-on from the official add-on store.
+official "Z-Wave JS" app from the official app store.
 
-However, this add-on will provide an add-on UI and has the ability to
+However, this app will provide an app UI and has the ability to
 send/receive data over MQTT as well. So, if that is your thing, this
-add-on might be for you.
+app might be for you.
 
-After starting the add-on successfully, it is time to hook it up with
+After starting the app successfully, it is time to hook it up with
 Home Assistant.
 
 To do this:
 
 1. Open the Z-Wave JS UI control panel by clicking the "OPEN WEB UI"
-   button on the add-on page in the Supervisor.
+   button on the app page in the Supervisor.
 1. In the control panel, go to "Settings" in the menu and click on the "Zwave"
    bar that shows up on the right.
 1. Enter the following information:
@@ -66,18 +66,18 @@ Now it is time to set up Home Assistant:
 1. Go to the Settings panel and click "Devices & Services".
 1. In the bottom right, click "+ Add Integration".
 1. Select the "Z-Wave" integration from the list.
-1. A dialog box will show, asking to use the add-on:
-   - **UNCHECK** that box, it will install the official add-on.
-   - Again, the official add-on is recommended, so...
+1. A dialog box will show, asking to use the app:
+   - **UNCHECK** that box, it will install the official app.
+   - Again, the official app is recommended, so...
 1. In the next dialog it will ask for the server. Enter:
    `ws://a0d7b954-zwavejs2mqtt:3000`
 1. Confirm and done!
 
 ## Configuration
 
-**Note**: _Remember to restart the add-on when the configuration is changed._
+**Note**: _Remember to restart the app when the configuration is changed._
 
-Example add-on configuration:
+Example app configuration:
 
 ```yaml
 log_level: info
@@ -85,7 +85,7 @@ log_level: info
 
 ### Option: `log_level`
 
-The `log_level` option controls the level of log output by the addon and can
+The `log_level` option controls the level of log output by the app and can
 be changed to be more or less verbose, which might be useful when you are
 dealing with an unknown issue. Possible values are:
 
@@ -94,7 +94,7 @@ dealing with an unknown issue. Possible values are:
 - `info`: Normal (usually) interesting events.
 - `warning`: Exceptional occurrences that are not errors.
 - `error`: Runtime errors that do not require immediate action.
-- `fatal`: Something went terribly wrong. Add-on becomes unusable.
+- `fatal`: Something went terribly wrong. App becomes unusable.
 
 Please note that each level automatically includes log messages from a
 more severe level, e.g., `debug` also shows `info` messages. By default,
@@ -126,7 +126,7 @@ Got questions?
 
 You have several options to get them answered:
 
-- The [Home Assistant Community Add-ons Discord chat server][discord] for add-on
+- The [Home Assistant Community Apps Discord chat server][discord] for app
   support and feature requests.
 - The [Home Assistant Discord chat server][discord-ha] for general Home
   Assistant discussions and questions.
@@ -146,7 +146,7 @@ check [the contributor's page][contributors].
 
 MIT License
 
-Copyright (c) 2021 - 2025 Franck Nijhof
+Copyright (c) 2021 - 2026 Franck Nijhof
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -168,15 +168,15 @@ SOFTWARE.
 
 [addon-badge]: https://my.home-assistant.io/badges/supervisor_addon.svg
 [addon]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=a0d7b954_zwavejs2mqtt&repository_url=https%3A%2F%2Fgithub.com%2Fhassio-addons%2Frepository
-[contributors]: https://github.com/hassio-addons/addon-zwave-js-ui/graphs/contributors
+[contributors]: https://github.com/hassio-addons/app-zwave-js-ui/graphs/contributors
 [discord-ha]: https://discord.gg/c5DvZ4e
 [discord]: https://discord.me/hassioaddons
 [esphome]: https://esphome.io/components/mqtt.html#on-message-trigger
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
 [forum]: https://community.home-assistant.io/?u=frenck
 [frenck]: https://github.com/frenck
-[issue]: https://github.com/hassio-addons/addon-zwave-js-ui/issues
+[issue]: https://github.com/hassio-addons/app-zwave-js-ui/issues
 [reddit]: https://reddit.com/r/homeassistant
-[releases]: https://github.com/hassio-addons/addon-zwave-js-ui/releases
+[releases]: https://github.com/hassio-addons/app-zwave-js-ui/releases
 [semver]: https://semver.org/spec/v2.0.0.html
 [zwave-js-ui]: https://github.com/zwave-js/zwave-js-ui

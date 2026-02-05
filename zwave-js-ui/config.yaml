@@ -1,8 +1,8 @@
 name: Z-Wave JS UI
-version: 6.1.2
+version: 7.0.0
 slug: zwavejs2mqtt
 description: Fully configurable Z-Wave JS gateway and control panel
-url: https://github.com/hassio-addons/addon-zwave-js-ui
+url: https://github.com/hassio-addons/app-zwave-js-ui
 ingress: true
 ingress_stream: true
 panel_title: Z-Wave JS
@@ -27,4 +27,4 @@ ports:
   3000/tcp: null
 ports_description:
   3000/tcp: Z-Wave JS communication
-image: ghcr.io/hassio-addons/zwave-js-ui/{arch}
+image: ghcr.io/hassio-addons/zwave-js-ui

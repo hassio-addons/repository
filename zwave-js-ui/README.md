@@ -1,4 +1,4 @@
-# Home Assistant Community Add-on: Z-Wave JS UI
+# Home Assistant Community App: Z-Wave JS UI
 
 [![Release][release-shield]][release] ![Project Stage][project-stage-shield] ![Project Maintenance][maintenance-shield]
 
@@ -14,7 +14,7 @@ Fully configurable Z-Wave JS control panel and MQTT gateway.
 
 ## About
 
-The Z-Wave JS UI add-on provides an additional control panel, allowing you
+The Z-Wave JS UI app provides an additional control panel, allowing you
 to configure every aspect of your Z-Wave network. It provides a decoupled
 gateway which can communicate using Z-Wave JS WebSockets (used by the
 Home Assistant Z-Wave JS integration) and MQTT (even simultaneously).
@@ -27,9 +27,9 @@ Some advantages and use-cases:
   it is available for Home Assistant at the same time.
 - Allow [ESPHome.io][esphome] based ESP devices to directly respond or work
   with your Z-Wave network.
-- Pre-configures itself with the Mosquitto add-on when found.
+- Pre-configures itself with the Mosquitto app when found.
 
-This add-on uses the [Z-Wave JS UI][zwave-js-ui] software.
+This app uses the [Z-Wave JS UI][zwave-js-ui] software.
 
 [discord-shield]: https://img.shields.io/discord/478094546522079232.svg
 [discord]: https://discord.me/hassioaddons
@@ -38,11 +38,11 @@ This add-on uses the [Z-Wave JS UI][zwave-js-ui] software.
 [forum]: https://community.home-assistant.io/?u=frenck
 [github-sponsors-shield]: https://frenck.dev/wp-content/uploads/2019/12/github_sponsor.png
 [github-sponsors]: https://github.com/sponsors/frenck
-[logo]: https://github.com/hassio-addons/addon-zwave-js-ui/raw/main/zwave-js-ui/logo.png
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2025.svg
+[logo]: https://github.com/hassio-addons/app-zwave-js-ui/raw/main/zwave-js-ui/logo.png
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2026.svg
 [patreon-shield]: https://frenck.dev/wp-content/uploads/2019/12/patreon.png
 [patreon]: https://www.patreon.com/frenck
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[release-shield]: https://img.shields.io/badge/version-v6.1.2-blue.svg
-[release]: https://github.com/hassio-addons/addon-zwave-js-ui/tree/v6.1.2
+[release-shield]: https://img.shields.io/badge/version-v7.0.0-blue.svg
+[release]: https://github.com/hassio-addons/app-zwave-js-ui/tree/v7.0.0
 [zwave-js-ui]: https://github.com/zwave-js/zwave-js-ui
