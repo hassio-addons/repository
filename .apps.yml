@@ -14,9 +14,9 @@ apps:
     target: airsonos
     image: ghcr.io/hassio-addons/airsonos
   appdaemon:
-    repository: hassio-addons/addon-appdaemon
+    repository: hassio-addons/app-appdaemon
     target: appdaemon
-    image: ghcr.io/hassio-addons/appdaemon/{arch}
+    image: ghcr.io/hassio-addons/appdaemon
   bazarr:
     repository: hassio-addons/addon-bazarr
     target: bazarr
