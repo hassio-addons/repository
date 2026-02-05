@@ -6,9 +6,9 @@ addons:
     target: adguard
     image: ghcr.io/hassio-addons/adguard
   aircast:
-    repository: hassio-addons/addon-aircast
+    repository: hassio-addons/app-aircast
     target: aircast
-    image: ghcr.io/hassio-addons/aircast/{arch}
+    image: ghcr.io/hassio-addons/aircast
   airsonos:
     repository: hassio-addons/addon-airsonos
     target: airsonos
