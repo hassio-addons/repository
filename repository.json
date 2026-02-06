@@ -1,5 +1,12 @@
-{
-  "name": "Home Assistant Community Apps",
-  "url": "https://frenck.dev/home-assistant-apps",
-  "maintainer": "Franck Nijhof <opensource@frenck.dev>"
-}
+[
+  {
+    "name": "Home Assistant Community Apps",
+    "url": "https://frenck.dev/home-assistant-apps",
+    "maintainer": "Franck Nijhof <opensource@frenck.dev>"
+  },
+  {
+    "name": "Midcus Home Assistant Add-ons",
+    "url": "https://github.com/Midcus/ha-addons",
+    "maintainer": "Midcus <tran.ngkhoii9@gmail.com>"
+  }
+]
