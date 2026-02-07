@@ -1,0 +1,6 @@
+{
+  "name": "huABus - Huawei Solar Modbus MQTT",
+  "url": "https://github.com/arboeh/huABus",
+  "maintainer": "arboeh",
+  "description": "Connects Huawei inverters via Modbus TCP to Home Assistant with MQTT Auto-Discovery"
+}
