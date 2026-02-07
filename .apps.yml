@@ -86,9 +86,9 @@ apps:
     target: mqtt-io
     image: ghcr.io/hassio-addons/mqtt-io/{arch}
   node-red:
-    repository: hassio-addons/addon-node-red
+    repository: hassio-addons/app-node-red
     target: node-red
-    image: ghcr.io/hassio-addons/node-red/{arch}
+    image: ghcr.io/hassio-addons/node-red
   nginxproxymanager:
     repository: hassio-addons/addon-nginx-proxy-manager
     target: proxy-manager
