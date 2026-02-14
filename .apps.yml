@@ -166,9 +166,9 @@ apps:
     target: unifi
     image: ghcr.io/hassio-addons/unifi/{arch}
   uptime-kuma:
-    repository: hassio-addons/addon-uptime-kuma
+    repository: hassio-addons/app-uptime-kuma
     target: uptime-kuma
-    image: ghcr.io/hassio-addons/uptime-kuma/{arch}
+    image: ghcr.io/hassio-addons/uptime-kuma
   vscode:
     repository: hassio-addons/addon-vscode
     target: vscode
