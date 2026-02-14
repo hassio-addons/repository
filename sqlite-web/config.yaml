@@ -1,8 +1,8 @@
 name: SQLite Web
-version: 5.0.0
+version: 6.0.0
 slug: sqlite-web
 description: Explore your SQLite database
-url: https://github.com/hassio-addons/addon-sqlite-web/tree/main/README.md
+url: https://github.com/hassio-addons/app-sqlite-web/tree/main/README.md
 ingress: true
 advanced: true
 init: false
@@ -15,4 +15,4 @@ map:
 - share:rw
 schema:
   database: str?
-image: ghcr.io/hassio-addons/sqlite-web/{arch}
+image: ghcr.io/hassio-addons/sqlite-web
