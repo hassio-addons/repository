@@ -182,9 +182,9 @@ apps:
     target: wireguard
     image: ghcr.io/hassio-addons/wireguard/{arch}
   zerotier:
-    repository: hassio-addons/addon-zerotier
+    repository: hassio-addons/app-zerotier
     target: zerotier
-    image: ghcr.io/hassio-addons/zerotier/{arch}
+    image: ghcr.io/hassio-addons/zerotier
   zwave-js-ui:
     repository: hassio-addons/app-zwave-js-ui
     target: zwave-js-ui
