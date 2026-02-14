@@ -1,4 +1,4 @@
-# Home Assistant Community Add-on: SABnzbd
+# Home Assistant Community App: SABnzbd
 
 [![Release][release-shield]][release] ![Project Stage][project-stage-shield] ![Project Maintenance][maintenance-shield]
 
@@ -19,7 +19,7 @@ from [Usenet].
 [discord]: https://discord.gg/c5DvZ4e
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
 [forum]: https://community.home-assistant.io/t/?u=frenck
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2025.svg
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2026.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
-[release-shield]: https://img.shields.io/badge/version-v0.6.0-blue.svg
-[release]: https://github.com/hassio-addons/addon-sabnzbd/tree/v0.6.0
+[release-shield]: https://img.shields.io/badge/version-v0.7.0-blue.svg
+[release]: https://github.com/hassio-addons/app-sabnzbd/tree/v0.7.0

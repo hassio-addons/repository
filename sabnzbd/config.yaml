@@ -1,8 +1,8 @@
 name: SABnzbd
-version: 0.6.0
+version: 0.7.0
 slug: sabnzbd
 description: Free and easy binary newsreader
-url: https://github.com/hassio-addons/addon-sabnzbd/tree/main/README.md
+url: https://github.com/hassio-addons/app-sabnzbd/tree/main/README.md
 ingress: true
 ingress_entry: sabnzbd/
 panel_icon: mdi:arrow-down-bold
@@ -16,4 +16,4 @@ map:
 - media:rw
 ports:
   8080/tcp: null
-image: ghcr.io/hassio-addons/sabnzbd/{arch}
+image: ghcr.io/hassio-addons/sabnzbd
