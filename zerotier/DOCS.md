@@ -1,4 +1,4 @@
-# Home Assistant Community Add-on: ZeroTier One
+# Home Assistant Community App: ZeroTier One
 
 [ZeroTier][zerotier] delivers the capabilities of VPNs, SDN, and SD-WAN with
 a single system. Manage all your connected resources across both local
@@ -7,30 +7,30 @@ and wide area networks as if the whole world is a single data center.
 People use ZeroTier to seamlessly connect laptops, desktops, phones,
 embedded devices, cloud resources, and apps any way they want anywhere they go.
 It transforms the entire world into a single data center, to which you
-can now add your Home Assistant instance using this add-on.
+can now add your Home Assistant instance using this app.
 
 ## Installation
 
-The installation of this add-on is pretty straightforward and not different in
-comparison to installing any other Home Assistant add-on.
+The installation of this app is pretty straightforward and not different in
+comparison to installing any other Home Assistant app.
 
-1. Click the Home Assistant My button below to open the add-on on your Home
+1. Click the Home Assistant My button below to open the app on your Home
    Assistant instance.
 
-   [![Open this add-on in your Home Assistant instance.][addon-badge]][addon]
+   [![Open this app in your Home Assistant instance.][app-badge]][app]
 
-1. Click the "Install" button to install the add-on.
+1. Click the "Install" button to install the app.
 1. Create a free account at [zerotier.com][zerotier] and get a network ID.
-1. Set the "network_id" add-on option with your network ID.
-1. Start the "ZeroTier One" add-on
-1. Check the logs of the "ZeroTier One" add-on to see if everything went well.
+1. Set the "network_id" app option with your network ID.
+1. Start the "ZeroTier One" app
+1. Check the logs of the "ZeroTier One" app to see if everything went well.
 1. The instance will show up in your ZeroTier account.
 
 ## Configuration
 
-**Note**: _Remember to restart the add-on when the configuration is changed._
+**Note**: _Remember to restart the app when the configuration is changed._
 
-Example add-on configuration:
+Example app configuration:
 
 ```yaml
 networks:
@@ -43,7 +43,7 @@ api_auth_token: ""
 
 ### Option: `log_level`
 
-The `log_level` option controls the level of log output by the addon and can
+The `log_level` option controls the level of log output by the app and can
 be changed to be more or less verbose, which might be useful when you are
 dealing with an unknown issue. Possible values are:
 
@@ -52,7 +52,7 @@ dealing with an unknown issue. Possible values are:
 - `info`: Normal (usually) interesting events.
 - `warning`: Exceptional occurrences that are not errors.
 - `error`: Runtime errors that do not require immediate action.
-- `fatal`: Something went terribly wrong. Add-on becomes unusable.
+- `fatal`: Something went terribly wrong. App becomes unusable.
 
 Please note that each level automatically includes log messages from a
 more severe level, e.g., `debug` also shows `info` messages. By default,
@@ -98,7 +98,7 @@ Got questions?
 
 You have several options to get them answered:
 
-- The [Home Assistant Community Add-ons Discord chat server][discord] for add-on
+- The [Home Assistant Community Apps Discord chat server][discord] for app
   support and feature requests.
 - The [Home Assistant Discord chat server][discord-ha] for general Home
   Assistant discussions and questions.
@@ -118,7 +118,7 @@ check [the contributor's page][contributors].
 
 MIT License
 
-Copyright (c) 2019-2025 Franck Nijhof
+Copyright (c) 2019-2026 Franck Nijhof
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -138,16 +138,16 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[addon-badge]: https://my.home-assistant.io/badges/supervisor_addon.svg
-[addon]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=a0d7b954_zerotier&repository_url=https%3A%2F%2Fgithub.com%2Fhassio-addons%2Frepository
+[app-badge]: https://my.home-assistant.io/badges/supervisor_addon.svg
+[app]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=a0d7b954_zerotier&repository_url=https%3A%2F%2Fgithub.com%2Fhassio-addons%2Frepository
 [api]: https://www.zerotier.com/manual.shtml#4_1
-[contributors]: https://github.com/hassio-addons/addon-zerotier/graphs/contributors
+[contributors]: https://github.com/hassio-addons/app-zerotier/graphs/contributors
 [discord-ha]: https://discord.gg/c5DvZ4e
 [discord]: https://discord.me/hassioaddons
-[forum]: https://community.home-assistant.io/t/home-assistant-community-add-on-zerotier-one/109091?u=frenck
+[forum]: https://community.home-assistant.io/t/home-assistant-community-app-zerotier-one/109091?u=frenck
 [frenck]: https://github.com/frenck
-[issue]: https://github.com/hassio-addons/addon-zerotier/issues
+[issue]: https://github.com/hassio-addons/app-zerotier/issues
 [reddit]: https://reddit.com/r/homeassistant
-[releases]: https://github.com/hassio-addons/addon-zerotier/releases
+[releases]: https://github.com/hassio-addons/app-zerotier/releases
 [semver]: https://semver.org/spec/v2.0.0.html
 [zerotier]: https://www.zerotier.com/

@@ -1,9 +1,9 @@
 name: ZeroTier One
-version: 0.24.0
+version: 0.25.0
 slug: zerotier
 description: Radically simplify your network with a virtual networking layer that
   works the same everywhere
-url: https://github.com/hassio-addons/addon-zerotier
+url: https://github.com/hassio-addons/app-zerotier
 startup: services
 init: false
 arch:
@@ -29,4 +29,4 @@ schema:
   - str
   api_auth_token: str
   log_level: list(trace|debug|info|notice|warning|error|fatal)?
-image: ghcr.io/hassio-addons/zerotier/{arch}
+image: ghcr.io/hassio-addons/zerotier
