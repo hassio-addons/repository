@@ -13,4 +13,4 @@ permissions:
 
 jobs:
   workflows:
-    uses: hassio-addons/workflows/.github/workflows/lock.yaml@3d5603e6f0966551a0c99493171cc2808349b28e # v2.0.4
+    uses: hassio-addons/workflows/.github/workflows/lock.yaml@bf24a85062d78a850e6747e4040527d40e023abd # v2.0.5
