@@ -2,7 +2,9 @@
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update node-red-node-email to v5.2.0 @[renovate[bot]](https://github.com/apps/renovate) ([#2186](https://github.com/hassio-addons/app-node-red/pull/2186))
-- ⬆️ Update alpine_3_23/nginx to v1.28.2-r1 @[renovate[bot]](https://github.com/apps/renovate) ([#2187](https://github.com/hassio-addons/app-node-red/pull/2187))
-- ⬆️ Update node-red to v4.1.6 @[renovate[bot]](https://github.com/apps/renovate) ([#2189](https://github.com/hassio-addons/app-node-red/pull/2189))
-- ⬆️ Update node-red-node-email to v5.2.1 @[renovate[bot]](https://github.com/apps/renovate) ([#2190](https://github.com/hassio-addons/app-node-red/pull/2190))
+- ⬆️ Update alpine_3_23/npm to v11.11.0-r0 @[renovate[bot]](https://github.com/apps/renovate) ([#2195](https://github.com/hassio-addons/app-node-red/pull/2195))
+- ⬆️ Update alpine_3_23/nginx to v1.28.3-r0 @[renovate[bot]](https://github.com/apps/renovate) ([#2199](https://github.com/hassio-addons/app-node-red/pull/2199))
+- ⬆️ Update alpine_3_23/nodejs to v24.14.1-r0 @[renovate[bot]](https://github.com/apps/renovate) ([#2200](https://github.com/hassio-addons/app-node-red/pull/2200))
+- ⬆️ Update hassio-addons/workflows action to v2.0.6 @[renovate[bot]](https://github.com/apps/renovate) ([#2191](https://github.com/hassio-addons/app-node-red/pull/2191))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v20.0.2 @[renovate[bot]](https://github.com/apps/renovate) ([#2201](https://github.com/hassio-addons/app-node-red/pull/2201))
+- ⬆️ Update node-red to v4.1.8 @[renovate[bot]](https://github.com/apps/renovate) ([#2194](https://github.com/hassio-addons/app-node-red/pull/2194))
