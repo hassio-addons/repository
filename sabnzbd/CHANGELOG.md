@@ -1,11 +1,9 @@
 ## What’s changed
 
-## 🧰 Maintenance
-
-- Refactoring and renaming add-ons to apps @frenck ([#105](https://github.com/hassio-addons/app-sabnzbd/pull/105))
-
 ## ⬆️ Dependency updates
 
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v19 @[renovate[bot]](https://github.com/apps/renovate) ([#102](https://github.com/hassio-addons/app-sabnzbd/pull/102))
-- ⬆️ Update alpine_3_22/nginx to v1.28.2-r0 @[renovate[bot]](https://github.com/apps/renovate) ([#104](https://github.com/hassio-addons/app-sabnzbd/pull/104))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v20 @[renovate[bot]](https://github.com/apps/renovate) ([#103](https://github.com/hassio-addons/app-sabnzbd/pull/103))
+- ⬆️ Update alpine_3_23/nginx to v1.28.2-r1 @[renovate[bot]](https://github.com/apps/renovate) ([#106](https://github.com/hassio-addons/app-sabnzbd/pull/106))
+- ⬆️ Update hassio-addons/workflows action to v2.0.5 @[renovate[bot]](https://github.com/apps/renovate) ([#107](https://github.com/hassio-addons/app-sabnzbd/pull/107))
+- ⬆️ Update alpine_3_23/nginx to v1.28.3-r0 @[renovate[bot]](https://github.com/apps/renovate) ([#109](https://github.com/hassio-addons/app-sabnzbd/pull/109))
+- ⬆️ Update hassio-addons/workflows action to v2.0.6 @[renovate[bot]](https://github.com/apps/renovate) ([#110](https://github.com/hassio-addons/app-sabnzbd/pull/110))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v20.0.2 @[renovate[bot]](https://github.com/apps/renovate) ([#111](https://github.com/hassio-addons/app-sabnzbd/pull/111))
