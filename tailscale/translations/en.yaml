@@ -3,22 +3,22 @@ configuration:
   accept_dns:
     name: Accept DNS
     description: >-
-      If you are experiencing trouble with MagicDNS on this device and wish to
-      disable, you can do so using this option.
-      When not set, this option is enabled by default.
+      This option allows you to accept DNS settings of your tailnet that are
+      configured on the DNS page of the admin console.
+      This option is enabled by default.
   accept_routes:
     name: Accept routes
     description: >-
       This option allows you to accept subnet routes advertised by other nodes
       in your tailnet.
-      When not set, this option is enabled by default.
+      This option is enabled by default.
   advertise_exit_node:
     name: Advertise as an exit node
     description: >-
       This option allows you to advertise this Tailscale instance as an exit node.
       By setting a device on your network as an exit node, you can use it to
       route all your public internet traffic as needed, like a consumer VPN.
-      When not set, this option is enabled by default.
+      This option is enabled by default.
   advertise_connector:
     name: Advertise as an app connector
     description: >-
@@ -26,14 +26,20 @@ configuration:
       accessible over your tailnet, and the domains for those applications. Any traffic
       for that application is then forced over the tailnet to a node running an app
       connector before egressing to the target domains.
-      When not set, this option is enabled by default.
+      This option is enabled by default.
   advertise_routes:
     name: Advertise subnet routes
     description: >-
       This option allows you to advertise routes to subnets (accessible on the network
       your device is connected to) to other clients on your tailnet.
-      When not set, the app by default will advertise routes to your subnets on all
-      supported interfaces.
+      The app by default will advertise routes to your subnets on all supported
+      interfaces by adding `local_subnets` to the list.
+  always_use_derp:
+    name: Always use DERP connection
+    description: >-
+      When enabled forces all peer communication over DERP by disabling the use of
+      UDP.
+      This option is disabled by default.
   exit_node:
     name: Use exit node
     description: >-
@@ -59,7 +65,7 @@ configuration:
       This option allows you to enable Tailscale Serve or Funnel features to present
       your Home Assistant instance with a valid certificate on your tailnet or on the
       internet.
-      When not set, this option is disabled by default.
+      This option is disabled by default.
   share_on_port:
     name: Share on port
     description: >-
@@ -67,7 +73,13 @@ configuration:
       will use to present your Home Assistant instance on the tailnet and on the
       internet.
       Only ports 443, 8443, and 10000 are allowed by Tailscale.
-      When not set, port 443 is used by default.
+      Port 443 is used by default.
+  share_service_name:
+    name: Share service name
+    description: >-
+      This option lets you specify the service name the Tailscale Serve feature will
+      use to present your Home Assistant instance on the tailnet. It needs to start
+      with `svc:`.
   snat_subnet_routes:
     name: Source NAT subnet routes
     description: >-
@@ -75,25 +87,32 @@ configuration:
       subnet router, and this simplifies routing configuration.
       To support advanced Site-to-site networking (eg. to traverse multiple
       networks), you can disable this functionality.
-      When not set, this option is enabled by default.
+      This option is enabled by default.
   stateful_filtering:
     name: Stateful packet filtering
     description: >-
       This option enables stateful packet filtering on packet-forwarding nodes (exit
       nodes, subnet routers, and app connectors), to only allow return packets for
       existing outbound connections.
-      When not set, this option is disabled by default.
+      This option is disabled by default.
   tags:
     name: Tags
     description: >-
       This option allows you to specify specific ACL tags for this
       Tailscale instance. They need to start with `tag:`.
+  taildrive:
+    name: Taildrive shares
+    description: >-
+      This option allows you to specify which Home Assistant directories you want to
+      share with other Tailscale nodes using Taildrive.
+      Only the listed directories are available.
+      These options are disabled by default.
   taildrop:
     name: Taildrop
     description: >-
       This option allows you to enable Taildrop, a file sharing service
       that allows you to share files with other Tailscale nodes.
-      When not set, this option is enabled by default.
+      This option is enabled by default.
   userspace_networking:
     name: Userspace networking mode
     description: >-
@@ -101,7 +120,7 @@ configuration:
       If you need to access other clients on your tailnet from your Home
       Assistant instance, disable userspace networking mode, which will create a
       `tailscale0` network interface on your host.
-      When not set, this option is enabled by default.
+      This option is enabled by default.
 network:
   41641/udp: >-
     UDP port to listen on for WireGuard and peer-to-peer traffic.
