@@ -18,6 +18,6 @@ This enables you to easily explore all tables and content that is saved in your 
 [forum]: https://community.home-assistant.io/t/home-assistant-community-add-on-sqlite-web/68912?u=frenck
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2026.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
-[release-shield]: https://img.shields.io/badge/version-v6.0.0-blue.svg
-[release]: https://github.com/hassio-addons/app-sqlite-web/tree/v6.0.0
+[release-shield]: https://img.shields.io/badge/version-v6.0.1-blue.svg
+[release]: https://github.com/hassio-addons/app-sqlite-web/tree/v6.0.1
 [screenshot]: https://github.com/hassio-addons/app-sqlite-web/raw/main/images/sample-view.png

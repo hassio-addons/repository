@@ -1,14 +1,10 @@
 ## What’s changed
 
-## 🧰 Maintenance
-
-- Refactoring and renaming add-ons to apps @frenck ([#392](https://github.com/hassio-addons/app-sqlite-web/pull/392))
-
 ## ⬆️ Dependency updates
 
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v19 @[renovate[bot]](https://github.com/apps/renovate) ([#384](https://github.com/hassio-addons/app-sqlite-web/pull/384))
-- ⬆️ Update sqlite-web to v0.6.6 @[renovate[bot]](https://github.com/apps/renovate) ([#385](https://github.com/hassio-addons/app-sqlite-web/pull/385))
-- ⬆️ Update sqlite-web to v0.6.7 @[renovate[bot]](https://github.com/apps/renovate) ([#387](https://github.com/hassio-addons/app-sqlite-web/pull/387))
-- ⬆️ Update sqlite-web to v0.6.8 @[renovate[bot]](https://github.com/apps/renovate) ([#388](https://github.com/hassio-addons/app-sqlite-web/pull/388))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v20 @[renovate[bot]](https://github.com/apps/renovate) ([#389](https://github.com/hassio-addons/app-sqlite-web/pull/389))
-- ⬆️ Update sqlite-web to v0.7.0 @[renovate[bot]](https://github.com/apps/renovate) ([#390](https://github.com/hassio-addons/app-sqlite-web/pull/390))
+- ⬆️ Update sqlite-web to v0.7.1 @[renovate[bot]](https://github.com/apps/renovate) ([#393](https://github.com/hassio-addons/app-sqlite-web/pull/393))
+- ⬆️ Update alpine_3_23/nginx to v1.28.2-r1 @[renovate[bot]](https://github.com/apps/renovate) ([#394](https://github.com/hassio-addons/app-sqlite-web/pull/394))
+- ⬆️ Update alpine_3_23/nginx to v1.28.3-r0 @[renovate[bot]](https://github.com/apps/renovate) ([#397](https://github.com/hassio-addons/app-sqlite-web/pull/397))
+- ⬆️ Update hassio-addons/workflows action to v2.0.6 @[renovate[bot]](https://github.com/apps/renovate) ([#395](https://github.com/hassio-addons/app-sqlite-web/pull/395))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v20.0.2 @[renovate[bot]](https://github.com/apps/renovate) ([#398](https://github.com/hassio-addons/app-sqlite-web/pull/398))
+- ⬆️ Update sqlite-web to v0.7.2 @[renovate[bot]](https://github.com/apps/renovate) ([#396](https://github.com/hassio-addons/app-sqlite-web/pull/396))
