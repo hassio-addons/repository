@@ -58,9 +58,9 @@ apps:
     target: grafana
     image: ghcr.io/hassio-addons/grafana/{arch}
   grocy:
-    repository: hassio-addons/addon-grocy
+    repository: hassio-addons/app-grocy
     target: grocy
-    image: ghcr.io/hassio-addons/grocy/{arch}
+    image: ghcr.io/hassio-addons/grocy
   influxdb:
     repository: hassio-addons/addon-influxdb
     target: influxdb
