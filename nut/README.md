@@ -1,4 +1,4 @@
-# Home Assistant Community Add-on: Network UPS Tools
+# Home Assistant Community App: Network UPS Tools
 
 [![Release][release-shield]][release] ![Project Stage][project-stage-shield] ![Project Maintenance][maintenance-shield]
 
@@ -24,7 +24,7 @@ are [compatible][nut-compatible].
 The Network UPS Tools (NUT) project is the combined effort of
 many [individuals and companies][nut-acknowledgements].
 
-Be sure to add the NUT integration after starting the add-on.
+Be sure to add the NUT integration after starting the app.
 
 For more information on how to configure the NUT Sensor in Home Assistant
 see the [NUT integration documentation][nut-ha-docs].
@@ -36,11 +36,11 @@ see the [NUT integration documentation][nut-ha-docs].
 [discord]: https://discord.me/hassioaddons
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
 [forum]: https://community.home-assistant.io/t/community-hass-io-add-on-network-ups-tools/68516
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2025.svg
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2026.svg
 [nut-acknowledgements]: https://networkupstools.org/acknowledgements.html
 [nut-compatible]: https://networkupstools.org/stable-hcl.html
 [nut-features]: https://networkupstools.org/features.html
 [nut-ha-docs]: https://www.home-assistant.io/integrations/nut/
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
-[release-shield]: https://img.shields.io/badge/version-v0.17.0-blue.svg
-[release]: https://github.com/hassio-addons/addon-nut/tree/v0.17.0
+[release-shield]: https://img.shields.io/badge/version-v0.18.0-blue.svg
+[release]: https://github.com/hassio-addons/app-nut/tree/v0.18.0
