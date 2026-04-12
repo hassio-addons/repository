@@ -94,9 +94,9 @@ apps:
     target: proxy-manager
     image: ghcr.io/hassio-addons/nginxproxymanager/{arch}
   nut:
-    repository: hassio-addons/addon-nut
+    repository: hassio-addons/app-nut
     target: nut
-    image: ghcr.io/hassio-addons/nut/{arch}
+    image: ghcr.io/hassio-addons/nut
   overseerr:
     repository: hassio-addons/addon-overseerr
     target: overseerr
