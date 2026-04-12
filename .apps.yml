@@ -162,9 +162,9 @@ apps:
     target: traccar
     image: ghcr.io/hassio-addons/traccar/{arch}
   unifi:
-    repository: hassio-addons/addon-unifi
+    repository: hassio-addons/app-unifi
     target: unifi
-    image: ghcr.io/hassio-addons/unifi/{arch}
+    image: ghcr.io/hassio-addons/unifi
   uptime-kuma:
     repository: hassio-addons/app-uptime-kuma
     target: uptime-kuma
