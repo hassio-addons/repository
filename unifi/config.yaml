@@ -1,8 +1,8 @@
 name: UniFi Network Application
-version: 5.0.0
+version: 5.1.0
 slug: unifi
 description: Manage your UniFi network using a web browser
-url: https://github.com/hassio-addons/addon-unifi
+url: https://github.com/hassio-addons/app-unifi
 webui: https://[HOST]:[PORT:8443]
 startup: services
 arch:
@@ -39,4 +39,4 @@ schema:
   log_level: list(trace|debug|info|notice|warning|error|fatal)?
   memory_max: int?
   memory_init: int?
-image: ghcr.io/hassio-addons/unifi/{arch}
+image: ghcr.io/hassio-addons/unifi

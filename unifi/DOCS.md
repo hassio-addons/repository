@@ -1,21 +1,21 @@
-# Home Assistant Community Add-on: UniFi Network Application
+# Home Assistant Community App: UniFi Network Application
 
-This add-on runs Ubiquiti Networks' UniFi Network Application software, which
-allows you to manage your UniFi network via the web browser. The add-on
+This app runs Ubiquiti Networks' UniFi Network Application software, which
+allows you to manage your UniFi network via the web browser. The app
 provides a single-click installation and run solution for Home Assistant,
 allowing users to get their network up, running, and updated, easily.
 
 ## Installation
 
-The installation of this add-on is pretty straightforward and not different in
-comparison to installing any other Home Assistant add-on.
+The installation of this app is pretty straightforward and not different in
+comparison to installing any other Home Assistant app.
 
-1. Click the Home Assistant My button below to open the add-on on your Home
+1. Click the Home Assistant My button below to open the app on your Home
    Assistant instance.
 
-   [![Open this add-on in your Home Assistant instance.][addon-badge]][addon]
+   [![Open this app in your Home Assistant instance.][app-badge]][app]
 
-1. Click the "Install" button to install the add-on.
+1. Click the "Install" button to install the app.
 1. Check the logs of the "UniFi Network Application" to see if everything went
    well.
 1. Click the "OPEN WEB UI" button, and follow the initial wizard.
@@ -28,9 +28,9 @@ comparison to installing any other Home Assistant add-on.
 
 ## Configuration
 
-**Note**: _Remember to restart the add-on when the configuration is changed._
+**Note**: _Remember to restart the app when the configuration is changed._
 
-Example add-on configuration, with all available options:
+Example app configuration, with all available options:
 
 ```yaml
 log_level: info
@@ -42,7 +42,7 @@ memory_init: 512
 
 ### Option: `log_level`
 
-The `log_level` option controls the level of log output by the addon and can
+The `log_level` option controls the level of log output by the app and can
 be changed to be more or less verbose, which might be useful when you are
 dealing with an unknown issue. Possible values are:
 
@@ -51,7 +51,7 @@ dealing with an unknown issue. Possible values are:
 - `info`: Normal (usually) interesting events.
 - `warning`: Exceptional occurrences that are not errors.
 - `error`: Runtime errors that do not require immediate action.
-- `fatal`: Something went terribly wrong. Add-on becomes unusable.
+- `fatal`: Something went terribly wrong. App becomes unusable.
 
 Please note that each level automatically includes log messages from a
 more severe level, e.g., `debug` also shows `info` messages. By default,
@@ -94,11 +94,20 @@ you can manually adopt a device by following these steps:
 - `$ set-inform http://<IP of Hassio>:<controller port (default:8080)>/inform`
   - for example `$ set-inform http://192.168.1.14:8080/inform`
 
+## Future of this app
+
+**The standalone UniFi Network Application is approaching end-of-life.**
+Ubiquiti is transitioning to UniFi OS Server, a multi-container architecture
+based on podman and systemd that does not translate to a Docker/Home Assistant
+app. This app will continue to work as long as Ubiquiti ships the standalone
+application, but there is no upgrade path from this app to UniFi OS Server.
+Users planning long-term should consider migrating to a dedicated machine or VM.
+
 ## Known issues and limitations
 
 - The AP seems stuck in "adopting" state: Please read the installation
   instructions carefully. You need to change some controller settings
-  in order for this add-on to work properly. Using the Ubiquiti Discovery
+  in order for this app to work properly. Using the Ubiquiti Discovery
   Tool, or SSH'ing into the AP and setting the INFORM after adopting
   will resolve this. (see: _Manually adopting a device_)
 - The following error can show up in the log, but can be safely ignored:
@@ -108,17 +117,17 @@ you can manually adopt a device by following these steps:
     request: Connection refused (Connection refused)
   ```
 
-  This is a known issue, however, the add-on functions normally.
+  This is a known issue, however, the app functions normally.
 
 - Due to security policies in the UniFi Network Application software, it is
   currently impossible to add the UniFI web interface to your Home Assistant
   frontend using a `panel_iframe`.
-- The broadcast feature of the EDU type APs are currently not working with
-  this add-on. Due to a limitation in Home Assistant, is it currently impossible
+- The broadcast feature of the EDU-type APs are currently not working with
+  this app. Due to a limitation in Home Assistant, is it currently impossible
   to open the required "range" of ports needed for this feature to work.
-- This add-on cannot support Ingress due to technical limitations of the
+- This app cannot support Ingress due to technical limitations of the
   UniFi software.
-- During making a backup of this add-on via Home Assistant, this add-on will
+- During making a backup of this app via Home Assistant, this app will
   temporary shutdown and start up after the backup has finished. This prevents
   data corruption during taking the backup.
 
@@ -142,7 +151,7 @@ Got questions?
 
 You have several options to get them answered:
 
-- The [Home Assistant Community Add-ons Discord chat server][discord] for add-on
+- The [Home Assistant Community Apps Discord chat server][discord] for app
   support and feature requests.
 - The [Home Assistant Discord chat server][discord-ha] for general Home
   Assistant discussions and questions.
@@ -162,7 +171,7 @@ check [the contributor's page][contributors].
 
 MIT License
 
-Copyright (c) 2018-2025 Franck Nijhof
+Copyright (c) 2018-2026 Franck Nijhof
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -182,15 +191,15 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[addon-badge]: https://my.home-assistant.io/badges/supervisor_addon.svg
-[addon]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=a0d7b954_unifi&repository_url=https%3A%2F%2Fgithub.com%2Fhassio-addons%2Frepository
-[contributors]: https://github.com/hassio-addons/addon-unifi/graphs/contributors
+[app-badge]: https://my.home-assistant.io/badges/supervisor_addon.svg
+[app]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=a0d7b954_unifi&repository_url=https%3A%2F%2Fgithub.com%2Fhassio-addons%2Frepository
+[contributors]: https://github.com/hassio-addons/app-unifi/graphs/contributors
 [discord-ha]: https://discord.gg/c5DvZ4e
 [discord]: https://discord.me/hassioaddons
 [forum]: https://community.home-assistant.io/t/home-assistant-community-add-on-unifi-controller/56297?u=frenck
 [frenck]: https://github.com/frenck
-[issue]: https://github.com/hassio-addons/addon-unifi/issues
+[issue]: https://github.com/hassio-addons/app-unifi/issues
 [keepchangelog]: http://keepachangelog.com/en/1.0.0/
 [reddit]: https://reddit.com/r/homeassistant
-[releases]: https://github.com/hassio-addons/addon-unifi/releases
+[releases]: https://github.com/hassio-addons/app-unifi/releases
 [semver]: http://semver.org/spec/v2.0.0.htm

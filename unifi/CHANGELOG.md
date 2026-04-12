@@ -1,7 +1,13 @@
 ## What’s changed
 
+## 🧰 Maintenance
+
+- Refactoring and renaming add-ons to apps @frenck ([#633](https://github.com/hassio-addons/app-unifi/pull/633))
+
+## 📚 Documentation
+
+- Add end-of-life notice @frenck ([#634](https://github.com/hassio-addons/app-unifi/pull/634))
+
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades UniFi Network Application to 10.0.160 @renewoensdregt ([#607](https://github.com/hassio-addons/addon-unifi/pull/607))
-- ⬆️ Upgrades UniFi Network Application to 10.0.161 @renewoensdregt ([#608](https://github.com/hassio-addons/addon-unifi/pull/608))
-- ⬆️ Upgrades UniFi Network Application to 10.0.162 @renewoensdregt ([#610](https://github.com/hassio-addons/addon-unifi/pull/610))
+- Upgrade to UniFi 10.2.105 with Java 25, fix TURN remote access @zglate ([#631](https://github.com/hassio-addons/app-unifi/pull/631))

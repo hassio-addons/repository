@@ -3,7 +3,7 @@ configuration:
   log_level:
     name: Detalhes do log
     description: >-
-      Controla o nível de detalhes provido pelo add-on para o log.
+      Controla o nível de detalhes provido pelo app para o log.
   memory_max:
     name: Memória máxima
     description: >-
