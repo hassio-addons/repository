@@ -1,10 +1,9 @@
 name: Grocy
-version: 0.24.0
+version: 0.25.0
 slug: grocy
 description: ERP beyond your fridge! A groceries & household management solution for
   your home
-url: https://github.com/hassio-addons/addon-grocy
-codenotary: codenotary@frenck.dev
+url: https://github.com/hassio-addons/app-grocy
 ingress: true
 ingress_stream: true
 init: false
@@ -13,7 +12,6 @@ panel_admin: false
 arch:
 - aarch64
 - amd64
-- armv7
 map:
 - ssl
 ports:
@@ -24,6 +22,7 @@ options:
   culture: en
   currency: USD
   entry_page: stock
+  grocycode_type: 2D
   features:
     batteries: true
     calendar: true
@@ -33,6 +32,11 @@ options:
     shoppinglist: true
     stock: true
     tasks: true
+  printers:
+    label_printer:
+      enabled: false
+    thermal_printer:
+      enabled: false
   tweaks:
     chores_assignment: true
     multiple_shopping_lists: true
@@ -51,6 +55,7 @@ schema:
   culture: list(ca|cs|da|de|el_GR|en|en_GB|es|et|fi|fr|he_IL|hu|it|ja|ko_KR|lt|nl|no|pl|pt_BR|pt_PT|ro|ru|sk_SK|sl|sv_SE|ta|tr|uk|zh_CN|zh_TW)
   currency: match(^[A-Z]{3}$)
   entry_page: list(stock|shoppinglist|recipes|chores|tasks|batteries|equipment|calendar|mealplan)
+  grocycode_type: list(1D|2D)
   features:
     batteries: bool
     calendar: bool
@@ -60,6 +65,19 @@ schema:
     shoppinglist: bool
     stock: bool
     tasks: bool
+  printers:
+    label_printer:
+      enabled: bool
+      webhook: str?
+      run_server: bool?
+      params: str?
+      hook_json: bool?
+    thermal_printer:
+      enabled: bool
+      ip: str?
+      port: int(1,65535)?
+      print_quantity_name: bool?
+      print_notes: bool?
   tweaks:
     calendar_first_day_of_week: int(0,6)?
     chores_assignment: bool
@@ -75,4 +93,4 @@ schema:
   certfile: str
   keyfile: str
   grocy_ingress_user: str
-image: ghcr.io/hassio-addons/grocy/{arch}
+image: ghcr.io/hassio-addons/grocy

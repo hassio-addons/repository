@@ -1,4 +1,4 @@
-# Home Assistant Community Add-on: Grocy
+# Home Assistant Community App: Grocy
 
 [![Release][release-shield]][release] ![Project Stage][project-stage-shield] ![Project Maintenance][maintenance-shield]
 
@@ -34,10 +34,10 @@ management solution for your home, delivering features like:
 [github-sponsors]: https://github.com/sponsors/frenck
 [grocy-demo]: https://demo-en.grocy.info
 [grocy]: https://grocy.info/
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2025.svg
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2026.svg
 [patreon-shield]: https://frenck.dev/wp-content/uploads/2019/12/patreon.png
 [patreon]: https://www.patreon.com/frenck
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
-[release-shield]: https://img.shields.io/badge/version-v0.24.0-blue.svg
-[release]: https://github.com/hassio-addons/addon-grocy/tree/v0.24.0
-[screenshot]: https://github.com/hassio-addons/addon-grocy/raw/main/images/screenshot.gif
+[release-shield]: https://img.shields.io/badge/version-v0.25.0-blue.svg
+[release]: https://github.com/hassio-addons/app-grocy/tree/v0.25.0
+[screenshot]: https://github.com/hassio-addons/app-grocy/raw/main/images/screenshot.gif
