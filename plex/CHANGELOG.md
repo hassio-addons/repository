@@ -1,14 +1,20 @@
 ## What’s changed
 
-## 🚨 Breaking changes
-
-- Drop support for armv7 systems @frenck (#271)
-
 ## 🐛 Bug fixes
 
-- Remove deprecated codenotary fields @frenck (#270)
+- Remove unused variable declaration in finish script @frenck (#286)
+
+## 🧰 Maintenance
+
+- Refactoring and renaming add-ons to apps @frenck (#279)
+- Handle all updates through renovate @frenck (#280)
+- Track APT package versions with Renovate @frenck (#285)
+
+## 📚 Documentation
+
+- Update example hostname to homeassistant.local @frenck (#287)
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades Plex Media Server to v1.42.2.10156 @frenck (#272)
-- ⬆️ Upgrades Base image to 8.1.4 @frenck (#273)
+- ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v9 @[renovate[bot]](https://github.com/apps/renovate) (#282)
+- ⬆️ Update plexmediaserver to v1.43.1.10611-1e34174b1 @[renovate[bot]](https://github.com/apps/renovate) (#281)

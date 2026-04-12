@@ -1,8 +1,8 @@
 name: Plex Media Server
-version: 4.0.0
+version: 4.1.0
 slug: plex
 description: Recorded media, live TV, online news, and podcasts ready to stream.
-url: https://github.com/hassio-addons/addon-plex
+url: https://github.com/hassio-addons/app-plex
 webui: http://[HOST]:[PORT:32400]/web
 startup: services
 init: false
@@ -51,4 +51,4 @@ options:
 schema:
   log_level: list(trace|debug|info|notice|warning|error|fatal)?
   claim_code: str
-image: ghcr.io/hassio-addons/plex/{arch}
+image: ghcr.io/hassio-addons/plex

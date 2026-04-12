@@ -1,25 +1,25 @@
-# Home Assistant Community Add-on: Plex Media Server
+# Home Assistant Community App: Plex Media Server
 
-The plex add-on brings your favorite media together in one place, making it
-beautiful and easy to enjoy. The Plex Media Server provided by this addon,
+The plex app brings your favorite media together in one place, making it
+beautiful and easy to enjoy. The Plex Media Server provided by this app,
 organizes your personal video, music, and photo collections
 and streams them to all of your devices.
 
 ## Installation
 
-The installation of this add-on is pretty straightforward and not different in
-comparison to installing any other Home Assistant add-on.
+The installation of this app is pretty straightforward and not different in
+comparison to installing any other Home Assistant app.
 
-1. Click the Home Assistant My button below to open the add-on on your Home
+1. Click the Home Assistant My button below to open the app on your Home
    Assistant instance.
 
-   [![Open this add-on in your Home Assistant instance.][addon-badge]][addon]
+   [![Open this app in your Home Assistant instance.][app-badge]][app]
 
-1. Click the "Install" button to install the add-on.
+1. Click the "Install" button to install the app.
 1. Surf to <https://www.plex.tv/claim> and get your claim token.
-1. Update the add-on config with the claim code you've got in the previous step.
-1. Save the add-on configuration.
-1. Start the "Plex Media Server" add-on.
+1. Update the app config with the claim code you've got in the previous step.
+1. Save the app configuration.
+1. Start the "Plex Media Server" app.
 1. Check the logs of the "Plex Media Server" to see if everything went well.
 1. Login to the Plex admin interface and complete the setup process.
 
@@ -28,9 +28,9 @@ as the base directories.
 
 ## Configuration
 
-**Note**: _Remember to restart the add-on when the configuration is changed._
+**Note**: _Remember to restart the app when the configuration is changed._
 
-Example add-on configuration:
+Example app configuration:
 
 ```yaml
 log_level: info
@@ -41,7 +41,7 @@ claim_code: claim-cAMrqFrenckFU4x445Tn
 
 ### Option: `log_level`
 
-The `log_level` option controls the level of log output by the addon and can
+The `log_level` option controls the level of log output by the app and can
 be changed to be more or less verbose, which might be useful when you are
 dealing with an unknown issue. Possible values are:
 
@@ -50,7 +50,7 @@ dealing with an unknown issue. Possible values are:
 - `info`: Normal (usually) interesting events.
 - `warning`: Exceptional occurrences that are not errors.
 - `error`: Runtime errors that do not require immediate action.
-- `fatal`: Something went terribly wrong. Add-on becomes unusable.
+- `fatal`: Something went terribly wrong. App becomes unusable.
 
 Please note that each level automatically includes log messages from a
 more severe level, e.g., `debug` also shows `info` messages. By default,
@@ -65,7 +65,7 @@ your server and unlocks all kinds of features as well.
 
 In order to get your code surf to <https://www.plex.tv/claim>.
 
-This code is only used once by the add-on. As soon as the
+This code is only used once by the app. As soon as the
 server is successfully authenticated with Plex, the code may be removed.
 
 ## Solving connection issues with Plex
@@ -76,7 +76,7 @@ its IP on your home network. This may cause connection issues with some
 Plex apps, e.g., the Samsung Tizen Plex app.
 
 This is not Plex its fault but is because of the Docker ecosystem, in
-which this add-on runs. Luckily, there is an option in Plex to help
+which this app runs. Luckily, there is an option in Plex to help
 with that, but it is a little hidden.
 
 - Login to the Plex web interface.
@@ -93,23 +93,23 @@ to Plex. You can list multiple if you'd like, separated by a comma.
 Example:
 
 ```txt
-http://hassio.local:32400,http://192.168.1.88:32400,http://mydomain.duckdns.org:32400
+http://homeassistant.local:32400,http://192.168.1.88:32400,http://mydomain.duckdns.org:32400
 ```
 
 ## Known issues and limitations
 
-- This add-on will be able to run on a Raspberry Pi. While it still can be
+- This app will be able to run on a Raspberry Pi. While it still can be
   useful, don't expect too much. In general, the Pi lacks the processing power
   and is probably not able to stream your media; therefore it is not
-  recommended using this add-on on such a device.
-- This add-on cannot add/mount any additional USB or other devices for you.
+  recommended using this app on such a device.
+- This app cannot add/mount any additional USB or other devices for you.
   This is a Home Assistant limitation. In case you'd like to use extra devices,
   you'll have to modify the host system yourself and is not supported by the
-  Home Assistant project or Community add-ons team.
+  Home Assistant project or Community Apps team.
 - A Plex Pass gives you exclusive access to new features, which are
   available through a Beta version channel of the media server. At this
-  time, running this "Beta" version, is not supported by this add-on.
-- This add-on does not support Plex over DLNA.
+  time, running this "Beta" version, is not supported by this app.
+- This app does not support Plex over DLNA.
 
 ## Changelog & Releases
 
@@ -130,7 +130,7 @@ Got questions?
 
 You have several options to get them answered:
 
-- The [Home Assistant Community Add-ons Discord chat server][discord] for add-on
+- The [Home Assistant Community Apps Discord chat server][discord] for app
   support and feature requests.
 - The [Home Assistant Discord chat server][discord-ha] for general Home
   Assistant discussions and questions.
@@ -150,7 +150,7 @@ check [the contributor's page][contributors].
 
 MIT License
 
-Copyright (c) 2018-2025 Franck Nijhof
+Copyright (c) 2018-2026 Franck Nijhof
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -170,14 +170,14 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[addon-badge]: https://my.home-assistant.io/badges/supervisor_addon.svg
-[addon]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=a0d7b954_plex&repository_url=https%3A%2F%2Fgithub.com%2Fhassio-addons%2Frepository
-[contributors]: https://github.com/hassio-addons/addon-plex/graphs/contributors
+[app-badge]: https://my.home-assistant.io/badges/supervisor_addon.svg
+[app]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=a0d7b954_plex&repository_url=https%3A%2F%2Fgithub.com%2Fhassio-addons%2Frepository
+[contributors]: https://github.com/hassio-addons/app-plex/graphs/contributors
 [discord-ha]: https://discord.gg/c5DvZ4e
 [discord]: https://discord.me/hassioaddons
 [forum]: https://community.home-assistant.io/t/home-assistant-community-add-on-plex-media-server/54383?u=frenck
 [frenck]: https://github.com/frenck
-[issue]: https://github.com/hassio-addons/addon-plex/issues
+[issue]: https://github.com/hassio-addons/app-plex/issues
 [reddit]: https://reddit.com/r/homeassistant
-[releases]: https://github.com/hassio-addons/addon-plex/releases
+[releases]: https://github.com/hassio-addons/app-plex/releases
 [semver]: https://semver.org/spec/v2.0.0.html
