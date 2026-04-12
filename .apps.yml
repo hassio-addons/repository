@@ -106,9 +106,9 @@ apps:
     target: phpmyadmin
     image: ghcr.io/hassio-addons/phpmyadmin/{arch}
   plex:
-    repository: hassio-addons/addon-plex
+    repository: hassio-addons/app-plex
     target: plex
-    image: ghcr.io/hassio-addons/plex/{arch}
+    image: ghcr.io/hassio-addons/plex
   radarr:
     repository: hassio-addons/addon-radarr
     target: radarr
