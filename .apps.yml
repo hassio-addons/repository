@@ -114,9 +114,9 @@ apps:
     target: radarr
     image: ghcr.io/hassio-addons/radarr
   sonarr:
-    repository: hassio-addons/addon-sonarr
+    repository: hassio-addons/app-sonarr
     target: sonarr
-    image: ghcr.io/hassio-addons/sonarr/{arch}
+    image: ghcr.io/hassio-addons/sonarr
   spotify:
     repository: hassio-addons/addon-spotify-connect
     target: spotify
