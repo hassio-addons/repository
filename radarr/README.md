@@ -1,4 +1,4 @@
-# Home Assistant Community Add-on: Radarr
+# Home Assistant Community App: Radarr
 
 [![Release][release-shield]][release] ![Project Stage][project-stage-shield] ![Project Maintenance][maintenance-shield]
 
@@ -20,7 +20,7 @@ a better quality format becomes available.
 [discord]: https://discord.gg/c5DvZ4e
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
 [forum]: https://community.home-assistant.io/t/?u=frenck
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2025.svg
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2026.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
-[release-shield]: https://img.shields.io/badge/version-v0.28.0-blue.svg
-[release]: https://github.com/hassio-addons/addon-radarr/tree/v0.28.0
+[release-shield]: https://img.shields.io/badge/version-v0.30.0-blue.svg
+[release]: https://github.com/hassio-addons/app-radarr/tree/v0.30.0
