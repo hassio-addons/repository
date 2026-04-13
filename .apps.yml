@@ -110,9 +110,9 @@ apps:
     target: plex
     image: ghcr.io/hassio-addons/plex
   radarr:
-    repository: hassio-addons/addon-radarr
+    repository: hassio-addons/app-radarr
     target: radarr
-    image: ghcr.io/hassio-addons/radarr/{arch}
+    image: ghcr.io/hassio-addons/radarr
   sonarr:
     repository: hassio-addons/addon-sonarr
     target: sonarr
