@@ -1,13 +1,5 @@
 ## What’s changed
 
-## 🧰 Maintenance
+## 🐛 Bug fixes
 
-- Refactoring and renaming add-ons to apps @frenck ([#633](https://github.com/hassio-addons/app-unifi/pull/633))
-
-## 📚 Documentation
-
-- Add end-of-life notice @frenck ([#634](https://github.com/hassio-addons/app-unifi/pull/634))
-
-## ⬆️ Dependency updates
-
-- Upgrade to UniFi 10.2.105 with Java 25, fix TURN remote access @zglate ([#631](https://github.com/hassio-addons/app-unifi/pull/631))
+- Fix x86_64 SIGILL crash: correct TURN patch offsets and use full NOP sled @zglate ([#636](https://github.com/hassio-addons/app-unifi/pull/636))
