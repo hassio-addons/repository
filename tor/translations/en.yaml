@@ -3,12 +3,12 @@ configuration:
   log_level:
     name: Log level
     description: >-
-      Controls the level of log details the add-on provides.
+      Controls the level of log details the app provides.
   socks:
     name: SOCKS proxy
     description: >-
       Enabling this feature allows you to use other applications on your
-      network to use the Tor network using this add-on as the SOCKS Proxy.
+      network to use the Tor network using this app as the SOCKS Proxy.
   hidden_services:
     name: Tor's hidden service
     description: >-
@@ -18,23 +18,23 @@ configuration:
     name: Stealth mode
     description: >-
       Requires clients to use an additional encryption key to be able to connect
-      to the hidden service this add-on exposes to the Tor network.
+      to the hidden service this app exposes to the Tor network.
   client_names:
     name: Clients
     description: >-
-      Names of client when using stealth mode. The add-on will generate keys
+      Names of client when using stealth mode. The app will generate keys
       for each of these clients. Valid client names are 1 to 16 characters long
       and only use characters in `A-Za-z0-9+-_` (no spaces).
   ports:
     name: Ports
     description: >-
       Configures hosts and ports to publish via a Tor Hidden Service. Check
-      the add-on documentation for the exact format to enter here.
+      the app documentation for the exact format to enter here.
   bridges:
     name: Bridges
     description: >-
       Configures bridges to establish a connection with the Tor network. Check the
-      add-on documentation for the exact format to enter here.
+      app documentation for the exact format to enter here.
   http_tunnel:
     name: HTTP proxy
     description: >-
