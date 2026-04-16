@@ -50,9 +50,9 @@ apps:
     target: ftp
     image: ghcr.io/hassio-addons/ftp/{arch}
   glances:
-    repository: hassio-addons/addon-glances
+    repository: hassio-addons/app-glances
     target: glances
-    image: ghcr.io/hassio-addons/glances/{arch}
+    image: ghcr.io/hassio-addons/glances
   grafana:
     repository: hassio-addons/addon-grafana
     target: grafana
