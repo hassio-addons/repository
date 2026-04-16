@@ -1,4 +1,4 @@
-# Home Assistant Community Add-on: Glances
+# Home Assistant Community App: Glances
 
 Glances is a cross-platform monitoring tool which aims to present a maximum of
 information in a minimum of space through a Web-based interface.
@@ -8,25 +8,25 @@ at all your system information and its behavior over time.
 
 ## Installation
 
-The installation of this add-on is pretty straightforward and not different in
-comparison to installing any other Home Assistant add-on.
+The installation of this app is pretty straightforward and not different in
+comparison to installing any other Home Assistant app.
 
-1. Click the Home Assistant My button below to open the add-on on your Home
+1. Click the Home Assistant My button below to open the app on your Home
    Assistant instance.
 
-   [![Open this add-on in your Home Assistant instance.][addon-badge]][addon]
+   [![Open this app in your Home Assistant instance.][app-badge]][app]
 
-1. Click the "Install" button to install the add-on.
-1. Disable "Protection mode" in the add-on panel.
-1. Start the "Glances" add-on.
+1. Click the "Install" button to install the app.
+1. Disable "Protection mode" in the app panel.
+1. Start the "Glances" app.
 1. Check the logs of the "Glances" to see if everything went well.
-1. Click the "OPEN WEB UI" button take a glance at Glances.
+1. Click the "OPEN WEB UI" button to take a glance at Glances.
 
 ## Configuration
 
-**Note**: _Remember to restart the add-on when the configuration is changed._
+**Note**: _Remember to restart the app when the configuration is changed._
 
-Example add-on configuration:
+Example app configuration:
 
 ```yaml
 log_level: info
@@ -59,7 +59,7 @@ influxdb:
 
 ### Option: `log_level`
 
-The `log_level` option controls the level of log output by the addon and can
+The `log_level` option controls the level of log output by the app and can
 be changed to be more or less verbose, which might be useful when you are
 dealing with an unknown issue. Possible values are:
 
@@ -68,7 +68,7 @@ dealing with an unknown issue. Possible values are:
 - `info`: Normal (usually) interesting events.
 - `warning`: Exceptional occurrences that are not errors.
 - `error`: Runtime errors that do not require immediate action.
-- `fatal`: Something went terribly wrong. Add-on becomes unusable.
+- `fatal`: Something went terribly wrong. App becomes unusable.
 
 Please note that each level automatically includes log messages from a
 more severe level, e.g., `debug` also shows `info` messages. By default,
@@ -120,7 +120,7 @@ Enables/Disables the Glances data export to InfluxDB.
 
 The hostname where InfluxDB is running.
 
-**Note**: _If you are using the Community InfluxDB add-on,
+**Note**: _If you are using the Community InfluxDB app,
 use `a0d7b954-influxdb` as the hostname._
 
 #### Option `influxdb`: `port`
@@ -135,7 +135,7 @@ Defines the interval (in seconds) on how often Glances exports data to InfluxDB.
 
 Adding this option will allow SSL to be used on the InfluxDB connection. If not
 set will default to `false` which is the required setting for the Community
-InfluxDB add-on.
+InfluxDB app.
 
 #### Option `influxdb`: `prefix`
 
@@ -145,7 +145,7 @@ The hostname to append for exported data.
 
 #### Option `influxdb`: `version`
 
-The influxdb version to connecting. Either **1** or **2**.
+The InfluxDB version to connect to. Either **1** or **2**.
 
 #### Option `influxdb`: `username`
 
@@ -166,7 +166,7 @@ The password for the above username option.
 
 The name of the database to store all Glances information into.
 
-If using Influx v2 the config value must be configured but will be ignored.
+If using InfluxDB v2, the config value must be configured but will be ignored.
 
 **Note**: _It is strongly recommended to create a separate database for glances
 and not store this in the same database name as Home Assistant._
@@ -203,7 +203,7 @@ and even build automations based on that data.
 
 Set up the integration through **Settings -> Devices & Services -> Integrations -> Add integration -> Glances**.
 
-**Note**: _Once the add-on is running, add the integration with all
+**Note**: _Once the app is running, add the integration with all
 defaults, except for port, which should be 61209_
 
 More information about the Glances sensor platform can be found in the
@@ -230,14 +230,14 @@ Got questions?
 
 You have several options to get them answered:
 
-- The [Home Assistant Community Add-ons Discord chat server][discord] for add-on
+- The [Home Assistant Community Apps Discord chat server][discord] for app
   support and feature requests.
 - The [Home Assistant Discord chat server][discord-ha] for general Home
   Assistant discussions and questions.
 - The Home Assistant [Community Forum][forum].
 - Join the [Reddit subreddit][reddit] in [/r/homeassistant][reddit]
 
-You could also [open an issue here][issue] GitHub.
+You could also [open an issue here][issue] on GitHub.
 
 ## Authors & contributors
 
@@ -250,7 +250,7 @@ check [the contributor's page][contributors].
 
 MIT License
 
-Copyright (c) 2019-2024 Franck Nijhof
+Copyright (c) 2019-2026 Franck Nijhof
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -270,15 +270,15 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[addon-badge]: https://my.home-assistant.io/badges/supervisor_addon.svg
-[addon]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=a0d7b954_glances&repository_url=https%3A%2F%2Fgithub.com%2Fhassio-addons%2Frepository
-[contributors]: https://github.com/hassio-addons/addon-glances/graphs/contributors
+[app-badge]: https://my.home-assistant.io/badges/supervisor_addon.svg
+[app]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=a0d7b954_glances&repository_url=https%3A%2F%2Fgithub.com%2Fhassio-addons%2Frepository
+[contributors]: https://github.com/hassio-addons/app-glances/graphs/contributors
 [discord-ha]: https://discord.gg/c5DvZ4e
 [discord]: https://discord.me/hassioaddons
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
 [forum]: https://community.home-assistant.io/t/home-assistant-community-add-on-glances/97102?u=frenck
 [frenck]: https://github.com/frenck
-[issue]: https://github.com/hassio-addons/addon-glances/issues
+[issue]: https://github.com/hassio-addons/app-glances/issues
 [reddit]: https://reddit.com/r/homeassistant
-[releases]: https://github.com/hassio-addons/addon-glances/releases
+[releases]: https://github.com/hassio-addons/app-glances/releases
 [semver]: https://semver.org/spec/v2.0.0.html
