@@ -538,7 +538,7 @@ Manage your UniFi network using a web browser
 ![Supports amd64 Architecture][uptime-kuma-amd64-shield]
 ![Supports i386 Architecture][uptime-kuma-i386-shield]
 
-It is a self-hosted monitoring tool like "Uptime Robot"
+It is a self-hosted monitoring tool like "Uptime Robot".
 
 [:books: Uptime Kuma app documentation][addon-doc-uptime-kuma]
 
@@ -551,7 +551,7 @@ It is a self-hosted monitoring tool like "Uptime Robot"
 ![Supports amd64 Architecture][bitwarden-amd64-shield]
 ![Supports i386 Architecture][bitwarden-i386-shield]
 
-Open source password management solution
+Open source password management solution.
 
 [:books: Vaultwarden app documentation][addon-doc-bitwarden]
 
