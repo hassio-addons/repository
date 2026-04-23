@@ -2,8 +2,8 @@
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update alpine_3_23/vim to v9.2.0321-r0 @[renovate[bot]](https://github.com/apps/renovate) ([#1028](https://github.com/hassio-addons/app-ssh/pull/1028))
-- ⬆️ Update OpenSSL to v3.5.6-r0 @[renovate[bot]](https://github.com/apps/renovate) ([#1029](https://github.com/hassio-addons/app-ssh/pull/1029))
-- ⬆️ Update Python to v3.12.13-r0 @[renovate[bot]](https://github.com/apps/renovate) ([#1031](https://github.com/hassio-addons/app-ssh/pull/1031))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v20.0.4 @[renovate[bot]](https://github.com/apps/renovate) ([#1030](https://github.com/hassio-addons/app-ssh/pull/1030))
-- ⬆️ Update Docker to v29.1.3-r4 @[renovate[bot]](https://github.com/apps/renovate) ([#1032](https://github.com/hassio-addons/app-ssh/pull/1032))
+- ⬆️ Update alpine_3_23/vim to v9.2.0357-r0 @[renovate[bot]](https://github.com/apps/renovate) ([#1036](https://github.com/hassio-addons/app-ssh/pull/1036))
+- ⬆️ Update alpine_3_23/mariadb-client to v11.4.10-r0 @[renovate[bot]](https://github.com/apps/renovate) ([#1037](https://github.com/hassio-addons/app-ssh/pull/1037))
+- ⬆️ Update alpine_3_23/rsync to v3.4.1-r2 @[renovate[bot]](https://github.com/apps/renovate) ([#1039](https://github.com/hassio-addons/app-ssh/pull/1039))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v20.1.0 @[renovate[bot]](https://github.com/apps/renovate) ([#1038](https://github.com/hassio-addons/app-ssh/pull/1038))
+- ⬆️ Update alpine_3_23/vim to v9.2.0389-r0 @[renovate[bot]](https://github.com/apps/renovate) ([#1040](https://github.com/hassio-addons/app-ssh/pull/1040))
