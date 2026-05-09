@@ -2,4 +2,4 @@
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update vaultwarden/server Docker tag to v1.35.8 @[renovate[bot]](https://github.com/apps/renovate) ([#416](https://github.com/hassio-addons/app-vaultwarden/pull/416))
+- ⬆️ Update vaultwarden/server Docker tag to v1.36.0 @[renovate[bot]](https://github.com/apps/renovate) ([#418](https://github.com/hassio-addons/app-vaultwarden/pull/418))
