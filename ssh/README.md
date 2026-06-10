@@ -2,8 +2,6 @@
 
 [![Release][release-shield]][release] ![Project Stage][project-stage-shield] ![Project Maintenance][maintenance-shield]
 
-[![Discord][discord-shield]][discord] [![Community Forum][forum-shield]][forum]
-
 [![Sponsor Frenck via GitHub Sponsors][github-sponsors-shield]][github-sponsors]
 
 [![Support Frenck on Patreon][patreon-shield]][patreon]
@@ -14,7 +12,7 @@ SSH or by using the Web Terminal.
 ## About
 
 This app allows you to log in to your Home Assistant instance using
-SSH or a Web Terminal, giving you to access your folders and
+SSH or a Web Terminal, giving you access to your folders and
 also includes a command-line tool to do things like restart, update,
 and check your instance.
 
@@ -26,8 +24,8 @@ usability, flexibility and also provides access using a web interface.
 
 ## WARNING
 
-The advanced SSH & Web Terminal app is a really powerful and gives you
-virtually access to all tools and almost all hardware of your system.
+The advanced SSH & Web Terminal app is very powerful and gives you access
+to almost all tools and hardware of your system.
 
 While this app is created and maintained with care and with security in mind,
 in the wrong or inexperienced hands, it could damage your system.
@@ -64,12 +62,8 @@ well. Additionally, it comes out of the box with the following:
   ["Oh My ZSH"][ohmyzsh], with some plugins enabled as well.
 - Contains a sensible set of tools right out of the box: curl, Wget, RSync, GIT,
   Nmap, Mosquitto client, MariaDB/MySQL client, Awake ("wake on LAN"), Nano,
-  Vim, tmux, and a bunch commonly used networking tools.
+  Neovim, tmux, and a bunch commonly used networking tools.
 
-[discord-shield]: https://img.shields.io/discord/478094546522079232.svg
-[discord]: https://discord.me/hassioaddons
-[forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
-[forum]: https://community.home-assistant.io/t/community-hass-io-add-on-ssh-web-terminal/33820?u=frenck
 [github-sponsors-shield]: https://frenck.dev/wp-content/uploads/2019/12/github_sponsor.png
 [github-sponsors]: https://github.com/sponsors/frenck
 [hass-ssh]: https://home-assistant.io/addons/ssh/
@@ -79,7 +73,7 @@ well. Additionally, it comes out of the box with the following:
 [patreon-shield]: https://frenck.dev/wp-content/uploads/2019/12/patreon.png
 [patreon]: https://www.patreon.com/frenck
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[release-shield]: https://img.shields.io/badge/version-v23.0.9-blue.svg
-[release]: https://github.com/hassio-addons/app-ssh/tree/v23.0.9
+[release-shield]: https://img.shields.io/badge/version-v24.0.0-blue.svg
+[release]: https://github.com/hassio-addons/app-ssh/tree/v24.0.0
 [screenshot]: https://github.com/hassio-addons/app-ssh/raw/main/images/screenshot.png
 [zsh]: https://en.wikipedia.org/wiki/Z_shell

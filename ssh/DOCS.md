@@ -1,7 +1,7 @@
 # Home Assistant Community App: Advanced SSH & Web Terminal
 
 This app allows you to log in to your Home Assistant instance using
-SSH or a Web Terminal, giving you to access your folders and
+SSH or a Web Terminal, giving you access to your folders and
 also includes a command-line tool to do things like restart, update,
 and check your instance.
 
@@ -49,7 +49,7 @@ well. Additionally, it comes out of the box with the following:
   ["Oh My ZSH"][ohmyzsh], with some plugins enabled as well.
 - Contains a sensible set of tools right out of the box: curl, Wget, RSync, GIT,
   Nmap, Mosquitto client, MariaDB/MySQL client, Awake ("wake on LAN"), Nano,
-  Vim, tmux, and a bunch commonly used networking tools.
+  Neovim, tmux, and a bunch commonly used networking tools.
 
 ## Installation
 
@@ -216,6 +216,22 @@ effectively sets SSH to behave as it used to be.
 Allows you to specify additional [Alpine packages][alpine-packages] to be
 installed in your shell environment (e.g., Python, Joe, Irssi).
 
+The packages are installed using Alpine's package manager, so any package name
+from the [Alpine package index][alpine-packages] works. List the package names
+exactly as they appear there. For example:
+
+```yaml
+packages:
+  - iperf3
+  - socat
+  - joe
+```
+
+This installs the packages on every start, so they are always available when
+you log in. Note that package names are not always the same as the command
+they provide (for example, the `ncat` command comes from the `nmap-ncat`
+package).
+
 **Note**: _Adding many packages will result in a longer start-up
 time for the app._
 
@@ -225,11 +241,50 @@ Customize your shell environment even more with the `init_commands` option.
 Add one or more shell commands to the list, and they will be executed every
 single time this app starts.
 
+## Clipboard: copying and pasting
+
+The Web Terminal is based on xterm.js, which follows X11-style clipboard
+conventions that may differ from what you expect:
+
+- **Copy**: hold `Shift` and select the text with your mouse. The selection is
+  copied to your system clipboard right away (a small scissors icon briefly
+  pops up). There is no need to press `Ctrl+C`.
+- **Paste**: press `Ctrl+Shift+V`, or right-click and choose paste, depending
+  on your browser.
+
+This applies to the Web Terminal in the Home Assistant frontend. A regular SSH
+client uses the clipboard behavior of its own terminal instead.
+
 ## Known issues and limitations
 
 - When SFTP is enabled, the username MUST be set to `root`.
 - If you want to use rsync for file transfer, the username MUST be set to
   `root`.
+
+## Running the `ha` command or Supervisor API non-interactively
+
+When you log in interactively, the app starts a login shell that sets up the
+`SUPERVISOR_TOKEN` environment variable. The `ha` command and the Supervisor
+API need that token, so commands like `ha core info` just work.
+
+Running a command non-interactively does **not** start a login shell, so the
+token is not set and the command fails with a `401` error. For example, this
+fails:
+
+```shell
+ssh your-instance "ha core info"
+```
+
+Wrap the command in a login shell so the environment, and with it the token,
+is loaded:
+
+```shell
+ssh your-instance 'bash -lc "ha core info"'
+```
+
+The same applies when calling the Supervisor API directly or running commands
+from automations: invoke them through a login shell (`bash -lc '...'`) so the
+`SUPERVISOR_TOKEN` is available.
 
 ## Changelog & Releases
 
@@ -257,7 +312,7 @@ You have several options to get them answered:
 - The Home Assistant [Community Forum][forum].
 - Join the [Reddit subreddit][reddit] in [/r/homeassistant][reddit]
 
-You could also [open an issue here][issue] GitHub.
+You could also [open an issue here][issue] on GitHub.
 
 ## Authors & contributors
 
