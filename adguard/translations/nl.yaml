@@ -1,0 +1,33 @@
+---
+configuration:
+  log_level:
+    name: Logniveau
+    description: >-
+      Bepaalt hoe gedetailleerd de app logt. Een hoger detailniveau kan
+      helpen bij het onderzoeken van een probleem. Elk niveau bevat ook de
+      meldingen van de ernstigere niveaus.
+  ssl:
+    name: SSL
+    description: >-
+      Schakelt versleuteling (HTTPS) in of uit voor directe toegang tot de
+      app. Dit heeft geen invloed op toegang via Ingress.
+  certfile:
+    name: Certificaatbestand
+    description: >-
+      Het te gebruiken SSL-certificaatbestand. Plaats het bestand in de map
+      `/ssl/`.
+  keyfile:
+    name: Privésleutelbestand
+    description: >-
+      Het te gebruiken SSL-privésleutelbestand. Plaats het bestand in de map
+      `/ssl/`.
+  leave_front_door_open:
+    name: Voordeur open laten
+    description: >-
+      Schakelt de authenticatie van AdGuard Home uit. We raden dit sterk af,
+      zelfs op een intern netwerk. Gebruik op eigen risico!
+network:
+  53/udp:
+    description: DNS-serverpoort
+  80/tcp:
+    description: Webinterface (niet nodig voor Ingress)

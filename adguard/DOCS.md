@@ -56,6 +56,7 @@ dealing with an unknown issue. Possible values are:
 - `trace`: Show every detail, like all called internal functions.
 - `debug`: Shows detailed debug information.
 - `info`: Normal (usually) interesting events.
+- `notice`: Normal but significant events.
 - `warning`: Exceptional occurrences that are not errors.
 - `error`: Runtime errors that do not require immediate action.
 - `fatal`: Something went terribly wrong. App becomes unusable.
@@ -95,11 +96,11 @@ only exposed to your internal network. USE AT YOUR OWN RISK!_
 
 ## Encryption Settings (Advanced Usage)
 
-Adguard allows the configuration of running DNS-over-HTTPS and DNS-over-
-TLS locally. If you configure these options please ensure to restart the
-app afterwards. Also to use DNS-over-HTTPS correctly please ensure to
-configure SSL on the app as well as in Adguard itself. Also consider
-that the app and Adguard cannot use the same port for SSL.
+AdGuard Home allows the configuration of running DNS-over-HTTPS and
+DNS-over-TLS locally. If you configure these options please ensure to restart
+the app afterwards. Also to use DNS-over-HTTPS correctly please ensure to
+configure SSL on the app as well as in AdGuard Home itself. Also consider
+that the app and AdGuard Home cannot use the same port for SSL.
 
 ## Changelog & Releases
 
