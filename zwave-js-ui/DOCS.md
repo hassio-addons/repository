@@ -51,7 +51,7 @@ Home Assistant.
 To do this:
 
 1. Open the Z-Wave JS UI control panel by clicking the "OPEN WEB UI"
-   button on the app page in the Supervisor.
+   button on the app page.
 1. In the control panel, go to "Settings" in the menu and click on the "Zwave"
    bar that shows up on the right.
 1. Enter the following information:
@@ -66,40 +66,13 @@ Now it is time to set up Home Assistant:
 1. Go to the Settings panel and click "Devices & Services".
 1. In the bottom right, click "+ Add Integration".
 1. Select the "Z-Wave" integration from the list.
-1. A dialog box will show, asking to use the app:
-   - **UNCHECK** that box, it will install the official app.
-   - Again, the official app is recommended, so...
+1. A dialog box will show, asking if you want to use the Z-Wave JS
+   Supervisor app:
+   - **UNCHECK** that box, so Home Assistant does not install and use
+     its own app, but connects to this app instead.
 1. In the next dialog it will ask for the server. Enter:
    `ws://a0d7b954-zwavejs2mqtt:3000`
 1. Confirm and done!
-
-## Configuration
-
-**Note**: _Remember to restart the app when the configuration is changed._
-
-Example app configuration:
-
-```yaml
-log_level: info
-```
-
-### Option: `log_level`
-
-The `log_level` option controls the level of log output by the app and can
-be changed to be more or less verbose, which might be useful when you are
-dealing with an unknown issue. Possible values are:
-
-- `trace`: Show every detail, like all called internal functions.
-- `debug`: Shows detailed debug information.
-- `info`: Normal (usually) interesting events.
-- `warning`: Exceptional occurrences that are not errors.
-- `error`: Runtime errors that do not require immediate action.
-- `fatal`: Something went terribly wrong. App becomes unusable.
-
-Please note that each level automatically includes log messages from a
-more severe level, e.g., `debug` also shows `info` messages. By default,
-the `log_level` is set to `info`, which is the recommended setting unless
-you are troubleshooting.
 
 ## Known issues and limitations
 
@@ -172,7 +145,6 @@ SOFTWARE.
 [discord-ha]: https://discord.gg/c5DvZ4e
 [discord]: https://discord.me/hassioaddons
 [esphome]: https://esphome.io/components/mqtt.html#on-message-trigger
-[forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
 [forum]: https://community.home-assistant.io/?u=frenck
 [frenck]: https://github.com/frenck
 [issue]: https://github.com/hassio-addons/app-zwave-js-ui/issues

@@ -2,8 +2,6 @@
 
 [![Release][release-shield]][release] ![Project Stage][project-stage-shield] ![Project Maintenance][maintenance-shield]
 
-[![Discord][discord-shield]][discord] [![Community Forum][forum-shield]][forum]
-
 [![Sponsor Frenck via GitHub Sponsors][github-sponsors-shield]][github-sponsors]
 
 [![Support Frenck on Patreon][patreon-shield]][patreon]
@@ -31,11 +29,7 @@ Some advantages and use-cases:
 
 This app uses the [Z-Wave JS UI][zwave-js-ui] software.
 
-[discord-shield]: https://img.shields.io/discord/478094546522079232.svg
-[discord]: https://discord.me/hassioaddons
 [esphome]: https://esphome.io/components/mqtt.html#on-message-trigger
-[forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
-[forum]: https://community.home-assistant.io/?u=frenck
 [github-sponsors-shield]: https://frenck.dev/wp-content/uploads/2019/12/github_sponsor.png
 [github-sponsors]: https://github.com/sponsors/frenck
 [logo]: https://github.com/hassio-addons/app-zwave-js-ui/raw/main/zwave-js-ui/logo.png
@@ -43,6 +37,6 @@ This app uses the [Z-Wave JS UI][zwave-js-ui] software.
 [patreon-shield]: https://frenck.dev/wp-content/uploads/2019/12/patreon.png
 [patreon]: https://www.patreon.com/frenck
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[release-shield]: https://img.shields.io/badge/version-v7.3.0-blue.svg
-[release]: https://github.com/hassio-addons/app-zwave-js-ui/tree/v7.3.0
+[release-shield]: https://img.shields.io/badge/version-v7.4.0-blue.svg
+[release]: https://github.com/hassio-addons/app-zwave-js-ui/tree/v7.4.0
 [zwave-js-ui]: https://github.com/zwave-js/zwave-js-ui
