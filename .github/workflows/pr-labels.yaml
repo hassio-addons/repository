@@ -14,4 +14,4 @@ permissions: {}
 
 jobs:
   workflows:
-    uses: hassio-addons/workflows/.github/workflows/pr-labels.yaml@3846ae0fd09acec8ac1ac308ceacd052b9d01bec # v2.0.6
+    uses: hassio-addons/workflows/.github/workflows/pr-labels.yaml@383c10d83acbe341acbb35a4a61bfd14827f00f0 # v3.0.0
