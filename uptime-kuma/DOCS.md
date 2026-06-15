@@ -1,10 +1,10 @@
 # Home Assistant Community App: Uptime Kuma
 
-Uptime Kuma is an open source monitor tools, which can be best
+Uptime Kuma is an open-source monitoring tool, which is best
 compared to a self-hosted variant of a commercial service like "Uptime Robot".
 
 It enables you to monitor services over HTTP/S, TCP, DNS, and other protocols
-and it can send you notifications of downtime or trigger an Home Assistant
+and it can send you notifications of downtime or trigger a Home Assistant
 automation webhook.
 
 ## Installation
@@ -22,12 +22,27 @@ comparison to installing any other Home Assistant app.
 1. Check the logs of "Uptime Kuma" to see if everything went well.
 1. Click on the "OPEN WEB UI" button to jump into Uptime Kuma.
 
-Please read the rest of this document further instructions.
+Please read the rest of this document for further instructions.
 
 ## Configuration
 
-This app has no configuration options, everything can be managed
-and configured via the Uptime Kuma interface.
+This app itself has no configuration options. Everything is managed and
+configured from within the Uptime Kuma web interface.
+
+A couple of things are worth knowing about this app specifically:
+
+- **Home Assistant discovery**: The app announces itself to Home Assistant,
+  allowing the Uptime Kuma integration to be discovered and set up
+  automatically.
+- **Data persistence**: All of your monitors, settings, and history are stored
+  in the app's `/data` directory. This survives restarts and updates, and is
+  included in Home Assistant backups.
+- **Notifications**: [Apprise][apprise] and MQTT are bundled, so the matching
+  notification providers can be configured directly from the Uptime Kuma
+  interface.
+- **Cloudflare Tunnel**: The `cloudflared` client is included, enabling Uptime
+  Kuma's built-in Cloudflare Tunnel feature for secure remote access without
+  exposing any ports.
 
 ## Changelog & Releases
 
@@ -56,7 +71,7 @@ You have several options to get them answered:
 - The Home Assistant [Community Forum][forum].
 - Join the [Reddit subreddit][reddit] in [/r/homeassistant][reddit]
 
-You could also [open an issue here][issue] GitHub.
+You could also [open an issue here][issue] on GitHub.
 
 ## Authors & contributors
 
@@ -91,12 +106,14 @@ SOFTWARE.
 
 [app-badge]: https://my.home-assistant.io/badges/supervisor_addon.svg
 [app]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=a0d7b954_uptime-kuma&repository_url=https%3A%2F%2Fgithub.com%2Fhassio-addons%2Frepository
+[apprise]: https://github.com/caronc/apprise
 [contributors]: https://github.com/hassio-addons/app-uptime-kuma/graphs/contributors
 [discord-ha]: https://discord.gg/c5DvZ4e
 [discord]: https://discord.me/hassioaddons
 [forum]: https://community.home-assistant.io/?u=frenck
 [frenck]: https://github.com/frenck
 [issue]: https://github.com/hassio-addons/app-uptime-kuma/issues
+[keepchangelog]: https://keepachangelog.com/en/1.0.0/
 [reddit]: https://reddit.com/r/homeassistant
 [releases]: https://github.com/hassio-addons/app-uptime-kuma/releases
 [semver]: https://semver.org/spec/v2.0.0.html
