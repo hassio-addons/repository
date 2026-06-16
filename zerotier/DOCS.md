@@ -21,7 +21,7 @@ comparison to installing any other Home Assistant app.
 
 1. Click the "Install" button to install the app.
 1. Create a free account at [zerotier.com][zerotier] and get a network ID.
-1. Set the "network_id" app option with your network ID.
+1. Add your network ID to the "networks" app option.
 1. Start the "ZeroTier One" app
 1. Check the logs of the "ZeroTier One" app to see if everything went well.
 1. The instance will show up in your ZeroTier account.
@@ -68,9 +68,8 @@ You can find this number in your ZeroTier account.
 
 ### Option: `api_auth_token`
 
-ZeroTier exposes a local HTTP JSON API, which uses the port set using the
-`port` option above. It allows tools and programs to access this ZeroTier
-instance for quering data (or control it).
+ZeroTier exposes a local HTTP JSON API on port `9993`. It allows tools and
+programs to access this ZeroTier instance for querying data (or control it).
 
 This token is like a password for accessing that API, you can leave this
 option empty if you are not planning on using this feature.
