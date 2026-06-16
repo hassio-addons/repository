@@ -8,10 +8,10 @@ It shows off several features and structures like:
 - Full blown GitHub repository.
 - General Dockerfile structure and setup.
 - The use of the `config.yaml` and `build.yaml` files.
-- General shell scripting structure (`run.sh`).
-- Quality assurance using CodeClimate.
-- Continuous integration and deployment using GitLab.
-- Usage of the Home Assistant Community Apps build environment.
+- General structure on how to use S6 overlay with services.
+- Basic usage of Bashio.
+- Continuous integration and deployment using GitHub Actions.
+- Deployment to the GitHub Container registry.
 - Small use of the Bash function library in our base images.
 - The use of Docker label schema.
 
@@ -31,7 +31,7 @@ comparison to installing any other Home Assistant app.
 
 ## Configuration
 
-Eventought this app is just an example app, it does come with some
+Even though this app is just an example app, it does come with some
 configuration options to play around with.
 
 **Note**: _Remember to restart the app when the configuration is changed._
