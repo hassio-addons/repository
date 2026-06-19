@@ -18,13 +18,3 @@ configuration:
     name: Kezdeti térfogat
     description: >-
       Kezdeti térfogat %-ban 0-100 között.
-  username:
-    name: Spotify felhasználónév
-    description: >-
-      Spotify Premium előfizetéssel rendelkező fiók felhasználóneve.
-      Ez akkor lehet hasznos, ha a Spotify alkalmazás nem találja
-      ezt a kiegészítőt. (Opcionális)
-  password:
-    name: Spotify jelszó
-    description: >-
-      Spotify Premium előfizetéssel rendelkező fiók jelszava.

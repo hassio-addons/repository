@@ -3,7 +3,7 @@ configuration:
   log_level:
     name: Log level
     description: >-
-      Controls the level of log details the add-on provides.
+      Controls the level of log details the app provides.
   name:
     name: Name
     description: >-
@@ -13,20 +13,11 @@ configuration:
     name: Bitrate
     description: >-
       The bitrate Spotify should use. The higher, the better the sound quality,
-      however, the add-on consumes more data.
+      however, the app consumes more data.
   initial_volume:
     name: Initial Volume
     description: >-
       Initial volume in % from 0-100.
-  username:
-    name: Spotify username
-    description: >-
-      An optional username that you use to login to your Spotify Premium
-      account. This can be helpful when experiencing discovery issues.
-  password:
-    name: Spotify password
-    description: >-
-      The password to log into your Spotify Premium account with.
   autoplay:
     name: Autoplay
     description: >-

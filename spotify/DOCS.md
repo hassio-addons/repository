@@ -1,43 +1,41 @@
-# Home Assistant Community Add-on: Spotify Connect
+# Home Assistant Community App: Spotify Connect
 
-The Home Assistant Spotify Connect add-on allows you to use your device,
-running Home Assistant, to play your Spotify music. This add-on uses the
+The Home Assistant Spotify Connect app allows you to use your device,
+running Home Assistant, to play your Spotify music. This app uses the
 Spotify Connect protocol, which makes it a device that can be controlled
 by all the official clients.
 
-For example; Running Home Assistant on a Raspberry Pi with this add-on
+For example, running Home Assistant on a Raspberry Pi with this app
 installed will allow you to play your Spotify music on the Pi. So all you'll
 have to do is hook up your sound system to the Pi and start booming!
 
 ## Installation
 
-The installation of this add-on is pretty straightforward and not different in
-comparison to installing any other Home Assistant add-on.
+The installation of this app is pretty straightforward and not different in
+comparison to installing any other Home Assistant app.
 
-1. Click the Home Assistant My button below to open the add-on on your Home
+1. Click the Home Assistant My button below to open the app on your Home
    Assistant instance.
 
-   [![Open this add-on in your Home Assistant instance.][addon-badge]][addon]
+   [![Open this app in your Home Assistant instance.][app-badge]][app]
 
-1. Click the "Install" button to install the add-on.
+1. Click the "Install" button to install the app.
 1. Select your audio output device and hit `Save` on that as well.
-1. Start the "Spotify Connect" add-on.
-1. Check the logs of the "Spotify Connect" to see if everything went well.
+1. Start the "Spotify Connect" app.
+1. Check the logs of the "Spotify Connect" app to see if everything went well.
 1. Ready to go!
 
 ## Configuration
 
-**Note**: _Remember to restart the add-on when the configuration is changed._
+**Note**: _Remember to restart the app when the configuration is changed._
 
-Example add-on configuration:
+Example app configuration:
 
 ```yaml
 log_level: info
-name: HomeAssistant
+name: Home Assistant
 bitrate: 320
 initial_volume: 50
-username: frenck@example.com
-password: MySpotifyPassword
 autoplay: true
 ```
 
@@ -45,7 +43,7 @@ autoplay: true
 
 ### Option: `log_level`
 
-The `log_level` option controls the level of log output by the addon and can
+The `log_level` option controls the level of log output by the app and can
 be changed to be more or less verbose, which might be useful when you are
 dealing with an unknown issue. Possible values are:
 
@@ -54,15 +52,15 @@ dealing with an unknown issue. Possible values are:
 - `info`: Normal (usually) interesting events.
 - `warning`: Exceptional occurrences that are not errors.
 - `error`: Runtime errors that do not require immediate action.
-- `fatal`: Something went terribly wrong. Add-on becomes unusable.
+- `fatal`: Something went terribly wrong. App becomes unusable.
 
 Please note that each level automatically includes log messages from a
 more severe level, e.g., `debug` also shows `info` messages. By default,
 the `log_level` is set to `info`, which is the recommended setting unless
 you are troubleshooting.
 
-Setting the `log_level` to `debug` will also turn on debug mode on the
-Spotify service.
+Setting the `log_level` to `debug` will also turn on debug mode on
+librespot.
 
 ### Option: `name`
 
@@ -72,30 +70,14 @@ the official Spotify clients.
 ### Option: `bitrate`
 
 The bitrate Spotify should use. The higher, the better the sound quality,
-however, the add-on consumes more data.
+however, the app consumes more data.
 
 Valid values: `96`, `160` (default) or `320`.
 
 ### Option: `initial_volume`
 
-Initial volume in % from 0-100. This setting takes effect when the addon starts or
+Initial volume in % from 0-100. This setting takes effect when the app starts or
 recovers from a crash.
-
-initial_volume: 50 # Optional
-
-### Option: `username`
-
-**IMPORTANT**: _This requires a Spotify Premium account!_
-
-The username you use to login to your Spotify Premium account. Setting
-this will bind the add-on to your account exclusively.
-
-This can be helpful when experiencing discovery issues on your network or
-to disallow guests on your network to use the add-on.
-
-### Option: `password`
-
-The password you use to login to your Spotify Premium account.
 
 ### Option: `autoplay`
 
@@ -103,7 +85,7 @@ Whether Spotify should autoplay similar songs when reaching the end of the queue
 
 ## Known issues and limitations
 
-- This add-on requires a Spotify Premium account.
+- This app requires a Spotify Premium account.
 
 ## Changelog & Releases
 
@@ -124,14 +106,14 @@ Got questions?
 
 You have several options to get them answered:
 
-- The [Home Assistant Community Add-ons Discord chat server][discord] for add-on
+- The [Home Assistant Community Apps Discord chat server][discord] for app
   support and feature requests.
 - The [Home Assistant Discord chat server][discord-ha] for general Home
   Assistant discussions and questions.
 - The Home Assistant [Community Forum][forum].
 - Join the [Reddit subreddit][reddit] in [/r/homeassistant][reddit]
 
-You could also [open an issue here][issue] GitHub.
+You could also [open an issue here][issue] on GitHub.
 
 ## Authors & contributors
 
@@ -144,7 +126,7 @@ check [the contributor's page][contributors].
 
 MIT License
 
-Copyright (c) 2018-2025 Franck Nijhof
+Copyright (c) 2018-2026 Franck Nijhof
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -164,14 +146,14 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[addon-badge]: https://my.home-assistant.io/badges/supervisor_addon.svg
-[addon]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=a0d7b954_spotify&repository_url=https%3A%2F%2Fgithub.com%2Fhassio-addons%2Frepository
-[contributors]: https://github.com/hassio-addons/addon-spotify-connect/graphs/contributors
+[app-badge]: https://my.home-assistant.io/badges/supervisor_addon.svg
+[app]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=a0d7b954_spotify&repository_url=https%3A%2F%2Fgithub.com%2Fhassio-addons%2Frepository
+[contributors]: https://github.com/hassio-addons/app-spotify-connect/graphs/contributors
 [discord-ha]: https://discord.gg/c5DvZ4e
 [discord]: https://discord.me/hassioaddons
 [forum]: https://community.home-assistant.io/t/home-assistant-community-add-on-spotify-connect/61210?u=frenck
 [frenck]: https://github.com/frenck
-[issue]: https://github.com/hassio-addons/addon-spotify-connect/issues
+[issue]: https://github.com/hassio-addons/app-spotify-connect/issues
 [reddit]: https://reddit.com/r/homeassistant
-[releases]: https://github.com/hassio-addons/addon-spotify-connect/releases
-[semver]: http://semver.org/spec/v2.0.0.htm
+[releases]: https://github.com/hassio-addons/app-spotify-connect/releases
+[semver]: https://semver.org/spec/v2.0.0.html
