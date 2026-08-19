@@ -83,6 +83,15 @@ recovers from a crash.
 
 Whether Spotify should autoplay similar songs when reaching the end of the queue.
 
+### Option: `access_token`
+
+When set, login to spotify account using this token. See
+[librespot documentation](https://github.com/librespot-org/librespot/wiki/Options#access-token)
+how to obtain one.
+
+To change the token, set it to empty first, restart app and only then set the
+new one.
+
 ## Known issues and limitations
 
 - This app requires a Spotify Premium account.
