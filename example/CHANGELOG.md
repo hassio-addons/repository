@@ -2,16 +2,10 @@
 
 ## 🐛 Bug fixes
 
-- 🐛 Fix quote selection bug and tidy example app sources @frenck ([#233](https://github.com/hassio-addons/app-example/pull/233))
-
-## 📚 Documentation
-
-- 🐛 Fix quote selection bug and tidy example app sources @frenck ([#233](https://github.com/hassio-addons/app-example/pull/233))
+- 🐛 Fix quote fetching under Bashio inherit_errexit @frenck ([#237](https://github.com/hassio-addons/app-example/pull/237))
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v20.0.4 @[renovate[bot]](https://github.com/apps/renovate) ([#227](https://github.com/hassio-addons/app-example/pull/227))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v20.1.0 @[renovate[bot]](https://github.com/apps/renovate) ([#228](https://github.com/hassio-addons/app-example/pull/228))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v20.1.1 @[renovate[bot]](https://github.com/apps/renovate) ([#229](https://github.com/hassio-addons/app-example/pull/229))
-- ⬆️ Update App base image to v21 @[renovate[bot]](https://github.com/apps/renovate) ([#231](https://github.com/hassio-addons/app-example/pull/231))
-- ⬆️ Update hassio-addons/workflows action to v3 @[renovate[bot]](https://github.com/apps/renovate) ([#232](https://github.com/hassio-addons/app-example/pull/232))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v21.0.1 @[renovate[bot]](https://github.com/apps/renovate) ([#234](https://github.com/hassio-addons/app-example/pull/234))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v21.0.2 @[renovate[bot]](https://github.com/apps/renovate) ([#235](https://github.com/hassio-addons/app-example/pull/235))
+- ⬆️ Update hassio-addons/workflows action to v3.0.1 @[renovate[bot]](https://github.com/apps/renovate) ([#236](https://github.com/hassio-addons/app-example/pull/236))
