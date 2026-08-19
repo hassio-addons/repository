@@ -27,7 +27,5 @@ configuration:
       Schakelt de authenticatie van AdGuard Home uit. We raden dit sterk af,
       zelfs op een intern netwerk. Gebruik op eigen risico!
 network:
-  53/udp:
-    description: DNS-serverpoort
-  80/tcp:
-    description: Webinterface (niet nodig voor Ingress)
+  53/udp: DNS-serverpoort
+  80/tcp: Webinterface (niet nodig voor Ingress)

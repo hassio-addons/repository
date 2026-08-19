@@ -102,6 +102,40 @@ the app afterwards. Also to use DNS-over-HTTPS correctly please ensure to
 configure SSL on the app as well as in AdGuard Home itself. Also consider
 that the app and AdGuard Home cannot use the same port for SSL.
 
+## Accessing the AdGuard Home API (Advanced Usage)
+
+AdGuard Home ships an HTTP API, served under `/control`, which you can use to
+query the app remotely, for example to analyze the query log from somewhere
+else.
+
+Ingress is not usable for this. It is built around a Home Assistant session
+and rewrites the paths it proxies, so it is not something an external API
+client can talk to. Use the direct web interface port instead, which is
+disabled by default: set a port for `80/tcp` in the Network section of the app
+configuration and restart the app. The API is then available on that port,
+for example `http://<your-instance>:<port>/control/status`.
+
+Take note of the authentication, because two layers are involved and they can
+collide. NGINX sits in front of AdGuard Home and, by default, checks every
+request to the direct port against Home Assistant using HTTP basic auth. That
+same `Authorization` header is passed on to AdGuard Home, whose API also uses
+basic auth. If you have users configured inside AdGuard Home, it does not
+recognize your Home Assistant credentials and answers `401`, even though the
+request made it past NGINX.
+
+Two combinations work:
+
+- Keep the Home Assistant check enabled and configure no users inside AdGuard
+  Home. Your Home Assistant credentials get you through NGINX, and AdGuard
+  Home does not ask for anything.
+- Set `leave_front_door_open` to `true` and configure users inside AdGuard
+  Home. NGINX stops checking, AdGuard Home's own basic auth applies, and your
+  API client authenticates against AdGuard Home directly.
+
+**Note**: _The warning on `leave_front_door_open` above is aimed at enabling
+it while AdGuard Home itself has no users configured, which leaves the app
+completely unauthenticated. Only expose this port on your local network._
+
 ## Changelog & Releases
 
 This repository keeps a change log using [GitHub's releases][releases]

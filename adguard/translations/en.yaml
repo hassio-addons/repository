@@ -29,7 +29,5 @@ configuration:
       advise against enabling this, even on an internal network. Use at your
       own risk!
 network:
-  53/udp:
-    description: DNS server port
-  80/tcp:
-    description: Web interface (not required for Ingress)
+  53/udp: DNS server port
+  80/tcp: Web interface (not required for Ingress)
