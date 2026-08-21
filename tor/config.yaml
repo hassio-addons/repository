@@ -1,5 +1,5 @@
 name: Tor
-version: 8.0.0
+version: 8.1.0
 slug: tor
 description: Protect your privacy and access Home Assistant via Tor
 url: https://github.com/hassio-addons/app-tor
@@ -8,6 +8,7 @@ arch:
 - aarch64
 - amd64
 init: false
+hassio_api: true
 ports:
   9050/tcp: 9050
   9080/tcp: 9080
@@ -23,8 +24,7 @@ options:
   stealth: false
   client_names: []
   ports:
-  - '8123'
-  - 8123:80
+  - auto
   bridges: []
 schema:
   log_level: list(trace|debug|info|notice|warning|error|fatal)?
@@ -35,7 +35,7 @@ schema:
   client_names:
   - match(^[A-Za-z0-9+-_]{1,16}$)
   ports:
-  - match(^(.*:)?(?:[0-9]{1,4}|[1-5][0-9]{4}|6[0-4][0-9]{3}|65[0-4][0-9]{2}|655[0-2][0-9]|6553[0-5])?$)
+  - match(^(?:auto|(.*:)?(?:[0-9]{1,4}|[1-5][0-9]{4}|6[0-4][0-9]{3}|65[0-4][0-9]{2}|655[0-2][0-9]|6553[0-5])?)$)
   bridges:
   - str
 image: ghcr.io/hassio-addons/tor

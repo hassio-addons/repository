@@ -28,8 +28,9 @@ configuration:
   ports:
     name: Ports
     description: >-
-      Configures hosts and ports to publish via a Tor Hidden Service. Check
-      the app documentation for the exact format to enter here.
+      Configures hosts and ports to publish via a Tor Hidden Service. Use `auto`
+      to publish Home Assistant using the Core port detected from Supervisor.
+      Check the app documentation for the supported formats.
   bridges:
     name: Bridges
     description: >-
