@@ -29,7 +29,8 @@ well. Additionally, it comes out of the box with the following:
   - Only uses known secure ciphers and algorithms.
   - Limits login attempts to hold off brute-force attacks better.
 - Comes with an SSH compatibility mode option to allow older clients to connect.
-- Support for Mosh allowing roaming and supports intermittent connectivity.
+- Support for [Mosh](#connecting-with-mosh) allowing roaming and supports
+  intermittent connectivity.
 - SFTP support is disabled by default but is user configurable.
 - Compatible if Home Assistant was installed via the generic Linux installer.
 - Username is configurable, so `root` is no longer mandatory.
@@ -241,6 +242,29 @@ Customize your shell environment even more with the `init_commands` option.
 Add one or more shell commands to the list, and they will be executed every
 single time this app starts.
 
+## Connecting with Mosh
+
+Next to OpenSSH, this app also ships with [Mosh][mosh]. Mosh is a remote
+terminal that survives suspending your machine, roaming between networks, and
+changing IP addresses. If you regularly close your laptop mid-session and want
+to pick it right back up, this is what you want.
+
+Mosh uses SSH for the initial login, so your existing configuration and keys
+keep working. Connect using the `mosh` command instead of `ssh`:
+
+```bash
+mosh root@homeassistant.local
+```
+
+Because this app runs on the host network, the UDP ports Mosh uses are
+available directly and require no additional configuration.
+
+Note that SSH connections are dropped after being unreachable for a while;
+this is intentional, as it cleans up connections that are no longer alive.
+Mosh is not affected by this. Combining Mosh with the
+[`share_sessions`](#option-share_sessions) option gives you a session that is
+durable on both ends.
+
 ## Clipboard: copying and pasting
 
 The Web Terminal is based on xterm.js, which follows X11-style clipboard
@@ -356,6 +380,7 @@ SOFTWARE.
 [github-ssh]: https://help.github.com/articles/connecting-to-github-with-ssh/
 [hass-ssh]: https://github.com/home-assistant/addons/tree/master/ssh
 [issue]: https://github.com/hassio-addons/app-ssh/issues
+[mosh]: https://mosh.org/
 [ohmyzsh]: http://ohmyz.sh/
 [openssh]: https://www.openssh.com/
 [reddit]: https://reddit.com/r/homeassistant
