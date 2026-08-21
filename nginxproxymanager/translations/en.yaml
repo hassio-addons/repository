@@ -1,5 +1,5 @@
 ---
 network:
   80/tcp: HTTP Entrance port
-  81/tcp: NGinx Proxy Manager Admin web interface
+  81/tcp: Nginx Proxy Manager Admin web interface
   443/tcp: HTTPS/SSL Entrance port
