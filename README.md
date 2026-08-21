@@ -942,7 +942,7 @@ SOFTWARE.
 [nginxproxymanager-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [nginxproxymanager-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [nginxproxymanager-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
-[nginxproxymanager-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
+[nginxproxymanager-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [nginxproxymanager-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [addon-node-red]: https://github.com/hassio-addons/app-node-red/tree/v22.0.2
 [addon-doc-node-red]: https://github.com/hassio-addons/app-node-red/blob/v22.0.2/README.md
