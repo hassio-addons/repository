@@ -1,5 +1,5 @@
 name: Tailscale
-version: 0.28.1
+version: 0.29.0
 slug: tailscale
 description: Zero config VPN for building secure networks
 url: https://github.com/hassio-addons/app-tailscale
@@ -22,9 +22,9 @@ privileged:
 devices:
 - /dev/net/tun
 map:
-- type: addons
+- type: local_apps
   read_only: false
-- type: all_addon_configs
+- type: all_app_configs
   read_only: false
 - type: backup
   read_only: false
@@ -41,49 +41,57 @@ ports:
   41641/udp: null
 options:
   accept_dns: true
-  accept_routes: true
-  advertise_exit_node: true
-  advertise_connector: true
-  advertise_routes:
-  - local_subnets
+  accept_routes: false
+  advertise_connector: false
+  advertise_exit_node: false
+  advertise_routes: []
+  advertise_tags: []
   always_use_derp: false
   log_level: info
+  log_upload: false
   login_server: https://controlplane.tailscale.com
   share_homeassistant: disabled
   share_on_port: 443
+  services: []
   snat_subnet_routes: true
   stateful_filtering: false
-  tags: []
   taildrive:
-    addons: false
-    addon_configs: false
+    local_apps: false
+    app_configs: false
     backup: false
     config: false
     media: false
     share: false
     ssl: false
-  taildrop: true
-  userspace_networking: true
+  taildrop: false
+  userspace_networking: false
 schema:
   accept_dns: bool
   accept_routes: bool
-  advertise_exit_node: bool
   advertise_connector: bool
+  advertise_exit_node: bool
   advertise_routes:
   - match(^(?:local_subnets|(?:(?:25[0-5]|(?:2[0-4]|1\d|[1-9]?)\d)\.){3}(?:25[0-5]|(?:2[0-4]|1\d|[1-9]?)\d)\/(?:3[0-2]|[12]?\d)|[a-fA-F\d.:]+:[a-fA-F\d.:]+\/(?:12[0-8]|(?:1[01]|[1-9]?)\d))$)
+  advertise_tags:
+  - match(^tag:[a-zA-Z][a-zA-Z0-9-]*$)
   always_use_derp: bool
   exit_node: match(^(?:(?:(?:25[0-5]|(?:2[0-4]|1\d|[1-9]?)\d)\.){3}(?:25[0-5]|(?:2[0-4]|1\d|[1-9]?)\d)|[a-fA-F\d.:]+:[a-fA-F\d.:]+|[a-fA-F\d]{8}(?:-[a-fA-F\d]{4}){3}-[a-fA-F\d]{12}|auto:any)$)?
   log_level: list(trace|debug|info|notice|warning|error|fatal)
+  log_upload: bool
   login_server: url
   share_homeassistant: list(disabled|serve|funnel)
   share_on_port: match(^(?:443|8443|10000)$)
+  services:
+  - name: match(^svc:[a-zA-Z0-9]([a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?$)
+    target: match(^(?:https?|tcp)://127\.0\.0\.1:([1-9]\d{0,3}|[1-5]\d{4}|6[0-4]\d{3}|65[0-4]\d{2}|655[0-2]\d|6553[0-5])$)
+    protocol: list(http|https|tcp|tls-terminated-tcp)
+    port: port
+    path: match(^/.*$)?
   snat_subnet_routes: bool
   stateful_filtering: bool
-  tags:
-  - match(^tag:[a-zA-Z][a-zA-Z0-9-]*$)
   taildrive:
-    addons: bool
-    addon_configs: bool
+    local_apps: bool
+    app_configs: bool
     backup: bool
     config: bool
     media: bool

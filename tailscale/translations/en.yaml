@@ -11,14 +11,7 @@ configuration:
     description: >-
       This option allows you to accept subnet routes advertised by other nodes
       in your tailnet.
-      This option is enabled by default.
-  advertise_exit_node:
-    name: Advertise as an exit node
-    description: >-
-      This option allows you to advertise this Tailscale instance as an exit node.
-      By setting a device on your network as an exit node, you can use it to
-      route all your public internet traffic as needed, like a consumer VPN.
-      This option is enabled by default.
+      This option is disabled by default.
   advertise_connector:
     name: Advertise as an app connector
     description: >-
@@ -26,14 +19,26 @@ configuration:
       accessible over your tailnet, and the domains for those applications. Any traffic
       for that application is then forced over the tailnet to a node running an app
       connector before egressing to the target domains.
-      This option is enabled by default.
+      This option is disabled by default.
+  advertise_exit_node:
+    name: Advertise as an exit node
+    description: >-
+      This option allows you to advertise this Tailscale instance as an exit node.
+      By setting a device on your network as an exit node, you can use it to
+      route all your public internet traffic as needed, like a consumer VPN.
+      This option is disabled by default.
   advertise_routes:
     name: Advertise subnet routes
     description: >-
       This option allows you to advertise routes to subnets (accessible on the network
       your device is connected to) to other clients on your tailnet.
-      The app by default will advertise routes to your subnets on all supported
-      interfaces by adding `local_subnets` to the list.
+      By adding `local_subnets` to the list, the app will advertise routes to your
+      subnets on all supported interfaces.
+  advertise_tags:
+    name: Advertise tags
+    description: >-
+      This option allows you to specify specific ACL tags for this
+      Tailscale instance. They need to start with `tag:`.
   always_use_derp:
     name: Always use DERP connection
     description: >-
@@ -53,6 +58,13 @@ configuration:
     description: >-
       Controls the level of log details the app provides.
       This only applies to the app itself, not Tailscale.
+  log_upload:
+    name: Log upload
+    description: >-
+      Controls Tailscale's client log upload to log.tailscale.com. Enable it if your
+      tailnet policy/Admin Console requires client log upload, otherwise Tailscale
+      and the app can refuse to start.
+      This option is disabled by default.
   login_server:
     name: Login server
     description: >-
@@ -74,6 +86,41 @@ configuration:
       internet.
       Only ports 443, 8443, and 10000 are allowed by Tailscale.
       Port 443 is used by default.
+  services:
+    name: Service hosts
+    description: >-
+      This option allows you to advertise other local services running on this
+      device as Tailscale Services. Each service needs a name, a local target
+      address, a protocol, and a port to expose it on.
+      This option is disabled by default.
+    fields:
+      name:
+        name: Service name
+        description: >-
+          Must include the `svc:` prefix.
+      target:
+        name: Target
+        description: >-
+          Must be a local address reachable from this app. Use `http://` or
+          `https://` targets for HTTP/HTTPS protocols, and `tcp://` targets for TCP and
+          tls-terminated-tcp protocols, for example `http://127.0.0.1:13378`.
+      protocol:
+        name: Protocol
+        description: >-
+          The protocol by which the target will be presented.
+          Note: For `https` and `tls-terminated-tcp` protocols you must enable
+          MagicDNS and HTTPS certificates for your tailnet on the DNS
+          page of the admin console first. Once enabled, Tailscale
+          automatically provisions a TLS certificate for the service.
+      port:
+        name: Port
+        description: >-
+          The port where the target will be exposed.
+      path:
+        name: Path
+        description: >-
+          The path where the target will be exposed.
+          Optional, defaults to `/`, and can be used only for the HTTP/HTTPS protocols.
   snat_subnet_routes:
     name: Source NAT subnet routes
     description: >-
@@ -89,11 +136,6 @@ configuration:
       nodes, subnet routers, and app connectors), to only allow return packets for
       existing outbound connections.
       This option is disabled by default.
-  tags:
-    name: Tags
-    description: >-
-      This option allows you to specify specific ACL tags for this
-      Tailscale instance. They need to start with `tag:`.
   taildrive:
     name: Taildrive shares
     description: >-
@@ -106,15 +148,14 @@ configuration:
     description: >-
       This option allows you to enable Taildrop, a file sharing service
       that allows you to share files with other Tailscale nodes.
-      This option is enabled by default.
+      This option is disabled by default.
   userspace_networking:
     name: Userspace networking mode
     description: >-
-      This option allows you to enable userspace networking mode.
-      If you need to access other clients on your tailnet from your Home
-      Assistant instance, disable userspace networking mode, which will create a
-      `tailscale0` network interface on your host.
-      This option is enabled by default.
+      When enabled, Tailscale will not create a `tailscale0` network interface on your
+      host, i.e. you get one-way access from tailnet clients to your Home Assistant
+      instance (and optionally the local subnets).
+      This option is disabled by default.
 network:
   41641/udp: >-
     UDP port to listen on for WireGuard and peer-to-peer traffic.

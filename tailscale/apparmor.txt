@@ -14,9 +14,7 @@ profile tailscale flags=(attach_disconnected,mediate_deleted) {
   /run/{s6,s6-rc*,service}/** ix,
   /package/** ix,
   /command/** ix,
-  /etc/services.d/** rwix,
-  /etc/cont-init.d/** rwix,
-  /etc/cont-finish.d/** rwix,
+  /etc/s6-overlay/** rwix,
   /run/{,**} rwk,
   /dev/tty rw,
 
