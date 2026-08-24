@@ -1,32 +1,32 @@
-# Home Assistant Community Add-on: phpMyAdmin
+# Home Assistant Community App: phpMyAdmin
 
 phpMyAdmin is a database administration tool for MySQL & MariaDB. Frequently
 used operations (managing databases, tables, columns, relations, indexes,
 users, permissions, etc) can be performed via the user interface,
 while you still have the ability to directly execute any SQL statement.
 
-This add-on was specifically designed to manage the official Home Assistant
-MariaDB add-on.
+This app was specifically designed to manage the official Home Assistant
+MariaDB app.
 
 ## Installation
 
-The installation of this add-on is pretty straightforward and not different in
-comparison to installing any other Home Assistant add-on.
+The installation of this app is pretty straightforward and not different in
+comparison to installing any other Home Assistant app.
 
-1. Click the Home Assistant My button below to open the add-on on your Home
+1. Click the Home Assistant My button below to open the app on your Home
    Assistant instance.
 
-   [![Open this add-on in your Home Assistant instance.][addon-badge]][addon]
+   [![Open this app in your Home Assistant instance.][addon-badge]][addon]
 
-1. Click the "Install" button to install the add-on.
-1. Start the "phpMyAdmin" add-on.
-1. Enjoy the add-on!
+1. Click the "Install" button to install the app.
+1. Start the "phpMyAdmin" app.
+1. Enjoy the app!
 
 ## Configuration
 
-**Note**: _Remember to restart the add-on when the configuration is changed._
+**Note**: _Remember to restart the app when the configuration is changed._
 
-Example add-on configuration:
+Example app configuration:
 
 ```yaml
 log_level: info
@@ -41,7 +41,7 @@ By default, the size limit for uploads (for operations such as imports) is set t
 
 ### Option: `log_level`
 
-The `log_level` option controls the level of log output by the addon and can
+The `log_level` option controls the level of log output by the app and can
 be changed to be more or less verbose, which might be useful when you are
 dealing with an unknown issue. Possible values are:
 
@@ -50,7 +50,7 @@ dealing with an unknown issue. Possible values are:
 - `info`: Normal (usually) interesting events.
 - `warning`: Exceptional occurrences that are not errors.
 - `error`: Runtime errors that do not require immediate action.
-- `fatal`: Something went terribly wrong. Add-on becomes unusable.
+- `fatal`: Something went terribly wrong. App becomes unusable.
 
 Please note that each level automatically includes log messages from a
 more severe level, e.g., `debug` also shows `info` messages. By default,
@@ -59,9 +59,9 @@ you are troubleshooting.
 
 ## Known issues and limitations
 
-- This add-on needs the core MariaDB add-on version 2.0 or higher.
-- This add-on is created to allow management of the official Home assistant
-  MariaDB add-on. It cannot connect to other MySQL or MariaDB servers.
+- This app needs the core MariaDB app version 2.0 or higher.
+- This app is created to allow management of the official Home assistant
+  MariaDB app. It cannot connect to other MySQL or MariaDB servers.
 
 ## Changelog & Releases
 
@@ -82,7 +82,7 @@ Got questions?
 
 You have several options to get them answered:
 
-- The [Home Assistant Community Add-ons Discord chat server][discord] for add-on
+- The [Home Assistant Community Apps Discord chat server][discord] for app
   support and feature requests.
 - The [Home Assistant Discord chat server][discord-ha] for general Home
   Assistant discussions and questions.
@@ -102,7 +102,7 @@ check [the contributor's page][contributors].
 
 MIT License
 
-Copyright (c) 2021-2025 Franck Nijhof
+Copyright (c) 2021-2026 Franck Nijhof
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -124,12 +124,12 @@ SOFTWARE.
 
 [addon-badge]: https://my.home-assistant.io/badges/supervisor_addon.svg
 [addon]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=a0d7b954_phpmyadmin&repository_url=https%3A%2F%2Fgithub.com%2Fhassio-addons%2Frepository
-[contributors]: https://github.com/hassio-addons/addon-phpmyadmin/graphs/contributors
+[contributors]: https://github.com/hassio-addons/app-phpmyadmin/graphs/contributors
 [discord-ha]: https://discord.gg/c5DvZ4e
 [discord]: https://discord.me/hassioaddons
 [forum]: https://community.home-assistant.io/t/home-assistant-community-add-on-phpmyadmin/171729?u=frenck
 [frenck]: https://github.com/frenck
-[issue]: https://github.com/hassio-addons/addon-phpmyadmin/issues
+[issue]: https://github.com/hassio-addons/app-phpmyadmin/issues
 [reddit]: https://reddit.com/r/homeassistant
-[releases]: https://github.com/hassio-addons/addon-phpmyadmin/releases
+[releases]: https://github.com/hassio-addons/app-phpmyadmin/releases
 [semver]: https://semver.org/spec/v2.0.0.html
