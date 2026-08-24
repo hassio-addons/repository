@@ -1,36 +1,36 @@
-# Home Assistant Community Add-on: FTP
+# Home Assistant Community App: FTP
 
 The FTP protocol might be come in handy sometimes. While old,
 it still has its use. For example, most IP Cameras still support the upload
 of images or videos via FTP.
 
-This add-on provides an FTP Server for Hass.io in a reasonably secure manner.
-While FTP is not entirely secure by its (unencrypted) nature, this add-on
+This app provides an FTP Server for Hass.io in a reasonably secure manner.
+While FTP is not entirely secure by its (unencrypted) nature, this app
 supports FTP over SSL (FTPS) and jails (chroot) the virtual users in their
 home directories.
 
-Of course, if you'd really want to, you could also use this add-on to again
+Of course, if you'd really want to, you could also use this app to again
 access to your Home Assistant configuration via FTP.
 
 ## Installation
 
-The installation of this add-on is pretty straightforward and not different in
-comparison to installing any other Home Assistant add-on.
+The installation of this app is pretty straightforward and not different in
+comparison to installing any other Home Assistant app.
 
-1. Click the Home Assistant My button below to open the add-on on your Home
+1. Click the Home Assistant My button below to open the app on your Home
    Assistant instance.
 
-   [![Open this add-on in your Home Assistant instance.][addon-badge]][addon]
+   [![Open this app in your Home Assistant instance.][addon-badge]][addon]
 
-1. Click the "Install" button to install the add-on.
-1. Start the "FTP" add-on
-1. Check the logs of the "FTP" add-on to see if everything went well.
+1. Click the "Install" button to install the app.
+1. Start the "FTP" app.
+1. Check the logs of the "FTP" app to see if everything went well.
 
 ## Configuration
 
-**Note**: _Remember to restart the add-on when the configuration is changed._
+**Note**: _Remember to restart the app when the configuration is changed._
 
-Example add-on configuration:
+Example app configuration:
 
 ```yaml
 log_level: info
@@ -77,7 +77,7 @@ users:
 
 ### Option: `log_level`
 
-The `log_level` option controls the level of log output by the addon and can
+The `log_level` option controls the level of log output by the app and can
 be changed to be more or less verbose, which might be useful when you are
 dealing with an unknown issue. Possible values are:
 
@@ -86,7 +86,7 @@ dealing with an unknown issue. Possible values are:
 - `info`: Normal (usually) interesting events.
 - `warning`: Exceptional occurrences that are not errors.
 - `error`: Runtime errors that do not require immediate action.
-- `fatal`: Something went terribly wrong. Add-on becomes unusable.
+- `fatal`: Something went terribly wrong. App becomes unusable.
 
 Please note that each level automatically includes log messages from a
 more severe level, e.g., `debug` also shows `info` messages. By default,
@@ -226,7 +226,7 @@ Allow the user to access the `/ssl` directory.
 
 ### Option: `i_like_to_be_pwned`
 
-Adding this option to the add-on configuration allows to you bypass the
+Adding this option to the app configuration allows to you bypass the
 HaveIBeenPwned password requirement by setting it to `true`.
 
 **Note**: _We STRONGLY suggest picking a stronger/safer password instead of
@@ -251,7 +251,7 @@ Got questions?
 
 You have several options to get them answered:
 
-- The [Home Assistant Community Add-ons Discord chat server][discord] for add-on
+- The [Home Assistant Community Apps Discord chat server][discord] for app
   support and feature requests.
 - The [Home Assistant Discord chat server][discord-ha] for general Home
   Assistant discussions and questions.
@@ -293,13 +293,13 @@ SOFTWARE.
 
 [addon-badge]: https://my.home-assistant.io/badges/supervisor_addon.svg
 [addon]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=a0d7b954_ftp&repository_url=https%3A%2F%2Fgithub.com%2Fhassio-addons%2Frepository
-[contributors]: https://github.com/hassio-addons/addon-ftp/graphs/contributors
+[contributors]: https://github.com/hassio-addons/app-ftp/graphs/contributors
 [discord-ha]: https://discord.gg/c5DvZ4e
 [discord]: https://discord.me/hassioaddons
 [forum]: https://community.home-assistant.io/t/home-assistant-community-add-on-ftp/36799?u=frenck
 [frenck]: https://github.com/frenck
-[issue]: https://github.com/hassio-addons/addon-ftp/issues
+[issue]: https://github.com/hassio-addons/app-ftp/issues
 [passive-vs-active]: https://stackoverflow.com/a/1699163/299699
 [reddit]: https://reddit.com/r/homeassistant
-[releases]: https://github.com/hassio-addons/addon-ftp/releases
+[releases]: https://github.com/hassio-addons/app-ftp/releases
 [semver]: http://semver.org/spec/v2.0.0.htm
