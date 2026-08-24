@@ -1,4 +1,4 @@
-# Home Assistant Community Add-on: Tautulli
+# Home Assistant Community App: Tautulli
 
 [![Release][release-shield]][release] ![Project Stage][project-stage-shield] ![Project Maintenance][maintenance-shield]
 
@@ -19,12 +19,12 @@ who watched it, when and where they watched it, and how it was watched.
 All statistics are presented in a nice and clean interface with many tables and
 graphs, which makes it easy to brag about your server to everyone else.
 
-[discord-shield]: https://img.shields.io/discord/330944238910963714.svg
-[discord]: https://discord.gg/c5DvZ4e
+[discord-shield]: https://img.shields.io/discord/478094546522079232.svg
+[discord]: https://discord.me/hassioaddons
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
 [forum]: https://community.home-assistant.io/t/home-assistant-community-add-on-tautulli/68745
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2025.svg
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2026.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[release-shield]: https://img.shields.io/badge/version-v5.0.0-blue.svg
-[release]: https://github.com/hassio-addons/addon-tautulli/tree/v5.0.0
-[screenshot]: https://github.com/hassio-addons/addon-tautulli/raw/main/images/screenshot.png
+[release-shield]: https://img.shields.io/badge/version-v6.0.0-blue.svg
+[release]: https://github.com/hassio-addons/app-tautulli/tree/v6.0.0
+[screenshot]: https://github.com/hassio-addons/app-tautulli/raw/main/images/screenshot.png
