@@ -1,4 +1,4 @@
-# Home Assistant Community Add-on: The Lounge
+# Home Assistant Community App: The Lounge
 
 A self-hosted web IRC client that uses a modern and sleek interface with
 support for theming, push notifications, link previews, file uploads and
@@ -6,25 +6,25 @@ more. Fully cross-platform and mobile friendly.
 
 ## Installation
 
-The installation of this add-on is pretty straightforward and not different in
-comparison to installing any other Home Assistant add-on.
+The installation of this app is pretty straightforward and not different in
+comparison to installing any other Home Assistant app.
 
-1. Click the Home Assistant My button below to open the add-on on your Home
+1. Click the Home Assistant My button below to open the app on your Home
    Assistant instance.
 
-   [![Open this add-on in your Home Assistant instance.][addon-badge]][addon]
+   [![Open this app in your Home Assistant instance.][addon-badge]][addon]
 
-1. Click the "Install" button to install the add-on.
-1. Configure the "The Lounge" add-on. (See below)
-1. Start the "The Lounge" add-on.
-1. Check the logs of the "The Lounge" add-on to see it in action.
+1. Click the "Install" button to install the app.
+1. Configure the "The Lounge" app. (See below)
+1. Start the "The Lounge" app.
+1. Check the logs of the "The Lounge" app to see it in action.
 1. Click "Open Web UI".
 
 ## Configuration
 
-**Note**: _Remember to restart the add-on when the configuration is changed._
+**Note**: _Remember to restart the app when the configuration is changed._
 
-Example add-on configuration:
+Example app configuration:
 
 ```yaml
 log_level: info
@@ -40,16 +40,17 @@ users:
 
 ### Option: `log_level`
 
-The `log_level` option controls the level of log output by the addon and can
+The `log_level` option controls the level of log output by the app and can
 be changed to be more or less verbose, which might be useful when you are
 dealing with an unknown issue. Possible values are:
 
 - `trace`: Show every detail, like all called internal functions.
 - `debug`: Shows detailed debug information.
 - `info`: Normal (usually) interesting events.
+- `notice`: Normal but significant events.
 - `warning`: Exceptional occurrences that are not errors.
 - `error`: Runtime errors that do not require immediate action.
-- `fatal`: Something went terribly wrong. Add-on becomes unusable.
+- `fatal`: Something went terribly wrong. App becomes unusable.
 
 Please note that each level automatically includes log messages from a
 more severe level, e.g., `debug` also shows `info` messages. By default,
@@ -109,7 +110,7 @@ Got questions?
 
 You have several options to get them answered:
 
-- The [Home Assistant Community Add-ons Discord chat server][discord] for add-on
+- The [Home Assistant Community Apps Discord chat server][discord] for app
   support and feature requests.
 - The [Home Assistant Discord chat server][discord-ha] for general Home
   Assistant discussions and questions.
@@ -129,7 +130,7 @@ check [the contributor's page][contributors].
 
 MIT License
 
-Copyright (c) 2019-2025 Timmo
+Copyright (c) 2019-2026 Timmo
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -151,13 +152,13 @@ SOFTWARE.
 
 [addon-badge]: https://my.home-assistant.io/badges/supervisor_addon.svg
 [addon]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=a0d7b954_thelounge&repository_url=https%3A%2F%2Fgithub.com%2Fhassio-addons%2Frepository
-[contributors]: https://github.com/hassio-addons/addon-thelounge/graphs/contributors
+[contributors]: https://github.com/hassio-addons/app-thelounge/graphs/contributors
 [discord-ha]: https://discord.gg/c5DvZ4e
 [discord]: https://discord.me/hassioaddons
 [forum]: https://community.home-assistant.io/?u=timmo001
-[issue]: https://github.com/hassio-addons/addon-thelounge/issues
+[issue]: https://github.com/hassio-addons/app-thelounge/issues
 [reddit]: https://reddit.com/r/homeassistant
-[releases]: https://github.com/hassio-addons/addon-thelounge/releases
+[releases]: https://github.com/hassio-addons/app-thelounge/releases
 [semver]: https://semver.org/spec/v2.0.0.html
 [themes]: https://www.npmjs.com/search?q=keywords%3Athelounge-theme
 [timmo]: https://github.com/timmo001

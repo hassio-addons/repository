@@ -1,0 +1,40 @@
+---
+configuration:
+  log_level:
+    name: Log level
+    description: >-
+      Controls the level of log output by the app and can be changed to be
+      more or less verbose, which might be useful when you are dealing with
+      an unknown issue. Each level automatically includes the messages of a
+      more severe level.
+  ssl:
+    name: SSL
+    description: >-
+      Enables/Disables encrypted SSL (HTTPS) for direct access to the app.
+      This setting has no effect on the Ingress service.
+  certfile:
+    name: Certificate file
+    description: >-
+      The certificate file to use for SSL. The file must be stored in the
+      `/ssl/` directory.
+  keyfile:
+    name: Private key file
+    description: >-
+      The private key file to use for SSL. The file must be stored in the
+      `/ssl/` directory.
+  default_theme:
+    name: Default theme
+    description: >-
+      The theme each user starts out with. Use one of the themes bundled with
+      The Lounge, or one you added using the themes option. Every user can
+      still pick a different theme in their own settings.
+  themes:
+    name: Themes
+    description: >-
+      A list of additional themes to install, using their package name as
+      published on the npm registry.
+  users:
+    name: Users
+    description: >-
+      A list of users to create. Each new user starts out with the default
+      password `hassio`. Make sure to change it right after your first login.
