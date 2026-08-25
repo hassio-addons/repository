@@ -1,8 +1,8 @@
 name: chrony
-version: 6.0.1
+version: 6.1.0
 slug: chrony
 description: A local NTP (Network Time Protocol) server for cameras etc.
-url: https://github.com/hassio-addons/addon-chrony
+url: https://github.com/hassio-addons/app-chrony
 startup: system
 arch:
 - aarch64
