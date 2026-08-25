@@ -1,7 +1,7 @@
-# Home Assistant Community Add-on: Traccar
+# Home Assistant Community App: Traccar
 
 [Traccar][traccar] is a modern GPS Tracking Platform, which is now available
-as an Hass.io add-on and allows you to run your GPS Tracking software
+as a Home Assistant app and allows you to run your GPS Tracking software
 without any cloud.
 
 Traccar supports more protocols and device models than any other GPS tracking
@@ -16,26 +16,26 @@ your Home Assistant instance as well.
 
 ## Installation
 
-The installation of this add-on is pretty straightforward and not different in
-comparison to installing any other Home Assistant add-on.
+The installation of this app is pretty straightforward and not different in
+comparison to installing any other Home Assistant app.
 
-1. Ensure you have the [official "MariaDB" add-on][mariadb] installed and
+1. Ensure you have the [official "MariaDB" app][mariadb] installed and
    running!
-1. Click the Home Assistant My button below to open the add-on on your Home
+1. Click the Home Assistant My button below to open the app on your Home
    Assistant instance.
 
-   [![Open this add-on in your Home Assistant instance.][addon-badge]][addon]
+   [![Open this app in your Home Assistant instance.][addon-badge]][addon]
 
-1. Click the "Install" button to install the add-on.
-1. Start the "Traccar" add-on
-1. Check the logs of the "Traccar" add-on to see if everything went well.
+1. Click the "Install" button to install the app.
+1. Start the "Traccar" app
+1. Check the logs of the "Traccar" app to see if everything went well.
 1. Click the "OPEN WEB UI" button.
 
 ## Configuration
 
-**Note**: _Remember to restart the add-on when the configuration is changed._
+**Note**: _Remember to restart the app when the configuration is changed._
 
-Example add-on configuration:
+Example app configuration:
 
 ```yaml
 log_level: info
@@ -48,7 +48,7 @@ keyfile: privkey.pem
 
 ### Option: `log_level`
 
-The `log_level` option controls the level of log output by the addon and can
+The `log_level` option controls the level of log output by the app and can
 be changed to be more or less verbose, which might be useful when you are
 dealing with an unknown issue. Possible values are:
 
@@ -57,7 +57,7 @@ dealing with an unknown issue. Possible values are:
 - `info`: Normal (usually) interesting events.
 - `warning`: Exceptional occurrences that are not errors.
 - `error`: Runtime errors that do not require immediate action.
-- `fatal`: Something went terribly wrong. Add-on becomes unusable.
+- `fatal`: Something went terribly wrong. App becomes unusable.
 
 Please note that each level automatically includes log messages from a
 more severe level, e.g., `debug` also shows `info` messages. By default,
@@ -99,18 +99,33 @@ device_tracker:
 
 Restart Home Assistant.
 
+## Traccar configuration file
+
+Besides the app options above, Traccar itself is configured through a
+`traccar.xml` file in the app configuration folder. The app ships a set of
+defaults, and everything in your `traccar.xml` is merged on top of those on
+every start, so any parameter you set there overrides the app default.
+
+You only need to list the parameters you actually want to change. The full
+list of available parameters is documented on the
+[Traccar configuration page](https://www.traccar.org/configuration-file/).
+
+**Note**: _Older versions of this app required a `config.default` entry at the
+top of that file. Traccar removed support for it in 6.2, so it is no longer
+needed. If your file still has it, the app ignores it and you can remove it._
+
 ## Enabling more protocols
 
-By default, this add-on has disabled most of the GPS protocols. This has
-been done to reduce the number of open ports the add-on would create.
+By default, this app has disabled most of the GPS protocols. This has
+been done to reduce the number of open ports the app would create.
 
 By default, only the OsmAnd protocol (used by the Traccar Apps) and the API
 are enabled. If you want more protocols, you can do so, by adding entries
-to your `traccar.xml` file in the add-on configuration folder.
+to your `traccar.xml` file in the app configuration folder.
 
 A list if all entries can be found here:
 
-<https://github.com/hassio-addons/addon-traccar/blob/main/traccar/rootfs/etc/traccar/traccar.xml#L22>
+<https://github.com/hassio-addons/app-traccar/blob/main/traccar/rootfs/etc/traccar/traccar.xml#L18>
 
 To find out which protocol your device uses, please refer to the Traccar
 website: <https://www.traccar.org/devices/>
@@ -134,7 +149,7 @@ Got questions?
 
 You have several options to get them answered:
 
-- The [Home Assistant Community Add-ons Discord chat server][discord] for add-on
+- The [Home Assistant Community Apps Discord chat server][discord] for app
   support and feature requests.
 - The [Home Assistant Discord chat server][discord-ha] for general Home
   Assistant discussions and questions.
@@ -154,7 +169,7 @@ check [the contributor's page][contributors].
 
 MIT License
 
-Copyright (c) 2018-2024 Franck Nijhof
+Copyright (c) 2018-2026 Franck Nijhof
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -176,14 +191,14 @@ SOFTWARE.
 
 [addon-badge]: https://my.home-assistant.io/badges/supervisor_addon.svg
 [addon]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=a0d7b954_traccar&repository_url=https%3A%2F%2Fgithub.com%2Fhassio-addons%2Frepository
-[contributors]: https://github.com/hassio-addons/addon-traccar/graphs/contributors
+[contributors]: https://github.com/hassio-addons/app-traccar/graphs/contributors
 [discord-ha]: https://discord.gg/c5DvZ4e
 [discord]: https://discord.me/hassioaddons
 [forum]: https://community.home-assistant.io/t/home-assistant-community-add-on-traccar/81407?u=frenck
 [frenck]: https://github.com/frenck
-[issue]: https://github.com/hassio-addons/addon-traccar/issues
+[issue]: https://github.com/hassio-addons/app-traccar/issues
 [mariadb]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=core_mariadb
 [reddit]: https://reddit.com/r/homeassistant
-[releases]: https://github.com/hassio-addons/addon-traccar/releases
+[releases]: https://github.com/hassio-addons/app-traccar/releases
 [semver]: https://semver.org/spec/v2.0.0.html
 [traccar]: https://www.traccar.org
