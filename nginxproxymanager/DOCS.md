@@ -81,6 +81,12 @@ detailed log to `logs/letsencrypt.log` in the folder above. The most common
 causes are port `80` not being reachable from the internet, or DNS for the
 domain not pointing at your connection.
 
+A few Certbot DNS plugins still require an older Certbot, or an older version of
+one of the libraries it builds on, than this app ships. Installing them is
+refused rather than allowed to replace Certbot, and the app log names the plugin
+and the conflict. Those providers stay unavailable until the plugin catches up
+upstream; certificates using another challenge type are not affected.
+
 ## Changelog & Releases
 
 This repository keeps a change log using [GitHub's releases][releases]

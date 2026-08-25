@@ -32,6 +32,6 @@ Nginx proxy manager by providing additional Nginx directives.
 [patreon-shield]: https://frenck.dev/wp-content/uploads/2019/12/patreon.png
 [patreon]: https://www.patreon.com/frenck
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[release-shield]: https://img.shields.io/badge/version-v3.0.0-blue.svg
-[release]: https://github.com/hassio-addons/app-nginx-proxy-manager/tree/v3.0.0
+[release-shield]: https://img.shields.io/badge/version-v4.0.0-blue.svg
+[release]: https://github.com/hassio-addons/app-nginx-proxy-manager/tree/v4.0.0
 [screenshot]: https://github.com/hassio-addons/app-nginx-proxy-manager/raw/main/images/screenshot.gif
