@@ -845,10 +845,10 @@ SOFTWARE.
 [ftp-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [ftp-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [ftp-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
-[addon-foldingathome]: https://github.com/hassio-addons/app-foldingathome/tree/v0.7.2
-[addon-doc-foldingathome]: https://github.com/hassio-addons/app-foldingathome/blob/v0.7.2/README.md
+[addon-foldingathome]: https://github.com/hassio-addons/app-foldingathome/tree/v1.0.0
+[addon-doc-foldingathome]: https://github.com/hassio-addons/app-foldingathome/blob/v1.0.0/README.md
 [foldingathome-issue]: https://github.com/hassio-addons/app-foldingathome/issues
-[foldingathome-version-shield]: https://img.shields.io/badge/version-v0.7.2-blue.svg
+[foldingathome-version-shield]: https://img.shields.io/badge/version-v1.0.0-blue.svg
 [foldingathome-aarch64-shield]: https://img.shields.io/badge/aarch64-no-red.svg
 [foldingathome-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [foldingathome-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg

@@ -1,19 +1,26 @@
 name: Folding@home
-version: 0.7.2
+version: 1.0.0
 slug: foldingathome
 description: Fighting disease with a world wide distributed super computer
-url: https://github.com/hassio-addons/addon-foldingathome
-codenotary: codenotary@frenck.dev
-webui: http://[HOST]:[PORT:7396]
+url: https://github.com/hassio-addons/app-foldingathome
 arch:
 - amd64
 init: false
 hassio_api: true
-video: true
 ports:
-  7396/tcp: 7396
-  36330/tcp: null
+  7396/tcp: null
 ports_description:
-  7396/tcp: Web interface
-  36330/tcp: Remote command interface
+  7396/tcp: Client API, only needed for direct local control
+options:
+  user: Anonymous
+  team: 247478
+  machine_name: Home Assistant
+schema:
+  log_level: list(trace|debug|info|notice|warning|error|fatal)?
+  user: str
+  team: int(0,2147483647)
+  passkey: match(^[0-9a-fA-F]{32}$)?
+  account_token: str?
+  machine_name: str
+  cpus: int(1,)?
 image: ghcr.io/hassio-addons/foldingathome/{arch}
