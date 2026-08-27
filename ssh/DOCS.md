@@ -35,6 +35,8 @@ well. Additionally, it comes out of the box with the following:
 - Compatible if Home Assistant was installed via the generic Linux installer.
 - Username is configurable, so `root` is no longer mandatory.
 - Persists custom SSH client settings & keys between app restarts
+- Persists the shell history of both ZSH and Bash between app restarts,
+  updates, and reboots.
 - Log levels for allowing you to triage issues easier.
 - Hardware access to your audio, uart/serial devices and GPIO pins.
 - Runs with more privileges, allowing you to debug and test more situations.
