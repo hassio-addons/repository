@@ -135,7 +135,7 @@ Simple & Free Wiki Software
 ![Supports amd64 Architecture][emqx-amd64-shield]
 ![Supports i386 Architecture][emqx-i386-shield]
 
-The most scalable open-source MQTT broker for IoT. An alternative for the Mosquitto add-on
+The most scalable MQTT broker for IoT. An alternative for the Mosquitto app
 
 [:books: EMQX app documentation][addon-doc-emqx]
 
@@ -818,9 +818,9 @@ SOFTWARE.
 [bookstack-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [bookstack-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [bookstack-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
-[addon-emqx]: https://github.com/hassio-addons/addon-emqx/tree/v0.8.1
-[addon-doc-emqx]: https://github.com/hassio-addons/addon-emqx/blob/v0.8.1/README.md
-[emqx-issue]: https://github.com/hassio-addons/addon-emqx/issues
+[addon-emqx]: https://github.com/hassio-addons/app-emqx/tree/v0.8.1
+[addon-doc-emqx]: https://github.com/hassio-addons/app-emqx/blob/v0.8.1/README.md
+[emqx-issue]: https://github.com/hassio-addons/app-emqx/issues
 [emqx-version-shield]: https://img.shields.io/badge/version-v0.8.1-blue.svg
 [emqx-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [emqx-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
