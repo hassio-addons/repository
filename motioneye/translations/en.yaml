@@ -3,7 +3,7 @@ configuration:
   log_level:
     name: Log level
     description: >-
-      Controls the level of log details the add-on provides.
+      Controls the level of log details the app provides.
   motion_webcontrol:
     name: Motion webcontrol
     description: >-
@@ -16,16 +16,16 @@ configuration:
     name: Certificate file
     description: >-
       The certificate file to use for SSL. Note that this file must
-      exists in the /ssl/ folder.
+      exist in the /ssl/ folder.
   keyfile:
     name: Private key file
     description: >-
       The private key file to use for SSL. Note that this file must
-      exists in the /ssl/ folder.
+      exist in the /ssl/ folder.
   action_buttons:
     name: Action buttons
     description: >-
-      If configured, a script will be created to implement an motionEye
-      action button. See add-on documentation for usage details.
+      If configured, a script will be created to implement a motionEye
+      action button. See app documentation for usage details.
 network:
   80/tcp: Web interface (Not required for Ingress)

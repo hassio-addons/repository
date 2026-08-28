@@ -1,7 +1,8 @@
-# Home Assistant Community Add-on: motionEye
+# Home Assistant Community App: motionEye
 
 motionEye is a popular frontend to the camera software called motion. This
-add-on provides both, allowing you to add your camera's to your Hass.io setup.
+app provides both, allowing you to add your cameras to your Home Assistant
+setup.
 
 motionEye is Open Source CCTV and NVR, that is elegant and really easy to use.
 It can be used as a Baby Monitor, Construction Site Montage Viewer,
@@ -12,39 +13,40 @@ Some cool features of motionEye:
 - Support for a ridiculous amount of cameras, including IP cams.
 - Add multiple cameras by hooking up multiple motionEye instances together.
   For example, by using MotionEyeOS on a Pi Zero + Pi camera in your network.
-- Supports uploading recording into Google Drive and Dropbox.
-- motion detection, including email notification and scheduling.
+- Supports uploading recordings to Google Drive and Dropbox.
+- Motion detection, including email notification and scheduling.
 - Can record continuously, motion, or timelapse, with retention settings.
 - Supports "[action buttons][motioneye-wiki-action-buttons]" within the configuration.
 
 ## Installation
 
-The installation of this add-on is pretty straightforward and not different in
-comparison to installing any other Home Assistant add-on.
+The installation of this app is pretty straightforward and not different in
+comparison to installing any other Home Assistant app.
 
-1. Click the Home Assistant My button below to open the add-on on your Home
+1. Click the Home Assistant My button below to open the app on your Home
    Assistant instance.
 
-   [![Open this add-on in your Home Assistant instance.][addon-badge]][addon]
+   [![Open this app in your Home Assistant instance.][addon-badge]][addon]
 
-1. Click the "Install" button to install the add-on.
-1. Start the "motionEye" add-on
-1. Check the logs of the "motionEye" add-on to see if everything went well.
+1. Click the "Install" button to install the app.
+1. Start the "motionEye" app
+1. Check the logs of the "motionEye" app to see if everything went well.
 1. Click the "OPEN WEB UI" button to open the web interface
 1. Login with username "admin", without a password.
-1. Edit your admin account with a secure password!
+1. motionEye prompts you to set a password for both the "admin" and the
+   "surveillance" user. Both are required, pick secure ones!
 
-Home Assistant, by default, ships with the Community Add-ons store installed.
+Home Assistant, by default, ships with the Community Apps store installed.
 However, if it is missing (for any reason), you can add it by clicking the
-button My button below.
+My button below.
 
-[![Add repository to your Home Assitant instance.][repository-badge]][repository]
+[![Add repository to your Home Assistant instance.][repository-badge]][repository]
 
 ## Configuration
 
-**Note**: _Remember to restart the add-on when the configuration is changed._
+**Note**: _Remember to restart the app when the configuration is changed._
 
-Example add-on configuration:
+Example app configuration:
 
 ```yaml
 log_level: info
@@ -57,7 +59,7 @@ keyfile: mykeyfile.pem
 
 ### Option: `log_level`
 
-The `log_level` option controls the level of log output by the addon and can
+The `log_level` option controls the level of log output by the app and can
 be changed to be more or less verbose, which might be useful when you are
 dealing with an unknown issue. Possible values are:
 
@@ -66,7 +68,7 @@ dealing with an unknown issue. Possible values are:
 - `info`: Normal (usually) interesting events.
 - `warning`: Exceptional occurrences that are not errors.
 - `error`: Runtime errors that do not require immediate action.
-- `fatal`: Something went terribly wrong. Add-on becomes unusable.
+- `fatal`: Something went terribly wrong. App becomes unusable.
 
 Please note that each level automatically includes log messages from a
 more severe level, e.g., `debug` also shows `info` messages. By default,
@@ -153,14 +155,14 @@ Got questions?
 
 You have several options to get them answered:
 
-- The [Home Assistant Community Add-ons Discord chat server][discord] for add-on
+- The [Home Assistant Community Apps Discord chat server][discord] for app
   support and feature requests.
 - The [Home Assistant Discord chat server][discord-ha] for general Home
   Assistant discussions and questions.
 - The Home Assistant [Community Forum][forum].
 - Join the [Reddit subreddit][reddit] in [/r/homeassistant][reddit]
 
-You could also [open an issue here][issue] GitHub.
+You could also [open an issue here][issue] on GitHub.
 
 ## Authors & contributors
 
@@ -173,7 +175,7 @@ check [the contributor's page][contributors].
 
 MIT License
 
-Copyright (c) 2018-2025 Franck Nijhof
+Copyright (c) 2018-2026 Franck Nijhof
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -195,16 +197,15 @@ SOFTWARE.
 
 [addon-badge]: https://my.home-assistant.io/badges/supervisor_addon.svg
 [addon]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=a0d7b954_motioneye
-[contributors]: https://github.com/hassio-addons/addon-motioneye/graphs/contributors
+[contributors]: https://github.com/hassio-addons/app-motioneye/graphs/contributors
 [discord-ha]: https://discord.gg/c5DvZ4e
 [discord]: https://discord.me/hassioaddons
-[dockerhub]: https://hub.docker.com/r/hassioaddons/motioneye
 [forum]: https://community.home-assistant.io/t/home-assistant-community-add-on-motioneye/71826?u=frenck
 [frenck]: https://github.com/frenck
-[issue]: https://github.com/hassio-addons/addon-motioneye/issues
+[issue]: https://github.com/hassio-addons/app-motioneye/issues
 [motioneye-wiki-action-buttons]: https://github.com/motioneye-project/motioneye/wiki/Action-Buttons
 [reddit]: https://reddit.com/r/homeassistant
-[releases]: https://github.com/hassio-addons/addon-motioneye/releases
+[releases]: https://github.com/hassio-addons/app-motioneye/releases
 [repository-badge]: https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg
 [repository]: https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fhassio-addons%2Frepository
 [semver]: https://semver.org/spec/v2.0.0.html

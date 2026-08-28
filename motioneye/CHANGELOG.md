@@ -1,18 +1,24 @@
 ## What’s changed
 
-## 🚨 Breaking changes
-
-- Drop support for armhf, armv7, and i386 systems @frenck ([#574](https://github.com/hassio-addons/addon-motioneye/pull/574))
-
 ## 🐛 Bug fixes
 
-- Remove deprecated codenotary fields @frenck ([#573](https://github.com/hassio-addons/addon-motioneye/pull/573))
+- 🐛 Use the http2 directive instead of the deprecated listen parameter @frenck ([#608](https://github.com/hassio-addons/app-motioneye/pull/608))
+- 🐛 Wait longer for motionEye to become available @frenck ([#609](https://github.com/hassio-addons/app-motioneye/pull/609))
+
+## 🧰 Maintenance
+
+- 👷 Replace Repology with Alpine CDN datasource for package pins @frenck ([#606](https://github.com/hassio-addons/app-motioneye/pull/606))
+- 🚜 Rename add-ons to apps and general maintenance @frenck ([#607](https://github.com/hassio-addons/app-motioneye/pull/607))
+- 🔥 Remove OCSP stapling, which can no longer work @frenck ([#610](https://github.com/hassio-addons/app-motioneye/pull/610))
+
+## 📚 Documentation
+
+- 📝 Fix typos and refresh the documentation @frenck ([#611](https://github.com/hassio-addons/app-motioneye/pull/611))
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update Motion-Project/motion to v4.7.1 @[renovate[bot]](https://github.com/apps/renovate) ([#563](https://github.com/hassio-addons/addon-motioneye/pull/563))
-- ⬆️ Update alpine_3_22/curl-dev to v8.14.1-r2 @[renovate[bot]](https://github.com/apps/renovate) ([#566](https://github.com/hassio-addons/addon-motioneye/pull/566))
-- ⬆️ Update alpine_3_22/python3-dev to v3.12.12-r0 @[renovate[bot]](https://github.com/apps/renovate) ([#568](https://github.com/hassio-addons/addon-motioneye/pull/568))
-- ⬆️ Update alpine_3_22/python3 to v3.12.12-r0 @[renovate[bot]](https://github.com/apps/renovate) ([#567](https://github.com/hassio-addons/addon-motioneye/pull/567))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v18.2.1 @[renovate[bot]](https://github.com/apps/renovate) ([#564](https://github.com/hassio-addons/addon-motioneye/pull/564))
-- ⬆️ Update motioneye-project/motioneye to v0.43.1b5 @[renovate[bot]](https://github.com/apps/renovate) ([#570](https://github.com/hassio-addons/addon-motioneye/pull/570))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v19 @[renovate[bot]](https://github.com/apps/renovate) ([#575](https://github.com/hassio-addons/app-motioneye/pull/575))
+- ⬆️ Update alpine_3_22/rsync to v3.4.1-r1 @[renovate[bot]](https://github.com/apps/renovate) ([#576](https://github.com/hassio-addons/app-motioneye/pull/576))
+- ⬆️ Update motioneye-project/motioneye to v0.43.1 @[renovate[bot]](https://github.com/apps/renovate) ([#577](https://github.com/hassio-addons/app-motioneye/pull/577))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v21 @[renovate[bot]](https://github.com/apps/renovate) ([#580](https://github.com/hassio-addons/app-motioneye/pull/580))
+- ⬆️ Update motioneye-project/motioneye to v0.44.0 @[renovate[bot]](https://github.com/apps/renovate) ([#587](https://github.com/hassio-addons/app-motioneye/pull/587))
