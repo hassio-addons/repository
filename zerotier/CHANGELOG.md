@@ -1,12 +1,7 @@
 ## What’s changed
 
-## 🧰 Maintenance
-
-- 👷 Replace Repology with Alpine CDN datasource for package pins @frenck ([#322](https://github.com/hassio-addons/app-zerotier/pull/322))
-
 ## ⬆️ Dependency updates
 
-- ⬆️ Update alpine_3_24/cargo to v1.96.1-r0 @[renovate[bot]](https://github.com/apps/renovate) ([#317](https://github.com/hassio-addons/app-zerotier/pull/317))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v21.0.1 @[renovate[bot]](https://github.com/apps/renovate) ([#319](https://github.com/hassio-addons/app-zerotier/pull/319))
-- ⬆️ Update hassio-addons/workflows action to v3.0.1 @[renovate[bot]](https://github.com/apps/renovate) ([#320](https://github.com/hassio-addons/app-zerotier/pull/320))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v21.0.2 @[renovate[bot]](https://github.com/apps/renovate) ([#321](https://github.com/hassio-addons/app-zerotier/pull/321))
+- ⬆️ Update hassio-addons/workflows action to v4 @[renovate[bot]](https://github.com/apps/renovate) ([#323](https://github.com/hassio-addons/app-zerotier/pull/323))
+- ⬆️ Update alpine_3_24/openssl-dev to v3.5.8-r0 @[renovate[bot]](https://github.com/apps/renovate) ([#325](https://github.com/hassio-addons/app-zerotier/pull/325))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v21.0.3 @[renovate[bot]](https://github.com/apps/renovate) ([#326](https://github.com/hassio-addons/app-zerotier/pull/326))
