@@ -1002,9 +1002,9 @@ SOFTWARE.
 [spotify-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [spotify-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [spotify-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
-[addon-vscode]: https://github.com/hassio-addons/addon-vscode/tree/v6.0.1
-[addon-doc-vscode]: https://github.com/hassio-addons/addon-vscode/blob/v6.0.1/README.md
-[vscode-issue]: https://github.com/hassio-addons/addon-vscode/issues
+[addon-vscode]: https://github.com/hassio-addons/app-vscode/tree/v6.0.1
+[addon-doc-vscode]: https://github.com/hassio-addons/app-vscode/blob/v6.0.1/README.md
+[vscode-issue]: https://github.com/hassio-addons/app-vscode/issues
 [vscode-version-shield]: https://img.shields.io/badge/version-v6.0.1-blue.svg
 [vscode-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [vscode-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
@@ -1101,9 +1101,9 @@ SOFTWARE.
 [whisparr-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [whisparr-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [whisparr-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
-[addon-wireguard]: https://github.com/hassio-addons/addon-wireguard/tree/v0.13.0
-[addon-doc-wireguard]: https://github.com/hassio-addons/addon-wireguard/blob/v0.13.0/README.md
-[wireguard-issue]: https://github.com/hassio-addons/addon-wireguard/issues
+[addon-wireguard]: https://github.com/hassio-addons/app-wireguard/tree/v0.13.0
+[addon-doc-wireguard]: https://github.com/hassio-addons/app-wireguard/blob/v0.13.0/README.md
+[wireguard-issue]: https://github.com/hassio-addons/app-wireguard/issues
 [wireguard-version-shield]: https://img.shields.io/badge/version-v0.13.0-blue.svg
 [wireguard-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [wireguard-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
