@@ -809,9 +809,9 @@ SOFTWARE.
 [bazarr-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [bazarr-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [bazarr-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
-[addon-bookstack]: https://github.com/hassio-addons/addon-bookstack/tree/v4.0.2
-[addon-doc-bookstack]: https://github.com/hassio-addons/addon-bookstack/blob/v4.0.2/README.md
-[bookstack-issue]: https://github.com/hassio-addons/addon-bookstack/issues
+[addon-bookstack]: https://github.com/hassio-addons/app-bookstack/tree/v4.0.2
+[addon-doc-bookstack]: https://github.com/hassio-addons/app-bookstack/blob/v4.0.2/README.md
+[bookstack-issue]: https://github.com/hassio-addons/app-bookstack/issues
 [bookstack-version-shield]: https://img.shields.io/badge/version-v4.0.2-blue.svg
 [bookstack-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [bookstack-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
@@ -890,9 +890,9 @@ SOFTWARE.
 [influxdb-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [influxdb-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [influxdb-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
-[addon-jupyterlab]: https://github.com/hassio-addons/addon-jupyterlab/tree/v0.17.0
-[addon-doc-jupyterlab]: https://github.com/hassio-addons/addon-jupyterlab/blob/v0.17.0/README.md
-[jupyterlab-issue]: https://github.com/hassio-addons/addon-jupyterlab/issues
+[addon-jupyterlab]: https://github.com/hassio-addons/app-jupyterlab/tree/v0.17.0
+[addon-doc-jupyterlab]: https://github.com/hassio-addons/app-jupyterlab/blob/v0.17.0/README.md
+[jupyterlab-issue]: https://github.com/hassio-addons/app-jupyterlab/issues
 [jupyterlab-version-shield]: https://img.shields.io/badge/version-v0.17.0-blue.svg
 [jupyterlab-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [jupyterlab-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
