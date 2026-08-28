@@ -1,4 +1,4 @@
-# Home Assistant Community Add-on: Bookstack
+# Home Assistant Community App: Bookstack
 
 BookStack is a simple, self-hosted, easy-to-use platform for organising and
 storing information. Please support the developers of this software at
@@ -6,19 +6,19 @@ storing information. Please support the developers of this software at
 
 ## Installation
 
-The installation of this add-on is pretty straightforward and not different in
-comparison to installing any other Home Assistant add-on.
+The installation of this app is pretty straightforward and not different in
+comparison to installing any other Home Assistant app.
 
-1. Search for the "bookstack" add-on in the add-on store and install it.
-1. Start the "bookstack" add-on
-1. Check the logs of the "bookstack" add-on to see if everything went well.
+1. Search for the "bookstack" app in the app store and install it.
+1. Start the "bookstack" app
+1. Check the logs of the "bookstack" app to see if everything went well.
 1. Default login information is admin@admin.com/password.
 
 ## Configuration
 
-**Note**: _Remember to restart the add-on when the configuration is changed._
+**Note**: _Remember to restart the app when the configuration is changed._
 
-Example add-on configuration:
+Example app configuration:
 
 ```yaml
 log_level: info
@@ -34,7 +34,7 @@ envvars:
 
 ### Option: `log_level`
 
-The `log_level` option controls the level of log output by the addon and can
+The `log_level` option controls the level of log output by the app and can
 be changed to be more or less verbose, which might be useful when you are
 dealing with an unknown issue. Possible values are:
 
@@ -43,7 +43,7 @@ dealing with an unknown issue. Possible values are:
 - `info`: Normal (usually) interesting events.
 - `warning`: Exceptional occurrences that are not errors.
 - `error`: Runtime errors that do not require immediate action.
-- `fatal`: Something went terribly wrong. Add-on becomes unusable.
+- `fatal`: Something went terribly wrong. App becomes unusable.
 
 Please note that each level automatically includes log messages from a
 more severe level, e.g., `debug` also shows `info` messages. By default,
@@ -91,7 +91,7 @@ server is listening on.
 
 ### Option: `show_appkey`
 
-If set to `true`, will show the currently configured appkey in the addon logs.
+If set to `true`, will show the currently configured appkey in the app logs.
 This should be recorded in case of a restore.
 
 ### Option: `appkey`
@@ -123,7 +123,7 @@ The value of the environment variable to set.
 ## Database usage
 
 By default, Bookstack will automatically use and configure the Home Assistant
-MariaDB addon which should be installed prior to startup, this can be changed
+MariaDB app which should be installed prior to startup, this can be changed
 within the configuration to use an external MySql/MariaDB Database. Please note
 that there is no easy upgrade path between the two options.
 
@@ -150,7 +150,7 @@ Got questions?
 
 You have several options to get them answered:
 
-- The [Home Assistant Community Add-ons Discord chat server][discord] for add-on
+- The [Home Assistant Community Apps Discord chat server][discord] for app
   support and feature requests.
 - The [Home Assistant Discord chat server][discord-ha] for general Home
   Assistant discussions and questions.
@@ -170,7 +170,7 @@ check [the contributor's page][contributors].
 
 MIT License
 
-Copyright (c) 2019-2025 Paul Sinclair
+Copyright (c) 2019-2026 Paul Sinclair
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -191,12 +191,12 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 [bookstack]: https://www.bookstackapp.com/
-[contributors]: https://github.com/hassio-addons/addon-bookstack/graphs/contributors
+[contributors]: https://github.com/hassio-addons/app-bookstack/graphs/contributors
 [discord-ha]: https://discord.gg/c5DvZ4e
 [discord]: https://discord.me/hassioaddons
 [forum]: https://community.home-assistant.io/t/community-hass-io-xxxxx/xxxxx
 [sinclairpaul]: https://github.com/sinclairpaul
-[issue]: https://github.com/hassio-addons/addon-bookstack/issues
+[issue]: https://github.com/hassio-addons/app-bookstack/issues
 [reddit]: https://reddit.com/r/homeassistant
-[releases]: https://github.com/hassio-addons/addon-bookstack/releases
+[releases]: https://github.com/hassio-addons/app-bookstack/releases
 [semver]: http://semver.org/spec/v2.0.0
