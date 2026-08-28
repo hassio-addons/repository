@@ -73,10 +73,6 @@ apps:
     repository: hassio-addons/addon-lidarr
     target: lidarr
     image: ghcr.io/hassio-addons/lidarr/{arch}
-  log-viewer:
-    repository: hassio-addons/addon-log-viewer
-    target: log-viewer
-    image: ghcr.io/hassio-addons/log-viewer/{arch}
   motioneye:
     repository: hassio-addons/addon-motioneye
     target: motioneye
