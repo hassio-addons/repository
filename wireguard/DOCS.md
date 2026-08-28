@@ -1,4 +1,4 @@
-# Home Assistant Community Add-on: WireGuard
+# Home Assistant Community App: WireGuard
 
 [WireGuard®][wireguard] is an extremely simple yet fast and modern VPN that
 utilizes state-of-the-art cryptography. It aims to be faster, simpler, leaner,
@@ -10,36 +10,48 @@ supercomputers alike, fit for many different circumstances.
 
 Initially released for the Linux kernel, it is now cross-platform (Windows,
 macOS, BSD, iOS, Android) and widely deployable,
-including via an Hass.io add-on!
+including via an Hass.io app!
 
 WireGuard is currently under heavy development, but already it might be
 regarded as the most secure, easiest to use, and the simplest VPN solution
 in the industry.
 
+## This app is a WireGuard server, not a client
+
+This app runs a WireGuard **server** on your Home Assistant instance. Your
+phone, laptop, and other devices are the peers: they connect **to** Home
+Assistant. The app generates their client configurations and QR codes for you,
+which is what the `peers` option is for.
+
+The other direction is not supported. There is no option to have Home Assistant
+join an existing WireGuard network as a client, for example one hosted on a VPS,
+running on your router, or run by a commercial VPN provider. If that is what you
+are looking for, this is not the app you need.
+
 ## Installation
 
 WireGuard is pretty simple, however, can be quite complex for user that isn't
-familiar with all terminology used. The add-on takes care of a lot of things
+familiar with all terminology used. The app takes care of a lot of things
 for you (if you want).
 
 Follow the following steps for installation & a quick start:
 
-1. Click the Home Assistant My button below to open the add-on on your Home
+1. Click the Home Assistant My button below to open the app on your Home
    Assistant instance.
 
-   [![Open this add-on in your Home Assistant instance.][addon-badge]][addon]
+   [![Open this app in your Home Assistant instance.][addon-badge]][addon]
 
-1. Click the "Install" button to install the add-on.
+1. Click the "Install" button to install the app.
 1. Set the `host` configuration option to your Home Assistant (external)
    address, e.g., `myautomatedhome.duckdns.org`.
 1. Change the name of the peer to something useful, e.g., `myphone`.
 1. Save the configuration.
-1. Start the "WireGuard" add-on
-1. Check the logs of the "WireGuard" add-on to see if everything went well.
+1. Start the "WireGuard" app
+1. Check the logs of the "WireGuard" app to see if everything went well.
 1. Forward port `51820` (UDP!) in your router to your Home Assistant instance.
 1. Download/Open the file `/ssl/wireguard/myphone/qrcode.png` stored on your
    Home Assistant instance, e.g., using Samba, Visual Studio Code or the
-   Configurator add-on.
+   Configurator app.
 1. Install the WireGuard app on your phone.
 1. Add a new WireGuard connection to your phone, by scanning the QR code.
 1. Connect!
@@ -47,20 +59,20 @@ Follow the following steps for installation & a quick start:
 ## Configuration
 
 Now, for starters, don't get scared by the number of options and difficult
-terms this add-on provides. WireGuard can be a complex piece of software,
-but the add-on only has a few, simple, required settings. All the rest is
-handled by the add-on. However, If you would like to set up a more complex
-configuration, the add-on would allow that, too.
+terms this app provides. WireGuard can be a complex piece of software,
+but the app only has a few, simple, required settings. All the rest is
+handled by the app. However, If you would like to set up a more complex
+configuration, the app would allow that, too.
 
 If you are familiar with WireGuard, please note the following:
 The configuration of WireGuard looks very similar to all terms used in the
 WireGuard configuration. There is, however, one big difference: The
-add-on is able to generate configurations for the add-on, but also for the
+app is able to generate configurations for the app, but also for the
 peers (clients).
 
-**Note**: _Remember to restart the add-on when the configuration is changed._
+**Note**: _Remember to restart the app when the configuration is changed._
 
-A little more extensive example add-on configuration:
+A little more extensive example app configuration:
 
 ```yaml
 log_level: info
@@ -92,9 +104,9 @@ peers:
 ### Option: `server.host`
 
 This configuration option is the hostname that your clients will use to connect
-to your WireGuard add-on. The `host` is mainly used to generate client
+to your WireGuard app. The `host` is mainly used to generate client
 configurations and SHOULD NOT contain a port. If you want to change the port,
-use the "Network" section of the add-on configuration.
+use the "Network" section of the app configuration.
 
 Example: `myautomatedhome.duckdns.org`, for local testing `homeassistant.local`
 will actually work.
@@ -105,19 +117,19 @@ either a DNS entry or IP address that is accessible by the clients.
 ### Option: `server.addresses`
 
 A list of IP (IPv4 or IPv6) addresses (optionally with CIDR masks) to be
-assigned to the server/add-on interface.
+assigned to the server/app interface.
 
 It is strongly advised to create/use a separate IP address space from your
 home network, e.g., if your home network uses `192.168.1.x` then DO NOT use
-that for the add-on.
+that for the app.
 
 ### Option: `server.dns` _(optional)_
 
-A list of DNS servers used by the add-on and the configuration generated for
+A list of DNS servers used by the app and the configuration generated for
 the clients. This configuration option is optional, and if no DNS servers are
 set, it will use the built-in DNS server from Hass.io.
 
-**If you are running the [AdGuard][adguard] add-on,
+**If you are running the [AdGuard][adguard] app,
 you can add `172.30.32.1` as a DNS IP address in the list.** This will cause your
 clients to use those. What this does, it effectively making your clients
 to have ad-filtering (e.g., your mobile phone), while not at home.
@@ -126,7 +138,7 @@ to have ad-filtering (e.g., your mobile phone), while not at home.
 
 Allows you to provide your own base64 private key generated by `wg genkey`.
 This option supports the use of `!secret`. If you don't supply one,
-the add-on will generate one for you and store it in:
+the app will generate one for you and store it in:
 `/ssl/wireguard/private_key`.
 
 ### Option: `server.public_key` _(optional)_
@@ -134,7 +146,7 @@ the add-on will generate one for you and store it in:
 Allows you to provide your own a base64 public key calculated by `wg pubkey`
 from a private key. This option supports the use of `!secret`.
 
-If you don't supply one, the add-on will calculate one based on the private
+If you don't supply one, the app will calculate one based on the private
 key that was supplied via the `server.private_key` or, in case no private key
 was supplied, calculate it from the generated private key.
 
@@ -147,7 +159,7 @@ need it.
 ### Option: `server.table` _(optional)_
 
 Controls the routing table to which routes are added. Setting it to `off`
-disables the creation of routes altogether. When not provided, the add-on
+disables the creation of routes altogether. When not provided, the app
 adds routes to the default table and enables special handling of default routes.
 
 ### Option: `server.pre_up` _(optional)_
@@ -161,7 +173,7 @@ Allows you to run commands before WireGuard is stopped.
 ### Option: `server.post_up` _(optional)_
 
 Allows you to run commands after WireGuard has been started. This is useful
-for modifying things like routing. If not provided, the add-on will by default
+for modifying things like routing. If not provided, the app will by default
 route all traffic coming in from the VPN through your home network.
 
 If you like to disable that, setting this option to `"off"`,
@@ -178,7 +190,7 @@ iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
 ### Option: `server.post_down` _(optional)_
 
 Allows you to run commands after WireGuard has been stopped. This is useful
-for modifying things like routing. If not provided, the add-on will by default
+for modifying things like routing. If not provided, the app will by default
 remove the default rules created by the `post_up` defaults.
 
 If you like to disable that, setting this option to `"off"`,
@@ -215,7 +227,7 @@ Names may contain a hyphen (-) but must not start or end with one.
 A list of IP (IPv4 or IPv6) addresses (optionally with CIDR masks) to be
 assigned to the peer.
 
-This is used in the client configuration, but also for used by the add-on to
+This is used in the client configuration, but also for used by the app to
 set the allowed IPs (unless overriden by the `peers.allowed_ips` option.)
 
 ### Option: `peers.private_key` _(optional)_
@@ -223,41 +235,41 @@ set the allowed IPs (unless overriden by the `peers.allowed_ips` option.)
 Allows you to provide your own base64 private key generated by `wg genkey` for
 the peer. This option supports the use of `!secret`.
 
-Technically, the add-on does not need this, however, since the add-on can
+Technically, the app does not need this, however, since the app can
 generate client configurations, it can be helpful.
 
-If no private key and no public key is provided, the add-on will generate one
+If no private key and no public key is provided, the app will generate one
 for you and store it in: `/ssl/wireguard/<peer.name>/`.
 
-**Private keys, in general, should only be known by client, while this add-on
+**Private keys, in general, should only be known by client, while this app
 supports setting or generating one for your client is helpful and easy, it
 isn't the best security practice. The best practice is to provide just the
-`peers.public_key` option below, the add-on will honor that.**
+`peers.public_key` option below, the app will honor that.**
 
 ### Option: `peers.public_key` _(optional, but recommended!)_
 
 Allows you to provide your own a base64 public key calculated by `wg pubkey`
 from a private key. This option supports the use of `!secret`.
 
-If you don't supply one, the add-on will calculate one based on the private
+If you don't supply one, the app will calculate one based on the private
 key that was supplied via the `peer.private_key` or, in case no private key
 was supplied, calculated it from the generated private key for this peer.
 
-**While this add-on can generate public/private keypairs, from best security
+**While this app can generate public/private keypairs, from best security
 practice perspective, it is strongly advised to manually provide a public key
-for each of your peers. In that case, the add-on will not generate or configure
+for each of your peers. In that case, the app will not generate or configure
 a private key by itself.**
 
 ### Option: `peers.allowed_ips` _(optional)_
 
-**This configuration only valid for the add-on/server end and does not
+**This configuration only valid for the app/server end and does not
 affect client configurations!**
 
 A list of IPs (IPv4 or IPv6) addresses (optionally with CIDR masks) from which
 incoming traffic for this peer is allowed and to which outgoing traffic for
 this peer is directed.
 
-If there are no IP addresses configured, the add-on will use the addresses
+If there are no IP addresses configured, the app will use the addresses
 listed in `peers.addresses`.
 
 The catch-all `0.0.0.0/0` may be specified for matching all IPv4 addresses,
@@ -266,7 +278,7 @@ and `::/0` may be specified for matching all IPv6 addresses.
 ### Option: `peers.client_allowed_ips` _(optional)_
 
 **This configuration only valid for the peer end/client configuration and does
-not affect the server/add-on!**
+not affect the server/app!**
 
 A list of IPs (IPv4 or IPv6) addresses (optionally with CIDR masks) from which
 incoming traffic from the server is allowed and to which outgoing traffic for
@@ -275,7 +287,7 @@ this peer is directed.
 The catch-all `0.0.0.0/0` may be specified for matching all IPv4 addresses,
 and `::/0` may be specified for matching all IPv6 addresses.
 
-If not configured, the add-on will use `0.0.0.0/0` in the generated client
+If not configured, the app will use `0.0.0.0/0` in the generated client
 configuration, routing all traffic on your client through the VPN tunnel.
 
 ### Option: `peers.persistent_keep_alive` _(optional)_
@@ -289,7 +301,7 @@ anytime receive traffic from a peer, and it is behind NAT, the interface might
 benefit from having a persistent keepalive interval of 25 seconds.
 
 By default or when unspecified, this option is set to 25 seconds. This is
-different from the WireGuard default, since the use case for this add-on is
+different from the WireGuard default, since the use case for this app is
 most likely to be installed in home setups behind a NAT.
 
 If set to "off", this option is disabled.
@@ -297,7 +309,7 @@ If set to "off", this option is disabled.
 ### Option: `peers.endpoint` _(optional)_
 
 An endpoint IP or hostname, followed by a colon, and then a port number. This
-is used by the add-on/server to connect to its peer.
+is used by the app/server to connect to its peer.
 
 This is completely optional as the endpoint will be updated automatically
 to the most recent source IP address and port of correctly authenticated
@@ -312,7 +324,7 @@ public-key cryptography, for post-quantum resistance.
 ### Option: `peers.fwmark` _(optional)_
 
 **This configuration only valid for the peer end/client configuration and does
-not affect the server/add-on!**
+not affect the server/app!**
 
 A 32-bit fwmark for outgoing packets. May be specified in hexadecimal by
 prepending "0x". If you don't know what this is, then you probably don't
@@ -320,7 +332,7 @@ need it.
 
 ### Option: `log_level` _(optional)_
 
-The `log_level` option controls the level of log output by the addon and can
+The `log_level` option controls the level of log output by the app and can
 be changed to be more or less verbose, which might be useful when you are
 dealing with an unknown issue. Possible values are:
 
@@ -329,7 +341,7 @@ dealing with an unknown issue. Possible values are:
 - `info`: Normal (usually) interesting events.
 - `warning`: Exceptional occurrences that are not errors.
 - `error`: Runtime errors that do not require immediate action.
-- `fatal`: Something went terribly wrong. Add-on becomes unusable.
+- `fatal`: Something went terribly wrong. App becomes unusable.
 
 Please note that each level automatically includes log messages from a
 more severe level, e.g., `debug` also shows `info` messages. By default,
@@ -339,10 +351,10 @@ you are troubleshooting.
 ## Finding generated client configurations
 
 All generated files are stored in `/ssl/wireguard`. This includes the
-client configurations generated by this add-on.
+client configurations generated by this app.
 
 Each peer/client will have its own folder, by the name specified in the
-add-on configuration. The add-on additionally generates an image for each
+app configuration. The app additionally generates an image for each
 client containing a QR code, to allow a quick an easy set up on, e.g., your
 mobile phone.
 
@@ -353,15 +365,15 @@ support in its Linux kernel. However, if you run Hass.io on a generic Linux
 installation (e.g., based on Ubuntu or Debian), WireGuard support is not
 available by default.
 
-This will cause the add-on to throw a large warning during the start up.
-However, the add-on will work as advertised!
+This will cause the app to throw a large warning during the start up.
+However, the app will work as advertised!
 
-When this happens, the add-on falls back on a standalone instance of WireGuard
-running inside the add-on itself. This method has drawbacks in terms of
+When this happens, the app falls back on a standalone instance of WireGuard
+running inside the app itself. This method has drawbacks in terms of
 performance.
 
 In order to run WireGuard optimal, you should install WireGuard on your
-host system. The add-on will pick that up automatically on the next start.
+host system. The app will pick that up automatically on the next start.
 
 ### Ubuntu
 
@@ -394,7 +406,7 @@ consult [WireGuard installation manual][wireguard-install]
 
 ## _"Missing WireGuard kernel module. Falling back to slow userspace implementation."_
 
-If you've seen this warning in the add-on logs files, please check the chapter
+If you've seen this warning in the app logs files, please check the chapter
 above for more information.
 
 ## _"IP forwarding is disabled on the host system!"_
@@ -418,23 +430,23 @@ sudo sysctl -p /etc/sysctl.conf
 
 ## Backups
 
-The WireGuard add-on can be backed up using Home Assistant Backups. There is one
-caveat to take into account: A partial backup of the add-on DOES NOT contain
+The WireGuard app can be backed up using Home Assistant Backups. There is one
+caveat to take into account: A partial backup of the app DOES NOT contain
 the generated client configurations, including their public/private keys
-(if those keys are generated by the add-on).
+(if those keys are generated by the app).
 
 Client configurations are stored in the `/ssl/wireguard` folder. If you
 use partial backups, please be sure to backup both the `ssl` folder and the
-add-on.
+app.
 
 ## WireGuard status API
 
-This add-on provides a simple WireGuard status API. This API is not an
+This app provides a simple WireGuard status API. This API is not an
 official API, darn simple, and experimental, but does allow you to pull
-in data from the add-on into Home Assistant.
+in data from the app into Home Assistant.
 
 With the use of the [Home Assistant RESTful][ha-rest] integration, one should
-be able to grab some interesting data from this add-on.
+be able to grab some interesting data from this app.
 
 Example:
 
@@ -453,12 +465,12 @@ If you have, sharing would be appreciated!
 - You can test if the tunnel works (when not using custom DNS servers), by
   visiting <http://homeassistant:8123>. If a Home Assistant login page appears,
   it is working!
-- Changes to peer/client configuration of this add-on, are not automatically
+- Changes to peer/client configuration of this app, are not automatically
   passed to your (already) configured clients. You have to change those
   manually on your client device OR remove the WireGuard profile on the client
   device and load the new client configuration (e.g., by scanning the QR
   code).
-- If you are running the [AdGuard][adguard] add-on,
+- If you are running the [AdGuard][adguard] app,
   you can add `172.30.32.1` as a DNS IP address the list to use it.
 - If you run a protection service like CloudFlare on your `server.host`
   address, please remember, that WireGuard will try to connect to CloudFlare
@@ -492,7 +504,7 @@ Got questions?
 
 You have several options to get them answered:
 
-- The [Home Assistant Community Add-ons Discord chat server][discord] for add-on
+- The [Home Assistant Community Apps Discord chat server][discord] for app
   support and feature requests.
 - The [Home Assistant Discord chat server][discord-ha] for general Home
   Assistant discussions and questions.
@@ -534,16 +546,16 @@ SOFTWARE.
 
 [addon-badge]: https://my.home-assistant.io/badges/supervisor_addon.svg
 [addon]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=a0d7b954_wireguard&repository_url=https%3A%2F%2Fgithub.com%2Fhassio-addons%2Frepository
-[adguard]: https://github.com/hassio-addons/addon-adguard-home
-[contributors]: https://github.com/hassio-addons/addon-wireguard/graphs/contributors
+[adguard]: https://github.com/hassio-addons/app-adguard-home
+[contributors]: https://github.com/hassio-addons/app-wireguard/graphs/contributors
 [discord-ha]: https://discord.gg/c5DvZ4e
 [discord]: https://discord.me/hassioaddons
 [forum]: https://community.home-assistant.io/t/home-assistant-community-add-on-wireguard/134662?u=frenck
 [frenck]: https://github.com/frenck
 [ha-rest]: https://www.home-assistant.io/integrations/rest/
-[issue]: https://github.com/hassio-addons/addon-wireguard/issues
+[issue]: https://github.com/hassio-addons/app-wireguard/issues
 [reddit]: https://reddit.com/r/homeassistant
-[releases]: https://github.com/hassio-addons/addon-wireguard/releases
+[releases]: https://github.com/hassio-addons/app-wireguard/releases
 [semver]: https://semver.org/spec/v2.0.0.html
 [wireguard-install]: https://www.wireguard.com/install/
 [wireguard]: https://www.wireguard.com

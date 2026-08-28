@@ -1,8 +1,6 @@
-# Home Assistant Community Add-on: WireGuard
+# Home Assistant Community App: WireGuard
 
 [![Release][release-shield]][release] ![Project Stage][project-stage-shield] ![Project Maintenance][maintenance-shield]
-
-[![Discord][discord-shield]][discord] [![Community Forum][forum-shield]][forum]
 
 [![Sponsor Frenck via GitHub Sponsors][github-sponsors-shield]][github-sponsors]
 
@@ -22,22 +20,30 @@ supercomputers alike, fit for many different circumstances.
 
 Initially released for the Linux kernel, it is now cross-platform (Windows,
 macOS, BSD, iOS, Android) and widely deployable,
-including via an Hass.io add-on!
+including via an Hass.io app!
 
 WireGuard is currently under heavy development, but already it might be
 regarded as the most secure, easiest to use, and the simplest VPN solution
 in the industry.
 
-[discord-shield]: https://img.shields.io/discord/478094546522079232.svg
-[discord]: https://discord.me/hassioaddons
-[forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
-[forum]: https://community.home-assistant.io/t/home-assistant-community-add-on-wireguard/134662?u=frenck
+## This app is a WireGuard server, not a client
+
+This app runs a WireGuard **server** on your Home Assistant instance. Your
+phone, laptop, and other devices are the peers: they connect **to** Home
+Assistant. The app generates their client configurations and QR codes for you,
+which is what the `peers` option is for.
+
+The other direction is not supported. There is no option to have Home Assistant
+join an existing WireGuard network as a client, for example one hosted on a VPS,
+running on your router, or run by a commercial VPN provider. If that is what you
+are looking for, this is not the app you need.
+
 [github-sponsors-shield]: https://frenck.dev/wp-content/uploads/2019/12/github_sponsor.png
 [github-sponsors]: https://github.com/sponsors/frenck
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2025.svg
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2026.svg
 [patreon-shield]: https://frenck.dev/wp-content/uploads/2019/12/patreon.png
 [patreon]: https://www.patreon.com/frenck
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
-[release-shield]: https://img.shields.io/badge/version-v0.13.0-blue.svg
-[release]: https://github.com/hassio-addons/addon-wireguard/tree/v0.13.0
+[release-shield]: https://img.shields.io/badge/version-v0.14.0-blue.svg
+[release]: https://github.com/hassio-addons/app-wireguard/tree/v0.14.0
 [wireguard]: https://www.wireguard.com
