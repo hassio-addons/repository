@@ -1,31 +1,31 @@
-# Home Assistant Community Add-on: Lidarr
+# Home Assistant Community App: Lidarr
 
 Looks and smells like Sonarr but made for music.
 
 ## Installation
 
-The installation of this add-on is pretty straightforward and not different in
-comparison to installing any other Home Assistant add-on.
+The installation of this app is pretty straightforward and not different in
+comparison to installing any other Home Assistant app.
 
-1. Click the Home Assistant My button below to open the add-on on your Home
+1. Click the Home Assistant My button below to open the app on your Home
    Assistant instance.
 
-   [![Open this add-on in your Home Assistant instance.][addon-badge]][addon]
+   [![Open this app in your Home Assistant instance.][addon-badge]][addon]
 
-1. Click the "Install" button to install the add-on.
-1. Start the "Lidarr" add-on
-1. Check the logs of the "Lidarr" add-on to see if everything went well.
+1. Click the "Install" button to install the app.
+1. Start the "Lidarr" app
+1. Check the logs of the "Lidarr" app to see if everything went well.
 1. Click "OPEN WEB UI" to open the Lidarr interface.
 1. Complete the wizard shown on screen.
 
 ## Configuration
 
-_This add-on does not require any configuration to run._
+_This app does not require any configuration to run._
 
 ## Known issues and limitations
 
-- This add-on does not support Home Assistant's Ingress feature (aka, the
-  toggle that puts an add-on in the Home Assistant sidebar).
+- This app does not support Home Assistant's Ingress feature (aka, the
+  toggle that puts an app in the Home Assistant sidebar).
   There are too many variables to take into account to make this work properly,
   and if we would, it would be very easy to break. You could consider using an
   iframe panel instead.
@@ -49,7 +49,7 @@ Got questions?
 
 You have several options to get them answered:
 
-- The [Home Assistant Community Add-ons Discord chat server][discord] for add-on
+- The [Home Assistant Community Apps Discord chat server][discord] for app
   support and feature requests.
 - The [Home Assistant Discord chat server][discord-ha] for general Home
   Assistant discussions and questions.
@@ -69,7 +69,7 @@ check [the contributor's page][contributors].
 
 MIT License
 
-Copyright (c) 2024-2025 Franck Nijhof
+Copyright (c) 2024-2026 Franck Nijhof
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -91,12 +91,12 @@ SOFTWARE.
 
 [addon-badge]: https://my.home-assistant.io/badges/supervisor_addon.svg
 [addon]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=a0d7b954_lidarr&repository_url=https%3A%2F%2Fgithub.com%2Fhassio-addons%2Frepository
-[contributors]: https://github.com/hassio-addons/addon-lidarr/graphs/contributors
+[contributors]: https://github.com/hassio-addons/app-lidarr/graphs/contributors
 [discord-ha]: https://discord.gg/c5DvZ4e
 [discord]: https://discord.me/hassioaddons
 [forum]: https://community.home-assistant.io/t/?u=frenck
 [frenck]: https://github.com/frenck
-[issue]: https://github.com/hassio-addons/addon-lidarr/issues
+[issue]: https://github.com/hassio-addons/app-lidarr/issues
 [reddit]: https://reddit.com/r/homeassistant
-[releases]: https://github.com/hassio-addons/addon-lidarr/releases
+[releases]: https://github.com/hassio-addons/app-lidarr/releases
 [semver]: http://semver.org/spec/v2.0.0.html
