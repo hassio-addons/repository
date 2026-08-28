@@ -1,8 +1,6 @@
-# Home Assistant Community Add-on: Bazarr
+# Home Assistant Community App: Bazarr
 
 [![Release][release-shield]][release] ![Project Stage][project-stage-shield] ![Project Maintenance][maintenance-shield]
-
-[![Discord][discord-shield]][discord] [![Community Forum][forum-shield]][forum]
 
 Download and manage subtitles for Sonarr and Radarr.
 
@@ -15,11 +13,7 @@ downloads subtitles based on your requirements.
 [Sonarr]: https://sonarr.tv/
 [Radarr]: https://radarr.video/
 
-[discord-shield]: https://img.shields.io/discord/330944238910963714.svg
-[discord]: https://discord.gg/c5DvZ4e
-[forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
-[forum]: https://community.home-assistant.io/t/?u=frenck
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2025.svg
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2026.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
-[release-shield]: https://img.shields.io/badge/version-v0.6.1-blue.svg
-[release]: https://github.com/hassio-addons/addon-bazarr/tree/v0.6.1
+[release-shield]: https://img.shields.io/badge/version-v0.7.0-blue.svg
+[release]: https://github.com/hassio-addons/app-bazarr/tree/v0.7.0
