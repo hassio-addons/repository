@@ -217,19 +217,6 @@ ERP beyond your fridge! A groceries & household management solution for your hom
 
 [:books: Grocy app documentation][addon-doc-grocy]
 
-### &#10003; [InfluxDB][addon-influxdb]
-
-![Latest Version][influxdb-version-shield]
-![Supports armhf Architecture][influxdb-armhf-shield]
-![Supports armv7 Architecture][influxdb-armv7-shield]
-![Supports aarch64 Architecture][influxdb-aarch64-shield]
-![Supports amd64 Architecture][influxdb-amd64-shield]
-![Supports i386 Architecture][influxdb-i386-shield]
-
-Scalable datastore for metrics, events, and real-time analytics
-
-[:books: InfluxDB app documentation][addon-doc-influxdb]
-
 ### &#10003; [JupyterLab][addon-jupyterlab]
 
 ![Latest Version][jupyterlab-version-shield]
@@ -421,7 +408,7 @@ Play Spotify music on your Home Assistant device
 ![Supports amd64 Architecture][vscode-amd64-shield]
 ![Supports i386 Architecture][vscode-i386-shield]
 
-Fully featured Visual Studio Code (VSCode) experience integrated in the Home Assistant frontend.
+Fully featured Visual Studio Code (VSCode) experience integrated in the Home Assistant frontend
 
 [:books: Studio Code Server app documentation][addon-doc-vscode]
 
@@ -672,7 +659,6 @@ on the correct GitHub repository matching the app.
 - [Open an issue for the app: Glances][glances-issue]
 - [Open an issue for the app: Grafana][grafana-issue]
 - [Open an issue for the app: Grocy][grocy-issue]
-- [Open an issue for the app: InfluxDB][influxdb-issue]
 - [Open an issue for the app: JupyterLab][jupyterlab-issue]
 - [Open an issue for the app: Lidarr][lidarr-issue]
 - [Open an issue for the app: MQTT IO][mqtt-io-issue]
@@ -867,15 +853,6 @@ SOFTWARE.
 [grocy-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [grocy-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [grocy-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
-[addon-influxdb]: https://github.com/hassio-addons/addon-influxdb/tree/v5.0.2
-[addon-doc-influxdb]: https://github.com/hassio-addons/addon-influxdb/blob/v5.0.2/README.md
-[influxdb-issue]: https://github.com/hassio-addons/addon-influxdb/issues
-[influxdb-version-shield]: https://img.shields.io/badge/version-v5.0.2-blue.svg
-[influxdb-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
-[influxdb-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
-[influxdb-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
-[influxdb-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
-[influxdb-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [addon-jupyterlab]: https://github.com/hassio-addons/app-jupyterlab/tree/v0.18.1
 [addon-doc-jupyterlab]: https://github.com/hassio-addons/app-jupyterlab/blob/v0.18.1/README.md
 [jupyterlab-issue]: https://github.com/hassio-addons/app-jupyterlab/issues
