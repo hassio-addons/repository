@@ -295,19 +295,6 @@ Flow-based programming for the Internet of Things
 
 [:books: Node-RED app documentation][addon-doc-node-red]
 
-### &#10003; [Overseerr][addon-overseerr]
-
-![Latest Version][overseerr-version-shield]
-![Supports armhf Architecture][overseerr-armhf-shield]
-![Supports armv7 Architecture][overseerr-armv7-shield]
-![Supports aarch64 Architecture][overseerr-aarch64-shield]
-![Supports amd64 Architecture][overseerr-amd64-shield]
-![Supports i386 Architecture][overseerr-i386-shield]
-
-Request management and media discovery tool for the Plex ecosystem
-
-[:books: Overseerr app documentation][addon-doc-overseerr]
-
 ### &#10003; [Plex Media Server][addon-plex]
 
 ![Latest Version][plex-version-shield]
@@ -372,6 +359,19 @@ Free and easy binary newsreader
 Explore your SQLite database
 
 [:books: SQLite Web app documentation][addon-doc-sqlite-web]
+
+### &#10003; [Seerr][addon-overseerr]
+
+![Latest Version][overseerr-version-shield]
+![Supports armhf Architecture][overseerr-armhf-shield]
+![Supports armv7 Architecture][overseerr-armv7-shield]
+![Supports aarch64 Architecture][overseerr-aarch64-shield]
+![Supports amd64 Architecture][overseerr-amd64-shield]
+![Supports i386 Architecture][overseerr-i386-shield]
+
+Media request and discovery manager for Jellyfin, Plex, and Emby
+
+[:books: Seerr app documentation][addon-doc-overseerr]
 
 ### &#10003; [Sonarr][addon-sonarr]
 
@@ -665,12 +665,12 @@ on the correct GitHub repository matching the app.
 - [Open an issue for the app: Network UPS Tools][nut-issue]
 - [Open an issue for the app: Nginx Proxy Manager][nginxproxymanager-issue]
 - [Open an issue for the app: Node-RED][node-red-issue]
-- [Open an issue for the app: Overseerr][overseerr-issue]
 - [Open an issue for the app: Plex Media Server][plex-issue]
 - [Open an issue for the app: Prowlarr][prowlarr-issue]
 - [Open an issue for the app: Radarr][radarr-issue]
 - [Open an issue for the app: SABnzbd][sabnzbd-issue]
 - [Open an issue for the app: SQLite Web][sqlite-web-issue]
+- [Open an issue for the app: Seerr][overseerr-issue]
 - [Open an issue for the app: Sonarr][sonarr-issue]
 - [Open an issue for the app: Spotify Connect][spotify-issue]
 - [Open an issue for the app: Studio Code Server][vscode-issue]
@@ -871,9 +871,9 @@ SOFTWARE.
 [lidarr-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [lidarr-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [lidarr-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
-[addon-mqtt-io]: https://github.com/hassio-addons/addon-mqtt-io/tree/v0.4.0
-[addon-doc-mqtt-io]: https://github.com/hassio-addons/addon-mqtt-io/blob/v0.4.0/README.md
-[mqtt-io-issue]: https://github.com/hassio-addons/addon-mqtt-io/issues
+[addon-mqtt-io]: https://github.com/hassio-addons/app-mqtt-io/tree/v0.4.0
+[addon-doc-mqtt-io]: https://github.com/hassio-addons/app-mqtt-io/blob/v0.4.0/README.md
+[mqtt-io-issue]: https://github.com/hassio-addons/app-mqtt-io/issues
 [mqtt-io-version-shield]: https://img.shields.io/badge/version-v0.4.0-blue.svg
 [mqtt-io-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [mqtt-io-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
@@ -907,15 +907,6 @@ SOFTWARE.
 [node-red-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [node-red-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [node-red-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
-[addon-overseerr]: https://github.com/hassio-addons/addon-overseerr/tree/v0.1.0
-[addon-doc-overseerr]: https://github.com/hassio-addons/addon-overseerr/blob/v0.1.0/README.md
-[overseerr-issue]: https://github.com/hassio-addons/addon-overseerr/issues
-[overseerr-version-shield]: https://img.shields.io/badge/version-v0.1.0-blue.svg
-[overseerr-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
-[overseerr-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
-[overseerr-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
-[overseerr-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
-[overseerr-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [addon-plex]: https://github.com/hassio-addons/app-plex/tree/v4.1.1
 [addon-doc-plex]: https://github.com/hassio-addons/app-plex/blob/v4.1.1/README.md
 [plex-issue]: https://github.com/hassio-addons/app-plex/issues
@@ -961,6 +952,15 @@ SOFTWARE.
 [sqlite-web-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [sqlite-web-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [sqlite-web-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
+[addon-overseerr]: https://github.com/hassio-addons/app-seerr/tree/v0.1.0
+[addon-doc-overseerr]: https://github.com/hassio-addons/app-seerr/blob/v0.1.0/README.md
+[overseerr-issue]: https://github.com/hassio-addons/app-seerr/issues
+[overseerr-version-shield]: https://img.shields.io/badge/version-v0.1.0-blue.svg
+[overseerr-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[overseerr-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[overseerr-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
+[overseerr-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
+[overseerr-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [addon-sonarr]: https://github.com/hassio-addons/app-sonarr/tree/v0.5.1
 [addon-doc-sonarr]: https://github.com/hassio-addons/app-sonarr/blob/v0.5.1/README.md
 [sonarr-issue]: https://github.com/hassio-addons/app-sonarr/issues
