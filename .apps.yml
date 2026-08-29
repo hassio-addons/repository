@@ -121,6 +121,10 @@ apps:
     repository: hassio-addons/addon-prowlarr
     target: prowlarr
     image: ghcr.io/hassio-addons/prowlarr/{arch}
+  syncthing:
+    repository: hassio-addons/app-syncthing
+    target: syncthing
+    image: ghcr.io/hassio-addons/syncthing
   tailscale:
     repository: hassio-addons/app-tailscale
     target: tailscale
