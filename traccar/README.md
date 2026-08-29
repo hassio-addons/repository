@@ -33,7 +33,7 @@ your Home Assistant instance as well.
 [patreon-shield]: https://frenck.dev/wp-content/uploads/2019/12/patreon.png
 [patreon]: https://www.patreon.com/frenck
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
-[release-shield]: https://img.shields.io/badge/version-v0.26.0-blue.svg
-[release]: https://github.com/hassio-addons/app-traccar/tree/v0.26.0
+[release-shield]: https://img.shields.io/badge/version-v0.26.1-blue.svg
+[release]: https://github.com/hassio-addons/app-traccar/tree/v0.26.1
 [screenshot]: https://github.com/hassio-addons/app-traccar/raw/main/images/screenshot.png
 [traccar]: https://www.traccar.org

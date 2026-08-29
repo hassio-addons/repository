@@ -114,6 +114,39 @@ list of available parameters is documented on the
 top of that file. Traccar removed support for it in 6.2, so it is no longer
 needed. If your file still has it, the app ignores it and you can remove it._
 
+**Note**: _`traccar.xml` is an XML file, so an `&` in a value has to be written
+as `&amp;`. This is most often needed in a database URL that passes several
+connection parameters. The app takes care of unescaping it, Traccar receives
+the plain `&`._
+
+## Database
+
+By default, the app connects Traccar to the official MariaDB app and
+remembers that it did so.
+
+If that database turns out to be unavailable on a later start, the app stops
+with an error instead of quietly starting on its internal H2 database. That
+fallback would come up completely empty, which looks exactly like every user,
+device and trip has been lost. Start the MariaDB app again and restart this
+app; your data is untouched.
+
+### Using your own database
+
+To manage the database connection yourself, set `database.driver` in your
+`traccar.xml`. The app then leaves every database setting to you, including
+the protection described above.
+
+```xml
+<entry key='database.driver'>com.mysql.cj.jdbc.Driver</entry>
+<entry key='database.url'>jdbc:mysql://core-mariadb/traccar</entry>
+<entry key='database.user'>traccar</entry>
+<entry key='database.password'>YOUR_PASSWORD</entry>
+```
+
+Additional connection parameters are appended to the URL and separated by
+`&amp;`, for example:
+`jdbc:mysql://core-mariadb/traccar?useSSL=false&amp;serverTimezone=UTC`
+
 ## Enabling more protocols
 
 By default, this app has disabled most of the GPS protocols. This has
