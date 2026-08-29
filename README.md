@@ -412,6 +412,19 @@ Fully featured Visual Studio Code (VSCode) experience integrated in the Home Ass
 
 [:books: Studio Code Server app documentation][addon-doc-vscode]
 
+### &#10003; [Syncthing][addon-syncthing]
+
+![Latest Version][syncthing-version-shield]
+![Supports armhf Architecture][syncthing-armhf-shield]
+![Supports armv7 Architecture][syncthing-armv7-shield]
+![Supports aarch64 Architecture][syncthing-aarch64-shield]
+![Supports amd64 Architecture][syncthing-amd64-shield]
+![Supports i386 Architecture][syncthing-i386-shield]
+
+Continuous file synchronization between all your devices
+
+[:books: Syncthing app documentation][addon-doc-syncthing]
+
 ### &#10003; [Tailscale][addon-tailscale]
 
 ![Latest Version][tailscale-version-shield]
@@ -674,6 +687,7 @@ on the correct GitHub repository matching the app.
 - [Open an issue for the app: Sonarr][sonarr-issue]
 - [Open an issue for the app: Spotify Connect][spotify-issue]
 - [Open an issue for the app: Studio Code Server][vscode-issue]
+- [Open an issue for the app: Syncthing][syncthing-issue]
 - [Open an issue for the app: Tailscale][tailscale-issue]
 - [Open an issue for the app: TasmoAdmin][tasmoadmin-issue]
 - [Open an issue for the app: Tautulli][tautulli-issue]
@@ -988,6 +1002,15 @@ SOFTWARE.
 [vscode-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [vscode-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [vscode-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
+[addon-syncthing]: https://github.com/hassio-addons/app-syncthing/tree/v0.1.0
+[addon-doc-syncthing]: https://github.com/hassio-addons/app-syncthing/blob/v0.1.0/README.md
+[syncthing-issue]: https://github.com/hassio-addons/app-syncthing/issues
+[syncthing-version-shield]: https://img.shields.io/badge/version-v0.1.0-blue.svg
+[syncthing-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[syncthing-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[syncthing-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
+[syncthing-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
+[syncthing-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [addon-tailscale]: https://github.com/hassio-addons/app-tailscale/tree/v0.29.0
 [addon-doc-tailscale]: https://github.com/hassio-addons/app-tailscale/blob/v0.29.0/README.md
 [tailscale-issue]: https://github.com/hassio-addons/app-tailscale/issues
