@@ -7,7 +7,7 @@ configuration:
   system_packages:
     name: System packages
     description: >-
-      Allows you to specificy a list of additional Alpine Linux packages to be
+      Allows you to specificy a list of additional Debian packages to be
       installed before AppDaemon starts.
   python_packages:
     name: Python packages

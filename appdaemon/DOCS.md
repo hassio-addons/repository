@@ -67,11 +67,21 @@ These log level also affects the log levels of the AppDaemon.
 
 ### Option: `system_packages`
 
-Allows you to specify additional [Alpine packages][alpine-packages] to be
+Allows you to specify additional [Debian packages][debian-packages] to be
 installed to your AppDaemon setup (e.g., `g++`. `make`, `ffmpeg`).
 
 **Note**: _Adding many packages will result in a longer start-up time
 for the app._
+
+**Breaking change**: _This app used to be based on Alpine Linux and this
+option took Alpine package names. It now takes Debian package names, which
+differ for some packages (e.g., `build-base` is now `build-essential`).
+Please check your configured packages against the Debian package list._
+
+If you were using this option to install a Python library (e.g.,
+`py3-numpy`), use the `python_packages` option instead. Python libraries
+installed by Debian are not visible to AppDaemon, and `python_packages` now
+has prebuilt packages available for virtually everything on PyPI.
 
 ### Option: `python_packages`
 
@@ -176,9 +186,9 @@ SOFTWARE.
 
 [addon-badge]: https://my.home-assistant.io/badges/supervisor_addon.svg
 [addon]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=a0d7b954_appdaemon&repository_url=https%3A%2F%2Fgithub.com%2Fhassio-addons%2Frepository
-[alpine-packages]: https://pkgs.alpinelinux.org/packages
 [appdaemon]: https://appdaemon.readthedocs.io
 [contributors]: https://github.com/hassio-addons/app-appdaemon/graphs/contributors
+[debian-packages]: https://packages.debian.org/stable/
 [discord-ha]: https://discord.gg/c5DvZ4e
 [discord]: https://discord.me/hassioaddons
 [forum]: https://community.home-assistant.io/t/home-assistant-community-add-on-appdaemon-4/163259?u=frenck
