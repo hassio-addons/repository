@@ -94,9 +94,9 @@ apps:
     target: nut
     image: ghcr.io/hassio-addons/nut
   overseerr:
-    repository: hassio-addons/addon-overseerr
-    target: overseerr
-    image: ghcr.io/hassio-addons/overseerr/{arch}
+    repository: hassio-addons/app-seerr
+    target: seerr
+    image: ghcr.io/hassio-addons/overseerr
   phpmyadmin:
     repository: hassio-addons/addon-phpmyadmin
     target: phpmyadmin
