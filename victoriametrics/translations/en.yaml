@@ -1,0 +1,82 @@
+---
+configuration:
+  log_level:
+    name: Log level
+    description: >-
+      Controls the level of log output by the app and can be changed to be
+      more or less verbose, which might be useful when you are dealing with
+      an unknown issue. Each level automatically includes the messages of a
+      more severe level.
+  home_assistant:
+    name: Collect Home Assistant metrics
+    description: >-
+      Scrape the metrics Home Assistant exposes itself. This needs the
+      Prometheus integration to be enabled, by adding `prometheus:` to your
+      `configuration.yaml`.
+  scrape_interval:
+    name: Scrape interval
+    description: >-
+      How often metrics are collected from every target, for example `60s` or
+      `5m`. Shorter intervals give more detail and use more disk space.
+  scrape_config:
+    name: Additional scrape configuration
+    description: >-
+      The name of a YAML file in this app's configuration directory holding
+      extra Prometheus `scrape_configs` jobs, for targets other than Home
+      Assistant itself.
+  retention_period:
+    name: Retention period
+    description: >-
+      How long metrics are kept before they are deleted automatically. Use a
+      number with a suffix: s, h, d, w, M (month, capital M) or y. For
+      example `1y`, `18M` or `90d`.
+  dedup_min_scrape_interval:
+    name: Deduplication interval
+    description: >-
+      Keep only the last sample per time series per interval, for example
+      `60s`. Useful when the same metrics arrive from more than one source.
+      Leave empty to store every sample.
+  min_free_disk_space:
+    name: Minimum free disk space
+    description: >-
+      New metrics are no longer accepted once free disk space drops below
+      this amount, which stops the database from filling up your machine.
+      For example `1GB`.
+  latency_offset:
+    name: Latency offset
+    description: >-
+      How long freshly arrived metrics are held back from queries, so a half
+      finished scrape cannot show up as a dip. Lower it to `1s` when data is
+      pushed here rather than scraped, and you want the newest values to show
+      up right away.
+  memory_allowed_percent:
+    name: Memory limit
+    description: >-
+      The percentage of system memory the caches may occupy. Lower it when
+      this app has to share a small machine, raise it when queries over long
+      time ranges are slow.
+  ssl:
+    name: SSL
+    description: >-
+      Enables/Disables encrypted SSL (HTTPS) for direct access to the app.
+      This setting has no effect on the Ingress service.
+  certfile:
+    name: Certificate file
+    description: >-
+      The certificate file to use for SSL. The file must be stored in the
+      `/ssl/` directory.
+  keyfile:
+    name: Private key file
+    description: >-
+      The private key file to use for SSL. The file must be stored in the
+      `/ssl/` directory.
+  leave_front_door_open:
+    name: Disable authentication
+    description: >-
+      Turns off the Home Assistant login check on the direct port, leaving
+      your metrics open to anybody who can reach it. Do not enable this.
+network:
+  8428/tcp: >-
+    HTTP API and web interface. Not required for Ingress. Expose this port
+    when other machines need to write metrics to, or read them from, this
+    database.
