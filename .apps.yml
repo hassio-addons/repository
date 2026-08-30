@@ -169,6 +169,10 @@ apps:
     repository: hassio-addons/app-uptime-kuma
     target: uptime-kuma
     image: ghcr.io/hassio-addons/uptime-kuma
+  victoriametrics:
+    repository: hassio-addons/app-victoriametrics
+    target: victoriametrics
+    image: ghcr.io/hassio-addons/victoriametrics
   vscode:
     repository: hassio-addons/addon-vscode
     target: vscode
