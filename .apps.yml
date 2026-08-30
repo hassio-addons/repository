@@ -109,6 +109,10 @@ apps:
     repository: hassio-addons/app-plex
     target: plex
     image: ghcr.io/hassio-addons/plex
+  qbittorrent:
+    repository: hassio-addons/app-qbittorrent
+    target: qbittorrent
+    image: ghcr.io/hassio-addons/qbittorrent
   radarr:
     repository: hassio-addons/app-radarr
     target: radarr
