@@ -129,6 +129,10 @@ apps:
     repository: hassio-addons/addon-spotify-connect
     target: spotify
     image: ghcr.io/hassio-addons/spotify/{arch}
+  spotweb:
+    repository: hassio-addons/app-spotweb
+    target: spotweb
+    image: ghcr.io/hassio-addons/spotweb
   prowlarr:
     repository: hassio-addons/addon-prowlarr
     target: prowlarr
