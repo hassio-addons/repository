@@ -73,6 +73,10 @@ apps:
     repository: hassio-addons/addon-lidarr
     target: lidarr
     image: ghcr.io/hassio-addons/lidarr/{arch}
+  mealie:
+    repository: hassio-addons/app-mealie
+    target: mealie
+    image: ghcr.io/hassio-addons/mealie
   motioneye:
     repository: hassio-addons/addon-motioneye
     target: motioneye
