@@ -1,0 +1,39 @@
+---
+configuration:
+  log_level:
+    name: Log level
+    description: >-
+      Controls the level of log output by the app and can be changed to be
+      more or less verbose, which might be useful when you are dealing with
+      an unknown issue. Each level automatically includes the messages of a
+      more severe level. Jellyfin is set to the level that matches this one.
+  ssl:
+    name: SSL
+    description: >-
+      Enables/Disables encrypted SSL (HTTPS) on port 8920. Port 8096 stays
+      plain HTTP, and this setting has no effect on the Ingress service.
+  certfile:
+    name: Certificate file
+    description: >-
+      The certificate file to use for SSL. The file must be stored in the
+      `/ssl/` directory.
+  keyfile:
+    name: Private key file
+    description: >-
+      The private key file to use for SSL. The file must be stored in the
+      `/ssl/` directory.
+network:
+  8096/tcp: >-
+    Web interface and API. Not required for Ingress. This is the port the
+    Jellyfin apps on your phone, tablet, TV or games console connect to, and
+    the one to publish for anything else outside Home Assistant that needs to
+    reach this server.
+  8920/tcp: >-
+    The same over HTTPS, served once the "SSL" option is turned on. Publish
+    this one instead of 8096 when the traffic crosses a network you do not
+    trust.
+  7359/udp: >-
+    Server discovery. Publish this to let the Jellyfin apps find this server by
+    searching the network, rather than having its address typed in. Jellyfin
+    also needs to be told which address to hand back, under "Published server
+    URIs" in its own networking settings.

@@ -217,6 +217,19 @@ ERP beyond your fridge! A groceries & household management solution for your hom
 
 [:books: Grocy app documentation][addon-doc-grocy]
 
+### &#10003; [Jellyfin][addon-jellyfin]
+
+![Latest Version][jellyfin-version-shield]
+![Supports armhf Architecture][jellyfin-armhf-shield]
+![Supports armv7 Architecture][jellyfin-armv7-shield]
+![Supports aarch64 Architecture][jellyfin-aarch64-shield]
+![Supports amd64 Architecture][jellyfin-amd64-shield]
+![Supports i386 Architecture][jellyfin-i386-shield]
+
+The free software media system for your movies, shows and music
+
+[:books: Jellyfin app documentation][addon-doc-jellyfin]
+
 ### &#10003; [JupyterLab][addon-jupyterlab]
 
 ![Latest Version][jupyterlab-version-shield]
@@ -711,6 +724,7 @@ on the correct GitHub repository matching the app.
 - [Open an issue for the app: Glances][glances-issue]
 - [Open an issue for the app: Grafana][grafana-issue]
 - [Open an issue for the app: Grocy][grocy-issue]
+- [Open an issue for the app: Jellyfin][jellyfin-issue]
 - [Open an issue for the app: JupyterLab][jupyterlab-issue]
 - [Open an issue for the app: Lidarr][lidarr-issue]
 - [Open an issue for the app: MQTT IO][mqtt-io-issue]
@@ -909,6 +923,15 @@ SOFTWARE.
 [grocy-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [grocy-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [grocy-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
+[addon-jellyfin]: https://github.com/hassio-addons/app-jellyfin/tree/v0.1.0
+[addon-doc-jellyfin]: https://github.com/hassio-addons/app-jellyfin/blob/v0.1.0/README.md
+[jellyfin-issue]: https://github.com/hassio-addons/app-jellyfin/issues
+[jellyfin-version-shield]: https://img.shields.io/badge/version-v0.1.0-blue.svg
+[jellyfin-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[jellyfin-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[jellyfin-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
+[jellyfin-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
+[jellyfin-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [addon-jupyterlab]: https://github.com/hassio-addons/app-jupyterlab/tree/v0.18.1
 [addon-doc-jupyterlab]: https://github.com/hassio-addons/app-jupyterlab/blob/v0.18.1/README.md
 [jupyterlab-issue]: https://github.com/hassio-addons/app-jupyterlab/issues
