@@ -17,6 +17,10 @@ apps:
     repository: hassio-addons/app-appdaemon
     target: appdaemon
     image: ghcr.io/hassio-addons/appdaemon
+  audiobookshelf:
+    repository: hassio-addons/app-audiobookshelf
+    target: audiobookshelf
+    image: ghcr.io/hassio-addons/audiobookshelf
   bazarr:
     repository: hassio-addons/addon-bazarr
     target: bazarr
