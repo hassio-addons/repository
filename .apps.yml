@@ -65,6 +65,10 @@ apps:
     repository: hassio-addons/addon-influxdb
     target: influxdb
     image: ghcr.io/hassio-addons/influxdb/{arch}
+  jellyfin:
+    repository: hassio-addons/app-jellyfin
+    target: jellyfin
+    image: ghcr.io/hassio-addons/jellyfin
   jupyterlab:
     repository: hassio-addons/addon-jupyterlab
     target: jupyterlab
