@@ -1,0 +1,35 @@
+---
+configuration:
+  admin_password:
+    name: Admin password
+    description: >-
+      The password of Spotweb's built-in admin account. Leave empty to keep
+      the password that is currently set.
+  retrieve_interval:
+    name: Retrieve interval
+    description: >-
+      How often new spots are retrieved from your usenet server, in minutes.
+      Set to 0 to disable automatic retrieval.
+  ssl:
+    name: SSL
+    description: >-
+      Enables/Disables SSL (HTTPS) on the direct web interface. This has no
+      effect on Ingress.
+  certfile:
+    name: Certificate file
+    description: >-
+      The certificate file to use for SSL. The file must exist in the
+      /ssl/ directory.
+  keyfile:
+    name: Key file
+    description: >-
+      The private key file to use for SSL. The file must exist in the
+      /ssl/ directory.
+  log_level:
+    name: Log level
+    description: >-
+      Controls the level of log details the app provides.
+network:
+  80/tcp: >-
+    The port used to access the Spotweb web interface directly, without going
+    through Ingress. Required to use Spotweb's Newznab API.
