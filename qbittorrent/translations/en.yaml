@@ -1,0 +1,38 @@
+---
+configuration:
+  log_level:
+    name: Log level
+    description: >-
+      Controls the level of log output by the app and can be changed to be
+      more or less verbose, which might be useful when you are dealing with
+      an unknown issue. Each level automatically includes the messages of a
+      more severe level. qBittorrent's own log is filtered inside its web
+      interface instead.
+  ssl:
+    name: SSL
+    description: >-
+      Enables/Disables encrypted SSL (HTTPS) for direct access to the app.
+      This setting has no effect on the Ingress service.
+  certfile:
+    name: Certificate file
+    description: >-
+      The certificate file to use for SSL. The file must be stored in the
+      `/ssl/` directory.
+  keyfile:
+    name: Private key file
+    description: >-
+      The private key file to use for SSL. The file must be stored in the
+      `/ssl/` directory.
+network:
+  8080/tcp: >-
+    Web interface and API. Not required for Ingress. Expose this port when
+    something outside Home Assistant needs to reach qBittorrent, such as a
+    phone app, a download manager or a reverse proxy of your own.
+  6881/tcp: >-
+    Incoming BitTorrent connections. Forward this port on your router to the
+    machine running Home Assistant, or other clients can only connect to you
+    when they happen to be reachable themselves.
+  6881/udp: >-
+    Incoming BitTorrent connections, DHT and uTP. Forward this port alongside
+    the TCP one; DHT and the peer exchange that finds peers without a tracker
+    both run over UDP.
