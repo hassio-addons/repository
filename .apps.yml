@@ -69,6 +69,10 @@ apps:
     repository: hassio-addons/app-grocy
     target: grocy
     image: ghcr.io/hassio-addons/grocy
+  homebox:
+    repository: hassio-addons/app-homebox
+    target: homebox
+    image: ghcr.io/hassio-addons/homebox
   influxdb:
     repository: hassio-addons/addon-influxdb
     target: influxdb
