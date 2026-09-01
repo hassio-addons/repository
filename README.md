@@ -191,6 +191,19 @@ Fighting disease with a world wide distributed super computer
 
 [:books: Folding@home app documentation][addon-doc-foldingathome]
 
+### &#10003; [FreshRSS][addon-freshrss]
+
+![Latest Version][freshrss-version-shield]
+![Supports armhf Architecture][freshrss-armhf-shield]
+![Supports armv7 Architecture][freshrss-armv7-shield]
+![Supports aarch64 Architecture][freshrss-aarch64-shield]
+![Supports amd64 Architecture][freshrss-amd64-shield]
+![Supports i386 Architecture][freshrss-i386-shield]
+
+A free, self-hostable RSS and Atom feed aggregator
+
+[:books: FreshRSS app documentation][addon-doc-freshrss]
+
 ### &#10003; [Glances][addon-glances]
 
 ![Latest Version][glances-version-shield]
@@ -748,6 +761,7 @@ on the correct GitHub repository matching the app.
 - [Open an issue for the app: Example][example-issue]
 - [Open an issue for the app: FTP][ftp-issue]
 - [Open an issue for the app: Folding@home][foldingathome-issue]
+- [Open an issue for the app: FreshRSS][freshrss-issue]
 - [Open an issue for the app: Glances][glances-issue]
 - [Open an issue for the app: Grafana][grafana-issue]
 - [Open an issue for the app: Grocy][grocy-issue]
@@ -933,6 +947,15 @@ SOFTWARE.
 [foldingathome-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [foldingathome-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [foldingathome-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
+[addon-freshrss]: https://github.com/hassio-addons/app-freshrss/tree/v0.1.0
+[addon-doc-freshrss]: https://github.com/hassio-addons/app-freshrss/blob/v0.1.0/README.md
+[freshrss-issue]: https://github.com/hassio-addons/app-freshrss/issues
+[freshrss-version-shield]: https://img.shields.io/badge/version-v0.1.0-blue.svg
+[freshrss-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[freshrss-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[freshrss-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
+[freshrss-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
+[freshrss-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [addon-glances]: https://github.com/hassio-addons/app-glances/tree/v0.22.1
 [addon-doc-glances]: https://github.com/hassio-addons/app-glances/blob/v0.22.1/README.md
 [glances-issue]: https://github.com/hassio-addons/app-glances/issues

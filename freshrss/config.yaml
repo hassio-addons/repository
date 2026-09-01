@@ -1,0 +1,40 @@
+name: FreshRSS
+version: 0.1.0
+slug: freshrss
+description: A free, self-hostable RSS and Atom feed aggregator
+url: https://github.com/hassio-addons/app-freshrss
+ingress: true
+ingress_stream: true
+init: false
+panel_icon: mdi:rss
+arch:
+- aarch64
+- amd64
+backup: cold
+backup_exclude:
+- '**/cache/**'
+- '**/favicons/**'
+map:
+- type: ssl
+  read_only: true
+ports:
+  80/tcp: null
+ports_description:
+  80/tcp: Web interface & API (not required for Ingress)
+options:
+  username: admin
+  ingress_auto_login: true
+  refresh_interval: 30
+  ssl: false
+  certfile: fullchain.pem
+  keyfile: privkey.pem
+schema:
+  log_level: list(trace|debug|info|notice|warning|error|fatal)?
+  username: match(^([0-9a-zA-Z_][0-9a-zA-Z_.@-]{1,38}|[0-9a-zA-Z])$)
+  password: password?
+  ingress_auto_login: bool
+  refresh_interval: int(0,1440)
+  ssl: bool
+  certfile: str
+  keyfile: str
+image: ghcr.io/hassio-addons/freshrss

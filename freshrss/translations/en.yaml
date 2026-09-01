@@ -1,0 +1,48 @@
+---
+configuration:
+  username:
+    name: Username
+    description: >-
+      The name of the shared FreshRSS account, used only when Ingress auto
+      login is turned off. With auto login on, every Home Assistant user gets
+      an account named after themselves instead and this is ignored.
+  password:
+    name: Password
+    description: >-
+      The password of that shared account, used only when Ingress auto login is
+      turned off. Leave empty to keep the password that is currently set.
+  ingress_auto_login:
+    name: Ingress auto login
+    description: >-
+      Signs you in as your own Home Assistant user when you open FreshRSS from
+      the sidebar, so every Home Assistant user gets their own feeds. The first
+      one to open the app administers FreshRSS. Turn it off to share a single
+      account and reach the web interface over the published port as well.
+  refresh_interval:
+    name: Refresh interval
+    description: >-
+      How often the feeds of every account are refreshed, in minutes. Set to 0
+      to refresh them from within FreshRSS only.
+  ssl:
+    name: SSL
+    description: >-
+      Enables/Disables SSL (HTTPS) on the direct web interface. This has no
+      effect on Ingress.
+  certfile:
+    name: Certificate file
+    description: >-
+      The certificate file to use for SSL. The file must exist in the
+      /ssl/ directory.
+  keyfile:
+    name: Key file
+    description: >-
+      The private key file to use for SSL. The file must exist in the
+      /ssl/ directory.
+  log_level:
+    name: Log level
+    description: >-
+      Controls the level of log details the app provides.
+network:
+  80/tcp: >-
+    The port used to reach FreshRSS directly, without going through Ingress.
+    Required for the Google Reader and Fever APIs that mobile apps talk to.
