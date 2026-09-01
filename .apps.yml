@@ -49,6 +49,10 @@ apps:
     repository: hassio-addons/addon-foldingathome
     target: foldingathome
     image: ghcr.io/hassio-addons/foldingathome/{arch}
+  freshrss:
+    repository: hassio-addons/app-freshrss
+    target: freshrss
+    image: ghcr.io/hassio-addons/freshrss
   ftp:
     repository: hassio-addons/addon-ftp
     target: ftp
