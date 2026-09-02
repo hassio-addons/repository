@@ -1,0 +1,49 @@
+---
+configuration:
+  log_level:
+    name: Log level
+    description: >-
+      Controls the level of log output by the app and can be changed to be
+      more or less verbose, which might be useful when you are dealing with
+      an unknown issue. Each level automatically includes the messages of a
+      more severe level.
+  base_url:
+    name: Base URL
+    description: >-
+      The address this app is reached at, for example
+      `https://pdf.example.com`. Used for the QR codes that hand a job to your
+      phone and for the links the share buttons copy. Leave it empty unless
+      you have published the port and put a name in front of it.
+  max_file_size:
+    name: Maximum file size
+    description: >-
+      The largest file, in megabytes, that may be uploaded. Leave it empty for
+      no limit. Worth setting on a machine with little memory, since a PDF is
+      held in memory while it is worked on.
+  leave_front_door_open:
+    name: Disable authentication
+    description: >-
+      Turns off the Home Assistant login check on the direct port, leaving
+      every tool and every document that passes through this app open to
+      anybody who can reach it. Do not enable this.
+  ssl:
+    name: SSL
+    description: >-
+      Enables/Disables encrypted SSL (HTTPS) for direct access to the app.
+      This setting has no effect on the Ingress service.
+  certfile:
+    name: Certificate file
+    description: >-
+      The certificate file to use for SSL. The file must be stored in the
+      `/ssl/` directory.
+  keyfile:
+    name: Private key file
+    description: >-
+      The private key file to use for SSL. The file must be stored in the
+      `/ssl/` directory.
+network:
+  8080/tcp: >-
+    Web interface and API. Not required for Ingress. Publish it when something
+    other than a browser in front of Home Assistant needs to reach this app,
+    such as a script talking to the API or a reverse proxy of your own.
+    Requests are checked against your Home Assistant login.

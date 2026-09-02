@@ -464,6 +464,19 @@ A decentralized usenet community based on the Spotnet protocol
 
 [:books: Spotweb app documentation][addon-doc-spotweb]
 
+### &#10003; [Stirling PDF][addon-stirling-pdf]
+
+![Latest Version][stirling-pdf-version-shield]
+![Supports armhf Architecture][stirling-pdf-armhf-shield]
+![Supports armv7 Architecture][stirling-pdf-armv7-shield]
+![Supports aarch64 Architecture][stirling-pdf-aarch64-shield]
+![Supports amd64 Architecture][stirling-pdf-amd64-shield]
+![Supports i386 Architecture][stirling-pdf-i386-shield]
+
+Do everything you need to a PDF, on your own machine
+
+[:books: Stirling PDF app documentation][addon-doc-stirling-pdf]
+
 ### &#10003; [Studio Code Server][addon-vscode]
 
 ![Latest Version][vscode-version-shield]
@@ -782,6 +795,7 @@ on the correct GitHub repository matching the app.
 - [Open an issue for the app: Sonarr][sonarr-issue]
 - [Open an issue for the app: Spotify Connect][spotify-issue]
 - [Open an issue for the app: Spotweb][spotweb-issue]
+- [Open an issue for the app: Stirling PDF][stirling-pdf-issue]
 - [Open an issue for the app: Studio Code Server][vscode-issue]
 - [Open an issue for the app: Syncthing][syncthing-issue]
 - [Open an issue for the app: Tailscale][tailscale-issue]
@@ -1136,6 +1150,15 @@ SOFTWARE.
 [spotweb-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [spotweb-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [spotweb-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
+[addon-stirling-pdf]: https://github.com/hassio-addons/app-stirling-pdf/tree/v0.1.0
+[addon-doc-stirling-pdf]: https://github.com/hassio-addons/app-stirling-pdf/blob/v0.1.0/README.md
+[stirling-pdf-issue]: https://github.com/hassio-addons/app-stirling-pdf/issues
+[stirling-pdf-version-shield]: https://img.shields.io/badge/version-v0.1.0-blue.svg
+[stirling-pdf-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[stirling-pdf-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[stirling-pdf-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
+[stirling-pdf-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
+[stirling-pdf-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [addon-vscode]: https://github.com/hassio-addons/app-vscode/tree/v7.0.0
 [addon-doc-vscode]: https://github.com/hassio-addons/app-vscode/blob/v7.0.0/README.md
 [vscode-issue]: https://github.com/hassio-addons/app-vscode/issues
