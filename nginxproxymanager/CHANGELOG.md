@@ -2,4 +2,4 @@
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update certbot to v5.8.0 @[renovate[bot]](https://github.com/apps/renovate) ([#763](https://github.com/hassio-addons/app-nginx-proxy-manager/pull/763))
+- ⬆️ Update nginx to v1.31.5-1~trixie @[renovate[bot]](https://github.com/apps/renovate) ([#764](https://github.com/hassio-addons/app-nginx-proxy-manager/pull/764))
