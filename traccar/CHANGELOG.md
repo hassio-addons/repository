@@ -1,9 +1,6 @@
 ## What’s changed
 
-## 🐛 Bug fixes
+## ⬆️ Dependency updates
 
-- 🐛 Fix mangled database URLs and silent H2 fallback @frenck ([#378](https://github.com/hassio-addons/app-traccar/pull/378))
-
-## 📚 Documentation
-
-- 🐛 Fix mangled database URLs and silent H2 fallback @frenck ([#378](https://github.com/hassio-addons/app-traccar/pull/378))
+- ⬆️ Update traccar/traccar to v6.15.3 @[renovate[bot]](https://github.com/apps/renovate) ([#382](https://github.com/hassio-addons/app-traccar/pull/382))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v21.0.4 @[renovate[bot]](https://github.com/apps/renovate) ([#381](https://github.com/hassio-addons/app-traccar/pull/381))
