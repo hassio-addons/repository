@@ -961,10 +961,10 @@ SOFTWARE.
 [foldingathome-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [foldingathome-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [foldingathome-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
-[addon-freshrss]: https://github.com/hassio-addons/app-freshrss/tree/v0.1.0
-[addon-doc-freshrss]: https://github.com/hassio-addons/app-freshrss/blob/v0.1.0/README.md
+[addon-freshrss]: https://github.com/hassio-addons/app-freshrss/tree/v0.2.0
+[addon-doc-freshrss]: https://github.com/hassio-addons/app-freshrss/blob/v0.2.0/README.md
 [freshrss-issue]: https://github.com/hassio-addons/app-freshrss/issues
-[freshrss-version-shield]: https://img.shields.io/badge/version-v0.1.0-blue.svg
+[freshrss-version-shield]: https://img.shields.io/badge/version-v0.2.0-blue.svg
 [freshrss-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [freshrss-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [freshrss-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
