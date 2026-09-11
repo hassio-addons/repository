@@ -22,6 +22,7 @@ with the rest of the household, each with their own login.
 
 Home Assistant has [an integration for Mealie][integration], so the meal plan
 and the shopping list can show up on your dashboard next to everything else.
+It finds this app on its own.
 
 [github-sponsors-shield]: https://frenck.dev/wp-content/uploads/2019/12/github_sponsor.png
 [github-sponsors]: https://github.com/sponsors/frenck
@@ -31,5 +32,5 @@ and the shopping list can show up on your dashboard next to everything else.
 [patreon-shield]: https://frenck.dev/wp-content/uploads/2019/12/patreon.png
 [patreon]: https://www.patreon.com/frenck
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
-[release-shield]: https://img.shields.io/badge/version-v0.1.0-blue.svg
-[release]: https://github.com/hassio-addons/app-mealie/tree/v0.1.0
+[release-shield]: https://img.shields.io/badge/version-v0.2.0-blue.svg
+[release]: https://github.com/hassio-addons/app-mealie/tree/v0.2.0

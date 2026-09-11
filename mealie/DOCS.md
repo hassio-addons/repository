@@ -12,6 +12,7 @@ with the rest of the household, each with their own login.
 
 Home Assistant has [an integration for Mealie][integration], so the meal plan
 and the shopping list can show up on your dashboard next to everything else.
+It finds this app on its own.
 
 ## Installation
 
@@ -66,18 +67,30 @@ The [Mealie integration][integration] brings the meal plan, the shopping lists
 and the recipe count into Home Assistant, and adds services for putting a
 recipe on the plan or an item on a list from an automation.
 
+Home Assistant finds this app on its own. Once it is running, Mealie turns up
+as discovered under **Settings** > **Devices & Services**, and all it asks for
+is an API token:
+
 1. In Mealie, open your profile and then "Manage API Tokens", and create a
    token.
-1. In Home Assistant, go to **Settings** > **Devices & Services** > **Add
-   Integration** and pick **Mealie**.
-1. Fill in the address of this app and the token you just made:
+1. In Home Assistant, go to **Settings** > **Devices & Services** and click
+   **Add** on the discovered Mealie.
+1. Fill in the token you just made.
 
-   - URL: `http://a0d7b954-mealie:9000`
-   - API token: _the token from step 1_
+Should the discovered entry not be there, or should you rather set it up by
+hand, add the **Mealie** integration yourself and fill in:
+
+- URL: `http://a0d7b954-mealie:9001`
+- API token: _the token from step 1_
 
 **Note**: _Use this app's hostname rather than your Home Assistant IP address.
 Both sit on the same internal network, so the traffic never has to leave the
 machine, and nothing has to be exposed under "Network" for this to work._
+
+That address is plain HTTP whatever the [`ssl`](#option-ssl) option says, and
+can only be reached from the internal network Home Assistant and its apps
+share. The port under "Network" is a different one, meant for
+[direct access](#direct-access) from your own network.
 
 The Ingress address the panel runs on is no use here. It belongs to a session
 that expires, so the integration would lose Mealie the moment it did.
@@ -192,9 +205,10 @@ have no effect on the Ingress service._
 
 Leave this off when something else in front of this app, such as the
 [NGINX Proxy Manager app][nginx-proxy-manager], is already terminating TLS.
-Turning it on also means the [Home Assistant integration](#using-it-with-home-assistant)
-has to be pointed at `https://`, against a certificate that will not match this
-app's internal hostname.
+It makes no difference to the
+[Home Assistant integration](#using-it-with-home-assistant) either, which
+talks to this app over plain HTTP on the internal network whatever this is set
+to.
 
 ### Option: `certfile`
 
@@ -219,8 +233,8 @@ sitting in front of Home Assistant: the Mealie app on a phone, a reverse proxy
 of your own, or a script talking to the API.
 
 You do **not** need it for the [Home Assistant integration](#using-it-with-home-assistant),
-which reaches this app over the internal network whether the port is published
-or not.
+which reaches this app over the internal network, on a port of its own,
+whether this one is published or not.
 
 Mealie has its own accounts and its own login screen, so that port is guarded
 the same way the Ingress panel is. Turn on [`ssl`](#option-ssl) if you expose

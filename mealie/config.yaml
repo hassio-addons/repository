@@ -1,5 +1,5 @@
 name: Mealie
-version: 0.1.0
+version: 0.2.0
 slug: mealie
 description: Recipe manager and meal planner for your kitchen
 url: https://github.com/hassio-addons/app-mealie
@@ -19,6 +19,8 @@ ports:
   9000/tcp: null
 ports_description:
   9000/tcp: Web interface & API (not required for Ingress)
+discovery:
+- mealie
 options:
   allow_signup: false
   ssl: false
