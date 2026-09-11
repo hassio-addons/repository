@@ -1,5 +1,5 @@
 name: Tailscale
-version: 0.29.0
+version: 0.30.0
 slug: tailscale
 description: Zero config VPN for building secure networks
 url: https://github.com/hassio-addons/app-tailscale
@@ -47,7 +47,7 @@ options:
   advertise_routes: []
   advertise_tags: []
   always_use_derp: false
-  log_level: info
+  log_suppression: true
   log_upload: false
   login_server: https://controlplane.tailscale.com
   share_homeassistant: disabled
@@ -76,7 +76,7 @@ schema:
   - match(^tag:[a-zA-Z][a-zA-Z0-9-]*$)
   always_use_derp: bool
   exit_node: match(^(?:(?:(?:25[0-5]|(?:2[0-4]|1\d|[1-9]?)\d)\.){3}(?:25[0-5]|(?:2[0-4]|1\d|[1-9]?)\d)|[a-fA-F\d.:]+:[a-fA-F\d.:]+|[a-fA-F\d]{8}(?:-[a-fA-F\d]{4}){3}-[a-fA-F\d]{12}|auto:any)$)?
-  log_level: list(trace|debug|info|notice|warning|error|fatal)
+  log_suppression: bool
   log_upload: bool
   login_server: url
   share_homeassistant: list(disabled|serve|funnel)
