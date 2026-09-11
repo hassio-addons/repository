@@ -1,0 +1,69 @@
+---
+configuration:
+  log_level:
+    name: Log level
+    description: >-
+      Controls the level of log output by the app and can be changed to be
+      more or less verbose, which might be useful when you are dealing with
+      an unknown issue. Each level automatically includes the messages of a
+      more severe level.
+  base_url:
+    name: Base URL
+    description: >-
+      The address this app is reached at, for example
+      `https://homebox.example.com`. Used for the links in the mail Homebox
+      sends. Leave it empty when you only use this app from your own network.
+  allow_registration:
+    name: Allow registration
+    description: >-
+      Let anybody who can reach this app create an account. You need this on to
+      make the first account; turn it off afterwards and invite the rest of the
+      household from inside Homebox.
+  auto_increment_asset_id:
+    name: Automatic asset IDs
+    description: >-
+      Give every new item the next number in sequence, which is what you write
+      on the printed labels. Turn it off if you keep your own numbering.
+  max_upload_size:
+    name: Maximum upload size
+    description: >-
+      The largest single file that can be attached to an item, in megabytes.
+      Photos straight off a phone are regularly larger than the default of 10.
+  smtp_host:
+    name: SMTP host
+    description: >-
+      The mail server used to send password resets and invitations. Leave it
+      empty to switch email off entirely.
+  smtp_port:
+    name: SMTP port
+    description: The port of the mail server, usually 587.
+  smtp_from:
+    name: SMTP sender address
+    description: The address the mail from this app is sent from.
+  smtp_user:
+    name: SMTP username
+    description: >-
+      The username for the mail server, usually the same as the sender address.
+  smtp_password:
+    name: SMTP password
+    description: The password that goes with the SMTP username.
+  ssl:
+    name: SSL
+    description: >-
+      Enables/Disables encrypted SSL (HTTPS) for direct access to the app.
+      This setting has no effect on the Ingress service.
+  certfile:
+    name: Certificate file
+    description: >-
+      The certificate file to use for SSL. The file must be stored in the
+      `/ssl/` directory.
+  keyfile:
+    name: Private key file
+    description: >-
+      The private key file to use for SSL. The file must be stored in the
+      `/ssl/` directory.
+network:
+  7745/tcp: >-
+    Web interface and API. Not required for Ingress. Expose this port when
+    something outside Home Assistant needs to reach Homebox, such as a phone
+    scanning the QR code on a printed label, or a reverse proxy of your own.

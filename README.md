@@ -243,6 +243,19 @@ ERP beyond your fridge! A groceries & household management solution for your hom
 
 [:books: Grocy app documentation][addon-doc-grocy]
 
+### &#10003; [Homebox][addon-homebox]
+
+![Latest Version][homebox-version-shield]
+![Supports armhf Architecture][homebox-armhf-shield]
+![Supports armv7 Architecture][homebox-armv7-shield]
+![Supports aarch64 Architecture][homebox-aarch64-shield]
+![Supports amd64 Architecture][homebox-amd64-shield]
+![Supports i386 Architecture][homebox-i386-shield]
+
+Inventory and organization system for the things in your home
+
+[:books: Homebox app documentation][addon-doc-homebox]
+
 ### &#10003; [Jellyfin][addon-jellyfin]
 
 ![Latest Version][jellyfin-version-shield]
@@ -778,6 +791,7 @@ on the correct GitHub repository matching the app.
 - [Open an issue for the app: Glances][glances-issue]
 - [Open an issue for the app: Grafana][grafana-issue]
 - [Open an issue for the app: Grocy][grocy-issue]
+- [Open an issue for the app: Homebox][homebox-issue]
 - [Open an issue for the app: Jellyfin][jellyfin-issue]
 - [Open an issue for the app: JupyterLab][jupyterlab-issue]
 - [Open an issue for the app: Lidarr][lidarr-issue]
@@ -997,6 +1011,15 @@ SOFTWARE.
 [grocy-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [grocy-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [grocy-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
+[addon-homebox]: https://github.com/hassio-addons/app-homebox/tree/v0.1.0
+[addon-doc-homebox]: https://github.com/hassio-addons/app-homebox/blob/v0.1.0/README.md
+[homebox-issue]: https://github.com/hassio-addons/app-homebox/issues
+[homebox-version-shield]: https://img.shields.io/badge/version-v0.1.0-blue.svg
+[homebox-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[homebox-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[homebox-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
+[homebox-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
+[homebox-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [addon-jellyfin]: https://github.com/hassio-addons/app-jellyfin/tree/v0.1.0
 [addon-doc-jellyfin]: https://github.com/hassio-addons/app-jellyfin/blob/v0.1.0/README.md
 [jellyfin-issue]: https://github.com/hassio-addons/app-jellyfin/issues
