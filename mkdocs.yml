@@ -1,7 +1,7 @@
 ---
 # Project information
 site_name: "Home Assistant Community Apps"
-site_url: "https://addons.community"
+site_url: "https://frenck.dev/home-assistant-apps"
 site_description: "The primary goal of this project is to provide you (as a Home Assistant user) with additional, high quality, apps that allow you to take your automated home to the next level."
 site_author: "Franck Nijhof"
 copyright: "Copyright 2017-2026 - Franck Nijhof."

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # ==============================================================================
-# Community Hass.io Add-ons for Home Assistant
+# Home Assistant Community Apps
 # This script builds a small little website
 # ==============================================================================
 set -o errexit  # Exit script when a command exits with non-zero status
