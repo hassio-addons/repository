@@ -117,6 +117,10 @@ apps:
     repository: hassio-addons/app-nut
     target: nut
     image: ghcr.io/hassio-addons/nut
+  nzbget:
+    repository: hassio-addons/app-nzbget
+    target: nzbget
+    image: ghcr.io/hassio-addons/nzbget
   overseerr:
     repository: hassio-addons/app-seerr
     target: seerr
