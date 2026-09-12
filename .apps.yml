@@ -1,6 +1,10 @@
 ---
 channel: stable
 apps:
+  actual-budget:
+    repository: hassio-addons/app-actual-budget
+    target: actual-budget
+    image: ghcr.io/hassio-addons/actual-budget
   adguard:
     repository: hassio-addons/app-adguard-home
     target: adguard
