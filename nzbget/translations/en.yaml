@@ -1,0 +1,17 @@
+---
+configuration:
+  log_level:
+    name: Log level
+    description: >-
+      Controls the level of log output by the app and can be changed to be
+      more or less verbose, which might be useful when you are dealing with
+      an unknown issue. Each level automatically includes the messages of a
+      more severe level. NZBGet's own messages follow it, and are shown in
+      the "Messages" view of its web interface as well.
+network:
+  6789/tcp: >-
+    Web interface and API. Not required for Ingress. Expose this port when
+    something outside Home Assistant needs to reach NZBGet, such as a phone
+    app or a reverse proxy of your own. It has NZBGet's own login in front of
+    it; the password was written to the log on the first start and can be
+    changed under Settings > SECURITY.

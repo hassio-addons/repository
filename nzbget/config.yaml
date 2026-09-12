@@ -1,0 +1,28 @@
+name: NZBGet
+version: 0.1.0
+slug: nzbget
+description: Efficient Usenet downloader, written in C++
+url: https://github.com/hassio-addons/app-nzbget
+ingress: true
+ingress_port: 1337
+ingress_stream: true
+panel_icon: mdi:download-box
+init: false
+arch:
+- aarch64
+- amd64
+backup: cold
+map:
+- type: addon_config
+  read_only: false
+- type: media
+  read_only: false
+- type: share
+  read_only: false
+ports:
+  6789/tcp: null
+ports_description:
+  6789/tcp: Web interface & API (not required for Ingress)
+schema:
+  log_level: list(trace|debug|info|notice|warning|error|fatal)?
+image: ghcr.io/hassio-addons/nzbget
