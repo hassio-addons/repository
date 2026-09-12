@@ -33,6 +33,10 @@ apps:
     repository: hassio-addons/app-bookstack
     target: bookstack
     image: ghcr.io/hassio-addons/bookstack
+  calibre-web:
+    repository: hassio-addons/app-calibre-web
+    target: calibre-web
+    image: ghcr.io/hassio-addons/calibre-web
   chrony:
     repository: hassio-addons/app-chrony
     target: chrony
