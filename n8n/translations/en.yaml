@@ -1,0 +1,66 @@
+---
+configuration:
+  log_level:
+    name: Log level
+    description: >-
+      Controls the level of log output by the app and can be changed to be
+      more or less verbose, which might be useful when you are dealing with
+      an unknown issue. Each level automatically includes the messages of a
+      more severe level.
+  home_assistant_credential:
+    name: Home Assistant credential
+    description: >-
+      Keeps a ready-made "Home Assistant" credential in n8n that reaches this
+      Home Assistant installation without a token of its own. Turn it off to
+      manage Home Assistant credentials yourself.
+  mqtt_credential:
+    name: MQTT credential
+    description: >-
+      Keeps a ready-made "MQTT (Home Assistant)" credential in n8n for the
+      MQTT broker announced on this system, such as the Mosquitto broker app.
+      Turn it off to manage MQTT credentials yourself.
+  mariadb_credential:
+    name: MariaDB credential
+    description: >-
+      Keeps a ready-made "MariaDB (Home Assistant)" credential in n8n for the
+      MariaDB app, when it is installed. Turn it off to manage MariaDB
+      credentials yourself.
+  webhook_url:
+    name: Webhook URL
+    description: >-
+      The address n8n hands out for webhooks, forms and OAuth callbacks, such
+      as `https://n8n.example.com/`. Set it when something of your own, like a
+      reverse proxy, sits in front of the published port. Left empty, the
+      published port on this Home Assistant host is used.
+  ssl:
+    name: SSL
+    description: >-
+      Enables/Disables encrypted SSL (HTTPS) for direct access to the app.
+      This setting has no effect on the Ingress service.
+  certfile:
+    name: Certificate file
+    description: >-
+      The certificate file to use for SSL. The file must be stored in the
+      `/ssl/` directory.
+  keyfile:
+    name: Private key file
+    description: >-
+      The private key file to use for SSL. The file must be stored in the
+      `/ssl/` directory.
+  max_old_space_size:
+    name: Maximum heap size (MB)
+    description: >-
+      The maximum size of Node.js's heap. Raise it when n8n runs out of
+      memory on large workflows or executions.
+  env_vars:
+    name: Environment variables
+    description: >-
+      Additional environment variables for n8n, by name and value, for the
+      many settings n8n takes from its environment. Those that this app
+      manages itself, such as the port, path and listen address, cannot be
+      changed this way.
+network:
+  80/tcp: >-
+    Web interface and webhooks. Not required for Ingress. Publish this port
+    when something outside Home Assistant needs to reach n8n, such as a
+    service calling a webhook, or a reverse proxy of your own.
