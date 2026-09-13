@@ -1,0 +1,18 @@
+name: MQTT Explorer
+version: 0.1.0
+slug: mqtt-explorer
+description: Explore the topics and messages on your MQTT broker
+url: https://github.com/hassio-addons/app-mqtt-explorer
+ingress: true
+ingress_port: 1337
+ingress_stream: true
+panel_icon: mdi:file-tree
+init: false
+arch:
+- aarch64
+- amd64
+services:
+- mqtt:want
+schema:
+  log_level: list(trace|debug|info|notice|warning|error|fatal)?
+image: ghcr.io/hassio-addons/mqtt-explorer

@@ -1,0 +1,9 @@
+---
+configuration:
+  log_level:
+    name: Log level
+    description: >-
+      Controls the level of log output by the app and can be changed to be
+      more or less verbose, which might be useful when you are dealing with
+      an unknown issue. Each level automatically includes the messages of a
+      more severe level.
