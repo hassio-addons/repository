@@ -53,6 +53,10 @@ apps:
     repository: hassio-addons/app-example
     target: example
     image: ghcr.io/hassio-addons/example
+  file-explorer:
+    repository: hassio-addons/app-file-explorer
+    target: file-explorer
+    image: ghcr.io/hassio-addons/file-explorer
   foldingathome:
     repository: hassio-addons/app-foldingathome
     target: foldingathome
