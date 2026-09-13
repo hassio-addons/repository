@@ -136,6 +136,14 @@ A secure and fast FTP server for Home Assistant
 
 [:books: FTP app documentation][addon-doc-ftp]
 
+### &#10003; [File Explorer][addon-file-explorer]
+
+![Latest Version][file-explorer-version-shield]
+
+Browse, edit, upload and organize the files of your Home Assistant installation
+
+[:books: File Explorer app documentation][addon-doc-file-explorer]
+
 ### &#10003; [Folding@home][addon-foldingathome]
 
 ![Latest Version][foldingathome-version-shield]
@@ -542,6 +550,7 @@ on the correct GitHub repository matching the app.
 - [Open an issue for the app: EMQX][emqx-issue]
 - [Open an issue for the app: Example][example-issue]
 - [Open an issue for the app: FTP][ftp-issue]
+- [Open an issue for the app: File Explorer][file-explorer-issue]
 - [Open an issue for the app: Folding@home][foldingathome-issue]
 - [Open an issue for the app: FreshRSS][freshrss-issue]
 - [Open an issue for the app: Glances][glances-issue]
@@ -677,6 +686,10 @@ SOFTWARE.
 [addon-doc-ftp]: https://github.com/hassio-addons/app-ftp/blob/v7.0.0/README.md
 [ftp-issue]: https://github.com/hassio-addons/app-ftp/issues
 [ftp-version-shield]: https://img.shields.io/badge/version-v7.0.0-blue.svg
+[addon-file-explorer]: https://github.com/hassio-addons/app-file-explorer/tree/v0.1.0
+[addon-doc-file-explorer]: https://github.com/hassio-addons/app-file-explorer/blob/v0.1.0/README.md
+[file-explorer-issue]: https://github.com/hassio-addons/app-file-explorer/issues
+[file-explorer-version-shield]: https://img.shields.io/badge/version-v0.1.0-blue.svg
 [addon-foldingathome]: https://github.com/hassio-addons/app-foldingathome/tree/v1.0.0
 [addon-doc-foldingathome]: https://github.com/hassio-addons/app-foldingathome/blob/v1.0.0/README.md
 [foldingathome-issue]: https://github.com/hassio-addons/app-foldingathome/issues
