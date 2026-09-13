@@ -113,6 +113,10 @@ apps:
     repository: hassio-addons/app-mqtt-io
     target: mqtt-io
     image: ghcr.io/hassio-addons/mqtt-io
+  n8n:
+    repository: hassio-addons/app-n8n
+    target: n8n
+    image: ghcr.io/hassio-addons/n8n
   node-red:
     repository: hassio-addons/app-node-red
     target: node-red
