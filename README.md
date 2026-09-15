@@ -835,10 +835,10 @@ SOFTWARE.
 [addon-doc-traccar]: https://github.com/hassio-addons/app-traccar/blob/v0.26.2/README.md
 [traccar-issue]: https://github.com/hassio-addons/app-traccar/issues
 [traccar-version-shield]: https://img.shields.io/badge/version-v0.26.2-blue.svg
-[addon-unifi]: https://github.com/hassio-addons/app-unifi/tree/v5.3.0
-[addon-doc-unifi]: https://github.com/hassio-addons/app-unifi/blob/v5.3.0/README.md
+[addon-unifi]: https://github.com/hassio-addons/app-unifi/tree/v5.3.1
+[addon-doc-unifi]: https://github.com/hassio-addons/app-unifi/blob/v5.3.1/README.md
 [unifi-issue]: https://github.com/hassio-addons/app-unifi/issues
-[unifi-version-shield]: https://img.shields.io/badge/version-v5.3.0-blue.svg
+[unifi-version-shield]: https://img.shields.io/badge/version-v5.3.1-blue.svg
 [addon-uptime-kuma]: https://github.com/hassio-addons/app-uptime-kuma/tree/v0.19.2
 [addon-doc-uptime-kuma]: https://github.com/hassio-addons/app-uptime-kuma/blob/v0.19.2/README.md
 [uptime-kuma-issue]: https://github.com/hassio-addons/app-uptime-kuma/issues
