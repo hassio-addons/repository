@@ -17,6 +17,6 @@ storing information.
 [buymeacoffee]: https://www.buymeacoffee.com/sinclairpaul
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2026.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[release-shield]: https://img.shields.io/badge/version-v5.0.0-blue.svg
-[release]: https://github.com/hassio-addons/app-bookstack/tree/v5.0.0
+[release-shield]: https://img.shields.io/badge/version-v5.0.1-blue.svg
+[release]: https://github.com/hassio-addons/app-bookstack/tree/v5.0.1
 [screenshot]: https://github.com/hassio-addons/app-bookstack/raw/main/images/screenshot.png

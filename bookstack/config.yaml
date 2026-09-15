@@ -1,5 +1,5 @@
 name: Bookstack
-version: 5.0.0
+version: 5.0.1
 slug: bookstack
 description: Simple & Free Wiki Software
 url: https://github.com/hassio-addons/app-bookstack
@@ -36,4 +36,4 @@ schema:
   envvars:
   - name: str
     value: str
-image: ghcr.io/hassio-addons/bookstack/{arch}
+image: ghcr.io/hassio-addons/bookstack
