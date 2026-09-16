@@ -85,6 +85,10 @@ apps:
     repository: hassio-addons/app-homebox
     target: homebox
     image: ghcr.io/hassio-addons/homebox
+  influxdb:
+    repository: hassio-addons/app-influxdb
+    target: influxdb
+    image: ghcr.io/hassio-addons/influxdb
   jellyfin:
     repository: hassio-addons/app-jellyfin
     target: jellyfin
