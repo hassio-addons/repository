@@ -2,7 +2,6 @@
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update esphome to v2026.8.2 @[renovate[bot]](https://github.com/apps/renovate) ([#1135](https://github.com/hassio-addons/app-vscode/pull/1135))
-- ⬆️ Update home-assistant/cli to v5.5.0 @[renovate[bot]](https://github.com/apps/renovate) ([#1140](https://github.com/hassio-addons/app-vscode/pull/1140))
-- ⬆️ Update cdr/code-server to v4.136.2 @[renovate[bot]](https://github.com/apps/renovate) ([#1141](https://github.com/hassio-addons/app-vscode/pull/1141))
-- ⬆️ Update cdr/code-server to v4.137.0 @[renovate[bot]](https://github.com/apps/renovate) ([#1143](https://github.com/hassio-addons/app-vscode/pull/1143))
+- ⬆️ Update zsh to v5.9-8+b24 @[renovate[bot]](https://github.com/apps/renovate) ([#1145](https://github.com/hassio-addons/app-vscode/pull/1145))
+- ⬆️ Update locales to v2.41-12+deb13u4 @[renovate[bot]](https://github.com/apps/renovate) ([#1144](https://github.com/hassio-addons/app-vscode/pull/1144))
+- ⬆️ Update esphome to v2026.9.0 @[renovate[bot]](https://github.com/apps/renovate) ([#1147](https://github.com/hassio-addons/app-vscode/pull/1147))
