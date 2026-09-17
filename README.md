@@ -800,10 +800,10 @@ SOFTWARE.
 [addon-doc-overseerr]: https://github.com/hassio-addons/app-seerr/blob/v0.2.0/README.md
 [overseerr-issue]: https://github.com/hassio-addons/app-seerr/issues
 [overseerr-version-shield]: https://img.shields.io/badge/version-v0.2.0-blue.svg
-[addon-sonarr]: https://github.com/hassio-addons/app-sonarr/tree/v0.5.1
-[addon-doc-sonarr]: https://github.com/hassio-addons/app-sonarr/blob/v0.5.1/README.md
+[addon-sonarr]: https://github.com/hassio-addons/app-sonarr/tree/v0.5.2
+[addon-doc-sonarr]: https://github.com/hassio-addons/app-sonarr/blob/v0.5.2/README.md
 [sonarr-issue]: https://github.com/hassio-addons/app-sonarr/issues
-[sonarr-version-shield]: https://img.shields.io/badge/version-v0.5.1-blue.svg
+[sonarr-version-shield]: https://img.shields.io/badge/version-v0.5.2-blue.svg
 [addon-spotify]: https://github.com/hassio-addons/app-spotify-connect/tree/v0.19.0
 [addon-doc-spotify]: https://github.com/hassio-addons/app-spotify-connect/blob/v0.19.0/README.md
 [spotify-issue]: https://github.com/hassio-addons/app-spotify-connect/issues
