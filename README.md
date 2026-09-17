@@ -771,10 +771,10 @@ SOFTWARE.
 [addon-doc-prowlarr]: https://github.com/hassio-addons/app-prowlarr/blob/v0.28.0/README.md
 [prowlarr-issue]: https://github.com/hassio-addons/app-prowlarr/issues
 [prowlarr-version-shield]: https://img.shields.io/badge/version-v0.28.0-blue.svg
-[addon-radarr]: https://github.com/hassio-addons/app-radarr/tree/v0.31.0
-[addon-doc-radarr]: https://github.com/hassio-addons/app-radarr/blob/v0.31.0/README.md
+[addon-radarr]: https://github.com/hassio-addons/app-radarr/tree/v0.32.0
+[addon-doc-radarr]: https://github.com/hassio-addons/app-radarr/blob/v0.32.0/README.md
 [radarr-issue]: https://github.com/hassio-addons/app-radarr/issues
-[radarr-version-shield]: https://img.shields.io/badge/version-v0.31.0-blue.svg
+[radarr-version-shield]: https://img.shields.io/badge/version-v0.32.0-blue.svg
 [addon-sabnzbd]: https://github.com/hassio-addons/app-sabnzbd/tree/v0.8.3
 [addon-doc-sabnzbd]: https://github.com/hassio-addons/app-sabnzbd/blob/v0.8.3/README.md
 [sabnzbd-issue]: https://github.com/hassio-addons/app-sabnzbd/issues
