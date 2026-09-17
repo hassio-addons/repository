@@ -2,6 +2,7 @@
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update hassio-addons/workflows action to v4 @[renovate[bot]](https://github.com/apps/renovate) ([#930](https://github.com/hassio-addons/app-zwave-js-ui/pull/930))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v21.0.3 @[renovate[bot]](https://github.com/apps/renovate) ([#934](https://github.com/hassio-addons/app-zwave-js-ui/pull/934))
-- ⬆️ Update zwave-js/zwave-js-ui to v11.23.0 @[renovate[bot]](https://github.com/apps/renovate) ([#935](https://github.com/hassio-addons/app-zwave-js-ui/pull/935))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v21.0.4 @[renovate[bot]](https://github.com/apps/renovate) ([#936](https://github.com/hassio-addons/app-zwave-js-ui/pull/936))
+- ⬆️ Update zwave-js/zwave-js-ui to v11.24.0 @[renovate[bot]](https://github.com/apps/renovate) ([#938](https://github.com/hassio-addons/app-zwave-js-ui/pull/938))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v21.0.5 @[renovate[bot]](https://github.com/apps/renovate) ([#937](https://github.com/hassio-addons/app-zwave-js-ui/pull/937))
+- ⬆️ Update zwave-js/zwave-js-ui to v11.24.1 @[renovate[bot]](https://github.com/apps/renovate) ([#939](https://github.com/hassio-addons/app-zwave-js-ui/pull/939))
