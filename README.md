@@ -896,10 +896,10 @@ SOFTWARE.
 [addon-doc-phpmyadmin]: https://github.com/hassio-addons/app-phpmyadmin/blob/v0.14.0/README.md
 [phpmyadmin-issue]: https://github.com/hassio-addons/app-phpmyadmin/issues
 [phpmyadmin-version-shield]: https://img.shields.io/badge/version-v0.14.0-blue.svg
-[addon-qbittorrent]: https://github.com/hassio-addons/app-qbittorrent/tree/v0.1.0
-[addon-doc-qbittorrent]: https://github.com/hassio-addons/app-qbittorrent/blob/v0.1.0/README.md
+[addon-qbittorrent]: https://github.com/hassio-addons/app-qbittorrent/tree/v0.1.1
+[addon-doc-qbittorrent]: https://github.com/hassio-addons/app-qbittorrent/blob/v0.1.1/README.md
 [qbittorrent-issue]: https://github.com/hassio-addons/app-qbittorrent/issues
-[qbittorrent-version-shield]: https://img.shields.io/badge/version-v0.1.0-blue.svg
+[qbittorrent-version-shield]: https://img.shields.io/badge/version-v0.1.1-blue.svg
 [awesome-shield]: https://img.shields.io/badge/awesome%3F-yes-brightgreen.svg
 [awesome]: https://awesome-ha.com
 [discord-ha]: https://discord.gg/c5DvZ4e
