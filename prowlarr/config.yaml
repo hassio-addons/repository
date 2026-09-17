@@ -1,5 +1,5 @@
 name: Prowlarr
-version: 0.28.0
+version: 0.29.0
 slug: prowlarr
 description: Indexer manager/proxy built on the popular arr stack to integrate with
   your various PVR apps
@@ -15,4 +15,4 @@ map:
 - media:rw
 ports:
   9696/tcp: 9696
-image: ghcr.io/hassio-addons/prowlarr/{arch}
+image: ghcr.io/hassio-addons/prowlarr

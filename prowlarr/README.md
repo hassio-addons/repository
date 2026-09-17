@@ -16,5 +16,5 @@ your indexers with no per app Indexer setup required (it does it all).
 
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2026.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
-[release-shield]: https://img.shields.io/badge/version-v0.28.0-blue.svg
-[release]: https://github.com/hassio-addons/app-prowlarr/tree/v0.28.0
+[release-shield]: https://img.shields.io/badge/version-v0.29.0-blue.svg
+[release]: https://github.com/hassio-addons/app-prowlarr/tree/v0.29.0
