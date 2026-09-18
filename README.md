@@ -676,10 +676,10 @@ SOFTWARE.
 [addon-doc-appdaemon]: https://github.com/hassio-addons/app-appdaemon/blob/v0.19.2/README.md
 [appdaemon-issue]: https://github.com/hassio-addons/app-appdaemon/issues
 [appdaemon-version-shield]: https://img.shields.io/badge/version-v0.19.2-blue.svg
-[addon-audiobookshelf]: https://github.com/hassio-addons/app-audiobookshelf/tree/v0.1.0
-[addon-doc-audiobookshelf]: https://github.com/hassio-addons/app-audiobookshelf/blob/v0.1.0/README.md
+[addon-audiobookshelf]: https://github.com/hassio-addons/app-audiobookshelf/tree/v0.1.1
+[addon-doc-audiobookshelf]: https://github.com/hassio-addons/app-audiobookshelf/blob/v0.1.1/README.md
 [audiobookshelf-issue]: https://github.com/hassio-addons/app-audiobookshelf/issues
-[audiobookshelf-version-shield]: https://img.shields.io/badge/version-v0.1.0-blue.svg
+[audiobookshelf-version-shield]: https://img.shields.io/badge/version-v0.1.1-blue.svg
 [addon-bazarr]: https://github.com/hassio-addons/app-bazarr/tree/v0.7.0
 [addon-doc-bazarr]: https://github.com/hassio-addons/app-bazarr/blob/v0.7.0/README.md
 [bazarr-issue]: https://github.com/hassio-addons/app-bazarr/issues
