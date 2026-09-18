@@ -1,5 +1,5 @@
 name: JupyterLab
-version: 0.18.1
+version: 0.18.2
 slug: jupyterlablite
 description: Create documents containing live code, equations, visualizations, and
   explanatory text
@@ -25,4 +25,4 @@ schema:
   - str
   init_commands:
   - str
-image: ghcr.io/hassio-addons/jupyterlab/{arch}
+image: ghcr.io/hassio-addons/jupyterlab
