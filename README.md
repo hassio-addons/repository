@@ -692,10 +692,10 @@ SOFTWARE.
 [addon-doc-calibre-web]: https://github.com/hassio-addons/app-calibre-web/blob/v0.1.0/README.md
 [calibre-web-issue]: https://github.com/hassio-addons/app-calibre-web/issues
 [calibre-web-version-shield]: https://img.shields.io/badge/version-v0.1.0-blue.svg
-[addon-emqx]: https://github.com/hassio-addons/app-emqx/tree/v0.10.0
-[addon-doc-emqx]: https://github.com/hassio-addons/app-emqx/blob/v0.10.0/README.md
+[addon-emqx]: https://github.com/hassio-addons/app-emqx/tree/v0.10.1
+[addon-doc-emqx]: https://github.com/hassio-addons/app-emqx/blob/v0.10.1/README.md
 [emqx-issue]: https://github.com/hassio-addons/app-emqx/issues
-[emqx-version-shield]: https://img.shields.io/badge/version-v0.10.0-blue.svg
+[emqx-version-shield]: https://img.shields.io/badge/version-v0.10.1-blue.svg
 [addon-example]: https://github.com/hassio-addons/app-example/tree/v14.0.1
 [addon-doc-example]: https://github.com/hassio-addons/app-example/blob/v14.0.1/README.md
 [example-issue]: https://github.com/hassio-addons/app-example/issues

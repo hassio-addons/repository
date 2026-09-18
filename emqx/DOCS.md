@@ -133,6 +133,14 @@ you if you turned durable sessions on yourself through
 `EMQX_DURABLE_SESSIONS__ENABLE`, since EMQX ships with them disabled. Ordinary
 retained messages are unaffected.
 
+Dashboard users created on EMQX 5.2 or older, which includes the default
+`admin` user of any installation from that time, were stored without a role.
+EMQX 6 takes a missing role to mean the user is not an administrator and
+refuses them user and API key management with an `UNAUTHORIZED_ROLE` error.
+This app writes out the administrator role those users always had each time
+it starts, so nothing needs to be done, but if you ran into the error before
+this was in place, an update of the app is all it takes.
+
 A major version change is still a good moment for a backup. Downgrading back to
 EMQX 5 is not something EMQX supports, so take one before updating if you want a
 way back. The app data lives in `/data/emqx`, which the Home Assistant backup of
