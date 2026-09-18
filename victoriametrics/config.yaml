@@ -1,5 +1,5 @@
 name: VictoriaMetrics
-version: 0.1.0
+version: 0.2.0
 slug: victoriametrics
 description: Fast and resource efficient time series database for your metrics
 url: https://github.com/hassio-addons/app-victoriametrics
