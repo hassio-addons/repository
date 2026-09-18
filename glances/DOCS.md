@@ -42,7 +42,7 @@ influxdb:
   interval: 60
   ssl: false
   prefix: localhost
-  version: 1 # Either 1 or 2
+  version: 1 # Either 1, 2 or 3
 
   # Version 1
   username: glances
@@ -53,6 +53,10 @@ influxdb:
   token: "!secret glances_influxdb2_token"
   bucket: glances
   org: myorg
+
+  # Version 3
+  token: "!secret glances_influxdb3_token"
+  database: glances
 ```
 
 **Note**: _This is just an example, don't copy and paste it! Create your own!_
@@ -145,7 +149,7 @@ The hostname to append for exported data.
 
 #### Option `influxdb`: `version`
 
-The InfluxDB version to connect to. Either **1** or **2**.
+The InfluxDB version to connect to. Either **1**, **2** or **3**.
 
 #### Option `influxdb`: `username`
 
@@ -162,7 +166,7 @@ The password for the above username option.
 
 #### Option `influxdb`: `database`
 
-> Applied to version 1 only
+> Applied to versions 1 and 3 only
 
 The name of the database to store all Glances information into.
 
@@ -173,9 +177,10 @@ and not store this in the same database name as Home Assistant._
 
 #### Option `influxdb`: `token`
 
-> Applied to version 2 only
+> Applied to versions 2 and 3 only
 
-An InfluxDB token with permissions to write to the given bucket. This should
+An InfluxDB token with permissions to write to the given bucket (version 2)
+or database (version 3). This should
 look like `t9iHPiGQyg0ds4K1IlBrCyBsNGh71dkdR6u8Y9eeR37UzfGuFukFCdbMI4YA9EtKb4zr5coFXKw67tbBEP7CPw==`
 
 #### Option `influxdb`: `bucket`
@@ -189,9 +194,38 @@ and not store this in the same bucket as Home Assistant._
 
 #### Option `influxdb`: `org`
 
-> Applied to version 2 only
+> Applied to versions 2 and 3 only
 
-The InfluxDB organization that owns the given bucket.
+The InfluxDB organization that owns the given bucket. Required for version 2.
+InfluxDB 3 does not use organizations, so for version 3 this option is
+optional and defaults to `default`.
+
+## Glances configuration file
+
+On first start, the app copies its Glances configuration template to
+`/addon_configs/a0d7b954_glances/glances/glances.conf`. This file is yours:
+it is never overwritten by the app, so any change you make to it is kept
+across updates. It also means changes to the template in newer versions of
+the app do not reach an existing installation. Delete the file and restart
+the app to get a fresh copy of the current template.
+
+### Slow startup with network storage
+
+The `[folders]` section of the configuration file lists folders of which
+Glances tracks the size. Glances computes that size by walking every file in
+the folder, from its main stats loop. When a monitored folder contains a
+large or stale network share (SMB/NFS mounted through
+**Settings -> System -> Storage**), Glances blocks for minutes on every
+refresh: the app is slow to start, the web interface takes minutes to load
+and its values stop updating.
+
+Network storage of the "share" and "media" types is mounted under `/share`
+and `/media`, respectively. Earlier versions of the app listed both
+in the `[folders]` section of the template. If your installation was made
+with one of those versions and you use network storage, remove the
+`folder_x_*` entries for `/share` and `/media` from
+`/addon_configs/a0d7b954_glances/glances/glances.conf` and restart the app,
+or delete the file to get the current template.
 
 ## Adding Glances as a sensor into Home Assistant
 

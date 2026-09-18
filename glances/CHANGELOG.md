@@ -1,14 +1,18 @@
 ## What’s changed
 
+## ✨ New features
+
+- ✨ Add support for InfluxDB v3 @frenck ([#667](https://github.com/hassio-addons/app-glances/pull/667))
+
 ## 🐛 Bug fixes
 
-- 🐛 Fix orphaned Glances exporter on shutdown @matiasmacera ([#663](https://github.com/hassio-addons/app-glances/pull/663))
+- 🐛 Only signal PIDs that are still running children @matiasmacera ([#664](https://github.com/hassio-addons/app-glances/pull/664))
+- 🐛 Stop monitoring the size of /share and /media @frenck ([#666](https://github.com/hassio-addons/app-glances/pull/666))
+
+## 📚 Documentation
+
+- 🐛 Stop monitoring the size of /share and /media @frenck ([#666](https://github.com/hassio-addons/app-glances/pull/666))
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update hassio-addons/workflows action to v4 @[renovate[bot]](https://github.com/apps/renovate) ([#654](https://github.com/hassio-addons/app-glances/pull/654))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v21.0.3 @[renovate[bot]](https://github.com/apps/renovate) ([#655](https://github.com/hassio-addons/app-glances/pull/655))
-- ⬆️ Update zeroconf to v0.151.2 @[renovate[bot]](https://github.com/apps/renovate) ([#656](https://github.com/hassio-addons/app-glances/pull/656))
-- ⬆️ Update zeroconf to v0.151.3 @[renovate[bot]](https://github.com/apps/renovate) ([#657](https://github.com/hassio-addons/app-glances/pull/657))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v21.0.4 @[renovate[bot]](https://github.com/apps/renovate) ([#659](https://github.com/hassio-addons/app-glances/pull/659))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v21.0.5 @[renovate[bot]](https://github.com/apps/renovate) ([#662](https://github.com/hassio-addons/app-glances/pull/662))
+- ⬆️ Update uvicorn to v0.53.0 @[renovate[bot]](https://github.com/apps/renovate) ([#665](https://github.com/hassio-addons/app-glances/pull/665))
