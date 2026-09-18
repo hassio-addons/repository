@@ -28,6 +28,18 @@ configuration:
       Disables authentication on AdGuard Home when enabled. We strongly
       advise against enabling this, even on an internal network. Use at your
       own risk!
+  safebrowsing_block_host:
+    name: Safe browsing block host
+    description: >-
+      Host name that replaces the answer for requests blocked by safe
+      browsing. Defaults to standard-block.dns.adguard.com, which points to an
+      external AdGuard block page.
+  parental_block_host:
+    name: Parental control block host
+    description: >-
+      Host name that replaces the answer for requests blocked by parental
+      control. Defaults to family-block.dns.adguard.com, which points to an
+      external AdGuard block page.
 network:
   53/udp: DNS server port
   80/tcp: Web interface (not required for Ingress)

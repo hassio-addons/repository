@@ -1,5 +1,5 @@
 name: AdGuard Home
-version: 6.2.1
+version: 6.3.0
 slug: adguard
 description: Network-wide ads & trackers blocking DNS server
 url: https://github.com/hassio-addons/app-adguard-home
@@ -7,6 +7,8 @@ ingress: true
 ingress_port: 0
 ingress_stream: true
 panel_icon: mdi:shield-check
+privileged:
+- NET_RAW
 startup: services
 homeassistant: 0.113.2
 arch:
@@ -37,6 +39,8 @@ schema:
   certfile: str
   keyfile: str
   leave_front_door_open: bool?
+  safebrowsing_block_host: str?
+  parental_block_host: str?
 backup_exclude:
 - '*/adguard/data/querylog.*'
 image: ghcr.io/hassio-addons/adguard

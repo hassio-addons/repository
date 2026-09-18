@@ -94,6 +94,32 @@ authentication on the AdGuard Home by setting it to `true`.
 **Note**: _We STRONGLY suggest, not to use this, even if this app is
 only exposed to your internal network. USE AT YOUR OWN RISK!_
 
+### Option: `safebrowsing_block_host`
+
+The host name AdGuard Home answers with for requests blocked by its safe
+browsing filter. By default, this is `standard-block.dns.adguard.com`, which
+resolves to an external block page hosted by AdGuard, and therefore leaks the
+blocked host name to that external service.
+
+Set this to a host name of your own to keep those requests local, for
+example when using a custom block page.
+
+**Note**: _This setting is only applied when the option is set. Removing the
+option again keeps the last configured value._
+
+### Option: `parental_block_host`
+
+The host name AdGuard Home answers with for requests blocked by its parental
+control filter. By default, this is `family-block.dns.adguard.com`, which
+resolves to an external block page hosted by AdGuard, and therefore leaks the
+blocked host name to that external service.
+
+Set this to a host name of your own to keep those requests local, for
+example when using a custom block page.
+
+**Note**: _This setting is only applied when the option is set. Removing the
+option again keeps the last configured value._
+
 ## Encryption Settings (Advanced Usage)
 
 AdGuard Home allows the configuration of running DNS-over-HTTPS and
