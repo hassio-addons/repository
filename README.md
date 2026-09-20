@@ -888,10 +888,10 @@ SOFTWARE.
 [addon-doc-motioneye]: https://github.com/hassio-addons/app-motioneye/blob/v0.24.0/README.md
 [motioneye-issue]: https://github.com/hassio-addons/app-motioneye/issues
 [motioneye-version-shield]: https://img.shields.io/badge/version-v0.24.0-blue.svg
-[addon-n8n]: https://github.com/hassio-addons/app-n8n/tree/v0.1.0
-[addon-doc-n8n]: https://github.com/hassio-addons/app-n8n/blob/v0.1.0/README.md
+[addon-n8n]: https://github.com/hassio-addons/app-n8n/tree/v0.1.1
+[addon-doc-n8n]: https://github.com/hassio-addons/app-n8n/blob/v0.1.1/README.md
 [n8n-issue]: https://github.com/hassio-addons/app-n8n/issues
-[n8n-version-shield]: https://img.shields.io/badge/version-v0.1.0-blue.svg
+[n8n-version-shield]: https://img.shields.io/badge/version-v0.1.1-blue.svg
 [addon-phpmyadmin]: https://github.com/hassio-addons/app-phpmyadmin/tree/v0.14.0
 [addon-doc-phpmyadmin]: https://github.com/hassio-addons/app-phpmyadmin/blob/v0.14.0/README.md
 [phpmyadmin-issue]: https://github.com/hassio-addons/app-phpmyadmin/issues
