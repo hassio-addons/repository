@@ -359,9 +359,10 @@ name.
 
 - The service `name` must include the `svc:` prefix.
 
-- The `target` must be a local address reachable from this app. Use `http://` or
-  `https://` targets for HTTP/HTTPS protocols, and `tcp://` targets for TCP and
-  tls-terminated-tcp protocols, for example `http://127.0.0.1:13378`.
+- The `target` must be a local address reachable from this app. Use `http://`,
+  `https://` or `https+insecure://` targets for HTTP/HTTPS protocols, and
+  `tcp://` targets for TCP and tls-terminated-tcp protocols, for example
+  `http://127.0.0.1:13378`.
 
 - Supported protocols by which the target will be presented:
 

@@ -824,10 +824,10 @@ SOFTWARE.
 [addon-doc-syncthing]: https://github.com/hassio-addons/app-syncthing/blob/v0.1.0/README.md
 [syncthing-issue]: https://github.com/hassio-addons/app-syncthing/issues
 [syncthing-version-shield]: https://img.shields.io/badge/version-v0.1.0-blue.svg
-[addon-tailscale]: https://github.com/hassio-addons/app-tailscale/tree/v0.30.0
-[addon-doc-tailscale]: https://github.com/hassio-addons/app-tailscale/blob/v0.30.0/README.md
+[addon-tailscale]: https://github.com/hassio-addons/app-tailscale/tree/v0.30.1
+[addon-doc-tailscale]: https://github.com/hassio-addons/app-tailscale/blob/v0.30.1/README.md
 [tailscale-issue]: https://github.com/hassio-addons/app-tailscale/issues
-[tailscale-version-shield]: https://img.shields.io/badge/version-v0.30.0-blue.svg
+[tailscale-version-shield]: https://img.shields.io/badge/version-v0.30.1-blue.svg
 [addon-tasmoadmin]: https://github.com/hassio-addons/app-tasmoadmin/tree/v0.34.0
 [addon-doc-tasmoadmin]: https://github.com/hassio-addons/app-tasmoadmin/blob/v0.34.0/README.md
 [tasmoadmin-issue]: https://github.com/hassio-addons/app-tasmoadmin/issues
