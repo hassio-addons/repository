@@ -1,5 +1,5 @@
 name: Traccar
-version: 0.26.2
+version: 0.27.0
 slug: traccar
 description: Modern GPS Tracking Platform
 url: https://github.com/hassio-addons/app-traccar
@@ -30,4 +30,4 @@ schema:
   ssl: bool
   certfile: str
   keyfile: str
-image: ghcr.io/hassio-addons/traccar/{arch}
+image: ghcr.io/hassio-addons/traccar
