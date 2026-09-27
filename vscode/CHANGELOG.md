@@ -2,6 +2,6 @@
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update zsh to v5.9-8+b24 @[renovate[bot]](https://github.com/apps/renovate) ([#1145](https://github.com/hassio-addons/app-vscode/pull/1145))
-- ⬆️ Update locales to v2.41-12+deb13u4 @[renovate[bot]](https://github.com/apps/renovate) ([#1144](https://github.com/hassio-addons/app-vscode/pull/1144))
-- ⬆️ Update esphome to v2026.9.0 @[renovate[bot]](https://github.com/apps/renovate) ([#1147](https://github.com/hassio-addons/app-vscode/pull/1147))
+- ⬆️ Update cdr/code-server to v4.138.0 @[renovate[bot]](https://github.com/apps/renovate) ([#1149](https://github.com/hassio-addons/app-vscode/pull/1149))
+- ⬆️ Update cdr/code-server to v4.139.1 @[renovate[bot]](https://github.com/apps/renovate) ([#1151](https://github.com/hassio-addons/app-vscode/pull/1151))
+- ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v9.5.0 @[renovate[bot]](https://github.com/apps/renovate) ([#1152](https://github.com/hassio-addons/app-vscode/pull/1152))
