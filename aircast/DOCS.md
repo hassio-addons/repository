@@ -225,7 +225,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 [app-badge]: https://my.home-assistant.io/badges/supervisor_addon.svg
-[app]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=a0d7b954_airconnect&repository_url=https%3A%2F%2Fgithub.com%2Fhassio-addons%2Frepository
+[app]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=a0d7b954_aircast&repository_url=https%3A%2F%2Fgithub.com%2Fhassio-addons%2Frepository
 [airconnect]: https://github.com/philippe44/AirConnect
 [contributors]: https://github.com/hassio-addons/app-aircast/graphs/contributors
 [discord-ha]: https://discord.gg/c5DvZ4e
