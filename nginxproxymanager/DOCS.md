@@ -73,8 +73,13 @@ which is how the advanced options in the web interface are applied.
 
 ## Troubleshooting
 
-Start with the app's own log, which carries both the Nginx and the Nginx
-Proxy Manager output.
+Start with the app's own log, which carries the Nginx Proxy Manager output and
+everything Nginx reports outside of a specific host.
+
+The traffic of an individual host goes to the "Logs" page in the web interface
+instead. Those logs are kept inside the app's own container, so they are never
+part of a backup and every app update starts them fresh. They are rotated once
+they grow past a few megabytes.
 
 If a certificate fails to issue or renew, certbot writes its own, more
 detailed log to `logs/letsencrypt.log` in the folder above. The most common
