@@ -1,18 +1,7 @@
 ## What’s changed
 
-## ✨ New features
-
-- ✨ Add support for InfluxDB v3 @frenck ([#667](https://github.com/hassio-addons/app-glances/pull/667))
-
-## 🐛 Bug fixes
-
-- 🐛 Only signal PIDs that are still running children @matiasmacera ([#664](https://github.com/hassio-addons/app-glances/pull/664))
-- 🐛 Stop monitoring the size of /share and /media @frenck ([#666](https://github.com/hassio-addons/app-glances/pull/666))
-
-## 📚 Documentation
-
-- 🐛 Stop monitoring the size of /share and /media @frenck ([#666](https://github.com/hassio-addons/app-glances/pull/666))
-
 ## ⬆️ Dependency updates
 
-- ⬆️ Update uvicorn to v0.53.0 @[renovate[bot]](https://github.com/apps/renovate) ([#665](https://github.com/hassio-addons/app-glances/pull/665))
+- ⬆️ Update uvicorn to v0.54.0 @[renovate[bot]](https://github.com/apps/renovate) ([#668](https://github.com/hassio-addons/app-glances/pull/668))
+- ⬆️ Update glances to v4.5.7 @[renovate[bot]](https://github.com/apps/renovate) ([#669](https://github.com/hassio-addons/app-glances/pull/669))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v21.0.6 @[renovate[bot]](https://github.com/apps/renovate) ([#670](https://github.com/hassio-addons/app-glances/pull/670))
