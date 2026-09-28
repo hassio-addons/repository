@@ -832,10 +832,10 @@ SOFTWARE.
 [addon-doc-tasmoadmin]: https://github.com/hassio-addons/app-tasmoadmin/blob/v0.34.0/README.md
 [tasmoadmin-issue]: https://github.com/hassio-addons/app-tasmoadmin/issues
 [tasmoadmin-version-shield]: https://img.shields.io/badge/version-v0.34.0-blue.svg
-[addon-tautulli]: https://github.com/hassio-addons/app-tautulli/tree/v6.1.1
-[addon-doc-tautulli]: https://github.com/hassio-addons/app-tautulli/blob/v6.1.1/README.md
+[addon-tautulli]: https://github.com/hassio-addons/app-tautulli/tree/v6.1.2
+[addon-doc-tautulli]: https://github.com/hassio-addons/app-tautulli/blob/v6.1.2/README.md
 [tautulli-issue]: https://github.com/hassio-addons/app-tautulli/issues
-[tautulli-version-shield]: https://img.shields.io/badge/version-v6.1.1-blue.svg
+[tautulli-version-shield]: https://img.shields.io/badge/version-v6.1.2-blue.svg
 [addon-thelounge]: https://github.com/hassio-addons/app-thelounge/tree/v0.23.0
 [addon-doc-thelounge]: https://github.com/hassio-addons/app-thelounge/blob/v0.23.0/README.md
 [thelounge-issue]: https://github.com/hassio-addons/app-thelounge/issues

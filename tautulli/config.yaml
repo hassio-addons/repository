@@ -1,5 +1,5 @@
 name: Tautulli
-version: 6.1.1
+version: 6.1.2
 slug: tautulli
 description: Monitoring and tracking tool for Plex Media Server
 url: https://github.com/hassio-addons/app-tautulli/tree/main/README.md
@@ -18,4 +18,4 @@ map:
 - backup:rw
 schema:
   log_level: list(trace|debug|info|notice|warning|error|fatal)?
-image: ghcr.io/hassio-addons/tautulli/{arch}
+image: ghcr.io/hassio-addons/tautulli
