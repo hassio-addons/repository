@@ -19,5 +19,5 @@ management. Seerr is the continuation of Overseerr and Jellyseerr, merged into a
 
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2026.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
-[release-shield]: https://img.shields.io/badge/version-v0.2.0-blue.svg
-[release]: https://github.com/hassio-addons/app-seerr/tree/v0.2.0
+[release-shield]: https://img.shields.io/badge/version-v0.3.0-blue.svg
+[release]: https://github.com/hassio-addons/app-seerr/tree/v0.3.0

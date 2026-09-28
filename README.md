@@ -796,10 +796,10 @@ SOFTWARE.
 [addon-doc-sqlite-web]: https://github.com/hassio-addons/app-sqlite-web/blob/v6.1.1/README.md
 [sqlite-web-issue]: https://github.com/hassio-addons/app-sqlite-web/issues
 [sqlite-web-version-shield]: https://img.shields.io/badge/version-v6.1.1-blue.svg
-[addon-overseerr]: https://github.com/hassio-addons/app-seerr/tree/v0.2.0
-[addon-doc-overseerr]: https://github.com/hassio-addons/app-seerr/blob/v0.2.0/README.md
+[addon-overseerr]: https://github.com/hassio-addons/app-seerr/tree/v0.3.0
+[addon-doc-overseerr]: https://github.com/hassio-addons/app-seerr/blob/v0.3.0/README.md
 [overseerr-issue]: https://github.com/hassio-addons/app-seerr/issues
-[overseerr-version-shield]: https://img.shields.io/badge/version-v0.2.0-blue.svg
+[overseerr-version-shield]: https://img.shields.io/badge/version-v0.3.0-blue.svg
 [addon-sonarr]: https://github.com/hassio-addons/app-sonarr/tree/v0.5.2
 [addon-doc-sonarr]: https://github.com/hassio-addons/app-sonarr/blob/v0.5.2/README.md
 [sonarr-issue]: https://github.com/hassio-addons/app-sonarr/issues
