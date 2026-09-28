@@ -222,6 +222,39 @@ The private key file to use for SSL.
 
 **Note**: _The file MUST be stored in `/ssl/`, which is the default_
 
+### Option: `env_vars`
+
+Mealie takes a great many settings from [environment variables][mealie-env],
+far more than this app has options for. This option sets any of them, as a
+list of `name` and `value` pairs.
+
+For example, to sign in using LDAP:
+
+```yaml
+env_vars:
+  - name: LDAP_AUTH_ENABLED
+    value: "true"
+  - name: LDAP_SERVER_URL
+    value: ldap://ldap.example.com:389
+  - name: LDAP_BASE_DN
+    value: ou=people,dc=example,dc=com
+  - name: LDAP_QUERY_BIND
+    value: cn=readonly,dc=example,dc=com
+  - name: LDAP_QUERY_PASSWORD
+    value: my-secret-password
+  - name: LDAP_USER_FILTER
+    value: (memberOf=cn=mealie,ou=groups,dc=example,dc=com)
+```
+
+OpenID Connect works the same way, using the `OIDC_*` variables. Set
+[`base_url`](#option-base_url) as well in that case, as the identity provider
+needs it to send you back to Mealie. A CA certificate for either, set with
+`LDAP_TLS_CACERTFILE` or `OIDC_TLS_CACERTFILE`, can be stored in `/ssl/`.
+
+The variables this app sets to make Mealie work inside Home Assistant, such as
+the port it listens on and where it keeps its data, and those covered by the
+options above, win over anything set here.
+
 ## Direct access
 
 By default this app is only reachable through Home Assistant's Ingress, in a
@@ -360,6 +393,7 @@ SOFTWARE.
 [frenck]: https://github.com/frenck
 [integration]: https://www.home-assistant.io/integrations/mealie/
 [issue]: https://github.com/hassio-addons/app-mealie/issues
+[mealie-env]: https://docs.mealie.io/documentation/getting-started/installation/backend-config/
 [mealie]: https://mealie.io/
 [nginx-proxy-manager]: https://github.com/hassio-addons/app-nginx-proxy-manager
 [reddit]: https://reddit.com/r/homeassistant

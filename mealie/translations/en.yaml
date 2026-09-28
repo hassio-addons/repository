@@ -63,6 +63,13 @@ configuration:
     description: >-
       The private key file to use for SSL. The file must be stored in the
       `/ssl/` directory.
+  env_vars:
+    name: Environment variables
+    description: >-
+      Additional environment variables for Mealie, by name and value, for the
+      many settings Mealie takes from its environment, such as LDAP or OpenID
+      Connect. Those that this app manages itself, such as the port and the
+      data directory, cannot be changed this way.
 network:
   9000/tcp: >-
     Web interface and API. Not required for Ingress. Expose this port when

@@ -1,5 +1,5 @@
 name: Mealie
-version: 0.5.0
+version: 0.6.0
 slug: mealie
 description: Recipe manager and meal planner for your kitchen
 url: https://github.com/hassio-addons/app-mealie
@@ -26,6 +26,7 @@ options:
   ssl: false
   certfile: fullchain.pem
   keyfile: privkey.pem
+  env_vars: []
 schema:
   log_level: list(trace|debug|info|notice|warning|error|fatal)?
   base_url: url?
@@ -40,4 +41,7 @@ schema:
   ssl: bool
   certfile: str
   keyfile: str
+  env_vars:
+  - name: match(^[A-Z][A-Z0-9_]*$)
+    value: str
 image: ghcr.io/hassio-addons/mealie
