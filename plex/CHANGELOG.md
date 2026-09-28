@@ -2,21 +2,12 @@
 
 ## 🧰 Maintenance
 
-- 🔨 Repository maintenance: workflows v3, badge cleanup @frenck (#299)
-
-## 📚 Documentation
-
-- 🔨 Repository maintenance: workflows v3, badge cleanup @frenck (#299)
+- 🔨 Track Debian apt pins with the Renovate deb datasource @frenck (#300)
+- Migrate the user bundle to /etc/s6-overlay/user-bundles.d @frenck (#307)
 
 ## ⬆️ Dependency updates
 
-<details>
-<summary>6 changes</summary>
-
-- ⬆️ Update release-drafter/release-drafter action to v7.2.1 @[renovate[bot]](https://github.com/apps/renovate) (#288)
-- ⬆️ Update plexmediaserver to v1.43.2.10687-563d026ea @[renovate[bot]](https://github.com/apps/renovate) (#290)
-- ⬆️ Update plexmediaserver to v1.43.3.10828-00f62d37d @[renovate[bot]](https://github.com/apps/renovate) (#295)
-- ⬆️ Update release-drafter/release-drafter action to v7.6.0 @[renovate[bot]](https://github.com/apps/renovate) (#289)
-- ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v9.4.0 @[renovate[bot]](https://github.com/apps/renovate) (#298)
-- ⬆️ Update plexmediaserver to v1.43.3.10896-cb3ebc72d @[renovate[bot]](https://github.com/apps/renovate) (#297)
-</details>
+- ⬆️ Update hassio-addons/workflows action to v4 @[renovate[bot]](https://github.com/apps/renovate) (#301)
+- ⬆️ Update plexmediaserver to v1.43.4.10903-e5521bd8c @[renovate[bot]](https://github.com/apps/renovate) (#305)
+- ⬆️ Update uuid-runtime to v2.41.5-0+deb13u1 @[renovate[bot]](https://github.com/apps/renovate) (#306)
+- ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v9.5.0 @[renovate[bot]](https://github.com/apps/renovate) (#308)

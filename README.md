@@ -776,10 +776,10 @@ SOFTWARE.
 [addon-doc-node-red]: https://github.com/hassio-addons/app-node-red/blob/v22.0.6/README.md
 [node-red-issue]: https://github.com/hassio-addons/app-node-red/issues
 [node-red-version-shield]: https://img.shields.io/badge/version-v22.0.6-blue.svg
-[addon-plex]: https://github.com/hassio-addons/app-plex/tree/v4.1.1
-[addon-doc-plex]: https://github.com/hassio-addons/app-plex/blob/v4.1.1/README.md
+[addon-plex]: https://github.com/hassio-addons/app-plex/tree/v4.1.2
+[addon-doc-plex]: https://github.com/hassio-addons/app-plex/blob/v4.1.2/README.md
 [plex-issue]: https://github.com/hassio-addons/app-plex/issues
-[plex-version-shield]: https://img.shields.io/badge/version-v4.1.1-blue.svg
+[plex-version-shield]: https://img.shields.io/badge/version-v4.1.2-blue.svg
 [addon-prowlarr]: https://github.com/hassio-addons/app-prowlarr/tree/v0.29.0
 [addon-doc-prowlarr]: https://github.com/hassio-addons/app-prowlarr/blob/v0.29.0/README.md
 [prowlarr-issue]: https://github.com/hassio-addons/app-prowlarr/issues
