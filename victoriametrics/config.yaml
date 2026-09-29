@@ -1,5 +1,5 @@
 name: VictoriaMetrics
-version: 0.2.0
+version: 0.4.0
 slug: victoriametrics
 description: Fast and resource efficient time series database for your metrics
 url: https://github.com/hassio-addons/app-victoriametrics
@@ -30,7 +30,7 @@ options:
   retention_period: 3y
   min_free_disk_space: 1GB
   latency_offset: 1m
-  ssl: true
+  ssl: false
   certfile: fullchain.pem
   keyfile: privkey.pem
 schema:
@@ -40,6 +40,8 @@ schema:
   scrape_config: str?
   retention_period: str
   dedup_min_scrape_interval: str?
+  stream_aggr_config: str?
+  stream_aggr_keep_input: bool?
   min_free_disk_space: str
   latency_offset: str
   memory_allowed_percent: int(10,90)?

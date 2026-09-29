@@ -36,6 +36,17 @@ configuration:
       Keep only the last sample per time series per interval, for example
       `60s`. Useful when the same metrics arrive from more than one source.
       Leave empty to store every sample.
+  stream_aggr_config:
+    name: Stream aggregation configuration
+    description: >-
+      The name of a YAML file in this app's configuration directory holding
+      stream aggregation rules, which summarize metrics as they arrive, for
+      example into five minute averages.
+  stream_aggr_keep_input:
+    name: Keep aggregated input
+    description: >-
+      Store the raw samples that match a stream aggregation rule as well,
+      instead of only the aggregated result.
   min_free_disk_space:
     name: Minimum free disk space
     description: >-
