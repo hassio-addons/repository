@@ -45,6 +45,10 @@ apps:
     repository: hassio-addons/app-chrony
     target: chrony
     image: ghcr.io/hassio-addons/chrony
+  dispatcharr:
+    repository: hassio-addons/app-dispatcharr
+    target: dispatcharr
+    image: ghcr.io/hassio-addons/dispatcharr
   emqx:
     repository: hassio-addons/app-emqx
     target: emqx
