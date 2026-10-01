@@ -1,5 +1,5 @@
 name: n8n
-version: 0.3.1
+version: 0.3.2
 slug: n8n
 description: Workflow automation for technical people, with Home Assistant and MQTT
   wired in
