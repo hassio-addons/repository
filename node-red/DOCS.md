@@ -206,6 +206,20 @@ username and password empty.
 **Note**: _We STRONGLY suggest, not to use this, even if this app is
 only exposed to your internal network. USE AT YOUR OWN RISK!_
 
+### Option: `expose_node_resources`
+
+Setting this option to `true` makes the static resources shipped by your
+installed nodes (served by Node-RED under `/resources/`) available on the
+direct access port without having to log in with Home Assistant.
+
+This is needed, for example, for third-party [Dashboard 2.0][dashboard-2-widgets]
+widgets, as the dashboard loads them from that location. Without it, viewing
+a dashboard using such widgets asks for your Home Assistant login.
+
+**Note**: _This allows anybody who can reach the direct access port to
+retrieve these files, and by doing so, find out which nodes you have
+installed. Only enable this if you need it._
+
 ### Option: `max_old_space_size`
 
 Sets the max memory size (in MB) of nodeJS V8's old memory section.
@@ -319,6 +333,7 @@ SOFTWARE.
 [addon]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=a0d7b954_nodered&repository_url=https%3A%2F%2Fgithub.com%2Fhassio-addons%2Frepository
 [alpine-packages]: https://pkgs.alpinelinux.org/packages
 [contributors]: https://github.com/hassio-addons/app-node-red/graphs/contributors
+[dashboard-2-widgets]: https://dashboard.flowfuse.com/nodes/widgets#third-party-widgets
 [discord-ha]: https://discord.gg/c5DvZ4e
 [discord]: https://discord.me/hassioaddons
 [forum]: https://community.home-assistant.io/t/home-assistant-community-add-on-node-red/55023?u=frenck

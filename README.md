@@ -772,10 +772,10 @@ SOFTWARE.
 [addon-doc-nginxproxymanager]: https://github.com/hassio-addons/app-nginx-proxy-manager/blob/v4.1.0/README.md
 [nginxproxymanager-issue]: https://github.com/hassio-addons/app-nginx-proxy-manager/issues
 [nginxproxymanager-version-shield]: https://img.shields.io/badge/version-v4.1.0-blue.svg
-[addon-node-red]: https://github.com/hassio-addons/app-node-red/tree/v22.0.6
-[addon-doc-node-red]: https://github.com/hassio-addons/app-node-red/blob/v22.0.6/README.md
+[addon-node-red]: https://github.com/hassio-addons/app-node-red/tree/v22.1.0
+[addon-doc-node-red]: https://github.com/hassio-addons/app-node-red/blob/v22.1.0/README.md
 [node-red-issue]: https://github.com/hassio-addons/app-node-red/issues
-[node-red-version-shield]: https://img.shields.io/badge/version-v22.0.6-blue.svg
+[node-red-version-shield]: https://img.shields.io/badge/version-v22.1.0-blue.svg
 [addon-plex]: https://github.com/hassio-addons/app-plex/tree/v4.1.2
 [addon-doc-plex]: https://github.com/hassio-addons/app-plex/blob/v4.1.2/README.md
 [plex-issue]: https://github.com/hassio-addons/app-plex/issues
