@@ -736,10 +736,10 @@ SOFTWARE.
 [addon-doc-influxdb]: https://github.com/hassio-addons/app-influxdb/blob/v6.0.0/README.md
 [influxdb-issue]: https://github.com/hassio-addons/app-influxdb/issues
 [influxdb-version-shield]: https://img.shields.io/badge/version-v6.0.0-blue.svg
-[addon-jellyfin]: https://github.com/hassio-addons/app-jellyfin/tree/v0.2.1
-[addon-doc-jellyfin]: https://github.com/hassio-addons/app-jellyfin/blob/v0.2.1/README.md
+[addon-jellyfin]: https://github.com/hassio-addons/app-jellyfin/tree/v0.2.2
+[addon-doc-jellyfin]: https://github.com/hassio-addons/app-jellyfin/blob/v0.2.2/README.md
 [jellyfin-issue]: https://github.com/hassio-addons/app-jellyfin/issues
-[jellyfin-version-shield]: https://img.shields.io/badge/version-v0.2.1-blue.svg
+[jellyfin-version-shield]: https://img.shields.io/badge/version-v0.2.2-blue.svg
 [addon-jupyterlab]: https://github.com/hassio-addons/app-jupyterlab/tree/v0.18.3
 [addon-doc-jupyterlab]: https://github.com/hassio-addons/app-jupyterlab/blob/v0.18.3/README.md
 [jupyterlab-issue]: https://github.com/hassio-addons/app-jupyterlab/issues
