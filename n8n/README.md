@@ -29,5 +29,5 @@ anywhere reach them too.
 [patreon-shield]: https://frenck.dev/wp-content/uploads/2019/12/patreon.png
 [patreon]: https://www.patreon.com/frenck
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
-[release-shield]: https://img.shields.io/badge/version-v0.3.5-blue.svg
-[release]: https://github.com/hassio-addons/app-n8n/tree/v0.3.5
+[release-shield]: https://img.shields.io/badge/version-v0.3.6-blue.svg
+[release]: https://github.com/hassio-addons/app-n8n/tree/v0.3.6
