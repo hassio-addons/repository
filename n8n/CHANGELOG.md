@@ -2,5 +2,5 @@
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update alpine_3_24/tzdata to v2026e-r0 @[renovate[bot]](https://github.com/apps/renovate) ([#18](https://github.com/hassio-addons/app-n8n/pull/18))
-- ⬆️ Update n8n to v2.42.4 @[renovate[bot]](https://github.com/apps/renovate) ([#20](https://github.com/hassio-addons/app-n8n/pull/20))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v21.0.8 @[renovate[bot]](https://github.com/apps/renovate) ([#19](https://github.com/hassio-addons/app-n8n/pull/19))
+- ⬆️ Update n8n to v2.42.5 @[renovate[bot]](https://github.com/apps/renovate) ([#21](https://github.com/hassio-addons/app-n8n/pull/21))
