@@ -1,20 +1,12 @@
 ## What’s changed
 
-## ✨ New features
-
-- Add support for stream aggregation @frenck ([#14](https://github.com/hassio-addons/app-victoriametrics/pull/14))
-
-## 🐛 Bug fixes
-
-- Turn SSL off by default on the direct port @frenck ([#13](https://github.com/hassio-addons/app-victoriametrics/pull/13))
-
-## 📚 Documentation
-
-- Turn SSL off by default on the direct port @frenck ([#13](https://github.com/hassio-addons/app-victoriametrics/pull/13))
-- Answer common questions in the documentation @frenck ([#15](https://github.com/hassio-addons/app-victoriametrics/pull/15))
-- Document migrating history from InfluxDB 1.x @frenck ([#16](https://github.com/hassio-addons/app-victoriametrics/pull/16))
-
 ## ⬆️ Dependency updates
 
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v21.0.6 @[renovate[bot]](https://github.com/apps/renovate) ([#12](https://github.com/hassio-addons/app-victoriametrics/pull/12))
-- ⬆️ Update VictoriaMetrics/VictoriaMetrics to v1.153.0 @[renovate[bot]](https://github.com/apps/renovate) ([#18](https://github.com/hassio-addons/app-victoriametrics/pull/18))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v21.0.7 @[renovate[bot]](https://github.com/apps/renovate) ([#19](https://github.com/hassio-addons/app-victoriametrics/pull/19))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v21.0.8 @[renovate[bot]](https://github.com/apps/renovate) ([#21](https://github.com/hassio-addons/app-victoriametrics/pull/21))
+- ⬆️ Update VictoriaMetrics/VictoriaMetrics to v1.154.0 @[renovate[bot]](https://github.com/apps/renovate) ([#22](https://github.com/hassio-addons/app-victoriametrics/pull/22))
+- ⬆️ Update alpine_3_24/yq-go to v4.53.3-r2 @[renovate[bot]](https://github.com/apps/renovate) ([#23](https://github.com/hassio-addons/app-victoriametrics/pull/23))
+- ⬆️ Update VictoriaMetrics/VictoriaMetrics to v1.154.1 @[renovate[bot]](https://github.com/apps/renovate) ([#24](https://github.com/hassio-addons/app-victoriametrics/pull/24))
+- ⬆️ Update alpine_3_24/nginx to v1.30.6-r0 @[renovate[bot]](https://github.com/apps/renovate) ([#25](https://github.com/hassio-addons/app-victoriametrics/pull/25))
+- ⬆️ Update hassio-addons/workflows action to v5 @[renovate[bot]](https://github.com/apps/renovate) ([#27](https://github.com/hassio-addons/app-victoriametrics/pull/27))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v21.0.9 @[renovate[bot]](https://github.com/apps/renovate) ([#26](https://github.com/hassio-addons/app-victoriametrics/pull/26))
