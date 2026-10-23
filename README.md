@@ -836,10 +836,10 @@ SOFTWARE.
 [addon-doc-tautulli]: https://github.com/hassio-addons/app-tautulli/blob/v6.1.2/README.md
 [tautulli-issue]: https://github.com/hassio-addons/app-tautulli/issues
 [tautulli-version-shield]: https://img.shields.io/badge/version-v6.1.2-blue.svg
-[addon-thelounge]: https://github.com/hassio-addons/app-thelounge/tree/v0.23.0
-[addon-doc-thelounge]: https://github.com/hassio-addons/app-thelounge/blob/v0.23.0/README.md
+[addon-thelounge]: https://github.com/hassio-addons/app-thelounge/tree/v0.23.1
+[addon-doc-thelounge]: https://github.com/hassio-addons/app-thelounge/blob/v0.23.1/README.md
 [thelounge-issue]: https://github.com/hassio-addons/app-thelounge/issues
-[thelounge-version-shield]: https://img.shields.io/badge/version-v0.23.0-blue.svg
+[thelounge-version-shield]: https://img.shields.io/badge/version-v0.23.1-blue.svg
 [addon-tor]: https://github.com/hassio-addons/app-tor/tree/v8.1.2
 [addon-doc-tor]: https://github.com/hassio-addons/app-tor/blob/v8.1.2/README.md
 [tor-issue]: https://github.com/hassio-addons/app-tor/issues
