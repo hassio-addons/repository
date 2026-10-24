@@ -840,10 +840,10 @@ SOFTWARE.
 [addon-doc-thelounge]: https://github.com/hassio-addons/app-thelounge/blob/v0.23.2/README.md
 [thelounge-issue]: https://github.com/hassio-addons/app-thelounge/issues
 [thelounge-version-shield]: https://img.shields.io/badge/version-v0.23.2-blue.svg
-[addon-tor]: https://github.com/hassio-addons/app-tor/tree/v8.1.2
-[addon-doc-tor]: https://github.com/hassio-addons/app-tor/blob/v8.1.2/README.md
+[addon-tor]: https://github.com/hassio-addons/app-tor/tree/v8.2.0
+[addon-doc-tor]: https://github.com/hassio-addons/app-tor/blob/v8.2.0/README.md
 [tor-issue]: https://github.com/hassio-addons/app-tor/issues
-[tor-version-shield]: https://img.shields.io/badge/version-v8.1.2-blue.svg
+[tor-version-shield]: https://img.shields.io/badge/version-v8.2.0-blue.svg
 [addon-traccar]: https://github.com/hassio-addons/app-traccar/tree/v0.27.0
 [addon-doc-traccar]: https://github.com/hassio-addons/app-traccar/blob/v0.27.0/README.md
 [traccar-issue]: https://github.com/hassio-addons/app-traccar/issues
