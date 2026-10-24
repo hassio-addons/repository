@@ -876,10 +876,10 @@ SOFTWARE.
 [addon-doc-zwave-js-ui]: https://github.com/hassio-addons/app-zwave-js-ui/blob/v7.8.1/README.md
 [zwave-js-ui-issue]: https://github.com/hassio-addons/app-zwave-js-ui/issues
 [zwave-js-ui-version-shield]: https://img.shields.io/badge/version-v7.8.1-blue.svg
-[addon-zerotier]: https://github.com/hassio-addons/app-zerotier/tree/v0.26.2
-[addon-doc-zerotier]: https://github.com/hassio-addons/app-zerotier/blob/v0.26.2/README.md
+[addon-zerotier]: https://github.com/hassio-addons/app-zerotier/tree/v0.26.3
+[addon-doc-zerotier]: https://github.com/hassio-addons/app-zerotier/blob/v0.26.3/README.md
 [zerotier-issue]: https://github.com/hassio-addons/app-zerotier/issues
-[zerotier-version-shield]: https://img.shields.io/badge/version-v0.26.2-blue.svg
+[zerotier-version-shield]: https://img.shields.io/badge/version-v0.26.3-blue.svg
 [addon-chrony]: https://github.com/hassio-addons/app-chrony/tree/v6.1.0
 [addon-doc-chrony]: https://github.com/hassio-addons/app-chrony/blob/v6.1.0/README.md
 [chrony-issue]: https://github.com/hassio-addons/app-chrony/issues
