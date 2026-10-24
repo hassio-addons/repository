@@ -1,5 +1,29 @@
 ## What’s changed
 
-## 🐛 Bug fixes
+## ⬆️ Dependency updates
 
-- 🐛 Restore pip inside the app virtual environment @frenck ([#525](https://github.com/hassio-addons/app-appdaemon/pull/525))
+- ⬆️ Update ghcr.io/astral-sh/uv Docker tag to v0.12.8 @[renovate[bot]](https://github.com/apps/renovate) ([#526](https://github.com/hassio-addons/app-appdaemon/pull/526))
+- ⬆️ Update ghcr.io/astral-sh/uv Docker tag to v0.12.9 @[renovate[bot]](https://github.com/apps/renovate) ([#527](https://github.com/hassio-addons/app-appdaemon/pull/527))
+- ⬆️ Update ghcr.io/astral-sh/uv Docker tag to v0.12.10 @[renovate[bot]](https://github.com/apps/renovate) ([#528](https://github.com/hassio-addons/app-appdaemon/pull/528))
+- ⬆️ Update ghcr.io/astral-sh/uv Docker tag to v0.12.11 @[renovate[bot]](https://github.com/apps/renovate) ([#529](https://github.com/hassio-addons/app-appdaemon/pull/529))
+- ⬆️ Update ghcr.io/astral-sh/uv Docker tag to v0.12.12 @[renovate[bot]](https://github.com/apps/renovate) ([#530](https://github.com/hassio-addons/app-appdaemon/pull/530))
+- ⬆️ Update ghcr.io/astral-sh/uv Docker tag to v0.12.13 @[renovate[bot]](https://github.com/apps/renovate) ([#531](https://github.com/hassio-addons/app-appdaemon/pull/531))
+- ⬆️ Update ghcr.io/astral-sh/uv Docker tag to v0.12.14 @[renovate[bot]](https://github.com/apps/renovate) ([#534](https://github.com/hassio-addons/app-appdaemon/pull/534))
+- ⬆️ Update ghcr.io/astral-sh/uv Docker tag to v0.12.15 @[renovate[bot]](https://github.com/apps/renovate) ([#535](https://github.com/hassio-addons/app-appdaemon/pull/535))
+- ⬆️ Update ghcr.io/astral-sh/uv Docker tag to v0.12.16 @[renovate[bot]](https://github.com/apps/renovate) ([#536](https://github.com/hassio-addons/app-appdaemon/pull/536))
+- ⬆️ Update ghcr.io/astral-sh/uv Docker tag to v0.12.17 @[renovate[bot]](https://github.com/apps/renovate) ([#537](https://github.com/hassio-addons/app-appdaemon/pull/537))
+- ⬆️ Update ghcr.io/astral-sh/uv Docker tag to v0.12.18 @[renovate[bot]](https://github.com/apps/renovate) ([#539](https://github.com/hassio-addons/app-appdaemon/pull/539))
+- ⬆️ Update ghcr.io/astral-sh/uv Docker tag to v0.12.19 @[renovate[bot]](https://github.com/apps/renovate) ([#540](https://github.com/hassio-addons/app-appdaemon/pull/540))
+- ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v9.5.0 @[renovate[bot]](https://github.com/apps/renovate) ([#542](https://github.com/hassio-addons/app-appdaemon/pull/542))
+- ⬆️ Update ghcr.io/astral-sh/uv Docker tag to v0.12.20 @[renovate[bot]](https://github.com/apps/renovate) ([#543](https://github.com/hassio-addons/app-appdaemon/pull/543))
+- ⬆️ Update mikefarah/yq to v4.54.1 @[renovate[bot]](https://github.com/apps/renovate) ([#544](https://github.com/hassio-addons/app-appdaemon/pull/544))
+- ⬆️ Update ghcr.io/astral-sh/uv Docker tag to v0.12.21 @[renovate[bot]](https://github.com/apps/renovate) ([#545](https://github.com/hassio-addons/app-appdaemon/pull/545))
+- ⬆️ Update ghcr.io/astral-sh/uv Docker tag to v0.12.22 @[renovate[bot]](https://github.com/apps/renovate) ([#546](https://github.com/hassio-addons/app-appdaemon/pull/546))
+- ⬆️ Update ghcr.io/astral-sh/uv Docker tag to v0.12.23 @[renovate[bot]](https://github.com/apps/renovate) ([#547](https://github.com/hassio-addons/app-appdaemon/pull/547))
+- ⬆️ Update ghcr.io/astral-sh/uv Docker tag to v0.12.24 @[renovate[bot]](https://github.com/apps/renovate) ([#548](https://github.com/hassio-addons/app-appdaemon/pull/548))
+- ⬆️ Update ghcr.io/astral-sh/uv Docker tag to v0.13.0 @[renovate[bot]](https://github.com/apps/renovate) ([#550](https://github.com/hassio-addons/app-appdaemon/pull/550))
+- ⬆️ Update ghcr.io/astral-sh/uv Docker tag to v0.13.1 @[renovate[bot]](https://github.com/apps/renovate) ([#551](https://github.com/hassio-addons/app-appdaemon/pull/551))
+- ⬆️ Update ghcr.io/astral-sh/uv Docker tag to v0.13.4 @[renovate[bot]](https://github.com/apps/renovate) ([#552](https://github.com/hassio-addons/app-appdaemon/pull/552))
+- ⬆️ Update ghcr.io/astral-sh/uv Docker tag to v0.13.5 @[renovate[bot]](https://github.com/apps/renovate) ([#553](https://github.com/hassio-addons/app-appdaemon/pull/553))
+- ⬆️ Update hassio-addons/workflows action to v5 @[renovate[bot]](https://github.com/apps/renovate) ([#554](https://github.com/hassio-addons/app-appdaemon/pull/554))
+- ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v9.5.1 @[renovate[bot]](https://github.com/apps/renovate) ([#555](https://github.com/hassio-addons/app-appdaemon/pull/555))
