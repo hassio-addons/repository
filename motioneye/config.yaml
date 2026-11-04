@@ -1,5 +1,5 @@
 name: motionEye
-version: 0.24.0
+version: 0.24.1
 slug: motioneye
 description: Simple, elegant and feature-rich CCTV/NVR for your cameras
 url: https://github.com/hassio-addons/app-motioneye
@@ -44,4 +44,4 @@ schema:
   - type: list(lock|unlock|light_on|light_off|alarm_on|alarm_off|up|right|down|left|zoom_in|zoom_out|preset1|preset2|preset3|preset4|preset5|preset6|preset7|preset8|preset9)?
     camera: int?
     command: str?
-image: ghcr.io/hassio-addons/motioneye/{arch}
+image: ghcr.io/hassio-addons/motioneye
