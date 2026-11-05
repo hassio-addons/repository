@@ -844,10 +844,10 @@ SOFTWARE.
 [addon-doc-tor]: https://github.com/hassio-addons/app-tor/blob/v8.2.0/README.md
 [tor-issue]: https://github.com/hassio-addons/app-tor/issues
 [tor-version-shield]: https://img.shields.io/badge/version-v8.2.0-blue.svg
-[addon-traccar]: https://github.com/hassio-addons/app-traccar/tree/v0.27.0
-[addon-doc-traccar]: https://github.com/hassio-addons/app-traccar/blob/v0.27.0/README.md
+[addon-traccar]: https://github.com/hassio-addons/app-traccar/tree/v0.28.0
+[addon-doc-traccar]: https://github.com/hassio-addons/app-traccar/blob/v0.28.0/README.md
 [traccar-issue]: https://github.com/hassio-addons/app-traccar/issues
-[traccar-version-shield]: https://img.shields.io/badge/version-v0.27.0-blue.svg
+[traccar-version-shield]: https://img.shields.io/badge/version-v0.28.0-blue.svg
 [addon-unifi]: https://github.com/hassio-addons/app-unifi/tree/v5.3.2
 [addon-doc-unifi]: https://github.com/hassio-addons/app-unifi/blob/v5.3.2/README.md
 [unifi-issue]: https://github.com/hassio-addons/app-unifi/issues
