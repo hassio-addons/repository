@@ -161,6 +161,10 @@ apps:
     repository: hassio-addons/app-sonarr
     target: sonarr
     image: ghcr.io/hassio-addons/sonarr
+  sparkyfitness:
+    repository: hassio-addons/app-sparkyfitness
+    target: sparkyfitness
+    image: ghcr.io/hassio-addons/sparkyfitness
   spotify:
     repository: hassio-addons/app-spotify-connect
     target: spotify
