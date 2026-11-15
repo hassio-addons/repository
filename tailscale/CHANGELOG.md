@@ -1,13 +1,12 @@
 ## What’s changed
 
-## 🐛 Bug fixes
-
-- Increase s6 finish script timeout to 30s from 5s @lmagyar ([#784](https://github.com/hassio-addons/app-tailscale/pull/784))
-
 ## 🚀 Enhancements
 
-- Remove hardcoded service names, use argument value from s6 @lmagyar ([#785](https://github.com/hassio-addons/app-tailscale/pull/785))
+- Fix line ending in finish script timeout config files @lmagyar ([#794](https://github.com/hassio-addons/app-tailscale/pull/794))
+- Refactor logging in finish scripts @lmagyar ([#793](https://github.com/hassio-addons/app-tailscale/pull/793))
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update tailscale/tailscale to v1.104.5 @[renovate[bot]](https://github.com/apps/renovate) ([#787](https://github.com/hassio-addons/app-tailscale/pull/787))
+- ⬆️ Update App base image to v21.0.11 @[renovate[bot]](https://github.com/apps/renovate) ([#791](https://github.com/hassio-addons/app-tailscale/pull/791))
+- ⬆️ Update tailscale/tailscale to v1.104.6 @[renovate[bot]](https://github.com/apps/renovate) ([#792](https://github.com/hassio-addons/app-tailscale/pull/792))
+- ⬆️ Update tailscale/tailscale to v1.104.7 @[renovate[bot]](https://github.com/apps/renovate) ([#795](https://github.com/hassio-addons/app-tailscale/pull/795))
