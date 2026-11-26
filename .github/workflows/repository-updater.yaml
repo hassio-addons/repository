@@ -22,7 +22,7 @@ jobs:
     permissions: {}
     steps:
       - name: Announce on Discord server
-        uses: sarisia/actions-status-discord@eb045afee445dc055c18d3d90bd0f244fd062708 # v1.16.0
+        uses: sarisia/actions-status-discord@74e2ad0c4e57ca8b9ba6aee75d5a7841497bbb87 # v1.16.1
         with:
           webhook: ${{ secrets.DISCORD_WEBHOOK }}
           nodetail: true
